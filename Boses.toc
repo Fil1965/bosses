@@ -1,0 +1,18 @@
+## Interface: 120100, 50504, 20506, 11509
+## Title: Boses
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 0.10.2
+## Notes: Describes Boss Encounters
+## Notes-esES: Describe Encuentros en Instancias
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Category: Combat
+## SavedVariablesPerCharacter: BosesConfig
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+localization.core.lua
+localization.es.lua
+localization.fr.lua
+localization.de.lua
+Boses.lua

@@ -1,0 +1,9 @@
+## Interface: 120100, 50504, 20506, 11509
+## Title: Boses - Cataclysm
+## Notes: Missing Cataclysm bosses (4.3 dungeons, remastered Throne of the Tides) (ES/EN)
+## Notes-esES: Jefes de Cataclysm que faltaban en la base histórica (mazmorras 4.3 y Throne remasterizada) (ES/EN)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 0.6.1
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Boses
+Boses_Cata.lua

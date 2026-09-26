@@ -1,0 +1,30 @@
+{
+  "name": "boses",
+  "version": "0.10.2",
+  "description": "Describes Boss Encounters",
+  "license": "BSD-3-Clause",
+  "author": "Philippe Mingo <pmingo@gmail.com>",
+  "type": "module",
+  "keywords": [
+    "wow",
+    "world-of-warcraft",
+    "addon",
+    "lua",
+    "bosses",
+    "encounters"
+  ],
+  "files": [
+    "Boses.toc",
+    "Boses.lua",
+    "localization.core.lua",
+    "localization.es.lua",
+    "localization.fr.lua",
+    "localization.de.lua"
+  ],
+  "scripts": {
+    "test": "echo \"No tests configured\" && exit 0",
+    "update": "node scripts/update.mjs",
+    "package": "node scripts/package.mjs",
+    "release": "node scripts/release.mjs"
+  }
+}
