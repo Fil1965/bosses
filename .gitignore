@@ -1,2 +1,3 @@
-_backups/*
-_doc/*
+_backups/
+_doc/
+node_modules/

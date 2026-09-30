@@ -1,9 +1,12 @@
 ## Interface: 120100, 50504, 20506, 11509
-## Title: Boses - The War Within
+## Title: Bosses - The War Within
 ## Notes: Boss explanations for The War Within raids, dungeons and world bosses (ES/EN)
 ## Notes-esES: Explicaciones de las bandas, mazmorras y jefes de mundo de The War Within (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 0.7.3
+## Version: 1.0.0
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
-## Dependencies: Boses
-Boses_TWW.lua
+## Dependencies: Bosses
+Bosses_TWW_es.lua
+Bosses_TWW_en.lua
+Bosses_TWW_enc.lua
+Bosses_TWW.lua

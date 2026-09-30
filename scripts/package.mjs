@@ -1,10 +1,10 @@
 // scripts/package.mjs
-// Empaqueta el addon Boses en un .zip con el formato
-// Boses_<version_con_guiones_bajos>.zip dentro de packages/.
+// Empaqueta el addon Bosses en un .zip con el formato
+// Bosses_<version_con_guiones_bajos>.zip dentro de packages/.
 // Estructura del zip (requisito CurseForge):
-//   Boses_<v>.zip
-//   ├── Boses/            (core)
-//   └── Boses_<Pack>/     (packs de datos, carpetas top-level)
+//   Bosses_<v>.zip
+//   ├── Bosses/            (core)
+//   └── Bosses_<Pack>/     (packs de datos, carpetas top-level)
 // Uso: npm run package
 
 import { execSync } from "node:child_process";
@@ -16,12 +16,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC_DIR = path.resolve(__dirname, "..");
 const PACKAGES_DIR = path.join(SRC_DIR, "packages");
 const STAGING_DIR = path.join(PACKAGES_DIR, ".staging");
-const ADDON_NAME = "Boses";
+const ADDON_NAME = "Bosses";
 
 // Deben coincidir con package.json -> files
 const ADDON_FILES = [
-  "Boses.toc",
-  "Boses.lua",
+  "Bosses.toc",
+  "Bosses.lua",
   "localization.core.lua",
   "localization.es.lua",
   "localization.fr.lua",
@@ -35,10 +35,9 @@ const ADDON_FILES = [
 // Packs de datos incluidos en el mismo zip (cada uno es una carpeta
 // top-level del zip con su propio .toc)
 const ADDON_FOLDERS = [
-  "Boses_Zulaman",
-  "Boses_Midnight",
-  "Boses_Cata",
-  "Boses_TWW",
+  "Bosses_Midnight",
+  "Bosses_Cata",
+  "Bosses_TWW",
 ];
 
 async function readPackageVersion() {

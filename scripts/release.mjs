@@ -1,6 +1,6 @@
 // scripts/release.mjs
-// Flujo de release para Boses:
-//   1. Bump de versión (package.json + Boses.toc)
+// Flujo de release para Bosses:
+//   1. Bump de versión (package.json + Bosses.toc)
 //   2. Añade entrada al CHANGELOG.md
 //   3. Empaqueta (npm run package)
 //   4. Instala en WoW (npm run update)
@@ -21,7 +21,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC_DIR = path.resolve(__dirname, "..");
-const TOC_FILE = path.join(SRC_DIR, "Boses.toc");
+const TOC_FILE = path.join(SRC_DIR, "Bosses.toc");
 const PKG_FILE = path.join(SRC_DIR, "package.json");
 const CHANGELOG_FILE = path.join(SRC_DIR, "CHANGELOG.md");
 
@@ -93,7 +93,7 @@ async function updateTocVersion(newVersion) {
   let toc = await fs.readFile(TOC_FILE, "utf8");
   toc = toc.replace(/^## Version:.*$/m, `## Version: ${newVersion}`);
   await fs.writeFile(TOC_FILE, toc, "utf8");
-  console.log(`  ✓ Boses.toc -> ${newVersion}`);
+  console.log(`  ✓ Bosses.toc -> ${newVersion}`);
 }
 
 async function ensureChangelogHeader() {
@@ -102,7 +102,7 @@ async function ensureChangelogHeader() {
     content = await fs.readFile(CHANGELOG_FILE, "utf8");
   } catch (err) {
     if (err.code === "ENOENT") {
-      content = "# Changelog\n\nAll notable changes to Boses are documented here.\n\n";
+      content = "# Changelog\n\nAll notable changes to Bosses are documented here.\n\n";
       await fs.writeFile(CHANGELOG_FILE, content, "utf8");
       console.log("  ✓ CHANGELOG.md creado");
       return;
@@ -110,7 +110,7 @@ async function ensureChangelogHeader() {
     throw err;
   }
   if (!/^# Changelog/m.test(content)) {
-    const header = "# Changelog\n\nAll notable changes to Boses are documented here.\n\n";
+    const header = "# Changelog\n\nAll notable changes to Bosses are documented here.\n\n";
     await fs.writeFile(CHANGELOG_FILE, header + content, "utf8");
   }
 }
@@ -150,7 +150,7 @@ async function main() {
   const currentVersion = JSON.parse(pkgRaw).version;
   const newVersion = bumpVersion(currentVersion, bump);
 
-  console.log(`Release Boses: ${currentVersion} -> ${newVersion}`);
+  console.log(`Release Bosses: ${currentVersion} -> ${newVersion}`);
   console.log(`Mensaje: "${message}"\n`);
 
   console.log("Actualizando versión:");
@@ -164,7 +164,7 @@ async function main() {
   await runScript("update");
 
   console.log(`\n¡Release ${newVersion} completado!`);
-  console.log(`  Sube packages/Boses_${newVersion.replace(/\./g, "_")}.zip a CurseForge.`);
+  console.log(`  Sube packages/Bosses_${newVersion.replace(/\./g, "_")}.zip a CurseForge.`);
 }
 
 main().catch((err) => {

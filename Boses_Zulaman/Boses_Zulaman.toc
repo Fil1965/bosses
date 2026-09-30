@@ -1,9 +1,0 @@
-## Interface: 120100, 50504, 20506, 11509
-## Title: Boses - Zul'Aman
-## Notes: Demo data pack: Akil'zon (EN/ES)
-## Notes-esES: Pack de datos de demostración: Akil'zon (EN/ES)
-## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 0.6.1
-## IconTexture: Interface\Icons\INV_Misc_OgrePinata
-## Dependencies: Boses
-Boses_Zulaman.lua
