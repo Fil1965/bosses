@@ -3,10 +3,11 @@
 ## Notes: Boss explanations for The War Within raids, dungeons and world bosses (ES/EN)
 ## Notes-esES: Explicaciones de las bandas, mazmorras y jefes de mundo de The War Within (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.0
+## Version: 1.0.4
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_TWW_es.lua
 Bosses_TWW_en.lua
 Bosses_TWW_enc.lua
+Bosses_TWW_zonas.lua
 Bosses_TWW.lua

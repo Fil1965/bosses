@@ -23,5 +23,7 @@ if P.es == nil or P.en == nil then
 	return;
 end
 
--- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_TWW_enc.lua)
-BossesAPI.register("TWW", { ES = P.es, EN = P.en, ENC = P.enc });
+-- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_TWW_enc.lua);
+-- el de zonas (instanceID → jefes) también (Bosses_TWW_zonas.lua) y alimenta
+-- el desplegable del minimapa.
+BossesAPI.register("TWW", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas });

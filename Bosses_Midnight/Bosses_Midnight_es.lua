@@ -188,12 +188,20 @@ pack["252959"] = { "Nymrissa Wavecaller (Lair)",
 	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: cuidado con la burbuja.",
 };
 
+pack["267861"] = { "Kith'ix (Lair)",
+	"* |cff71d5ff|Hspell:1304930|h[Dark Devastation]|h|r: frontal del tanque, defensivas.",
+	"* |cff71d5ff|Hspell:1301511|h[Voidswarm]|h|r: esbirros del Vacío, prioridad.",
+	"* |cff71d5ff|Hspell:1302951|h[Suffocating Darkness]|h|r: oscuridad, refugiarse tras el escudo de Extinguish.",
+	"* |cff71d5ff|Hspell:1303681|h[Twisted Appendage]|h|r: apéndices, fuera del suelo.",
+	"* |cff71d5ff|Hspell:1308873|h[Nullgate]|h|r: fuera de la puerta nula.",
+};
+
 -- --------------------------- --
 -- Mazmorras de Midnight --
 -- --------------------------- --
 -- NPC IDs de Wowhead. Ojo: Zul'jan 267797 (página PTR), Zaen 234649 y
 -- Lothraxion 241546 son de confianza media; verificar in-game.
--- Sin ID aún: Nekraxx (pareja de Muro'jin) y la Lightblossom Trinity.
+-- Sin ID aún: Nekraxx (pareja de Muro'jin).
 
 -- ---------------------------- --
 -- Altar of Fangs : Zona 2993 --
@@ -340,6 +348,13 @@ pack["254227"] = { "Corewarden Nysarra",
 -- --------------------------------- --
 -- The Blinding Vale : Zona 2859 --
 -- --------------------------------- --
+
+pack["243028"] = { "Lightblossom Trinity (Meittik)",
+	"* |cff71d5ff|Hspell:1234753|h[Bedrock Slam]|h|r es del tanque: defensivas.",
+	"* |cff71d5ff|Hspell:1235564|h[Lightblossom Beam]|h|r: los rayos se absorben, daño compartido.",
+	"* |cff71d5ff|Hspell:1234850|h[Light'sower Dash]|h|r: embestida, fuera de su camino.",
+	"* |cff71d5ff|Hspell:1235828|h[Light-Scorched Earth]|h|r: fuera del suelo quemado.",
+};
 
 pack["244887"] = { "Ikuzz the Light Hunter",
 	"* |cff71d5ff|Hspell:1236746|h[Verdant Stomp]|h|r: cuidado con el pisotón.",

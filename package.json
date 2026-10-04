@@ -1,6 +1,6 @@
 {
   "name": "bosses",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Describes Boss Encounters",
   "license": "BSD-3-Clause",
   "author": "Philippe Mingo <pmingo@gmail.com>",

@@ -187,12 +187,20 @@ pack["252959"] = { "Nymrissa Wavecaller (Lair)",
 	"* Mind the |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r.",
 };
 
+pack["267861"] = { "Kith'ix (Lair)",
+	"* |cff71d5ff|Hspell:1304930|h[Dark Devastation]|h|r: tank frontal, use defensives.",
+	"* |cff71d5ff|Hspell:1301511|h[Voidswarm]|h|r: void adds, kill them fast.",
+	"* |cff71d5ff|Hspell:1302951|h[Suffocating Darkness]|h|r: darkness — hide behind the Extinguish shield.",
+	"* |cff71d5ff|Hspell:1303681|h[Twisted Appendage]|h|r: appendages, watch your feet.",
+	"* |cff71d5ff|Hspell:1308873|h[Nullgate]|h|r: get away from the null gate.",
+};
+
 -- ----------------------------- --
 -- Midnight dungeons --
 -- ----------------------------- --
 -- NPC IDs from Wowhead. Note: Zul'jan 267797 (PTR page), Zaen 234649 and
 -- Lothraxion 241546 are medium-confidence; verify in-game.
--- No ID yet: Nekraxx (Muro'jin's partner) and the Lightblossom Trinity.
+-- No ID yet: Nekraxx (Muro'jin's partner).
 
 -- ------------------------------ --
 -- Altar of Fangs : Zone 2993 --
@@ -339,6 +347,13 @@ pack["254227"] = { "Corewarden Nysarra",
 -- ---------------------------------- --
 -- The Blinding Vale : Zone 2859 --
 -- ---------------------------------- --
+
+pack["243028"] = { "Lightblossom Trinity (Meittik)",
+	"* |cff71d5ff|Hspell:1234753|h[Bedrock Slam]|h|r is a tank mechanic: use defensives.",
+	"* |cff71d5ff|Hspell:1235564|h[Lightblossom Beam]|h|r: soak the beams, shared damage.",
+	"* |cff71d5ff|Hspell:1234850|h[Light'sower Dash]|h|r: charge, move out of the path.",
+	"* |cff71d5ff|Hspell:1235828|h[Light-Scorched Earth]|h|r: get off the scorched ground.",
+};
 
 pack["244887"] = { "Ikuzz the Light Hunter",
 	"* Watch out for |cff71d5ff|Hspell:1236746|h[Verdant Stomp]|h|r.",

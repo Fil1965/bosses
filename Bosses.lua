@@ -293,13 +293,73 @@ local function sanearSalida(txt)
 	return txt;
 end
 
-local function salida(txt)
+-- Nombre de un spell en el idioma del CLIENTE (el id es el mismo en
+-- todos; el nombre lo resuelve el juego): cubre el C_Spell moderno y
+-- el GetSpellInfo clásico de los flavors antiguos.
+local function nombreSpell(id)
+	id = tonumber(id);
+	if id == nil then
+		return nil;
+	end
+	if C_Spell ~= nil and C_Spell.GetSpellInfo ~= nil then
+		local info = C_Spell.GetSpellInfo(id);
+		if info ~= nil then
+			return info.name;
+		end
+		return nil;
+	end
+	if GetSpellInfo ~= nil then
+		return GetSpellInfo(id);
+	end
+	return nil;
+end
+
+-- Traduce al vuelo el texto visible de los enlaces de spell al idioma
+-- del cliente: el id del enlace ya resolvía el tooltip en el idioma de
+-- quien mira; ahora el nombre entre corchetes acompaña. Los packs NO
+-- necesitan guardarse traducidos — el texto del pack queda como
+-- respaldo si el cliente no trae el spell.
+local function localizarEnlaces(txt)
+	if txt == nil then
+		return txt;
+	end
+	local resultado = string.gsub(txt, "|Hspell:(%d+)|h%[(.-)%]|h", function(id)
+		local n = nombreSpell(id);
+		if n ~= nil and n ~= "" then
+			return "|Hspell:" .. id .. "|h[" .. n .. "]|h";
+		end
+		return nil; -- sin nombre en el cliente: se conserva el del pack
+	end);
+	return resultado;
+end
+
+-- Línea del último envío en vuelo por el canal: el cliente anuncia los
+-- bloqueos (ADDON_ACTION_BLOCKED) DESPUÉS de la llamada; con la marca, el
+-- listener puede reencolar lo que el bloqueo se comió.
+local enVueloCanal = nil;
+
+-- Declaradas por adelantado: salida() necesita enrutar al frame de
+-- alerta con el canal "solo frame" (y el botón "al chat" del frame,
+-- reenviar al chat el jefe en pantalla); sus definiciones viven más abajo.
+local salidaEnPantalla;
+local ajustarAlturaAlerta;
+local enviarJefeDelFrame;
+
+local function salida(txt, esFirma)
+	txt = localizarEnlaces(txt); -- nombres de spells en el idioma del cliente
 	if forzarLocal then
 		escribir(txt);
 		return;
 	end
 
 	local canal = BossesConfig.CANAL;
+	-- Marca la línea en vuelo: si el cliente la rechaza (la microcarrera
+	-- del pull), el listener de ADDON_ACTION_BLOCKED lo anota en el
+	-- registro — el frame ya lleva la explicación COMPLETA desde el
+	-- lanzamiento, no hay nada que recuperar. La firma de cortesía NO
+	-- se marca: es solo para el grupo y, si el pull caza su envío, se
+	-- pierde. Caduca sola: sin bloqueo nadie la recoge.
+	enVueloCanal = esFirma == true and nil or txt;
 
 	if canal == "AUTO" then
 		SendChatMessage(sanearSalida(txt), autoChannel());
@@ -309,9 +369,17 @@ local function salida(txt)
 		else
 			escribir(txt);
 		end
+	elseif canal == "FRAME" then
+		salidaEnPantalla(txt); -- canal "solo frame": nada de chat, todo a la ventana
 	else
 		escribir(txt);
 	end
+
+	C_Timer.After(0.3, function()
+		if enVueloCanal == txt then
+			enVueloCanal = nil;
+		end
+	end);
 end
 
 -- La salida va por un canal que ven los demás (grupo/banda/hermandad)?
@@ -341,106 +409,302 @@ local function textoCortesia()
 	return L["Cortesia"]; -- AUTO: idioma del cliente
 end
 
-local envioDesdeTimer = false; -- el explicar() corre dentro de un C_Timer: los envíos de chat en combate desde timer se pierden siempre a la práctica
-
--- Cola de chat de combate. Verificado in-game 2026: SendChatMessage desde
--- el MANEJADOR de un evento funciona con el chat lockdown (Zul'jan, y el
--- nombre de cada explicación en combate), pero desde C_Timer está
--- bloqueado (ADDON_ACTION_BLOCKED, BugGrabber). Las líneas que no se
--- pueden emitir en su momento se encolan y el manejador de eventos las
--- reenvía: COMBAT_LOG_EVENT_UNFILTERED dispara sin parar durante cualquier
--- pelea y hace de bomba. Nada se pierde y el grupo ve la explicación
--- completa (con la firma de cortesía) incluso en combate.
-local colaSalida = {};     -- líneas pendientes de reenvío al canal compartido
-local ultimaEnvioCanal = 0;
-
-local function encolarSalida(linea)
-	if #colaSalida == 0 then
-		-- La cola estaba vacía: la línea inmediata acaba de salir. Se
-		-- marca el instante para dejar el hueco del throttle antes del
-		-- primer volcado (el reparto sigue espaciado 0.25s).
-		ultimaEnvioCanal = GetTime();
-	end
-	table.insert(colaSalida, linea);
-	debugLog("cola", "encolada", "pendientes=" .. #colaSalida);
+-- Detección honesta de zona de combate. InCombatLockdown() PALPITA:
+-- devolvió false a mitad de un encuentro real (2026-09-30, Kystia: el
+-- lanzamiento se creyó fuera y el cliente bloqueó igualmente el envío),
+-- así que no sirve como discriminante del envío. La huella: el último
+-- instante con señal real de combate + una gracia corta.
+local ultimoCombate = 0;
+local GRACE_COMBATE = 5;
+local function enZonaCaliente()
+	return InCombatLockdown() or (GetTime() - ultimoCombate) < GRACE_COMBATE;
 end
 
--- Vuelca una línea desde el contexto del manejador de eventos (permitido
--- en combate), respetando el espaciado por el throttle de SendChatMessage.
-local function volcarCola()
-	if #colaSalida == 0 or not InCombatLockdown() then
+-- DECISIÓN del propietario (2026-10-01, tras probar con Coren): NADA de
+-- entregar explicaciones al fin del combate — llega tarde y no sirve ni
+-- al que tiene el addon ni al resto. Verificado 09-30/10-01: en combate
+-- el cliente bloquea SendChatMessage de forma fiable (manejador, C_Timer
+-- e InCombatLockdown() en falso). MODELO vigente: en zona de combate la
+-- explicación vive SOLO en el frame de alerta del dueño (+ su chat local
+-- si la salida es solo para él); al grupo va únicamente la parte que
+-- cupo en la ventana pre-pull (gritos de entrada), fuera de zona
+-- caliente. La cola de chat se retira.
+
+-- Frame de alerta del propietario: las FRAMES propias no se bloquean
+-- nunca — es la vía que DBM usa precisamente por esto. Durante la pelea
+-- el dueño ve aquí TODA la explicación (los envíos de chat a grupo se
+-- bloquean y tras morir el jefe ya no se retiene nada para después),
+-- con el marcado completo y links activos. Se oculta 15s tras el fin
+-- del combate y se puede arrastrar.
+local alertaFrame = nil;   -- creado perezoso
+local alertaOcultar = nil; -- el C_Timer que lo esconde tras el combate
+local frameNpcId = nil;   -- jefe mostrado en el frame (botón "al chat")
+local function ocultarAlerta()
+	if alertaOcultar ~= nil then
+		alertaOcultar:Cancel();
+		alertaOcultar = nil;
+	end
+	if alertaFrame == nil or alertaFrame:IsShown() == false then
 		return;
 	end
-	if (GetTime() - ultimaEnvioCanal) < 0.25 then
-		return; -- demasiado pronto: otro evento lo hará dentro de poco
+	alertaOcultar = C_Timer.After(15, function()
+		alertaOcultar = nil;
+		if alertaFrame ~= nil then
+			alertaFrame.nombre:SetText("");
+			alertaFrame.cuerpo:SetText("");
+			alertaFrame:Hide();
+		end
+	end);
+end
+-- Sin "local": asigna la variable declarada por adelantado (salida() la usa).
+function salidaEnPantalla(linea, nueva)
+	linea = localizarEnlaces(linea); -- nombres de spells en el idioma del cliente
+	if alertaOcultar ~= nil then
+		alertaOcultar:Cancel();
+		alertaOcultar = nil;
 	end
-	ultimaEnvioCanal = GetTime();
-	salida(table.remove(colaSalida, 1));
-	debugLog("cola", "enviada", "pendientes=" .. #colaSalida);
+	-- Blindaje: si un intento de creación quedó a medias (un método
+	-- decorativo que falte en algún cliente no debe dejar el frame
+	-- cojo para siempre), se descarta y se rehace completo.
+	if alertaFrame ~= nil and (alertaFrame.marca == nil or alertaFrame.nombre == nil or alertaFrame.cuerpo == nil) then
+		alertaFrame:Hide();
+		alertaFrame = nil;
+	end
+	if alertaFrame == nil then
+		-- Con nombre para que la tecla ESC lo cierre (UISpecialFrames
+		-- solo admite nombres de globales) y con botón X arriba a la
+		-- derecha: el frame siempre tiene salida manual.
+		alertaFrame = CreateFrame("Frame", "BossesAlertaFrame", UIParent, "BackdropTemplate");
+		if type(UISpecialFrames) == "table" then
+			tinsert(UISpecialFrames, "BossesAlertaFrame");
+		end
+		alertaFrame:SetFrameStrata("TOOLTIP"); -- encima de cualquier UI del jugador
+		alertaFrame:SetClampedToScreen(true);
+		alertaFrame:SetWidth(360);
+		alertaFrame:EnableMouse(true);
+		alertaFrame:SetMovable(true);
+		alertaFrame:RegisterForDrag("LeftButton");
+		alertaFrame:SetScript("OnDragStart", alertaFrame.StartMoving);
+		alertaFrame:SetScript("OnDragStop", function(self)
+			self:StopMovingOrSizing();
+			-- Guardar dónde quedó el frame: por personaje, igual que la
+			-- posición del botón de minimapa.
+			local punto, _, relativo, x, y = self:GetPoint(1);
+			if punto ~= nil then
+				BossesConfig.framePos = { point = punto, rel = relativo or punto, x = x or 0, y = y or 0 };
+			end
+		end);
+		-- Botón X de cierre (además de la tecla ESC)
+		local cerrar = CreateFrame("Button", nil, alertaFrame, "UIPanelCloseButtonTemplate");
+		cerrar:SetSize(20, 20);
+		cerrar:SetPoint("TOPRIGHT", -6, -6);
+		cerrar:SetScript("OnClick", function()
+			if alertaOcultar ~= nil then
+				alertaOcultar:Cancel();
+				alertaOcultar = nil;
+			end
+			alertaFrame:Hide();
+		end);
+		-- La primera vez se abre centrado arriba; después, donde lo
+		-- dejaste la última vez (guardado por personaje). La validación
+		-- estricta evita anclas corruptas que cascarían la creación.
+		local fp = BossesConfig.framePos;
+		if type(fp) == "table" and type(fp.point) == "string" and type(fp.rel) == "string" and type(fp.x) == "number" and type(fp.y) == "number" then
+			alertaFrame:SetPoint(fp.point, UIParent, fp.rel, fp.x, fp.y);
+		else
+			alertaFrame:SetPoint("TOP", 0, -170);
+		end
+		-- Aspecto de tooltip nativo del juego (fondo + borde), mucho más
+		-- cuidado que el rectángulo negro plano de la primera versión
+		alertaFrame:SetBackdrop({
+			bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 3, right = 3, top = 3, bottom = 3 },
+		});
+		alertaFrame:SetBackdropColor(0.06, 0.06, 0.08, 0.85);
+		-- Etiqueta pequeña dorada con la marca del addon
+		local marca = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		marca:SetPoint("TOPLEFT", 16, -10);
+		marca:SetText("BOSSES");
+		marca:SetTextColor(1, 0.85, 0.4);
+		alertaFrame.marca = marca;
+		-- Nombre del jefe como cabecera grande de la explicación
+		local nombre = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge");
+		nombre:SetPoint("TOPLEFT", marca, "BOTTOMLEFT", 0, -4);
+		nombre:SetWidth(328);
+		nombre:SetJustifyH("LEFT");
+		if nombre.SetHyperlinksEnabled ~= nil then
+			nombre:SetHyperlinksEnabled(true); -- links clicables; sin el método el texto sale igual, solo sin link
+		end
+		alertaFrame.nombre = nombre;
+		-- Divisoria dorada fina bajo el nombre
+		local divisor = alertaFrame:CreateTexture(nil, "OVERLAY");
+		divisor:SetColorTexture(1, 0.85, 0.4, 0.55);
+		divisor:SetHeight(1);
+		divisor:SetPoint("TOPLEFT", nombre, "BOTTOMLEFT", 0, -6);
+		divisor:SetPoint("RIGHT", -16, 0);
+		-- Cuerpo: cada consejo en su párrafo, con viñeta dorada, el
+		-- marcado del pack intacto y links clicables
+		local cuerpo = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+		cuerpo:SetPoint("TOPLEFT", divisor, "BOTTOMLEFT", 0, -8);
+		cuerpo:SetWidth(328);
+		cuerpo:SetJustifyH("LEFT");
+		if cuerpo.SetHyperlinksEnabled ~= nil then
+			cuerpo:SetHyperlinksEnabled(true);
+		end
+		alertaFrame.cuerpo = cuerpo;
+		-- El dueño arrastra el frame; los links del texto se tratan como en el chat
+		alertaFrame:SetScript("OnHyperlinkClick", function(_, link, textoLiga, boton, chatFrame)
+			pcall(ChatFrame_OnHyperlinkShow, DEFAULT_CHAT_FRAME, link, textoLiga, boton, chatFrame);
+		end);
+		-- Tooltip del enlace al PASAR el ratón (como en las barras de
+		-- acción): el juego lo resuelve en el idioma de quien mira.
+		alertaFrame:SetScript("OnHyperlinkEnter", function(_, link)
+			if GameTooltip ~= nil then
+				pcall(function()
+					GameTooltip:SetOwner(alertaFrame, "ANCHOR_CURSOR");
+					GameTooltip:SetHyperlink(link);
+					GameTooltip:Show();
+				end);
+			end
+		end);
+		alertaFrame:SetScript("OnHyperlinkLeave", function()
+			if GameTooltip ~= nil then
+				GameTooltip:Hide();
+			end
+		end);
+		-- Botón "al chat": reenvía la entrada del jefe en pantalla por la
+		-- ruta fría normal (reparto espaciado + firma — la vía del grito
+		-- de Coren). Solo se muestra fuera de combate y con un jefe
+		-- elegido desde el desplegable del minimapa: en combate el
+		-- cliente bloquea esos envíos y el botón se esconde.
+		local boton = CreateFrame("Button", nil, alertaFrame, "UIPanelButtonTemplate");
+		boton:SetSize(96, 22);
+		boton:SetPoint("BOTTOMRIGHT", -14, 12);
+		boton:SetText(L["BotonAlChat"]);
+		boton:SetScript("OnClick", function()
+			enviarJefeDelFrame();
+		end);
+		boton:Hide();
+		alertaFrame.botonChat = boton;
+	end
+	if nueva then
+		-- Nueva explicación: la primera línea es el nombre del jefe, va a
+		-- la cabecera; reinicia el cuerpo para que no se mezclen jefes
+		alertaFrame.nombre:SetText(linea);
+		alertaFrame.cuerpo:SetText("");
+	else
+		local cuerpo = alertaFrame.cuerpo;
+		local actuales = cuerpo:GetText();
+		local fila = linea;
+		if string.sub(fila, 1, 2) == "* " then -- viñeta dorada, solo en el frame
+			fila = "|cffffd100*|r " .. string.sub(fila, 3);
+		end
+		cuerpo:SetText(actuales ~= nil and actuales ~= "" and actuales .. "\n" .. fila or fila);
+	end
+	ajustarAlturaAlerta();
+	alertaFrame:Show();
+	-- Fuera de zona de combate el frame se apaga solo a los 15s: las
+	-- vistas frías (menú del minimapa, avisos, explicaciones con el pull
+	-- aún lejos) también necesitan salida — antes solo lo apagaba el fin
+	-- del combate y una vista fría se quedaba abierta para siempre
+	-- (visto al salir de la mazmorra, 2026-10-01). En zona caliente no se
+	-- arma: lo hará el PLAYER_REGEN_ENABLED al acabar la pelea.
+	if not enZonaCaliente() then
+		ocultarAlerta();
+	end
 end
 
--- Una línea lanzada en combate: al canal compartido se va por la cola (el
--- contexto del momento no permite enviarla); lo que solo vería el jugador
--- se escribe ya (escribir no pasa por el chat y nunca se bloquea).
-local function lineaEnCombate(txt)
-	if salidaCompartida() then
-		encolarSalida(txt);
-	else
-		escribir(txt);
+-- Alto del frame de alerta: marca + cabecera + divisoria + cuerpo + pie.
+-- El pie crece cuando el botón "al chat" está visible. Declarada por
+-- adelantado (salidaEnPantalla la llama) y definida aquí, tras el frame.
+function ajustarAlturaAlerta()
+	if alertaFrame == nil then
+		return;
 	end
+	local pie = 14;
+	if alertaFrame.botonChat ~= nil and alertaFrame.botonChat:IsShown() then
+		pie = 40;
+	end
+	alertaFrame:SetHeight(10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8 + alertaFrame.cuerpo:GetHeight() + pie);
+end
+
+-- Visibilidad del botón "al chat": con un jefe en pantalla y fuera de la
+-- zona de combate. Se reevalúa al elegir jefe en el desplegable y al
+-- entrar o salir de combate.
+local function actualizarBotonChat()
+	if alertaFrame == nil or alertaFrame.botonChat == nil then
+		return;
+	end
+	if frameNpcId ~= nil and not enZonaCaliente() then
+		alertaFrame.botonChat:Show();
+	else
+		alertaFrame.botonChat:Hide();
+	end
+	ajustarAlturaAlerta();
 end
 
 -- Envía la entrada completa y, si la emisión es compartida, añade la
 -- firma de cortesía al final.
+--
+-- EL FRAME DEL DUEÑO, SIEMPRE COMPLETO (decisión del propietario,
+-- 2026-10-01, tras Coren): la microcarrera del pull partía la
+-- explicación — mitad al chat, mitad al frame. Ahora la copia del dueño
+-- se llena ENTERA aquí, salga o no algo al chat; el chat reparte solo
+-- lo que la zona permita (nada en caliente, espaciado en frío) y las
+-- líneas que el pull caza se pierden para el grupo: el frame ya las
+-- llevaba. La antigua lineaEnCombate quedó RETIRADA con este modelo.
 local function enviarEntrada(entrada)
-	if InCombatLockdown() then
-		-- Con el chat lockdown activo: la primera línea de un lanzamiento
-		-- desde el MANEJADOR del evento intenta el canal y funciona
-		-- (decisión del propietario 09-2026; flaky: Kasreth la perdió,
-		-- Zul'jan la mandó). Todo lo demás (incluida la entrada completa
-		-- de un lanzamiento ya desde timer) va a la COLA: el manejador de
-		-- eventos la reenvía espaciada y al acabar el combate se vacía lo
-		-- que quede. El grupo recibe la explicación completa y la firma.
-		if not envioDesdeTimer and entrada[1] ~= nil then
-			salida(entrada[1]); -- el contexto es un manejador: puede enviar
-		end
-		for i, c in ipairs(entrada) do
-			if i > 1 or envioDesdeTimer then
-				lineaEnCombate(c);
+	for i, c in ipairs(entrada) do
+		salidaEnPantalla(c, i == 1); -- la primera línea es el nombre: cabecera
+	end
+
+	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+		-- En combate (o en los pocos segundos que lo rodean) el cliente
+		-- bloquea SendChatMessage a grupo de forma fiable (4/4 jefes
+		-- perdidos el 2026-09-30, en todos los contextos) y soltar el
+		-- paquete tras la muerte tampoco sirve (decisión del
+		-- propietario, 2026-10-01): nada intenta el canal a mitad de
+		-- pelea. Con el canal "solo frame" lo mismo SIEMPRE: ni chat ni
+		-- retardos. La firma es solo para el grupo: en caliente no se
+		-- emite (y al frame no va).
+		-- Salida solo-local: la copia inmediata por chat del dueño (su
+		-- lectura nunca se bloquea); el frame ya la lleva completa.
+		if not salidaCompartida() and BossesConfig.CANAL ~= "FRAME" then
+			for _, c in ipairs(entrada) do
+				escribir(localizarEnlaces(c));
 			end
-		end
-		if BossesConfig.FIRMA and salidaCompartida() then
-			encolarSalida(textoCortesia());
 		end
 		return;
 	end
 
-	-- Fuera de combate la distribución es espaciada por C_Timer (primera
-	-- inmediata, resto cada 0.25s): la ráfaga síncrona en el mismo frame
-	-- chocaba con el throttle silencioso de SendChatMessage y perdía
-	-- líneas al azar. Si el combate empieza mientras tanto, la línea en
-	-- vuelo se encola en vez de caer a local.
+	-- Fuera de la zona de combate la distribución es espaciada por
+	-- C_Timer (primera inmediata, resto cada 0.25s): la ráfaga síncrona
+	-- chocaba con el throttle silencioso del chat. Si el combate muerde
+	-- mientras tanto, las líneas restantes no salen: el grupo no las
+	-- habría recibido de todos modos (bloqueo) y el frame ya lleva la
+	-- explicación COMPLETA desde el lanzamiento.
 	for i, c in ipairs(entrada) do
 		if i == 1 then
 			salida(c);
 		else
 			local linea = c;
 			C_Timer.After((i - 1) * 0.25, function()
-				if InCombatLockdown() then
-					lineaEnCombate(linea); -- el manejador la reenviará
-				else
+				if not enZonaCaliente() then
 					salida(linea);
 				end
 			end);
 		end
 	end
 
+	-- La firma cierra el reparto frío con el mismo espaciado. Es solo
+	-- para el grupo: si para entonces la zona ya está caliente, se
+	-- pierde (al frame del dueño no va nunca).
 	if BossesConfig.FIRMA and salidaCompartida() then
 		C_Timer.After(#entrada * 0.25 + 0.25, function()
-			if InCombatLockdown() then
-				lineaEnCombate(textoCortesia());
-			else
-				salida(textoCortesia());
+			if not enZonaCaliente() then
+				salida(textoCortesia(), true);
 			end
 		end);
 	end
@@ -461,6 +725,15 @@ local function canalDeGrupo()
 end
 
 local function programarEnvio(clave, explicar)
+	-- Canal "solo frame": la explicación es privada del dueño. No se
+	-- reclama al grupo ni se atienden reclamaciones ajenas — nuestro
+	-- frame no compite con lo que otro jugador saque al chat del grupo.
+	if BossesConfig.CANAL == "FRAME" then
+		debugLog("envío", "solo frame", clave);
+		explicar();
+		return;
+	end
+
 	local grupo = canalDeGrupo();
 	if grupo == nil then
 		debugLog("envío", "sin grupo", clave);
@@ -497,14 +770,11 @@ local function programarEnvio(clave, explicar)
 		-- aborta (grito de derrota) bloquearía nuestra propia reprogramación.
 		pcall(SendAddonMessage, "Bosses", "enc|" .. tostring(clave), grupo);
 		debugLog("envío diferido", clave, "combate=" .. tostring(InCombatLockdown()));
-		-- Marcamos el contexto: si el lockdown sigue activo al explicar,
-		-- todo sale por local (los envíos de chat desde timer en combate
-		-- se pierden a veces; visto in-game 2026). Con combate al
-		-- disparar y lanzamiento ya desde timer, enviarEntrada saca todo
-		-- por local: marco el contexto para esa rama.
-		envioDesdeTimer = true;
+		-- Si el combate muerde mientras tanto, enZonaCaliente() lo detecta
+		-- (la huella cubre la gracia de los últimos 5s con señal real,
+		-- aunque el lockdown palpite a mitad de pelea) y la línea va a la
+		-- cola + al frame de alerta en vez de perderse.
 		explicar();
-		envioDesdeTimer = false;
 	end);
 end
 
@@ -524,6 +794,11 @@ end
 BossesAPI = BossesAPI or {};
 
 local packSources = {};
+
+-- Índice global de zonas (instanceID → { nombre, jefes }): se reconstruye
+-- en activarPacks con los índices de todos los packs; lo usa el radar de
+-- instancia (desplegable del minimapa).
+local zonasActuales = {};
 
 -- Cuenta las entradas (subtablas) de un pack, para el registro de depuración
 local function contarEntradas(t)
@@ -588,6 +863,17 @@ local function activarPacks()
 		end
 	end
 
+	-- Índice global de zonas (instanceID → jefes del pack): lo usa el
+	-- radar de instancia (desplegable del minimapa)
+	zonasActuales = {};
+	for _, src in ipairs(packSources) do
+		if src.zonas ~= nil then
+			for idZona, z in pairs(src.zonas) do
+				zonasActuales[idZona] = z;
+			end
+		end
+	end
+
 	indiceNombres = nil;
 	nombresEnc = nil;
 end
@@ -611,6 +897,10 @@ function BossesAPI.register(name, data)
 	-- generado con npm run comparar-dbm, estilo DBM)
 	src.enc = (type(data.ENC) == "table") and data.ENC or nil;
 
+	-- Índice opcional de zonas (instanceID → jefes del pack): alimenta el
+	-- radar de instancia y el desplegable del minimapa
+	src.zonas = (type(data.ZON) == "table") and data.ZON or nil;
+
 	-- Si un pack con el mismo nombre ya estaba registrado se reemplaza
 	local replaced = false;
 	for i, old in ipairs(packSources) do
@@ -624,7 +914,7 @@ function BossesAPI.register(name, data)
 		table.insert(packSources, src);
 	end
 
-	debugLog("pack", name, "ES=" .. contarEntradas(src.ES), "EN=" .. contarEntradas(src.EN), "ENC=" .. contarClaves(src.enc), "reemplazo=" .. tostring(replaced));
+	debugLog("pack", name, "ES=" .. contarEntradas(src.ES), "EN=" .. contarEntradas(src.EN), "ENC=" .. contarClaves(src.enc), "ZON=" .. contarClaves(src.zonas), "reemplazo=" .. tostring(replaced));
 	activarPacks();
 	return true;
 end
@@ -677,7 +967,13 @@ local function explica(nbos)
 		enviarEntrada(entrada);
 	else
 		debugLog("sin entrada (id)", tostring(nbos));
-		dsp(nbos .. L[": This NPC is not described."]);
+		if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+			salidaEnPantalla(tostring(nbos), true); -- cabecera del frame con la id del NPC
+			salidaEnPantalla(L[": This NPC is not described."]);
+		end
+		if BossesConfig.CANAL ~= "FRAME" then
+			dsp(nbos .. L[": This NPC is not described."]);
+		end
 	end
 end
 
@@ -970,7 +1266,13 @@ local function explicaPorNombre(nombre)
 	end
 
 	debugLog("sin entrada (nombre)", aTexto(nombre));
-	dsp(nombre .. L[": This NPC is not described."]);
+	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+		salidaEnPantalla(nombre, true); -- cabecera del frame con el nombre del NPC
+		salidaEnPantalla(L[": This NPC is not described."]);
+	end
+	if BossesConfig.CANAL ~= "FRAME" then
+		dsp(nombre .. L[": This NPC is not described."]);
+	end
 end
 
 -- Modo Automático con anti-duplicado multi-vía: el mismo jefe puede llegar
@@ -1128,18 +1430,39 @@ local function explicarEncuentroAutomatico(encounterID, nombreEncuentro, claveGr
 			end
 			local id2 = intento();
 			if id2 ~= nil then
-				-- Este reintento corre DENTRO de un timer: si al explicar
-				-- sigue el chat lockdown, enviarEntrada saca todo por local
-				-- (los envíos de chat desde timer en combate se pierden,
-				-- confirmado con ADDON_ACTION_BLOCKED vía BugGrabber).
-				envioDesdeTimer = true;
+				-- Este reintento corre DENTRO de un timer: si hay zona de
+				-- combate al explicar, la entrada entera cae al frame del
+				-- dueño (al grupo no va nada en plena pelea).
 				programarEnvio(claveGrupo, function()
 					local entrada = buscarEntrada(id2);
 					if entrada ~= nil then
 						enviarEntrada(entrada);
 					end
 				end);
-				envioDesdeTimer = false;
+			else
+				-- Sin entrada confirmada tras el reintento: el dueño se
+				-- entera UNA vez por pull (antes quedaba mudo y solo
+				-- quedaba la huella del registro — visto con el primer
+				-- jefe del Valle Cegador, 2026-10-01). Al grupo no va
+				-- nada: esto es diagnóstico nuestro. La clave propia
+				-- vive en explicadosRecientes y se limpia al fin del
+				-- encuentro igual que las demás (la redundancia IEEU
+				-- puede llegar aquí dos veces por el mismo pull).
+				local claveAviso = "e:" .. tostring(encounterID);
+				if not explicadosRecientes[claveAviso] then
+					explicadosRecientes[claveAviso] = true;
+					local rotulo = aTexto(nombreEncuentro);
+					if rotulo == "" or rotulo == "<secreto>" then
+						rotulo = "enc=" .. tostring(encounterID);
+					end
+					debugLog("aviso sin entrada", "enc=" .. tostring(encounterID), "avisado al dueño");
+					if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+						salidaEnPantalla(rotulo, true);
+						salidaEnPantalla(L[": This NPC is not described."]);
+					else
+						dsp(rotulo .. L[": This NPC is not described."]);
+					end
+				end
 			end
 		end);
 		return;
@@ -1277,6 +1600,7 @@ local function syncCanalChecks()
 	canalChecks.AUTO:SetChecked(canal == "AUTO");
 	canalChecks.GUILD:SetChecked(canal == "GUILD");
 	canalChecks.LOCAL:SetChecked(canal == "LOCAL");
+	canalChecks.FRAME:SetChecked(canal == "FRAME");
 end
 
 local function setCanal(value)
@@ -1354,7 +1678,7 @@ local function createSettingsPanel()
 
 	canalChecks = {};
 
-	local defs = { { "AUTO", "CanalGrupo" }, { "GUILD", "Guild" }, { "LOCAL", "OutputNormal" } };
+	local defs = { { "AUTO", "CanalGrupo" }, { "GUILD", "Guild" }, { "LOCAL", "OutputNormal" }, { "FRAME", "CanalFrame" } };
 	local y = -46;
 
 	for _, d in ipairs(defs) do
@@ -1457,6 +1781,198 @@ local function openSettings()
 end
 
 -- Botón de minimapa ------------------------------------------------------
+-- Reenvía la entrada del jefe mostrado en el frame por la ruta fría normal
+-- (reparto espaciado + firma: la vía del grito de Coren). Lo llama el botón
+-- "al chat" del frame; solo tiene efecto fuera de zona caliente, donde el
+-- envío por addon es legal.
+function enviarJefeDelFrame()
+	if frameNpcId == nil or enZonaCaliente() then
+		return;
+	end
+	local entrada = buscarEntrada(frameNpcId);
+	if entrada ~= nil then
+		enviarEntrada(entrada);
+	end
+end
+
+-- Muestra la entrada de un jefe SOLO en el frame del dueño: la usa el
+-- desplegable del minimapa. Guarda el jefe activo para el botón "al chat"
+-- y no escribe chat.
+local function mostrarJefeEnFrame(id)
+	local entrada = buscarEntrada(id);
+	if entrada == nil then
+		return;
+	end
+	frameNpcId = id;
+	for i, c in ipairs(entrada) do
+		salidaEnPantalla(c, i == 1);
+	end
+	actualizarBotonChat();
+	debugLog("desplegable", "jefe al frame", tostring(id));
+end
+
+-- Radar de instancia: qué zona es la actual (mazmorra, banda o lair)
+-- según el instanceID de GetInstanceInfo y el índice de zonas de los
+-- packs. Alimenta el desplegable del minimapa. v1: solo por id (el
+-- diario está muerto dentro de instancias en Midnight; los nombres
+-- localizados quedan como fallback futuro).
+local instanciaActual = nil;
+local function detectarInstancia()
+	instanciaActual = nil;
+	local nombre, tipo, _, dif = GetInstanceInfo();
+	local idZona = tostring(select(8, GetInstanceInfo()) or "");
+	local zona = zonasActuales[idZona];
+	if zona ~= nil then
+		instanciaActual = { id = idZona, nombre = tostring(nombre or zona.nombre or ""), zona = zona };
+	end
+	debugLog("zona", tostring(nombre), tostring(tipo), tostring(dif), "id=" .. idZona, instanciaActual ~= nil and ("jefes=" .. tostring(#instanciaActual.zona.jefes)) or "sin índice de zona");
+end
+
+-- Desplegable artesanal del minimapa: en instancia, la lista de jefes de
+-- la zona (solo los que tienen entrada en el pack) + "explicar objetivo"
+-- y la configuración. Fuera de instancia, el click izquierdo sigue
+-- explicando el objetivo directamente (comportamiento previo).
+-- NOTA (2026-10-01): EasyMenu YA NO existe en Midnight 12.1 (crash
+-- probado in-game) y el nuevo sistema Menu no existe en los flavors
+-- clásicos — menú propio, sin dependencias del UI del cliente.
+local menuFrame = nil;
+local menuCatcher = nil;
+
+local function cerrarMenu()
+	if menuCatcher ~= nil then
+		menuCatcher:Hide();
+	end
+end
+
+local function menuMinimapa()
+	cerrarMenu();
+	if menuFrame == nil then
+		-- Fondo invisible a pantalla entera: cualquier click fuera del
+		-- menú cierra el desplegable (el menú cuelga de él y se esconden
+		-- juntos).
+		menuCatcher = CreateFrame("Button", nil, UIParent);
+		menuCatcher:SetAllPoints(UIParent);
+		menuCatcher:SetFrameStrata("TOOLTIP");
+		menuCatcher:SetFrameLevel(100);
+		menuCatcher:EnableMouse(true);
+		menuCatcher:RegisterForClicks("AnyDown");
+		menuCatcher:SetScript("OnClick", cerrarMenu);
+
+		menuFrame = CreateFrame("Frame", nil, menuCatcher, "BackdropTemplate");
+		menuFrame:SetFrameStrata("TOOLTIP");
+		menuFrame:SetFrameLevel(101);
+		menuFrame:EnableMouse(true);
+		menuFrame:SetClampedToScreen(true);
+		menuFrame:SetBackdrop({
+			bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 3, right = 3, top = 3, bottom = 3 },
+		});
+		menuFrame:SetBackdropColor(0.06, 0.06, 0.08, 0.95);
+	end
+
+	-- Entradas: el nombre de la zona como título, los jefes con entrada
+	-- y los dos atajos fijos.
+	local entradas = {};
+	if instanciaActual ~= nil and instanciaActual.zona ~= nil then
+		table.insert(entradas, { texto = instanciaActual.nombre, titulo = true });
+		for _, idJefe in ipairs(instanciaActual.zona.jefes) do
+			local entrada = buscarEntrada(idJefe);
+			if entrada ~= nil and type(entrada[1]) == "string" then
+				local id = idJefe;
+				table.insert(entradas, { texto = entrada[1], alPulsar = function() mostrarJefeEnFrame(id); end });
+			end
+		end
+		table.insert(entradas, { texto = " ", separador = true });
+	end
+	table.insert(entradas, { texto = L["MenuObjetivo"], alPulsar = function() explicaTarget("target"); end });
+	table.insert(entradas, { texto = L["MenuConfig"], alPulsar = function() openSettings(); end });
+
+	-- Botones (se reutilizan entre aperturas; anclados a ambos lados para
+	-- que todos midan lo mismo que el menú).
+	local maxAncho = 0;
+	local alto = 6;
+	local n = 0;
+	for _, e in ipairs(entradas) do
+		n = n + 1;
+		local btn = menuFrame["item" .. n];
+		if btn == nil then
+			btn = CreateFrame("Button", nil, menuFrame);
+			btn:SetHeight(18);
+			btn:SetNormalFontObject("GameFontHighlight");
+			local resalte = btn:CreateTexture(nil, "HIGHLIGHT");
+			resalte:SetAllPoints(btn);
+			resalte:SetColorTexture(1, 0.85, 0.4, 0.25);
+			btn:SetHighlightTexture(resalte);
+			btn:SetScript("OnClick", function(self)
+				cerrarMenu();
+				local alPulsar = self.__alPulsar;
+				if alPulsar ~= nil then
+					alPulsar();
+				end
+			end);
+			menuFrame["item" .. n] = btn;
+		end
+		btn:Show();
+		btn:SetText(e.texto);
+		btn.__alPulsar = e.alPulsar;
+		btn:SetPoint("TOPLEFT", menuFrame, "TOPLEFT", 8, -alto);
+		btn:SetPoint("TOPRIGHT", menuFrame, "TOPRIGHT", -8, -alto);
+		local fs = btn:GetFontString();
+		if fs ~= nil then
+			fs:SetJustifyH("LEFT");
+			if e.titulo then
+				btn:Disable();
+				fs:SetTextColor(1, 0.85, 0.4);
+			else
+				btn:Enable();
+				fs:SetTextColor(1, 1, 1);
+			end
+			if not e.separador then
+				maxAncho = math.max(maxAncho, fs:GetStringWidth() + 4);
+			end
+		else
+			btn:Enable();
+		end
+		-- La línea de separación pinta una raya blanca horizontal (la
+		-- fila es un botón desactivado en blanco).
+		local raya = btn.__raya;
+		if raya == nil then
+			raya = btn:CreateTexture(nil, "ARTWORK");
+			raya:SetColorTexture(1, 1, 1, 0.55);
+			btn.__raya = raya;
+		end
+		if e.separador then
+			btn:Disable();
+			btn.__alPulsar = nil;
+			raya:Show();
+			raya:ClearAllPoints();
+			raya:SetHeight(1);
+			raya:SetPoint("TOP", btn, "TOP", 0, -9);
+			raya:SetPoint("LEFT", btn, "LEFT", 6, 0);
+			raya:SetPoint("RIGHT", btn, "RIGHT", -6, 0);
+		else
+			raya:Hide();
+		end
+		alto = alto + 20;
+	end
+	-- esconder los botones sobrantes de aperturas anteriores
+	for j = n + 1, menuFrame.__n or 0 do
+		menuFrame["item" .. j]:Hide();
+	end
+	menuFrame.__n = n;
+
+	menuFrame:SetSize(math.min(340, math.max(170, maxAncho + 16)), alto + 8);
+
+	-- anclado al cursor
+	local cx, cy = GetCursorPosition();
+	local escala = UIParent:GetEffectiveScale();
+	menuFrame:ClearAllPoints();
+	menuFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", (cx / escala) + 6, (cy / escala) - 6);
+	menuCatcher:Show();
+end
+
 -- Vía LibDBIcon-1.0 (la misma librería que usa RareScanner, embebida en
 -- libs/). Todo el arrastre, posicionamiento y formas del minimapa los
 -- gestiona la librería; aquí solo definimos el objeto LDB con el click
@@ -1467,7 +1983,11 @@ local ldbObject = {
 	icon = "Interface\\Icons\\INV_Misc_OgrePinata",
 	OnClick = function(self, button)
 		if button == "LeftButton" then
-			explicaTarget("target");
+			if instanciaActual ~= nil then
+				menuMinimapa();
+			else
+				explicaTarget("target");
+			end
 		else
 			openSettings();
 		end
@@ -1496,9 +2016,9 @@ local function bossesGestor(msg, editbox)
 		-- Si no pone nada intentamos explicar el bos marcado
 		explicaTarget("target");
 	elseif cmd == "CANAL" then
-		-- Queremos establecer el canal AUTO, GUILD, LOCAL
+		-- Queremos establecer el canal AUTO, GUILD, LOCAL, FRAME
 		txt = string.upper(txt);
-		if txt == "AUTO" or txt == "GUILD" or txt == "LOCAL" then
+		if txt == "AUTO" or txt == "GUILD" or txt == "LOCAL" or txt == "FRAME" then
 			setCanal(txt);
 		end
 	elseif cmd == "IDIOMA" then
@@ -1556,7 +2076,7 @@ local function bossesGestor(msg, editbox)
 			BossesConfig[tar][i] = txt;
 		end
 	elseif cmd == "?" or cmd == "HELP" then
-		dsp(L["Version"] .. getVersion());
+		dsp(L["Version"] .. " " .. getVersion());
 		dsp(L["HELP1"]);
 		dsp(L["HELP2"]);
 		dsp(L["HELP3"]);
@@ -1566,6 +2086,7 @@ local function bossesGestor(msg, editbox)
 		dsp(L["HELP7"]);
 		dsp(L["HELP8"]);
 		dsp(L["HELP9"]);
+		dsp(L["HELP10"]);
 		local packs = BossesAPI.list();
 		if #packs > 0 then
 			dsp(L["Data packs"] .. ": " .. table.concat(packs, ", "));
@@ -1591,14 +2112,54 @@ eventFrame:RegisterEvent("PLAYER_ENTERING_WORLD");
 eventFrame:RegisterEvent("CHAT_MSG_MONSTER_SAY");
 eventFrame:RegisterEvent("CHAT_MSG_MONSTER_YELL");
 eventFrame:RegisterEvent("PLAYER_REGEN_ENABLED");
-eventFrame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
-eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, arg5)
-	-- Bomba de la cola de chat: cualquier evento dispara el volcado desde
-	-- este contexto de manejador (permitido en combate). Durante una pelea
-	-- el registro de combate dispara sin parar, así la retransmisión es
-	-- inmediata; el resto de la cola se vacía al PLAYER_REGEN_ENABLED.
-	volcarCola();
-	if event == "ADDON_LOADED" and arg1 == ADDON_NAME then
+eventFrame:RegisterEvent("PLAYER_REGEN_DISABLED"); -- Arranque del combate real: ancla la huella de zona de combate
+eventFrame:RegisterEvent("UNIT_AURA"); -- Huella de combate vivo: InCombatLockdown() palpita (false a mitad de encuentro, 2026-09-30); cada remesa de auras con lockdown re-ancla la huella
+eventFrame:RegisterEvent("ADDON_ACTION_BLOCKED"); -- Respuesta del cliente a un envío bloqueado: recuperamos la línea en vuelo para la cola
+-- NOTA Midnight (12.1): intentar registrar el evento del registro de
+-- combate es SIEMPRE vetado, incluso fuera de combate (BugGrabber
+-- 2026-09-29: ADDON_ACTION_FORBIDDEN, Frame:RegisterEvent en el main
+-- chunk; ni el pcall lo silencia — la prohibición se anuncia por evento,
+-- no con un error). Y el envío de chat a grupo durante un encuentro está
+-- bloqueado de forma fiable en TODOS los contextos (2026-09-30: 0/4
+-- explicados, incluso con InCombatLockdown() en falso): el grupo recibe
+-- la explicación al fin del combate y el dueño, en el frame de alerta.
+eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, arg5, ...)
+	if event == "UNIT_AURA" then
+		-- Las auras cambian sin parar durante una pelea: re-ancla la
+		-- huella de combate vivo (barato, sin envíos aquí).
+		if InCombatLockdown() then
+			ultimoCombate = GetTime();
+		end
+		return;
+	elseif event == "PLAYER_REGEN_DISABLED" then
+		-- La pelea empieza de verdad: re-ancla la huella y cancela el
+		-- apagado pendiente del frame de alerta.
+		ultimoCombate = GetTime();
+		if alertaOcultar ~= nil then
+			alertaOcultar:Cancel();
+			alertaOcultar = nil;
+		end
+		actualizarBotonChat(); -- el botón "al chat" se esconde en combate
+	elseif event == "ADDON_ACTION_BLOCKED" then
+		-- El cliente devolvió un envío bloqueado NUESTRO (solo cabe en la
+		-- microcarrera del pull al chat de grupo). El frame ya lleva la
+		-- explicación COMPLETA desde el lanzamiento (2026-10-01), así que
+		-- la línea bloqueada no se recupera: queda la huella para el
+		-- diagnóstico.
+		if arg1 == "Bosses" and arg2 == "SendChatMessage()" then
+			if enVueloCanal ~= nil then
+				enVueloCanal = nil;
+				debugLog("bloqueo", "línea bloqueada (el frame ya la lleva)");
+			else
+				-- Diagnóstico: el bloqueo llegó sin línea en vuelo.
+				-- Ha pasado a los 0.25s entre envíos (la marca la pisa el
+				-- siguiente envío antes de llegar el bloqueo), el evento
+				-- no llegó a tiempo o era la firma de cortesía (que no
+				-- se marca en vuelo: es solo para el grupo).
+				debugLog("bloqueo", "bloqueo sin linea en vuelo");
+			end
+		end
+	elseif event == "ADDON_LOADED" and arg1 == ADDON_NAME then
 		-- Migración del proyecto legado "Boses" (renombrado a Bosses): si
 		-- el usuario copió los ficheros de SavedVariables del addon antiguo
 		-- (Boses.lua -> Bosses.lua, en la cuenta y en el personaje), el
@@ -1637,7 +2198,7 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 
 		dsp(BossesConfig.CANAL);
 		dsp(BossesConfig.IDIOMA);
-		dsp(L["Version"] .. getVersion() .. L["loaded"]);
+		dsp(L["Version"] .. " " .. getVersion() .. L["loaded"]);
 
 		debugLog("init", getVersion(), "locale=" .. tostring(GetLocale()), "canal=" .. tostring(BossesConfig.CANAL), "idioma=" .. tostring(BossesConfig.IDIOMA), "auto=" .. tostring(BossesConfig.AUTO_ENC), "debug=" .. tostring(BossesConfig.DEBUG));
 
@@ -1647,6 +2208,9 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		encuentroActivoID = arg1; -- id del encuentro (para las criaturas vía diario)
 		contadorEncuentros = contadorEncuentros + 1;
 		forzarLocal = false;
+		ultimoCombate = GetTime(); -- ENCOUNTER_START = pulleo seguro: la huella queda caliente
+		-- aunque el jugador no haya entrado en combate personal todavía
+		-- (healer a distancia) y aunque el lockdown palpite en falso.
 		debugLog("ENCOUNTER_START", "enc=" .. aTexto(arg1), "nombre=" .. aTexto(arg2), "dificultad=" .. aTexto(arg3), "grupo=" .. aTexto(arg4));
 		if BossesConfig.AUTO_ENC then
 			-- Modo Automático con anti-spam entre jugadores: resuelve el
@@ -1705,8 +2269,8 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 	elseif event == "BOSS_KILL" then
 		debugLog("BOSS_KILL", "enc=" .. aTexto(arg1), "nombre=" .. aTexto(arg2));
 	elseif event == "PLAYER_ENTERING_WORLD" then
-		local nombre, tipo, difID, difNombre = GetInstanceInfo();
-		debugLog("zona", tostring(nombre), tostring(tipo), tostring(difID), tostring(difNombre));
+		-- Radar de instancia: identifica la zona para el desplegable
+		detectarInstancia();
 	elseif event == "CHAT_MSG_MONSTER_SAY" or event == "CHAT_MSG_MONSTER_YELL" then
 		-- Festivos y jefes que no disparan ENCOUNTER_START: el que habla
 		-- es la criatura; si la tenemos en la base, la usamos como
@@ -1716,6 +2280,21 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		local sender = arg2;
 		if sender ~= nil and (issecretvalue == nil or not issecretvalue(sender)) and encuentroActivoID == nil and (GetTime() - finCombate) > 3 then
 			forzarLocal = false;
+			-- GUID del hablante: en los CHAT_MSG_MONSTER_* el GUID es un
+			-- de los args profundos (posición según flavor/cliente); lo
+			-- buscamos escaneando el resto (Creature-0-...-NPCID-...) para
+			-- anotar el NPC id de los hablantes sin entrada — así caen
+			-- solos los ids de escena de los festivos (Ilsa/Ursula de
+			-- Coren, etc.) sin adivinarlos.
+			local guidHablante = nil;
+			for i = 1, select("#", ...) do
+				local v = select(i, ...);
+				if type(v) == "string" and string.find(v, "^Creature%-", 1, false) ~= nil then
+					guidHablante = v;
+					break;
+				end
+			end
+			local npcIdHablante = guidHablante ~= nil and select(6, strsplit("-", guidHablante)) or nil;
 			if indiceNombres == nil then
 				construirIndice();
 			end
@@ -1786,20 +2365,13 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		end
 		explicadosRecientes = {};
 		finCombate = GetTime();
-		-- Red de seguridad de la cola de chat: el combate terminó, los
-		-- timers ya pueden enviar y lo pendiente sale espaciado (0.25s).
-		if #colaSalida > 0 then
-			local restante = colaSalida;
-			colaSalida = {};
-			local retardo = 0.25;
-			for _, linea in ipairs(restante) do
-				local l = linea;
-				C_Timer.After(retardo, function()
-					salida(l);
-				end);
-				retardo = retardo + 0.25;
-			end
-			debugLog("cola", "volcada al fin de combate", "lineas=" .. #restante);
-		end
+		-- Combate acabado: zona fría otra vez (los envíos de chat ya son
+		-- legales). SIN COLA (decisión 2026-10-01): nada se guarda para
+		-- entregarlo tras la muerte del jefe; aquí solo se apaga el frame
+		-- de alerta (la explicación entera ya vivió en él durante la
+		-- pelea).
+		ultimoCombate = 0;
+		ocultarAlerta();
+		actualizarBotonChat(); -- fuera de combate: el botón "al chat" vuelve
 	end
 end);

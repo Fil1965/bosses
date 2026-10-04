@@ -37,7 +37,7 @@ enc["3105"] = "237415"; -- Lithiel Cinderfury
 enc["3200"] = "244887"; -- Ikuzz the Light Hunter
 enc["3201"] = "245912"; -- Lightwarden Ruia
 enc["3202"] = "247676"; -- Ziekket
--- enc["3199"] = "243028"; -- Lightblossom Trinity (Meittik): ENC conocida, sin entrada todavía
+enc["3199"] = "243028"; -- Lightblossom Trinity (Meittik)
 
 -- Den of Nalorakk (2825)
 enc["3207"] = "248710"; -- The Hoardmonger
@@ -68,7 +68,7 @@ enc["3458"] = "267797"; -- Zul'jan (Altar of Fangs)
 
 enc["3159"] = "238693,254176"; -- Rotmire (Sporefall)
 enc["3379"] = "252959"; -- Nymrissa Wavecaller (Tidebound Grotto)
--- enc["3513"] = "267861,259664"; -- Kith'ix (Unbinding of Kithix): ENC conocida, sin entrada todavía
+enc["3513"] = "267861,259664"; -- Kith'ix (Unbinding of Kithix)
 
 -- Jefes de mundo (DBM-Midnight) -------------------------------------------
 

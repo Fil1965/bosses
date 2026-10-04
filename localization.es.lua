@@ -18,6 +18,10 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["English"] = "Inglés";
     L["CanalGrupo"] = "Grupo/Banda actual";
     L["OutputNormal"] = "Output normal (solo tú)";
+    L["CanalFrame"] = "Frame de alerta (solo tú)";
+    L["MenuObjetivo"] = "Explicar objetivo";
+    L["MenuConfig"] = "Configuración";
+    L["BotonAlChat"] = "Al chat";
     L["Data packs"] = "Packs de datos";
     L["FirmaCortesia"] = "Firma de cortesía en canales compartidos";
     L["Cortesia"] = "Explicación cortesía del addon Bosses";
@@ -36,6 +40,7 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["HELP7"] = "/bosses CANAL GUILD : Saca la información por el canal de la guild.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en : Idioma de las explicaciones.";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : registro de depuración (fichero en WTF); /bosses LOG [n] : muestra las últimas líneas.";
+    L["HELP10"] = "/bosses CANAL FRAME : Todo en el frame de alerta (solo tú).";
 
     L[": This NPC is not described."] = ": Este NPC no está descrito.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Click izdo.|r - Explica el NPC seleccionado.";

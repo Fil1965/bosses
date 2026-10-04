@@ -14,11 +14,16 @@ if GetLocale() == "enUS" then
     L["HELP7"] = "/bosses CANAL guild : Uses guild output";
     L["HELP8"] = "/bosses IDIOMA auto|es|en : Language of the explanations";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : debug log (WTF file); /bosses LOG [n] : show last lines";
+    L["HELP10"] = "/bosses CANAL frame : Everything in the alert frame (only you)";
     L["Language"] = "Language";
     L["Spanish"] = "Spanish";
     L["English"] = "English";
     L["CanalGrupo"] = "Current group/raid";
     L["OutputNormal"] = "Normal output (only you)";
+    L["CanalFrame"] = "Alert frame (only you)";
+    L["MenuObjetivo"] = "Explain target";
+    L["MenuConfig"] = "Settings";
+    L["BotonAlChat"] = "To chat";
     L["FirmaCortesia"] = "Courtesy signature on shared channels";
     L["Cortesia"] = "Boss explanation courtesy of the Bosses addon";
     L["Encuentros"] = "Auto explanation";

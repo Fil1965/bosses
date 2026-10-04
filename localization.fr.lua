@@ -15,9 +15,14 @@ if GetLocale() == "frFR" then
     L["HELP6"] = "/bosses CANAL local : Utilise le canal local.";
     L["HELP7"] = "/bosses CANAL guild : Utilise la canal de la guilde.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en : Langue des explications.";
-    L["HELP9"] = "/bosses DEBUG on|off|vaciar : journal de débogage (fichier WTF); /bosses LOG [n] : affiche les dernières lignes.";
+    L["HELP9"] = "/bosses DEBUG on|off|vaciar : journal de débogage (fichier WTF); /bosses LOG [n] : affiche les dernières lignes."
+    L["HELP10"] = "/bosses CANAL frame : Tout dans le cadre d'alerte (seulement vous).";
     L["CanalGrupo"] = "Groupe/Raid actuel";
     L["OutputNormal"] = "Sortie normale (seulement vous)";
+    L["CanalFrame"] = "Cadre d'alerte (seulement vous)";
+    L["MenuObjetivo"] = "Expliquer la cible";
+    L["MenuConfig"] = "Configuration";
+    L["BotonAlChat"] = "Au chat";
     L["FirmaCortesia"] = "Signature de courtoisie sur les canaux partagés";
     L["Cortesia"] = "Explication du boss offerte par l'addon Bosses";
     L["Encuentros"] = "Explication automatique";

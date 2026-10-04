@@ -22,5 +22,7 @@ if P.es == nil or P.en == nil then
 end
 
 -- El índice ENC (encounterID → NPC ids) es opcional: si falta, el pack
--- sigue funcionando y el core resuelve por las vías clásicas.
-BossesAPI.register("Midnight", { ES = P.es, EN = P.en, ENC = P.enc });
+-- sigue funcionando y el core resuelve por las vías clásicas. El de zonas
+-- (instanceID → jefes, Bosses_Midnight_zonas.lua) alimenta el desplegable
+-- del minimapa.
+BossesAPI.register("Midnight", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas });

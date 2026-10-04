@@ -72,4 +72,37 @@ enc["2880"] = "210156"; -- Skarmorak
 --   los delves de TWW: Underpin's Lair (3126/3138), Voidrazor Sanctuary
 --   (3326/3325), Zekvir's Lair (2987/2985).
 
+-- Bandas (curado de BigWigs_TheWarWithin — SetEncounterID/RegisterEnableMob;
+-- el módulo DBM-Raids-WarWithin no está en _doc) --
+
+-- Nerub'ar Palace (2657)
+enc["2898"] = "214503"; -- Sikran, Capitán de los Sureki
+enc["2902"] = "215657"; -- Ulgrax el Devorador
+enc["2917"] = "214502"; -- The Bloodbound Horror
+enc["2918"] = "214504"; -- Rasha'nan
+enc["2919"] = "214506"; -- Broodtwister Ovi'nax
+enc["2920"] = "217748"; -- Nexus-Princess Ky'veza
+enc["2921"] = "217489,217491"; -- The Silken Court (Anub'arash y Takazj)
+enc["2922"] = "218370"; -- Reina Ansurek
+
+-- Liberation of Undermine (2769)
+enc["3009"] = "225821,225822"; -- Vexie and the Geargrinders
+enc["3010"] = "229181,229177"; -- Cauldron of Carnage (Flarendo y Torq)
+enc["3011"] = "228648"; -- Rik Reverb
+enc["3012"] = "230322"; -- Stix Bunkjunker
+enc["3013"] = "230583"; -- Sprocketmonger Lockenstock
+enc["3014"] = "228458"; -- The One-Armed Bandit
+enc["3015"] = "229953"; -- Mug'Zee, Heads of Security
+enc["3016"] = "231075"; -- Chrome King Gallywix
+
+-- Manaforge Omega (2810)
+enc["3122"] = "237661,237660,237662"; -- The Soul Hunters (las tres cazadoras)
+enc["3129"] = "233814"; -- Plexus Sentinel
+enc["3130"] = "233816"; -- Soulbinder Naazindhri
+enc["3131"] = "233815"; -- Loom'ithar
+enc["3132"] = "233817"; -- Forgeweaver Araz
+enc["3133"] = "237861"; -- Fractillus
+enc["3134"] = "237763"; -- Nexus-King Salhadaar
+enc["3135"] = "241517,234478,233824"; -- Dimensius, the All-Devouring (P1/P2/P3)
+
 P.enc = enc;
