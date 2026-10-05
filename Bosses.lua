@@ -494,10 +494,17 @@ function salidaEnPantalla(linea, nueva)
 				BossesConfig.framePos = { point = punto, rel = relativo or punto, x = x or 0, y = y or 0 };
 			end
 		end);
-		-- Botón X de cierre (además de la tecla ESC)
-		local cerrar = CreateFrame("Button", nil, alertaFrame, "UIPanelCloseButtonTemplate");
-		cerrar:SetSize(20, 20);
+		-- Botón X de cierre (además de la tecla ESC). Sin plantilla:
+		-- UIPanelCloseButtonTemplate no existe en Midnight 12.1.
+		local cerrar = CreateFrame("Button", nil, alertaFrame);
+		cerrar:SetSize(18, 18);
 		cerrar:SetPoint("TOPRIGHT", -6, -6);
+		cerrar:SetNormalFontObject("GameFontHighlightLarge");
+		cerrar:SetText("×");
+		local resalteCerrar = cerrar:CreateTexture(nil, "HIGHLIGHT");
+		resalteCerrar:SetAllPoints(cerrar);
+		resalteCerrar:SetColorTexture(1, 0.4, 0.4, 0.3);
+		cerrar:SetHighlightTexture(resalteCerrar);
 		cerrar:SetScript("OnClick", function()
 			if alertaOcultar ~= nil then
 				alertaOcultar:Cancel();
