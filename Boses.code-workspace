@@ -27,7 +27,8 @@
 			"GetUnitName",
 			"AddonCompartmentFrame",
 			"DEFAULT_CHAT_FRAME",
-			"UNKNOWNOBJECT"
+			"UNKNOWNOBJECT",
+			"UISpecialFrames"
 		]
 	}
 }

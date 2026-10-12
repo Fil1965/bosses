@@ -433,7 +433,7 @@ pack["47901"] = { "Unidad de contención demoníaca",
     "* Estos monstruos deben de matarse con todo el grupo en piña sobre el tanque para repartir el daño del |cff71d5ff|Hspell:89348|h[Rayo repelente de demonios]|h|r."
 };
 
-pack["47120"] = { "Argaloth 10",
+pack["47120"] = { "Argaloth",
     "* En 10 se montan 2 grupos, cada uno con 1 tanque, 1 sanador y 3 DPS.",
     "* Cada grupo se pondrá a uno de los lados del Argaloth. Y permanecerá formando piña encima del tanque para repartir el daño.",
     "* Después de cada |cff71d5ff|Hspell:88942|h[Tajo meteórico]|h|r los tanques se intercambiarán el jefe.",
@@ -449,14 +449,14 @@ pack["47120"] = { "Argaloth 10",
 -- El Bastión del Crepúsculo : Zona 5334 --
 -- ------------------------------------- --
 
-pack["44600"] = { "Halfus Rompevermis 10",
+pack["44600"] = { "Halfus Rompevermis",
     "* Prioridades: Celador del Tiempo, Jinete de tormentas, Sucesor Abisal, Alga esmeralda huérfana, Dragón de Pizarra.",
     "* Idealmente el mt tanquea Halfus y uno de los dragones, mientras que el OT tanquea otro.",
     "* Los dragones se matan encima del bos para aprovechar todo el daño.",
     "* Si tenemos el dragón de pizarra tendremos que cambiar el boss cada 4 ticks de |cff71d5ff|Hspell:39171|h[Golpes malévolos]|h|r"
 };
 
-pack["45992"] = { "Valiona 10",
+pack["45992"] = { "Valiona",
     "* Theralion irá tirando |cff71d5ff|Hspell:92909|h[Llamas portentosas]|h|r por lo que estaremos separados hasta el primer ataque de Valiona.",
     "* Cuando un pj reciba |cff71d5ff|Hspell:92878|h[Desmayo]|h|r él y toda la party (menos el tanque) se ponen en la cola del boss, cuando estan todos se dispelea para repartir el daño. ",
     "* Cuando tire |cff71d5ff|Hspell:92873|h[Llamas devoradoras]|h|r todo el mundo se pone detrás del boss para evitar el daño. ",
@@ -464,7 +464,7 @@ pack["45992"] = { "Valiona 10",
     "  a los 5 segundos un misil meterá a los que estén en el reino crepuscular, del que hay que salir yendo al portal rosa sin tocar las bolas rosas del suelo."
 };
 
-pack["45993"] = { "Theralion 10",
+pack["45993"] = { "Theralion",
     "* Valiona usará |cff71d5ff|Hspell:92861|h[Meteorito Crepuscular]|h|r mientras vuela, que funciona de forma similar al desmayo.",
     "  Pondrá una marca al jugador afectado y a los 3 segundos activará 150Ks de daño que se reparten a los pjs cercanos. Con 5 es suficiente.",
     "* /script |cff71d5ff|Hspell:92909|h[Llamas portentosas]|h|r pondrá un área morada debajo de un pj que evitaremos.",
@@ -475,44 +475,44 @@ pack["45993"] = { "Theralion 10",
 
 -- Consejo crepuscular
 
-pack["43686"] = { "Ignacious <Señor ascendiente> 10",
+pack["43686"] = { "Ignacious",
     "FASE 1",
     "* Se tanquea en un extremo de la habitación con 1 tanque y los DPS cuerpo a cuerpo detras del jefe.",
     "* Los jugadores que reciban |cff71d5ff|Hspell:82660|h[Sangre ardiente]|h|r se colocarán cerca de los DPS a rango de Feludius para aunmentar el daño que hacen mientras dure el bufo.",
     "* Cuando haga |cff71d5ff|Hspell:92521|h[Salto inferno]|h|r sobre un jugador, al volver dejará un surco en el suelo que tenemos que pisar cuando tengamos el efecto de |cff71d5ff|Hspell:82762|h[Calado]|h|r que pone la |cff71d5ff|Hspell:82700|h[Bomba de agua]|h|r.",
 };
 
-pack["43687"] = { "Feludius <Señor ascendiente> 10",
+pack["43687"] = { "Feludius",
     "FASE 1",
     "* Se tanquea en el extremo opuesto a Ignacious, con 1 tanque. Los DPS a rango se colocan alejados del jefe y separados entre si.",
     "* Los jugadores que reciban |cff71d5ff|Hspell:82667|h[Corazón de hielo]|h|r se colocarán cerca de los DPS cuerpo a cuerpo de Ignacious para aunmentar el daño que hacen mientras dure el bufo.",
     "* Hay que interrumpir el lanzamiento de |cff71d5ff|Hspell:92509|h[Hidrolanza]|h|r o matará uno de los jugadores.",
 };
 
-pack["43688"] = { "Arion <Señor ascendiente> 10",
+pack["43688"] = { "Arion",
     "FASE 2",
 };
 
-pack["43689"] = { "Terrastra <Señor ascendiente> 10",
+pack["43689"] = { "Terrastra",
     "FASE 2",
 };
 
-pack["43735"] = { "Monstruosidad de elementium 10",
+pack["43735"] = { "Monstruosidad de elementium",
     "FASE 3",
     "* Hero, ansia, etc... deben guardarse para esta fase que es una carrera de DPS",
 };
 
-pack["43324"] = { "Cho'gall 10",
+pack["43324"] = { "Cho'gall",
 };
 
-pack["45213"] = { "Sinestra 10",
+pack["45213"] = { "Sinestra",
 };
 
 -- --------------------------------------- --
 -- Trono de los Cuatro Vientos : Zona 5638 -- Canario
 -- --------------------------------------- --
 
-pack["45870"] = { "Anshal <Señor del viento del oeste (Izq)> 4,120,000  R10",
+pack["45870"] = { "Anshal",
     "NOTAS GENERALES",
     "Este encuentro consiste en 3 Señores elementales Anshal, Nezir y Rohash con un enrage de 8 minutos",
     "Hay que matarlos a los tres con una diferencia máxima de un minuto sino resucitan",
@@ -526,14 +526,14 @@ pack["45870"] = { "Anshal <Señor del viento del oeste (Izq)> 4,120,000  R10",
     "Especial: |cff71d5ff|Hspell:84638|h[Céfiro]|h|r evitar que haya trepadores antes de la habilidad especial",
 };
 
-pack["45872"] = { "Rohash <Señor del viento del este (Der)> 4,120,000  R10",
+pack["45872"] = { "Rohash",
     "Habilidades:",
     "|cff71d5ff|Hspell:86193|h[Explosión de viento]|h|r, esta es su habilidad más peligrosa aquel que esté enfrente de él cuando la use saldrá empujado a 200metros",
     "|cff71d5ff|Hspell:86182|h[Vendaval cortante]|h|r, ataque a distacia",
     "Especial: |cff71d5ff|Hspell:86481|h[Huracán]|h|r el daño más grande es el de la caida (unos 70ks) por lo que todo el que pueda deberá usar sus habilidades forma de gato, caida lenta, etc"
 };
 
-pack["45871"] = { "Nezir  <Señor del viento del Norte (Fondo)> 7,210,000  R10",
+pack["45871"] = { "Nezir",
     "Habilidades:",
     "|cff71d5ff|Hspell:86082|h[Escarcha permanente]|h|r, lo que obliga a permanecer separados",
     "|cff71d5ff|Hspell:93130|h[Zona de hielo]|h|r, salir INMEDIATAMENTE de su área de efecto",
@@ -548,25 +548,25 @@ pack["45871"] = { "Nezir  <Señor del viento del Norte (Fondo)> 7,210,000  R10",
 -- El Fin de los Tiempos : Zona 938 --
 -- ------------------------------------ --
 
-pack["54431"] = { "Eco de Baine (End Time)",
+pack["54431"] = { "Eco de Baine",
     "* |cff71d5ff|Hspell:-4140|h[Pulverize]|h|r aplasta: tanque y healers atentos.",
     "* Los tótems de |cff71d5ff|Hspell:-4141|h[Throw Totem]|h|r son prioridad.",
 };
 
-pack["54445"] = { "Eco de Jaina (End Time)",
+pack["54445"] = { "Eco de Jaina",
     "* |cff71d5ff|Hspell:-3641|h[Blink]|h|r: se teletransporta, atento a la nueva posición.",
 };
 
-pack["54432"] = { "Murozond (End Time)",
+pack["54432"] = { "Murozond",
     "* Esquiva las |cff71d5ff|Hspell:-3676|h[Distortion Bomb]|h|r.",
     "* Último jefe de la mazmorra: guarda las defensas para el final.",
 };
 
-pack["54123"] = { "Eco de Sylvanas (End Time)",
+pack["54123"] = { "Eco de Sylvanas",
     "* El |cff71d5ff|Hspell:-3951|h[Shriek of the Highborne]|h|r: daño masivo, curas listas.",
 };
 
-pack["54544"] = { "Eco de Tyrande (End Time)",
+pack["54544"] = { "Eco de Tyrande",
     "* |cff71d5ff|Hspell:-4207|h[Dark Moonlight]|h|r: cuidado con la luna oscura.",
 };
 
@@ -574,19 +574,19 @@ pack["54544"] = { "Eco de Tyrande (End Time)",
 -- La Hora del Crepúsculo : Zona 940 --
 -- ---------------------------------- --
 
-pack["54590"] = { "Arcurion (Hour of Twilight)",
+pack["54590"] = { "Arcurion",
     "* |cff71d5ff|Hspell:102582|h[Chains of Frost]|h|r encadena: cuidado con el hielo.",
     "* El metido en el |cff71d5ff|Hspell:103252|h[Icy Tomb]|h|r hay que sacarle rompiendo el hielo.",
     "* |cff71d5ff|Hspell:104050|h[Torrent of Frost]|h|r: daño de banda, curas.",
 };
 
-pack["54968"] = { "Asira Dawnslayer (Hour of Twilight)",
+pack["54968"] = { "Asira Puñal del Alba",
     "* El marcado por |cff71d5ff|Hspell:102726|h[Mark of Silence]|h|r pierde las curas: disipad.",
     "* |cff71d5ff|Hspell:103558|h[Choking Smoke Bomb]|h|r: humo que aturde, sal de él.",
     "* |cff71d5ff|Hspell:103419|h[Blade Barrier]|h|r: no lo cruces.",
 };
 
-pack["54938"] = { "Arzobispo Benedictus (Hour of Twilight)",
+pack["54938"] = { "Arzobispo Benedictus",
     "* Dos fases: la Luz y la Sombra.",
     "* El marcado por |cff71d5ff|Hspell:103151|h[Righteous Shear]|h|r o |cff71d5ff|Hspell:103363|h[Twilight Shear]|h|r debe gritarlo (SAY) y alejarse.",
     "* |cff71d5ff|Hspell:103565|h[Purifying Light]|h|r y |cff71d5ff|Hspell:103767|h[Corrupting Twilight]|h|r: fuera de las zonas.",
@@ -597,20 +597,20 @@ pack["54938"] = { "Arzobispo Benedictus (Hour of Twilight)",
 -- --------------------------------- --
 
 bos = {
-    "Reina Azshara (Well of Eternity)",
+    "Reina Azshara",
     "* Los magos encantados son prioridad antes que ella.",
     "* |cff71d5ff|Hspell:-3969|h[Total Obedience]|h|r: casteo largo, interrumpid.",
 };
 pack["54853"] = bos; pack["54884"] = bos; pack["54882"] = bos; pack["54883"] = bos;
 
 bos = {
-    "Mannoroth y Varo'then (Well of Eternity)",
+    "Mannoroth y Varo'then",
     "* |cff71d5ff|Hspell:-4287|h[Nether Portal]|h|r: cuidado con lo que sale del portal.",
     "* El tanque aguanta a Mannoroth; Varo'then muere rápido.",
 };
 pack["54969"] = bos; pack["55419"] = bos;
 
-pack["55085"] = { "Peroth'arn (Well of Eternity)",
+pack["55085"] = { "Peroth'arn",
     "* |cff71d5ff|Hspell:105544|h[Fel Decay]|h|r: debuff importante, curas.",
     "* En la fase sigilosa NO te muevas cuando envía los ojos.",
     "* El marcado por |cff71d5ff|Hspell:105493|h[Easy Prey]|h|r es vulnerable: full DPS.",
@@ -620,14 +620,14 @@ pack["55085"] = { "Peroth'arn (Well of Eternity)",
 -- Throne of the Tides (remasterizada) : Zona 643 --
 -- --------------------------------------------- --
 
-pack["40788"] = { "Mindbender Ghur'sha (Throne of the Tides)",
+pack["40788"] = { "Dominamentes Ghur'sha",
     "* Fase de Erunak: |cff71d5ff|Hspell:429051|h[Earthfury]|h|r y los tótems de |cff71d5ff|Hspell:429037|h[Stormflurry Totem]|h|r, uno a uno.",
     "* |cff71d5ff|Hspell:429172|h[Terrifying Vision]|h|r castea largo: interrumpid.",
     "* El |cff71d5ff|Hspell:429048|h[Flame Shock]|h|r se disipa.",
 };
 
 bos = {
-    "Ozumat (Throne of the Tides)",
+    "Ozumat",
     "* El marcado por |cff71d5ff|Hspell:428407|h[Blotting Barrage]|h|r debe apartarse (SAY).",
     "* |cff71d5ff|Hspell:428594|h[Deluge of Filth]|h|r: cuidado con el diluvio de suciedad.",
     "* |cff71d5ff|Hspell:428889|h[Foul Bolt]|h|r es del tanque; Neptulon os ayuda con su flujo.",
@@ -638,7 +638,7 @@ pack["44566"] = bos; pack["213770"] = bos;
 -- Eventos y festividades --
 -- --------------------------------------------- --
 
-pack["23870"] = { "Coren Cerveza Temible (Cerveza)",
+pack["23870"] = { "Coren Cerveza Temible",
     "* Tanque: controla rápido a Coren y sus ayudantes para que no pegen a telas ni a DPS ligeros.",
     "* Adds: mata primero a los esbirros que invoca para reducir el daño del grupo.",
     "* Las jarras de cerveza de las mesas: lánzalas o úsalas para mejoras temporales de daño o para mitigar los perjuicios del jefe.",

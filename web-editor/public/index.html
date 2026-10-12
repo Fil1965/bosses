@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bosses · Editor de packs</title>
+<!-- Tailwind por CDN: sin build. Tema oscuro con dorados según el frame de alerta del addon -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+	tailwind.config = {
+		theme: {
+			extend: {
+				colors: {
+					wow: { gold: "#d1a345", dark: "#0d0d11", panel: "#16161c", panel2: "#1d1d25", edge: "#2b2b35" },
+				},
+				fontFamily: { ui: ["Friz Quadrata TT", "Georgia", "serif"] },
+			},
+		},
+	};
+</script>
+<style>
+	/* marcos estilo tooltip del addon: borde dorado fino y remates */
+	.frame { border: 1px solid #3b3421; border-radius: 6px; box-shadow: 0 0 0 1px #0008, inset 0 0 0 1px #d1a34522; }
+	.golddiv { height: 2px; background: linear-gradient(90deg, transparent, #d1a34588 20%, #d1a345aa 50%, #d1a34588 80%, transparent); }
+	textarea, input, select { background: #101015; }
+	label.tab { cursor: pointer; }
+	.spellchip { border-bottom: 1px dotted #7cb3ff; color: #7cb3ff; }
+	::-webkit-scrollbar { width: 10px; height: 10px; }
+	::-webkit-scrollbar-thumb { background: #2b2b35; border-radius: 5px; }
+	::-webkit-scrollbar-track { background: #0d0d11; }
+</style>
+</head>
+<body class="bg-wow-dark text-slate-200 h-screen flex flex-col overflow-hidden">
+
+<!-- Cabecera dorada: identidad del addon + estado del editor -->
+<header class="shrink-0 px-4 py-3 flex items-center gap-4 bg-wow-panel border-b border-wow-edge">
+	<div class="font-ui text-xl tracking-wide text-wow-gold select-none">BOSSES <span class="text-slate-400 text-sm font-sans -ml-1">· editor de packs</span></div>
+	<div class="golddiv w-40"></div>
+	<div id="meta" class="text-xs text-slate-400 flex gap-3 items-center"></div>
+	<div class="flex-1"></div>
+	<button id="btnHelp" class="text-xs px-2 py-1 rounded border border-wow-edge hover:border-wow-gold text-slate-300">?</button>
+</header>
+
+<main class="flex-1 flex overflow-hidden">
+
+	<!-- Barra lateral: packs, idiomas, filtro y lista de entradas -->
+	<aside class="w-96 shrink-0 flex flex-col border-r border-wow-edge bg-wow-panel">
+		<div class="p-3 space-y-3">
+			<div class="flex gap-2">
+				<select id="packSel" class="flex-1 rounded border border-wow-edge px-2 py-1.5 text-sm"></select>
+			</div>
+			<div id="langTabs" class="flex gap-1"></div>
+			<input id="filtro" placeholder="filtrar por id o nombre…" class="w-full rounded border border-wow-edge px-2 py-1.5 text-sm focus:border-wow-gold outline-none">
+		</div>
+		<div id="lista" class="flex-1 overflow-y-auto px-2 pb-2 space-y-0.5"></div>
+		<div class="p-3 border-t border-wow-edge flex flex-wrap gap-2 items-center">
+			<button id="btnNueva" class="text-sm px-3 py-1.5 rounded bg-wow-gold/90 text-black font-medium hover:bg-wow-gold">＋ nueva entrada</button>
+			<button id="btnCobertura" class="text-xs px-2 py-1.5 rounded border border-wow-edge hover:border-wow-gold text-slate-300" title="coteja las tácticas del pack contra las habilidades del diario (heurístico por nombre)">📋 cobertura</button>
+			<span id="cuentaLista" class="text-xs text-slate-500 ml-auto"></span>
+		</div>
+	</aside>
+
+	<!-- Principal: banner de media + editor + vista previa. El banner SIEMPRE está
+	     (con imagen del diario o fondo genérico) para que el contenido no salte -->
+	<section class="flex-1 flex flex-col overflow-y-auto">
+		<div id="banner" class="relative shrink-0 h-28 bg-cover bg-center bg-wow-panel2 border-b border-black/40"></div>
+		<div id="editorWrap" class="flex-1 p-4 grid gap-4 xl:grid-cols-[1fr_340px]">
+			<div class="space-y-4 min-w-0">
+				<div id="cabeceraEntrada" class="frame p-3 bg-wow-panel"></div>
+				<div class="frame p-3 bg-wow-panel">
+					<div class="flex items-center mb-2">
+						<h2 class="font-ui text-wow-gold text-sm tracking-wide">EXPLICACIÓN</h2>
+						<div class="flex-1"></div>
+						<button id="btnPicker" class="text-xs px-2 py-1 rounded border border-wow-edge hover:border-wow-gold">＋ spell</button>
+					</div>
+					<div id="lineas" class="space-y-2"></div>
+					<button id="btnAnadeLinea" class="mt-2 text-xs px-2 py-1 rounded border border-dashed border-wow-edge hover:border-wow-gold text-slate-400">＋ línea</button>
+				</div>
+			</div>
+			<aside class="space-y-4 min-w-0">
+				<div id="referencia" class="frame p-3 bg-wow-panel"></div>
+				<div id="preview" class="frame p-3 bg-wow-panel"></div>
+				<div id="diario" class="frame p-3 bg-wow-panel"></div>
+				<div class="frame p-3 bg-wow-panel">
+					<button id="btnGuardar" class="w-full py-2 rounded bg-wow-gold/90 text-black font-semibold hover:bg-wow-gold disabled:opacity-40" disabled>Guardar</button>
+					<div id="estadoGuardado" class="text-xs text-slate-500 mt-2 text-center h-4"></div>
+				</div>
+			</aside>
+		</div>
+		<div id="editorVacio" class="flex-1 grid place-items-center text-slate-500 text-sm"></div>
+	</section>
+</main>
+
+<!-- Modal del picker de spells -->
+<div id="spellModal" class="fixed inset-0 hidden bg-black/70 z-50">
+	<div class="mx-auto mt-24 w-[560px] frame bg-wow-panel p-4">
+		<h3 class="font-ui text-wow-gold mb-2">Insertar enlace de spell</h3>
+		<div class="text-xs text-slate-400 mb-2">Busca por id (ej. <code>93712</code>) o por nombre del índice local de los packs. El enlace sale formateado <code>|cff71d5ff|Hspell:ID|h[Nombre]|h|r</code> con cierre verificado.</div>
+		<input id="spellQ" placeholder="buscar spell…" class="w-full rounded border border-wow-edge px-2 py-1.5 text-sm focus:border-wow-gold outline-none">
+		<div id="spellRes" class="mt-2 max-h-72 overflow-y-auto divide-y divide-wow-edge"></div>
+		<div class="mt-3 flex items-center gap-2 text-xs text-slate-400">
+			<input id="spellManual" placeholder="…o id manual" class="w-40 rounded border border-wow-edge px-2 py-1 text-sm">
+			<input id="spellManualName" placeholder="nombre [opcional]" class="flex-1 rounded border border-wow-edge px-2 py-1 text-sm">
+			<button id="spellManualBtn" class="px-2 py-1 rounded border border-wow-edge hover:border-wow-gold">insertar</button>
+		</div>
+		<button id="spellClose" class="mt-3 text-xs text-slate-500 hover:text-slate-300">cerrar (Esc)</button>
+	</div>
+</div>
+
+<!-- Modal "nueva entrada" -->
+<div id="nuevaModal" class="fixed inset-0 hidden bg-black/70 z-50">
+	<div class="mx-auto mt-40 w-[420px] frame bg-wow-panel p-4">
+		<h3 class="font-ui text-wow-gold mb-2">Nueva entrada</h3>
+		<div class="text-xs text-slate-400 mb-2">Número decimal del NPC (campo 6 del GUID). Se creará al guardar.</div>
+		<input id="nuevaId" placeholder="NPC id, ej. 23576" class="w-full rounded border border-wow-edge px-2 py-1.5 text-sm">
+		<div id="nuevaErr" class="text-xs text-red-400 mt-1 h-4"></div>
+		<div class="mt-3 flex gap-2">
+			<button id="nuevaOk" class="px-3 py-1.5 rounded bg-wow-gold/90 text-black font-medium">crear</button>
+			<button id="nuevaClose" class="px-3 py-1.5 rounded border border-wow-edge">cancelar</button>
+		</div>
+	</div>
+</div>
+
+<!-- Modal "cobertura táctica" -->
+<div id="coberturaModal" class="fixed inset-0 hidden bg-black/70 z-50">
+	<div class="mx-auto mt-20 w-[680px] max-h-[75vh] frame bg-wow-panel p-4 flex flex-col">
+		<h3 class="font-ui text-wow-gold mb-2">Cobertura táctica del pack</h3>
+		<div class="text-xs text-slate-400 mb-2">Coteja las habilidades del diario contra el texto y los spells enlazados de cada entrada. Heurístico por nombre: señala dónde mirar, no sustituye tu criterio — un "falta" puede ser una habilidad menor o algo ya cubierto con otras palabras.</div>
+		<div id="coberturaRes" class="overflow-y-auto space-y-1 text-sm pr-1"></div>
+		<button id="coberturaClose" class="mt-3 text-xs text-slate-500 hover:text-slate-300 self-start">cerrar (Esc)</button>
+	</div>
+</div>
+
+<div id="toast" class="fixed bottom-4 right-4 z-50 space-y-2"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,3 +1,6 @@
 _backups/
 _doc/
 node_modules/
+web-editor/_cache/
+.npm-cache/
+_nombres/

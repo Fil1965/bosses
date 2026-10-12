@@ -15,7 +15,7 @@ import { parseEntries } from "./_parser-pack.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC = path.resolve(__dirname, "..");
-const PACKS = ["Bosses_Cata", "Bosses_Midnight", "Bosses_TWW"];
+const PACKS = ["Bosses_Cata", "Bosses_Midnight", "Bosses_MoP", "Bosses_TWW"];
 const strict = process.argv.includes("--estricto");
 
 let totalPend = 0;

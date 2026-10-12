@@ -1,0 +1,13 @@
+## Interface: 120100, 50504, 20506, 11509
+## Title: Bosses - Mists of Pandaria
+## Notes: Boss explanations for Mists of Pandaria raids, dungeons and world bosses (ES/EN)
+## Notes-esES: Explicaciones de las bandas, mazmorras y jefes de mundo de Mists of Pandaria (ES/EN)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 1.0.7
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Bosses
+Bosses_MoP_es.lua
+Bosses_MoP_en.lua
+Bosses_MoP_enc.lua
+Bosses_MoP_zonas.lua
+Bosses_MoP.lua

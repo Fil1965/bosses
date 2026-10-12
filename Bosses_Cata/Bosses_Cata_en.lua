@@ -425,7 +425,7 @@ pack["47901"] = { "Demon Containment Unit",
 	"* These monsters must be killed by the whole group stacked on the tank to spread the damage from the |cff71d5ff|Hspell:89348|h[Demon-repelling Ray]|h|r."
 };
 
-pack["47120"] = { "Argaloth (10)",
+pack["47120"] = { "Argaloth",
 	"* On 10 you set up 2 groups, each with 1 tank, 1 healer and 3 DPS.",
 	"* Each group stands on one side of Argaloth and stays stacked on the tank to spread the damage.",
 	"* After each |cff71d5ff|Hspell:88942|h[Meteor Slash]|h|r the tanks swap the boss.",
@@ -437,14 +437,14 @@ pack["47120"] = { "Argaloth (10)",
 -- Bastion of Twilight : Zone 5094/5334 --
 -- -------------------------------------- --
 
-pack["44600"] = { "Halfus Wyrmbreaker (10)",
+pack["44600"] = { "Halfus Wyrmbreaker",
 	"* Priorities: Time Warden, Storm Rider, Abyssal Successor, Orphaned Emerald Whelp, Slate Dragon.",
 	"* Ideally the MT tanks Halfus and one of the dragons, while the OT tanks another.",
 	"* Kill the dragons on top of the boss to take advantage of all the damage.",
 	"* If we have the Slate Dragon we must swap the boss every 4 ticks of |cff71d5ff|Hspell:39171|h[Malevolent Strikes]|h|r."
 };
 
-pack["45992"] = { "Valiona (10)",
+pack["45992"] = { "Valiona",
 	"* Theralion will cast |cff71d5ff|Hspell:92909|h[Fabulous Flames]|h|r, so stay spread out until Valiona's first attack.",
 	"* When a player receives |cff71d5ff|Hspell:92878|h[Blackout]|h|r they and the whole party (except the tank) stand at the boss's tail; once everyone is there it gets dispelled to spread the damage.",
 	"* When he casts |cff71d5ff|Hspell:92873|h[Devouring Flames]|h|r everyone stands behind the boss to avoid the damage.",
@@ -452,7 +452,7 @@ pack["45992"] = { "Valiona (10)",
 	"  5 seconds later a missile will pull those in the Twilight Realm, which you leave by going to the pink portal without touching the pink balls on the floor."
 };
 
-pack["45993"] = { "Theralion (10)",
+pack["45993"] = { "Theralion",
 	"* Valiona will use |cff71d5ff|Hspell:92861|h[Twilight Meteorite]|h|r while flying, which works like Blackout.",
 	"  She will mark the affected player and after 3 seconds trigger 150K damage spread among nearby players. 5 is enough.",
 	"* |cff71d5ff|Hspell:92909|h[Fabulous Flames]|h|r will place a purple area under a player that we avoid.",
@@ -463,44 +463,44 @@ pack["45993"] = { "Theralion (10)",
 
 -- Twilight Council
 
-pack["43686"] = { "Ignacious <Ascendant Council> (10)",
+pack["43686"] = { "Ignacious",
 	"STAGE 1",
 	"* Tanked at one end of the room with 1 tank and the melee DPS behind the boss.",
 	"* Players who receive |cff71d5ff|Hspell:82660|h[Burning Blood]|h|r will stand near Feludius's ranged DPS to increase the damage they do while the buff lasts.",
 	"* When he does |cff71d5ff|Hspell:92521|h[Inferno Leap]|h|r on a player, on landing he leaves a groove on the floor that we step on when we have the |cff71d5ff|Hspell:82762|h[Drench]|h|r effect from the |cff71d5ff|Hspell:82700|h[Water Bomb]|h|r.",
 };
 
-pack["43687"] = { "Feludius <Ascendant Council> (10)",
+pack["43687"] = { "Feludius",
 	"STAGE 1",
 	"* Tanked at the opposite end from Ignacious, with 1 tank. Ranged DPS stand away from the boss and spread out from each other.",
 	"* Players who receive |cff71d5ff|Hspell:82667|h[Heart of Ice]|h|r will stand near Ignacious's melee DPS to increase the damage they do while the buff lasts.",
 	"* |cff71d5ff|Hspell:92509|h[Hydro Lance]|h|r must be interrupted or it will kill one of the players.",
 };
 
-pack["43688"] = { "Arion <Ascendant Council> (10)",
+pack["43688"] = { "Arion",
 	"STAGE 2",
 };
 
-pack["43689"] = { "Terrastra <Ascendant Council> (10)",
+pack["43689"] = { "Terrastra",
 	"STAGE 2",
 };
 
-pack["43735"] = { "Elementium Monstrosity (10)",
+pack["43735"] = { "Elementium Monstrosity",
 	"STAGE 3",
 	"* Hero, lust, etc... must be saved for this phase, which is a DPS race",
 };
 
-pack["43324"] = { "Cho'gall (10)",
+pack["43324"] = { "Cho'gall",
 };
 
-pack["45213"] = { "Sinestra (10)",
+pack["45213"] = { "Sinestra",
 };
 
 -- ------------------------------------------------- --
 -- Throne of the Four Winds : Zone 5638 --
 -- ------------------------------------------------- --
 
-pack["45870"] = { "Anshal <Lord of the West Wind (Left)> (10)",
+pack["45870"] = { "Anshal",
 	"GENERAL NOTES",
 	"This encounter consists of 3 elemental lords, Anshal, Nezir and Rohash, with an 8 minute enrage",
 	"All three must be killed with a maximum difference of one minute or they resurrect",
@@ -514,14 +514,14 @@ pack["45870"] = { "Anshal <Lord of the West Wind (Left)> (10)",
 	"Special: |cff71d5ff|Hspell:84638|h[Zephyr]|h|r - make sure there are no creepers before the special ability",
 };
 
-pack["45872"] = { "Rohash <Lord of the East Wind (Right)> (10)",
+pack["45872"] = { "Rohash",
 	"Abilities:",
 	"|cff71d5ff|Hspell:86193|h[Wind Blast]|h|r, his most dangerous ability; whoever is in front of him when he uses it will be pushed back 200 meters",
 	"|cff71d5ff|Hspell:86182|h[Slicing Gale]|h|r, ranged attack",
 	"Special: |cff71d5ff|Hspell:86481|h[Hurricane]|h|r - the biggest damage is from the fall (about 70Ks), so everyone who can should use cat form, slow fall, etc"
 };
 
-pack["45871"] = { "Nezir <Lord of the North Wind (Back)> (10)",
+pack["45871"] = { "Nezir",
 	"Abilities:",
 	"|cff71d5ff|Hspell:86082|h[Permafrost]|h|r, which forces you to stay spread out",
 	"|cff71d5ff|Hspell:93130|h[Ice Patch]|h|r, leave its area of effect IMMEDIATELY",
@@ -537,25 +537,25 @@ pack["45871"] = { "Nezir <Lord of the North Wind (Back)> (10)",
 -- End Time : Zone 938 --
 -- -------------------------------- --
 
-pack["54431"] = { "Echo of Baine (End Time)",
+pack["54431"] = { "Echo of Baine",
 	"* |cff71d5ff|Hspell:-4140|h[Pulverize]|h|r slams: tanks and healers beware.",
 	"* The totems from |cff71d5ff|Hspell:-4141|h[Throw Totem]|h|r are a priority.",
 };
 
-pack["54445"] = { "Echo of Jaina (End Time)",
+pack["54445"] = { "Echo of Jaina",
 	"* |cff71d5ff|Hspell:-3641|h[Blink]|h|r: she teleports, mind her new position.",
 };
 
-pack["54432"] = { "Murozond (End Time)",
+pack["54432"] = { "Murozond",
 	"* Dodge the |cff71d5ff|Hspell:-3676|h[Distortion Bomb]|h|r.",
 	"* Final boss of the dungeon: keep your defensives for the end.",
 };
 
-pack["54123"] = { "Echo of Sylvanas (End Time)",
+pack["54123"] = { "Echo of Sylvanas",
 	"* The |cff71d5ff|Hspell:-3951|h[Shriek of the Highborne]|h|r: heavy damage, heals ready.",
 };
 
-pack["54544"] = { "Echo of Tyrande (End Time)",
+pack["54544"] = { "Echo of Tyrande",
 	"* Mind the |cff71d5ff|Hspell:-4207|h[Dark Moonlight]|h|r.",
 };
 
@@ -563,19 +563,19 @@ pack["54544"] = { "Echo of Tyrande (End Time)",
 -- Hour of Twilight : Zone 940 --
 -- --------------------------------- --
 
-pack["54590"] = { "Arcurion (Hour of Twilight)",
+pack["54590"] = { "Arcurion",
 	"* |cff71d5ff|Hspell:102582|h[Chains of Frost]|h|r chains you; break free.",
 	"* Free the player trapped in the |cff71d5ff|Hspell:103252|h[Icy Tomb]|h|r by breaking it.",
 	"* |cff71d5ff|Hspell:104050|h[Torrent of Frost]|h|r: raid damage, heals.",
 };
 
-pack["54968"] = { "Asira Dawnslayer (Hour of Twilight)",
+pack["54968"] = { "Asira Dawnslayer",
 	"* The player marked by |cff71d5ff|Hspell:102726|h[Mark of Silence]|h|r loses healing: dispel it.",
 	"* |cff71d5ff|Hspell:103558|h[Choking Smoke Bomb]|h|r: stunning smoke, step out.",
 	"* Don't cross the |cff71d5ff|Hspell:103419|h[Blade Barrier]|h|r.",
 };
 
-pack["54938"] = { "Archbishop Benedictus (Hour of Twilight)",
+pack["54938"] = { "Archbishop Benedictus",
 	"* Two stages: the Light and the Shadow.",
 	"* The player marked by |cff71d5ff|Hspell:103151|h[Righteous Shear]|h|r or |cff71d5ff|Hspell:103363|h[Twilight Shear]|h|r should call it out (SAY) and move away.",
 	"* |cff71d5ff|Hspell:103565|h[Purifying Light]|h|r and |cff71d5ff|Hspell:103767|h[Corrupting Twilight]|h|r: out of the areas.",
@@ -586,20 +586,20 @@ pack["54938"] = { "Archbishop Benedictus (Hour of Twilight)",
 -- --------------------------------- --
 
 bos = {
-	"Queen Azshara (Well of Eternity)",
+	"Queen Azshara",
 	"* The Enchanted Magi are the priority before her.",
 	"* |cff71d5ff|Hspell:-3969|h[Total Obedience]|h|r: long cast, interrupt it.",
 };
 pack["54853"] = bos; pack["54884"] = bos; pack["54882"] = bos; pack["54883"] = bos;
 
 bos = {
-	"Mannoroth and Varo'then (Well of Eternity)",
+	"Mannoroth and Varo'then",
 	"* Mind what comes out of the |cff71d5ff|Hspell:-4287|h[Nether Portal]|h|r.",
 	"* The tank holds Mannoroth; Varo'then dies quickly.",
 };
 pack["54969"] = bos; pack["55419"] = bos;
 
-pack["55085"] = { "Peroth'arn (Well of Eternity)",
+pack["55085"] = { "Peroth'arn",
 	"* |cff71d5ff|Hspell:105544|h[Fel Decay]|h|r: important debuff, heal it.",
 	"* In the stealth phase do NOT move when he sends the eyes.",
 	"* The player marked by |cff71d5ff|Hspell:105493|h[Easy Prey]|h|r is vulnerable: full DPS.",
@@ -609,14 +609,14 @@ pack["55085"] = { "Peroth'arn (Well of Eternity)",
 -- Throne of the Tides (remastered) : Zone 643 --
 -- ------------------------------------------------ --
 
-pack["40788"] = { "Mindbender Ghur'sha (Throne of the Tides)",
+pack["40788"] = { "Mindbender Ghur'sha",
 	"* Erunak phase: |cff71d5ff|Hspell:429051|h[Earthfury]|h|r and the |cff71d5ff|Hspell:429037|h[Stormflurry Totem]|h|r, one at a time.",
 	"* |cff71d5ff|Hspell:429172|h[Terrifying Vision]|h|r has a long cast: interrupt it.",
 	"* The |cff71d5ff|Hspell:429048|h[Flame Shock]|h|r gets dispelled.",
 };
 
 bos = {
-	"Ozumat (Throne of the Tides)",
+	"Ozumat",
 	"* The player marked by |cff71d5ff|Hspell:428407|h[Blotting Barrage]|h|r should move away (SAY).",
 	"* Watch out for the |cff71d5ff|Hspell:428594|h[Deluge of Filth]|h|r.",
 	"* |cff71d5ff|Hspell:428889|h[Foul Bolt]|h|r is a tank mechanic; Neptulon helps you with his flux.",
@@ -627,7 +627,7 @@ pack["44566"] = bos; pack["213770"] = bos;
 -- Events and holidays --
 -- --------------------------------------------- --
 
-pack["23870"] = { "Coren Direbrew (Brewfest)",
+pack["23870"] = { "Coren Direbrew",
 	"* Tank: grab Coren and his minions fast so they don't hit cloth or light-armor DPS.",
 	"* Adds: kill the minions he summons first to reduce group damage.",
 	"* The beer jugs on the tables: throw or use them for temporary damage buffs or to mitigate the boss's debuffs.",

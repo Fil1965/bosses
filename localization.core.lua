@@ -12,12 +12,14 @@ if GetLocale() == "enUS" then
     L["HELP5"] = "/bosses CANAL auto : Uses group or raid output";
     L["HELP6"] = "/bosses CANAL local : Uses local output";
     L["HELP7"] = "/bosses CANAL guild : Uses guild output";
-    L["HELP8"] = "/bosses IDIOMA auto|es|en : Language of the explanations";
+    L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de : Language of the explanations";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : debug log (WTF file); /bosses LOG [n] : show last lines";
     L["HELP10"] = "/bosses CANAL frame : Everything in the alert frame (only you)";
     L["Language"] = "Language";
     L["Spanish"] = "Spanish";
     L["English"] = "English";
+    L["French"] = "French";
+    L["German"] = "German";
     L["CanalGrupo"] = "Current group/raid";
     L["OutputNormal"] = "Normal output (only you)";
     L["CanalFrame"] = "Alert frame (only you)";
@@ -49,6 +51,8 @@ end
 -- todos los clientes.
 L["CortesiaES"] = "Explicación cortesía del addon Bosses";
 L["CortesiaEN"] = "Boss explanation courtesy of the Bosses addon";
+L["CortesiaFR"] = "Explication du boss offerte par l'addon Bosses";
+L["CortesiaDE"] = "Boss-Erklärung angeboten vom Addon Bosses";
 
 local function defaultFunc(L, key)
     -- Cuando no exista localización devolvemos la cadena por defecto que está en inglés

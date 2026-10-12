@@ -405,6 +405,10 @@ local function textoCortesia()
 		return L["CortesiaES"];
 	elseif idioma == "EN" then
 		return L["CortesiaEN"];
+	elseif idioma == "FR" then
+		return L["CortesiaFR"];
+	elseif idioma == "DE" then
+		return L["CortesiaDE"];
 	end
 	return L["Cortesia"]; -- AUTO: idioma del cliente
 end
@@ -583,9 +587,12 @@ function salidaEnPantalla(linea, nueva)
 		end);
 		-- Botón "al chat": reenvía la entrada del jefe en pantalla por la
 		-- ruta fría normal (reparto espaciado + firma — la vía del grito
-		-- de Coren). Solo se muestra fuera de combate y con un jefe
-		-- elegido desde el desplegable del minimapa: en combate el
-		-- cliente bloquea esos envíos y el botón se esconde.
+		-- de Coren). Se muestra fuera de combate (en combate el cliente
+		-- bloquea esos envíos) siempre que el frame lleve una entrada de
+		-- jefe: la fije el desplegable del minimapa o cualquier
+		-- explicación, la automática incluida (v1 solo lo armaba el
+		-- desplegable y tras un pull de mazmorra el dueño nunca veía el
+		-- botón).
 		local boton = CreateFrame("Button", nil, alertaFrame, "UIPanelButtonTemplate");
 		boton:SetSize(96, 22);
 		boton:SetPoint("BOTTOMRIGHT", -14, 12);
@@ -637,19 +644,29 @@ function ajustarAlturaAlerta()
 	alertaFrame:SetHeight(10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8 + alertaFrame.cuerpo:GetHeight() + pie);
 end
 
--- Visibilidad del botón "al chat": con un jefe en pantalla y fuera de la
--- zona de combate. Se reevalúa al elegir jefe en el desplegable y al
--- entrar o salir de combate.
+-- Visibilidad del botón "al chat": con un jefe en pantalla, fuera de la
+-- zona de combate y con un canal que de verdad escriba chat (con "solo
+-- frame" no hay adónde enviar — el botón no se muestra). Se reevalúa al
+-- fijar el jefe del frame (desplegable o explicación) y al entrar o
+-- salir de combate.
 local function actualizarBotonChat()
 	if alertaFrame == nil or alertaFrame.botonChat == nil then
 		return;
 	end
-	if frameNpcId ~= nil and not enZonaCaliente() then
+	if frameNpcId ~= nil and BossesConfig.CANAL ~= "FRAME" and not enZonaCaliente() then
 		alertaFrame.botonChat:Show();
 	else
 		alertaFrame.botonChat:Hide();
 	end
 	ajustarAlturaAlerta();
+end
+
+-- Vista de aviso al frame ("no descrito"): lo que queda en pantalla ya
+-- no es una entrada de jefe — soltar el jefe activo para que el botón
+-- "al chat" no reenvíe al jefe anterior con otra cosa delante.
+local function limpiarJefeFrame()
+	frameNpcId = nil;
+	actualizarBotonChat();
 end
 
 -- Envía la entrada completa y, si la emisión es compartida, añade la
@@ -662,10 +679,22 @@ end
 -- lo que la zona permita (nada en caliente, espaciado en frío) y las
 -- líneas que el pull caza se pierden para el grupo: el frame ya las
 -- llevaba. La antigua lineaEnCombate quedó RETIRADA con este modelo.
-local function enviarEntrada(entrada)
+local function enviarEntrada(entrada, npcId)
 	for i, c in ipairs(entrada) do
 		salidaEnPantalla(c, i == 1); -- la primera línea es el nombre: cabecera
 	end
+
+	-- El frame acaba de recibir la entrada completa: recordar de qué
+	-- jefe es, para el botón "al chat" — también en las explicaciones
+	-- automáticas (v1 solo lo armaba el desplegable y tras un pull de
+	-- mazmorra el dueño nunca veía el botón). En zona caliente el botón
+	-- sigue oculto; al salir del combate lo evalúa el
+	-- PLAYER_REGEN_ENABLED (que ya puso ultimoCombate a 0) y la ventana
+	-- de 15s del frame da margen para reenviar a mano. La decisión
+	-- "nada automático tras morir el jefe" queda intacta: esto es bajo
+	-- demanda del dueño.
+	frameNpcId = npcId;
+	actualizarBotonChat();
 
 	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
 		-- En combate (o en los pocos segundos que lo rodean) el cliente
@@ -792,11 +821,11 @@ end
 -- BossesAPI.register( nombre, tabla ). Formato de datos idéntico al de
 -- localization.*.lua:  Bosses["<NPC_ID>"] = { "Nombre", "* línea", ... }.
 --
--- Formato multilenguaje (recomendado):  { ES = {...}, EN = {...} }  con
--- ambas subtablas completas; el core elige la activa según
--- BossesConfig.IDIOMA (AUTO/ES/EN) en el ADDON_LOADED y en cada cambio
--- de idioma desde la configuración. Formato plano (legacy): una única
--- tabla, tal cual, sin cambiar de idioma.
+-- Formato multilenguaje (recomendado):  { ES = {...}, EN = {...} }  más las
+-- subtablas opcionales FR/DE (ficheros _fr/_de, creados por el editor web);
+-- el core elige la activa según BossesConfig.IDIOMA (AUTO/ES/EN/FR/DE) con
+-- cascada idioma → EN → ES. Formato plano (legacy): una única tabla, tal
+-- cual, sin cambiar de idioma.
 
 BossesAPI = BossesAPI or {};
 
@@ -850,20 +879,37 @@ local nombresEnc = nil;
 
 -- (Re)activa los packs: elige la tabla activa de cada pack multilenguaje
 -- según BossesConfig.IDIOMA. Requiere BossesConfig cargado; con nil usa AUTO.
+
+-- Tabla de idioma de un pack con cascada: la pedida si existe y, si no,
+-- EN → ES (el fallback inglés lo cubre todo; ES queda de respaldo histórico).
+-- AUTO sigue el idioma del cliente: esES/esMX→ES, frFR→FR, deDE→DE, resto EN.
+local function tablaIdiomaDePack(src, idioma)
+	if idioma == "AUTO" then
+		local loc = GetLocale();
+		if loc == "esES" or loc == "esMX" then
+			idioma = "ES";
+		elseif loc == "frFR" then
+			idioma = "FR";
+		elseif loc == "deDE" then
+			idioma = "DE";
+		else
+			idioma = "EN";
+		end
+	end
+	if type(src[idioma]) == "table" then return src[idioma]; end
+	if type(src.EN) == "table" then return src.EN; end
+	if type(src.ES) == "table" then return src.ES; end
+	return nil;
+end
+
 local function activarPacks()
 	local idioma = (BossesConfig ~= nil and BossesConfig.IDIOMA) or "AUTO";
 
 	for _, src in ipairs(packSources) do
-		if src.ES ~= nil or src.EN ~= nil then
-			-- Multilenguaje
-			if idioma == "ES" then
-				src.data = src.ES;
-			elseif idioma == "EN" then
-				src.data = src.EN;
-			else
-				local es = (GetLocale() == "esES" or GetLocale() == "esMX");
-				src.data = (es and src.ES) or src.EN;
-			end
+		-- Multilenguaje: ES/EN siempre; FR/DE opcionales (editor web, ficheros
+		-- _fr/_de) y los salta el core si el pack no los trae.
+		if src.ES ~= nil or src.EN ~= nil or src.FR ~= nil or src.DE ~= nil then
+			src.data = tablaIdiomaDePack(src, idioma);
 		else
 			-- Formato plano (legacy)
 			src.data = src.plain;
@@ -890,12 +936,15 @@ function BossesAPI.register(name, data)
 		return false;
 	end
 
-	-- Detecta el formato: multilenguaje si trae subtablas ES/EN
+	-- Detecta el formato: multilenguaje si trae subtablas de idioma (ES/EN
+	-- siempre; FR/DE opcionales, creadas por el editor web)
 	local src = { name = name };
 
-	if type(data.ES) == "table" or type(data.EN) == "table" then
+	if type(data.ES) == "table" or type(data.EN) == "table" or type(data.FR) == "table" or type(data.DE) == "table" then
 		src.ES = (type(data.ES) == "table") and data.ES or nil;
 		src.EN = (type(data.EN) == "table") and data.EN or nil;
+		src.FR = (type(data.FR) == "table") and data.FR or nil;
+		src.DE = (type(data.DE) == "table") and data.DE or nil;
 	else
 		src.plain = data;
 	end
@@ -921,7 +970,7 @@ function BossesAPI.register(name, data)
 		table.insert(packSources, src);
 	end
 
-	debugLog("pack", name, "ES=" .. contarEntradas(src.ES), "EN=" .. contarEntradas(src.EN), "ENC=" .. contarClaves(src.enc), "ZON=" .. contarClaves(src.zonas), "reemplazo=" .. tostring(replaced));
+	debugLog("pack", name, "ES=" .. contarEntradas(src.ES), "EN=" .. contarEntradas(src.EN), "FR=" .. contarEntradas(src.FR), "DE=" .. contarEntradas(src.DE), "ENC=" .. contarClaves(src.enc), "ZON=" .. contarClaves(src.zonas), "reemplazo=" .. tostring(replaced));
 	activarPacks();
 	return true;
 end
@@ -971,10 +1020,11 @@ local function explica(nbos)
 	local entrada = buscarEntrada(nbos);
 
 	if entrada ~= nil then
-		enviarEntrada(entrada);
+		enviarEntrada(entrada, nbos);
 	else
 		debugLog("sin entrada (id)", tostring(nbos));
 		if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+			limpiarJefeFrame();
 			salidaEnPantalla(tostring(nbos), true); -- cabecera del frame con la id del NPC
 			salidaEnPantalla(L[": This NPC is not described."]);
 		end
@@ -1255,7 +1305,7 @@ local function explicaPorNombre(nombre)
 			entrada = registro.entrada;
 		end
 		debugLog("explicado (nombre)", aTexto(nombre), registro.id);
-		enviarEntrada(entrada);
+		enviarEntrada(entrada, registro.id);
 		return;
 	end
 
@@ -1274,6 +1324,7 @@ local function explicaPorNombre(nombre)
 
 	debugLog("sin entrada (nombre)", aTexto(nombre));
 	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+		limpiarJefeFrame();
 		salidaEnPantalla(nombre, true); -- cabecera del frame con el nombre del NPC
 		salidaEnPantalla(L[": This NPC is not described."]);
 	end
@@ -1341,7 +1392,7 @@ explicarPorEJ = function(nombreCliente)
 					local entrada = buscarEntrada(id);
 					if entrada ~= nil then
 						debugLog("explicado (EJ)", id, tostring(nombreCliente));
-						enviarEntrada(entrada);
+						enviarEntrada(entrada, id);
 						return true;
 					end
 				end
@@ -1377,7 +1428,7 @@ explicarPorEncuentroActivo = function(nombreUtilizable)
 				if id ~= nil and id ~= "" then
 					local entrada = buscarEntrada(id);
 					if entrada ~= nil then
-						enviarEntrada(entrada);
+						enviarEntrada(entrada, id);
 						return true;
 					end
 				end
@@ -1388,9 +1439,9 @@ explicarPorEncuentroActivo = function(nombreUtilizable)
 
 	-- El resto de fuentes (ENC del pack, unidades boss, diario completo):
 	-- la primera entrada existente gana
-	local entrada = entradaDeCandidatos(candidatosDeEncuentro(encuentroActivoID, nil));
+	local entrada, elegido = entradaDeCandidatos(candidatosDeEncuentro(encuentroActivoID, nil));
 	if entrada ~= nil then
-		enviarEntrada(entrada);
+		enviarEntrada(entrada, elegido.id);
 		return true;
 	end
 
@@ -1443,7 +1494,7 @@ local function explicarEncuentroAutomatico(encounterID, nombreEncuentro, claveGr
 				programarEnvio(claveGrupo, function()
 					local entrada = buscarEntrada(id2);
 					if entrada ~= nil then
-						enviarEntrada(entrada);
+						enviarEntrada(entrada, id2);
 					end
 				end);
 			else
@@ -1464,6 +1515,7 @@ local function explicarEncuentroAutomatico(encounterID, nombreEncuentro, claveGr
 					end
 					debugLog("aviso sin entrada", "enc=" .. tostring(encounterID), "avisado al dueño");
 					if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
+						limpiarJefeFrame();
 						salidaEnPantalla(rotulo, true);
 						salidaEnPantalla(L[": This NPC is not described."]);
 					else
@@ -1478,7 +1530,7 @@ local function explicarEncuentroAutomatico(encounterID, nombreEncuentro, claveGr
 	programarEnvio(claveGrupo, function()
 		local entrada = buscarEntrada(id);
 		if entrada ~= nil then
-			enviarEntrada(entrada);
+			enviarEntrada(entrada, id);
 		end
 	end);
 end
@@ -1622,9 +1674,9 @@ local function syncLanguageChecks()
 
 	local idioma = BossesConfig.IDIOMA or "AUTO";
 
-	langChecks.AUTO:SetChecked(idioma == "AUTO");
-	langChecks.ES:SetChecked(idioma == "ES");
-	langChecks.EN:SetChecked(idioma == "EN");
+	for key, cb in pairs(langChecks) do
+		cb:SetChecked(idioma == key);
+	end
 end
 
 local function setLanguage(value)
@@ -1673,7 +1725,7 @@ end
 
 local function createSettingsPanel()
 	local frame = CreateFrame("Frame", "BossesSettingsPanel");
-	frame:SetSize(380, 470);
+	frame:SetSize(380, 530); -- dos filas más por FR/DE (editor web)
 
 	local titulo = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge");
 	titulo:SetPoint("TOPLEFT", 10, -12);
@@ -1714,7 +1766,7 @@ local function createSettingsPanel()
 
 	langChecks = {};
 
-	local idiomas = { { "AUTO", "Auto" }, { "ES", "Spanish" }, { "EN", "English" } };
+	local idiomas = { { "AUTO", "Auto" }, { "ES", "Spanish" }, { "EN", "English" }, { "FR", "French" }, { "DE", "German" } };
 	y = y - 28;
 
 	for _, d in ipairs(idiomas) do
@@ -1798,7 +1850,7 @@ function enviarJefeDelFrame()
 	end
 	local entrada = buscarEntrada(frameNpcId);
 	if entrada ~= nil then
-		enviarEntrada(entrada);
+		enviarEntrada(entrada, frameNpcId);
 	end
 end
 
@@ -2029,9 +2081,9 @@ local function bossesGestor(msg, editbox)
 			setCanal(txt);
 		end
 	elseif cmd == "IDIOMA" then
-		-- Idioma de las explicaciones: AUTO, ES, EN
+		-- Idioma de las explicaciones: AUTO, ES, EN y (editor web) FR, DE
 		txt = string.upper(txt);
-		if txt == "AUTO" or txt == "ES" or txt == "EN" then
+		if txt == "AUTO" or txt == "ES" or txt == "EN" or txt == "FR" or txt == "DE" then
 			setLanguage(txt);
 			dsp(L["Language"], txt);
 		end
@@ -2266,7 +2318,7 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 					programarEnvio("id:" .. u.id, function()
 						local actual = buscarEntrada(u.id);
 						if actual ~= nil then
-							enviarEntrada(actual);
+							enviarEntrada(actual, u.id);
 						end
 					end);
 					break; -- una sola explicación por IEEU

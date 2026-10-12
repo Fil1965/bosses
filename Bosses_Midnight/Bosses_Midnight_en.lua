@@ -50,7 +50,7 @@ pack["240432"] = { "Fallen-King Salhadaar",
 };
 
 bos = {
-	"Crown of the Cosmos (Alleria Windrunner)",
+	"Crown of the Cosmos",
 	"* Stage 1 has three adds: Morium, Demiar and Vorelus; Demiar's |cff71d5ff|Hspell:1243743|h[Interrupting Tremor]|h|r can be interrupted.",
 	"* |cff71d5ff|Hspell:1232467|h[Grasp of Emptiness]|h|r: step out of the area under you.",
 	"* Intermission: dodge the |cff71d5ff|Hspell:1243982|h[Silverstrike Barrage]|h|r.",
@@ -74,13 +74,13 @@ pack["245569"] = bos; pack["256116"] = bos;
 -- March on Quel'Danas : Zone 2913 --
 -- -------------------------------- --
 
-pack["240387"] = { "Belo'ren, Child of Al'ar",
+pack["240387"] = { "Belo'ren",
 	"* Phoenix: dies and is reborn with |cff71d5ff|Hspell:1241313|h[Rebirth]|h|r; control the resurrections.",
 	"* Avoid the quills from |cff71d5ff|Hspell:1242260|h[Infused Quills]|h|r.",
 	"* |cff71d5ff|Hspell:1246709|h[Death Drop]|h|r: the marked player positions far from the group.",
 };
 
-pack["240391"] = { "Midnight Falls (L'ura)",
+pack["240391"] = { "Midnight Falls",
 	"* Three stages; the final transformation is |cff71d5ff|Hspell:1250898|h[The Dark Archangel]|h|r.",
 	"* Pay attention to the |cff71d5ff|Hspell:1251386|h[Safeguard Prism]|h|r.",
 	"* |cff71d5ff|Hspell:1282441|h[Starsplinter]|h|r and |cff71d5ff|Hspell:1281194|h[Dark Meltdown]|h|r: dodge and heal.",
@@ -103,7 +103,7 @@ pack["238693"] = bos; pack["254176"] = bos;
 -- ------------------------------------- --
 
 bos = {
-	"The Coiled Altar (Zul'jan and Hex Lord Malacrass)",
+	"The Coiled Altar",
 	"* Three stages; they merge at the end with |cff71d5ff|Hspell:1298381|h[Defilement of the Coiled Altar]|h|r.",
 	"* |cff71d5ff|Hspell:1283489|h[Guillotine]|h|r: the blade falls, step out.",
 	"* The player marked by |cff71d5ff|Hspell:1285911|h[Unnerving Fixation]|h|r runs far away.",
@@ -131,7 +131,7 @@ bos = {
 	"* Two sentinels: |cff71d5ff|Hspell:1284434|h[Toxic Droplets]|h|r and |cff71d5ff|Hspell:1288232|h[Unstable Miasma]|h|r poison; spread the tanks.",
 	"* Tanks: alternate |cff71d5ff|Hspell:1284458|h[Empowering Slam]|h|r and |cff71d5ff|Hspell:1284487|h[Bloodvenom Injection]|h|r.",
 };
-pack["258557"] = bos; pack["258556"] = bos;
+pack["258557"] = bos; pack["258558"] = bos;
 
 pack["257347"] = { "Sszorak",
 	"* |cff71d5ff|Hspell:1277025|h[Apex Predator]|h|r fixes on you: kite.",
@@ -140,7 +140,7 @@ pack["257347"] = { "Sszorak",
 };
 
 bos = {
-	"The Twin Fangs (Vexhul and Ithraz)",
+	"The Twin Fangs",
 	"* They submerge with |cff71d5ff|Hspell:1308556|h[Submerge]|h|r and emerge by surprise.",
 	"* |cff71d5ff|Hspell:1290956|h[Stir the Depths]|h|r throws waves: dodge them.",
 	"* |cff71d5ff|Hspell:1288538|h[Stone Breaker]|h|r hits the tank and knocks them back.",
@@ -148,7 +148,7 @@ bos = {
 };
 pack["257361"] = bos; pack["257368"] = bos;
 
-pack["259181"] = { "Vashnik the Malignant",
+pack["259181"] = { "Vashnik",
 	"* |cff71d5ff|Hspell:1283164|h[Imbibe]|h|r absorbs venom from the fountains: don't let it grow.",
 	"* |cff71d5ff|Hspell:1280935|h[Dripping Fangs]|h|r is a tank mechanic.",
 	"* |cff71d5ff|Hspell:1281907|h[Plague Froth]|h|r: raid damage, heals.",
@@ -166,28 +166,28 @@ pack["257758"] = {
 -- World bosses and Lairs --
 -- -------------------------------- --
 
-pack["244424"] = { "Cragpine (world boss, Zul'Aman)",
+pack["244424"] = { "Cragpine",
 	"* |cff71d5ff|Hspell:1235144|h[War Club]|h|r is a tank mechanic.",
 	"* Watch the ground for |cff71d5ff|Hspell:1235131|h[Rootquake]|h|r.",
 };
 
-pack["244762"] = { "Lu'ashal (world boss, Eversong Woods)",
+pack["244762"] = { "Lu'ashal",
 	"* |cff71d5ff|Hspell:1258427|h[Radiant Flare]|h|r: move away.",
 	"* |cff71d5ff|Hspell:1276247|h[Dawnfire Breath]|h|r: out of the frontal.",
 };
 
-pack["249776"] = { "Thorm'belan (world boss, Harandar)",
+pack["249776"] = { "Thorm'belan",
 	"* The player marked by |cff71d5ff|Hspell:1258641|h[Shredding Tendrils]|h|r moves away.",
 	"* Watch out for |cff71d5ff|Hspell:1257325|h[Radiant Mote]|h|r.",
 };
 
-pack["252959"] = { "Nymrissa Wavecaller (Lair)",
+pack["252959"] = { "Nymrissa Wavecaller",
 	"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: dodge the whirlpools.",
 	"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: raid damage, heals.",
 	"* Mind the |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r.",
 };
 
-pack["267861"] = { "Kith'ix (Lair)",
+pack["267861"] = { "Kith'ix",
 	"* |cff71d5ff|Hspell:1304930|h[Dark Devastation]|h|r: tank frontal, use defensives.",
 	"* |cff71d5ff|Hspell:1301511|h[Voidswarm]|h|r: void adds, kill them fast.",
 	"* |cff71d5ff|Hspell:1302951|h[Suffocating Darkness]|h|r: darkness — hide behind the Extinguish shield.",
@@ -218,7 +218,7 @@ pack["259446"] = { "The Writhing Coil",
 	"* |cff71d5ff|Hspell:1298949|h[Tail Scythe]|h|r is a tank mechanic; dodge |cff71d5ff|Hspell:1300044|h[Venom Jet]|h|r.",
 };
 
-pack["267797"] = { "Zul'jan (Altar of Fangs)",
+pack["267797"] = { "Zul'jan",
 	"* |cff71d5ff|Hspell:1300876|h[Ritual of the Fang]|h|r: interrupt the ritual.",
 	"* |cff71d5ff|Hspell:1301111|h[Axegrinder]|h|r and |cff71d5ff|Hspell:1301413|h[Boneslicer]|h|r: targeted damage, heals.",
 	"* |cff71d5ff|Hspell:1301350|h[Chop Down]|h|r is a tank mechanic.",
@@ -228,7 +228,7 @@ pack["267797"] = { "Zul'jan (Altar of Fangs)",
 -- Den of Nalorakk : Zone 2825 --
 -- ---------------------------------- --
 
-pack["258877"] = { "Nalorakk (Den of Nalorakk)",
+pack["258877"] = { "Nalorakk",
 	"* |cff71d5ff|Hspell:1243569|h[Overwhelming Onslaught]|h|r: targeted damage, heals.",
 	"* |cff71d5ff|Hspell:1242860|h[Echoing Maul]|h|r is a tank mechanic.",
 	"* |cff71d5ff|Hspell:1243011|h[Fury of the War God]|h|r: enrage, get defensives ready.",
@@ -282,7 +282,7 @@ pack["247570"] = { "Muro'jin and Nekraxx",
 	"* Dodge the feathers from |cff71d5ff|Hspell:1243900|h[Fetid Quillstorm]|h|r and |cff71d5ff|Hspell:1246666|h[Infected Pinions]|h|r.",
 };
 
-pack["248605"] = { "Rak'tul, Vessel of Souls",
+pack["248605"] = { "Rak'tul",
 	"* The player marked by |cff71d5ff|Hspell:1252676|h[Crush Souls]|h|r dies without heals: get away.",
 	"* |cff71d5ff|Hspell:1251023|h[Spiritbreaker]|h|r: heavy damage, heals.",
 	"* |cff71d5ff|Hspell:1253788|h[Soulrending Roar]|h|r: raid damage.",
@@ -326,7 +326,7 @@ pack["234649"] = { "Zaen Bladesorrow",
 -- Nexus-Point Xenas : Zone 2915 --
 -- ---------------------------------- --
 
-pack["241539"] = { "Chief Corewright Kasreth",
+pack["241539"] = { "Kasreth",
 	"* Mind the energy lines from |cff71d5ff|Hspell:1251579|h[Leyline Array]|h|r.",
 	"* The player marked by |cff71d5ff|Hspell:1251772|h[Reflux Charge]|h|r moves away.",
 	"* |cff71d5ff|Hspell:1257509|h[Corespark Detonation]|h|r: long cast, interrupt or get away.",
@@ -348,7 +348,7 @@ pack["254227"] = { "Corewarden Nysarra",
 -- The Blinding Vale : Zone 2859 --
 -- ---------------------------------- --
 
-pack["243028"] = { "Lightblossom Trinity (Meittik)",
+pack["243028"] = { "Lightblossom Trinity",
 	"* |cff71d5ff|Hspell:1234753|h[Bedrock Slam]|h|r is a tank mechanic: use defensives.",
 	"* |cff71d5ff|Hspell:1235564|h[Lightblossom Beam]|h|r: soak the beams, shared damage.",
 	"* |cff71d5ff|Hspell:1234850|h[Light'sower Dash]|h|r: charge, move out of the path.",

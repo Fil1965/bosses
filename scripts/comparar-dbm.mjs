@@ -24,6 +24,7 @@ const EXCLUIDAS = new Set(["DBM-Core", "DBM-GUI", "DBM-StatusBarTimers", "DBM-VP
 const PACKS = [
 	{ nombre: "Bosses_Cata", patron: /cataclysm/i },
 	{ nombre: "Bosses_Midnight", patron: /midnight/i },
+	{ nombre: "Bosses_MoP", patron: /pandaria|mop(?![a-z])/i },
 	{ nombre: "Bosses_TWW", patron: /warwithin/i },
 ];
 

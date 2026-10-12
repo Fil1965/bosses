@@ -38,6 +38,7 @@ const ADDON_FOLDERS = [
   "Bosses_Midnight",
   "Bosses_Cata",
   "Bosses_TWW",
+  "Bosses_MoP",
 ];
 
 async function readPackageVersion() {

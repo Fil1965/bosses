@@ -14,7 +14,7 @@ if GetLocale() == "deDE" then
     L["HELP5"] = "/bosses CANAL auto : Verwendet Gruppe oder Raid-Ausgang";
     L["HELP6"] = "/bosses CANAL local : Verwendet lokalen Ausgang";
     L["HELP7"] = "/bosses CANAL guild : Verwendet Gilde Ausgang";
-    L["HELP8"] = "/bosses IDIOMA auto|es|en : Sprache der Erklärungen.";
+    L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de : Sprache der Erklärungen.";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : Debug-Protokoll (WTF-Datei); /bosses LOG [n] : letzte Zeilen anzeigen."
     L["HELP10"] = "/bosses CANAL frame : Alles im Alarmfenster (nur Sie).";
     L["CanalGrupo"] = "Gruppe/Raid aktuell";
@@ -38,6 +38,8 @@ if GetLocale() == "deDE" then
     L["Language"] = "Sprache";
     L["Spanish"] = "Spanisch";
     L["English"] = "Englisch";
+    L["French"] = "Französisch";
+    L["German"] = "Deutsch";
     L["Data packs"] = "Datenpakete";
     L[": This NPC is not described."] = ": Dieser NPC ist nicht beschrieben.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Linksklick|r - Erklärt das anvisierte NPC";

@@ -16,6 +16,8 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["Language"] = "Idioma";
     L["Spanish"] = "Español";
     L["English"] = "Inglés";
+    L["French"] = "Francés";
+    L["German"] = "Alemán";
     L["CanalGrupo"] = "Grupo/Banda actual";
     L["OutputNormal"] = "Output normal (solo tú)";
     L["CanalFrame"] = "Frame de alerta (solo tú)";
@@ -38,7 +40,7 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["HELP5"] = "/bosses CANAL AUTO : Saca la información por el canal por omisión.";
     L["HELP6"] = "/bosses CANAL LOCAL : Saca la información localmente.";
     L["HELP7"] = "/bosses CANAL GUILD : Saca la información por el canal de la guild.";
-    L["HELP8"] = "/bosses IDIOMA auto|es|en : Idioma de las explicaciones.";
+    L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de : Idioma de las explicaciones.";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : registro de depuración (fichero en WTF); /bosses LOG [n] : muestra las últimas líneas.";
     L["HELP10"] = "/bosses CANAL FRAME : Todo en el frame de alerta (solo tú).";
 

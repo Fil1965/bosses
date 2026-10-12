@@ -173,32 +173,32 @@ pack["241517"] = bos; pack["234478"] = bos; pack["233824"] = bos;
 -- Khaz Algar world bosses --
 -- ========================================================= --
 
-pack["220999"] = { "Aggregation of Horrors (world boss)",
+pack["220999"] = { "Aggregation of Horrors",
 	"* Mind the void shards from |cff71d5ff|Hspell:452205|h[Crystalline Barrage]|h|r.",
 	"* |cff71d5ff|Hspell:452980|h[Voidquake]|h|r: heavy damage, heals."
 };
 
-pack["231821"] = { "The Gobfather (world boss)",
+pack["231821"] = { "The Gobfather",
 	"* |cff71d5ff|Hspell:1216687|h[Flaming Flames]|h|r: out of the frontal.",
 	"* Dodge the |cff71d5ff|Hspell:1216709|h[Death From Above]|h|r."
 };
 
-pack["221084"] = { "Kordac, the Dormant Protector (world boss)",
+pack["221084"] = { "Kordac, the Dormant Protector",
 	"* Dodge |cff71d5ff|Hspell:458423|h[Arcane Bombardment]|h|r.",
 	"* |cff71d5ff|Hspell:458695|h[Overcharged Lasers]|h|r: mind the lasers."
 };
 
-pack["221067"] = { "Orta, the Broken Mountain (world boss)",
+pack["221067"] = { "Orta, the Broken Mountain",
 	"* |cff71d5ff|Hspell:450407|h[Colossal Slam]|h|r: out of the frontal.",
 	"* Mind the |cff71d5ff|Hspell:450677|h[Rupturing Runes]|h|r."
 };
 
-pack["238319"] = { "Reshanor, The Untethered (world boss)",
+pack["238319"] = { "Reshanor, The Untethered",
 	"* |cff71d5ff|Hspell:1237905|h[Twilight Breath]|h|r: out of the frontal.",
 	"* |cff71d5ff|Hspell:1237893|h[Veilshatter Roar]|h|r: heavy damage, heals."
 };
 
-pack["221224"] = { "Shurrai, Atrocity of the Undersea (world boss)",
+pack["221224"] = { "Shurrai, Atrocity of the Undersea",
 	"* |cff71d5ff|Hspell:453618|h[Abyssal Strike]|h|r leaves a heal absorb: beware.",
 	"* Dodge the |cff71d5ff|Hspell:453733|h[Briny Vomit]|h|r."
 };
@@ -398,7 +398,7 @@ pack["211089"] = { "Anub'ikkaj",
 	"* Mind the |cff71d5ff|Hspell:427378|h[Dark Scars]|h|r."
 };
 
-pack["213937"] = { "Rasha'nan (The Dawnbreaker)",
+pack["213937"] = { "Rasha'nan",
 	"* The |cff71d5ff|Hspell:434655|h[Arathi Bomb]|h|r fall: spread out.",
 	"* Mind the |cff71d5ff|Hspell:448888|h[Erosive Spray]|h|r.",
 	"* Use the |cff71d5ff|Hspell:449528|h[Radiant Light]|h|r during the intermission."

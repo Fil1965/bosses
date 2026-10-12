@@ -1,7 +1,7 @@
 ## Interface: 120100, 50504, 20506, 11509
 ## Title: Bosses
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.5
+## Version: 1.0.9
 ## Notes: Describes Boss Encounters
 ## Notes-esES: Describe Encuentros en Instancias
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
