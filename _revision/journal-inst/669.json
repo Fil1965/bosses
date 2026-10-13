@@ -1,0 +1,329 @@
+{
+	"id": 669,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/669?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 669,
+		"name": "Ciudadela del Fuego Infernal",
+		"map": {
+			"name": "Ciudadela del Fuego Infernal",
+			"id": 1448
+		},
+		"description": "Cuando Garrosh animó a Grommash a empezar la construcción de este enorme bastión en el corazón de la Selva de Tanaan como base para atacar Azeroth, llegó a sugerirle el nombre de Fuego Infernal, inspirado en otra época y otro lugar. Soñaba con ver el poderoso acero orco dominando un paisaje incorrupto tan distinto al páramo que había conocido en Terrallende. Pero aunque los tiempos cambian, también permanecen igual.",
+		"encounters": [
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1426?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Asalto a Fuego Infernal",
+				"id": 1426
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1425?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Atracador de la Horda de Hierro",
+				"id": 1425
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1392?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Kormrok",
+				"id": 1392
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1432?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Alto Consejo del Fuego Infernal",
+				"id": 1432
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1396?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Kilrogg Mortojo",
+				"id": 1396
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1372?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Sanguino",
+				"id": 1372
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1433?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Señor de las Sombras Iskar",
+				"id": 1433
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1427?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Socrethar el Eterno",
+				"id": 1427
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1391?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Señor vil Zakuun",
+				"id": 1391
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1447?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Xhul'horac",
+				"id": 1447
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1394?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Tirana Velhari",
+				"id": 1394
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1395?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Mannoroth",
+				"id": 1395
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1438?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Archimonde",
+				"id": 1438
+			}
+		],
+		"expansion": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-expansion/124?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Warlords of Draenor",
+			"id": 124
+		},
+		"location": {
+			"name": "Selva de Tanaan",
+			"id": 6723
+		},
+		"modes": [
+			{
+				"mode": {
+					"type": "LFR",
+					"name": "Buscador de bandas"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "NORMAL",
+					"name": "Normal"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "HEROIC",
+					"name": "Heroica"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "MYTHIC",
+					"name": "Mítica"
+				},
+				"players": 20,
+				"is_tracked": true
+			}
+		],
+		"media": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/669?namespace=static-12.1.0_68914-eu"
+			},
+			"id": 669
+		},
+		"minimum_level": 40,
+		"category": {
+			"type": "RAID"
+		},
+		"order_index": 4
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/669?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 669,
+		"name": "Citadelle des Flammes infernales",
+		"map": {
+			"name": "Citadelle des Flammes infernales",
+			"id": 1448
+		},
+		"description": "Lorsque Garrosh encouragea Grommash à construire cet énorme bastion au cœur de la jungle de Tanaan, pour en faire le point de départ de l’assaut sur Azeroth, il en suggéra même le titre des Flammes infernales, venu d’un autre temps et d’un autre lieu. Il rêvait de voir la silhouette imposante en fer orc dominer un paysage non corrompu, si différent du désert qu’il avait connu en Outreterre. Mais même deux époques différentes peuvent se révéler très semblables.",
+		"encounters": [
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1426?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Assaut des Flammes infernales",
+				"id": 1426
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1425?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Saccageur de Fer",
+				"id": 1425
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1392?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Kormrok",
+				"id": 1392
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1432?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Haut conseil des Flammes infernales",
+				"id": 1432
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1396?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Kilrogg Oeil-Mort",
+				"id": 1396
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1372?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Fielsang",
+				"id": 1372
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1433?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Seigneur de l’ombre Iskar",
+				"id": 1433
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1427?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Socrethar l’Éternel",
+				"id": 1427
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1391?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Gangreseigneur Zakuun",
+				"id": 1391
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1447?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Xhul’horac",
+				"id": 1447
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1394?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Velhari la Despote",
+				"id": 1394
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1395?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Mannoroth",
+				"id": 1395
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1438?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Archimonde",
+				"id": 1438
+			}
+		],
+		"expansion": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-expansion/124?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Warlords of Draenor",
+			"id": 124
+		},
+		"location": {
+			"name": "Jungle de Tanaan",
+			"id": 6723
+		},
+		"modes": [
+			{
+				"mode": {
+					"type": "LFR",
+					"name": "Raids"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "NORMAL",
+					"name": "Normal"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "HEROIC",
+					"name": "Héroïque"
+				},
+				"players": 30,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "MYTHIC",
+					"name": "Mythique"
+				},
+				"players": 20,
+				"is_tracked": true
+			}
+		],
+		"media": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/669?namespace=static-12.1.0_68914-eu"
+			},
+			"id": 669
+		},
+		"minimum_level": 40,
+		"category": {
+			"type": "RAID"
+		},
+		"order_index": 4
+	}
+}

@@ -1,0 +1,4785 @@
+{
+	"id": 140,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/140?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 140,
+		"name": "Occu'thar",
+		"description": "Este demonio insaciable huyó de su jaula y llegó hasta el ala oeste de la prisión, donde devoró a todos los presos que se encontraban recluidos en su interior. La voracidad de Occu'thar hizo que su cuerpo se hinchara demasiado como para poder escapar, por lo que el ala de la prisión se convirtió en su nueva celda de contención.",
+		"creatures": [
+			{
+				"id": 464,
+				"name": "Occu'thar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de victoria de Gladiador implacable",
+					"id": 70400
+				}
+			},
+			{
+				"id": 9726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de dominancia de Gladiador implacable",
+					"id": 70401
+				}
+			},
+			{
+				"id": 9727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de dominancia de Gladiador implacable",
+					"id": 70402
+				}
+			},
+			{
+				"id": 9728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de victoria de Gladiador implacable",
+					"id": 70403
+				}
+			},
+			{
+				"id": 9729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de conquista de Gladiador implacable",
+					"id": 70404
+				}
+			},
+			{
+				"id": 9730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70942?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del gigante fundido",
+					"id": 70942
+				}
+			},
+			{
+				"id": 9731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70943?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del gigante fundido",
+					"id": 70943
+				}
+			},
+			{
+				"id": 9732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de inmolación",
+					"id": 70947
+				}
+			},
+			{
+				"id": 9733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de inmolación",
+					"id": 70949
+				}
+			},
+			{
+				"id": 9734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placamuerte de elementium",
+					"id": 70952
+				}
+			},
+			{
+				"id": 9735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de placamuerte de elementium",
+					"id": 70953
+				}
+			},
+			{
+				"id": 9736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador implacable",
+					"id": 70245
+				}
+			},
+			{
+				"id": 9737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador implacable",
+					"id": 70247
+				}
+			},
+			{
+				"id": 9738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de la llama purificadora",
+					"id": 71271
+				}
+			},
+			{
+				"id": 9739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de la llama purificadora",
+					"id": 71273
+				}
+			},
+			{
+				"id": 9740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador implacable",
+					"id": 70250
+				}
+			},
+			{
+				"id": 9741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la llama purificadora",
+					"id": 71276
+				}
+			},
+			{
+				"id": 9742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador implacable",
+					"id": 70252
+				}
+			},
+			{
+				"id": 9743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la llama purificadora",
+					"id": 71278
+				}
+			},
+			{
+				"id": 9744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70255?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador implacable",
+					"id": 70255
+				}
+			},
+			{
+				"id": 9745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de araña corpulenta",
+					"id": 71281
+				}
+			},
+			{
+				"id": 9746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador implacable",
+					"id": 70257
+				}
+			},
+			{
+				"id": 9747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de araña corpulenta",
+					"id": 71283
+				}
+			},
+			{
+				"id": 9748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador implacable",
+					"id": 70260
+				}
+			},
+			{
+				"id": 9749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador implacable",
+					"id": 70262
+				}
+			},
+			{
+				"id": 9750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de halcón de fuego",
+					"id": 71286
+				}
+			},
+			{
+				"id": 9751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de halcón de fuego",
+					"id": 71288
+				}
+			},
+			{
+				"id": 9752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador implacable",
+					"id": 70265
+				}
+			},
+			{
+				"id": 9753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador implacable",
+					"id": 70267
+				}
+			},
+			{
+				"id": 9754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes volcánicos en erupción",
+					"id": 71292
+				}
+			},
+			{
+				"id": 9755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda volcánica en erupción",
+					"id": 71294
+				}
+			},
+			{
+				"id": 9756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador implacable",
+					"id": 70270
+				}
+			},
+			{
+				"id": 9757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador implacable",
+					"id": 70272
+				}
+			},
+			{
+				"id": 9758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas volcánicas en erupción",
+					"id": 71297
+				}
+			},
+			{
+				"id": 9759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras volcánicas en erupción",
+					"id": 71299
+				}
+			},
+			{
+				"id": 9760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador implacable",
+					"id": 70275
+				}
+			},
+			{
+				"id": 9761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador implacable",
+					"id": 70277
+				}
+			},
+			{
+				"id": 9762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes volcánicos en erupción",
+					"id": 71302
+				}
+			},
+			{
+				"id": 9763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fénix oscuro",
+					"id": 71046
+				}
+			},
+			{
+				"id": 9764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador implacable",
+					"id": 70279
+				}
+			},
+			{
+				"id": 9765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de fénix oscuro",
+					"id": 71048
+				}
+			},
+			{
+				"id": 9766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras volcánicas en erupción",
+					"id": 71304
+				}
+			},
+			{
+				"id": 9767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador implacable",
+					"id": 70281
+				}
+			},
+			{
+				"id": 9768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de despiertallamas",
+					"id": 71050
+				}
+			},
+			{
+				"id": 9769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de despiertallamas",
+					"id": 71052
+				}
+			},
+			{
+				"id": 9770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador implacable",
+					"id": 70284
+				}
+			},
+			{
+				"id": 9771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador implacable",
+					"id": 70286
+				}
+			},
+			{
+				"id": 9772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador implacable",
+					"id": 70289
+				}
+			},
+			{
+				"id": 9773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placamuerte de elementium",
+					"id": 71059
+				}
+			},
+			{
+				"id": 9774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador implacable",
+					"id": 70291
+				}
+			},
+			{
+				"id": 9775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de placamuerte de elementium",
+					"id": 71061
+				}
+			},
+			{
+				"id": 9776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador implacable",
+					"id": 70295
+				}
+			},
+			{
+				"id": 9777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de inmolación",
+					"id": 71064
+				}
+			},
+			{
+				"id": 9778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador implacable",
+					"id": 70297
+				}
+			},
+			{
+				"id": 9779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de inmolación",
+					"id": 71066
+				}
+			},
+			{
+				"id": 9780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador implacable",
+					"id": 70299
+				}
+			},
+			{
+				"id": 9781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del gigante fundido",
+					"id": 71069
+				}
+			},
+			{
+				"id": 9782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador implacable",
+					"id": 70301
+				}
+			},
+			{
+				"id": 9783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del gigante fundido",
+					"id": 71071
+				}
+			},
+			{
+				"id": 9784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador implacable",
+					"id": 70304
+				}
+			},
+			{
+				"id": 9785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador implacable",
+					"id": 70306
+				}
+			},
+			{
+				"id": 9786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador implacable",
+					"id": 70309
+				}
+			},
+			{
+				"id": 9787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador implacable",
+					"id": 70311
+				}
+			},
+			{
+				"id": 9788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador implacable",
+					"id": 70314
+				}
+			},
+			{
+				"id": 9789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador implacable",
+					"id": 70316
+				}
+			},
+			{
+				"id": 9790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador implacable",
+					"id": 70319
+				}
+			},
+			{
+				"id": 9791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de crueldad de Gladiador implacable",
+					"id": 70320
+				}
+			},
+			{
+				"id": 9792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador implacable",
+					"id": 70321
+				}
+			},
+			{
+				"id": 9793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador implacable",
+					"id": 70322
+				}
+			},
+			{
+				"id": 9794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador implacable",
+					"id": 70323
+				}
+			},
+			{
+				"id": 9795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de inmolación",
+					"id": 71092
+				}
+			},
+			{
+				"id": 9796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador implacable",
+					"id": 70324
+				}
+			},
+			{
+				"id": 9797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador implacable",
+					"id": 70325
+				}
+			},
+			{
+				"id": 9798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de inmolación",
+					"id": 71094
+				}
+			},
+			{
+				"id": 9799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador implacable",
+					"id": 70326
+				}
+			},
+			{
+				"id": 9800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador implacable",
+					"id": 70327
+				}
+			},
+			{
+				"id": 9801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador implacable",
+					"id": 70328
+				}
+			},
+			{
+				"id": 9802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71097?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de enramada obsidiana",
+					"id": 71097
+				}
+			},
+			{
+				"id": 9803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de meditación de Gladiador implacable",
+					"id": 70329
+				}
+			},
+			{
+				"id": 9804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador implacable",
+					"id": 70330
+				}
+			},
+			{
+				"id": 9805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de enramada obsidiana",
+					"id": 71099
+				}
+			},
+			{
+				"id": 9806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador implacable",
+					"id": 70331
+				}
+			},
+			{
+				"id": 9807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador implacable",
+					"id": 70332
+				}
+			},
+			{
+				"id": 9808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador implacable",
+					"id": 70333
+				}
+			},
+			{
+				"id": 9809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de enramada obsidiana",
+					"id": 71102
+				}
+			},
+			{
+				"id": 9810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador implacable",
+					"id": 70334
+				}
+			},
+			{
+				"id": 9811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador implacable",
+					"id": 70335
+				}
+			},
+			{
+				"id": 9812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de enramada obsidiana",
+					"id": 71104
+				}
+			},
+			{
+				"id": 9813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador implacable",
+					"id": 70336
+				}
+			},
+			{
+				"id": 9814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador implacable",
+					"id": 70337
+				}
+			},
+			{
+				"id": 9815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador implacable",
+					"id": 70338
+				}
+			},
+			{
+				"id": 9816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de enramada obsidiana",
+					"id": 71107
+				}
+			},
+			{
+				"id": 9817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador implacable",
+					"id": 70339
+				}
+			},
+			{
+				"id": 9818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador implacable",
+					"id": 70340
+				}
+			},
+			{
+				"id": 9819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de enramada obsidiana",
+					"id": 71109
+				}
+			},
+			{
+				"id": 9820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador implacable",
+					"id": 70341
+				}
+			},
+			{
+				"id": 9821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador implacable",
+					"id": 70342
+				}
+			},
+			{
+				"id": 9822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador implacable",
+					"id": 70343
+				}
+			},
+			{
+				"id": 9823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador implacable",
+					"id": 70344
+				}
+			},
+			{
+				"id": 9824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador implacable",
+					"id": 70345
+				}
+			},
+			{
+				"id": 9825,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador implacable",
+					"id": 70346
+				}
+			},
+			{
+				"id": 9826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador implacable",
+					"id": 70347
+				}
+			},
+			{
+				"id": 9827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador implacable",
+					"id": 70348
+				}
+			},
+			{
+				"id": 9828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador implacable",
+					"id": 70349
+				}
+			},
+			{
+				"id": 9829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador implacable",
+					"id": 70350
+				}
+			},
+			{
+				"id": 9830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador implacable",
+					"id": 70351
+				}
+			},
+			{
+				"id": 9831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador implacable",
+					"id": 70352
+				}
+			},
+			{
+				"id": 9832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador implacable",
+					"id": 70354
+				}
+			},
+			{
+				"id": 9833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador implacable",
+					"id": 70356
+				}
+			},
+			{
+				"id": 9834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador implacable",
+					"id": 70358
+				}
+			},
+			{
+				"id": 9835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador implacable",
+					"id": 70359
+				}
+			},
+			{
+				"id": 9836,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador implacable",
+					"id": 70360
+				}
+			},
+			{
+				"id": 9837,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador implacable",
+					"id": 70361
+				}
+			},
+			{
+				"id": 9838,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador implacable",
+					"id": 70362
+				}
+			},
+			{
+				"id": 9839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador implacable",
+					"id": 70363
+				}
+			},
+			{
+				"id": 9840,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador implacable",
+					"id": 70364
+				}
+			},
+			{
+				"id": 9841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador implacable",
+					"id": 70365
+				}
+			},
+			{
+				"id": 9842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador implacable",
+					"id": 70366
+				}
+			},
+			{
+				"id": 9843,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador implacable",
+					"id": 70367
+				}
+			},
+			{
+				"id": 9844,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador implacable",
+					"id": 70368
+				}
+			},
+			{
+				"id": 9845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador implacable",
+					"id": 70369
+				}
+			},
+			{
+				"id": 9846,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador implacable",
+					"id": 70370
+				}
+			},
+			{
+				"id": 9847,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador implacable",
+					"id": 70371
+				}
+			},
+			{
+				"id": 9848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador implacable",
+					"id": 70372
+				}
+			},
+			{
+				"id": 9849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador implacable",
+					"id": 70373
+				}
+			},
+			{
+				"id": 9850,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador implacable",
+					"id": 70374
+				}
+			},
+			{
+				"id": 9851,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70375?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador implacable",
+					"id": 70375
+				}
+			},
+			{
+				"id": 9852,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de difusión de Gladiador implacable",
+					"id": 70376
+				}
+			},
+			{
+				"id": 9853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador implacable",
+					"id": 70377
+				}
+			},
+			{
+				"id": 9854,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador implacable",
+					"id": 70378
+				}
+			},
+			{
+				"id": 9855,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador implacable",
+					"id": 70379
+				}
+			},
+			{
+				"id": 9856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador implacable",
+					"id": 70380
+				}
+			},
+			{
+				"id": 9857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador implacable",
+					"id": 70381
+				}
+			},
+			{
+				"id": 9858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador implacable",
+					"id": 70382
+				}
+			},
+			{
+				"id": 9859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador implacable",
+					"id": 70383
+				}
+			},
+			{
+				"id": 9860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador implacable",
+					"id": 70384
+				}
+			},
+			{
+				"id": 9861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador implacable",
+					"id": 70385
+				}
+			},
+			{
+				"id": 9862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador implacable",
+					"id": 70386
+				}
+			},
+			{
+				"id": 9863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de difusión de Gladiador implacable",
+					"id": 70387
+				}
+			},
+			{
+				"id": 9864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador implacable",
+					"id": 70388
+				}
+			},
+			{
+				"id": 9865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador implacable",
+					"id": 70389
+				}
+			},
+			{
+				"id": 9866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de crueldad de Gladiador implacable",
+					"id": 70390
+				}
+			},
+			{
+				"id": 9867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de meditación de Gladiador implacable",
+					"id": 70391
+				}
+			},
+			{
+				"id": 9868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de tenacidad de Gladiador implacable",
+					"id": 70392
+				}
+			},
+			{
+				"id": 9869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de crueldad de Gladiador implacable",
+					"id": 70393
+				}
+			},
+			{
+				"id": 9870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de meditación de Gladiador implacable",
+					"id": 70394
+				}
+			},
+			{
+				"id": 9871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de tenacidad de Gladiador implacable",
+					"id": 70395
+				}
+			},
+			{
+				"id": 9875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de conquista de Gladiador implacable",
+					"id": 70399
+				}
+			},
+			{
+				"id": 9872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de crueldad de Gladiador implacable",
+					"id": 70396
+				}
+			},
+			{
+				"id": 9873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de meditación de Gladiador implacable",
+					"id": 70397
+				}
+			},
+			{
+				"id": 9874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de tenacidad de Gladiador implacable",
+					"id": 70398
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2605,
+				"title": "Fuego enfocado",
+				"body_text": "Occu'thar fija su mirada en la ubicación de un jugador aleatorio e inflige 0 p. de daño de Fuego cada segundo durante 2,5 s y luego 0 p. de daño de Fuego cada segundo a los jugadores en un radio de 12 m de la ubicación seleccionada."
+			},
+			{
+				"id": 2606,
+				"title": "Sombras abrasadoras",
+				"body_text": "Occu'thar inflige 0 p. de daño de las Sombras a los jugadores en un cono de 60 grados frente a él y aumenta un 100% el daño de las Sombras recibido durante 30 s."
+			},
+			{
+				"id": 2607,
+				"title": "Ojos de Occu'thar",
+				"body_text": "Occu'thar forma un ojo de Occu'thar sobre cada jugador durante 10 s. Los ojos atraviesan a sus objetivos con la Mirada de Occu'thar.",
+				"sections": [
+					{
+						"id": 2608,
+						"title": "Mirada de Occu'thar",
+						"body_text": "El ojo de Occu'thar mira a su anfitrión objetivo e inflige 0 p. de daño de las Sombras cada 1 s durante 10 s."
+					},
+					{
+						"id": 2609,
+						"title": "Destrucción de Occu'thar",
+						"body_text": "Después de que un ojo de Occu'thar permanezca fijado a un jugador durante 10 s, atraviesa por completo a su objetivo y desata Destrucción de Occu'thar, lo que inflige 0 p. de daño de las Sombras a todos los jugadores."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37867?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37867
+				}
+			},
+			{
+				"id": 18670,
+				"title": "Solo en dificultad normal",
+				"body_text": "Bastión de Baradin solo está disponible en dificultad normal."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Bastión de Baradin",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/140?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 140,
+		"name": "Occu’thar",
+		"description": "Ce féroce démon se libéra de sa cage et parvint à accéder à l’aile ouest de la prison, dévorant tous les détenus qui s’y trouvaient. La gloutonnerie d’Occu’thar eut pour résultat un corps trop gonflé pour échapper à son environnement, transformant de ce fait cette aile de la prison en sa nouvelle cellule de détention.",
+		"creatures": [
+			{
+				"id": 464,
+				"name": "Occu’thar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de victoire du gladiateur sans pitié",
+					"id": 70400
+				}
+			},
+			{
+				"id": 9726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de domination du gladiateur sans pitié",
+					"id": 70401
+				}
+			},
+			{
+				"id": 9727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de domination du gladiateur sans pitié",
+					"id": 70402
+				}
+			},
+			{
+				"id": 9728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de victoire du gladiateur sans pitié",
+					"id": 70403
+				}
+			},
+			{
+				"id": 9729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de conquête du gladiateur sans pitié",
+					"id": 70404
+				}
+			},
+			{
+				"id": 9730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70942?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du géant de lave",
+					"id": 70942
+				}
+			},
+			{
+				"id": 9731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70943?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du géant de lave",
+					"id": 70943
+				}
+			},
+			{
+				"id": 9732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'immolation",
+					"id": 70947
+				}
+			},
+			{
+				"id": 9733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de l'immolation",
+					"id": 70949
+				}
+			},
+			{
+				"id": 9734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de plates mortelles en élémentium",
+					"id": 70952
+				}
+			},
+			{
+				"id": 9735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de plates mortelles en élémentium",
+					"id": 70953
+				}
+			},
+			{
+				"id": 9736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en plaques d'effroi",
+					"id": 70245
+				}
+			},
+			{
+				"id": 9737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en plaques d'effroi",
+					"id": 70247
+				}
+			},
+			{
+				"id": 9738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la flamme purificatrice",
+					"id": 71271
+				}
+			},
+			{
+				"id": 9739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la flamme purificatrice",
+					"id": 71273
+				}
+			},
+			{
+				"id": 9740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en écailles",
+					"id": 70250
+				}
+			},
+			{
+				"id": 9741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la flamme purificatrice",
+					"id": 71276
+				}
+			},
+			{
+				"id": 9742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en écailles",
+					"id": 70252
+				}
+			},
+			{
+				"id": 9743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la flamme purificatrice",
+					"id": 71278
+				}
+			},
+			{
+				"id": 9744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70255?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en plaques",
+					"id": 70255
+				}
+			},
+			{
+				"id": 9745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l'araignée torve",
+					"id": 71281
+				}
+			},
+			{
+				"id": 9746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en plaques",
+					"id": 70257
+				}
+			},
+			{
+				"id": 9747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de l'araignée torve",
+					"id": 71283
+				}
+			},
+			{
+				"id": 9748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en anneaux",
+					"id": 70260
+				}
+			},
+			{
+				"id": 9749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur sans pitié en anneaux",
+					"id": 70262
+				}
+			},
+			{
+				"id": 9750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants faucon-de-feu",
+					"id": 71286
+				}
+			},
+			{
+				"id": 9751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières faucon-de-feu",
+					"id": 71288
+				}
+			},
+			{
+				"id": 9752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en mailles annelées",
+					"id": 70265
+				}
+			},
+			{
+				"id": 9753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur sans pitié en mailles annelées",
+					"id": 70267
+				}
+			},
+			{
+				"id": 9754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'éruption volcanique",
+					"id": 71292
+				}
+			},
+			{
+				"id": 9755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de l'éruption volcanique",
+					"id": 71294
+				}
+			},
+			{
+				"id": 9756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur sans pitié",
+					"id": 70270
+				}
+			},
+			{
+				"id": 9757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur sans pitié",
+					"id": 70272
+				}
+			},
+			{
+				"id": 9758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l'éruption volcanique",
+					"id": 71297
+				}
+			},
+			{
+				"id": 9759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de l'éruption volcanique",
+					"id": 71299
+				}
+			},
+			{
+				"id": 9760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur sans pitié en mailles",
+					"id": 70275
+				}
+			},
+			{
+				"id": 9761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur sans pitié en mailles",
+					"id": 70277
+				}
+			},
+			{
+				"id": 9762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de l'éruption volcanique",
+					"id": 71302
+				}
+			},
+			{
+				"id": 9763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du phénix sombre",
+					"id": 71046
+				}
+			},
+			{
+				"id": 9764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en peau de dragon",
+					"id": 70279
+				}
+			},
+			{
+				"id": 9765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du phénix sombre",
+					"id": 71048
+				}
+			},
+			{
+				"id": 9766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'éruption volcanique",
+					"id": 71304
+				}
+			},
+			{
+				"id": 9767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en peau de dragon",
+					"id": 70281
+				}
+			},
+			{
+				"id": 9768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'attise-flammes",
+					"id": 71050
+				}
+			},
+			{
+				"id": 9769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes d'attise-flammes",
+					"id": 71052
+				}
+			},
+			{
+				"id": 9770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en cuir de kodo",
+					"id": 70284
+				}
+			},
+			{
+				"id": 9771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en cuir de kodo",
+					"id": 70286
+				}
+			},
+			{
+				"id": 9772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en peau de wyrm",
+					"id": 70289
+				}
+			},
+			{
+				"id": 9773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de plates mortelles en élémentium",
+					"id": 71059
+				}
+			},
+			{
+				"id": 9774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en peau de wyrm",
+					"id": 70291
+				}
+			},
+			{
+				"id": 9775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de plates mortelles en élémentium",
+					"id": 71061
+				}
+			},
+			{
+				"id": 9776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en cuir",
+					"id": 70295
+				}
+			},
+			{
+				"id": 9777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de l'immolation",
+					"id": 71064
+				}
+			},
+			{
+				"id": 9778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur sans pitié en cuir",
+					"id": 70297
+				}
+			},
+			{
+				"id": 9779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de l'immolation",
+					"id": 71066
+				}
+			},
+			{
+				"id": 9780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur sans pitié en soie",
+					"id": 70299
+				}
+			},
+			{
+				"id": 9781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du géant de lave",
+					"id": 71069
+				}
+			},
+			{
+				"id": 9782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur sans pitié en soie",
+					"id": 70301
+				}
+			},
+			{
+				"id": 9783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du géant de lave",
+					"id": 71071
+				}
+			},
+			{
+				"id": 9784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en étoffe lunaire",
+					"id": 70304
+				}
+			},
+			{
+				"id": 9785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur sans pitié en étoffe lunaire",
+					"id": 70306
+				}
+			},
+			{
+				"id": 9786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur sans pitié en satin",
+					"id": 70309
+				}
+			},
+			{
+				"id": 9787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur sans pitié en satin",
+					"id": 70311
+				}
+			},
+			{
+				"id": 9788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur sans pitié en tisse-gangrène",
+					"id": 70314
+				}
+			},
+			{
+				"id": 9789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur sans pitié en tisse-gangrène",
+					"id": 70316
+				}
+			},
+			{
+				"id": 9790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur sans pitié",
+					"id": 70319
+				}
+			},
+			{
+				"id": 9791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de cruauté du gladiateur sans pitié",
+					"id": 70320
+				}
+			},
+			{
+				"id": 9792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur sans pitié",
+					"id": 70321
+				}
+			},
+			{
+				"id": 9793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur sans pitié",
+					"id": 70322
+				}
+			},
+			{
+				"id": 9794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur sans pitié",
+					"id": 70323
+				}
+			},
+			{
+				"id": 9795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'immolation",
+					"id": 71092
+				}
+			},
+			{
+				"id": 9796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur sans pitié",
+					"id": 70324
+				}
+			},
+			{
+				"id": 9797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur sans pitié",
+					"id": 70325
+				}
+			},
+			{
+				"id": 9798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de l'immolation",
+					"id": 71094
+				}
+			},
+			{
+				"id": 9799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur sans pitié",
+					"id": 70326
+				}
+			},
+			{
+				"id": 9800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur sans pitié",
+					"id": 70327
+				}
+			},
+			{
+				"id": 9801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur sans pitié",
+					"id": 70328
+				}
+			},
+			{
+				"id": 9802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71097?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes tisse-feuillage en obsidienne",
+					"id": 71097
+				}
+			},
+			{
+				"id": 9803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de méditation du gladiateur sans pitié",
+					"id": 70329
+				}
+			},
+			{
+				"id": 9804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur sans pitié",
+					"id": 70330
+				}
+			},
+			{
+				"id": 9805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes tisse-feuillage en obsidienne",
+					"id": 71099
+				}
+			},
+			{
+				"id": 9806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur sans pitié",
+					"id": 70331
+				}
+			},
+			{
+				"id": 9807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur sans pitié",
+					"id": 70332
+				}
+			},
+			{
+				"id": 9808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur sans pitié",
+					"id": 70333
+				}
+			},
+			{
+				"id": 9809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains tisse-feuillage en obsidienne",
+					"id": 71102
+				}
+			},
+			{
+				"id": 9810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur sans pitié",
+					"id": 70334
+				}
+			},
+			{
+				"id": 9811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur sans pitié",
+					"id": 70335
+				}
+			},
+			{
+				"id": 9812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards tisse-feuillage en obsidienne",
+					"id": 71104
+				}
+			},
+			{
+				"id": 9813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur sans pitié",
+					"id": 70336
+				}
+			},
+			{
+				"id": 9814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur sans pitié",
+					"id": 70337
+				}
+			},
+			{
+				"id": 9815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur sans pitié",
+					"id": 70338
+				}
+			},
+			{
+				"id": 9816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants tisse-feuillage en obsidienne",
+					"id": 71107
+				}
+			},
+			{
+				"id": 9817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur sans pitié",
+					"id": 70339
+				}
+			},
+			{
+				"id": 9818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur sans pitié",
+					"id": 70340
+				}
+			},
+			{
+				"id": 9819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières tisse-feuillage en obsidienne",
+					"id": 71109
+				}
+			},
+			{
+				"id": 9820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur sans pitié",
+					"id": 70341
+				}
+			},
+			{
+				"id": 9821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur sans pitié",
+					"id": 70342
+				}
+			},
+			{
+				"id": 9822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur sans pitié",
+					"id": 70343
+				}
+			},
+			{
+				"id": 9823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur sans pitié",
+					"id": 70344
+				}
+			},
+			{
+				"id": 9824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur sans pitié",
+					"id": 70345
+				}
+			},
+			{
+				"id": 9825,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur sans pitié",
+					"id": 70346
+				}
+			},
+			{
+				"id": 9826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur sans pitié",
+					"id": 70347
+				}
+			},
+			{
+				"id": 9827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur sans pitié",
+					"id": 70348
+				}
+			},
+			{
+				"id": 9828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur sans pitié",
+					"id": 70349
+				}
+			},
+			{
+				"id": 9829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur sans pitié",
+					"id": 70350
+				}
+			},
+			{
+				"id": 9830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur sans pitié",
+					"id": 70351
+				}
+			},
+			{
+				"id": 9831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur sans pitié",
+					"id": 70352
+				}
+			},
+			{
+				"id": 9832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur sans pitié",
+					"id": 70354
+				}
+			},
+			{
+				"id": 9833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur sans pitié",
+					"id": 70356
+				}
+			},
+			{
+				"id": 9834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur sans pitié",
+					"id": 70358
+				}
+			},
+			{
+				"id": 9835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur sans pitié",
+					"id": 70359
+				}
+			},
+			{
+				"id": 9836,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur sans pitié",
+					"id": 70360
+				}
+			},
+			{
+				"id": 9837,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur sans pitié",
+					"id": 70361
+				}
+			},
+			{
+				"id": 9838,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur sans pitié",
+					"id": 70362
+				}
+			},
+			{
+				"id": 9839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur sans pitié",
+					"id": 70363
+				}
+			},
+			{
+				"id": 9840,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur sans pitié",
+					"id": 70364
+				}
+			},
+			{
+				"id": 9841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur sans pitié",
+					"id": 70365
+				}
+			},
+			{
+				"id": 9842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur sans pitié",
+					"id": 70366
+				}
+			},
+			{
+				"id": 9843,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur sans pitié",
+					"id": 70367
+				}
+			},
+			{
+				"id": 9844,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur sans pitié",
+					"id": 70368
+				}
+			},
+			{
+				"id": 9845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur sans pitié",
+					"id": 70369
+				}
+			},
+			{
+				"id": 9846,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur sans pitié",
+					"id": 70370
+				}
+			},
+			{
+				"id": 9847,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur sans pitié",
+					"id": 70371
+				}
+			},
+			{
+				"id": 9848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur sans pitié",
+					"id": 70372
+				}
+			},
+			{
+				"id": 9849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur sans pitié",
+					"id": 70373
+				}
+			},
+			{
+				"id": 9850,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur sans pitié",
+					"id": 70374
+				}
+			},
+			{
+				"id": 9851,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70375?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur sans pitié",
+					"id": 70375
+				}
+			},
+			{
+				"id": 9852,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de diffusion du gladiateur sans pitié",
+					"id": 70376
+				}
+			},
+			{
+				"id": 9853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur sans pitié",
+					"id": 70377
+				}
+			},
+			{
+				"id": 9854,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur sans pitié",
+					"id": 70378
+				}
+			},
+			{
+				"id": 9855,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur sans pitié",
+					"id": 70379
+				}
+			},
+			{
+				"id": 9856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'expertise du gladiateur sans pitié",
+					"id": 70380
+				}
+			},
+			{
+				"id": 9857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur sans pitié",
+					"id": 70381
+				}
+			},
+			{
+				"id": 9858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur sans pitié",
+					"id": 70382
+				}
+			},
+			{
+				"id": 9859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'empressement du gladiateur sans pitié",
+					"id": 70383
+				}
+			},
+			{
+				"id": 9860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de la prouesse du gladiateur sans pitié",
+					"id": 70384
+				}
+			},
+			{
+				"id": 9861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur sans pitié",
+					"id": 70385
+				}
+			},
+			{
+				"id": 9862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur sans pitié",
+					"id": 70386
+				}
+			},
+			{
+				"id": 9863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de diffusion du gladiateur sans pitié",
+					"id": 70387
+				}
+			},
+			{
+				"id": 9864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur sans pitié",
+					"id": 70388
+				}
+			},
+			{
+				"id": 9865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur sans pitié",
+					"id": 70389
+				}
+			},
+			{
+				"id": 9866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de cruauté du gladiateur sans pitié",
+					"id": 70390
+				}
+			},
+			{
+				"id": 9867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de méditation du gladiateur sans pitié",
+					"id": 70391
+				}
+			},
+			{
+				"id": 9868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de ténacité du gladiateur sans pitié",
+					"id": 70392
+				}
+			},
+			{
+				"id": 9869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de cruauté du gladiateur sans pitié",
+					"id": 70393
+				}
+			},
+			{
+				"id": 9870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de méditation du gladiateur sans pitié",
+					"id": 70394
+				}
+			},
+			{
+				"id": 9871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de ténacité du gladiateur sans pitié",
+					"id": 70395
+				}
+			},
+			{
+				"id": 9875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de conquête du gladiateur sans pitié",
+					"id": 70399
+				}
+			},
+			{
+				"id": 9872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de cruauté du gladiateur sans pitié",
+					"id": 70396
+				}
+			},
+			{
+				"id": 9873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de méditation du gladiateur sans pitié",
+					"id": 70397
+				}
+			},
+			{
+				"id": 9874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de ténacité du gladiateur sans pitié",
+					"id": 70398
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2605,
+				"title": "Feu focalisé",
+				"body_text": "Occu'thar pose son regard à l’emplacement d’un personnage-joueur aléatoire, puis pendant 2,5 s inflige 0 points de dégâts de Feu toutes les secondes puis 0 toutes les secondes aux personnages dans un rayon de 12 mètres autour de la zone ciblée."
+			},
+			{
+				"id": 2606,
+				"title": "Ombres incendiaires",
+				"body_text": "Occu’thar inflige 0 points de dégâts d’Ombre aux personnages-joueurs situés dans un cône de 60 degrés devant lui et augmente les points de dégâts d’Ombre reçus de 100% pendant 30 s."
+			},
+			{
+				"id": 2607,
+				"title": "Yeux d’Occu’thar",
+				"body_text": "Occu’thar invoque un œil d’Occu’thar sur chaque personnage-joueur pendant 10 s. Chaque œil fore sa cible avec le Regard d’Occu’thar.",
+				"sections": [
+					{
+						"id": 2608,
+						"title": "Regard d'Occu'thar",
+						"body_text": "L’œil d’Occu’thar regarde fixement son hôte, lui infligeant 0 points de dégâts d’Ombre toutes les 1 s pendant 10 s."
+					},
+					{
+						"id": 2609,
+						"title": "Destruction d'Occu'thar",
+						"body_text": "Si un Œil d’Occu’thar reste accroché à un personnage-joueur pendant 10 s, il ne fait plus qu’un avec lui et explose au moment de la destruction d’Occu’thar, infligeant 0 points de dégâts d’Ombre à tous les personnages-joueurs."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37867?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37867
+				}
+			},
+			{
+				"id": 18670,
+				"title": "Mode normal uniquement",
+				"body_text": "Le bastion de Baradin n’est disponible qu’en mode normal."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Bastion de Baradin",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/140?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 140,
+		"name": "Occu'thar",
+		"description": "This ravenous demon broke free of its cage and gained access to the western wing of the prison, devouring all of the inmates held there. Occu'thar's gluttony resulted in a body too bloated to escape its environs, effectively turning the prison wing into its new holding cell.",
+		"creatures": [
+			{
+				"id": 464,
+				"name": "Occu'thar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Badge of Victory",
+					"id": 70400
+				}
+			},
+			{
+				"id": 9726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Badge of Dominance",
+					"id": 70401
+				}
+			},
+			{
+				"id": 9727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Insignia of Dominance",
+					"id": 70402
+				}
+			},
+			{
+				"id": 9728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Insignia of Victory",
+					"id": 70403
+				}
+			},
+			{
+				"id": 9729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Insignia of Conquest",
+					"id": 70404
+				}
+			},
+			{
+				"id": 9730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70942?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Molten Giant",
+					"id": 70942
+				}
+			},
+			{
+				"id": 9731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70943?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Molten Giant",
+					"id": 70943
+				}
+			},
+			{
+				"id": 9732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Legguards",
+					"id": 70947
+				}
+			},
+			{
+				"id": 9733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Handguards",
+					"id": 70949
+				}
+			},
+			{
+				"id": 9734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Legguards",
+					"id": 70952
+				}
+			},
+			{
+				"id": 9735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Handguards",
+					"id": 70953
+				}
+			},
+			{
+				"id": 9736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Dreadplate Gauntlets",
+					"id": 70245
+				}
+			},
+			{
+				"id": 9737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Dreadplate Legguards",
+					"id": 70247
+				}
+			},
+			{
+				"id": 9738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Cleansing Flame",
+					"id": 71271
+				}
+			},
+			{
+				"id": 9739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Cleansing Flame",
+					"id": 71273
+				}
+			},
+			{
+				"id": 9740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Scaled Gauntlets",
+					"id": 70250
+				}
+			},
+			{
+				"id": 9741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Cleansing Flame",
+					"id": 71276
+				}
+			},
+			{
+				"id": 9742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Scaled Legguards",
+					"id": 70252
+				}
+			},
+			{
+				"id": 9743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Cleansing Flame",
+					"id": 71278
+				}
+			},
+			{
+				"id": 9744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70255?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Plate Gauntlets",
+					"id": 70255
+				}
+			},
+			{
+				"id": 9745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Handwraps",
+					"id": 71281
+				}
+			},
+			{
+				"id": 9746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Plate Legguards",
+					"id": 70257
+				}
+			},
+			{
+				"id": 9747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Leggings",
+					"id": 71283
+				}
+			},
+			{
+				"id": 9748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Chain Gauntlets",
+					"id": 70260
+				}
+			},
+			{
+				"id": 9749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Chain Leggings",
+					"id": 70262
+				}
+			},
+			{
+				"id": 9750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Gloves",
+					"id": 71286
+				}
+			},
+			{
+				"id": 9751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Leggings",
+					"id": 71288
+				}
+			},
+			{
+				"id": 9752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ringmail Gauntlets",
+					"id": 70265
+				}
+			},
+			{
+				"id": 9753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ringmail Leggings",
+					"id": 70267
+				}
+			},
+			{
+				"id": 9754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Gloves",
+					"id": 71292
+				}
+			},
+			{
+				"id": 9755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Kilt",
+					"id": 71294
+				}
+			},
+			{
+				"id": 9756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Linked Gauntlets",
+					"id": 70270
+				}
+			},
+			{
+				"id": 9757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Linked Leggings",
+					"id": 70272
+				}
+			},
+			{
+				"id": 9758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Handwraps",
+					"id": 71297
+				}
+			},
+			{
+				"id": 9759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Legwraps",
+					"id": 71299
+				}
+			},
+			{
+				"id": 9760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Mail Gauntlets",
+					"id": 70275
+				}
+			},
+			{
+				"id": 9761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Mail Leggings",
+					"id": 70277
+				}
+			},
+			{
+				"id": 9762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Grips",
+					"id": 71302
+				}
+			},
+			{
+				"id": 9763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Gloves",
+					"id": 71046
+				}
+			},
+			{
+				"id": 9764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Dragonhide Gloves",
+					"id": 70279
+				}
+			},
+			{
+				"id": 9765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Legguards",
+					"id": 71048
+				}
+			},
+			{
+				"id": 9766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Legguards",
+					"id": 71304
+				}
+			},
+			{
+				"id": 9767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Dragonhide Legguards",
+					"id": 70281
+				}
+			},
+			{
+				"id": 9768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Gloves",
+					"id": 71050
+				}
+			},
+			{
+				"id": 9769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Legguards",
+					"id": 71052
+				}
+			},
+			{
+				"id": 9770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Kodohide Gloves",
+					"id": 70284
+				}
+			},
+			{
+				"id": 9771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Kodohide Legguards",
+					"id": 70286
+				}
+			},
+			{
+				"id": 9772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Wyrmhide Gloves",
+					"id": 70289
+				}
+			},
+			{
+				"id": 9773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Gauntlets",
+					"id": 71059
+				}
+			},
+			{
+				"id": 9774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Wyrmhide Legguards",
+					"id": 70291
+				}
+			},
+			{
+				"id": 9775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Greaves",
+					"id": 71061
+				}
+			},
+			{
+				"id": 9776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Leather Gloves",
+					"id": 70295
+				}
+			},
+			{
+				"id": 9777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Gauntlets",
+					"id": 71064
+				}
+			},
+			{
+				"id": 9778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Leather Legguards",
+					"id": 70297
+				}
+			},
+			{
+				"id": 9779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Legplates",
+					"id": 71066
+				}
+			},
+			{
+				"id": 9780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Silk Handguards",
+					"id": 70299
+				}
+			},
+			{
+				"id": 9781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Molten Giant",
+					"id": 71069
+				}
+			},
+			{
+				"id": 9782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Silk Trousers",
+					"id": 70301
+				}
+			},
+			{
+				"id": 9783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of the Molten Giant",
+					"id": 71071
+				}
+			},
+			{
+				"id": 9784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70304?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Mooncloth Gloves",
+					"id": 70304
+				}
+			},
+			{
+				"id": 9785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Mooncloth Leggings",
+					"id": 70306
+				}
+			},
+			{
+				"id": 9786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Satin Gloves",
+					"id": 70309
+				}
+			},
+			{
+				"id": 9787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Satin Leggings",
+					"id": 70311
+				}
+			},
+			{
+				"id": 9788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Felweave Handguards",
+					"id": 70314
+				}
+			},
+			{
+				"id": 9789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Felweave Trousers",
+					"id": 70316
+				}
+			},
+			{
+				"id": 9790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Clasp of Cruelty",
+					"id": 70319
+				}
+			},
+			{
+				"id": 9791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Girdle of Cruelty",
+					"id": 70320
+				}
+			},
+			{
+				"id": 9792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Warboots of Cruelty",
+					"id": 70321
+				}
+			},
+			{
+				"id": 9793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armplates of Alacrity",
+					"id": 70322
+				}
+			},
+			{
+				"id": 9794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Warboots of Alacrity",
+					"id": 70323
+				}
+			},
+			{
+				"id": 9795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Gloves",
+					"id": 71092
+				}
+			},
+			{
+				"id": 9796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Greaves of Alacrity",
+					"id": 70324
+				}
+			},
+			{
+				"id": 9797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Bracers of Prowess",
+					"id": 70325
+				}
+			},
+			{
+				"id": 9798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Greaves",
+					"id": 71094
+				}
+			},
+			{
+				"id": 9799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Girdle of Prowess",
+					"id": 70326
+				}
+			},
+			{
+				"id": 9800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armplates of Proficiency",
+					"id": 70327
+				}
+			},
+			{
+				"id": 9801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Waistguard of Meditation",
+					"id": 70328
+				}
+			},
+			{
+				"id": 9802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71097?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Grips",
+					"id": 71097
+				}
+			},
+			{
+				"id": 9803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Sabatons of Meditation",
+					"id": 70329
+				}
+			},
+			{
+				"id": 9804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armbands of Meditation",
+					"id": 70330
+				}
+			},
+			{
+				"id": 9805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Legguards",
+					"id": 71099
+				}
+			},
+			{
+				"id": 9806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Waistguard of Cruelty",
+					"id": 70331
+				}
+			},
+			{
+				"id": 9807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Clasp of Meditation",
+					"id": 70332
+				}
+			},
+			{
+				"id": 9808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Greaves of Meditation",
+					"id": 70333
+				}
+			},
+			{
+				"id": 9809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Handwraps",
+					"id": 71102
+				}
+			},
+			{
+				"id": 9810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Bracers of Meditation",
+					"id": 70334
+				}
+			},
+			{
+				"id": 9811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Sabatons of Cruelty",
+					"id": 70335
+				}
+			},
+			{
+				"id": 9812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Legwraps",
+					"id": 71104
+				}
+			},
+			{
+				"id": 9813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Links of Cruelty",
+					"id": 70336
+				}
+			},
+			{
+				"id": 9814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Sabatons of Alacrity",
+					"id": 70337
+				}
+			},
+			{
+				"id": 9815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Wristguards of Alacrity",
+					"id": 70338
+				}
+			},
+			{
+				"id": 9816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Gloves",
+					"id": 71107
+				}
+			},
+			{
+				"id": 9817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Links of Accuracy",
+					"id": 70339
+				}
+			},
+			{
+				"id": 9818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Wristguards of Accuracy",
+					"id": 70340
+				}
+			},
+			{
+				"id": 9819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Leggings",
+					"id": 71109
+				}
+			},
+			{
+				"id": 9820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Sabatons of Alacrity",
+					"id": 70341
+				}
+			},
+			{
+				"id": 9821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armbands of Prowess",
+					"id": 70342
+				}
+			},
+			{
+				"id": 9822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Belt of Meditation",
+					"id": 70343
+				}
+			},
+			{
+				"id": 9823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Footguards of Meditation",
+					"id": 70344
+				}
+			},
+			{
+				"id": 9824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Bindings of Meditation",
+					"id": 70345
+				}
+			},
+			{
+				"id": 9825,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Belt of Cruelty",
+					"id": 70346
+				}
+			},
+			{
+				"id": 9826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Waistband of Cruelty",
+					"id": 70347
+				}
+			},
+			{
+				"id": 9827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Boots of Cruelty",
+					"id": 70348
+				}
+			},
+			{
+				"id": 9828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Waistband of Accuracy",
+					"id": 70349
+				}
+			},
+			{
+				"id": 9829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armwraps of Accuracy",
+					"id": 70350
+				}
+			},
+			{
+				"id": 9830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Boots of Alacrity",
+					"id": 70351
+				}
+			},
+			{
+				"id": 9831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Armwraps of Alacrity",
+					"id": 70352
+				}
+			},
+			{
+				"id": 9832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ornamented Gloves",
+					"id": 70354
+				}
+			},
+			{
+				"id": 9833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ornamented Legplates",
+					"id": 70356
+				}
+			},
+			{
+				"id": 9834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Footguards of Alacrity",
+					"id": 70358
+				}
+			},
+			{
+				"id": 9835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Bindings of Prowess",
+					"id": 70359
+				}
+			},
+			{
+				"id": 9836,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cord of Cruelty",
+					"id": 70360
+				}
+			},
+			{
+				"id": 9837,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Treads of Cruelty",
+					"id": 70361
+				}
+			},
+			{
+				"id": 9838,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cord of Accuracy",
+					"id": 70362
+				}
+			},
+			{
+				"id": 9839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cuffs of Accuracy",
+					"id": 70363
+				}
+			},
+			{
+				"id": 9840,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Treads of Alacrity",
+					"id": 70364
+				}
+			},
+			{
+				"id": 9841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cuffs of Prowess",
+					"id": 70365
+				}
+			},
+			{
+				"id": 9842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cuffs of Meditation",
+					"id": 70366
+				}
+			},
+			{
+				"id": 9843,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Treads of Meditation",
+					"id": 70367
+				}
+			},
+			{
+				"id": 9844,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cord of Meditation",
+					"id": 70368
+				}
+			},
+			{
+				"id": 9845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Band of Cruelty",
+					"id": 70369
+				}
+			},
+			{
+				"id": 9846,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Band of Accuracy",
+					"id": 70370
+				}
+			},
+			{
+				"id": 9847,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Band of Meditation",
+					"id": 70371
+				}
+			},
+			{
+				"id": 9848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Signet of Cruelty",
+					"id": 70372
+				}
+			},
+			{
+				"id": 9849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Signet of Accuracy",
+					"id": 70373
+				}
+			},
+			{
+				"id": 9850,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ring of Accuracy",
+					"id": 70374
+				}
+			},
+			{
+				"id": 9851,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70375?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Ring of Cruelty",
+					"id": 70375
+				}
+			},
+			{
+				"id": 9852,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Pendant of Diffusion",
+					"id": 70376
+				}
+			},
+			{
+				"id": 9853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Pendant of Alacrity",
+					"id": 70377
+				}
+			},
+			{
+				"id": 9854,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Pendant of Meditation",
+					"id": 70378
+				}
+			},
+			{
+				"id": 9855,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Necklace of Prowess",
+					"id": 70379
+				}
+			},
+			{
+				"id": 9856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Necklace of Proficiency",
+					"id": 70380
+				}
+			},
+			{
+				"id": 9857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Choker of Proficiency",
+					"id": 70381
+				}
+			},
+			{
+				"id": 9858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Choker of Accuracy",
+					"id": 70382
+				}
+			},
+			{
+				"id": 9859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cloak of Alacrity",
+					"id": 70383
+				}
+			},
+			{
+				"id": 9860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cloak of Prowess",
+					"id": 70384
+				}
+			},
+			{
+				"id": 9861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cape of Prowess",
+					"id": 70385
+				}
+			},
+			{
+				"id": 9862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Cape of Cruelty",
+					"id": 70386
+				}
+			},
+			{
+				"id": 9863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Drape of Diffusion",
+					"id": 70387
+				}
+			},
+			{
+				"id": 9864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Drape of Prowess",
+					"id": 70388
+				}
+			},
+			{
+				"id": 9865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Drape of Meditation",
+					"id": 70389
+				}
+			},
+			{
+				"id": 9866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Cruelty",
+					"id": 70390
+				}
+			},
+			{
+				"id": 9867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Meditation",
+					"id": 70391
+				}
+			},
+			{
+				"id": 9868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Tenacity",
+					"id": 70392
+				}
+			},
+			{
+				"id": 9869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Cruelty",
+					"id": 70393
+				}
+			},
+			{
+				"id": 9870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Meditation",
+					"id": 70394
+				}
+			},
+			{
+				"id": 9871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Medallion of Tenacity",
+					"id": 70395
+				}
+			},
+			{
+				"id": 9875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Badge of Conquest",
+					"id": 70399
+				}
+			},
+			{
+				"id": 9872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Emblem of Cruelty",
+					"id": 70396
+				}
+			},
+			{
+				"id": 9873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Emblem of Meditation",
+					"id": 70397
+				}
+			},
+			{
+				"id": 9874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruthless Gladiator's Emblem of Tenacity",
+					"id": 70398
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2605,
+				"title": "Focused Fire",
+				"body_text": "Occu'thar sets his gaze on the location of a random player, then for 2.5 sec the gaze inflicts 0 Fire damage every second and then 0 Fire damage every second to players within 12 yards of the targeted location."
+			},
+			{
+				"id": 2606,
+				"title": "Searing Shadows",
+				"body_text": "Occu'thar inflicts 0 Shadow damage to players in a 60 degree cone in front of him, and increases Shadow damage taken by 100% for 30 sec."
+			},
+			{
+				"id": 2607,
+				"title": "Eyes of Occu'thar",
+				"body_text": "Occu'thar forms an Eye of Occu'thar on every player for 10 sec. The eyes bore into their target hosts with the Gaze of Occu'thar.",
+				"sections": [
+					{
+						"id": 2608,
+						"title": "Gaze of Occu'thar",
+						"body_text": "The Eye of Occu'thar gazes at its target host, inflicting 0 Shadow damage every 1 sec. for 10 sec."
+					},
+					{
+						"id": 2609,
+						"title": "Occu'thar's Destruction",
+						"body_text": "After an Eye of Occu'thar remains attached to a player for 10 sec, it fully bores into the host and detonates with Occu'thar's Destruction, inflicting 0 Shadow damage on all players."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37867?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37867
+				}
+			},
+			{
+				"id": 18670,
+				"title": "Normal Difficulty Only",
+				"body_text": "Baradin Hold is only available on Normal Difficulty."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Baradin Hold",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			}
+		]
+	}
+}

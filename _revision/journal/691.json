@@ -1,0 +1,4248 @@
+{
+	"id": 691,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/691?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 691,
+		"name": "Sha de la ira",
+		"description": "El sha de la ira, la manifestación física de la ira, ha huido del Monasterio del Shadopan en la Cima Kun-Lai. Rodeada de los brutales conflictos que asolan Pandaria, esta entidad oscura se ha vuelto aún más poderosa. Se ha visto al sha recientemente vagando por Kun-Lai, valiéndose de la energía negativa para corromper todo lo que encuentra a su paso.",
+		"creatures": [
+			{
+				"id": 1316,
+				"name": "Sha de la ira",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 14693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pájaro de fuego",
+					"id": 85285
+				}
+			},
+			{
+				"id": 14694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de pájaro de fuego",
+					"id": 85287
+				}
+			},
+			{
+				"id": 14695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pájaro de fuego",
+					"id": 85290
+				}
+			},
+			{
+				"id": 14696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de pájaro de fuego",
+					"id": 85292
+				}
+			},
+			{
+				"id": 14697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de destripador yaungol",
+					"id": 85295
+				}
+			},
+			{
+				"id": 14698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de destripador yaungol",
+					"id": 85297
+				}
+			},
+			{
+				"id": 14699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de los mil filos",
+					"id": 85300
+				}
+			},
+			{
+				"id": 14700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de los mil filos",
+					"id": 85302
+				}
+			},
+			{
+				"id": 14701,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de Flor Eterna",
+					"id": 85306
+				}
+			},
+			{
+				"id": 14702,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de Flor Eterna",
+					"id": 85308
+				}
+			},
+			{
+				"id": 14703,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de Flor Eterna",
+					"id": 85310
+				}
+			},
+			{
+				"id": 14704,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de Flor Eterna",
+					"id": 85312
+				}
+			},
+			{
+				"id": 14705,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de crueldad de Gladiador malévolo",
+					"id": 84801
+				}
+			},
+			{
+				"id": 14706,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador malévolo",
+					"id": 84802
+				}
+			},
+			{
+				"id": 14707,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador malévolo",
+					"id": 84803
+				}
+			},
+			{
+				"id": 14708,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de la catacumba perdida",
+					"id": 85315
+				}
+			},
+			{
+				"id": 14709,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador malévolo",
+					"id": 84804
+				}
+			},
+			{
+				"id": 14710,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador malévolo",
+					"id": 84805
+				}
+			},
+			{
+				"id": 14711,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de la catacumba perdida",
+					"id": 85317
+				}
+			},
+			{
+				"id": 14712,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador malévolo",
+					"id": 84806
+				}
+			},
+			{
+				"id": 14713,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador malévolo",
+					"id": 84807
+				}
+			},
+			{
+				"id": 14714,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador malévolo",
+					"id": 84808
+				}
+			},
+			{
+				"id": 14715,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del Tigre Blanco",
+					"id": 85320
+				}
+			},
+			{
+				"id": 14716,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador malévolo",
+					"id": 84809
+				}
+			},
+			{
+				"id": 14717,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador malévolo",
+					"id": 84810
+				}
+			},
+			{
+				"id": 14718,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del Tigre Blanco",
+					"id": 85322
+				}
+			},
+			{
+				"id": 14719,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador malévolo",
+					"id": 84811
+				}
+			},
+			{
+				"id": 14720,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador malévolo",
+					"id": 84812
+				}
+			},
+			{
+				"id": 14721,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador malévolo",
+					"id": 84813
+				}
+			},
+			{
+				"id": 14722,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de anillos resonantes",
+					"id": 85325
+				}
+			},
+			{
+				"id": 14723,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador malévolo",
+					"id": 84814
+				}
+			},
+			{
+				"id": 14724,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador malévolo",
+					"id": 84815
+				}
+			},
+			{
+				"id": 14725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de anillos resonantes",
+					"id": 85327
+				}
+			},
+			{
+				"id": 14726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador malévolo",
+					"id": 84816
+				}
+			},
+			{
+				"id": 14727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador malévolo",
+					"id": 84817
+				}
+			},
+			{
+				"id": 14728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador malévolo",
+					"id": 84818
+				}
+			},
+			{
+				"id": 14729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de anillos resonantes",
+					"id": 85330
+				}
+			},
+			{
+				"id": 14730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador malévolo",
+					"id": 84819
+				}
+			},
+			{
+				"id": 14731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillos resonantes",
+					"id": 85331
+				}
+			},
+			{
+				"id": 14732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador malévolo",
+					"id": 84820
+				}
+			},
+			{
+				"id": 14733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador malévolo",
+					"id": 84821
+				}
+			},
+			{
+				"id": 14734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador malévolo",
+					"id": 84822
+				}
+			},
+			{
+				"id": 14735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de la catacumba perdida",
+					"id": 85335
+				}
+			},
+			{
+				"id": 14736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador malévolo",
+					"id": 84823
+				}
+			},
+			{
+				"id": 14737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador malévolo",
+					"id": 84824
+				}
+			},
+			{
+				"id": 14738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de la catacumba perdida",
+					"id": 85337
+				}
+			},
+			{
+				"id": 14739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador malévolo",
+					"id": 84825
+				}
+			},
+			{
+				"id": 14740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador malévolo",
+					"id": 84826
+				}
+			},
+			{
+				"id": 14741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador malévolo",
+					"id": 84827
+				}
+			},
+			{
+				"id": 14742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador malévolo",
+					"id": 84828
+				}
+			},
+			{
+				"id": 14743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del Tigre Blanco",
+					"id": 85340
+				}
+			},
+			{
+				"id": 14744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador malévolo",
+					"id": 84829
+				}
+			},
+			{
+				"id": 14745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador malévolo",
+					"id": 84830
+				}
+			},
+			{
+				"id": 14746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del Tigre Blanco",
+					"id": 85342
+				}
+			},
+			{
+				"id": 14747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador malévolo",
+					"id": 84831
+				}
+			},
+			{
+				"id": 14748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador malévolo",
+					"id": 84832
+				}
+			},
+			{
+				"id": 14749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador malévolo",
+					"id": 84833
+				}
+			},
+			{
+				"id": 14750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas del Tigre Blanco",
+					"id": 85345
+				}
+			},
+			{
+				"id": 14751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador malévolo",
+					"id": 84834
+				}
+			},
+			{
+				"id": 14752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador malévolo",
+					"id": 84835
+				}
+			},
+			{
+				"id": 14753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del Tigre Blanco",
+					"id": 85347
+				}
+			},
+			{
+				"id": 14754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de cobre de Gladiador malévolo",
+					"id": 84836
+				}
+			},
+			{
+				"id": 14755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador malévolo",
+					"id": 84837
+				}
+			},
+			{
+				"id": 14756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador malévolo",
+					"id": 84838
+				}
+			},
+			{
+				"id": 14757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de pájaro de fuego",
+					"id": 85350
+				}
+			},
+			{
+				"id": 14758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de hierro de Gladiador malévolo",
+					"id": 84839
+				}
+			},
+			{
+				"id": 14759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador malévolo",
+					"id": 84840
+				}
+			},
+			{
+				"id": 14760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de pájaro de fuego",
+					"id": 85352
+				}
+			},
+			{
+				"id": 14761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador malévolo",
+					"id": 84841
+				}
+			},
+			{
+				"id": 14762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador malévolo",
+					"id": 84842
+				}
+			},
+			{
+				"id": 14763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador malévolo",
+					"id": 84843
+				}
+			},
+			{
+				"id": 14764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador malévolo",
+					"id": 84844
+				}
+			},
+			{
+				"id": 14765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de Flor Eterna",
+					"id": 85356
+				}
+			},
+			{
+				"id": 14766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador malévolo",
+					"id": 84845
+				}
+			},
+			{
+				"id": 14767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador malévolo",
+					"id": 84846
+				}
+			},
+			{
+				"id": 14768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de Flor Eterna",
+					"id": 85358
+				}
+			},
+			{
+				"id": 14769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84847?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador malévolo",
+					"id": 84847
+				}
+			},
+			{
+				"id": 14770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de dragón guardián",
+					"id": 85361
+				}
+			},
+			{
+				"id": 14771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de dragón guardián",
+					"id": 85363
+				}
+			},
+			{
+				"id": 14772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de dragón guardián",
+					"id": 85364
+				}
+			},
+			{
+				"id": 14773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de dragón guardián",
+					"id": 85366
+				}
+			},
+			{
+				"id": 14774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de sha",
+					"id": 85369
+				}
+			},
+			{
+				"id": 14775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de piel de sha",
+					"id": 85371
+				}
+			},
+			{
+				"id": 14776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del pergamino ardiente",
+					"id": 85376
+				}
+			},
+			{
+				"id": 14777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del pergamino ardiente",
+					"id": 85378
+				}
+			},
+			{
+				"id": 14778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de Flor Eterna",
+					"id": 85380
+				}
+			},
+			{
+				"id": 14779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzones de Flor Eterna",
+					"id": 85382
+				}
+			},
+			{
+				"id": 14780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de la Grulla Roja",
+					"id": 85385
+				}
+			},
+			{
+				"id": 14781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de la Grulla Roja",
+					"id": 85387
+				}
+			},
+			{
+				"id": 14782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de la Grulla Roja",
+					"id": 85389
+				}
+			},
+			{
+				"id": 14783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de la Grulla Roja",
+					"id": 85391
+				}
+			},
+			{
+				"id": 14784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de la Grulla Roja",
+					"id": 85395
+				}
+			},
+			{
+				"id": 14785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la Grulla Roja",
+					"id": 85397
+				}
+			},
+			{
+				"id": 14786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84886?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador malévolo",
+					"id": 84886
+				}
+			},
+			{
+				"id": 14787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84887?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de crueldad de Gladiador malévolo",
+					"id": 84887
+				}
+			},
+			{
+				"id": 14788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84888?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador malévolo",
+					"id": 84888
+				}
+			},
+			{
+				"id": 14789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84889?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador malévolo",
+					"id": 84889
+				}
+			},
+			{
+				"id": 14790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84890?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador malévolo",
+					"id": 84890
+				}
+			},
+			{
+				"id": 14791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84891?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador malévolo",
+					"id": 84891
+				}
+			},
+			{
+				"id": 14792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84892?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador malévolo",
+					"id": 84892
+				}
+			},
+			{
+				"id": 14793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84946?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador malévolo",
+					"id": 84946
+				}
+			},
+			{
+				"id": 14794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador malévolo",
+					"id": 84947
+				}
+			},
+			{
+				"id": 14795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84948?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador malévolo",
+					"id": 84948
+				}
+			},
+			{
+				"id": 14796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de precisión de Gladiador malévolo",
+					"id": 84949
+				}
+			},
+			{
+				"id": 14797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador malévolo",
+					"id": 84950
+				}
+			},
+			{
+				"id": 14798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/90839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alijo de oro influenciado por el sha",
+					"id": 90839
+				}
+			},
+			{
+				"id": 14799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador malévolo",
+					"id": 84951
+				}
+			},
+			{
+				"id": 14800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador malévolo",
+					"id": 84952
+				}
+			},
+			{
+				"id": 14801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador malévolo",
+					"id": 84953
+				}
+			},
+			{
+				"id": 14802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador malévolo",
+					"id": 84954
+				}
+			},
+			{
+				"id": 14803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/87771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del dragón nimbo ónice célico",
+					"id": 87771
+				}
+			},
+			{
+				"id": 14804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84955?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador malévolo",
+					"id": 84955
+				}
+			},
+			{
+				"id": 14805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador malévolo",
+					"id": 84956
+				}
+			},
+			{
+				"id": 14806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador malévolo",
+					"id": 84957
+				}
+			},
+			{
+				"id": 14807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador malévolo",
+					"id": 84958
+				}
+			},
+			{
+				"id": 14808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador malévolo",
+					"id": 84959
+				}
+			},
+			{
+				"id": 14809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84960?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador malévolo",
+					"id": 84960
+				}
+			},
+			{
+				"id": 14810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador malévolo",
+					"id": 84972
+				}
+			},
+			{
+				"id": 14811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador malévolo",
+					"id": 84973
+				}
+			},
+			{
+				"id": 14812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador malévolo",
+					"id": 84974
+				}
+			},
+			{
+				"id": 14813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador malévolo",
+					"id": 84975
+				}
+			},
+			{
+				"id": 14814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador malévolo",
+					"id": 84976
+				}
+			},
+			{
+				"id": 14815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador malévolo",
+					"id": 84977
+				}
+			},
+			{
+				"id": 14816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador malévolo",
+					"id": 84978
+				}
+			},
+			{
+				"id": 14817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador malévolo",
+					"id": 84979
+				}
+			},
+			{
+				"id": 14818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador malévolo",
+					"id": 84980
+				}
+			},
+			{
+				"id": 14819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador malévolo",
+					"id": 84981
+				}
+			},
+			{
+				"id": 14820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador malévolo",
+					"id": 84982
+				}
+			},
+			{
+				"id": 14821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador malévolo",
+					"id": 84983
+				}
+			},
+			{
+				"id": 14822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84984?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador malévolo",
+					"id": 84984
+				}
+			},
+			{
+				"id": 14823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador malévolo",
+					"id": 84985
+				}
+			},
+			{
+				"id": 14824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador malévolo",
+					"id": 84986
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5937,
+				"title": "Hervir de furia",
+				"body_text": "El sha de la ira proyecta ira abrasadora sobre su objetivo actual si no hay jugadores dentro del radio de su ataque cuerpo a cuerpo. Hervir de furia inflige 100 p. de daño de las Sombras y aumenta el daño de las Sombras que recibe el jugador un 10% durante 20 s."
+			},
+			{
+				"id": 5938,
+				"title": "Ira infinita",
+				"body_text": "La furia traída a Pandaria por la Alianza y la Horda fluye por el sha de la ira y surge en forma de lluvia de energía de sha. Cada misil inflige 0 p. de daño de las Sombras a los jugadores en un radio de 3 m del punto de impacto e invoca una vesania y una nube de pensamientos amargos.",
+				"sections": [
+					{
+						"id": 5940,
+						"title": "Vesania",
+						"body_text": "Una manifestación del odio que invoca la Ira infinita del sha de la ira.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/40907?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 40907
+						}
+					},
+					{
+						"id": 5939,
+						"title": "Pensamientos amargos",
+						"body_text": "Una nube de pensamientos amargos impide el ataque y el lanzamiento de hechizos de todos los jugadores en un radio de 3 m. Dura 1 min."
+					}
+				]
+			},
+			{
+				"id": 5941,
+				"title": "Fase 1: Cólera creciente",
+				"body_text": "La furia del sha de la ira crece durante 50 s.",
+				"sections": [
+					{
+						"id": 5942,
+						"title": "Cólera creciente",
+						"body_text": "El sha de la ira infecta a 3 jugadores con pensamientos coléricos. Tras 6 s, los jugadores infectados muestran un Comportamiento agresivo.",
+						"sections": [
+							{
+								"id": 5943,
+								"title": "Comportamiento agresivo",
+								"body_text": "El jugador afectado estalla de ira, lo que provoca que el jugador y sus aliados en un radio de 5 m caigan bajo el control del sha de la ira durante 30 s. Aumenta el daño infligido un 200% y su salud máxima un 200%. Comportamiento agresivo se elimina si al jugador le queda menos de un 50% de su salud."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5944,
+				"title": "Fase 2: Cólera desatada",
+				"body_text": "Al llegar a 100 p. de ira, el sha de la ira descarga su cólera sobre sus enemigos. Esta fase dura hasta que la furia del sha de la ira llega a 0 p.",
+				"sections": [
+					{
+						"id": 5945,
+						"title": "Cólera desatada",
+						"body_text": "El sha de la ira desata rabia reprimida durante 25 s. Cólera desatada inflige 0 p. de daño de las Sombras a 10 objetivos aleatorios cada 2 s."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/691?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 691,
+		"name": "Sha de la colère",
+		"description": "Manifestation physique de la rage, le sha de la colère s'est échappé du monastère des Pandashan au sommet de Kun-Lai. Nourri par les violents conflits qui déchirent la Pandarie, il est devenu encore plus puissant. On l'a récemment aperçu en train de rôder dans Kun-Lai et d'utiliser son énergie négative pour corrompre tout ce qu'il croise.",
+		"creatures": [
+			{
+				"id": 1316,
+				"name": "Sha de la colère",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 14693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'Oiseau de feu",
+					"id": 85285
+				}
+			},
+			{
+				"id": 14694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de l'Oiseau de feu",
+					"id": 85287
+				}
+			},
+			{
+				"id": 14695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'Oiseau de feu",
+					"id": 85290
+				}
+			},
+			{
+				"id": 14696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de l'Oiseau de feu",
+					"id": 85292
+				}
+			},
+			{
+				"id": 14697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du tueur yaungol",
+					"id": 85295
+				}
+			},
+			{
+				"id": 14698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du tueur yaungol",
+					"id": 85297
+				}
+			},
+			{
+				"id": 14699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes des mille lames",
+					"id": 85300
+				}
+			},
+			{
+				"id": 14700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants des mille lames",
+					"id": 85302
+				}
+			},
+			{
+				"id": 14701,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de l'éternel printemps",
+					"id": 85306
+				}
+			},
+			{
+				"id": 14702,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'éternel printemps",
+					"id": 85308
+				}
+			},
+			{
+				"id": 14703,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'éternel printemps",
+					"id": 85310
+				}
+			},
+			{
+				"id": 14704,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de l'éternel printemps",
+					"id": 85312
+				}
+			},
+			{
+				"id": 14705,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de cruauté du gladiateur malveillant",
+					"id": 84801
+				}
+			},
+			{
+				"id": 14706,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur malveillant",
+					"id": 84802
+				}
+			},
+			{
+				"id": 14707,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur malveillant",
+					"id": 84803
+				}
+			},
+			{
+				"id": 14708,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la catacombe perdue",
+					"id": 85315
+				}
+			},
+			{
+				"id": 14709,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur malveillant",
+					"id": 84804
+				}
+			},
+			{
+				"id": 14710,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur malveillant",
+					"id": 84805
+				}
+			},
+			{
+				"id": 14711,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de la catacombe perdue",
+					"id": 85317
+				}
+			},
+			{
+				"id": 14712,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse de prouesse du gladiateur malveillant",
+					"id": 84806
+				}
+			},
+			{
+				"id": 14713,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse d'empressement du gladiateur malveillant",
+					"id": 84807
+				}
+			},
+			{
+				"id": 14714,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur malveillant",
+					"id": 84808
+				}
+			},
+			{
+				"id": 14715,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du Tigre blanc",
+					"id": 85320
+				}
+			},
+			{
+				"id": 14716,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur malveillant",
+					"id": 84809
+				}
+			},
+			{
+				"id": 14717,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur malveillant",
+					"id": 84810
+				}
+			},
+			{
+				"id": 14718,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du Tigre blanc",
+					"id": 85322
+				}
+			},
+			{
+				"id": 14719,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur malveillant",
+					"id": 84811
+				}
+			},
+			{
+				"id": 14720,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur malveillant",
+					"id": 84812
+				}
+			},
+			{
+				"id": 14721,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur malveillant",
+					"id": 84813
+				}
+			},
+			{
+				"id": 14722,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes des anneaux résonnants",
+					"id": 85325
+				}
+			},
+			{
+				"id": 14723,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur malveillant",
+					"id": 84814
+				}
+			},
+			{
+				"id": 14724,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur malveillant",
+					"id": 84815
+				}
+			},
+			{
+				"id": 14725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains des anneaux résonnants",
+					"id": 85327
+				}
+			},
+			{
+				"id": 14726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur malveillant",
+					"id": 84816
+				}
+			},
+			{
+				"id": 14727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur malveillant",
+					"id": 84817
+				}
+			},
+			{
+				"id": 14728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur malveillant",
+					"id": 84818
+				}
+			},
+			{
+				"id": 14729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards des anneaux résonnants",
+					"id": 85330
+				}
+			},
+			{
+				"id": 14730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur malveillant",
+					"id": 84819
+				}
+			},
+			{
+				"id": 14731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets des anneaux résonnants",
+					"id": 85331
+				}
+			},
+			{
+				"id": 14732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur malveillant",
+					"id": 84820
+				}
+			},
+			{
+				"id": 14733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur malveillant",
+					"id": 84821
+				}
+			},
+			{
+				"id": 14734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur malveillant",
+					"id": 84822
+				}
+			},
+			{
+				"id": 14735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de la catacombe perdue",
+					"id": 85335
+				}
+			},
+			{
+				"id": 14736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur malveillant",
+					"id": 84823
+				}
+			},
+			{
+				"id": 14737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur malveillant",
+					"id": 84824
+				}
+			},
+			{
+				"id": 14738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la catacombe perdue",
+					"id": 85337
+				}
+			},
+			{
+				"id": 14739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur malveillant",
+					"id": 84825
+				}
+			},
+			{
+				"id": 14740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur malveillant",
+					"id": 84826
+				}
+			},
+			{
+				"id": 14741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur malveillant",
+					"id": 84827
+				}
+			},
+			{
+				"id": 14742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur malveillant",
+					"id": 84828
+				}
+			},
+			{
+				"id": 14743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du Tigre blanc",
+					"id": 85340
+				}
+			},
+			{
+				"id": 14744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur malveillant",
+					"id": 84829
+				}
+			},
+			{
+				"id": 14745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en cuir",
+					"id": 84830
+				}
+			},
+			{
+				"id": 14746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du Tigre blanc",
+					"id": 85342
+				}
+			},
+			{
+				"id": 14747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur malveillant",
+					"id": 84831
+				}
+			},
+			{
+				"id": 14748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en peau de dragon",
+					"id": 84832
+				}
+			},
+			{
+				"id": 14749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en cuir de kodo",
+					"id": 84833
+				}
+			},
+			{
+				"id": 14750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves du Tigre blanc",
+					"id": 85345
+				}
+			},
+			{
+				"id": 14751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en écailles",
+					"id": 84834
+				}
+			},
+			{
+				"id": 14752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en plaques d'effroi",
+					"id": 84835
+				}
+			},
+			{
+				"id": 14753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du Tigre blanc",
+					"id": 85347
+				}
+			},
+			{
+				"id": 14754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en cuivrepeau",
+					"id": 84836
+				}
+			},
+			{
+				"id": 14755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur malveillant en soie",
+					"id": 84837
+				}
+			},
+			{
+				"id": 14756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en satin",
+					"id": 84838
+				}
+			},
+			{
+				"id": 14757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de l'Oiseau de feu",
+					"id": 85350
+				}
+			},
+			{
+				"id": 14758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en peau-de-fer",
+					"id": 84839
+				}
+			},
+			{
+				"id": 14759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en plaques",
+					"id": 84840
+				}
+			},
+			{
+				"id": 14760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l'Oiseau de feu",
+					"id": 85352
+				}
+			},
+			{
+				"id": 14761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en anneaux",
+					"id": 84841
+				}
+			},
+			{
+				"id": 14762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur malveillant en tisse-gangrène",
+					"id": 84842
+				}
+			},
+			{
+				"id": 14763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en peau de wyrm",
+					"id": 84843
+				}
+			},
+			{
+				"id": 14764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur malveillant",
+					"id": 84844
+				}
+			},
+			{
+				"id": 14765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de l'éternel printemps",
+					"id": 85356
+				}
+			},
+			{
+				"id": 14766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en mailles",
+					"id": 84845
+				}
+			},
+			{
+				"id": 14767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur malveillant en étoffe lunaire",
+					"id": 84846
+				}
+			},
+			{
+				"id": 14768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l'éternel printemps",
+					"id": 85358
+				}
+			},
+			{
+				"id": 14769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84847?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur malveillant en mailles annelées",
+					"id": 84847
+				}
+			},
+			{
+				"id": 14770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards du Serpent gardien",
+					"id": 85361
+				}
+			},
+			{
+				"id": 14771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains du Serpent gardien",
+					"id": 85363
+				}
+			},
+			{
+				"id": 14772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du Serpent gardien",
+					"id": 85364
+				}
+			},
+			{
+				"id": 14773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du Serpent gardien",
+					"id": 85366
+				}
+			},
+			{
+				"id": 14774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en peau de sha",
+					"id": 85369
+				}
+			},
+			{
+				"id": 14775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières en peau de sha",
+					"id": 85371
+				}
+			},
+			{
+				"id": 14776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du parchemin en flammes",
+					"id": 85376
+				}
+			},
+			{
+				"id": 14777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du parchemin en flammes",
+					"id": 85378
+				}
+			},
+			{
+				"id": 14778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de l'éternel printemps",
+					"id": 85380
+				}
+			},
+			{
+				"id": 14779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braies de l'éternel printemps",
+					"id": 85382
+				}
+			},
+			{
+				"id": 14780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la Grue rouge",
+					"id": 85385
+				}
+			},
+			{
+				"id": 14781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la Grue rouge",
+					"id": 85387
+				}
+			},
+			{
+				"id": 14782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la Grue rouge",
+					"id": 85389
+				}
+			},
+			{
+				"id": 14783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la Grue rouge",
+					"id": 85391
+				}
+			},
+			{
+				"id": 14784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de la Grue rouge",
+					"id": 85395
+				}
+			},
+			{
+				"id": 14785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la Grue rouge",
+					"id": 85397
+				}
+			},
+			{
+				"id": 14786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84886?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur malveillant",
+					"id": 84886
+				}
+			},
+			{
+				"id": 14787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84887?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de cruauté du gladiateur malveillant",
+					"id": 84887
+				}
+			},
+			{
+				"id": 14788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84888?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur malveillant",
+					"id": 84888
+				}
+			},
+			{
+				"id": 14789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84889?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'expertise du gladiateur malveillant",
+					"id": 84889
+				}
+			},
+			{
+				"id": 14790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84890?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur malveillant",
+					"id": 84890
+				}
+			},
+			{
+				"id": 14791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84891?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur malveillant",
+					"id": 84891
+				}
+			},
+			{
+				"id": 14792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84892?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur malveillant",
+					"id": 84892
+				}
+			},
+			{
+				"id": 14793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84946?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur malveillant",
+					"id": 84946
+				}
+			},
+			{
+				"id": 14794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur malveillant",
+					"id": 84947
+				}
+			},
+			{
+				"id": 14795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84948?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur malveillant",
+					"id": 84948
+				}
+			},
+			{
+				"id": 14796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de précision du gladiateur malveillant",
+					"id": 84949
+				}
+			},
+			{
+				"id": 14797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur malveillant",
+					"id": 84950
+				}
+			},
+			{
+				"id": 14798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/90839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cache d'or touché par les sha",
+					"id": 90839
+				}
+			},
+			{
+				"id": 14799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur malveillant",
+					"id": 84951
+				}
+			},
+			{
+				"id": 14800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur malveillant",
+					"id": 84952
+				}
+			},
+			{
+				"id": 14801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur malveillant",
+					"id": 84953
+				}
+			},
+			{
+				"id": 14802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur malveillant",
+					"id": 84954
+				}
+			},
+			{
+				"id": 14803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/87771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de serpent-nuage céleste onyx",
+					"id": 87771
+				}
+			},
+			{
+				"id": 14804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84955?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur malveillant",
+					"id": 84955
+				}
+			},
+			{
+				"id": 14805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur malveillant",
+					"id": 84956
+				}
+			},
+			{
+				"id": 14806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur malveillant",
+					"id": 84957
+				}
+			},
+			{
+				"id": 14807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur malveillant",
+					"id": 84958
+				}
+			},
+			{
+				"id": 14808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur malveillant",
+					"id": 84959
+				}
+			},
+			{
+				"id": 14809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84960?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur malveillant",
+					"id": 84960
+				}
+			},
+			{
+				"id": 14810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur malveillant",
+					"id": 84972
+				}
+			},
+			{
+				"id": 14811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur malveillant",
+					"id": 84973
+				}
+			},
+			{
+				"id": 14812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur malveillant",
+					"id": 84974
+				}
+			},
+			{
+				"id": 14813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur malveillant",
+					"id": 84975
+				}
+			},
+			{
+				"id": 14814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur malveillant",
+					"id": 84976
+				}
+			},
+			{
+				"id": 14815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur malveillant",
+					"id": 84977
+				}
+			},
+			{
+				"id": 14816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur malveillant",
+					"id": 84978
+				}
+			},
+			{
+				"id": 14817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur malveillant",
+					"id": 84979
+				}
+			},
+			{
+				"id": 14818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur malveillant",
+					"id": 84980
+				}
+			},
+			{
+				"id": 14819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur malveillant",
+					"id": 84981
+				}
+			},
+			{
+				"id": 14820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur malveillant",
+					"id": 84982
+				}
+			},
+			{
+				"id": 14821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur malveillant",
+					"id": 84983
+				}
+			},
+			{
+				"id": 14822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84984?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur malveillant",
+					"id": 84984
+				}
+			},
+			{
+				"id": 14823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur malveillant",
+					"id": 84985
+				}
+			},
+			{
+				"id": 14824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur malveillant",
+					"id": 84986
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5937,
+				"title": "Bouillant de rage",
+				"body_text": "Si aucun personnage-joueur ne se trouve à portée de ses attaques de mêlée, le sha de la colère lance un trait de colère bouillonnante à sa cible actuelle. L’effet de Bouillant de rage inflige 100 points de dégâts d’Ombre et augmente les dégâts d’Ombre infligés au personnage-joueur de 10% pendant 20 s."
+			},
+			{
+				"id": 5938,
+				"title": "Rage infinie",
+				"body_text": "Le sha de la colère concentre toute la colère soulevée par l’arrivée de l’Alliance et de la Horde en Pandarie, et la recrache sous forme de missiles magiques. Chaque missile inflige 0 points de dégâts d’Ombre à tous les personnages-joueurs situés à moins de 3 mètres du point d’impact, tout en invoquant un courroucé et un nuage de pensées amères.",
+				"sections": [
+					{
+						"id": 5940,
+						"title": "Courroucé",
+						"body_text": "Manifestation de colère invoquée par la rage infinie du sha de la colère.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/40907?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 40907
+						}
+					},
+					{
+						"id": 5939,
+						"title": "Pensées amères",
+						"body_text": "Le nuage de pensées amères empêche les personnages-joueurs se trouvant à moins de 3 mètres d’attaquer et de lancer des sorts. Le nuage dure 1 min."
+					}
+				]
+			},
+			{
+				"id": 5941,
+				"title": "Phase 1 : Colère grandissante",
+				"body_text": "La rage du sha de la colère augmente pendant 50 s.",
+				"sections": [
+					{
+						"id": 5942,
+						"title": "Colère grandissante",
+						"body_text": "Le sha de la colère infecte 3 personnages-joueurs à l’aide de pensées coléreuses. Au bout de 6 s, les personnages-joueurs infectés sont soumis aux effets de Comportement agressif.",
+						"sections": [
+							{
+								"id": 5943,
+								"title": "Comportement agressif",
+								"body_text": "Le personnage-joueur affecté cède à la colère. Lui et tous ses alliés se trouvant à moins de 5 mètres sont alors sous le contrôle du sha de la colère pendant 30 s. Cet effet augmente les dégâts infligés de 200% et les points de vie maximum de 200%. Comportement agressif se dissipe si le personnage-joueur tombe en dessous de 50% des points de vie lui restant."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5944,
+				"title": "Phase 2 : Courroux déchaîné",
+				"body_text": "Quand sa rage atteint 100, le sha de la colère laisse libre cours à son courroux. Cette phase dure jusqu’à ce que la rage du sha retombe à 0.",
+				"sections": [
+					{
+						"id": 5945,
+						"title": "Courroux déchaîné",
+						"body_text": "Le sha de la colère libère la rage qu’il a accumulée pendant 25 s. Courroux déchaîné inflige 0 points de dégâts d’Ombre à 10 cibles au hasard toutes les 2 s."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandarie",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/691?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 691,
+		"name": "Sha of Anger",
+		"description": "The Sha of Anger, the physical manifestation of rage, has escaped from the Shado-pan Monastery in Kun-Lai Summit. Amid the brutal conflicts gripping Pandaria, the dark entity has grown ever more powerful. Recently, the sha has been seen wandering Kun-Lai, using negative energies to corrupt everything the being encounters.",
+		"creatures": [
+			{
+				"id": 1316,
+				"name": "Sha of Anger",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 14693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Legguards",
+					"id": 85285
+				}
+			},
+			{
+				"id": 14694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Grips",
+					"id": 85287
+				}
+			},
+			{
+				"id": 14695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Gloves",
+					"id": 85290
+				}
+			},
+			{
+				"id": 14696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Kilt",
+					"id": 85292
+				}
+			},
+			{
+				"id": 14697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yaungol Slayer's Legguards",
+					"id": 85295
+				}
+			},
+			{
+				"id": 14698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yaungol Slayer's Gloves",
+					"id": 85297
+				}
+			},
+			{
+				"id": 14699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Thousandfold Blades",
+					"id": 85300
+				}
+			},
+			{
+				"id": 14700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Thousandfold Blades",
+					"id": 85302
+				}
+			},
+			{
+				"id": 14701,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Leggings",
+					"id": 85306
+				}
+			},
+			{
+				"id": 14702,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Gloves",
+					"id": 85308
+				}
+			},
+			{
+				"id": 14703,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Legguards",
+					"id": 85310
+				}
+			},
+			{
+				"id": 14704,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Grips",
+					"id": 85312
+				}
+			},
+			{
+				"id": 14705,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Drape of Cruelty",
+					"id": 84801
+				}
+			},
+			{
+				"id": 14706,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Drape of Meditation",
+					"id": 84802
+				}
+			},
+			{
+				"id": 14707,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Drape of Prowess",
+					"id": 84803
+				}
+			},
+			{
+				"id": 14708,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Lost Catacomb",
+					"id": 85315
+				}
+			},
+			{
+				"id": 14709,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cape of Cruelty",
+					"id": 84804
+				}
+			},
+			{
+				"id": 14710,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cape of Prowess",
+					"id": 84805
+				}
+			},
+			{
+				"id": 14711,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Lost Catacomb",
+					"id": 85317
+				}
+			},
+			{
+				"id": 14712,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cloak of Prowess",
+					"id": 84806
+				}
+			},
+			{
+				"id": 14713,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cloak of Alacrity",
+					"id": 84807
+				}
+			},
+			{
+				"id": 14714,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Boots of Cruelty",
+					"id": 84808
+				}
+			},
+			{
+				"id": 14715,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Legguards",
+					"id": 85320
+				}
+			},
+			{
+				"id": 14716,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Boots of Alacrity",
+					"id": 84809
+				}
+			},
+			{
+				"id": 14717,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Warboots of Cruelty",
+					"id": 84810
+				}
+			},
+			{
+				"id": 14718,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Handguards",
+					"id": 85322
+				}
+			},
+			{
+				"id": 14719,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Greaves of Alacrity",
+					"id": 84811
+				}
+			},
+			{
+				"id": 14720,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Greaves of Meditation",
+					"id": 84812
+				}
+			},
+			{
+				"id": 14721,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Footguards of Meditation",
+					"id": 84813
+				}
+			},
+			{
+				"id": 14722,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Resounding Rings",
+					"id": 85325
+				}
+			},
+			{
+				"id": 14723,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Treads of Cruelty",
+					"id": 84814
+				}
+			},
+			{
+				"id": 14724,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Treads of Alacrity",
+					"id": 84815
+				}
+			},
+			{
+				"id": 14725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of Resounding Rings",
+					"id": 85327
+				}
+			},
+			{
+				"id": 14726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Treads of Meditation",
+					"id": 84816
+				}
+			},
+			{
+				"id": 14727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Sabatons of Cruelty",
+					"id": 84817
+				}
+			},
+			{
+				"id": 14728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Sabatons of Alacrity",
+					"id": 84818
+				}
+			},
+			{
+				"id": 14729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Resounding Rings",
+					"id": 85330
+				}
+			},
+			{
+				"id": 14730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Footguards of Alacrity",
+					"id": 84819
+				}
+			},
+			{
+				"id": 14731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Resounding Rings",
+					"id": 85331
+				}
+			},
+			{
+				"id": 14732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Footguards of Alacrity",
+					"id": 84820
+				}
+			},
+			{
+				"id": 14733,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Footguards of Meditation",
+					"id": 84821
+				}
+			},
+			{
+				"id": 14734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Warboots of Alacrity",
+					"id": 84822
+				}
+			},
+			{
+				"id": 14735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of the Lost Catacomb",
+					"id": 85335
+				}
+			},
+			{
+				"id": 14736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Band of Cruelty",
+					"id": 84823
+				}
+			},
+			{
+				"id": 14737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Band of Accuracy",
+					"id": 84824
+				}
+			},
+			{
+				"id": 14738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Lost Catacomb",
+					"id": 85337
+				}
+			},
+			{
+				"id": 14739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Band of Meditation",
+					"id": 84825
+				}
+			},
+			{
+				"id": 14740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Ring of Cruelty",
+					"id": 84826
+				}
+			},
+			{
+				"id": 14741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Ring of Accuracy",
+					"id": 84827
+				}
+			},
+			{
+				"id": 14742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Signet of Cruelty",
+					"id": 84828
+				}
+			},
+			{
+				"id": 14743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Legplates",
+					"id": 85340
+				}
+			},
+			{
+				"id": 14744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Signet of Accuracy",
+					"id": 84829
+				}
+			},
+			{
+				"id": 14745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Leather Gloves",
+					"id": 84830
+				}
+			},
+			{
+				"id": 14746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Gauntlets",
+					"id": 85342
+				}
+			},
+			{
+				"id": 14747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Ornamented Gloves",
+					"id": 84831
+				}
+			},
+			{
+				"id": 14748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Dragonhide Gloves",
+					"id": 84832
+				}
+			},
+			{
+				"id": 14749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Kodohide Gloves",
+					"id": 84833
+				}
+			},
+			{
+				"id": 14750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Greaves",
+					"id": 85345
+				}
+			},
+			{
+				"id": 14751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Scaled Gauntlets",
+					"id": 84834
+				}
+			},
+			{
+				"id": 14752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Dreadplate Gauntlets",
+					"id": 84835
+				}
+			},
+			{
+				"id": 14753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "White Tiger Gloves",
+					"id": 85347
+				}
+			},
+			{
+				"id": 14754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Copperskin Gloves",
+					"id": 84836
+				}
+			},
+			{
+				"id": 14755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Silk Handguards",
+					"id": 84837
+				}
+			},
+			{
+				"id": 14756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Satin Gloves",
+					"id": 84838
+				}
+			},
+			{
+				"id": 14757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Legwraps",
+					"id": 85350
+				}
+			},
+			{
+				"id": 14758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Ironskin Gloves",
+					"id": 84839
+				}
+			},
+			{
+				"id": 14759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Plate Gauntlets",
+					"id": 84840
+				}
+			},
+			{
+				"id": 14760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firebird's Handwraps",
+					"id": 85352
+				}
+			},
+			{
+				"id": 14761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Chain Gauntlets",
+					"id": 84841
+				}
+			},
+			{
+				"id": 14762,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Felweave Handguards",
+					"id": 84842
+				}
+			},
+			{
+				"id": 14763,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Wyrmhide Gloves",
+					"id": 84843
+				}
+			},
+			{
+				"id": 14764,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Linked Gauntlets",
+					"id": 84844
+				}
+			},
+			{
+				"id": 14765,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Legwraps",
+					"id": 85356
+				}
+			},
+			{
+				"id": 14766,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Mail Gauntlets",
+					"id": 84845
+				}
+			},
+			{
+				"id": 14767,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Mooncloth Gloves",
+					"id": 84846
+				}
+			},
+			{
+				"id": 14768,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Handwraps",
+					"id": 85358
+				}
+			},
+			{
+				"id": 14769,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84847?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Ringmail Gauntlets",
+					"id": 84847
+				}
+			},
+			{
+				"id": 14770,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardian Serpent Legwraps",
+					"id": 85361
+				}
+			},
+			{
+				"id": 14771,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardian Serpent Handwraps",
+					"id": 85363
+				}
+			},
+			{
+				"id": 14772,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardian Serpent Gloves",
+					"id": 85364
+				}
+			},
+			{
+				"id": 14773,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85366?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardian Serpent Leggings",
+					"id": 85366
+				}
+			},
+			{
+				"id": 14774,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sha-Skin Gloves",
+					"id": 85369
+				}
+			},
+			{
+				"id": 14775,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sha-Skin Leggings",
+					"id": 85371
+				}
+			},
+			{
+				"id": 14776,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Burning Scroll",
+					"id": 85376
+				}
+			},
+			{
+				"id": 14777,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Burning Scroll",
+					"id": 85378
+				}
+			},
+			{
+				"id": 14778,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Handguards",
+					"id": 85380
+				}
+			},
+			{
+				"id": 14779,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eternal Blossom Breeches",
+					"id": 85382
+				}
+			},
+			{
+				"id": 14780,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Legguards",
+					"id": 85385
+				}
+			},
+			{
+				"id": 14781,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Gauntlets",
+					"id": 85387
+				}
+			},
+			{
+				"id": 14782,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Handwraps",
+					"id": 85389
+				}
+			},
+			{
+				"id": 14783,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Legwraps",
+					"id": 85391
+				}
+			},
+			{
+				"id": 14784,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Grips",
+					"id": 85395
+				}
+			},
+			{
+				"id": 14785,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/85397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Crane Leggings",
+					"id": 85397
+				}
+			},
+			{
+				"id": 14786,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84886?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Pendant of Alacrity",
+					"id": 84886
+				}
+			},
+			{
+				"id": 14787,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84887?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Pendant of Cruelty",
+					"id": 84887
+				}
+			},
+			{
+				"id": 14788,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84888?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Pendant of Meditation",
+					"id": 84888
+				}
+			},
+			{
+				"id": 14789,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84889?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Necklace of Proficiency",
+					"id": 84889
+				}
+			},
+			{
+				"id": 14790,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84890?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Necklace of Prowess",
+					"id": 84890
+				}
+			},
+			{
+				"id": 14791,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84891?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Choker of Proficiency",
+					"id": 84891
+				}
+			},
+			{
+				"id": 14792,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84892?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Choker of Accuracy",
+					"id": 84892
+				}
+			},
+			{
+				"id": 14793,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84946?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Waistguard of Meditation",
+					"id": 84946
+				}
+			},
+			{
+				"id": 14794,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84947?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Waistband of Cruelty",
+					"id": 84947
+				}
+			},
+			{
+				"id": 14795,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84948?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Waistband of Accuracy",
+					"id": 84948
+				}
+			},
+			{
+				"id": 14796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84949?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Girdle of Accuracy",
+					"id": 84949
+				}
+			},
+			{
+				"id": 14797,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Girdle of Prowess",
+					"id": 84950
+				}
+			},
+			{
+				"id": 14798,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/90839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cache of Sha-Touched Gold",
+					"id": 90839
+				}
+			},
+			{
+				"id": 14799,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Clasp of Cruelty",
+					"id": 84951
+				}
+			},
+			{
+				"id": 14800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84952?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Clasp of Meditation",
+					"id": 84952
+				}
+			},
+			{
+				"id": 14801,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84953?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Belt of Meditation",
+					"id": 84953
+				}
+			},
+			{
+				"id": 14802,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cord of Cruelty",
+					"id": 84954
+				}
+			},
+			{
+				"id": 14803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/87771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Heavenly Onyx Cloud Serpent",
+					"id": 87771
+				}
+			},
+			{
+				"id": 14804,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84955?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cord of Accuracy",
+					"id": 84955
+				}
+			},
+			{
+				"id": 14805,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cord of Meditation",
+					"id": 84956
+				}
+			},
+			{
+				"id": 14806,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Links of Accuracy",
+					"id": 84957
+				}
+			},
+			{
+				"id": 14807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Links of Cruelty",
+					"id": 84958
+				}
+			},
+			{
+				"id": 14808,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Waistguard of Cruelty",
+					"id": 84959
+				}
+			},
+			{
+				"id": 14809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84960?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Belt of Cruelty",
+					"id": 84960
+				}
+			},
+			{
+				"id": 14810,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armwraps of Alacrity",
+					"id": 84972
+				}
+			},
+			{
+				"id": 14811,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armwraps of Accuracy",
+					"id": 84973
+				}
+			},
+			{
+				"id": 14812,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Bracers of Prowess",
+					"id": 84974
+				}
+			},
+			{
+				"id": 14813,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Bracers of Meditation",
+					"id": 84975
+				}
+			},
+			{
+				"id": 14814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Bindings of Meditation",
+					"id": 84976
+				}
+			},
+			{
+				"id": 14815,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cuffs of Accuracy",
+					"id": 84977
+				}
+			},
+			{
+				"id": 14816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cuffs of Prowess",
+					"id": 84978
+				}
+			},
+			{
+				"id": 14817,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Cuffs of Meditation",
+					"id": 84979
+				}
+			},
+			{
+				"id": 14818,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Wristguards of Alacrity",
+					"id": 84980
+				}
+			},
+			{
+				"id": 14819,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Wristguards of Accuracy",
+					"id": 84981
+				}
+			},
+			{
+				"id": 14820,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Bindings of Prowess",
+					"id": 84982
+				}
+			},
+			{
+				"id": 14821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armbands of Prowess",
+					"id": 84983
+				}
+			},
+			{
+				"id": 14822,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84984?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armbands of Meditation",
+					"id": 84984
+				}
+			},
+			{
+				"id": 14823,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armplates of Proficiency",
+					"id": 84985
+				}
+			},
+			{
+				"id": 14824,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/84986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malevolent Gladiator's Armplates of Alacrity",
+					"id": 84986
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5937,
+				"title": "Seethe",
+				"body_text": "The Sha of Anger projects seething anger at his current target if no players stand within his melee attack range. Seethe inflicts 100 Shadow damage and increases Shadow damage taken by the player by 10% for 20 sec."
+			},
+			{
+				"id": 5938,
+				"title": "Endless Rage",
+				"body_text": "The anger brought by the Alliance and Horde to Pandaria flows through the Sha of Anger, erupting forth as a shower of Sha energy. Each missile inflicts 0 Shadow damage to players within 3 yards of the impact point and summons forth an Ire and a cloud of Bitter Thoughts.",
+				"sections": [
+					{
+						"id": 5940,
+						"title": "Ire",
+						"body_text": "A manifestation of anger summoned by the Sha of Anger's Endless Rage.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/40907?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 40907
+						}
+					},
+					{
+						"id": 5939,
+						"title": "Bitter Thoughts",
+						"body_text": "The cloud of Bitter Thoughts prevents all players within 3 yards from either attacking or casting spells. The cloud persists for 1 min."
+					}
+				]
+			},
+			{
+				"id": 5941,
+				"title": "Stage One: Growing Anger",
+				"body_text": "The Sha of Anger's rage grows over 50 seconds.",
+				"sections": [
+					{
+						"id": 5942,
+						"title": "Growing Anger",
+						"body_text": "The Sha of Anger infects 3 players with angry thoughts. After 6 sec, infected players display Aggressive Behavior.",
+						"sections": [
+							{
+								"id": 5943,
+								"title": "Aggressive Behavior",
+								"body_text": "The affected player erupts with anger, causing the player and all allies within 5 yards to fall under the control of the Sha of Anger for 30 sec. Increases damage dealt by 200% and maximum health by 200%. Aggressive Behavior is removed if the player falls below 50% remaining health."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5944,
+				"title": "Stage Two: Unleashed Wrath",
+				"body_text": "Upon reaching 100 rage, the Sha of Anger unleashes its wrath upon its enemies. This phase lasts until the Sha of Anger's rage reaches 0.",
+				"sections": [
+					{
+						"id": 5945,
+						"title": "Unleashed Wrath",
+						"body_text": "The Sha of Anger unleashes pent-up rage for 25 sec. The Unleashed Wrath inflicts 0 Shadow damage to 10 random targets every 2 seconds."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

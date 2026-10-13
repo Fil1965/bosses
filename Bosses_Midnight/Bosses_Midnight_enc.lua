@@ -72,7 +72,7 @@ enc["3513"] = "267861,259664"; -- Kith'ix (Unbinding of Kithix)
 
 -- Jefes de mundo (DBM-Midnight) -------------------------------------------
 
--- enc["3431"] = "238015"; -- Predaxas: ENC conocida, sin entrada todavía
+enc["3431"] = "238015"; -- Predaxas (jefe de mundo)
 enc["3436"] = "244424"; -- Cragpine (Zul'Aman)
 enc["3454"] = "244762"; -- Lu'ashal (Bosque Canción Eterna)
 enc["3459"] = "249776"; -- Thorm'belan (Harandar)

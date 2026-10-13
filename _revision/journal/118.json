@@ -1,0 +1,789 @@
+{
+	"id": 118,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/118?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 118,
+		"name": "Cierrafauce",
+		"description": "En medio de la caótica insurrección de los Neferset contra Siamat, el pigmeo Augh robó todos los tesoros que pudo de la antigua ciudad de los tol'vir. Entre los de su raza, Augh es respetado tanto por su astucia como por su feroz crocolisco mascota, Cierrafauce.",
+		"creatures": [
+			{
+				"id": 389,
+				"name": "Cierrafauce",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33438?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33438
+				}
+			},
+			{
+				"id": 388,
+				"name": "Augh",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37339?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37339
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 31023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo del día más oscuro",
+					"id": 133263
+				}
+			},
+			{
+				"id": 31024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perniles de Balkar",
+					"id": 133261
+				}
+			},
+			{
+				"id": 31025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de Evelyn",
+					"id": 133278
+				}
+			},
+			{
+				"id": 31026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de Wu el Joven",
+					"id": 133262
+				}
+			},
+			{
+				"id": 31027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de Tauntka",
+					"id": 133260
+				}
+			},
+			{
+				"id": 31028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133259?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kris resonante",
+					"id": 133259
+				}
+			},
+			{
+				"id": 31029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de oasis",
+					"id": 133280
+				}
+			},
+			{
+				"id": 31030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Petición impetuosa",
+					"id": 133281
+				}
+			},
+			{
+				"id": 36960,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perniles de Balkar",
+					"id": 56386
+				}
+			},
+			{
+				"id": 36961,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de Tauntka",
+					"id": 56385
+				}
+			},
+			{
+				"id": 36962,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo del día más oscuro",
+					"id": 56388
+				}
+			},
+			{
+				"id": 36963,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de Wu el Joven",
+					"id": 56387
+				}
+			},
+			{
+				"id": 36964,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kris resonante",
+					"id": 56384
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2442,
+				"title": "Facultades de Cierrafauce",
+				"sections": [
+					{
+						"id": 2443,
+						"title": "Veneno viscoso",
+						"body_text": "Cierrafauce escupe un pegote de veneno en la ubicación de un jugador aleatorio, lo que inflige 0 p. de daño de Naturaleza a los jugadores en un radio de 5 m de la ubicación, lo que reduce un 30% su velocidad de movimiento y les inflige 0 p. de daño de Naturaleza extra cada 2 s durante 12 s."
+					},
+					{
+						"id": 2444,
+						"title": "Apéndice polvoriento",
+						"body_text": "Cierrafauce empieza a batir la cola arriba y abajo durante 5 s. Cierrafauce inflige 0 p. de daño de Naturaleza por segundo a los jugadores detrás de él y reduce un 50% su probabilidad de golpear durante 10 s. El daño que inflige Apéndice polvoriento aumenta un 25% cada segundo que Cierrafauce bata su cola."
+					},
+					{
+						"id": 2445,
+						"title": "Ira venenosa",
+						"body_text": "Cuando la salud restante de Cierrafauce está al 30%, sufre Ira venenosa, lo que aumenta un 25% el daño que inflige."
+					},
+					{
+						"id": 2446,
+						"title": "Aroma a sangre",
+						"body_text": "Cierrafauce hace que sangre un jugador enemigo, lo que inflige 0 p. de daño físico cada 2 s durante 30 s. El olor de la sangre hace que los crocoliscos demenciados ataquen al jugador afectado."
+					},
+					{
+						"id": 2447,
+						"title": "Crocolisco demenciado",
+						"body_text": "Los crocoliscos sañosos se unen periódicamente a la lucha desde los lechos de río cercano. Intentan atacar a cualquier jugador que tenga el efecto Aroma a sangre.",
+						"sections": [
+							{
+								"id": 2448,
+								"title": "Mordedura sañosa",
+								"body_text": "Los crocoliscos demenciados muerden a su objetivo enemigo actual, lo que inflige daño físico igual a un 50% del ataque cuerpo a cuerpo normal y 0 p. de daño físico extra cada 2 s durante 15 s. La Mordedura sañosa se acumula hasta 3 veces."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33451?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33451
+						}
+					}
+				]
+			},
+			{
+				"id": 2449,
+				"title": "Facultades de Augh",
+				"body_text": "Mientras Cierrafauce viva, Augh será inmune al daño y saldrá del modo sigilo periódicamente para unirse al combate. Después, usará sus facultades Dardo paralizador, Torbellino o Bomba de humo antes de retirarse.",
+				"sections": [
+					{
+						"id": 2450,
+						"title": "Dardo paralizador",
+						"body_text": "Augh dispara un Dardo paralizador a un jugador aleatorio, lo que inflige al instante 0 p. de daño de Naturaleza, reduce un 40% las velocidades de lanzamiento de hechizos, cuerpo a cuerpo y a distancia, e inflige 0 p. de daño de Naturaleza extra cada 2 s durante 9 s."
+					},
+					{
+						"id": 2451,
+						"title": "Torbellino",
+						"body_text": "Augh da vueltas como un loco hacia un jugador aleatorio durante 20 s, lo que inflige 0 p. de daño físico por segundo a los enemigos en un radio de 4 m."
+					},
+					{
+						"id": 2452,
+						"title": "Bomba de humo",
+						"body_text": "Augh explota una Bomba de humo a sus pies, lo que aturde a los objetivos enemigos en un radio de 5 m durante 3 s."
+					},
+					{
+						"id": 2453,
+						"title": "Frenesí",
+						"body_text": "Augh entra en frenesí, lo que aumenta un 60% la velocidad de ataque y un 60% el daño infligido."
+					},
+					{
+						"id": 2454,
+						"title": "Aliento de dragón",
+						"body_text": "Augh exhala fuego en un cono frontal de 60 grados y de 10 m, lo que inflige 0 p. de daño de Fuego a los objetivos enemigos que permanezcan en el cono y los desorienta durante 3 s."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/69?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Ciudad Perdida de los Tol'vir",
+			"id": 69
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/118?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 118,
+		"name": "Claque-Mâchoire",
+		"description": "Pendant l’insurrection chaotique des Néferset contre Siamat, le pygmée Augh a chapardé tous les trésors qu’il a pu trouver dans l’ancienne cité tol’vir. Parmi ceux de sa race, Augh est aussi respecté pour sa fourberie que pour son féroce familier crocilisque, Claque-Mâchoire.",
+		"creatures": [
+			{
+				"id": 389,
+				"name": "Claque-Mâchoire",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33438?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33438
+				}
+			},
+			{
+				"id": 388,
+				"name": "Augh",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37339?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37339
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 31023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de jour le plus sombre",
+					"id": 133263
+				}
+			},
+			{
+				"id": 31024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Godillots de Balkar",
+					"id": 133261
+				}
+			},
+			{
+				"id": 31025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture d'Evelyn",
+					"id": 133278
+				}
+			},
+			{
+				"id": 31026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de Wu le Jeune",
+					"id": 133262
+				}
+			},
+			{
+				"id": 31027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de Tauntka",
+					"id": 133260
+				}
+			},
+			{
+				"id": 31028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133259?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kriss de résonance",
+					"id": 133259
+				}
+			},
+			{
+				"id": 31029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l'oasis",
+					"id": 133280
+				}
+			},
+			{
+				"id": 31030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Demande impétueuse",
+					"id": 133281
+				}
+			},
+			{
+				"id": 36960,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Godillots de Balkar",
+					"id": 56386
+				}
+			},
+			{
+				"id": 36961,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de Tauntka",
+					"id": 56385
+				}
+			},
+			{
+				"id": 36962,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de jour le plus sombre",
+					"id": 56388
+				}
+			},
+			{
+				"id": 36963,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de Wu le Jeune",
+					"id": 56387
+				}
+			},
+			{
+				"id": 36964,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kriss de résonance",
+					"id": 56384
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2442,
+				"title": "Claque-Mâchoire",
+				"sections": [
+					{
+						"id": 2443,
+						"title": "Poison visqueux",
+						"body_text": "Claque-mâchoire crache une boule de poison sur l’endroit où se trouve un personnage-joueur au hasard, ce qui inflige 0 points de dégâts de Nature à tous les personnages-joueurs se trouvant à moins de 5 mètres de cet endroit, réduit leur vitesse de déplacement de 30%, et inflige 0 points de dégâts de Nature supplémentaires toutes les 2 s pendant 12 s."
+					},
+					{
+						"id": 2444,
+						"title": "Fléau de poussière",
+						"body_text": "Claque-Mâchoire commence à agiter la queue de haut en bas pendant 5 s. Il inflige 0 points de dégâts de Nature par seconde à tous les membres du groupe dans son dos et leur chance de toucher est réduite de 50% pendant 10 s. Les dégâts infligés par le Fléau de poussière augmentent de 25% pour chaque seconde que Claque-Mâchoire passe à agiter la queue."
+					},
+					{
+						"id": 2445,
+						"title": "Rage venimeuse",
+						"body_text": "Quand la santé de Claque-mâchoire atteint 30% de son total, il entre dans une Rage venimeuse qui augmente de 25% les dégâts qu’il inflige."
+					},
+					{
+						"id": 2446,
+						"title": "Odeur du sang",
+						"body_text": "Claque-mâchoire fait saigner un personnage-joueur au hasard et lui inflige 0 points de dégâts physiques toutes les 2 s pendant 30 s. Attirés par l’odeur du sang, des crocilisques frénétiques se mettent à attaquer le personnage-joueur affecté."
+					},
+					{
+						"id": 2447,
+						"title": "Crocilisque frénétique",
+						"body_text": "Ces violents crocilisques sortent régulièrement de la vase pour se joindre au combat. Ils tentent d’attaquer tout membre du groupe qui aurait l’Odeur du sang sur lui.",
+						"sections": [
+							{
+								"id": 2448,
+								"title": "Morsure vicieuse",
+								"body_text": "Les crocilisques frénétiques mordent l’ennemi qu’ils ont ciblé et lui infligent un montant de dégâts physiques égal à 50% d’une attaque normale. Cette morsure inflige également 0 points de dégâts physiques supplémentaires toutes les 2 s pendant 15 s. La Morsure vicieuse est cumulable jusqu’à 3 fois."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33451?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33451
+						}
+					}
+				]
+			},
+			{
+				"id": 2449,
+				"title": "Augh",
+				"body_text": "Tant que Claque-Mâchoire est vivant, Augh est insensible aux dégâts et entre de temps en temps en combat en étant camouflé pour utiliser une de ses techniques (Fléchette de sarbacane paralysante, Tourbillon ou Bombe fumigène) avant de battre en retraite.",
+				"sections": [
+					{
+						"id": 2450,
+						"title": "Fléchette de sarbacane paralysante",
+						"body_text": "Augh tire sur un personnage-joueur aléatoire une Fléchette de sarbacane paralysante qui lui inflige immédiatement 0 points de dégâts de Nature, réduit ses vitesses d'attaque en mêlée et à distance et d'incantation de 40% et lui inflige aussi 0 points de dégâts de Nature toutes les 2 s pendant 9 s."
+					},
+					{
+						"id": 2451,
+						"title": "Tourbillon",
+						"body_text": "Augh virevolte sur lui-même en direction d’un personnage-joueur au hasard pendant 20 s et inflige toutes les secondes 0 points de dégâts physiques aux ennemis présents dans un rayon de 4 mètres."
+					},
+					{
+						"id": 2452,
+						"title": "Bombe fumigène",
+						"body_text": "Augh fait exploser une bombe fumigène à ses pieds, étourdissant pendant 3 s toute cible ennemie à moins de 5 mètres."
+					},
+					{
+						"id": 2453,
+						"title": "Frénésie",
+						"body_text": "Augh entre en Frénésie, ce qui augmente sa vitesse d’attaque de 60% et les dégâts qu’il inflige de 60%."
+					},
+					{
+						"id": 2454,
+						"title": "Souffle du dragon",
+						"body_text": "Augh souffle du feu dans un cône de 10 mètres et de 60 degrés devant lui, infligeant 0 points de dégâts de Feu et désorientant pendant 3 s toutes les cibles ennemies placées dans le cône."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/69?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Cité perdue des Tol’vir",
+			"id": 69
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/118?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 118,
+		"name": "Lockmaw",
+		"description": "Amid the Neferset's chaotic insurrection against Siamat, the pygmy Augh pilfered whatever treasures he could from the ancient tol'vir city. Among his race, Augh is respected as much for his cunning as he is for his ferocious pet crocolisk, Lockmaw.",
+		"creatures": [
+			{
+				"id": 389,
+				"name": "Lockmaw",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33438?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33438
+				}
+			},
+			{
+				"id": 388,
+				"name": "Augh",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37339?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37339
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 31023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of the Darkest Day",
+					"id": 133263
+				}
+			},
+			{
+				"id": 31024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balkar's Waders",
+					"id": 133261
+				}
+			},
+			{
+				"id": 31025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Evelyn's Belt",
+					"id": 133278
+				}
+			},
+			{
+				"id": 31026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of Wu the Younger",
+					"id": 133262
+				}
+			},
+			{
+				"id": 31027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tauntka's Necklace",
+					"id": 133260
+				}
+			},
+			{
+				"id": 31028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133259?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resonant Kris",
+					"id": 133259
+				}
+			},
+			{
+				"id": 31029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oasis Bracers",
+					"id": 133280
+				}
+			},
+			{
+				"id": 31030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Impetuous Query",
+					"id": 133281
+				}
+			},
+			{
+				"id": 36960,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balkar's Waders",
+					"id": 56386
+				}
+			},
+			{
+				"id": 36961,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tauntka's Necklace",
+					"id": 56385
+				}
+			},
+			{
+				"id": 36962,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of the Darkest Day",
+					"id": 56388
+				}
+			},
+			{
+				"id": 36963,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of Wu the Younger",
+					"id": 56387
+				}
+			},
+			{
+				"id": 36964,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resonant Kris",
+					"id": 56384
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2442,
+				"title": "Lockmaw",
+				"sections": [
+					{
+						"id": 2443,
+						"title": "Viscous Poison",
+						"body_text": "Lockmaw spits a glob of poison onto the location of a random player, inflicting 0 Nature damage to every player within 5 yards of the location, slowing their movement speed by 30%, and additionally inflicting 0 Nature damage every 2 seconds for 12 sec."
+					},
+					{
+						"id": 2444,
+						"title": "Dust Flail",
+						"body_text": "Lockmaw begins to whip his tail up and down for 5 sec. Lockmaw deals 0 Nature damage every second to players behind him and their chance to hit is reduced by 50% for 10 sec. The damage dealt by Dust Flail increases by 25% for each second Lockmaw whips his tail."
+					},
+					{
+						"id": 2445,
+						"title": "Venomous Rage",
+						"body_text": "When Lockmaw's remaining health reaches 30%, he enters a Venomous Rage. This increases his damage dealt by 25%."
+					},
+					{
+						"id": 2446,
+						"title": "Scent of Blood",
+						"body_text": "Lockmaw causes a random player to bleed, inflicting 0 Physical damage every 2 seconds for 30 sec. The scent of the blood causes Frenzied Crocolisks to attack the affected player."
+					},
+					{
+						"id": 2447,
+						"title": "Frenzied Crocolisk",
+						"body_text": "These vicious crocolisks periodically join the fight from the nearby riverbeds. They try to attack any player who has the Scent of Blood effect on them.",
+						"sections": [
+							{
+								"id": 2448,
+								"title": "Vicious Bite",
+								"body_text": "Frenzied Crocolisks bite their current enemy target, inflicting Physical damage equal to 50% of a normal melee attack and additionally inflicting 0 Physical damage every 2 seconds for 15 sec. The Vicious Bite stacks up to 3 times."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33451?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33451
+						}
+					}
+				]
+			},
+			{
+				"id": 2449,
+				"title": "Augh",
+				"body_text": "While Lockmaw is alive, Augh is immune to damage and will periodically enter the fight stealthed then use his Paralytic Blow Dart, Whirlwind, or Smoke bomb abilities before retreating.",
+				"sections": [
+					{
+						"id": 2450,
+						"title": "Paralytic Blow Dart",
+						"body_text": "Augh shoots a Paralytic Blow Dart at a random player, immediately inflicting 0 Nature damage, reducing melee, ranged, and spell casting speeds by 40%, and additionally inflicting 0 Nature damage every 2 seconds for 9 sec."
+					},
+					{
+						"id": 2451,
+						"title": "Whirlwind",
+						"body_text": "Augh spins around like mad towards a random player for 20 sec, inflicting 0 Physical damage every second to surrounding enemies within 4 yards."
+					},
+					{
+						"id": 2452,
+						"title": "Smoke Bomb",
+						"body_text": "Augh explodes a Smoke Bomb at his feet, stunning any enemy target within 5 yards for 3 sec."
+					},
+					{
+						"id": 2453,
+						"title": "Frenzy",
+						"body_text": "Augh enters a Frenzy, increasing his attack speed by 60% and damage dealt by 60%."
+					},
+					{
+						"id": 2454,
+						"title": "Dragon's Breath",
+						"body_text": "Augh breathes fire in a 10 yard long 60 degree frontal cone, inflicting 0 Fire damage to every enemy target within the cone and disorienting them for 3 sec."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/69?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Lost City of the Tol'vir",
+			"id": 69
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

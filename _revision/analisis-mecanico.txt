@@ -1,0 +1,70 @@
+
+=================== Bosses_Cata ===================
+  [INFO] FR: 113 entradas (faltan 0 respecto a ES)
+  [B] Paridad ES/EN: OK (113 entradas, bullets y spells idénticos)
+  [C] Nombres ES==EN: 30
+  [D] Caracteres no renderizables: ninguno
+  [E] Escapes: OK
+  [F] Entradas con <2 bullets (15): 47739 (Capitán Cocinitas, 1), 39428 (Terracundo Ptah, 1), 39679 (Corla, Heraldo del Crepúsculo, 1), 39700 (Bella, 1), 43614 (Cierrafauce, 1), 49045 (Cierrafauce, 1), 44819 (Siamat, 1), 42810 (Gigante Engendracristal, 1), 43878 (Gran visir Ertan, 1), 43873 (Altairus, 1), 23863 (Daakara <El Invencible>, 1), 47901 (Unidad de contención demoníaca, 1), 54445 (Eco de Jaina, 1), 54123 (Eco de Sylvanas, 1), 54544 (Eco de Tyrande, 1)
+      [G-info] ENC 1065: candidatos sin entrada: 47297
+      [G-info] ENC 2977: candidatos sin entrada: 47297
+      [G-info] ENC 2982: candidatos sin entrada: 47297
+      [G-info] ENC 1081: candidatos sin entrada: 49541
+      [G-info] ENC 1047: candidatos sin entrada: 42172
+      [H-info] zonas 643: ids con entrada pero FUERA del índice: 23870
+      [H-info] zonas 939: ids con entrada pero FUERA del índice: 54884,54882,54883,55419
+      [H-info] cabeceras Zona sin entrada en zonas: 209 (Castillo de Colmillo Oscuro), 1581 (Minas de la muerte), 4945 (Cámaras de los Orígenes), 4926 (Cavernas Roca Negra), 5396 (Ciudad perdida de los Tol'vir), 5088 (El Núcleo Pétreo), 4950 (Grim Batol), 5035 (La Cumbre del Vórtice), 3805 (Zul'Aman), 1977 (Zul'Gurub), 5600 (Bastión de Baradin), 5094 (Descenso de Alanegra), 5334 (El Bastión del Crepúsculo), 5638 (Trono de los Cuatro Vientos), 5043 (Tierras de Fuego)
+
+=================== Bosses_Midnight ===================
+  [INFO] FR: 71 entradas (faltan 0 respecto a ES)
+  [B] Paridad ES/EN: OK (71 entradas, bullets y spells idénticos)
+  [C] Nombres ES==EN: 21
+  [D] Caracteres no renderizables: ninguno
+  [E] Escapes: OK
+      [G-info] ENC 3073: candidatos sin entrada: 239636
+      [G-info] ENC 3208: candidatos sin entrada: 244100
+      [G-info] ENC 3513: candidatos sin entrada: 259664
+      [G-info] ENC 3183: candidatos sin entrada: 214650
+      [G-info] ENC 3178: candidatos sin entrada: 250892,254109
+      [G-info] ENC 3180: candidatos sin entrada: 250589,250588,250587
+      [H-info] zonas 2912: ids con entrada pero FUERA del índice: 240437,240438,244552,243805,243810,243811,244761
+      [H-info] zonas 2939: ids con entrada pero FUERA del índice: 256116
+      [H-info] zonas 3004: ids con entrada pero FUERA del índice: 259854,261843,261848,263050,258558,257368,244424,244762,249776,252959,238015,267861
+      [H-info] zonas 1592: ids con entrada pero FUERA del índice: 254176
+      [H-info] zonas 2923: ids con entrada pero FUERA del índice: 248015
+
+=================== Bosses_MoP ===================
+  [INFO] FR: 134 entradas (faltan 0 respecto a ES)
+  [B] Paridad ES/EN: OK (134 entradas, bullets y spells idénticos)
+  [C] Nombres ES==EN: 36
+  [D] Caracteres no renderizables: ninguno
+  [E] Escapes: OK
+  [G] ENC: todas las entradas activas apuntan a datos
+      [H-info] zonas 960: ids con entrada pero FUERA del índice: 59726,58826
+      [H-info] zonas 961: ids con entrada pero FUERA del índice: 62346,60491,69099,69161,71952,71954,72057,71953,71955,69768,69769,69841,69842
+      [H-info] zonas 994: ids con entrada pero FUERA del índice: 61444,61445,61337,61338,61339,61340
+      [H-info] zonas 996: ids con entrada pero FUERA del índice: 60586,60583
+      [H-info] zonas 1007: ids con entrada pero FUERA del índice: 58664
+      [H-info] zonas 1008: ids con entrada pero FUERA del índice: 60043,59915,60047,60400,60708,60709,60710
+      [H-info] zonas 1098: ids con entrada pero FUERA del índice: 69132,69134,69131,70235,70247,68079,68080,68081,68904
+      [H-info] zonas 1136: ids con entrada pero FUERA del índice: 71153,71154,71155,71156,71157,71158,71160,71161,71512,71475,71480,71858,72560,72249,73910,72302,72561,73909
+
+=================== Bosses_TWW ===================
+  [INFO] FR: 80 entradas (faltan 0 respecto a ES)
+  [B] Paridad ES/EN: OK (80 entradas, bullets y spells idénticos)
+  [C] Nombres ES==EN: 12
+  [D] Caracteres no renderizables: ninguno
+  [E] Escapes: OK
+  [F] Entradas con <2 bullets (1): 218000 (Benk Abejorro, 1)
+      [G-info] ENC 3054: candidatos sin entrada: 236950
+      [H-info] zonas 2657: ids con entrada pero FUERA del índice: 217491
+      [H-info] zonas 2769: ids con entrada pero FUERA del índice: 225822,229177
+      [H-info] zonas 2810: ids con entrada pero FUERA del índice: 237660,237662,234478,233824,220999,231821,221084,221067,238319,221224
+      [H-info] zonas 2669: ids con entrada pero FUERA del índice: 216649
+      [H-info] zonas 2651: ids con entrada pero FUERA del índice: 208747
+      [H-info] zonas 2830: ids con entrada pero FUERA del índice: 237514
+      [H-info] zonas 2773: ids con entrada pero FUERA del índice: 226402
+      [H-info] zonas 2649: ids con entrada pero FUERA del índice: 211291,211290,211289
+      [H-info] zonas 2652: ids con entrada pero FUERA del índice: 213216
+
+[I] Sin ids duplicados entre packs.

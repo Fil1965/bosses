@@ -1,0 +1,3078 @@
+{
+	"id": 197,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 197,
+		"name": "Mayordomo Corzocelada",
+		"description": "La pérdida de su hijo, Valstann, en la guerra del Mar de Dunas terminó de destrozar el espíritu de Fandral Corzocelada. Ahora, con el poder que le ha otorgado Ragnaros como el nuevo mayordomo de las Tierras de Fuego (remplazando al mayordomo fallecido Executus) y líder de los traicioneros druidas de la Llama, Fandral prefiere que Azeroth quede hecho ruinas antes que vivir en este mundo sin su amado hijo.",
+		"creatures": [
+			{
+				"id": 628,
+				"name": "Mayordomo Corzocelada",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37953?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37953
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del conquistador ígneo",
+					"id": 71680
+				}
+			},
+			{
+				"id": 10546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del conquistador ígneo",
+					"id": 71681
+				}
+			},
+			{
+				"id": 10547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del protector ígneo",
+					"id": 71687
+				}
+			},
+			{
+				"id": 10549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del protector ígneo",
+					"id": 71688
+				}
+			},
+			{
+				"id": 10550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del sendero ígneo",
+					"id": 70920
+				}
+			},
+			{
+				"id": 10551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69897?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guadaña llameante de Fandral",
+					"id": 69897
+				}
+			},
+			{
+				"id": 10552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias de carbón inquieto",
+					"id": 71313
+				}
+			},
+			{
+				"id": 10553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guadaña llameante de Fandral",
+					"id": 71466
+				}
+			},
+			{
+				"id": 10566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias de carbón inquieto",
+					"id": 71467
+				}
+			},
+			{
+				"id": 10568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de precisión infalible",
+					"id": 71468
+				}
+			},
+			{
+				"id": 10570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de visiones cambiantes",
+					"id": 71469
+				}
+			},
+			{
+				"id": 10571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del sendero ígneo",
+					"id": 71470
+				}
+			},
+			{
+				"id": 10572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cubremuñecas de condena arrogante",
+					"id": 71471
+				}
+			},
+			{
+				"id": 10573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de visiones cambiantes",
+					"id": 71344
+				}
+			},
+			{
+				"id": 10574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de forma fluída",
+					"id": 71472
+				}
+			},
+			{
+				"id": 10575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aguijón del escorpión llameante",
+					"id": 71473
+				}
+			},
+			{
+				"id": 10576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de precisión infalible",
+					"id": 71346
+				}
+			},
+			{
+				"id": 10577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de felino de fuego",
+					"id": 71474
+				}
+			},
+			{
+				"id": 10578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aguijón del escorpión llameante",
+					"id": 71347
+				}
+			},
+			{
+				"id": 10579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71475?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines del penitente",
+					"id": 71475
+				}
+			},
+			{
+				"id": 10580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de forma fluída",
+					"id": 71348
+				}
+			},
+			{
+				"id": 10581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de felino de fuego",
+					"id": 71349
+				}
+			},
+			{
+				"id": 10582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cubremuñecas de condena arrogante",
+					"id": 71350
+				}
+			},
+			{
+				"id": 10584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbulas de la derrota",
+					"id": 69111
+				}
+			},
+			{
+				"id": 10585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines del penitente",
+					"id": 71351
+				}
+			},
+			{
+				"id": 10586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69112?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El Hambriento",
+					"id": 69112
+				}
+			},
+			{
+				"id": 10587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del vencedor ígneo",
+					"id": 71673
+				}
+			},
+			{
+				"id": 10588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del vencedor ígneo",
+					"id": 71674
+				}
+			},
+			{
+				"id": 10589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbulas de la derrota",
+					"id": 68926
+				}
+			},
+			{
+				"id": 10590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68927?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El Hambriento",
+					"id": 68927
+				}
+			},
+			{
+				"id": 35258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jaula de mascota de Fandral",
+					"id": 152978
+				}
+			},
+			{
+				"id": 40477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbulas de la derrota",
+					"id": 171641
+				}
+			},
+			{
+				"id": 40478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines del penitente",
+					"id": 171723
+				}
+			},
+			{
+				"id": 40479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de visiones cambiantes",
+					"id": 171716
+				}
+			},
+			{
+				"id": 40480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del sendero ígneo",
+					"id": 171662
+				}
+			},
+			{
+				"id": 40481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El Hambriento",
+					"id": 171642
+				}
+			},
+			{
+				"id": 40482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171718?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de precisión infalible",
+					"id": 171718
+				}
+			},
+			{
+				"id": 40483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171721?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de felino de fuego",
+					"id": 171721
+				}
+			},
+			{
+				"id": 40484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias de carbón inquieto",
+					"id": 171708
+				}
+			},
+			{
+				"id": 40485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cubremuñecas de condena arrogante",
+					"id": 171722
+				}
+			},
+			{
+				"id": 40486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171720?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de forma fluída",
+					"id": 171720
+				}
+			},
+			{
+				"id": 40487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aguijón del escorpión llameante",
+					"id": 171719
+				}
+			},
+			{
+				"id": 40488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guadaña llameante de Fandral",
+					"id": 171648
+				}
+			},
+			{
+				"id": 40536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de fénix oscuro",
+					"id": 171772
+				}
+			},
+			{
+				"id": 40601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de enramada obsidiana",
+					"id": 171752
+				}
+			},
+			{
+				"id": 40602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de placamuerte de elementium",
+					"id": 171742
+				}
+			},
+			{
+				"id": 40603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de placamuerte de elementium",
+					"id": 171733
+				}
+			},
+			{
+				"id": 40604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto volcánico en erupción",
+					"id": 171822
+				}
+			},
+			{
+				"id": 40605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros del gigante fundido",
+					"id": 171758
+				}
+			},
+			{
+				"id": 40606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de inmolación",
+					"id": 171763
+				}
+			},
+			{
+				"id": 40607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de enramada obsidiana",
+					"id": 171747
+				}
+			},
+			{
+				"id": 40608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de araña corpulenta",
+					"id": 171807
+				}
+			},
+			{
+				"id": 40609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de inmolación",
+					"id": 171792
+				}
+			},
+			{
+				"id": 40610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jinetas de enramada obsidiana",
+					"id": 171757
+				}
+			},
+			{
+				"id": 40611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de la llama purificadora",
+					"id": 171797
+				}
+			},
+			{
+				"id": 40612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de despiertallamas",
+					"id": 171776
+				}
+			},
+			{
+				"id": 40613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jinetas de la llama purificadora",
+					"id": 171802
+				}
+			},
+			{
+				"id": 40614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jinetas volcánicas en erupción",
+					"id": 171817
+				}
+			},
+			{
+				"id": 40615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de halcón de fuego",
+					"id": 171812
+				}
+			},
+			{
+				"id": 40616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del gigante fundido",
+					"id": 171787
+				}
+			},
+			{
+				"id": 40617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de inmolación",
+					"id": 171782
+				}
+			},
+			{
+				"id": 40618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas volcánicas en erupción",
+					"id": 171827
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20830,
+				"title": "Resumen",
+				"body_text": "El mayordomo Corzocelada cambiará de forma dependiendo de cuántos jugadores estén juntos o separados. Cada forma tiene sus propias facultades que usará con más frecuencia cuanto más tiempo pase en una forma determinada. Cada vez que cambie de forma, el mayordomo Corzocelada obtendrá [Furia].\r\n\r\nSe transformará en escorpión si la banda permanece unida y en gato si los miembros de la banda están separados. Cada vez que haya cambiado tres veces, se transformará brevemente en humano, usará [Ciclón ígneo] y luego lanzará o bien [Semillas abrasadoras] o bien [Orbes ardientes].",
+				"sections": [
+					{
+						"id": 20831,
+						"title": "Tanques",
+						"body_text": "$bullet;Cada vez que la forma felina del mayordomo lance [Salto de llamas], se invocará un espíritu de llamas.\r\n$bullet;El daño de [Guadaña de llamas] se divide de forma equitativa entre todos los objetivos atrapados en su área de efecto.\r\n$bullet;El daño del mayordomo Corzocelada aumenta con cada cambio de forma."
+					},
+					{
+						"id": 20832,
+						"title": "Sanadores",
+						"body_text": "$bullet;El daño del mayordomo Corzocelada aumenta con cada cambio de forma.\r\n$bullet;[Guadaña de llamas] se lanzará con más frecuencia cuanto más tiempo pase el mayordomo Corzocelada en su forma de escorpión.\r\n$bullet;[Orbes ardientes] inflige daño de Fuego constante al jugador más cercano. El daño aumenta cuanto más tiempo permanezca la víctima cerca del orbe.\r\n$bullet;La duración de [Semillas abrasadoras] es diferente para cada jugador.\r\n$bullet;Es posible esquivar [Salto de llamas]."
+					},
+					{
+						"id": 20833,
+						"title": "DPS",
+						"body_text": "$bullet;[Orbes ardientes] inflige daño de Fuego constante al jugador más cercano. El daño aumenta cuanto más tiempo permanezca la víctima cerca del orbe.\r\n$bullet;La duración de [Semillas abrasadoras] es diferente para cada jugador.\r\n$bullet;Es posible esquivar [Salto de llamas]."
+					}
+				]
+			},
+			{
+				"id": 2911,
+				"title": "Concentración",
+				"body_text": "Los jugadores que entablen un combate con Fandral en dificultad heroica obtienen una barra de poder de Concentración. Esta barra se llena con el tiempo, lo que aumenta un 25% el daño y la sanación realizados por cada 25 p. de Concentración, hasta un máximo de 100. Los jugadores golpeados por un ataque o hechizo dañinos perderán todos los puntos de Concentración."
+			},
+			{
+				"id": 2912,
+				"title": "Cambio de forma",
+				"body_text": "Fandral se transforma en felino cuando sus enemigos están separados y en escorpión cuando muchos de sus enemigos están agrupados.\r\n\r\nCada tres transformaciones, Fandral regresa momentáneamente a su forma de elfo de la noche.",
+				"sections": [
+					{
+						"id": 2913,
+						"title": "Forma felina",
+						"body_text": "Fandral se transforma en felino cuando muchos de sus enemigos no están agrupados.",
+						"sections": [
+							{
+								"id": 2914,
+								"title": "Salto de llamas",
+								"body_text": "Fandral salta sobre un enemigo, lo que deja atrás a un espíritu de la Llama. Aterriza en un Fulgor de gloria, lo que enciende el suelo sobre el que aterriza y hace que queme a las unidades enemigas con 0 p. de daño de Fuego cada 0,5 s durante 1 min. Este ataque cuesta 100 p. de energía."
+							},
+							{
+								"id": 2915,
+								"title": "Espíritu de la Llama",
+								"body_text": "Estas imágenes de Fandral atacan a enemigos hasta que los derrotan.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38222?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38222
+								}
+							},
+							{
+								"id": 2916,
+								"title": "Adrenalina",
+								"body_text": "Fandral obtiene una acumulación de Adrenalina cada vez que lanza Salto de llamas. Adrenalina aumenta un 6% su regeneración de energía por aplicación. Fandral pierde todas las acumulaciones de Adrenalina cuando cambia de forma."
+							},
+							{
+								"id": 2917,
+								"title": "Furia",
+								"body_text": "Fandral obtiene una acumulación de Furia cada vez que se transforma en felino o en escorpión, lo que aumenta un 8% el daño de Salto de llamas y Guadaña de llamas por aplicación. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38208?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38208
+						}
+					},
+					{
+						"id": 2918,
+						"title": "Forma de escorpión",
+						"body_text": "Fandral se transforma en escorpión cuando muchos de sus enemigos están agrupados.",
+						"sections": [
+							{
+								"id": 2919,
+								"title": "Guadaña de llamas",
+								"body_text": "Fandral inflige 0 p. de daño de Fuego a los enemigos frente a él. El daño se reparte de forma equitativa entre los objetivos golpeados. Este ataque cuesta 100 p. de energía."
+							},
+							{
+								"id": 2920,
+								"title": "Adrenalina",
+								"body_text": "Fandral obtiene una acumulación de Adrenalina cada vez que lanza Guadaña de llamas. Adrenalina aumenta un 6% su regeneración de energía por aplicación. Fandral pierde todas las acumulaciones de Adrenalina cuando cambia de forma."
+							},
+							{
+								"id": 2921,
+								"title": "Furia",
+								"body_text": "Fandral obtiene una acumulación de Furia cada vez que se transforma en felino o en escorpión, lo que aumenta un 8% el daño de Salto de llamas y Guadaña de llamas por aplicación. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38174?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38174
+						}
+					},
+					{
+						"id": 2922,
+						"title": "Forma de elfo de la noche",
+						"body_text": "Cuando Fandral pasa a forma de elfo de la noche, envuelve brevemente a sus enemigos en un Ciclón ígneo y lanza un hechizo extra.\r\n\r\nCuando cambia de forma felina a forma de escorpión, Fandral libera Semillas abrasadoras.\r\n\r\nCuando cambia de forma de escorpión a forma felina, Fandral libera orbes ardientes.",
+						"sections": [
+							{
+								"id": 2923,
+								"title": "Ciclón ígneo",
+								"body_text": "Ciclón ígneo lanza por los aires a todos los objetivos enemigos, lo que evita cualquier acción pero les hace inmunes durante 3 s."
+							},
+							{
+								"id": 2924,
+								"title": "Semillas abrasadoras",
+								"body_text": "Semillas abrasadoras planta semillas ígneas en los enemigos de Fandral. Cada semilla crece a un ritmo diferente. Al crecer del todo, las semillas explotan, lo que inflige 0 p. de daño de Fuego a los objetivos en un radio de 12 m."
+							},
+							{
+								"id": 2925,
+								"title": "Orbes ardientes",
+								"body_text": "Fandral invoca varios orbes por toda la sala. Cada orbe ataca al jugador más cercano, lo que lo quema y le inflige 0 p. de daño de Fuego cada 2 s. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38695?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38695
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 197,
+		"name": "Chambellan Forteramure",
+		"description": "La perte de son fils, Valstann, pendant la guerre des Sables changeants a totalement brisé l’esprit de Fandral Forteramure. Désormais nommé par Ragnaros nouveau chambellan des terres de Feu (remplaçant ainsi le défunt chambellan Executus) et dirigeant des fourbes druides de la Flamme, Fandral cherche à détruire Azeroth plutôt que de vivre dans un monde sans son enfant adoré.",
+		"creatures": [
+			{
+				"id": 628,
+				"name": "Chambellan Forteramure",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37953?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37953
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du conquérant embrasé",
+					"id": 71680
+				}
+			},
+			{
+				"id": 10546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du conquérant embrasé",
+					"id": 71681
+				}
+			},
+			{
+				"id": 10547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du protecteur embrasé",
+					"id": 71687
+				}
+			},
+			{
+				"id": 10549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du protecteur embrasé",
+					"id": 71688
+				}
+			},
+			{
+				"id": 10550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la voie embrasée",
+					"id": 70920
+				}
+			},
+			{
+				"id": 10551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69897?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faux de flammes de Fandral",
+					"id": 69897
+				}
+			},
+			{
+				"id": 10552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales de charbons sauteurs",
+					"id": 71313
+				}
+			},
+			{
+				"id": 10553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faux de flammes de Fandral",
+					"id": 71466
+				}
+			},
+			{
+				"id": 10566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales de charbons sauteurs",
+					"id": 71467
+				}
+			},
+			{
+				"id": 10568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de précision infaillible",
+					"id": 71468
+				}
+			},
+			{
+				"id": 10570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de visions mouvantes",
+					"id": 71469
+				}
+			},
+			{
+				"id": 10571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la voie embrasée",
+					"id": 71470
+				}
+			},
+			{
+				"id": 10572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandelettes de condamnation arrogante",
+					"id": 71471
+				}
+			},
+			{
+				"id": 10573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de visions mouvantes",
+					"id": 71344
+				}
+			},
+			{
+				"id": 10574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de fluideforme",
+					"id": 71472
+				}
+			},
+			{
+				"id": 10575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aiguillon du scorpion enflammé",
+					"id": 71473
+				}
+			},
+			{
+				"id": 10576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de précision infaillible",
+					"id": 71346
+				}
+			},
+			{
+				"id": 10577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de félin des flammes",
+					"id": 71474
+				}
+			},
+			{
+				"id": 10578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aiguillon du scorpion enflammé",
+					"id": 71347
+				}
+			},
+			{
+				"id": 10579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71475?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines du pénitent",
+					"id": 71475
+				}
+			},
+			{
+				"id": 10580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de fluideforme",
+					"id": 71348
+				}
+			},
+			{
+				"id": 10581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de félin des flammes",
+					"id": 71349
+				}
+			},
+			{
+				"id": 10582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandelettes de condamnation arrogante",
+					"id": 71350
+				}
+			},
+			{
+				"id": 10584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mâchoires de défaite",
+					"id": 69111
+				}
+			},
+			{
+				"id": 10585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines du pénitent",
+					"id": 71351
+				}
+			},
+			{
+				"id": 10586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69112?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "L'Affameur",
+					"id": 69112
+				}
+			},
+			{
+				"id": 10587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du vainqueur embrasé",
+					"id": 71673
+				}
+			},
+			{
+				"id": 10588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du vainqueur embrasé",
+					"id": 71674
+				}
+			},
+			{
+				"id": 10589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mâchoires de défaite",
+					"id": 68926
+				}
+			},
+			{
+				"id": 10590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68927?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "L'Affameur",
+					"id": 68927
+				}
+			},
+			{
+				"id": 35258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Porte-mascotte de Fandral",
+					"id": 152978
+				}
+			},
+			{
+				"id": 40477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mâchoires de défaite",
+					"id": 171641
+				}
+			},
+			{
+				"id": 40478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines du pénitent",
+					"id": 171723
+				}
+			},
+			{
+				"id": 40479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de visions mouvantes",
+					"id": 171716
+				}
+			},
+			{
+				"id": 40480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la voie embrasée",
+					"id": 171662
+				}
+			},
+			{
+				"id": 40481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "L’Affameur",
+					"id": 171642
+				}
+			},
+			{
+				"id": 40482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171718?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de précision infaillible",
+					"id": 171718
+				}
+			},
+			{
+				"id": 40483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171721?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de félin des flammes",
+					"id": 171721
+				}
+			},
+			{
+				"id": 40484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales de charbons sauteurs",
+					"id": 171708
+				}
+			},
+			{
+				"id": 40485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandelettes de condamnation arrogante",
+					"id": 171722
+				}
+			},
+			{
+				"id": 40486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171720?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de fluideforme",
+					"id": 171720
+				}
+			},
+			{
+				"id": 40487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aiguillon du scorpion enflammé",
+					"id": 171719
+				}
+			},
+			{
+				"id": 40488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faux de flammes de Fandral",
+					"id": 171648
+				}
+			},
+			{
+				"id": 40536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières du phénix sombre",
+					"id": 171772
+				}
+			},
+			{
+				"id": 40601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet tisse-feuillage en obsidienne",
+					"id": 171752
+				}
+			},
+			{
+				"id": 40602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de plates mortelles en élémentium",
+					"id": 171742
+				}
+			},
+			{
+				"id": 40603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de plates mortelles en élémentium",
+					"id": 171733
+				}
+			},
+			{
+				"id": 40604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de l’éruption volcanique",
+					"id": 171822
+				}
+			},
+			{
+				"id": 40605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules du géant de lave",
+					"id": 171758
+				}
+			},
+			{
+				"id": 40606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de l’immolation",
+					"id": 171763
+				}
+			},
+			{
+				"id": 40607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières tisse-feuillage en obsidienne",
+					"id": 171747
+				}
+			},
+			{
+				"id": 40608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de l’araignée torve",
+					"id": 171807
+				}
+			},
+			{
+				"id": 40609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de l’immolation",
+					"id": 171792
+				}
+			},
+			{
+				"id": 40610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drape-épaules tisse-feuillage en obsidienne",
+					"id": 171757
+				}
+			},
+			{
+				"id": 40611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de la flamme purificatrice",
+					"id": 171797
+				}
+			},
+			{
+				"id": 40612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières d’attise-flammes",
+					"id": 171776
+				}
+			},
+			{
+				"id": 40613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drape-épaules de la flamme purificatrice",
+					"id": 171802
+				}
+			},
+			{
+				"id": 40614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drape-épaules de l’éruption volcanique",
+					"id": 171817
+				}
+			},
+			{
+				"id": 40615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet faucon-de-feu",
+					"id": 171812
+				}
+			},
+			{
+				"id": 40616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers du géant de lave",
+					"id": 171787
+				}
+			},
+			{
+				"id": 40617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de l’immolation",
+					"id": 171782
+				}
+			},
+			{
+				"id": 40618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de l’éruption volcanique",
+					"id": 171827
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20830,
+				"title": "Vue d’ensemble",
+				"body_text": "Le chambellan Forteramure change de forme selon que les personnages-joueurs sont regroupés ou clairsemés. Chaque forme dispose de ses propres techniques, et plus longtemps le chambellan reste dans une même forme, plus il les utilisera fréquemment. Chaque fois que Forteramure change de forme, il obtient de la [Fureur].\r\n\r\nIl se change en scorpion quand le raid est regroupé et prend la forme d’un félin quand il est clairsemé. Toutes les trois métamorphoses, il prend brièvement sa forme humaine et utilise [Cyclone ardent], puis lance soit [Graines incendiaires] ou [Orbes ardents].",
+				"sections": [
+					{
+						"id": 20831,
+						"title": "Tanks",
+						"body_text": "$bullet;Chaque fois que la forme de félin du chambellan Forteramure lance [Flammes bondissantes], un esprit de flammes est invoqué.\r\n$bullet;Les dégâts de [Faux de flammes] sont répartis équitablement entre toutes les cibles prises dans sa zone d’effet.\r\n$bullet;Les dégâts du chambellan Forteramure augmentent à chaque fois qu’il change de forme."
+					},
+					{
+						"id": 20832,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Les dégâts du chambellan Forteramure augmentent à chaque fois qu’il change de forme.\r\n$bullet;Plus longtemps le chambellan conserve sa forme de scorpion, plus fréquemment [Faux de flammes] sera lancé.\r\n$bullet;Les [Orbes ardents] infligent des dégâts de Feu constants au personnage-joueur le plus proche, ces dégâts augmentant tant qu’il reste le plus proche de l’orbe.\r\n$bullet;La durée de [Graines incendiaires] varie selon chaque personnage-joueur.\r\n$bullet;Il est possible d’esquiver [Flammes bondissantes]."
+					},
+					{
+						"id": 20833,
+						"title": "DPS",
+						"body_text": "$bullet;Les [Orbes ardents] infligent des dégâts de Feu constants au personnage-joueur le plus proche, ces dégâts augmentant tant qu’il reste le plus proche de l’orbe.\r\n$bullet;La durée de [Graines incendiaires] varie selon chaque personnage-joueur.\r\n$bullet;Il est possible d’esquiver [Flammes bondissantes]."
+					}
+				]
+			},
+			{
+				"id": 2911,
+				"title": "Concentration",
+				"body_text": "Chaque personnage-joueur qui engage le combat contre Fandral en mode héroïque se voit attribuer une barre de Concentration. Cette barre se remplit avec le temps, augmentant les dégâts et les soins effectués de 25% par tranche de 25 points de concentration jusqu'à 100. Les membres touchés par une attaque ou un sort infligeant des dégâts perdent toute leur concentration."
+			},
+			{
+				"id": 2912,
+				"title": "Changeforme",
+				"body_text": "Fandral se transforme en félin quand ses adversaires sont dispersés, ou en scorpion quand un nombre conséquent de ses adversaires sont regroupés.\r\n\r\nToutes les trois métamorphoses, Fandral retrouve brièvement sa forme d’Elfe de la nuit.",
+				"sections": [
+					{
+						"id": 2913,
+						"title": "Forme de félin",
+						"body_text": "Fandral se transforme en félin quand un nombre conséquent de ses adversaires sont dispersés.",
+						"sections": [
+							{
+								"id": 2914,
+								"title": "Flammes bondissantes",
+								"body_text": "Fandral bondit sur un ennemi, laissant derrière lui un esprit de la flamme. Il atterrit dans un brasier de gloire qui enflamme le sol et brûle les cibles ennemies en leur infligeant 0 points de dégâts de Feu toutes les 0,5 s pendant 1 min. Cette attaque lui coûte 100 points d’énergie."
+							},
+							{
+								"id": 2915,
+								"title": "Esprit de la flamme",
+								"body_text": "Ces représentations de Fandral attaquent leurs ennemis jusqu’à ce qu’ils soient vaincus.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38222?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38222
+								}
+							},
+							{
+								"id": 2916,
+								"title": "Adrénaline",
+								"body_text": "Fandral gagne une charge d’Adrénaline à chaque fois qu’il lance Flammes bondissantes. Adrénaline augmente son taux de régénération d’énergie de 6% par charge. Fandral perd toutes les charges d’Adrénaline lorsqu’il change de forme."
+							},
+							{
+								"id": 2917,
+								"title": "Fureur",
+								"body_text": "Fandral gagne une charge de Fureur à chaque fois qu’il se transforme en félin ou en scorpion, ce qui augmente les dégâts de Flammes bondissantes et Faux de flammes de 8% par charge. Cet effet est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38208?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38208
+						}
+					},
+					{
+						"id": 2918,
+						"title": "Forme de scorpion",
+						"body_text": "Fandral se transforme en scorpion quand un nombre conséquent de ses adversaires sont regroupés au même endroit.",
+						"sections": [
+							{
+								"id": 2919,
+								"title": "Faux de flammes",
+								"body_text": "Fandral inflige 0 points de dégâts de Feu à tous les ennemis devant lui. Les dégâts sont divisés de façon équitable entre les cibles touchées. Cette attaque lui coûte 100 points d’énergie."
+							},
+							{
+								"id": 2920,
+								"title": "Adrénaline",
+								"body_text": "Fandral gagne une charge d’Adrénaline à chaque fois qu’il lance Flammes bondissantes. Adrénaline augmente son taux de régénération d’énergie de 6% par charge. Fandral perd toutes les charges d’Adrénaline lorsqu’il change de forme."
+							},
+							{
+								"id": 2921,
+								"title": "Fureur",
+								"body_text": "Fandral gagne une charge de Fureur à chaque fois qu’il se transforme en félin ou en scorpion, ce qui augmente les dégâts de Flammes bondissantes et Faux de flammes de 8% par charge. Cet effet est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38174?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38174
+						}
+					},
+					{
+						"id": 2922,
+						"title": "Forme d’Elfe de la nuit",
+						"body_text": "Lorsque Fandral passe en forme d’Elfe de la nuit, il enveloppe brièvement ses ennemis dans un Cyclone ardent et lance un sort supplémentaire.\r\n\r\nLorsqu’il passe de sa forme de félin à sa forme de scorpion, Fandral libère des Graines incendiaires.\r\n\r\nLorsqu’il passe de sa forme de scorpion à sa forme de félin, Fandral fait apparaître des Orbes ardents.",
+						"sections": [
+							{
+								"id": 2923,
+								"title": "Cyclone ardent",
+								"body_text": "Le Cyclone ardent projette toutes les cibles ennemies en l’air, empêchant toute action de leur part, mais les rendant invulnérables pendant 3 s."
+							},
+							{
+								"id": 2924,
+								"title": "Graines incendiaires",
+								"body_text": "Les graines incendiaires se fixent sur les ennemis de Fandral. Chaque graine croît à un rythme différent. Lorsqu’elles arrivent à maturité, les graines explosent en infligeant 0 points de dégâts de Feu aux personnages-joueurs à moins de 12 mètres."
+							},
+							{
+								"id": 2925,
+								"title": "Orbes ardents",
+								"body_text": "Fandral invoque plusieurs orbes dans la salle. Chaque orbe attaque le personnage-joueur le plus proche et lui inflige 0 points de dégâts de Feu toutes les 2 s. Cet effet est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38695?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38695
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 197,
+		"name": "Majordomo Staghelm",
+		"description": "The loss of his son, Valstann, in the War of the Shifting Sands utterly shattered Fandral Staghelm's spirit. Now empowered by Ragnaros as the new Majordomo of the Firelands (replacing the deceased Majordomo Executus) and the leader of the treacherous Druids of the Flame, Fandral seeks to bring ruin to Azeroth rather than live in a world without his beloved child.",
+		"creatures": [
+			{
+				"id": 628,
+				"name": "Majordomo Staghelm",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37953?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37953
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Fiery Conqueror",
+					"id": 71680
+				}
+			},
+			{
+				"id": 10546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Fiery Conqueror",
+					"id": 71681
+				}
+			},
+			{
+				"id": 10547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Fiery Protector",
+					"id": 71687
+				}
+			},
+			{
+				"id": 10549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Fiery Protector",
+					"id": 71688
+				}
+			},
+			{
+				"id": 10550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Fiery Path",
+					"id": 70920
+				}
+			},
+			{
+				"id": 10551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69897?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fandral's Flamescythe",
+					"id": 69897
+				}
+			},
+			{
+				"id": 10552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of Leaping Coals",
+					"id": 71313
+				}
+			},
+			{
+				"id": 10553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fandral's Flamescythe",
+					"id": 71466
+				}
+			},
+			{
+				"id": 10566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of Leaping Coals",
+					"id": 71467
+				}
+			},
+			{
+				"id": 10568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Unerring Precision",
+					"id": 71468
+				}
+			},
+			{
+				"id": 10570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of Shifting Visions",
+					"id": 71469
+				}
+			},
+			{
+				"id": 10571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Fiery Path",
+					"id": 71470
+				}
+			},
+			{
+				"id": 10572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wristwraps of Arrogant Doom",
+					"id": 71471
+				}
+			},
+			{
+				"id": 10573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of Shifting Visions",
+					"id": 71344
+				}
+			},
+			{
+				"id": 10574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flowform Choker",
+					"id": 71472
+				}
+			},
+			{
+				"id": 10575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stinger of the Flaming Scorpion",
+					"id": 71473
+				}
+			},
+			{
+				"id": 10576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Unerring Precision",
+					"id": 71346
+				}
+			},
+			{
+				"id": 10577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firecat Leggings",
+					"id": 71474
+				}
+			},
+			{
+				"id": 10578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stinger of the Flaming Scorpion",
+					"id": 71347
+				}
+			},
+			{
+				"id": 10579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71475?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of the Penitent Man",
+					"id": 71475
+				}
+			},
+			{
+				"id": 10580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flowform Choker",
+					"id": 71348
+				}
+			},
+			{
+				"id": 10581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firecat Leggings",
+					"id": 71349
+				}
+			},
+			{
+				"id": 10582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wristwraps of Arrogant Doom",
+					"id": 71350
+				}
+			},
+			{
+				"id": 10584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jaws of Defeat",
+					"id": 69111
+				}
+			},
+			{
+				"id": 10585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of the Penitent Man",
+					"id": 71351
+				}
+			},
+			{
+				"id": 10586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69112?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Hungerer",
+					"id": 69112
+				}
+			},
+			{
+				"id": 10587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Fiery Vanquisher",
+					"id": 71673
+				}
+			},
+			{
+				"id": 10588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Fiery Vanquisher",
+					"id": 71674
+				}
+			},
+			{
+				"id": 10589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jaws of Defeat",
+					"id": 68926
+				}
+			},
+			{
+				"id": 10590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68927?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Hungerer",
+					"id": 68927
+				}
+			},
+			{
+				"id": 35258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fandral's Pet Carrier",
+					"id": 152978
+				}
+			},
+			{
+				"id": 40477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jaws of Defeat",
+					"id": 171641
+				}
+			},
+			{
+				"id": 40478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of the Penitent Man",
+					"id": 171723
+				}
+			},
+			{
+				"id": 40479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of Shifting Visions",
+					"id": 171716
+				}
+			},
+			{
+				"id": 40480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Fiery Path",
+					"id": 171662
+				}
+			},
+			{
+				"id": 40481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Hungerer",
+					"id": 171642
+				}
+			},
+			{
+				"id": 40482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171718?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Unerring Precision",
+					"id": 171718
+				}
+			},
+			{
+				"id": 40483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171721?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firecat Leggings",
+					"id": 171721
+				}
+			},
+			{
+				"id": 40484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of Leaping Coals",
+					"id": 171708
+				}
+			},
+			{
+				"id": 40485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wristwraps of Arrogant Doom",
+					"id": 171722
+				}
+			},
+			{
+				"id": 40486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171720?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flowform Choker",
+					"id": 171720
+				}
+			},
+			{
+				"id": 40487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stinger of the Flaming Scorpion",
+					"id": 171719
+				}
+			},
+			{
+				"id": 40488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fandral's Flamescythe",
+					"id": 171648
+				}
+			},
+			{
+				"id": 40536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Spaulders",
+					"id": 171772
+				}
+			},
+			{
+				"id": 40601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Mantle",
+					"id": 171752
+				}
+			},
+			{
+				"id": 40602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Pauldrons",
+					"id": 171742
+				}
+			},
+			{
+				"id": 40603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Shoulderguards",
+					"id": 171733
+				}
+			},
+			{
+				"id": 40604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171822?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Mantle",
+					"id": 171822
+				}
+			},
+			{
+				"id": 40605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulderguards of the Molten Giant",
+					"id": 171758
+				}
+			},
+			{
+				"id": 40606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Shoulderguards",
+					"id": 171763
+				}
+			},
+			{
+				"id": 40607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Spaulders",
+					"id": 171747
+				}
+			},
+			{
+				"id": 40608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Mantle",
+					"id": 171807
+				}
+			},
+			{
+				"id": 40609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Mantle",
+					"id": 171792
+				}
+			},
+			{
+				"id": 40610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Shoulderwraps",
+					"id": 171757
+				}
+			},
+			{
+				"id": 40611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Cleansing Flame",
+					"id": 171797
+				}
+			},
+			{
+				"id": 40612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Spaulders",
+					"id": 171776
+				}
+			},
+			{
+				"id": 40613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulderwraps of the Cleansing Flame",
+					"id": 171802
+				}
+			},
+			{
+				"id": 40614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171817?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Shoulderwraps",
+					"id": 171817
+				}
+			},
+			{
+				"id": 40615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Mantle",
+					"id": 171812
+				}
+			},
+			{
+				"id": 40616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Molten Giant",
+					"id": 171787
+				}
+			},
+			{
+				"id": 40617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Pauldrons",
+					"id": 171782
+				}
+			},
+			{
+				"id": 40618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Spaulders",
+					"id": 171827
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20830,
+				"title": "Overview",
+				"body_text": "Majordomo Staghelm will change form based on how many players are standing together or separated. Each form has its own abilities that will be used more frequently the longer he is in any given form. Each time Majordomo Staghelm changes forms he will gain [Fury].\r\n\r\nHe will change into a scorpion if the raid is standing together or into a cat when the raid is spread out.  After every third shift he will change into his human form briefly, use [Fiery Cyclone], and then cast either [Searing Seeds] or [Burning Orbs].",
+				"sections": [
+					{
+						"id": 20831,
+						"title": "Tanks",
+						"body_text": "$bullet;Each time Majordomo's Cat Form casts [Leaping Flames], a Spirit of Flame is summoned.\r\n$bullet;[Flame Scythe]'s damage is split evenly amongst all target caught in its area of effect.\r\n$bullet;Majordomo Staghelm's damage increases with each shapeshift."
+					},
+					{
+						"id": 20832,
+						"title": "Healers",
+						"body_text": "$bullet;Majordomo Staghelm's damage increases with each shapeshift.  \r\n$bullet;[Flame Scythe] will be cast more frequently the longer Majordomo Staghelm remains in his Scorpion Form.\r\n$bullet;[Burning Orbs] damage the nearest player with constant Fire damage that ramps up the longer the victim stands closest to the orb.\r\n$bullet;[Searing Seeds] duration is different per player.\r\n$bullet;It is possible to dodge [Leaping Flames]."
+					},
+					{
+						"id": 20833,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Burning Orbs] damage the nearest player with constant Fire damage that ramps up the longer the victim stands closest to the orb.\r\n$bullet;[Searing Seeds] duration is different per player.\r\n$bullet;It is possible to dodge [Leaping Flames]."
+					}
+				]
+			},
+			{
+				"id": 2911,
+				"title": "Concentration",
+				"body_text": "Each player who engages Fandral on Heroic Difficulty gains a Concentration power bar. This bar fills over time, increasing damage and healing done by 25% for every 25 Concentration up to 100. Players hit by a damaging attack or spell lose all Concentration."
+			},
+			{
+				"id": 2912,
+				"title": "Shapeshifting",
+				"body_text": "Fandral transforms into a Cat when his enemies are not clustered together or into a Scorpion when many of his enemies are clustered together.\r\n\r\nOn every third transform, Fandral briefly pauses in Night Elf form.",
+				"sections": [
+					{
+						"id": 2913,
+						"title": "Cat Form",
+						"body_text": "Fandral transforms into a Cat when many of his enemies are not clustered together.",
+						"sections": [
+							{
+								"id": 2914,
+								"title": "Leaping Flames",
+								"body_text": "Fandral leaps at an enemy, leaving behind a Spirit of the Flame. He lands in a blaze of glory, igniting the ground at his destination and causing it to burn enemy units for 0 Fire damage every 0.5 sec. for 1 min. This attack costs 100 energy."
+							},
+							{
+								"id": 2915,
+								"title": "Spirit of the Flame",
+								"body_text": "These images of Fandral attack enemies until defeated.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38222?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38222
+								}
+							},
+							{
+								"id": 2916,
+								"title": "Adrenaline",
+								"body_text": "Fandral gains a stack of Adrenaline each time he performs Leaping Flames. Adrenaline increases his energy regeneration rate by 6% per application. Fandral loses all stacks of Adrenaline when he switches forms."
+							},
+							{
+								"id": 2917,
+								"title": "Fury",
+								"body_text": "Fandral gains a stack of Fury each time he transforms into a Cat or Scorpion, increasing the damage of Leaping Flames and Flame Scythe by 8% per application. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38208?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38208
+						}
+					},
+					{
+						"id": 2918,
+						"title": "Scorpion Form",
+						"body_text": "Fandral transforms into a Scorpion when many of his enemies are clustered together.",
+						"sections": [
+							{
+								"id": 2919,
+								"title": "Flame Scythe",
+								"body_text": "Fandral inflicts 0 Fire damage to enemies in front of him. Damage is split equally among targets hit. This attack costs 100 energy."
+							},
+							{
+								"id": 2920,
+								"title": "Adrenaline",
+								"body_text": "Fandral gains a stack of Adrenaline each time he performs Flame Scythe. Adrenaline increases his energy regeneration rate by 6% per application. Fandral loses all stacks of Adrenaline when he switches forms."
+							},
+							{
+								"id": 2921,
+								"title": "Fury",
+								"body_text": "Fandral gains a stack of Fury each time he transforms into a Cat or Scorpion, increasing the damage of Leaping Flames and Flame Scythe by 8% per application. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38174?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38174
+						}
+					},
+					{
+						"id": 2922,
+						"title": "Night Elf Form",
+						"body_text": "When Fandral enters Night Elf form, he briefly envelops his enemies in a Fiery Cyclone and casts an additional spell.\r\n\r\nWhen switching from Cat form to Scorpion form, Fandral unleashes Searing Seeds.\r\n\r\nWhen switching from Scorpion form to Cat form, Fandral unleashes Burning Orbs.",
+						"sections": [
+							{
+								"id": 2923,
+								"title": "Fiery Cyclone",
+								"body_text": "Fiery Cyclone tosses all enemy targets into the air, preventing all action but making them invulnerable for 3 sec."
+							},
+							{
+								"id": 2924,
+								"title": "Searing Seeds",
+								"body_text": "Searing Seeds implants fiery seeds in Fandral's enemies. Each seed grows at a different rate. When fully grown the seeds explode, inflicting 0 Fire damage to players within 12 yards."
+							},
+							{
+								"id": 2925,
+								"title": "Burning Orbs",
+								"body_text": "Fandral summons several orbs around the room. Each orb attacks the nearest player, burning them for 0 Fire damage every 2 sec. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38695?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38695
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

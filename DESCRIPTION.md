@@ -6,14 +6,14 @@ Bosses explains boss encounters in short "telegraphic" lines. As a tank you used
 
 - Explains the targeted NPC in a few lines: human-written tactics, not a wall of text
 - Your own notes per NPC in **any language** — they override the built-in database and persist per character
-- Hand-written explanations for **Cataclysm** dungeons, Zul'Aman/Zul'Gurub and raids from the 2011-2013 era (the good old days), plus data packs for **The War Within** and **Midnight** — everything in **English and Spanish**
+- Hand-written explanations for **Cataclysm** dungeons, Zul'Aman/Zul'Gurub and raids from the 2011-2013 era (the good old days), plus data packs for **Mists of Pandaria** (Classic), **The War Within** and **Midnight** — everything in **English, Spanish and French**
 - Picks the right channel automatically: **raid, party or LFG instance chat** — or force guild / local / **alert-frame-only** output
 - Bosses get explained **automatically as each encounter starts** (no timers, no combat automation; you can turn it off in Settings)
 - **Your own alert frame**: always carries the full explanation on your screen — during combat the group can't receive addon chat, so your frame IS your copy; out of combat it gains a **"To chat"** button that shares the boss with the group. Draggable (position remembered per character), closable with the X button or ESC, auto-hides 15s after combat ends
 - Spell names in the explanations show up **in each reader's own game language**, resolved live from the game's own database
 - Minimap button: **inside an instance it opens a dropdown with all bosses of that zone** — click one to see it on your frame and share it; outside, left-click explains your target. Right-click opens Settings, drag to move (position is saved)
 - Settings panel in **Settings → AddOns → Bosses**, changes apply instantly, no libraries
-- **Data packs**: optional `Bosses_<Zone>/` folders with explanations for a specific zone, without bloating the core (ships with packs for Cataclysm, The War Within and Midnight)
+- **Data packs**: optional `Bosses_<Zone>/` folders with explanations for a specific zone, without bloating the core (ships with packs for Cataclysm, Mists of Pandaria, The War Within and Midnight; every pack carries its explanations in Spanish, English and French — Cataclysm also in German)
 - Optional debug mode: writes a detection log to your `WTF` folder so missing bosses are easy to spot
 - Fully compatible with Midnight's addon policy: information under your control, never combat automation
 - Runs on Retail (**Midnight 12.1**) and Classic: **MoP Classic, TBC Classic and Classic Era** — same flavor list as its siblings
@@ -29,12 +29,12 @@ Bosses explains boss encounters in short "telegraphic" lines. As a tank you used
 /bosses CANAL guild   guild output
 /bosses CANAL local   local output (only your chat frame)
 /bosses CANAL frame   everything in your alert frame (only you)
-/bosses IDIOMA es|en  language of the explanations (auto = follows the game)
+/bosses IDIOMA es|en|fr  language of the explanations (auto = follows the game)
 /bosses DEBUG on|off  debug log (written to WTF on logout); /bosses log shows it
 /bosses ?             full command help
 ```
 
-**Tip:** try it right now — `/bosses 23576` explains Nalorakk (Zul'Aman, Cataclysm pack), translated to English and Spanish.
+**Tip:** try it right now — `/bosses 23576` explains Nalorakk (Zul'Aman, Cataclysm pack), available in English, Spanish and French.
 
 **Note:** explanations are stored **per character**. If you explain a boss yourself and want to share it, send me your saved `Bosses.lua` and I'll add it to the next version. Most of the built-in information came from my own experience plus Wowhead and www.guiaswow.com — thanks to both.
 
@@ -52,14 +52,14 @@ Bosses explica los encuentros de jefes en pocas líneas "telegráficas". De tanq
 
 - Explica el NPC marcado en pocas líneas, escritas por humanos
 - Tus notas por NPC en cualquier idioma (`/bosses +` y `/bosses !`): tienen prioridad sobre la base de datos incluida
-- Explicaciones escritas a mano de las mazmorras de **Cataclysm**, Zul'Aman/Zul'Gurub y bandas de la era 2011-2013, más packs de **The War Within** y **Midnight** — todo en **español e inglés**
+- Explicaciones escritas a mano de las mazmorras de **Cataclysm**, Zul'Aman/Zul'Gurub y bandas de la era 2011-2013, más packs de **Mists of Pandaria** (Classic), **The War Within** y **Midnight** — todo en **español, inglés y francés**
 - Elige el canal correcto automáticamente: **banda, grupo o chat de mazmorra aleatoria** — o fuerza hermandad / local / **solo el frame de alerta**
 - **Explicación automática al empezar cada encuentro** (sin temporizadores ni automatización de combate; se puede desactivar en Configuración)
 - **Tu propio frame de alerta**: siempre lleva la explicación completa en pantalla — en combate el grupo no puede recibir chat de addon, así que tu frame ES tu copia; fuera de combate gana un botón **"Al chat"** que comparte el jefe con el grupo. Arrastrable (posición recordada por personaje), se cierra con la X o con ESC, se apaga solo 15s tras el combate
 - Los nombres de los spells salen **en el idioma del juego de cada jugador**, resueltos al vuelo desde la base de datos del propio juego
 - Botón de minimapa: **dentro de una instancia abre un desplegable con todos los jefes de la zona** — clic en uno lo muestra en tu frame y lo puedes compartir; fuera, el clic izquierdo explica el marcado. El derecho abre Configuración, se arrastra (la posición se guarda)
 - Panel en **Configuración → AddOns → Bosses**, cambios al instante, sin librerías
-- **Packs de datos**: carpetas opcionales (`Bosses_<Zona>/`) con explicaciones de zonas concretas, sin engordar el core (incluye packs de Cataclysm, The War Within y Midnight)
+- **Packs de datos**: carpetas opcionales (`Bosses_<Zona>/`) con explicaciones de zonas concretas, sin engordar el core (incluye packs de Cataclysm, Mists of Pandaria, The War Within y Midnight; cada pack lleva sus explicaciones en español, inglés y francés — Cataclysm además en alemán)
 - Modo depuración opcional: escribe un registro de detección en tu carpeta `WTF` para localizar jefes sin explicación
 - Compatible con la política de addons de Midnight: la información bajo tu control, nunca automatización de combate
 - Funciona en Retail (**Midnight 12.1**) y Classic: **MoP Classic, TBC Classic y Era** — misma lista de flavors que sus hermanos
@@ -75,7 +75,7 @@ Bosses explica los encuentros de jefes en pocas líneas "telegráficas". De tanq
 /bosses CANAL guild   salida por la hermandad
 /bosses CANAL local   salida local (solo tu ventana de chat)
 /bosses CANAL frame   todo en tu frame de alerta (solo tú)
-/bosses IDIOMA es|en  idioma de las explicaciones (auto = sigue el juego)
+/bosses IDIOMA es|en|fr  idioma de las explicaciones (auto = sigue el juego)
 /bosses DEBUG on|off  registro de depuración (se escribe en WTF al salir); /bosses log lo muestra
 /bosses ?             ayuda completa
 ```

@@ -1,0 +1,1788 @@
+{
+	"id": 1185,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1185?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1185,
+		"name": "Vigilante Kaathar",
+		"description": "Los mejores guerreros de los draenei podrían ser llamados para un último servicio ahora que se encuentran al borde del más allá, habitando en uno de los ensamblajes acorazados que actúan de protectores eternos de la civilización draenei de Draenor. Este vigilante en concreto tiene la tarea de custodiar el último cristal existente que hace funcionar el escudo que rodea Auchindoun.",
+		"creatures": [
+			{
+				"id": 3234,
+				"name": "Vigilante Kaathar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/58263?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 58263
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Círculo de campanillas de Ced",
+					"id": 109760
+				}
+			},
+			{
+				"id": 22192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de misterio Arcano",
+					"id": 109824
+				}
+			},
+			{
+				"id": 22193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija Sangrespina",
+					"id": 109761
+				}
+			},
+			{
+				"id": 22194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón tocado por la Escarcha",
+					"id": 109825
+				}
+			},
+			{
+				"id": 22195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de hojas radiantes",
+					"id": 109762
+				}
+			},
+			{
+				"id": 22196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de luz espiral",
+					"id": 109826
+				}
+			},
+			{
+				"id": 22197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro brillodiamante",
+					"id": 109763
+				}
+			},
+			{
+				"id": 22198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de vinculador de luz",
+					"id": 109827
+				}
+			},
+			{
+				"id": 22199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marca de hielo",
+					"id": 109764
+				}
+			},
+			{
+				"id": 22200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de llama vil",
+					"id": 109828
+				}
+			},
+			{
+				"id": 22201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo reluciente de gólem",
+					"id": 109765
+				}
+			},
+			{
+				"id": 22202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de foco ardiente",
+					"id": 109829
+				}
+			},
+			{
+				"id": 22203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro de Flama Oscura",
+					"id": 109766
+				}
+			},
+			{
+				"id": 22204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de Sangrepluma",
+					"id": 109830
+				}
+			},
+			{
+				"id": 22205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de luz purificada",
+					"id": 109767
+				}
+			},
+			{
+				"id": 22206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de vinculador de cristal",
+					"id": 109831
+				}
+			},
+			{
+				"id": 22207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de hojas crecientes",
+					"id": 109768
+				}
+			},
+			{
+				"id": 22208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de sanador de hojas",
+					"id": 109832
+				}
+			},
+			{
+				"id": 22209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de surcacorrientes",
+					"id": 109833
+				}
+			},
+			{
+				"id": 22210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro de aglutinador",
+					"id": 109769
+				}
+			},
+			{
+				"id": 22211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de Vistafilada",
+					"id": 109834
+				}
+			},
+			{
+				"id": 22212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de olas batientes",
+					"id": 109770
+				}
+			},
+			{
+				"id": 22213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de Pielroca",
+					"id": 109835
+				}
+			},
+			{
+				"id": 22214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de mitosis ensangrentado",
+					"id": 109771
+				}
+			},
+			{
+				"id": 22215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de nexomagma",
+					"id": 109836
+				}
+			},
+			{
+				"id": 22216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nudillos de Lo'Dronar",
+					"id": 109772
+				}
+			},
+			{
+				"id": 22217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja encarnada",
+					"id": 109837
+				}
+			},
+			{
+				"id": 22218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de escama de hierro",
+					"id": 109773
+				}
+			},
+			{
+				"id": 22219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de placas verdeantes",
+					"id": 109838
+				}
+			},
+			{
+				"id": 22220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de carne desgarrada",
+					"id": 109774
+				}
+			},
+			{
+				"id": 22221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de oracero",
+					"id": 109839
+				}
+			},
+			{
+				"id": 22222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de afilador",
+					"id": 109775
+				}
+			},
+			{
+				"id": 22223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran cinturón de rompetripas",
+					"id": 109840
+				}
+			},
+			{
+				"id": 22224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de entereza resistente",
+					"id": 109776
+				}
+			},
+			{
+				"id": 22225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina remachada",
+					"id": 109841
+				}
+			},
+			{
+				"id": 22226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello inmaculado",
+					"id": 109777
+				}
+			},
+			{
+				"id": 22227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de Aguasnegras",
+					"id": 109842
+				}
+			},
+			{
+				"id": 22228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello del Protector Glorioso",
+					"id": 109778
+				}
+			},
+			{
+				"id": 22229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro draénico antiguo",
+					"id": 109779
+				}
+			},
+			{
+				"id": 22230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de escamalba",
+					"id": 109843
+				}
+			},
+			{
+				"id": 22231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de magia cambiante",
+					"id": 109780
+				}
+			},
+			{
+				"id": 22232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de vindicación",
+					"id": 109781
+				}
+			},
+			{
+				"id": 22233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de vinculador de enfermedad",
+					"id": 109782
+				}
+			},
+			{
+				"id": 22234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro de adepto firme",
+					"id": 109783
+				}
+			},
+			{
+				"id": 22235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/110045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bastón de hechicería cristalino de Kamui",
+					"id": 110045
+				}
+			},
+			{
+				"id": 22236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de diamante marrón de Ro-Ger",
+					"id": 109759
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9823,
+				"title": "Resumen",
+				"body_text": "El Vigilante graba patrones de luz abrasadora en el suelo y arroja sus enormes armas-escudo para atacar a sus enemigos.",
+				"sections": [
+					{
+						"id": 10717,
+						"title": "DPS",
+						"body_text": "$bullet;Refúgiate detrás del [Escudo sagrado] lanzado por Kaathar para protegerte de su [Luz consagrada]."
+					},
+					{
+						"id": 10716,
+						"title": "Sanadores",
+						"body_text": "$bullet;Refúgiate detrás del [Escudo sagrado] lanzado por Kaathar para protegerte de su [Luz consagrada]."
+					},
+					{
+						"id": 10718,
+						"title": "Tanques",
+						"body_text": "$bullet;Refúgiate detrás del [Escudo sagrado] lanzado por Kaathar para protegerte de su [Luz consagrada].\r\n$bullet;Procura no colocar a Kaathar demasiado cerca de su [Escudo sagrado] para asegurarte de que haya un sitio seguro en el que esconderse de la [Luz consagrada]."
+					}
+				]
+			},
+			{
+				"id": 9824,
+				"title": "Escudo Sagrado",
+				"sections": [
+					{
+						"id": 9825,
+						"title": "Luz consagrada",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/153006?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Luz consagrada",
+							"id": 153006
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/153480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo Sagrado",
+					"id": 153480
+				}
+			},
+			{
+				"id": 9826,
+				"title": "Golpe santificado",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/152954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Golpe santificado",
+					"id": 152954
+				}
+			},
+			{
+				"id": 9827,
+				"title": "Suelo santo",
+				"sections": [
+					{
+						"id": 9828,
+						"title": "Destino",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157465?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Destino",
+							"id": 157465
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/154526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suelo santo",
+					"id": 154526
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/547?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Auchindoun",
+			"id": 547
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1185?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1185,
+		"name": "Kaathar le Vigilant",
+		"description": "Les plus grands guerriers draeneï qui s’apprêtent à rejoindre l’au-delà peuvent accepter de rendre un ultime service à leurs compatriotes : celui d’occuper les assemblages blindés assurant la protection éternelle d’Auchindoun et de la civilisation draeneï en Draenor. Ce vigilant-ci a été chargé de défendre le dernier cristal qui alimente le bouclier autour d’Auchindoun.",
+		"creatures": [
+			{
+				"id": 3234,
+				"name": "Kaathar le Vigilant",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/58263?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 58263
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercle carillonnant de Ced",
+					"id": 109760
+				}
+			},
+			{
+				"id": 22192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde du mystère des Arcanes",
+					"id": 109824
+				}
+			},
+			{
+				"id": 22193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague épine-sanglante",
+					"id": 109761
+				}
+			},
+			{
+				"id": 22194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde touchée par le givre",
+					"id": 109825
+				}
+			},
+			{
+				"id": 22195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière des feuilles radieuses",
+					"id": 109762
+				}
+			},
+			{
+				"id": 22196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de la lumière tourbillonnante",
+					"id": 109826
+				}
+			},
+			{
+				"id": 22197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercle diamantin",
+					"id": 109763
+				}
+			},
+			{
+				"id": 22198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du lieur de lumière",
+					"id": 109827
+				}
+			},
+			{
+				"id": 22199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marque de glace",
+					"id": 109764
+				}
+			},
+			{
+				"id": 22200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture gangreflamme",
+					"id": 109828
+				}
+			},
+			{
+				"id": 22201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil luisant du golem",
+					"id": 109765
+				}
+			},
+			{
+				"id": 22202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de focalisation ardente",
+					"id": 109829
+				}
+			},
+			{
+				"id": 22203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jonc flamme-noire",
+					"id": 109766
+				}
+			},
+			{
+				"id": 22204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon plumesang",
+					"id": 109830
+				}
+			},
+			{
+				"id": 22205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de la lumière purifiée",
+					"id": 109767
+				}
+			},
+			{
+				"id": 22206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de lieur de cristaux",
+					"id": 109831
+				}
+			},
+			{
+				"id": 22207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague des feuilles florissantes",
+					"id": 109768
+				}
+			},
+			{
+				"id": 22208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de soigne-feuille",
+					"id": 109832
+				}
+			},
+			{
+				"id": 22209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture d'ondule-flux",
+					"id": 109833
+				}
+			},
+			{
+				"id": 22210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jonc de rambine-chair",
+					"id": 109769
+				}
+			},
+			{
+				"id": 22211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de l'oeil perçant",
+					"id": 109834
+				}
+			},
+			{
+				"id": 22212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière des déferlantes",
+					"id": 109770
+				}
+			},
+			{
+				"id": 22213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens rochecuir",
+					"id": 109835
+				}
+			},
+			{
+				"id": 22214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau ensanglanté de mitose",
+					"id": 109771
+				}
+			},
+			{
+				"id": 22215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du lien de lave",
+					"id": 109836
+				}
+			},
+			{
+				"id": 22216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Articulation de Lo'Dronar",
+					"id": 109772
+				}
+			},
+			{
+				"id": 22217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon incarnadin",
+					"id": 109837
+				}
+			},
+			{
+				"id": 22218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de l'écaille de fer",
+					"id": 109773
+				}
+			},
+			{
+				"id": 22219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture verdoyante en plaques",
+					"id": 109838
+				}
+			},
+			{
+				"id": 22220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de la chair arrachée",
+					"id": 109774
+				}
+			},
+			{
+				"id": 22221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture en acier doré",
+					"id": 109839
+				}
+			},
+			{
+				"id": 22222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de lieur de lame",
+					"id": 109775
+				}
+			},
+			{
+				"id": 22223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande ceinture de foule-tripes",
+					"id": 109840
+				}
+			},
+			{
+				"id": 22224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de robustesse inébranlable",
+					"id": 109776
+				}
+			},
+			{
+				"id": 22225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plates de taille boulonnées",
+					"id": 109841
+				}
+			},
+			{
+				"id": 22226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière sans souillure",
+					"id": 109777
+				}
+			},
+			{
+				"id": 22227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture des flots noirs",
+					"id": 109842
+				}
+			},
+			{
+				"id": 22228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière du protecteur glorieux",
+					"id": 109778
+				}
+			},
+			{
+				"id": 22229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jonc draenique ancien",
+					"id": 109779
+				}
+			},
+			{
+				"id": 22230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle d'aubécaille",
+					"id": 109843
+				}
+			},
+			{
+				"id": 22231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière des magies changeantes",
+					"id": 109780
+				}
+			},
+			{
+				"id": 22232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de justification",
+					"id": 109781
+				}
+			},
+			{
+				"id": 22233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de lien endémique",
+					"id": 109782
+				}
+			},
+			{
+				"id": 22234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de l'étançon fidèle",
+					"id": 109783
+				}
+			},
+			{
+				"id": 22235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/110045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâton de sorcellerie cristallin de Kamui",
+					"id": 110045
+				}
+			},
+			{
+				"id": 22236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau orné d'un diamant brun de Ro-Ger",
+					"id": 109759
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9823,
+				"title": "Vue d’ensemble",
+				"body_text": "Le vigilant attaque ses ennemis en dessinant des motifs de lumière incendiaire sur le sol et en lançant ses énormes bras-boucliers.",
+				"sections": [
+					{
+						"id": 10717,
+						"title": "DPS",
+						"body_text": "$bullet;Abritez-vous derrière le [Bouclier sacré] lancé par Kaathar pour vous protéger de sa technique [Lumière consacrée]."
+					},
+					{
+						"id": 10716,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Abritez-vous derrière le [Bouclier sacré] lancé par Kaathar pour vous protéger de sa technique [Lumière consacrée]."
+					},
+					{
+						"id": 10718,
+						"title": "Tanks",
+						"body_text": "$bullet;Abritez-vous derrière le [Bouclier sacré] lancé par Kaathar pour vous protéger de sa technique [Lumière consacrée].\r\n$bullet;Évitez de placer Kaathar trop près de son [Bouclier sacré], afin que vous puissiez vous abriter de sa technique [Lumière consacrée]."
+					}
+				]
+			},
+			{
+				"id": 9824,
+				"title": "Bouclier sacré",
+				"sections": [
+					{
+						"id": 9825,
+						"title": "Lumière consacrée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/153006?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lumière consacrée",
+							"id": 153006
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/153480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier sacré",
+					"id": 153480
+				}
+			},
+			{
+				"id": 9826,
+				"title": "Frappe sanctifiée",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/152954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frappe sanctifiée",
+					"id": 152954
+				}
+			},
+			{
+				"id": 9827,
+				"title": "Terre bénie",
+				"sections": [
+					{
+						"id": 9828,
+						"title": "Destin",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157465?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Destin",
+							"id": 157465
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/154526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Terre bénie",
+					"id": 154526
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/547?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Auchindoun",
+			"id": 547
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1185?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1185,
+		"name": "Vigilant Kaathar",
+		"description": "The greatest warriors of the draenei may be called upon for one final service as they stand on the precipice of the afterlife: inhabiting one of the armored constructs that serve as the eternal protectors of Auchindoun and the draenei civilization on Draenor. This particular Vigilant is tasked with guarding the last remaining crystal that powers the shield around Auchindoun.",
+		"creatures": [
+			{
+				"id": 3234,
+				"name": "Vigilant Kaathar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/58263?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 58263
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ced's Chiming Circle",
+					"id": 109760
+				}
+			},
+			{
+				"id": 22192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cord of Arcane Mystery",
+					"id": 109824
+				}
+			},
+			{
+				"id": 22193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodthorn Band",
+					"id": 109761
+				}
+			},
+			{
+				"id": 22194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frost-Touched Cord",
+					"id": 109825
+				}
+			},
+			{
+				"id": 22195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of Radiant Leaves",
+					"id": 109762
+				}
+			},
+			{
+				"id": 22196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cord of Swirling Light",
+					"id": 109826
+				}
+			},
+			{
+				"id": 22197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Diamondglow Circle",
+					"id": 109763
+				}
+			},
+			{
+				"id": 22198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightbinder Girdle",
+					"id": 109827
+				}
+			},
+			{
+				"id": 22199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mark of Ice",
+					"id": 109764
+				}
+			},
+			{
+				"id": 22200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Felflame Belt",
+					"id": 109828
+				}
+			},
+			{
+				"id": 22201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Golem's Gleaming Eye",
+					"id": 109765
+				}
+			},
+			{
+				"id": 22202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Burning Focus",
+					"id": 109829
+				}
+			},
+			{
+				"id": 22203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Darkflame Loop",
+					"id": 109766
+				}
+			},
+			{
+				"id": 22204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodfeather Girdle",
+					"id": 109830
+				}
+			},
+			{
+				"id": 22205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of Purified Light",
+					"id": 109767
+				}
+			},
+			{
+				"id": 22206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystalbinder Belt",
+					"id": 109831
+				}
+			},
+			{
+				"id": 22207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Band of Growing Leaves",
+					"id": 109768
+				}
+			},
+			{
+				"id": 22208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109832?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leafmender Girdle",
+					"id": 109832
+				}
+			},
+			{
+				"id": 22209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Streamslither Belt",
+					"id": 109833
+				}
+			},
+			{
+				"id": 22210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Slicebinder Loop",
+					"id": 109769
+				}
+			},
+			{
+				"id": 22211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sharpeye Belt",
+					"id": 109834
+				}
+			},
+			{
+				"id": 22212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of Crashing Waves",
+					"id": 109770
+				}
+			},
+			{
+				"id": 22213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rockhide Links",
+					"id": 109835
+				}
+			},
+			{
+				"id": 22214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodied Ring of Mytosis",
+					"id": 109771
+				}
+			},
+			{
+				"id": 22215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lavalink Girdle",
+					"id": 109836
+				}
+			},
+			{
+				"id": 22216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Knucklebone of Lo'Dronar",
+					"id": 109772
+				}
+			},
+			{
+				"id": 22217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109837?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incarnadine Girdle",
+					"id": 109837
+				}
+			},
+			{
+				"id": 22218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Band of Iron Scale",
+					"id": 109773
+				}
+			},
+			{
+				"id": 22219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Verdant Plate Belt",
+					"id": 109838
+				}
+			},
+			{
+				"id": 22220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of Ripped Flesh",
+					"id": 109774
+				}
+			},
+			{
+				"id": 22221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109839?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Goldsteel Belt",
+					"id": 109839
+				}
+			},
+			{
+				"id": 22222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bladebinder Ring",
+					"id": 109775
+				}
+			},
+			{
+				"id": 22223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gutcrusher Greatbelt",
+					"id": 109840
+				}
+			},
+			{
+				"id": 22224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of Resilient Fortitude",
+					"id": 109776
+				}
+			},
+			{
+				"id": 22225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rivet-Sealed Waistplate",
+					"id": 109841
+				}
+			},
+			{
+				"id": 22226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Unsullied Signet",
+					"id": 109777
+				}
+			},
+			{
+				"id": 22227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blackwater Belt",
+					"id": 109842
+				}
+			},
+			{
+				"id": 22228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of the Glorious Protector",
+					"id": 109778
+				}
+			},
+			{
+				"id": 22229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ancient Draenic Loop",
+					"id": 109779
+				}
+			},
+			{
+				"id": 22230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Morningscale Waistguard",
+					"id": 109843
+				}
+			},
+			{
+				"id": 22231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of Shifting Magics",
+					"id": 109780
+				}
+			},
+			{
+				"id": 22232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of Vindication",
+					"id": 109781
+				}
+			},
+			{
+				"id": 22233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Disease-Binder Seal",
+					"id": 109782
+				}
+			},
+			{
+				"id": 22234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Band of the Stalwart Stanchion",
+					"id": 109783
+				}
+			},
+			{
+				"id": 22235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/110045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kamui's Crystalline Staff of Wizardry",
+					"id": 110045
+				}
+			},
+			{
+				"id": 22236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/109759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ro-Ger's Brown Diamond Seal",
+					"id": 109759
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9823,
+				"title": "Overview",
+				"body_text": "The Vigilant carves patterns of searing light into the ground and hurls his massive shield-arms to assault his foes.",
+				"sections": [
+					{
+						"id": 10717,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Take shelter behind Kaathar's hurled [Holy Shield] to protect yourself from his [Consecrated Light]."
+					},
+					{
+						"id": 10716,
+						"title": "Healers",
+						"body_text": "$bullet;Take shelter behind Kaathar's hurled [Holy Shield] to protect yourself from his [Consecrated Light]."
+					},
+					{
+						"id": 10718,
+						"title": "Tanks",
+						"body_text": "$bullet;Take shelter behind Kaathar's hurled [Holy Shield] to protect yourself from his [Consecrated Light].\r\n$bullet;Avoid positioning Kaathar too close to his [Holy Shield] to ensure that there is a safe location to hide from [Consecrated Light]."
+					}
+				]
+			},
+			{
+				"id": 9824,
+				"title": "Holy Shield",
+				"sections": [
+					{
+						"id": 9825,
+						"title": "Consecrated Light",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/153006?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Consecrated Light",
+							"id": 153006
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/153480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Holy Shield",
+					"id": 153480
+				}
+			},
+			{
+				"id": 9826,
+				"title": "Sanctified Strike",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/152954?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sanctified Strike",
+					"id": 152954
+				}
+			},
+			{
+				"id": 9827,
+				"title": "Hallowed Ground",
+				"sections": [
+					{
+						"id": 9828,
+						"title": "Fate",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157465?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fate",
+							"id": 157465
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/154526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hallowed Ground",
+					"id": 154526
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/547?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Auchindoun",
+			"id": 547
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

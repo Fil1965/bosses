@@ -1,0 +1,1518 @@
+{
+	"id": 169,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/169?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 169,
+		"name": "Sistema de Defensa de Omnitron",
+		"description": "El Sistema de Defensa de Omnitron se conoció en su momento como la mayor maravilla tecnológica de los enanos Hierro Negro. Cuando Nefarian llegó al Descenso de Alanegra, restableció el destartalado sistema para que aniquilara a los intrusos en su laboratorio.",
+		"creatures": [
+			{
+				"id": 591,
+				"name": "Magmatron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32685?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32685
+				}
+			},
+			{
+				"id": 592,
+				"name": "Arcanotron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32687?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32687
+				}
+			},
+			{
+				"id": 589,
+				"name": "Electron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32688?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32688
+				}
+			},
+			{
+				"id": 590,
+				"name": "Toxitron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32684?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32684
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de diseño de circuitos",
+					"id": 65004
+				}
+			},
+			{
+				"id": 10073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de energía del jumbotrón",
+					"id": 59117
+				}
+			},
+			{
+				"id": 10074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espirales inductoras de electrones",
+					"id": 59118
+				}
+			},
+			{
+				"id": 10075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de fuente de voltaje",
+					"id": 59119
+				}
+			},
+			{
+				"id": 10076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Destreros de fuerza vital",
+					"id": 59216
+				}
+			},
+			{
+				"id": 10077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de protocolo venenosos",
+					"id": 59120
+				}
+			},
+			{
+				"id": 10078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59217?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinta adhesiva X-Tron",
+					"id": 59217
+				}
+			},
+			{
+				"id": 10079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija conductora de relámpagos",
+					"id": 59121
+				}
+			},
+			{
+				"id": 10080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de resistencia pasiva",
+					"id": 59218
+				}
+			},
+			{
+				"id": 10081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Inversor de forma de vida orgánica",
+					"id": 59122
+				}
+			},
+			{
+				"id": 10082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59219?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de generador de poder",
+					"id": 59219
+				}
+			},
+			{
+				"id": 10083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65076?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alfa de medidas de seguridad",
+					"id": 65076
+				}
+			},
+			{
+				"id": 10084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alfa de medidas de seguridad",
+					"id": 59220
+				}
+			},
+			{
+				"id": 10085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de diseño de circuitos",
+					"id": 63540
+				}
+			},
+			{
+				"id": 10086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65077?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de generador de poder",
+					"id": 65077
+				}
+			},
+			{
+				"id": 10087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65078?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de resistencia pasiva",
+					"id": 65078
+				}
+			},
+			{
+				"id": 10088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinta adhesiva X-Tron",
+					"id": 65079
+				}
+			},
+			{
+				"id": 10089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Destreros de fuerza vital",
+					"id": 65080
+				}
+			},
+			{
+				"id": 10090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65081?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Inversor de forma de vida orgánica",
+					"id": 65081
+				}
+			},
+			{
+				"id": 10091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65082?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija conductora de relámpagos",
+					"id": 65082
+				}
+			},
+			{
+				"id": 10092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de protocolo venenosos",
+					"id": 65083
+				}
+			},
+			{
+				"id": 10093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65084?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de fuente de voltaje",
+					"id": 65084
+				}
+			},
+			{
+				"id": 10094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espirales inductoras de electrones",
+					"id": 65085
+				}
+			},
+			{
+				"id": 10095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de energía del jumbotrón",
+					"id": 65086
+				}
+			},
+			{
+				"id": 35267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Control remoto tosco",
+					"id": 152966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3193,
+				"title": "Matriz de defensa primaria",
+				"body_text": "Los 4 gólems enanos comparten una reserva de salud y 2 están activos en todo momento. Cuando se activa un gólem, tiene 100 p. de energía que usa para sus facultades. Cuando la energía alcanza los 50 p., el gólem obtiene un escudo defensivo y se activa un nuevo gólem. Cuando la energía alcanza los 0 p., el gólem se desactiva y se activa uno nuevo."
+			},
+			{
+				"id": 3194,
+				"title": "Arcanotron",
+				"sections": [
+					{
+						"id": 3195,
+						"title": "Generador de poder",
+						"body_text": "Arcanotron invoca un generador de poder bajo un jugador aleatorio. El campo aumenta el daño infligido un 50% el daño de todas las unidades en un radio de 5 m y restaura 0 p. de maná cada 0,5 s. El generador de poder dura 1 min."
+					},
+					{
+						"id": 3196,
+						"title": "Aniquilador Arcano",
+						"body_text": "Arcanotron inflige 0 p. de daño Arcano a un jugador aleatorio."
+					},
+					{
+						"id": 3197,
+						"title": "Conversión de poder",
+						"body_text": "El escudo de Arcanotron transforma el daño recibido en Poder transformado, que otorga daño mágico y velocidad de lanzamiento de hechizos extra.",
+						"sections": [
+							{
+								"id": 3198,
+								"title": "Poder transformado",
+								"body_text": "El daño infligido al escudo de Conversión de poder de Arcanotron le otorga un 10% de daño Arcano extra y aumenta un 10% su celeridad con hechizos durante 30 s. Este efecto se acumula."
+							}
+						]
+					},
+					{
+						"id": 3199,
+						"title": "Generador de poder sobrecargado",
+						"body_text": "Lord Victor Nefarius trasforma un generador de poder en un generador de poder sobrecargado, lo que aumenta un 100% el daño infligido de todas las unidades en un radio de 5 m y restaura 0 p. de maná cada 0,5 s.\r\n\r\nEl generador de poder sobrecargado aumenta de tamaño hasta que explota, lo que activa Retorno Arcano.",
+						"sections": [
+							{
+								"id": 3200,
+								"title": "Retorno Arcano",
+								"body_text": "Un generador de poder sobrecargado explota e inflige 0 p. de daño Arcano a los jugadores en un radio de 17 m."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3201,
+				"title": "Electron",
+				"sections": [
+					{
+						"id": 3202,
+						"title": "Conductor de relámpagos",
+						"body_text": "Electron designa a un jugador aleatorio como Conductor de relámpagos, lo que hace que inflija 1925 p. de daño de Naturaleza a los aliados en un radio de 8 m cada 2 s durante 10 s."
+					},
+					{
+						"id": 3203,
+						"title": "Descarga eléctrica",
+						"body_text": "Electron inflige 0 p. de daño de Naturaleza a un máximo de 3 objetivos en un radio de 8 m. El daño aumenta con cada salto."
+					},
+					{
+						"id": 3204,
+						"title": "Escudo inestable",
+						"body_text": "Infligir daño al escudo de Electron provoca un Choque estático en la ubicación de un jugador cercano, lo que inflige 0 p. de daño de Naturaleza a los jugadores en un radio de 6 m del objetivo."
+					},
+					{
+						"id": 3205,
+						"title": "Infusión de Sombras",
+						"body_text": "Lord Victor Nefarius corrompe al Conductor de relámpagos, lo que transforma al objetivo en un Conductor de las Sombras. El Conductor de las Sombras inflige daño de las Sombras a todos los aliados cercanos cada 2 s y, cuanto mayor sea la distancia a la que se encuentre el jugador con Infusión de Sombras, mayor será el daño que inflija."
+					}
+				]
+			},
+			{
+				"id": 3207,
+				"title": "Magmatron",
+				"sections": [
+					{
+						"id": 3264,
+						"title": "Medida de seguridad de incineración",
+						"body_text": "Magmatron golpea a todos los que están en la sala e inflige 0 p. de daño de Fuego cada 1 s durante 4 s."
+					},
+					{
+						"id": 3265,
+						"title": "Fijando objetivo",
+						"body_text": "Magmatron selecciona un jugador aleatorio como objetivo para su facultad Lanzallamas. Tras 4 s, Magmatron canaliza su Lanzallamas en el objetivo, lo que inflige 0 p. de daño de Fuego cada 1 s a todos los jugadores frente a él durante 4 s.",
+						"sections": [
+							{
+								"id": 3266,
+								"title": "Lanzallamas",
+								"body_text": "Magmatron inflige 0 p. de daño de Fuego cada 1 s a todos los enemigos frente a él durante 4 s."
+							},
+							{
+								"id": 3267,
+								"title": "Sombras atrapantes",
+								"body_text": "Lord Victor Nefarius hace que las sombras aten los pies del objetivo seleccionado, lo que evita que se mueva hasta que termine de canalizarse Lanzallamas."
+							}
+						]
+					},
+					{
+						"id": 3268,
+						"title": "Barrera",
+						"body_text": "El escudo de Magmatron absorbe 0 p. de daño. Si se rompe la Barrera, libera un vendaval de llamas, lo que inflige 0 p. de daño de Fuego a todos los jugadores."
+					}
+				]
+			},
+			{
+				"id": 3208,
+				"title": "Facultades de Toxitron",
+				"sections": [
+					{
+						"id": 3269,
+						"title": "Bomba química",
+						"body_text": "Toxitron dispara una bomba química a un jugador aleatorio, lo que forma una nube química en su ubicación que aumenta el daño que reciben las unidades en la nube.",
+						"sections": [
+							{
+								"id": 3270,
+								"title": "Nube química",
+								"body_text": "La nube química de Toxitron aumenta un 50% el daño que reciben las unidades en la nube."
+							}
+						]
+					},
+					{
+						"id": 3271,
+						"title": "Protocolo de veneno",
+						"body_text": "El Protocolo de veneno de Toxitron crea una bomba de veneno cada 3 s. Cada bomba de veneno se fija en un objetivo aleatorio. La bomba de veneno explota al llegar a distancia cuerpo a cuerpo de su objetivo.",
+						"sections": [
+							{
+								"id": 3272,
+								"title": "Bomba de veneno",
+								"body_text": "Las bombas de veneno que crea el Protocolo de veneno de Toxitron se fijan en un objetivo aleatorio. Una bomba de veneno explota y crea un charco venenoso cuando se acerca a distancia cuerpo a cuerpo de su objetivo.",
+								"sections": [
+									{
+										"id": 3273,
+										"title": "Charco venenoso",
+										"body_text": "Las bombas de veneno crean charcos venenosos con un radio de 6 m al explotar. Infligen 0 p. de daño de Naturaleza cada 1 s a los jugadores que los pisen."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37556?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37556
+								}
+							}
+						]
+					},
+					{
+						"id": 3274,
+						"title": "Bala empapada de veneno",
+						"body_text": "Infligir daño al escudo de Toxitron aplica Empapado en veneno al jugador que inflige el daño.",
+						"sections": [
+							{
+								"id": 3454,
+								"title": "Empapado de veneno",
+								"body_text": "Empapado de veneno inflige 0 p. de daño de Naturaleza cada 2 s. Este efecto se acumula, pero al disiparlo una vez se eliminan todas las acumulaciones.\r\n\r\nCuando un jugador ataca o utiliza un hechizo o facultad, expurga el veneno del objetivo.",
+								"sections": [
+									{
+										"id": 3456,
+										"title": "Expurgar veneno",
+										"body_text": "El jugador empapado de veneno inflige 963 p. de daño de Naturaleza a su objetivo."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3275,
+						"title": "Atracción mortal",
+						"body_text": "A veces, lord Victor Nefarius se teletransporta al centro de una nube química y lanza Atracción mortal, lo que arrastra a todos los jugadores hasta la nube."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/169?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 169,
+		"name": "Système de défense Omnitron",
+		"description": "On considérait autrefois le système de défense Omnitron comme la plus grande merveille technologique des nains sombrefer. Quand Nefarian arriva à la descente de l’Aile noire, il reprogramma le système fatigué pour qu’il annihile tout intrus dans ses laboratoires.",
+		"creatures": [
+			{
+				"id": 591,
+				"name": "Magmatron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32685?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32685
+				}
+			},
+			{
+				"id": 592,
+				"name": "Arcanotron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32687?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32687
+				}
+			},
+			{
+				"id": 589,
+				"name": "Electron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32688?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32688
+				}
+			},
+			{
+				"id": 590,
+				"name": "Toxitron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32684?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32684
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse avec dessin de circuit",
+					"id": 65004
+				}
+			},
+			{
+				"id": 10073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de puissance de Gigantron",
+					"id": 59117
+				}
+			},
+			{
+				"id": 10074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bobines d'inducteur à électrons",
+					"id": 59118
+				}
+			},
+			{
+				"id": 10075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de source du voltage",
+					"id": 59119
+				}
+			},
+			{
+				"id": 10076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chargeurs de force vitale",
+					"id": 59216
+				}
+			},
+			{
+				"id": 10077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de protocole de poison",
+					"id": 59120
+				}
+			},
+			{
+				"id": 10078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59217?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bande adhésive de X-Tron",
+					"id": 59217
+				}
+			},
+			{
+				"id": 10079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague conductrice d'éclair",
+					"id": 59121
+				}
+			},
+			{
+				"id": 10080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de résistance passive",
+					"id": 59218
+				}
+			},
+			{
+				"id": 10081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Renverseur de forme de vie organique",
+					"id": 59122
+				}
+			},
+			{
+				"id": 10082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59219?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de générateur de puissance",
+					"id": 59219
+				}
+			},
+			{
+				"id": 10083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65076?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mesure de sécurité Alpha",
+					"id": 65076
+				}
+			},
+			{
+				"id": 10084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mesure de sécurité Alpha",
+					"id": 59220
+				}
+			},
+			{
+				"id": 10085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse avec dessin de circuit",
+					"id": 63540
+				}
+			},
+			{
+				"id": 10086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65077?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de générateur de puissance",
+					"id": 65077
+				}
+			},
+			{
+				"id": 10087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65078?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de résistance passive",
+					"id": 65078
+				}
+			},
+			{
+				"id": 10088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bande adhésive de X-Tron",
+					"id": 65079
+				}
+			},
+			{
+				"id": 10089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chargeurs de force vitale",
+					"id": 65080
+				}
+			},
+			{
+				"id": 10090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65081?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Renverseur de forme de vie organique",
+					"id": 65081
+				}
+			},
+			{
+				"id": 10091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65082?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague conductrice d'éclair",
+					"id": 65082
+				}
+			},
+			{
+				"id": 10092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de protocole de poison",
+					"id": 65083
+				}
+			},
+			{
+				"id": 10093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65084?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de source du voltage",
+					"id": 65084
+				}
+			},
+			{
+				"id": 10094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bobines d'inducteur à électrons",
+					"id": 65085
+				}
+			},
+			{
+				"id": 10095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de puissance de Gigantron",
+					"id": 65086
+				}
+			},
+			{
+				"id": 35267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Télécommande mal taillée",
+					"id": 152966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3193,
+				"title": "Matrice de défense primaire",
+				"body_text": "Les quatre golems nains partagent une quantité de points de vie commune et il n’y en a jamais que deux d’activés simultanément. Quand un golem s’active, il dispose de 100 points d’énergie pour utiliser ses capacités. Quand son énergie atteinte 50 points, il obtient un bouclier défensif et un autre golem s’active. Quand son énergie atteint zéro, le golem se désactive et un autre golem s’active."
+			},
+			{
+				"id": 3194,
+				"title": "Arcanotron",
+				"sections": [
+					{
+						"id": 3195,
+						"title": "Générateur de puissance",
+						"body_text": "Arcanotron invoque sous un personnage-joueur aléatoire un Générateur de puissance dont le champ augmente de 50% les dégâts infligés par toutes les unités à moins de 5 mètres et rend 0 points de mana toutes les 0,5 s. Le Générateur de puissance dure 1 min."
+					},
+					{
+						"id": 3196,
+						"title": "Annihilateur arcanique",
+						"body_text": "Arcanotron frappe un personnage-joueur aléatoire et lui inflige 0 points de dégâts des Arcanes."
+					},
+					{
+						"id": 3197,
+						"title": "Conversion de puissance",
+						"body_text": "Le bouclier d'Arcanotron convertit les dégâts subis en Puissance convertie, qui augmente les dégâts magiques et la vitesse d’incantation.",
+						"sections": [
+							{
+								"id": 3198,
+								"title": "Puissance convertie",
+								"body_text": "Les dégâts infligés au bouclier de Conversion de puissance d’Arcanotron lui octroient un bonus de 10% aux dégâts des Arcanes et augmentent sa hâte des sorts de 10% pendant 30 s. Cet effet est cumulable."
+							}
+						]
+					},
+					{
+						"id": 3199,
+						"title": "Générateur de puissance surchargé",
+						"body_text": "Le seigneur Victor Nefarius transforme un Générateur de puissance en Générateur de puissance surchargé. Le champ augmente les dégâts infligés de 100% pour tous les ennemis à moins de 5 mètres et restaure 0 points de mana toutes les 0,5 s.\r\n\r\nLa taille d’un Générateur de puissance surchargé augmente jusqu’à ce qu’il explose, déclenchant Retour arcanique.",
+						"sections": [
+							{
+								"id": 3200,
+								"title": "Retour arcanique",
+								"body_text": "Un Générateur de puissance surchargé explose, infligeant 0 points de dégâts des Arcanes à tous les personnages-joueurs dans un rayon de 17 mètres."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3201,
+				"title": "Électron",
+				"sections": [
+					{
+						"id": 3202,
+						"title": "Conducteur de foudre",
+						"body_text": "Électron désigne un personnage-joueur aléatoire comme Conducteur de foudre. Ce dernier inflige 1925 points de dégâts de Nature aux alliés se trouvant à moins de 8 mètres toutes les 2 s, pendant 10 s."
+					},
+					{
+						"id": 3203,
+						"title": "Décharge d'électricité",
+						"body_text": "Électron inflige 0 points de dégâts de Nature à 3 cibles au maximum dans un rayon de 8 mètres. Les dégâts augmentent à chaque rebond."
+					},
+					{
+						"id": 3204,
+						"title": "Bouclier instable",
+						"body_text": "Infliger des dégâts au bouclier d’Électron provoque un horion statique à l’endroit d’un personnage-joueur proche, ce qui inflige 0 points de dégâts de Nature aux ennemis se trouvant à moins de 6 mètres de la cible du horion."
+					},
+					{
+						"id": 3205,
+						"title": "Infusion d'ombre",
+						"body_text": "Le seigneur Victor Nefarius corrompt le conducteur de foudre et le transforme en conducteur d’ombre. Celui-ci inflige des points de dégâts d’Ombre toutes les 2 s à tous les alliés à proximité, le montant de dégâts augmentant avec la distance séparant la cible du personnage-joueur victime d’Infusion d’ombre."
+					}
+				]
+			},
+			{
+				"id": 3207,
+				"title": "Magmatron",
+				"sections": [
+					{
+						"id": 3264,
+						"title": "Mesure de sécurité pour l'incinération",
+						"body_text": "Magmatron inflige à tous ceux qui se trouvent dans la pièce 0 points de dégâts de Feu toutes les 1 s pendant 4 s."
+					},
+					{
+						"id": 3265,
+						"title": "Acquisition d'une cible",
+						"body_text": "Magmatron acquiert une cible aléatoire pour sa compétence Lance-flammes. Au bout de 4 s, Magmatron canalise son Lance-flammes sur la cible, infligeant 0 points de dégâts de Feu toutes les 1 s à tous les ennemis devant lui pendant 4 s.",
+						"sections": [
+							{
+								"id": 3266,
+								"title": "Lance-flammes",
+								"body_text": "Magmatron inflige 0 points de dégâts de Feu toutes les 1 s à tous les ennemis qui se tiennent devant lui pendant 4 s."
+							},
+							{
+								"id": 3267,
+								"title": "Ténèbres enveloppantes",
+								"body_text": "Le seigneur Victor Nefarius invoque des ombres qui piègent les pieds de la cible acquise, l’empêchant de se déplacer jusqu’à la fin du Lance-flammes."
+							}
+						]
+					},
+					{
+						"id": 3268,
+						"title": "Barrière",
+						"body_text": "Le bouclier de Magmatron absorbe 0 points de dégâts. Si la Barrière est cassée, elle libère une tempête de flammes qui inflige 0 points de dégâts de Feu à tous les ennemis."
+					}
+				]
+			},
+			{
+				"id": 3208,
+				"title": "Toxitron",
+				"sections": [
+					{
+						"id": 3269,
+						"title": "Bombe chimique",
+						"body_text": "Toxitron lance sur un personnage-joueur aléatoire une Bombe chimique qui provoque un Nuage chimique sur sa position. Le nuage augmente les dégâts subis par tous ceux qui se trouvent à l’intérieur.",
+						"sections": [
+							{
+								"id": 3270,
+								"title": "Nuage chimique",
+								"body_text": "Le Nuage chimique de Toxitron augmente les dégâts subis par tous ceux qui se trouvent à l’intérieur de 50%. "
+							}
+						]
+					},
+					{
+						"id": 3271,
+						"title": "Protocole de poison",
+						"body_text": "Le Protocole de poison de Toxitron crée une Bombe de poison toutes les 3 secondes. Chaque Bombe de poison se focalise sur un personnage-joueur aléatoire. Une Bombe de poison explose lorsqu’elle atteint sa cible au corps à corps.",
+						"sections": [
+							{
+								"id": 3272,
+								"title": "Bombe de poison",
+								"body_text": "Chacune des Bombes de poison créées par le Protocole de poison de Toxitron se focalise sur un personnage-joueur aléatoire. Une Bombe de poison explose et crée une Flaque de poison lorsqu’elle arrive à portée de mêlée de sa cible.",
+								"sections": [
+									{
+										"id": 3273,
+										"title": "Flaque de poison",
+										"body_text": "Lorsqu'elles explosent, les Bombes de poison créent des Flaques de poison d’un rayon de 6 mètres. Les Flaques de poison infligent 0 points de dégâts de Nature toutes les 1 s à tous les personnages-joueurs qui se trouvent dedans."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37556?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37556
+								}
+							}
+						]
+					},
+					{
+						"id": 3274,
+						"title": "Carapace trempée de poison",
+						"body_text": "Si un personnage-joueur inflige des dégâts au bouclier de Toxitron, il subit Trempé de poison.",
+						"sections": [
+							{
+								"id": 3454,
+								"title": "Trempé de poison",
+								"body_text": "Trempé de poison inflige 0 points de dégâts de Nature toutes les 2 s. Cet effet est cumulable, mais une seule dissipation suffit à annuler toutes les charges.\r\n\r\nQuand un personnage-joueur attaque ou utilise un sort ou une technique, il purge sa cible du poison.",
+								"sections": [
+									{
+										"id": 3456,
+										"title": "Eliminer le poison",
+										"body_text": "Le personnage-joueur imbibé de poison inflige 963 points de dégâts de Nature à sa cible."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3275,
+						"title": "Poigne mortelle",
+						"body_text": "Le seigneur Victor Nefarius se téléporte parfois au centre d’un Nuage chimique et lance Poigne mortelle, qui attire tous les personnages-joueurs dans le nuage."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/169?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 169,
+		"name": "Omnotron Defense System",
+		"description": "The Omnotron Defense System was once touted as the Dark Iron dwarves' greatest technological marvel. When Nefarian arrived in Blackwing Descent, he repurposed the run-down system to annihilate anyone intruding on his laboratories.",
+		"creatures": [
+			{
+				"id": 591,
+				"name": "Magmatron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32685?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32685
+				}
+			},
+			{
+				"id": 592,
+				"name": "Arcanotron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32687?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32687
+				}
+			},
+			{
+				"id": 589,
+				"name": "Electron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32688?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32688
+				}
+			},
+			{
+				"id": 590,
+				"name": "Toxitron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32684?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32684
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Circuit Design Breastplate",
+					"id": 65004
+				}
+			},
+			{
+				"id": 10073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jumbotron Power Belt",
+					"id": 59117
+				}
+			},
+			{
+				"id": 10074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Electron Inductor Coils",
+					"id": 59118
+				}
+			},
+			{
+				"id": 10075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voltage Source Chestguard",
+					"id": 59119
+				}
+			},
+			{
+				"id": 10076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Life Force Chargers",
+					"id": 59216
+				}
+			},
+			{
+				"id": 10077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poison Protocol Pauldrons",
+					"id": 59120
+				}
+			},
+			{
+				"id": 10078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59217?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "X-Tron Duct Tape",
+					"id": 59217
+				}
+			},
+			{
+				"id": 10079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Conductor Band",
+					"id": 59121
+				}
+			},
+			{
+				"id": 10080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Passive Resistor Spaulders",
+					"id": 59218
+				}
+			},
+			{
+				"id": 10081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Organic Lifeform Inverter",
+					"id": 59122
+				}
+			},
+			{
+				"id": 10082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59219?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Power Generator Hood",
+					"id": 59219
+				}
+			},
+			{
+				"id": 10083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65076?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Security Measure Alpha",
+					"id": 65076
+				}
+			},
+			{
+				"id": 10084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Security Measure Alpha",
+					"id": 59220
+				}
+			},
+			{
+				"id": 10085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Circuit Design Breastplate",
+					"id": 63540
+				}
+			},
+			{
+				"id": 10086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65077?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Power Generator Hood",
+					"id": 65077
+				}
+			},
+			{
+				"id": 10087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65078?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Passive Resistor Spaulders",
+					"id": 65078
+				}
+			},
+			{
+				"id": 10088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "X-Tron Duct Tape",
+					"id": 65079
+				}
+			},
+			{
+				"id": 10089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Life Force Chargers",
+					"id": 65080
+				}
+			},
+			{
+				"id": 10090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65081?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Organic Lifeform Inverter",
+					"id": 65081
+				}
+			},
+			{
+				"id": 10091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65082?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Conductor Band",
+					"id": 65082
+				}
+			},
+			{
+				"id": 10092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poison Protocol Pauldrons",
+					"id": 65083
+				}
+			},
+			{
+				"id": 10093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65084?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voltage Source Chestguard",
+					"id": 65084
+				}
+			},
+			{
+				"id": 10094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Electron Inductor Coils",
+					"id": 65085
+				}
+			},
+			{
+				"id": 10095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jumbotron Power Belt",
+					"id": 65086
+				}
+			},
+			{
+				"id": 35267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rough-Hewn Remote",
+					"id": 152966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3193,
+				"title": "Primary Defense Matrix",
+				"body_text": "The four dwarven golems share a health pool and two are active at any given time. When a golem activates, it possesses 100 energy to use for its abilities. Once the golem's energy reaches 50, it gains a defensive shield and a new golem activates. Once the golem's energy reaches 0, the golem deactivates and another golem activates."
+			},
+			{
+				"id": 3194,
+				"title": "Arcanotron",
+				"sections": [
+					{
+						"id": 3195,
+						"title": "Power Generator",
+						"body_text": "Arcanotron summons a Power Generator under a random player. The field increases the damage dealt by 50% for all units within 5 yards and restores 0 mana every 0.5 seconds. The Power Generator lasts 1 min."
+					},
+					{
+						"id": 3196,
+						"title": "Arcane Annihilator",
+						"body_text": "Arcanotron blasts a random player for 0 Arcane damage."
+					},
+					{
+						"id": 3197,
+						"title": "Power Conversion",
+						"body_text": "Arcanotron's shield converts damage taken into Converted Power, which provides additional magic damage and cast speed.",
+						"sections": [
+							{
+								"id": 3198,
+								"title": "Converted Power",
+								"body_text": "Damage done to Arcanotron's Power Conversion shield grants him 10% additional Arcane damage and increases his spell haste by 10% for 30 sec. This effect stacks."
+							}
+						]
+					},
+					{
+						"id": 3199,
+						"title": "Overcharged Power Generator",
+						"body_text": "Lord Victor Nefarius converts a Power Generator into an Overcharged Power Generator. The field increases the damage dealt by 100% for all units within 5 yards and restores 0 mana every 0.5 seconds.\r\n\r\nAn Overcharged Power Generator grows in size until it explodes, triggering Arcane Blowback.",
+						"sections": [
+							{
+								"id": 3200,
+								"title": "Arcane Blowback",
+								"body_text": "An Overcharged Power Generator explodes, inflicting 0 Arcane damage to players within 17 yards."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3201,
+				"title": "Electron",
+				"sections": [
+					{
+						"id": 3202,
+						"title": "Lightning Conductor",
+						"body_text": "Electron designates a random player as a Lightning Conductor, causing them to inflict 1,925 Nature damage to allies within 8 yards every 2 sec., for 10 sec."
+					},
+					{
+						"id": 3203,
+						"title": "Electrical Discharge",
+						"body_text": "Electron inflicts 0 Nature damage to up to 3 targets within 8 yards. The damage inflicted increases with each jump."
+					},
+					{
+						"id": 3204,
+						"title": "Unstable Shield",
+						"body_text": "Dealing damage to Electron's shield causes a Static Shock at a nearby player's location, inflicting 0 Nature damage to players within 6 yards of the target."
+					},
+					{
+						"id": 3205,
+						"title": "Shadow Infusion",
+						"body_text": "Lord Victor Nefarius corrupts the Lightning Conductor, transforming the target into a Shadow Conductor.  Shadow Conductor causes Shadow damage to all nearby allies every 2 sec., with the magnitude of the damage increasing with greater distance from the Shadow Infused player."
+					}
+				]
+			},
+			{
+				"id": 3207,
+				"title": "Magmatron",
+				"sections": [
+					{
+						"id": 3264,
+						"title": "Incineration Security Measure",
+						"body_text": "Magmatron strikes everyone in the room for 0 Fire damage every 1 sec. for 4 sec."
+					},
+					{
+						"id": 3265,
+						"title": "Acquiring Target",
+						"body_text": "Magmatron acquires a random player as a target for his Flamethrower ability. After 4 sec. Magmatron channels his Flamethrower on the target, inflicting 0 Fire damage every 1 sec. to all players in front of him for 4 sec.",
+						"sections": [
+							{
+								"id": 3266,
+								"title": "Flamethrower",
+								"body_text": "Magmatron inflicts 0 Fire damage every 1 sec. to all enemies in front of him for 4 sec."
+							},
+							{
+								"id": 3267,
+								"title": "Encasing Shadows",
+								"body_text": "Lord Victor Nefarius causes shadows to bind the feet of the Acquired Target, preventing movement until the Flamethrower finishes channeling."
+							}
+						]
+					},
+					{
+						"id": 3268,
+						"title": "Barrier",
+						"body_text": "Magmatron's shield absorbs 0 damage. If the Barrier breaks, it releases a gale of flame, inflicting 0 Fire damage to all players."
+					}
+				]
+			},
+			{
+				"id": 3208,
+				"title": "Toxitron",
+				"sections": [
+					{
+						"id": 3269,
+						"title": "Chemical Bomb",
+						"body_text": "Toxitron fires a Chemical Bomb at a random player, creating a Chemical Cloud at their location. The cloud increases the damage taken by any unit in the cloud.",
+						"sections": [
+							{
+								"id": 3270,
+								"title": "Chemical Cloud",
+								"body_text": "Toxitron's Chemical Cloud increases the damage taken by any unit in the cloud by 50%. "
+							}
+						]
+					},
+					{
+						"id": 3271,
+						"title": "Poison Protocol",
+						"body_text": "Toxitron's Poison Protocol creates a Poison Bomb every 3 seconds. Each Poison Bomb fixates on a random player. A Poison Bomb explodes when it reaches melee range of its target.",
+						"sections": [
+							{
+								"id": 3272,
+								"title": "Poison Bomb",
+								"body_text": "The Poison Bombs created by Toxitron's Poison Protocol each fixate on a random player. A Poison Bomb explodes and creates a Poison Puddle when it reaches melee range of its target.",
+								"sections": [
+									{
+										"id": 3273,
+										"title": "Poison Puddle",
+										"body_text": "Poison Bombs create 6 yard radius Poison Puddles when they explode. The Poison Puddle inflicts 0 Nature damage every 1 sec. on any player standing within the puddle."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37556?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37556
+								}
+							}
+						]
+					},
+					{
+						"id": 3274,
+						"title": "Poison Soaked Shell",
+						"body_text": "Dealing damage to Toxitron's shield inflicts Soaked in Poison on the damaging player.",
+						"sections": [
+							{
+								"id": 3454,
+								"title": "Soaked in Poison",
+								"body_text": "Soaked in Poison inflicts 0 Nature damage every 2 sec. This effect stacks, but dispelling this poison once removes all stacks.\r\n\r\nWhen a player attacks or uses a spell or ability, they expunge the poison on their target.",
+								"sections": [
+									{
+										"id": 3456,
+										"title": "Expunge Poison",
+										"body_text": "The poison soaked player inflicts 963 Nature damage on their target."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3275,
+						"title": "Grip of Death",
+						"body_text": "Lord Victor Nefarius sometimes teleports to the center of a Chemical Cloud and casts Grip of Death, pulling all players into the cloud."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

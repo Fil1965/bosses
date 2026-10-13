@@ -1,0 +1,969 @@
+{
+	"id": 115,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/115?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 115,
+		"name": "Altairus",
+		"description": "La inmensa vermis de tormenta Altairus mantiene bajo una vigilancia continua las plataformas colgantes de La Cumbre del Vórtice. Las mismísimas energías de la tormenta laten en su interior, y se dice que controla las corrientes de los vientos que azotan la fortaleza elemental.",
+		"creatures": [
+			{
+				"id": 385,
+				"name": "Altairus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34265?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34265
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del draco del Viento del Norte",
+					"id": 63040
+				}
+			},
+			{
+				"id": 30997,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hacha del eclipse",
+					"id": 133240
+				}
+			},
+			{
+				"id": 30998,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Invocatruenos",
+					"id": 133251
+				}
+			},
+			{
+				"id": 30999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto del aliento tierno",
+					"id": 133238
+				}
+			},
+			{
+				"id": 31000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133239?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón con granizo",
+					"id": 133239
+				}
+			},
+			{
+				"id": 31001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias del viento del Oeste",
+					"id": 133370
+				}
+			},
+			{
+				"id": 31002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133241?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de fragmento de cielo",
+					"id": 133241
+				}
+			},
+			{
+				"id": 31003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hacha rajatruenos",
+					"id": 133371
+				}
+			},
+			{
+				"id": 31004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón celestial vaporoso",
+					"id": 133362
+				}
+			},
+			{
+				"id": 31005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de vientos detenidos",
+					"id": 133237
+				}
+			},
+			{
+				"id": 31006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines Oscurcielo",
+					"id": 133253
+				}
+			},
+			{
+				"id": 36989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias del viento del Oeste",
+					"id": 157605
+				}
+			},
+			{
+				"id": 36990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de vientos detenidos",
+					"id": 56361
+				}
+			},
+			{
+				"id": 36991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de fragmento de cielo",
+					"id": 56365
+				}
+			},
+			{
+				"id": 36992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón con granizo",
+					"id": 56363
+				}
+			},
+			{
+				"id": 36993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157604?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón celestial vaporoso",
+					"id": 157604
+				}
+			},
+			{
+				"id": 36994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hacha del eclipse",
+					"id": 56364
+				}
+			},
+			{
+				"id": 36995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto del aliento tierno",
+					"id": 56362
+				}
+			},
+			{
+				"id": 43594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de fragmento de cielo",
+					"id": 206184
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2425,
+				"title": "Llamar al viento",
+				"body_text": "Altairus invoca al viento periódicamente, lo que crea un viento constante en dirección hacia uno de los puntos cardinales. Según la dirección del viento y las ubicaciones del jugador y de Altairus, el jugador recibe el efecto de A favor de viento de Altairus o el de A contraviento de Altairus.",
+				"sections": [
+					{
+						"id": 2426,
+						"title": "A contraviento de Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88286?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "A contraviento de Altairus",
+							"id": 88286
+						}
+					},
+					{
+						"id": 2427,
+						"title": "Viento a favor de Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88282?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Viento a favor de Altairus",
+							"id": 88282
+						}
+					}
+				]
+			},
+			{
+				"id": 27132,
+				"title": "Ráfaga descendente",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ráfaga descendente",
+					"id": 413296
+				}
+			},
+			{
+				"id": 2430,
+				"title": "Vientos giratorios",
+				"body_text": "La plataforma de Altairus se llena de remolinos que se desplazan rápidamente. Todos los jugadores que tocan un remolino reciben 0 p. de daño de Naturaleza y salen disparados."
+			},
+			{
+				"id": 2428,
+				"title": "Aliento escalofriante",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/88308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aliento escalofriante",
+					"id": 88308
+				}
+			},
+			{
+				"id": 27133,
+				"title": "Frío cortante",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frío cortante",
+					"id": 413331
+				}
+			},
+			{
+				"id": 2429,
+				"title": "Frente frío",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frente frío",
+					"id": 413275
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "La Cumbre del Vórtice",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/115?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 115,
+		"name": "Altairus",
+		"description": "L’immense wyrm des tempêtes Altairus maintient une vigilance inflexible sur les plateformes flottantes de la cime du Vortex. Les énergies même des tempêtes traversent tout son être, et on dit qu’il commande aux courants de vent qui secouent la forteresse élémentaire.",
+		"creatures": [
+			{
+				"id": 385,
+				"name": "Altairus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34265?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34265
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de drake du vent du Nord",
+					"id": 63040
+				}
+			},
+			{
+				"id": 30997,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hache de l'éclipse",
+					"id": 133240
+				}
+			},
+			{
+				"id": 30998,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mande-tonnerre",
+					"id": 133251
+				}
+			},
+			{
+				"id": 30999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette du tendre souffle",
+					"id": 133238
+				}
+			},
+			{
+				"id": 31000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133239?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture perlée de grêle",
+					"id": 133239
+				}
+			},
+			{
+				"id": 31001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales du vent d'ouest",
+					"id": 133370
+				}
+			},
+			{
+				"id": 31002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133241?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau éclat-du-ciel",
+					"id": 133241
+				}
+			},
+			{
+				"id": 31003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hache Fend-le-Tonnerre",
+					"id": 133371
+				}
+			},
+			{
+				"id": 31004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape céleste flottant au vent",
+					"id": 133362
+				}
+			},
+			{
+				"id": 31005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des vents immobiles",
+					"id": 133237
+				}
+			},
+			{
+				"id": 31006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines sombre-ciel",
+					"id": 133253
+				}
+			},
+			{
+				"id": 36989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales du vent d’ouest",
+					"id": 157605
+				}
+			},
+			{
+				"id": 36990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des vents immobiles",
+					"id": 56361
+				}
+			},
+			{
+				"id": 36991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau éclat-du-ciel",
+					"id": 56365
+				}
+			},
+			{
+				"id": 36992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture perlée de grêle",
+					"id": 56363
+				}
+			},
+			{
+				"id": 36993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157604?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape céleste flottant au vent",
+					"id": 157604
+				}
+			},
+			{
+				"id": 36994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hache de l'éclipse",
+					"id": 56364
+				}
+			},
+			{
+				"id": 36995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette du tendre souffle",
+					"id": 56362
+				}
+			},
+			{
+				"id": 43594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau éclat-du-ciel",
+					"id": 206184
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2425,
+				"title": "Appeler le vent",
+				"body_text": "Altairus fait régulièrement appel au vent pour créer un vent constant dans la direction de l'un des quatre points cardinaux. Selon la direction du vent, la position du personnage-joueur et la position d’Altairus, le personnage-joueur peut bénéficier du Vent ascendant d'Altairus ou de son Vent descendant.",
+				"sections": [
+					{
+						"id": 2426,
+						"title": "Vent descendant d'Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88286?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Vent descendant d'Altairus",
+							"id": 88286
+						}
+					},
+					{
+						"id": 2427,
+						"title": "Vent ascendant d'Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88282?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Vent ascendant d'Altairus",
+							"id": 88282
+						}
+					}
+				]
+			},
+			{
+				"id": 27132,
+				"title": "Rafale descendante",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rafale descendante",
+					"id": 413296
+				}
+			},
+			{
+				"id": 2430,
+				"title": "Vents sinueux",
+				"body_text": "La plateforme d’Altairus se remplit de tornades rapides. Tout personnage-joueur qui en touche une subit 0 points de dégâts de Nature et est assommé sur place."
+			},
+			{
+				"id": 2428,
+				"title": "Souffle glacial",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/88308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Souffle glacial",
+					"id": 88308
+				}
+			},
+			{
+				"id": 27133,
+				"title": "Froid mordant",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Froid mordant",
+					"id": 413331
+				}
+			},
+			{
+				"id": 2429,
+				"title": "Coup de froid",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coup de froid",
+					"id": 413275
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "La cime du Vortex",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/115?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 115,
+		"name": "Altairus",
+		"description": "The immense storm wyrm Altairus maintains an unyielding vigil over the hovering platforms of the Vortex Pinnacle. The very energies of the storms pulse through this being, and he is said to command the wind currents that buffet the elemental fortress.",
+		"creatures": [
+			{
+				"id": 385,
+				"name": "Altairus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34265?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34265
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Drake of the North Wind",
+					"id": 63040
+				}
+			},
+			{
+				"id": 30997,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Axe of the Eclipse",
+					"id": 133240
+				}
+			},
+			{
+				"id": 30998,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thundercall",
+					"id": 133251
+				}
+			},
+			{
+				"id": 30999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulet of Tender Breath",
+					"id": 133238
+				}
+			},
+			{
+				"id": 31000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133239?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hail-Strung Belt",
+					"id": 133239
+				}
+			},
+			{
+				"id": 31001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of the West Wind",
+					"id": 133370
+				}
+			},
+			{
+				"id": 31002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133241?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skyshard Ring",
+					"id": 133241
+				}
+			},
+			{
+				"id": 31003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thundercleaver Axe",
+					"id": 133371
+				}
+			},
+			{
+				"id": 31004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Billowing Skydrape",
+					"id": 133362
+				}
+			},
+			{
+				"id": 31005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Bestilled Winds",
+					"id": 133237
+				}
+			},
+			{
+				"id": 31006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Darksky Treads",
+					"id": 133253
+				}
+			},
+			{
+				"id": 36989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of the West Wind",
+					"id": 157605
+				}
+			},
+			{
+				"id": 36990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Bestilled Winds",
+					"id": 56361
+				}
+			},
+			{
+				"id": 36991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skyshard Ring",
+					"id": 56365
+				}
+			},
+			{
+				"id": 36992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hail-Strung Belt",
+					"id": 56363
+				}
+			},
+			{
+				"id": 36993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157604?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Billowing Skydrape",
+					"id": 157604
+				}
+			},
+			{
+				"id": 36994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Axe of the Eclipse",
+					"id": 56364
+				}
+			},
+			{
+				"id": 36995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulet of Tender Breath",
+					"id": 56362
+				}
+			},
+			{
+				"id": 43594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skyshard Ring",
+					"id": 206184
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2425,
+				"title": "Call the Wind",
+				"body_text": "Altairus periodically calls to the wind, creating a constant wind in one of four cardinal directions. Depending on the direction of the wind, the player's location, and Altairus' location, the player receives either the Upwind of Altairus effect or the Downwind of Altairus effect.",
+				"sections": [
+					{
+						"id": 2426,
+						"title": "Downwind of Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88286?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Downwind of Altairus",
+							"id": 88286
+						}
+					},
+					{
+						"id": 2427,
+						"title": "Upwind of Altairus",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/88282?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Upwind of Altairus",
+							"id": 88282
+						}
+					}
+				]
+			},
+			{
+				"id": 27132,
+				"title": "Downburst",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Downburst",
+					"id": 413296
+				}
+			},
+			{
+				"id": 2430,
+				"title": "Twisting Winds",
+				"body_text": "Altairus' platform fills with fast moving twisters. Any player that touches a twister is dealt 0 Nature damage and knocked straight up."
+			},
+			{
+				"id": 2428,
+				"title": "Chilling Breath",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/88308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chilling Breath",
+					"id": 88308
+				}
+			},
+			{
+				"id": 27133,
+				"title": "Biting Cold",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Biting Cold",
+					"id": 413331
+				}
+			},
+			{
+				"id": 2429,
+				"title": "Cold Front",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cold Front",
+					"id": 413275
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "The Vortex Pinnacle",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

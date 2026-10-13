@@ -187,6 +187,12 @@ pack["252959"] = { "Nymrissa Wavecaller",
 	"* Mind the |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r.",
 };
 
+pack["238015"] = { "Predaxas",
+	"* The player marked by |cff71d5ff|Hspell:34994|h[Devour]|h|r kites it away from the group until it ends.",
+	"* |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r spawns the adds (Radiant Void Tick, Swallowed Gavodon and enraged Griffesang): tank them by the boss and kill them.",
+	"* The |cff71d5ff|Hspell:34933|h[Seismic Strike]|h|r slams: mind the floor."
+};
+
 pack["267861"] = { "Kith'ix",
 	"* |cff71d5ff|Hspell:1304930|h[Dark Devastation]|h|r: tank frontal, use defensives.",
 	"* |cff71d5ff|Hspell:1301511|h[Voidswarm]|h|r: void adds, kill them fast.",

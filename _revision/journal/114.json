@@ -1,0 +1,948 @@
+{
+	"id": 114,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/114?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 114,
+		"name": "Gran visir Ertan",
+		"description": "Ertan defiende la Cumbre del Vórtice bajo las órdenes de su maestro, Asaad, contra cualquier habitante de la superficie que se atreva a entrar en su reino. Para cumplir con su deber, a la noble elemental le han otorgado el poder sobre las fuerzas primigenias de los relámpagos y el viento.",
+		"creatures": [
+			{
+				"id": 384,
+				"name": "Gran visir Ertan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35181?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35181
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 30989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de nieve caída",
+					"id": 133235
+				}
+			},
+			{
+				"id": 30990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla ionizada",
+					"id": 133369
+				}
+			},
+			{
+				"id": 30991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cimera de niebla",
+					"id": 133234
+				}
+			},
+			{
+				"id": 30992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de estratosfera",
+					"id": 133232
+				}
+			},
+			{
+				"id": 30993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cantolluvia",
+					"id": 133252
+				}
+			},
+			{
+				"id": 30994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del trueno robado",
+					"id": 133361
+				}
+			},
+			{
+				"id": 30995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Viento aguzado",
+					"id": 133233
+				}
+			},
+			{
+				"id": 30996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de cielo rojo",
+					"id": 133236
+				}
+			},
+			{
+				"id": 36981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cimera de niebla",
+					"id": 56358
+				}
+			},
+			{
+				"id": 36982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de nieve caída",
+					"id": 56359
+				}
+			},
+			{
+				"id": 36983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del trueno robado",
+					"id": 157601
+				}
+			},
+			{
+				"id": 36984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla ionizada",
+					"id": 157602
+				}
+			},
+			{
+				"id": 36985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de estratosfera",
+					"id": 56356
+				}
+			},
+			{
+				"id": 36986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Viento aguzado",
+					"id": 56357
+				}
+			},
+			{
+				"id": 36987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de cielo rojo",
+					"id": 56360
+				}
+			},
+			{
+				"id": 36988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hacha rajatruenos",
+					"id": 157603
+				}
+			},
+			{
+				"id": 43591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de cielo rojo",
+					"id": 206182
+				}
+			},
+			{
+				"id": 43592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla ionizada",
+					"id": 206181
+				}
+			},
+			{
+				"id": 43593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del trueno robado",
+					"id": 206180
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2419,
+				"title": "Escudo de ciclón",
+				"sections": [
+					{
+						"id": 27128,
+						"title": "Fragmento de escudo de ciclón",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/413158?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fragmento de escudo de ciclón",
+							"id": 413158
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/86267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo de ciclón",
+					"id": 86267
+				}
+			},
+			{
+				"id": 2420,
+				"title": "Borde de la tormenta",
+				"body_text": "Los jugadores que permanezcan en el exterior del círculo de ciclones reciben 0 p. de daño de Naturaleza cada s. Cuando los ciclones vuelven a ella, los jugadores que están en un radio de 5 m de Ertan son repelidos."
+			},
+			{
+				"id": 2421,
+				"title": "Descarga de relámpagos",
+				"body_text": "La gran visir Ertan provoca un estallido de relámpagos en su objetivo enemigo actual, lo que inflige 0 p. de daño de Naturaleza."
+			},
+			{
+				"id": 2422,
+				"title": "Invocar tempestad",
+				"sections": [
+					{
+						"id": 2423,
+						"title": "Tempestad acechante",
+						"body_text": "Las tempestades acechantes solo atacarán a los jugadores si nadie las mira.",
+						"sections": [
+							{
+								"id": 2424,
+								"title": "Corriente letal",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/411001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Corriente letal",
+									"id": 411001
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/13629?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 13629
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Invocar tempestad",
+					"id": 413151
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "La Cumbre del Vórtice",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/114?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 114,
+		"name": "Grand vizir Ertan",
+		"description": "Ertan défend la cime du Vortex, suivant les ordres de son maître, Asaad, contre tout terrestre qui oserait faire irruption dans le royaume. Pour remplir son devoir, la noble élémentaire a obtenu la maîtrise des forces primitives de la foudre et du vent.",
+		"creatures": [
+			{
+				"id": 384,
+				"name": "Grand vizir Ertan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35181?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35181
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 30989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de la chute de neige",
+					"id": 133235
+				}
+			},
+			{
+				"id": 30990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir ionisé",
+					"id": 133369
+				}
+			},
+			{
+				"id": 30991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coiffure de brouillard",
+					"id": 133234
+				}
+			},
+			{
+				"id": 30992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de la stratosphère",
+					"id": 133232
+				}
+			},
+			{
+				"id": 30993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chantepluie",
+					"id": 133252
+				}
+			},
+			{
+				"id": 30994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de tonnerre volé",
+					"id": 133361
+				}
+			},
+			{
+				"id": 30995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vent mordant",
+					"id": 133233
+				}
+			},
+			{
+				"id": 30996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de ciel rouge",
+					"id": 133236
+				}
+			},
+			{
+				"id": 36981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coiffure de brouillard",
+					"id": 56358
+				}
+			},
+			{
+				"id": 36982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de la chute de neige",
+					"id": 56359
+				}
+			},
+			{
+				"id": 36983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de tonnerre volé",
+					"id": 157601
+				}
+			},
+			{
+				"id": 36984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir ionisé",
+					"id": 157602
+				}
+			},
+			{
+				"id": 36985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de la stratosphère",
+					"id": 56356
+				}
+			},
+			{
+				"id": 36986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vent mordant",
+					"id": 56357
+				}
+			},
+			{
+				"id": 36987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de ciel rouge",
+					"id": 56360
+				}
+			},
+			{
+				"id": 36988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hache Fend-le-Tonnerre",
+					"id": 157603
+				}
+			},
+			{
+				"id": 43591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de ciel rouge",
+					"id": 206182
+				}
+			},
+			{
+				"id": 43592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir ionisé",
+					"id": 206181
+				}
+			},
+			{
+				"id": 43593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de tonnerre volé",
+					"id": 206180
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2419,
+				"title": "Bouclier cyclone",
+				"sections": [
+					{
+						"id": 27128,
+						"title": "Fragment de bouclier cyclone",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/413158?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fragment de bouclier cyclone",
+							"id": 413158
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/86267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier cyclone",
+					"id": 86267
+				}
+			},
+			{
+				"id": 2420,
+				"title": "Orée de la tempête",
+				"body_text": "Les personnages-joueurs qui se trouvent à l’extérieur du cercle de cyclones subissent 0 points de dégâts de Nature toutes les secondes. Quand Ertan rappelle ses cyclones à elle, les personnages-joueurs qui se trouvent à moins de 5 mètres d'elle sont projetés au loin."
+			},
+			{
+				"id": 2421,
+				"title": "Eclair",
+				"body_text": "Le grand vizir Ertan frappe sa cible ennemie actuelle avec de la foudre, lui infligeant 0 points de dégâts de Nature."
+			},
+			{
+				"id": 2422,
+				"title": "Invocation de tempête",
+				"sections": [
+					{
+						"id": 2423,
+						"title": "Tempête en maraude",
+						"body_text": "Les Tempêtes en maraude n’attaquent les personnages-joueurs que si personne ne les regarde.",
+						"sections": [
+							{
+								"id": 2424,
+								"title": "Courant mortel",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/411001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Courant mortel",
+									"id": 411001
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/13629?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 13629
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Invocation de tempête",
+					"id": 413151
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "La cime du Vortex",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/114?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 114,
+		"name": "Grand Vizier Ertan",
+		"description": "Ertan defends the Vortex Pinnacle under the command of her master, Asaad, against any ground-dwellers who dare intrude on the realm. To fulfill her duties, the elemental noble has been granted mastery over the primal forces of lightning and wind.",
+		"creatures": [
+			{
+				"id": 384,
+				"name": "Grand Vizier Ertan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35181?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35181
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 30989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fallen Snow Shoulderguards",
+					"id": 133235
+				}
+			},
+			{
+				"id": 30990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ionized Choker",
+					"id": 133369
+				}
+			},
+			{
+				"id": 30991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Headcover of Fog",
+					"id": 133234
+				}
+			},
+			{
+				"id": 30992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stratosphere Belt",
+					"id": 133232
+				}
+			},
+			{
+				"id": 30993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133252?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rainsong",
+					"id": 133252
+				}
+			},
+			{
+				"id": 30994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of Stolen Thunder",
+					"id": 133361
+				}
+			},
+			{
+				"id": 30995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Biting Wind",
+					"id": 133233
+				}
+			},
+			{
+				"id": 30996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/133236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Sky Pendant",
+					"id": 133236
+				}
+			},
+			{
+				"id": 36981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Headcover of Fog",
+					"id": 56358
+				}
+			},
+			{
+				"id": 36982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fallen Snow Shoulderguards",
+					"id": 56359
+				}
+			},
+			{
+				"id": 36983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of Stolen Thunder",
+					"id": 157601
+				}
+			},
+			{
+				"id": 36984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ionized Choker",
+					"id": 157602
+				}
+			},
+			{
+				"id": 36985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stratosphere Belt",
+					"id": 56356
+				}
+			},
+			{
+				"id": 36986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Biting Wind",
+					"id": 56357
+				}
+			},
+			{
+				"id": 36987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Sky Pendant",
+					"id": 56360
+				}
+			},
+			{
+				"id": 36988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/157603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thundercleaver Axe",
+					"id": 157603
+				}
+			},
+			{
+				"id": 43591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red Sky Pendant",
+					"id": 206182
+				}
+			},
+			{
+				"id": 43592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ionized Choker",
+					"id": 206181
+				}
+			},
+			{
+				"id": 43593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/206180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of Stolen Thunder",
+					"id": 206180
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2419,
+				"title": "Cyclone Shield",
+				"sections": [
+					{
+						"id": 27128,
+						"title": "Cyclone Shield Fragment",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/413158?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Cyclone Shield Fragment",
+							"id": 413158
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/86267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cyclone Shield",
+					"id": 86267
+				}
+			},
+			{
+				"id": 2420,
+				"title": "Storm's Edge",
+				"body_text": "Players that stand outside the circle of cyclones are dealt 0 Nature damage every second. When her cyclones are called back to her, players that stand within 5 yards of Ertan are knocked away."
+			},
+			{
+				"id": 2421,
+				"title": "Lightning Bolt",
+				"body_text": "Grand Vizier Ertan blasts her current enemy target with lightning, inflicting 0 Nature damage."
+			},
+			{
+				"id": 2422,
+				"title": "Summon Tempest",
+				"sections": [
+					{
+						"id": 2423,
+						"title": "Lurking Tempest",
+						"body_text": "The Lurking Tempests will only attack players if no one is looking at them.",
+						"sections": [
+							{
+								"id": 2424,
+								"title": "Lethal Current",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/411001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lethal Current",
+									"id": 411001
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/13629?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 13629
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/413151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Summon Tempest",
+					"id": 413151
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/68?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "The Vortex Pinnacle",
+			"id": 68
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

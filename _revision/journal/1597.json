@@ -1,0 +1,6462 @@
+{
+	"id": 1597,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1597?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1597,
+		"name": "Archavon el Vigía de Piedra",
+		"creatures": [
+			{
+				"id": 3849,
+				"name": "Archavon el Vigía de Piedra",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/26967?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 26967
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes Segahuesos de Héroes",
+					"id": 39560
+				}
+			},
+			{
+				"id": 26491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga corazón de peste valerosos",
+					"id": 40423
+				}
+			},
+			{
+				"id": 26492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimenta de fe de Héroes",
+					"id": 39523
+				}
+			},
+			{
+				"id": 26493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador odioso",
+					"id": 41141
+				}
+			},
+			{
+				"id": 26494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/44083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del gran mamut de guerra negro",
+					"id": 44083
+				}
+			},
+			{
+				"id": 26495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de redención valerosas",
+					"id": 40580
+				}
+			},
+			{
+				"id": 26496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador odioso",
+					"id": 40802
+				}
+			},
+			{
+				"id": 26497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de redención valerosa",
+					"id": 40579
+				}
+			},
+			{
+				"id": 26498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41142?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador mortal",
+					"id": 41142
+				}
+			},
+			{
+				"id": 26499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de acechacriptas de Héroes",
+					"id": 39580
+				}
+			},
+			{
+				"id": 26500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de Fuego de Escarcha valerosos",
+					"id": 40415
+				}
+			},
+			{
+				"id": 26501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura eslabonada de Gladiador odioso",
+					"id": 41079
+				}
+			},
+			{
+				"id": 26502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador mortal",
+					"id": 40926
+				}
+			},
+			{
+				"id": 26503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes Caminasueños de Héroes",
+					"id": 39544
+				}
+			},
+			{
+				"id": 26504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de tela lunar de Gladiador odioso",
+					"id": 41857
+				}
+			},
+			{
+				"id": 26505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de redención de Héroes",
+					"id": 39630
+				}
+			},
+			{
+				"id": 26506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador odioso",
+					"id": 41925
+				}
+			},
+			{
+				"id": 26507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador mortal",
+					"id": 41198
+				}
+			},
+			{
+				"id": 26508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador odioso",
+					"id": 41291
+				}
+			},
+			{
+				"id": 26509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador mortal",
+					"id": 41292
+				}
+			},
+			{
+				"id": 26510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador mortal",
+					"id": 41286
+				}
+			},
+			{
+				"id": 26511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de redención de Héroes",
+					"id": 39632
+				}
+			},
+			{
+				"id": 26512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de fe valerosa",
+					"id": 40449
+				}
+			},
+			{
+				"id": 26513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador mortal",
+					"id": 41303
+				}
+			},
+			{
+				"id": 26514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador mortal",
+					"id": 40804
+				}
+			},
+			{
+				"id": 26515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de placas de tinieblas de Gladiador mortal",
+					"id": 40784
+				}
+			},
+			{
+				"id": 26516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41919?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de satén de Gladiador odioso",
+					"id": 41919
+				}
+			},
+			{
+				"id": 26517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes acorator valerosos",
+					"id": 40529
+				}
+			},
+			{
+				"id": 26518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador odioso",
+					"id": 40840
+				}
+			},
+			{
+				"id": 26519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de kodo de Gladiador mortal",
+					"id": 41309
+				}
+			},
+			{
+				"id": 26520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador mortal",
+					"id": 40844
+				}
+			},
+			{
+				"id": 26521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41939?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador mortal",
+					"id": 41939
+				}
+			},
+			{
+				"id": 26522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga Caminasueños valerosa",
+					"id": 40463
+				}
+			},
+			{
+				"id": 26523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40999?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador odioso",
+					"id": 40999
+				}
+			},
+			{
+				"id": 26524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de seda de Gladiador mortal",
+					"id": 41951
+				}
+			},
+			{
+				"id": 26525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de Fuego de Escarcha valerosa",
+					"id": 40418
+				}
+			},
+			{
+				"id": 26526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza acorator valerosa",
+					"id": 40544
+				}
+			},
+			{
+				"id": 26527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza Segahuesos valerosa",
+					"id": 40495
+				}
+			},
+			{
+				"id": 26528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de vástagos de la Plaga de Héroes",
+					"id": 39620
+				}
+			},
+			{
+				"id": 26529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas acechacriptas de Héroes",
+					"id": 39582
+				}
+			},
+			{
+				"id": 26530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos Caminasueños de Héroes",
+					"id": 39539
+				}
+			},
+			{
+				"id": 26531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos corazón de peste de Héroes",
+					"id": 39498
+				}
+			},
+			{
+				"id": 26532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de redención de Héroes",
+					"id": 39638
+				}
+			},
+			{
+				"id": 26533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41997?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de tejido vil de Gladiador mortal",
+					"id": 41997
+				}
+			},
+			{
+				"id": 26534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras acorator valerosas",
+					"id": 40547
+				}
+			},
+			{
+				"id": 26535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41873?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador mortal",
+					"id": 41873
+				}
+			},
+			{
+				"id": 26536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras Caminasueños valerosas",
+					"id": 40493
+				}
+			},
+			{
+				"id": 26537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de placas de Gladiador odioso",
+					"id": 40783
+				}
+			},
+			{
+				"id": 26538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de Fuego de Escarcha valerosos",
+					"id": 40417
+				}
+			},
+			{
+				"id": 26539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de tejido vil de Gladiador odioso",
+					"id": 42001
+				}
+			},
+			{
+				"id": 26540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas Caminasueños valerosas",
+					"id": 40460
+				}
+			},
+			{
+				"id": 26541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de cuero de Gladiador mortal",
+					"id": 41649
+				}
+			},
+			{
+				"id": 26542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador mortal",
+					"id": 41772
+				}
+			},
+			{
+				"id": 26543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41872?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador odioso",
+					"id": 41872
+				}
+			},
+			{
+				"id": 26544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador mortal",
+					"id": 42004
+				}
+			},
+			{
+				"id": 26545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga Caminasueños de Héroes",
+					"id": 39538
+				}
+			},
+			{
+				"id": 26546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de guerra Rompeterra de Héroes",
+					"id": 39603
+				}
+			},
+			{
+				"id": 26547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fe de Héroes",
+					"id": 39517
+				}
+			},
+			{
+				"id": 26548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de redención valerosos",
+					"id": 40577
+				}
+			},
+			{
+				"id": 26549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de cuero de Gladiador odioso",
+					"id": 41648
+				}
+			},
+			{
+				"id": 26550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de fe de Héroes",
+					"id": 39515
+				}
+			},
+			{
+				"id": 26551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de vástagos de la Plaga de Héroes",
+					"id": 39626
+				}
+			},
+			{
+				"id": 26552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42015?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador odioso",
+					"id": 42015
+				}
+			},
+			{
+				"id": 26553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador odioso",
+					"id": 41025
+				}
+			},
+			{
+				"id": 26554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes Segahuesos valerosos",
+					"id": 40496
+				}
+			},
+			{
+				"id": 26555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador odioso",
+					"id": 41296
+				}
+			},
+			{
+				"id": 26556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de kodo de Gladiador odioso",
+					"id": 41308
+				}
+			},
+			{
+				"id": 26557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador mortal",
+					"id": 41032
+				}
+			},
+			{
+				"id": 26558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de redención de Héroes",
+					"id": 39633
+				}
+			},
+			{
+				"id": 26559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de placas de tinieblas de Gladiador odioso",
+					"id": 40781
+				}
+			},
+			{
+				"id": 26560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de guerra Rompeterra valerosa",
+					"id": 40522
+				}
+			},
+			{
+				"id": 26561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes corazón de peste de Héroes",
+					"id": 39500
+				}
+			},
+			{
+				"id": 26562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras Rompeterra de Héroes",
+					"id": 39589
+				}
+			},
+			{
+				"id": 26563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador mortal",
+					"id": 40806
+				}
+			},
+			{
+				"id": 26564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador mortal",
+					"id": 41006
+				}
+			},
+			{
+				"id": 26565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de vástagos de la Plaga de Héroes",
+					"id": 39624
+				}
+			},
+			{
+				"id": 26566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras Rompeterra valerosas",
+					"id": 40512
+				}
+			},
+			{
+				"id": 26567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de placas de Gladiador mortal",
+					"id": 40786
+				}
+			},
+			{
+				"id": 26568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador odioso",
+					"id": 41665
+				}
+			},
+			{
+				"id": 26569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes Rompeterra de Héroes",
+					"id": 39593
+				}
+			},
+			{
+				"id": 26570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador odioso",
+					"id": 41031
+				}
+			},
+			{
+				"id": 26571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de vástagos de la Plaga valerosas",
+					"id": 40563
+				}
+			},
+			{
+				"id": 26572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador odioso",
+					"id": 41653
+				}
+			},
+			{
+				"id": 26573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de fe de Héroes",
+					"id": 39530
+				}
+			},
+			{
+				"id": 26574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de redención valerosos",
+					"id": 40570
+				}
+			},
+			{
+				"id": 26575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de Fuego de Escarcha de Héroes",
+					"id": 39493
+				}
+			},
+			{
+				"id": 26576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador mortal",
+					"id": 41297
+				}
+			},
+			{
+				"id": 26577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador mortal",
+					"id": 41958
+				}
+			},
+			{
+				"id": 26578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de redención de Héroes",
+					"id": 39641
+				}
+			},
+			{
+				"id": 26579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador odioso",
+					"id": 41765
+				}
+			},
+			{
+				"id": 26580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de satén de Gladiador mortal",
+					"id": 41920
+				}
+			},
+			{
+				"id": 26581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fe valerosos",
+					"id": 40445
+				}
+			},
+			{
+				"id": 26582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador odioso",
+					"id": 41162
+				}
+			},
+			{
+				"id": 26583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador mortal",
+					"id": 41766
+				}
+			},
+			{
+				"id": 26584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de redención valerosa",
+					"id": 40574
+				}
+			},
+			{
+				"id": 26585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de anillas de Gladiador odioso",
+					"id": 41085
+				}
+			},
+			{
+				"id": 26586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura eslabonada de Gladiador mortal",
+					"id": 41080
+				}
+			},
+			{
+				"id": 26587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador mortal",
+					"id": 41654
+				}
+			},
+			{
+				"id": 26588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador mortal",
+					"id": 40846
+				}
+			},
+			{
+				"id": 26589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de dragón de Gladiador odioso",
+					"id": 41659
+				}
+			},
+			{
+				"id": 26590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de cota guarnecida de Gladiador odioso",
+					"id": 40988
+				}
+			},
+			{
+				"id": 26591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras acorator de Héroes",
+					"id": 39612
+				}
+			},
+			{
+				"id": 26592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador mortal",
+					"id": 40805
+				}
+			},
+			{
+				"id": 26593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador odioso",
+					"id": 41302
+				}
+			},
+			{
+				"id": 26594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de acechacriptas valerosas",
+					"id": 40504
+				}
+			},
+			{
+				"id": 26595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40572?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de redención valerosas",
+					"id": 40572
+				}
+			},
+			{
+				"id": 26596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lúas Caminasueños valerosas",
+					"id": 40472
+				}
+			},
+			{
+				"id": 26597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pantalones de fe valerosos",
+					"id": 40457
+				}
+			},
+			{
+				"id": 26598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Camisote Rompeterra valeroso",
+					"id": 40514
+				}
+			},
+			{
+				"id": 26599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas Rompeterra de Héroes",
+					"id": 39591
+				}
+			},
+			{
+				"id": 26600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de redención de Héroes",
+					"id": 39639
+				}
+			},
+			{
+				"id": 26601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador mortal",
+					"id": 41926
+				}
+			},
+			{
+				"id": 26602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de redención valerosas",
+					"id": 40583
+				}
+			},
+			{
+				"id": 26603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes Caminasueños valerosos",
+					"id": 40466
+				}
+			},
+			{
+				"id": 26604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de fe valerosas",
+					"id": 40454
+				}
+			},
+			{
+				"id": 26605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda Rompeterra de Héroes",
+					"id": 39595
+				}
+			},
+			{
+				"id": 26606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes acorator de Héroes",
+					"id": 39607
+				}
+			},
+			{
+				"id": 26607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador odioso",
+					"id": 40803
+				}
+			},
+			{
+				"id": 26608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de vástagos de la Plaga de Héroes",
+					"id": 39623
+				}
+			},
+			{
+				"id": 26609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras Caminasueños de Héroes",
+					"id": 39555
+				}
+			},
+			{
+				"id": 26610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños Rompeterra de Héroes",
+					"id": 39601
+				}
+			},
+			{
+				"id": 26611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de acechacriptas valerosa",
+					"id": 40503
+				}
+			},
+			{
+				"id": 26612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador odioso",
+					"id": 40801
+				}
+			},
+			{
+				"id": 26613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de vástagos de la Plaga de Héroes",
+					"id": 39617
+				}
+			},
+			{
+				"id": 26614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas acorator de Héroes",
+					"id": 39622
+				}
+			},
+			{
+				"id": 26615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador mortal",
+					"id": 40938
+				}
+			},
+			{
+				"id": 26616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera Rompeterra de Héroes",
+					"id": 39588
+				}
+			},
+			{
+				"id": 26617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador odioso",
+					"id": 41957
+				}
+			},
+			{
+				"id": 26618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de cota guarnecida de Gladiador mortal",
+					"id": 40990
+				}
+			},
+			{
+				"id": 26619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza acorator de Héroes",
+					"id": 39611
+				}
+			},
+			{
+				"id": 26620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas Caminasueños valerosas",
+					"id": 40468
+				}
+			},
+			{
+				"id": 26621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador odioso",
+					"id": 40925
+				}
+			},
+			{
+				"id": 26622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador odioso",
+					"id": 41005
+				}
+			},
+			{
+				"id": 26623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de tela lunar de Gladiador mortal",
+					"id": 41858
+				}
+			},
+			{
+				"id": 26624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40569?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de redención valerosa",
+					"id": 40569
+				}
+			},
+			{
+				"id": 26625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos Caminasueños valerosos",
+					"id": 40462
+				}
+			},
+			{
+				"id": 26626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimentas Caminasueños de Héroes",
+					"id": 39547
+				}
+			},
+			{
+				"id": 26627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador mortal",
+					"id": 40845
+				}
+			},
+			{
+				"id": 26628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete Rompeterra valeroso",
+					"id": 40523
+				}
+			},
+			{
+				"id": 26629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41203?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador odioso",
+					"id": 41203
+				}
+			},
+			{
+				"id": 26630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras Caminasueños valerosas",
+					"id": 40471
+				}
+			},
+			{
+				"id": 26631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40525?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla acorator valerosa",
+					"id": 40525
+				}
+			},
+			{
+				"id": 26632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga corazón de peste de Héroes",
+					"id": 39497
+				}
+			},
+			{
+				"id": 26633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador odioso",
+					"id": 42003
+				}
+			},
+			{
+				"id": 26634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador odioso",
+					"id": 41969
+				}
+			},
+			{
+				"id": 26635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador odioso",
+					"id": 41135
+				}
+			},
+			{
+				"id": 26636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Camisote Rompeterra de Héroes",
+					"id": 39592
+				}
+			},
+			{
+				"id": 26637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes acorator valerosos",
+					"id": 40527
+				}
+			},
+			{
+				"id": 26638,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41863?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador mortal",
+					"id": 41863
+				}
+			},
+			{
+				"id": 26639,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40937?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador odioso",
+					"id": 40937
+				}
+			},
+			{
+				"id": 26640,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes Rompeterra valerosos",
+					"id": 40515
+				}
+			},
+			{
+				"id": 26641,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños Rompeterra valerosos",
+					"id": 40520
+				}
+			},
+			{
+				"id": 26642,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de malla de Gladiador mortal",
+					"id": 40991
+				}
+			},
+			{
+				"id": 26643,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40904?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete ornamentado de Gladiador odioso",
+					"id": 40904
+				}
+			},
+			{
+				"id": 26644,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos corazón de peste valerosos",
+					"id": 40422
+				}
+			},
+			{
+				"id": 26645,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de acechacriptas de Héroes",
+					"id": 39579
+				}
+			},
+			{
+				"id": 26646,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fe valerosos",
+					"id": 40448
+				}
+			},
+			{
+				"id": 26647,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera Rompeterra valerosa",
+					"id": 40508
+				}
+			},
+			{
+				"id": 26648,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador mortal",
+					"id": 41000
+				}
+			},
+			{
+				"id": 26649,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40905?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete ornamentado de Gladiador mortal",
+					"id": 40905
+				}
+			},
+			{
+				"id": 26650,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39606?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla acorator de Héroes",
+					"id": 39606
+				}
+			},
+			{
+				"id": 26651,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de vástagos de la Plaga valerosas",
+					"id": 40567
+				}
+			},
+			{
+				"id": 26652,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de vástagos de la Plaga de Héroes",
+					"id": 39618
+				}
+			},
+			{
+				"id": 26653,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera escamada de Gladiador odioso",
+					"id": 40782
+				}
+			},
+			{
+				"id": 26654,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de vástagos de la Plaga valerosa",
+					"id": 40550
+				}
+			},
+			{
+				"id": 26655,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/43959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del gran mamut de guerra negro",
+					"id": 43959
+				}
+			},
+			{
+				"id": 26656,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes Segahuesos de Héroes",
+					"id": 39564
+				}
+			},
+			{
+				"id": 26657,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas Caminasueños de Héroes",
+					"id": 39543
+				}
+			},
+			{
+				"id": 26658,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de malla de Gladiador odioso",
+					"id": 40989
+				}
+			},
+			{
+				"id": 26659,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes acorator de Héroes",
+					"id": 39609
+				}
+			},
+			{
+				"id": 26660,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera escamada de Gladiador mortal",
+					"id": 40785
+				}
+			},
+			{
+				"id": 26661,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador odioso",
+					"id": 41284
+				}
+			},
+			{
+				"id": 26662,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras Caminasueños de Héroes",
+					"id": 39554
+				}
+			},
+			{
+				"id": 26663,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador mortal",
+					"id": 41136
+				}
+			},
+			{
+				"id": 26664,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de vástagos de la Plaga valerosos",
+					"id": 40556
+				}
+			},
+			{
+				"id": 26665,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas Rompeterra valerosas",
+					"id": 40509
+				}
+			},
+			{
+				"id": 26666,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador odioso",
+					"id": 41771
+				}
+			},
+			{
+				"id": 26667,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de dragón de Gladiador mortal",
+					"id": 41660
+				}
+			},
+			{
+				"id": 26668,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de vermis de Gladiador mortal",
+					"id": 41315
+				}
+			},
+			{
+				"id": 26669,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda Rompeterra valerosa",
+					"id": 40517
+				}
+			},
+			{
+				"id": 26670,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de Fuego de Escarcha de Héroes",
+					"id": 39495
+				}
+			},
+			{
+				"id": 26671,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41862?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador odioso",
+					"id": 41862
+				}
+			},
+			{
+				"id": 26672,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de pellejo de vermis de Gladiador odioso",
+					"id": 41314
+				}
+			},
+			{
+				"id": 26673,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador odioso",
+					"id": 40841
+				}
+			},
+			{
+				"id": 26674,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41204?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador mortal",
+					"id": 41204
+				}
+			},
+			{
+				"id": 26675,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fe de Héroes",
+					"id": 39519
+				}
+			},
+			{
+				"id": 26676,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de fe valerosas",
+					"id": 40458
+				}
+			},
+			{
+				"id": 26677,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de redención de Héroes",
+					"id": 39634
+				}
+			},
+			{
+				"id": 26678,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador mortal",
+					"id": 41666
+				}
+			},
+			{
+				"id": 26679,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de acechacriptas valerosas",
+					"id": 40506
+				}
+			},
+			{
+				"id": 26680,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador mortal",
+					"id": 41026
+				}
+			},
+			{
+				"id": 26681,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador mortal",
+					"id": 42016
+				}
+			},
+			{
+				"id": 26682,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armadura de anillas de Gladiador mortal",
+					"id": 41086
+				}
+			},
+			{
+				"id": 26683,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de Fuego de Escarcha de Héroes",
+					"id": 39492
+				}
+			},
+			{
+				"id": 26684,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza Segahuesos de Héroes",
+					"id": 39558
+				}
+			},
+			{
+				"id": 26685,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimentas Caminasueños valerosas",
+					"id": 40469
+				}
+			},
+			{
+				"id": 26686,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lúas Caminasueños de Héroes",
+					"id": 39557
+				}
+			},
+			{
+				"id": 26687,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de seda de Gladiador odioso",
+					"id": 41950
+				}
+			},
+			{
+				"id": 26688,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de vástagos de la Plaga valerosos",
+					"id": 40552
+				}
+			},
+			{
+				"id": 26689,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas Caminasueños de Héroes",
+					"id": 39546
+				}
+			},
+			{
+				"id": 26690,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador odioso",
+					"id": 40842
+				}
+			},
+			{
+				"id": 26691,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40575?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de redención valerosos",
+					"id": 40575
+				}
+			},
+			{
+				"id": 26692,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas acorator valerosas",
+					"id": 40545
+				}
+			},
+			{
+				"id": 26693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pantalones de fe de Héroes",
+					"id": 39528
+				}
+			},
+			{
+				"id": 26694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete Rompeterra de Héroes",
+					"id": 39597
+				}
+			},
+			{
+				"id": 26695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador mortal",
+					"id": 41970
+				}
+			},
+			{
+				"id": 26696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de redención de Héroes",
+					"id": 39629
+				}
+			},
+			{
+				"id": 26697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador odioso",
+					"id": 41938
+				}
+			},
+			{
+				"id": 26698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de vástagos de la Plaga valeroso",
+					"id": 40559
+				}
+			},
+			{
+				"id": 26699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes Segahuesos valerosos",
+					"id": 40500
+				}
+			},
+			{
+				"id": 26700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de redención de Héroes",
+					"id": 39636
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/753?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "La Cámara de Archavon",
+			"id": 753
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1597?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1597,
+		"name": "Archavon le Gardien des pierres",
+		"creatures": [
+			{
+				"id": 3849,
+				"name": "Archavon le Gardien des pierres",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/26967?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 26967
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la faucheuse d'os de héros",
+					"id": 39560
+				}
+			},
+			{
+				"id": 26491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de pestecœur valeureux",
+					"id": 40423
+				}
+			},
+			{
+				"id": 26492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de foi de héros",
+					"id": 39523
+				}
+			},
+			{
+				"id": 26493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en anneaux",
+					"id": 41141
+				}
+			},
+			{
+				"id": 26494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/44083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de grand mammouth de guerre noir",
+					"id": 44083
+				}
+			},
+			{
+				"id": 26495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de rédemption valeureuse",
+					"id": 40580
+				}
+			},
+			{
+				"id": 26496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en écailles",
+					"id": 40802
+				}
+			},
+			{
+				"id": 26497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de rédemption valeureuse",
+					"id": 40579
+				}
+			},
+			{
+				"id": 26498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41142?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en anneaux",
+					"id": 41142
+				}
+			},
+			{
+				"id": 26499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de traqueur des cryptes de héros",
+					"id": 39580
+				}
+			},
+			{
+				"id": 26500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de givrefeu valeureux",
+					"id": 40415
+				}
+			},
+			{
+				"id": 26501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armure rivetée du gladiateur haineux",
+					"id": 41079
+				}
+			},
+			{
+				"id": 26502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur fatal",
+					"id": 40926
+				}
+			},
+			{
+				"id": 26503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de marcherêve de héros",
+					"id": 39544
+				}
+			},
+			{
+				"id": 26504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur haineux en étoffe lunaire",
+					"id": 41857
+				}
+			},
+			{
+				"id": 26505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de rédemption de héros",
+					"id": 39630
+				}
+			},
+			{
+				"id": 26506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur haineux en satin",
+					"id": 41925
+				}
+			},
+			{
+				"id": 26507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur fatal",
+					"id": 41198
+				}
+			},
+			{
+				"id": 26508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en peau de wyrm",
+					"id": 41291
+				}
+			},
+			{
+				"id": 26509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en peau de wyrm",
+					"id": 41292
+				}
+			},
+			{
+				"id": 26510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en cuir de kodo",
+					"id": 41286
+				}
+			},
+			{
+				"id": 26511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de rédemption de héros",
+					"id": 39632
+				}
+			},
+			{
+				"id": 26512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de foi valeureuse",
+					"id": 40449
+				}
+			},
+			{
+				"id": 26513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en peau de wyrm",
+					"id": 41303
+				}
+			},
+			{
+				"id": 26514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en plaques",
+					"id": 40804
+				}
+			},
+			{
+				"id": 26515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur fatal en plaques d'effroi",
+					"id": 40784
+				}
+			},
+			{
+				"id": 26516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41919?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur haineux en satin",
+					"id": 41919
+				}
+			},
+			{
+				"id": 26517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de cuirassier valeureux",
+					"id": 40529
+				}
+			},
+			{
+				"id": 26518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en plaques",
+					"id": 40840
+				}
+			},
+			{
+				"id": 26519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur fatal en cuir de kodo",
+					"id": 41309
+				}
+			},
+			{
+				"id": 26520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en plaques",
+					"id": 40844
+				}
+			},
+			{
+				"id": 26521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41939?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en satin",
+					"id": 41939
+				}
+			},
+			{
+				"id": 26522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de marcherêve valeureux",
+					"id": 40463
+				}
+			},
+			{
+				"id": 26523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40999?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en mailles annelées",
+					"id": 40999
+				}
+			},
+			{
+				"id": 26524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue du gladiateur fatal en soie",
+					"id": 41951
+				}
+			},
+			{
+				"id": 26525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de givrefeu valeureux",
+					"id": 40418
+				}
+			},
+			{
+				"id": 26526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de cuirassier valeureux",
+					"id": 40544
+				}
+			},
+			{
+				"id": 26527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de la faucheuse d'os valeureuse",
+					"id": 40495
+				}
+			},
+			{
+				"id": 26528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards fléauvenants de héros",
+					"id": 39620
+				}
+			},
+			{
+				"id": 26529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de traqueur des cryptes de héros",
+					"id": 39582
+				}
+			},
+			{
+				"id": 26530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de marcherêve de héros",
+					"id": 39539
+				}
+			},
+			{
+				"id": 26531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de pestecœur de héros",
+					"id": 39498
+				}
+			},
+			{
+				"id": 26532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de rédemption de héros",
+					"id": 39638
+				}
+			},
+			{
+				"id": 26533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41997?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue du gladiateur fatal en tisse-gangrène",
+					"id": 41997
+				}
+			},
+			{
+				"id": 26534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de cuirassier valeureux",
+					"id": 40547
+				}
+			},
+			{
+				"id": 26535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41873?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en étoffe lunaire",
+					"id": 41873
+				}
+			},
+			{
+				"id": 26536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de marcherêve valeureux",
+					"id": 40493
+				}
+			},
+			{
+				"id": 26537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur haineux en plaques",
+					"id": 40783
+				}
+			},
+			{
+				"id": 26538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de givrefeu valeureux",
+					"id": 40417
+				}
+			},
+			{
+				"id": 26539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue du gladiateur haineux en tisse-gangrène",
+					"id": 42001
+				}
+			},
+			{
+				"id": 26540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de marcherêve valeureux",
+					"id": 40460
+				}
+			},
+			{
+				"id": 26541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique du gladiateur fatal en cuir",
+					"id": 41649
+				}
+			},
+			{
+				"id": 26542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en peau de dragon",
+					"id": 41772
+				}
+			},
+			{
+				"id": 26543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41872?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en étoffe lunaire",
+					"id": 41872
+				}
+			},
+			{
+				"id": 26544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur fatal en tisse-gangrène",
+					"id": 42004
+				}
+			},
+			{
+				"id": 26545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de marcherêve de héros",
+					"id": 39538
+				}
+			},
+			{
+				"id": 26546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de guerre de Brise-terre de héros",
+					"id": 39603
+				}
+			},
+			{
+				"id": 26547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de foi de héros",
+					"id": 39517
+				}
+			},
+			{
+				"id": 26548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de rédemption valeureuse",
+					"id": 40577
+				}
+			},
+			{
+				"id": 26549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique du gladiateur haineux en cuir",
+					"id": 41648
+				}
+			},
+			{
+				"id": 26550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de foi de héros",
+					"id": 39515
+				}
+			},
+			{
+				"id": 26551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes fléauvenants de héros",
+					"id": 39626
+				}
+			},
+			{
+				"id": 26552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42015?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur haineux en tisse-gangrène",
+					"id": 42015
+				}
+			},
+			{
+				"id": 26553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur haineux en mailles annelées",
+					"id": 41025
+				}
+			},
+			{
+				"id": 26554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la faucheuse d'os valeureux",
+					"id": 40496
+				}
+			},
+			{
+				"id": 26555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en cuir de kodo",
+					"id": 41296
+				}
+			},
+			{
+				"id": 26556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur haineux en cuir de kodo",
+					"id": 41308
+				}
+			},
+			{
+				"id": 26557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur fatal en mailles",
+					"id": 41032
+				}
+			},
+			{
+				"id": 26558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron de rédemption de héros",
+					"id": 39633
+				}
+			},
+			{
+				"id": 26559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur haineux en plaques d'effroi",
+					"id": 40781
+				}
+			},
+			{
+				"id": 26560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de guerre de Brise-terre valeureux",
+					"id": 40522
+				}
+			},
+			{
+				"id": 26561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de pestecœur de héros",
+					"id": 39500
+				}
+			},
+			{
+				"id": 26562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de Brise-terre de héros",
+					"id": 39589
+				}
+			},
+			{
+				"id": 26563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en plaques d'effroi",
+					"id": 40806
+				}
+			},
+			{
+				"id": 26564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en mailles",
+					"id": 41006
+				}
+			},
+			{
+				"id": 26565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains fléauvenants de héros",
+					"id": 39624
+				}
+			},
+			{
+				"id": 26566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de Brise-terre valeureux",
+					"id": 40512
+				}
+			},
+			{
+				"id": 26567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur fatal en plaques",
+					"id": 40786
+				}
+			},
+			{
+				"id": 26568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en peau de dragon",
+					"id": 41665
+				}
+			},
+			{
+				"id": 26569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de Brise-terre de héros",
+					"id": 39593
+				}
+			},
+			{
+				"id": 26570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur haineux en mailles",
+					"id": 41031
+				}
+			},
+			{
+				"id": 26571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains fléauvenants valeureux",
+					"id": 40563
+				}
+			},
+			{
+				"id": 26572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en cuir",
+					"id": 41653
+				}
+			},
+			{
+				"id": 26573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de foi de héros",
+					"id": 39530
+				}
+			},
+			{
+				"id": 26574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de rédemption valeureuse",
+					"id": 40570
+				}
+			},
+			{
+				"id": 26575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de givrefeu de héros",
+					"id": 39493
+				}
+			},
+			{
+				"id": 26576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en cuir de kodo",
+					"id": 41297
+				}
+			},
+			{
+				"id": 26577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur fatal en soie",
+					"id": 41958
+				}
+			},
+			{
+				"id": 26578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de rédemption de héros",
+					"id": 39641
+				}
+			},
+			{
+				"id": 26579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en cuir",
+					"id": 41765
+				}
+			},
+			{
+				"id": 26580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur fatal en satin",
+					"id": 41920
+				}
+			},
+			{
+				"id": 26581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de foi valeureux",
+					"id": 40445
+				}
+			},
+			{
+				"id": 26582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur haineux",
+					"id": 41162
+				}
+			},
+			{
+				"id": 26583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur fatal en cuir",
+					"id": 41766
+				}
+			},
+			{
+				"id": 26584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron de rédemption valeureuse",
+					"id": 40574
+				}
+			},
+			{
+				"id": 26585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cotte d'anneaux du gladiateur haineux",
+					"id": 41085
+				}
+			},
+			{
+				"id": 26586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armure rivetée du gladiateur fatal",
+					"id": 41080
+				}
+			},
+			{
+				"id": 26587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en cuir",
+					"id": 41654
+				}
+			},
+			{
+				"id": 26588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en écailles",
+					"id": 40846
+				}
+			},
+			{
+				"id": 26589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur haineux en peau de dragon",
+					"id": 41659
+				}
+			},
+			{
+				"id": 26590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armure du gladiateur haineux en mailles annelées",
+					"id": 40988
+				}
+			},
+			{
+				"id": 26591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de cuirassier de héros",
+					"id": 39612
+				}
+			},
+			{
+				"id": 26592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en écailles",
+					"id": 40805
+				}
+			},
+			{
+				"id": 26593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en peau de wyrm",
+					"id": 41302
+				}
+			},
+			{
+				"id": 26594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de traqueur des cryptes valeureux",
+					"id": 40504
+				}
+			},
+			{
+				"id": 26595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40572?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de rédemption valeureuse",
+					"id": 40572
+				}
+			},
+			{
+				"id": 26596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manicles de marcherêve valeureux",
+					"id": 40472
+				}
+			},
+			{
+				"id": 26597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pantalon de foi valeureux",
+					"id": 40457
+				}
+			},
+			{
+				"id": 26598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Haubert de Brise-terre valeureux",
+					"id": 40514
+				}
+			},
+			{
+				"id": 26599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de Brise-terre de héros",
+					"id": 39591
+				}
+			},
+			{
+				"id": 26600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de rédemption de héros",
+					"id": 39639
+				}
+			},
+			{
+				"id": 26601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur fatal en satin",
+					"id": 41926
+				}
+			},
+			{
+				"id": 26602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de rédemption valeureuse",
+					"id": 40583
+				}
+			},
+			{
+				"id": 26603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de marcherêve valeureux",
+					"id": 40466
+				}
+			},
+			{
+				"id": 26604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de foi valeureux",
+					"id": 40454
+				}
+			},
+			{
+				"id": 26605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de Brise-terre de héros",
+					"id": 39595
+				}
+			},
+			{
+				"id": 26606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de cuirassier de héros",
+					"id": 39607
+				}
+			},
+			{
+				"id": 26607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en plaques d'effroi",
+					"id": 40803
+				}
+			},
+			{
+				"id": 26608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet fléauvenant de héros",
+					"id": 39623
+				}
+			},
+			{
+				"id": 26609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de marcherêve de héros",
+					"id": 39555
+				}
+			},
+			{
+				"id": 26610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de Brise-terre de héros",
+					"id": 39601
+				}
+			},
+			{
+				"id": 26611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de traqueur des cryptes valeureux",
+					"id": 40503
+				}
+			},
+			{
+				"id": 26612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en plaques",
+					"id": 40801
+				}
+			},
+			{
+				"id": 26613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille fléauvenante de héros",
+					"id": 39617
+				}
+			},
+			{
+				"id": 26614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de cuirassier de héros",
+					"id": 39622
+				}
+			},
+			{
+				"id": 26615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur fatal",
+					"id": 40938
+				}
+			},
+			{
+				"id": 26616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de Brise-terre de héros",
+					"id": 39588
+				}
+			},
+			{
+				"id": 26617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur haineux en soie",
+					"id": 41957
+				}
+			},
+			{
+				"id": 26618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armure du gladiateur fatal en mailles annelées",
+					"id": 40990
+				}
+			},
+			{
+				"id": 26619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de cuirassier de héros",
+					"id": 39611
+				}
+			},
+			{
+				"id": 26620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses de marcherêve valeureux",
+					"id": 40468
+				}
+			},
+			{
+				"id": 26621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur haineux",
+					"id": 40925
+				}
+			},
+			{
+				"id": 26622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur haineux en mailles",
+					"id": 41005
+				}
+			},
+			{
+				"id": 26623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur fatal en étoffe lunaire",
+					"id": 41858
+				}
+			},
+			{
+				"id": 26624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40569?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de rédemption valeureuse",
+					"id": 40569
+				}
+			},
+			{
+				"id": 26625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de marcherêve valeureux",
+					"id": 40462
+				}
+			},
+			{
+				"id": 26626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Habit de marcherêve de héros",
+					"id": 39547
+				}
+			},
+			{
+				"id": 26627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en plaques d'effroi",
+					"id": 40845
+				}
+			},
+			{
+				"id": 26628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet de Brise-terre valeureux",
+					"id": 40523
+				}
+			},
+			{
+				"id": 26629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41203?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur haineux en anneaux",
+					"id": 41203
+				}
+			},
+			{
+				"id": 26630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de marcherêve valeureux",
+					"id": 40471
+				}
+			},
+			{
+				"id": 26631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40525?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille de cuirassier valeureux",
+					"id": 40525
+				}
+			},
+			{
+				"id": 26632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de pestecœur de héros",
+					"id": 39497
+				}
+			},
+			{
+				"id": 26633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur haineux en tisse-gangrène",
+					"id": 42003
+				}
+			},
+			{
+				"id": 26634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur haineux en soie",
+					"id": 41969
+				}
+			},
+			{
+				"id": 26635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur haineux",
+					"id": 41135
+				}
+			},
+			{
+				"id": 26636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Haubert de Brise-terre de héros",
+					"id": 39592
+				}
+			},
+			{
+				"id": 26637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de cuirassier valeureux",
+					"id": 40527
+				}
+			},
+			{
+				"id": 26638,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41863?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur fatal en étoffe lunaire",
+					"id": 41863
+				}
+			},
+			{
+				"id": 26639,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40937?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur haineux",
+					"id": 40937
+				}
+			},
+			{
+				"id": 26640,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de Brise-terre valeureux",
+					"id": 40515
+				}
+			},
+			{
+				"id": 26641,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de Brise-terre valeureux",
+					"id": 40520
+				}
+			},
+			{
+				"id": 26642,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cotte de mailles du gladiateur fatal",
+					"id": 40991
+				}
+			},
+			{
+				"id": 26643,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40904?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet ornementé du gladiateur haineux",
+					"id": 40904
+				}
+			},
+			{
+				"id": 26644,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de pestecœur valeureux",
+					"id": 40422
+				}
+			},
+			{
+				"id": 26645,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de traqueur des cryptes de héros",
+					"id": 39579
+				}
+			},
+			{
+				"id": 26646,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de foi valeureuses",
+					"id": 40448
+				}
+			},
+			{
+				"id": 26647,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de Brise-terre valeureux",
+					"id": 40508
+				}
+			},
+			{
+				"id": 26648,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur fatal en mailles annelées",
+					"id": 41000
+				}
+			},
+			{
+				"id": 26649,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40905?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet ornementé du gladiateur fatal",
+					"id": 40905
+				}
+			},
+			{
+				"id": 26650,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39606?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille de cuirassier de héros",
+					"id": 39606
+				}
+			},
+			{
+				"id": 26651,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes fléauvenants valeureux",
+					"id": 40567
+				}
+			},
+			{
+				"id": 26652,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets fléauvenants de héros",
+					"id": 39618
+				}
+			},
+			{
+				"id": 26653,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur haineux en écailles",
+					"id": 40782
+				}
+			},
+			{
+				"id": 26654,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille fléauvenante valeureuse",
+					"id": 40550
+				}
+			},
+			{
+				"id": 26655,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/43959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de grand mammouth de guerre noir",
+					"id": 43959
+				}
+			},
+			{
+				"id": 26656,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de la faucheuse d'os de héros",
+					"id": 39564
+				}
+			},
+			{
+				"id": 26657,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de marcherêve de héros",
+					"id": 39543
+				}
+			},
+			{
+				"id": 26658,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cotte de mailles du gladiateur haineux",
+					"id": 40989
+				}
+			},
+			{
+				"id": 26659,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de cuirassier de héros",
+					"id": 39609
+				}
+			},
+			{
+				"id": 26660,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du gladiateur fatal en écailles",
+					"id": 40785
+				}
+			},
+			{
+				"id": 26661,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en cuir de kodo",
+					"id": 41284
+				}
+			},
+			{
+				"id": 26662,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de marcherêve de héros",
+					"id": 39554
+				}
+			},
+			{
+				"id": 26663,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur fatal",
+					"id": 41136
+				}
+			},
+			{
+				"id": 26664,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards fléauvenants valeureux",
+					"id": 40556
+				}
+			},
+			{
+				"id": 26665,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de Brise-terre valeureux",
+					"id": 40509
+				}
+			},
+			{
+				"id": 26666,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en peau de dragon",
+					"id": 41771
+				}
+			},
+			{
+				"id": 26667,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur fatal en peau de dragon",
+					"id": 41660
+				}
+			},
+			{
+				"id": 26668,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur fatal en peau de wyrm",
+					"id": 41315
+				}
+			},
+			{
+				"id": 26669,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de Brise-terre valeureux",
+					"id": 40517
+				}
+			},
+			{
+				"id": 26670,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de givrefeu de héros",
+					"id": 39495
+				}
+			},
+			{
+				"id": 26671,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41862?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur haineux en étoffe lunaire",
+					"id": 41862
+				}
+			},
+			{
+				"id": 26672,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du gladiateur haineux en peau de wyrm",
+					"id": 41314
+				}
+			},
+			{
+				"id": 26673,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en plaques d'effroi",
+					"id": 40841
+				}
+			},
+			{
+				"id": 26674,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41204?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur fatal en anneaux",
+					"id": 41204
+				}
+			},
+			{
+				"id": 26675,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de foi de héros",
+					"id": 39519
+				}
+			},
+			{
+				"id": 26676,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de foi valeureuse",
+					"id": 40458
+				}
+			},
+			{
+				"id": 26677,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de rédemption de héros",
+					"id": 39634
+				}
+			},
+			{
+				"id": 26678,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur fatal en peau de dragon",
+					"id": 41666
+				}
+			},
+			{
+				"id": 26679,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de traqueur des cryptes valeureux",
+					"id": 40506
+				}
+			},
+			{
+				"id": 26680,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur fatal en mailles annelées",
+					"id": 41026
+				}
+			},
+			{
+				"id": 26681,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur fatal en tisse-gangrène",
+					"id": 42016
+				}
+			},
+			{
+				"id": 26682,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cotte d'anneaux du gladiateur fatal",
+					"id": 41086
+				}
+			},
+			{
+				"id": 26683,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de givrefeu de héros",
+					"id": 39492
+				}
+			},
+			{
+				"id": 26684,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de la faucheuse d'os de héros",
+					"id": 39558
+				}
+			},
+			{
+				"id": 26685,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Habit de marcherêve valeureux",
+					"id": 40469
+				}
+			},
+			{
+				"id": 26686,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manicles de marcherêve de héros",
+					"id": 39557
+				}
+			},
+			{
+				"id": 26687,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue du gladiateur haineux en soie",
+					"id": 41950
+				}
+			},
+			{
+				"id": 26688,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets fléauvenants valeureux",
+					"id": 40552
+				}
+			},
+			{
+				"id": 26689,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses de marcherêve de héros",
+					"id": 39546
+				}
+			},
+			{
+				"id": 26690,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur haineux en écailles",
+					"id": 40842
+				}
+			},
+			{
+				"id": 26691,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40575?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de rédemption valeureuse",
+					"id": 40575
+				}
+			},
+			{
+				"id": 26692,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de cuirassier valeureux",
+					"id": 40545
+				}
+			},
+			{
+				"id": 26693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pantalon de foi de héros",
+					"id": 39528
+				}
+			},
+			{
+				"id": 26694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet de Brise-terre de héros",
+					"id": 39597
+				}
+			},
+			{
+				"id": 26695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur fatal en soie",
+					"id": 41970
+				}
+			},
+			{
+				"id": 26696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de rédemption de héros",
+					"id": 39629
+				}
+			},
+			{
+				"id": 26697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur haineux en satin",
+					"id": 41938
+				}
+			},
+			{
+				"id": 26698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet fléauvenant valeureux",
+					"id": 40559
+				}
+			},
+			{
+				"id": 26699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de la faucheuse d'os valeureux",
+					"id": 40500
+				}
+			},
+			{
+				"id": 26700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de rédemption de héros",
+					"id": 39636
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/753?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Caveau d’Archavon",
+			"id": 753
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1597?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1597,
+		"name": "Archavon the Stone Watcher",
+		"creatures": [
+			{
+				"id": 3849,
+				"name": "Archavon the Stone Watcher",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/26967?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 26967
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Bonescythe Gauntlets",
+					"id": 39560
+				}
+			},
+			{
+				"id": 26491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Plagueheart Robe",
+					"id": 40423
+				}
+			},
+			{
+				"id": 26492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Raiments of Faith",
+					"id": 39523
+				}
+			},
+			{
+				"id": 26493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Chain Gauntlets",
+					"id": 41141
+				}
+			},
+			{
+				"id": 26494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/44083?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Grand Black War Mammoth",
+					"id": 44083
+				}
+			},
+			{
+				"id": 26495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Handguards",
+					"id": 40580
+				}
+			},
+			{
+				"id": 26496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Scaled Gauntlets",
+					"id": 40802
+				}
+			},
+			{
+				"id": 26497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Breastplate",
+					"id": 40579
+				}
+			},
+			{
+				"id": 26498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41142?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Chain Gauntlets",
+					"id": 41142
+				}
+			},
+			{
+				"id": 26499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39580?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Cryptstalker Legguards",
+					"id": 39580
+				}
+			},
+			{
+				"id": 26500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Frostfire Gloves",
+					"id": 40415
+				}
+			},
+			{
+				"id": 26501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41079?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Linked Armor",
+					"id": 41079
+				}
+			},
+			{
+				"id": 26502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ornamented Gloves",
+					"id": 40926
+				}
+			},
+			{
+				"id": 26503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Gloves",
+					"id": 39544
+				}
+			},
+			{
+				"id": 26504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mooncloth Robe",
+					"id": 41857
+				}
+			},
+			{
+				"id": 26505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Greaves",
+					"id": 39630
+				}
+			},
+			{
+				"id": 26506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Satin Leggings",
+					"id": 41925
+				}
+			},
+			{
+				"id": 26507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Linked Leggings",
+					"id": 41198
+				}
+			},
+			{
+				"id": 26508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Wyrmhide Gloves",
+					"id": 41291
+				}
+			},
+			{
+				"id": 26509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Wyrmhide Gloves",
+					"id": 41292
+				}
+			},
+			{
+				"id": 26510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Kodohide Gloves",
+					"id": 41286
+				}
+			},
+			{
+				"id": 26511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Gloves",
+					"id": 39632
+				}
+			},
+			{
+				"id": 26512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Robe of Faith",
+					"id": 40449
+				}
+			},
+			{
+				"id": 26513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Wyrmhide Legguards",
+					"id": 41303
+				}
+			},
+			{
+				"id": 26514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Plate Gauntlets",
+					"id": 40804
+				}
+			},
+			{
+				"id": 26515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dreadplate Chestpiece",
+					"id": 40784
+				}
+			},
+			{
+				"id": 26516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41919?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Satin Robe",
+					"id": 41919
+				}
+			},
+			{
+				"id": 26517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Legplates",
+					"id": 40529
+				}
+			},
+			{
+				"id": 26518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40840?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Plate Legguards",
+					"id": 40840
+				}
+			},
+			{
+				"id": 26519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Kodohide Robes",
+					"id": 41309
+				}
+			},
+			{
+				"id": 26520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40844?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Plate Legguards",
+					"id": 40844
+				}
+			},
+			{
+				"id": 26521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41939?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Satin Gloves",
+					"id": 41939
+				}
+			},
+			{
+				"id": 26522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Robe",
+					"id": 40463
+				}
+			},
+			{
+				"id": 26523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40999?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ringmail Gauntlets",
+					"id": 40999
+				}
+			},
+			{
+				"id": 26524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41951?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Silk Raiment",
+					"id": 41951
+				}
+			},
+			{
+				"id": 26525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Frostfire Robe",
+					"id": 40418
+				}
+			},
+			{
+				"id": 26526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Breastplate",
+					"id": 40544
+				}
+			},
+			{
+				"id": 26527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Bonescythe Breastplate",
+					"id": 40495
+				}
+			},
+			{
+				"id": 26528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Legplates",
+					"id": 39620
+				}
+			},
+			{
+				"id": 26529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Cryptstalker Handguards",
+					"id": 39582
+				}
+			},
+			{
+				"id": 26530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Leggings",
+					"id": 39539
+				}
+			},
+			{
+				"id": 26531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Plagueheart Leggings",
+					"id": 39498
+				}
+			},
+			{
+				"id": 26532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Breastplate",
+					"id": 39638
+				}
+			},
+			{
+				"id": 26533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41997?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Felweave Raiment",
+					"id": 41997
+				}
+			},
+			{
+				"id": 26534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Legguards",
+					"id": 40547
+				}
+			},
+			{
+				"id": 26535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41873?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mooncloth Gloves",
+					"id": 41873
+				}
+			},
+			{
+				"id": 26536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Legguards",
+					"id": 40493
+				}
+			},
+			{
+				"id": 26537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Plate Chestpiece",
+					"id": 40783
+				}
+			},
+			{
+				"id": 26538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Frostfire Leggings",
+					"id": 40417
+				}
+			},
+			{
+				"id": 26539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Felweave Raiment",
+					"id": 42001
+				}
+			},
+			{
+				"id": 26540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Handguards",
+					"id": 40460
+				}
+			},
+			{
+				"id": 26541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Leather Tunic",
+					"id": 41649
+				}
+			},
+			{
+				"id": 26542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dragonhide Gloves",
+					"id": 41772
+				}
+			},
+			{
+				"id": 26543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41872?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mooncloth Gloves",
+					"id": 41872
+				}
+			},
+			{
+				"id": 26544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Felweave Trousers",
+					"id": 42004
+				}
+			},
+			{
+				"id": 26545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Robe",
+					"id": 39538
+				}
+			},
+			{
+				"id": 26546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39603?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter War-Kilt",
+					"id": 39603
+				}
+			},
+			{
+				"id": 26547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Leggings of Faith",
+					"id": 39517
+				}
+			},
+			{
+				"id": 26548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Legplates",
+					"id": 40577
+				}
+			},
+			{
+				"id": 26549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Leather Tunic",
+					"id": 41648
+				}
+			},
+			{
+				"id": 26550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Robe of Faith",
+					"id": 39515
+				}
+			},
+			{
+				"id": 26551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Legguards",
+					"id": 39626
+				}
+			},
+			{
+				"id": 26552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42015?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Felweave Handguards",
+					"id": 42015
+				}
+			},
+			{
+				"id": 26553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ringmail Leggings",
+					"id": 41025
+				}
+			},
+			{
+				"id": 26554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Bonescythe Gauntlets",
+					"id": 40496
+				}
+			},
+			{
+				"id": 26555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Kodohide Legguards",
+					"id": 41296
+				}
+			},
+			{
+				"id": 26556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Kodohide Robes",
+					"id": 41308
+				}
+			},
+			{
+				"id": 26557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mail Leggings",
+					"id": 41032
+				}
+			},
+			{
+				"id": 26558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Chestpiece",
+					"id": 39633
+				}
+			},
+			{
+				"id": 26559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dreadplate Chestpiece",
+					"id": 40781
+				}
+			},
+			{
+				"id": 26560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter War-Kilt",
+					"id": 40522
+				}
+			},
+			{
+				"id": 26561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Plagueheart Gloves",
+					"id": 39500
+				}
+			},
+			{
+				"id": 26562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Legguards",
+					"id": 39589
+				}
+			},
+			{
+				"id": 26563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dreadplate Gauntlets",
+					"id": 40806
+				}
+			},
+			{
+				"id": 26564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mail Gauntlets",
+					"id": 41006
+				}
+			},
+			{
+				"id": 26565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Handguards",
+					"id": 39624
+				}
+			},
+			{
+				"id": 26566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Legguards",
+					"id": 40512
+				}
+			},
+			{
+				"id": 26567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Plate Chestpiece",
+					"id": 40786
+				}
+			},
+			{
+				"id": 26568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dragonhide Legguards",
+					"id": 41665
+				}
+			},
+			{
+				"id": 26569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Gloves",
+					"id": 39593
+				}
+			},
+			{
+				"id": 26570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mail Leggings",
+					"id": 41031
+				}
+			},
+			{
+				"id": 26571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Handguards",
+					"id": 40563
+				}
+			},
+			{
+				"id": 26572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Leather Legguards",
+					"id": 41653
+				}
+			},
+			{
+				"id": 26573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Handwraps of Faith",
+					"id": 39530
+				}
+			},
+			{
+				"id": 26574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Gloves",
+					"id": 40570
+				}
+			},
+			{
+				"id": 26575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Frostfire Leggings",
+					"id": 39493
+				}
+			},
+			{
+				"id": 26576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Kodohide Legguards",
+					"id": 41297
+				}
+			},
+			{
+				"id": 26577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41958?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Silk Trousers",
+					"id": 41958
+				}
+			},
+			{
+				"id": 26578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Legguards",
+					"id": 39641
+				}
+			},
+			{
+				"id": 26579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Leather Gloves",
+					"id": 41765
+				}
+			},
+			{
+				"id": 26580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41920?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Satin Robe",
+					"id": 41920
+				}
+			},
+			{
+				"id": 26581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Gloves of Faith",
+					"id": 40445
+				}
+			},
+			{
+				"id": 26582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Linked Leggings",
+					"id": 41162
+				}
+			},
+			{
+				"id": 26583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Leather Gloves",
+					"id": 41766
+				}
+			},
+			{
+				"id": 26584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Chestpiece",
+					"id": 40574
+				}
+			},
+			{
+				"id": 26585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41085?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Chain Armor",
+					"id": 41085
+				}
+			},
+			{
+				"id": 26586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41080?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Linked Armor",
+					"id": 41080
+				}
+			},
+			{
+				"id": 26587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Leather Legguards",
+					"id": 41654
+				}
+			},
+			{
+				"id": 26588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Scaled Legguards",
+					"id": 40846
+				}
+			},
+			{
+				"id": 26589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dragonhide Robes",
+					"id": 41659
+				}
+			},
+			{
+				"id": 26590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ringmail Armor",
+					"id": 40988
+				}
+			},
+			{
+				"id": 26591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Legguards",
+					"id": 39612
+				}
+			},
+			{
+				"id": 26592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Scaled Gauntlets",
+					"id": 40805
+				}
+			},
+			{
+				"id": 26593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Wyrmhide Legguards",
+					"id": 41302
+				}
+			},
+			{
+				"id": 26594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Cryptstalker Handguards",
+					"id": 40504
+				}
+			},
+			{
+				"id": 26595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40572?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Greaves",
+					"id": 40572
+				}
+			},
+			{
+				"id": 26596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Handgrips",
+					"id": 40472
+				}
+			},
+			{
+				"id": 26597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Pants of Faith",
+					"id": 40457
+				}
+			},
+			{
+				"id": 26598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Hauberk",
+					"id": 40514
+				}
+			},
+			{
+				"id": 26599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Handguards",
+					"id": 39591
+				}
+			},
+			{
+				"id": 26600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Handguards",
+					"id": 39639
+				}
+			},
+			{
+				"id": 26601,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41926?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Satin Leggings",
+					"id": 41926
+				}
+			},
+			{
+				"id": 26602,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Legguards",
+					"id": 40583
+				}
+			},
+			{
+				"id": 26603,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40466?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Gloves",
+					"id": 40466
+				}
+			},
+			{
+				"id": 26604,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Handwraps of Faith",
+					"id": 40454
+				}
+			},
+			{
+				"id": 26605,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Kilt",
+					"id": 39595
+				}
+			},
+			{
+				"id": 26606,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Legplates",
+					"id": 39607
+				}
+			},
+			{
+				"id": 26607,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dreadplate Gauntlets",
+					"id": 40803
+				}
+			},
+			{
+				"id": 26608,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Chestguard",
+					"id": 39623
+				}
+			},
+			{
+				"id": 26609,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Legguards",
+					"id": 39555
+				}
+			},
+			{
+				"id": 26610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Grips",
+					"id": 39601
+				}
+			},
+			{
+				"id": 26611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Cryptstalker Tunic",
+					"id": 40503
+				}
+			},
+			{
+				"id": 26612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Plate Gauntlets",
+					"id": 40801
+				}
+			},
+			{
+				"id": 26613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Battleplate",
+					"id": 39617
+				}
+			},
+			{
+				"id": 26614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Handguards",
+					"id": 39622
+				}
+			},
+			{
+				"id": 26615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ornamented Legplates",
+					"id": 40938
+				}
+			},
+			{
+				"id": 26616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Tunic",
+					"id": 39588
+				}
+			},
+			{
+				"id": 26617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41957?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Silk Trousers",
+					"id": 41957
+				}
+			},
+			{
+				"id": 26618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ringmail Armor",
+					"id": 40990
+				}
+			},
+			{
+				"id": 26619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Breastplate",
+					"id": 39611
+				}
+			},
+			{
+				"id": 26620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Trousers",
+					"id": 40468
+				}
+			},
+			{
+				"id": 26621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ornamented Gloves",
+					"id": 40925
+				}
+			},
+			{
+				"id": 26622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mail Gauntlets",
+					"id": 41005
+				}
+			},
+			{
+				"id": 26623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mooncloth Robe",
+					"id": 41858
+				}
+			},
+			{
+				"id": 26624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40569?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Tunic",
+					"id": 40569
+				}
+			},
+			{
+				"id": 26625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Leggings",
+					"id": 40462
+				}
+			},
+			{
+				"id": 26626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Vestments",
+					"id": 39547
+				}
+			},
+			{
+				"id": 26627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40845?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dreadplate Legguards",
+					"id": 40845
+				}
+			},
+			{
+				"id": 26628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40523?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Chestguard",
+					"id": 40523
+				}
+			},
+			{
+				"id": 26629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41203?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Chain Leggings",
+					"id": 41203
+				}
+			},
+			{
+				"id": 26630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Raiments",
+					"id": 40471
+				}
+			},
+			{
+				"id": 26631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40525?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Battleplate",
+					"id": 40525
+				}
+			},
+			{
+				"id": 26632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Plagueheart Robe",
+					"id": 39497
+				}
+			},
+			{
+				"id": 26633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Felweave Trousers",
+					"id": 42003
+				}
+			},
+			{
+				"id": 26634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Silk Handguards",
+					"id": 41969
+				}
+			},
+			{
+				"id": 26635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Linked Gauntlets",
+					"id": 41135
+				}
+			},
+			{
+				"id": 26636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Hauberk",
+					"id": 39592
+				}
+			},
+			{
+				"id": 26637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Gauntlets",
+					"id": 40527
+				}
+			},
+			{
+				"id": 26638,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41863?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mooncloth Leggings",
+					"id": 41863
+				}
+			},
+			{
+				"id": 26639,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40937?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ornamented Legplates",
+					"id": 40937
+				}
+			},
+			{
+				"id": 26640,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Gloves",
+					"id": 40515
+				}
+			},
+			{
+				"id": 26641,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Grips",
+					"id": 40520
+				}
+			},
+			{
+				"id": 26642,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Mail Armor",
+					"id": 40991
+				}
+			},
+			{
+				"id": 26643,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40904?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Ornamented Chestguard",
+					"id": 40904
+				}
+			},
+			{
+				"id": 26644,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Plagueheart Leggings",
+					"id": 40422
+				}
+			},
+			{
+				"id": 26645,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39579?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Cryptstalker Tunic",
+					"id": 39579
+				}
+			},
+			{
+				"id": 26646,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Leggings of Faith",
+					"id": 40448
+				}
+			},
+			{
+				"id": 26647,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Tunic",
+					"id": 40508
+				}
+			},
+			{
+				"id": 26648,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ringmail Gauntlets",
+					"id": 41000
+				}
+			},
+			{
+				"id": 26649,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40905?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ornamented Chestguard",
+					"id": 40905
+				}
+			},
+			{
+				"id": 26650,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39606?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Battleplate",
+					"id": 39606
+				}
+			},
+			{
+				"id": 26651,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Legguards",
+					"id": 40567
+				}
+			},
+			{
+				"id": 26652,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Scourgeborne Gauntlets",
+					"id": 39618
+				}
+			},
+			{
+				"id": 26653,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Scaled Chestpiece",
+					"id": 40782
+				}
+			},
+			{
+				"id": 26654,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Battleplate",
+					"id": 40550
+				}
+			},
+			{
+				"id": 26655,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/43959?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Grand Black War Mammoth",
+					"id": 43959
+				}
+			},
+			{
+				"id": 26656,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Bonescythe Legplates",
+					"id": 39564
+				}
+			},
+			{
+				"id": 26657,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Handguards",
+					"id": 39543
+				}
+			},
+			{
+				"id": 26658,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mail Armor",
+					"id": 40989
+				}
+			},
+			{
+				"id": 26659,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreadnaught Gauntlets",
+					"id": 39609
+				}
+			},
+			{
+				"id": 26660,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Scaled Chestpiece",
+					"id": 40785
+				}
+			},
+			{
+				"id": 26661,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Kodohide Gloves",
+					"id": 41284
+				}
+			},
+			{
+				"id": 26662,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Raiments",
+					"id": 39554
+				}
+			},
+			{
+				"id": 26663,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Linked Gauntlets",
+					"id": 41136
+				}
+			},
+			{
+				"id": 26664,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Legplates",
+					"id": 40556
+				}
+			},
+			{
+				"id": 26665,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Handguards",
+					"id": 40509
+				}
+			},
+			{
+				"id": 26666,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dragonhide Gloves",
+					"id": 41771
+				}
+			},
+			{
+				"id": 26667,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dragonhide Robes",
+					"id": 41660
+				}
+			},
+			{
+				"id": 26668,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Wyrmhide Robes",
+					"id": 41315
+				}
+			},
+			{
+				"id": 26669,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Earthshatter Kilt",
+					"id": 40517
+				}
+			},
+			{
+				"id": 26670,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Frostfire Gloves",
+					"id": 39495
+				}
+			},
+			{
+				"id": 26671,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41862?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Mooncloth Leggings",
+					"id": 41862
+				}
+			},
+			{
+				"id": 26672,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Wyrmhide Robes",
+					"id": 41314
+				}
+			},
+			{
+				"id": 26673,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40841?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Dreadplate Legguards",
+					"id": 40841
+				}
+			},
+			{
+				"id": 26674,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41204?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Chain Leggings",
+					"id": 41204
+				}
+			},
+			{
+				"id": 26675,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Gloves of Faith",
+					"id": 39519
+				}
+			},
+			{
+				"id": 26676,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Raiments of Faith",
+					"id": 40458
+				}
+			},
+			{
+				"id": 26677,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Gauntlets",
+					"id": 39634
+				}
+			},
+			{
+				"id": 26678,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Dragonhide Legguards",
+					"id": 41666
+				}
+			},
+			{
+				"id": 26679,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Cryptstalker Legguards",
+					"id": 40506
+				}
+			},
+			{
+				"id": 26680,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Ringmail Leggings",
+					"id": 41026
+				}
+			},
+			{
+				"id": 26681,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/42016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Felweave Handguards",
+					"id": 42016
+				}
+			},
+			{
+				"id": 26682,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41086?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Chain Armor",
+					"id": 41086
+				}
+			},
+			{
+				"id": 26683,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Frostfire Robe",
+					"id": 39492
+				}
+			},
+			{
+				"id": 26684,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Bonescythe Breastplate",
+					"id": 39558
+				}
+			},
+			{
+				"id": 26685,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreamwalker Vestments",
+					"id": 40469
+				}
+			},
+			{
+				"id": 26686,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Handgrips",
+					"id": 39557
+				}
+			},
+			{
+				"id": 26687,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41950?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Silk Raiment",
+					"id": 41950
+				}
+			},
+			{
+				"id": 26688,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Gauntlets",
+					"id": 40552
+				}
+			},
+			{
+				"id": 26689,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Dreamwalker Trousers",
+					"id": 39546
+				}
+			},
+			{
+				"id": 26690,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40842?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Scaled Legguards",
+					"id": 40842
+				}
+			},
+			{
+				"id": 26691,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40575?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Redemption Gauntlets",
+					"id": 40575
+				}
+			},
+			{
+				"id": 26692,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Dreadnaught Handguards",
+					"id": 40545
+				}
+			},
+			{
+				"id": 26693,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Pants of Faith",
+					"id": 39528
+				}
+			},
+			{
+				"id": 26694,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Earthshatter Chestguard",
+					"id": 39597
+				}
+			},
+			{
+				"id": 26695,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deadly Gladiator's Silk Handguards",
+					"id": 41970
+				}
+			},
+			{
+				"id": 26696,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Tunic",
+					"id": 39629
+				}
+			},
+			{
+				"id": 26697,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/41938?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hateful Gladiator's Satin Gloves",
+					"id": 41938
+				}
+			},
+			{
+				"id": 26698,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Scourgeborne Chestguard",
+					"id": 40559
+				}
+			},
+			{
+				"id": 26699,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/40500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Valorous Bonescythe Legplates",
+					"id": 40500
+				}
+			},
+			{
+				"id": 26700,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/39636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heroes' Redemption Legplates",
+					"id": 39636
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/753?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Vault of Archavon",
+			"id": 753
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			}
+		]
+	}
+}

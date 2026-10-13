@@ -1,0 +1,2172 @@
+{
+	"id": 829,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 829,
+		"name": "Empíreas Gemelas",
+		"description": "Las Empíreas Gemelas están entre los campeones más formidables del Rey del Trueno. Lei Shen, decidido a proteger su reinado, no pierde de vista a sus leales súbditos, pero menos aún su variado arsenal para combatir a los intrusos.",
+		"creatures": [
+			{
+				"id": 1569,
+				"name": "Lu'lin",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46975
+				}
+			},
+			{
+				"id": 1581,
+				"name": "Suen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 15864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor resonante",
+					"id": 95879
+				}
+			},
+			{
+				"id": 15865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador resonante",
+					"id": 95880
+				}
+			},
+			{
+				"id": 15866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector resonante",
+					"id": 95881
+				}
+			},
+			{
+				"id": 15867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu Lai, abanico de Hojas de las Empíreas",
+					"id": 95791
+				}
+			},
+			{
+				"id": 15868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas del loto de luna",
+					"id": 95792
+				}
+			},
+			{
+				"id": 15869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de fuego de pasión",
+					"id": 95793
+				}
+			},
+			{
+				"id": 15870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo de desesperación mielga",
+					"id": 95794
+				}
+			},
+			{
+				"id": 15871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen Wo, aguja del ocaso",
+					"id": 95795
+				}
+			},
+			{
+				"id": 15872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cometa de medianoche",
+					"id": 95796
+				}
+			},
+			{
+				"id": 15873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de noche y día",
+					"id": 95797
+				}
+			},
+			{
+				"id": 15874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fuerza de marea",
+					"id": 95798
+				}
+			},
+			{
+				"id": 15875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mirada de las Gemelas",
+					"id": 95799
+				}
+			},
+			{
+				"id": 15876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de jade lunar",
+					"id": 95800
+				}
+			},
+			{
+				"id": 15877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de la noche",
+					"id": 95801
+				}
+			},
+			{
+				"id": 15734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fuerza de marea",
+					"id": 94976
+				}
+			},
+			{
+				"id": 15735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de jade lunar",
+					"id": 96544
+				}
+			},
+			{
+				"id": 15736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas del loto de luna",
+					"id": 94977
+				}
+			},
+			{
+				"id": 15737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mirada de las Gemelas",
+					"id": 94529
+				}
+			},
+			{
+				"id": 15738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de la noche",
+					"id": 96545
+				}
+			},
+			{
+				"id": 15739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de noche y día",
+					"id": 94978
+				}
+			},
+			{
+				"id": 15740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cometa de medianoche",
+					"id": 94979
+				}
+			},
+			{
+				"id": 15741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de fuego de pasión",
+					"id": 94980
+				}
+			},
+			{
+				"id": 15742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de la noche",
+					"id": 94757
+				}
+			},
+			{
+				"id": 15743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de jade lunar",
+					"id": 94981
+				}
+			},
+			{
+				"id": 15744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor resonante",
+					"id": 96623
+				}
+			},
+			{
+				"id": 15745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador resonante",
+					"id": 96624
+				}
+			},
+			{
+				"id": 15746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector resonante",
+					"id": 96625
+				}
+			},
+			{
+				"id": 15747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor resonante",
+					"id": 95571
+				}
+			},
+			{
+				"id": 15748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu Lai, abanico de Hojas de las Empíreas",
+					"id": 96535
+				}
+			},
+			{
+				"id": 15749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas del loto de luna",
+					"id": 96536
+				}
+			},
+			{
+				"id": 15750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de fuego de pasión",
+					"id": 96537
+				}
+			},
+			{
+				"id": 15751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador resonante",
+					"id": 95577
+				}
+			},
+			{
+				"id": 15752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo de desesperación mielga",
+					"id": 96538
+				}
+			},
+			{
+				"id": 15753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo de desesperación mielga",
+					"id": 95515
+				}
+			},
+			{
+				"id": 15754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen Wo, aguja del ocaso",
+					"id": 96539
+				}
+			},
+			{
+				"id": 15755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cometa de medianoche",
+					"id": 96540
+				}
+			},
+			{
+				"id": 15756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu Lai, abanico de Hojas de las Empíreas",
+					"id": 94973
+				}
+			},
+			{
+				"id": 15757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de noche y día",
+					"id": 96541
+				}
+			},
+			{
+				"id": 15758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector resonante",
+					"id": 95582
+				}
+			},
+			{
+				"id": 15759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen Wo, aguja del ocaso",
+					"id": 94974
+				}
+			},
+			{
+				"id": 15760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fuerza de marea",
+					"id": 96542
+				}
+			},
+			{
+				"id": 15761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mirada de las Gemelas",
+					"id": 96543
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7641,
+				"title": "Viene la oscuridad: la luminosidad de Lu'lin",
+				"body_text": "Cuando cae la noche en la cámara de las Empíreas Gemelas, Lu'lin se potencia y se vuelve totalmente activa mientras que Suen desempeña un papel más limitado.",
+				"sections": [
+					{
+						"id": 7629,
+						"title": "Lu'lin, señora de la soledad",
+						"sections": [
+							{
+								"id": 7630,
+								"title": "Loto de luna",
+								"body_text": "Lu'lin hace brotar un hermoso loto de luna que lanza Esporas de somnolencia en cada dirección. Entrar en contacto con Esporas de somnolencia duerme al jugador durante 5 s.\r\n\r\nEste efecto solo puede darse en la oscuridad. Durante el ocaso o el día, el loto de luna permanece, pero no florece."
+							},
+							{
+								"id": 7631,
+								"title": "Tromba cósmica",
+								"body_text": "Lu'lin baila en el sitio, lo que invoca una tromba de estrellas. Cuando termina de bailar, ordena a las estrellas que ataquen. Cada una selecciona a un jugador aleatorio y lo asalta, lo que inflige 0 p. de daño Arcano a todos los jugadores en un radio de 8 m del objetivo y los repele.\r\n\r\nEste efecto solo puede darse en la oscuridad."
+							},
+							{
+								"id": 7634,
+								"title": "Bestia de pesadillas",
+								"body_text": "¡Lu'lin saca una bestia de las pesadillas de su objetivo y le ordena que ataque! La bestia solo puede ser atacada por el objetivo en quien se ha fijado. Sanar al objetivo provocará el efecto Sanación corrupta.\r\n\r\nEste efecto solo puede darse en la oscuridad. Durante el ocaso y el día sigue siendo posible atacar a la bestia, pero no se invocarán más.",
+								"sections": [
+									{
+										"id": 7635,
+										"title": "Sanación corrupta",
+										"body_text": "Sanar al objetivo de la bestia de pesadillas corrompe al sanador, lo que inflige 248 p. de daño de las Sombras cada 1 s. Este efecto se acumula."
+									}
+								]
+							},
+							{
+								"id": 7636,
+								"title": "Rondadores de la noche",
+								"body_text": "Lu'lin invoca rondadores de la noche. Los rondadores atacan a objetivos aleatorios con oscuridad, lo que inflige 374 p. de daño de las Sombras.\r\n\r\nExponer a los rondadores a la luz del día de Suen mientras está canalizando Lágrimas del sol los revela, lo que permite atacarlos y matarlos. También se vuelven visibles de forma natural durante el ocaso y el día.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/43281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 43281
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7642,
+						"title": "Suen, señora de la ira",
+						"sections": [
+							{
+								"id": 7643,
+								"title": "Lágrimas del sol",
+								"body_text": "Suen aparece brevemente durante la noche, ataca a los jugadores y canaliza Lágrimas del sol. Lágrimas del sol inflige 0 p. de daño a jugadores aleatorios durante la canalización.\r\n\r\nCuando termina de canalizar Lágrimas del sol, Suen desaparece en la noche."
+							},
+							{
+								"id": 7644,
+								"title": "Luz del día",
+								"body_text": "Suen aparece brevemente durante la noche y dispara un rayo de sol a un jugador aleatorio, lo que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 8 m del objetivo.\r\n\r\nLuego desaparece en la noche. Luz del día derrite al instante todos los cometas de hielo con los que entre en contacto."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7645,
+				"title": "Luz del día ardiente: Furia de Suen",
+				"body_text": "Cuando se hace de día en la cámara de las Empíreas Gemelas, Suen se potencia y se vuelve totalmente activa mientras que Lu'lin desempeña un papel más limitado.",
+				"sections": [
+					{
+						"id": 7632,
+						"title": "Suen, señora de la ira",
+						"sections": [
+							{
+								"id": 7637,
+								"title": "Abanico de llamas",
+								"body_text": "Suen ataca rápidamente a su objetivo con un abanico ardiente, lo que inflige daño con arma como daño de Fuego y aumenta el daño de Fuego recibido un 25% durante 30 s.\r\n\r\nSuen solo utiliza esta facultad durante el día."
+							},
+							{
+								"id": 7638,
+								"title": "Llamas de pasión",
+								"body_text": "Suen se abalanza sobre un objetivo distante aleatorio, lo que inflige 0 p. de daño de Fuego y repele a todos los enemigos cercanos. Cuando vuelve a su objetivo principal, deja tras de sí un rastro de llamas."
+							},
+							{
+								"id": 7646,
+								"title": "Radiancia llameante",
+								"body_text": "Suen arde con fuerza durante el día, lo que inflige 0 p. de daño de Fuego a todos los jugadores cada 2 s. Liberar esta energía provoca un efecto que se acumula cada vez que emite un pulso, lo que aumenta el daño infligido por los ataques de Fuego de Suen un 5%.\r\n\r\nRadiancia llameante derrite los cometas de hielo. Cuando más cerca esté Suen de un cometa de hielo, más rápido se derretirá. Sin embargo, permanecer muy cerca de un cometa de hielo reducirá las acumulaciones de Radiancia llameante de Suen."
+							},
+							{
+								"id": 7647,
+								"title": "Luz del día",
+								"body_text": "Suen dispara un rayo de sol a un jugador aleatorio, lo que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 8 m del objetivo.\r\n\r\n"
+							},
+							{
+								"id": 7652,
+								"title": "Infierno nuclear",
+								"body_text": "Suen canaliza un infierno nuclear que inflige 0 p. de daño a la banda cada 1 s.\r\n\r\nMientras canaliza este efecto, su desvío de hechizos y ataques a distancia aumenta un 100%. Su probabilidad de esquivar también aumenta un 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					},
+					{
+						"id": 7648,
+						"title": "Lu'lin, señora de la soledad",
+						"sections": [
+							{
+								"id": 7649,
+								"title": "Cometa de hielo",
+								"body_text": "Lu'lin atraviesa brevemente su velo de oscuridad e invoca un Cometa de hielo alrededor de un jugador aleatorio. La explosión helada inflige 0 p. de daño de Escarcha a todos los enemigos en un radio de 6 m del objetivo y deja un Cometa de hielo en el sitio.\r\n\r\nAdemás, los Cometas de hielo reducen las acumulaciones de Radiancia llameante si Suen se encuentra cerca.",
+								"sections": [
+									{
+										"id": 7650,
+										"title": "Sombras heladas",
+										"body_text": "Los cometas de hielo bloquean la luz y proyectan unas grandes sombras. Permanecer en las Sombras heladas reduce el daño de Fuego recibido un 80%.\r\n\r\nAdemás, los hechizos Cometa de hielo reducen la velocidad cuerpo a cuerpo, a distancia y de lanzamiento un 75%."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					}
+				]
+			},
+			{
+				"id": 7633,
+				"title": "Al caer el sol: el baile de las Empíreas",
+				"body_text": "Durante el ocaso, las dos gemelas están activas, conservan algunas de sus facultades y obtienen las siguientes.",
+				"sections": [
+					{
+						"id": 7653,
+						"title": "Lu'lin, señora de la soledad",
+						"body_text": "Si Lu'lin muere, el ocaso termina y comienza el nuevo día, lo que potencia totalmente a Suen. Durante el día, Suen vuelve a arder con Radiancia llameante.",
+						"sections": [
+							{
+								"id": 7654,
+								"title": "Fuerza de la marea",
+								"body_text": "Unas aguas heladas protectoras envuelven a Lu'lin y estallan hacia delante, lo que inflige 376 p. de daño de Escarcha al impactar. Mientras canaliza este efecto, su desvío de hechizos y ataques a distancia aumenta un 100%. Su probabilidad de esquivar también aumenta un 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7655,
+						"title": "Suen, señora de la ira",
+						"body_text": "Si Suen muere, el ocaso termina y comienza una nueva noche, lo que potencia totalmente a Lu'lin. Durante la noche, los lotos de luna vuelven a florecer y las bestias de pesadilla vuelven a aparecer.",
+						"sections": [
+							{
+								"id": 7656,
+								"title": "Infierno nuclear",
+								"body_text": "Suen canaliza un infierno nuclear que inflige 0 p. de daño a la banda cada 1 s.\r\n\r\nMientras canaliza este efecto, su desvío de hechizos y ataques a distancia aumenta un 100%. Su probabilidad de esquivar también aumenta un 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7651,
+				"title": "Ayuda celestial",
+				"sections": [
+					{
+						"id": 7657,
+						"title": "Niuzao: Entereza del buey",
+						"body_text": "Un jugador puede seleccionar la imagen desvaída de Niuzao para invocar su espíritu. Para ello, el jugador debe seguir los trazos de la constelación de Niuzao.\r\n\r\nCuando termine, Niuzao aparecerá y bendecirá a los jugadores con Entereza del buey, lo que aumenta temporalmente la salud máxima de todos los jugadores. Cuando el efecto expira, la salud se pierde. Este efecto dura 30 s.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47675?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47675
+						}
+					},
+					{
+						"id": 7658,
+						"title": "Chi-Ji: Carrera de grullas",
+						"body_text": "Un jugador puede seleccionar la imagen desvaída de Chi-Ji para invocar su espíritu. Para ello, el jugador debe seguir los trazos de la constelación de Chi-Ji.\r\n\r\nCuando termine, Chi-Ji aparecerá y arrasará el campo de batalla con sus grullas. Las grullas infligen 39739 p. de daño a los enemigos con los que entran en contacto.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47674?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47674
+						}
+					},
+					{
+						"id": 7659,
+						"title": "Yu'lon: Vitalidad del dragón",
+						"body_text": "Un jugador puede seleccionar la imagen desvaída de Yu'lon para invocar su espíritu. Para ello, el jugador debe seguir los trazos de la constelación de Yu'lon.\r\n\r\nCuando termine, Yu'lon aparecerá y fortalecerá a los jugadores de forma que regeneren 0 p. de salud y 0 p. de maná cada 1 s.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47676?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47676
+						}
+					},
+					{
+						"id": 7664,
+						"title": "Xuen: Celeridad del tigre",
+						"body_text": "Un jugador puede seleccionar la imagen desvaída de Xuen para invocar su espíritu. Para ello, el jugador debe seguir los trazos de la constelación de Xuen.\r\n\r\nCuando termine, Xuen aparecerá y aplicará Celeridad del tigre a los jugadores, lo que les permitirá moverse tan rápido que el tiempo se ralentizará. Esto afecta a la velocidad de movimiento, de lanzamiento y de proyectiles de todos los enemigos. Los jugadores podrán evitar facultades que de otra forma serían inevitables.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47672?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47672
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/362?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Solio del Trueno",
+			"id": 362
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 829,
+		"name": "Jumelles empyréennes",
+		"description": "Les jumelles empyréennes figurent parmi les plus redoutables champions du roi-tonnerre. Prêt à tout pour préserver son règne, Lei Shen s’entoure de fidèles farouchement déterminés à déployer leur arsenal combiné contre les éventuels intrus.",
+		"creatures": [
+			{
+				"id": 1569,
+				"name": "Lu’lin",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46975
+				}
+			},
+			{
+				"id": 1581,
+				"name": "Suen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 15864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur crépitant",
+					"id": 95879
+				}
+			},
+			{
+				"id": 15865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant crépitant",
+					"id": 95880
+				}
+			},
+			{
+				"id": 15866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur crépitant",
+					"id": 95881
+				}
+			},
+			{
+				"id": 15867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, éventail de lames des Empyréennes",
+					"id": 95791
+				}
+			},
+			{
+				"id": 15868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du lotus de lune",
+					"id": 95792
+				}
+			},
+			{
+				"id": 15869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir du feu passionnel",
+					"id": 95793
+				}
+			},
+			{
+				"id": 15870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier du désespoir jumelé",
+					"id": 95794
+				}
+			},
+			{
+				"id": 15871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, flèche du soleil couchant",
+					"id": 95795
+				}
+			},
+			{
+				"id": 15872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la comète de minuit",
+					"id": 95796
+				}
+			},
+			{
+				"id": 15873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du jour et de la nuit",
+					"id": 95797
+				}
+			},
+			{
+				"id": 15874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de la force des flots",
+					"id": 95798
+				}
+			},
+			{
+				"id": 15875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regard des concubines",
+					"id": 95799
+				}
+			},
+			{
+				"id": 15876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de jade lunaire",
+					"id": 95800
+				}
+			},
+			{
+				"id": 15877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Les doigts de la nuit",
+					"id": 95801
+				}
+			},
+			{
+				"id": 15734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de la force des flots",
+					"id": 94976
+				}
+			},
+			{
+				"id": 15735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de jade lunaire",
+					"id": 96544
+				}
+			},
+			{
+				"id": 15736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du lotus de lune",
+					"id": 94977
+				}
+			},
+			{
+				"id": 15737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regard des concubines",
+					"id": 94529
+				}
+			},
+			{
+				"id": 15738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Les doigts de la nuit",
+					"id": 96545
+				}
+			},
+			{
+				"id": 15739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du jour et de la nuit",
+					"id": 94978
+				}
+			},
+			{
+				"id": 15740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la comète de minuit",
+					"id": 94979
+				}
+			},
+			{
+				"id": 15741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir du feu passionnel",
+					"id": 94980
+				}
+			},
+			{
+				"id": 15742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Les doigts de la nuit",
+					"id": 94757
+				}
+			},
+			{
+				"id": 15743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de jade lunaire",
+					"id": 94981
+				}
+			},
+			{
+				"id": 15744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur crépitant",
+					"id": 96623
+				}
+			},
+			{
+				"id": 15745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant crépitant",
+					"id": 96624
+				}
+			},
+			{
+				"id": 15746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur crépitant",
+					"id": 96625
+				}
+			},
+			{
+				"id": 15747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur crépitant",
+					"id": 95571
+				}
+			},
+			{
+				"id": 15748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, éventail de lames des Empyréennes",
+					"id": 96535
+				}
+			},
+			{
+				"id": 15749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du lotus de lune",
+					"id": 96536
+				}
+			},
+			{
+				"id": 15750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir du feu passionnel",
+					"id": 96537
+				}
+			},
+			{
+				"id": 15751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant crépitant",
+					"id": 95577
+				}
+			},
+			{
+				"id": 15752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier du désespoir jumelé",
+					"id": 96538
+				}
+			},
+			{
+				"id": 15753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier du désespoir jumelé",
+					"id": 95515
+				}
+			},
+			{
+				"id": 15754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, flèche du soleil couchant",
+					"id": 96539
+				}
+			},
+			{
+				"id": 15755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la comète de minuit",
+					"id": 96540
+				}
+			},
+			{
+				"id": 15756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, éventail de lames des Empyréennes",
+					"id": 94973
+				}
+			},
+			{
+				"id": 15757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du jour et de la nuit",
+					"id": 96541
+				}
+			},
+			{
+				"id": 15758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur crépitant",
+					"id": 95582
+				}
+			},
+			{
+				"id": 15759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, flèche du soleil couchant",
+					"id": 94974
+				}
+			},
+			{
+				"id": 15760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de la force des flots",
+					"id": 96542
+				}
+			},
+			{
+				"id": 15761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regard des concubines",
+					"id": 96543
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7641,
+				"title": "Tombée de la nuit : Luminosité de Lu’lin",
+				"body_text": "À l’heure où la nuit tombe sur la chambre des jumelles empyréennes, la puissance de Lu’lin est renforcée tandis que Suen joue un rôle plus limité.",
+				"sections": [
+					{
+						"id": 7629,
+						"title": "Lu’lin, maîtresse de la solitude",
+						"sections": [
+							{
+								"id": 7630,
+								"title": "Lotus de lune",
+								"body_text": "Lu’lin fait pousser un ravissant Lotus de lune qui lance des Spores de sommeil dans toutes les directions. Tout personnage-joueur qui entre en contact avec un Spore de sommeil s’endort pendant 5 s.\r\n\r\nCet effet ne peut avoir lieu que dans l’obscurité. Pendant le crépuscule et la journée, le Lotus de lune sera toujours présent, mais ne fleurira pas."
+							},
+							{
+								"id": 7631,
+								"title": "Barrage cosmique",
+								"body_text": "Lu’lin danse sur place et invoque un barrage d’étoiles. Une fois sa danse terminée, elle ordonne aux étoiles d’attaquer. Chaque étoile choisit un personnage-joueur au hasard et s’écrase dessus, ce qui inflige 0 points de dégâts des Arcanes à tous les personnages-joueurs se trouvant à moins de 8 mètres de la cible et les fait tomber à la renverse.\r\n\r\nCet effet ne se produit que dans l’obscurité."
+							},
+							{
+								"id": 7634,
+								"title": "Bête des cauchemars",
+								"body_text": "Lu’lin fait apparaître une bête issue des cauchemars de la cible et lui ordonne d’attaquer. La bête ne peut être attaquée que par la cible à laquelle elle est associée. Si la cible reçoit des soins, elle déclenche Soins corrompus.\r\n\r\nCe effet ne peut avoir lieu que dans l’obscurité. Pendant le crépuscule et la journée, il est toujours possible d’attaquer la bête, mais aucune nouvelle bête ne sera invoquée.",
+								"sections": [
+									{
+										"id": 7635,
+										"title": "Soins corrompus",
+										"body_text": "Le fait de soigner la cible de Bête des cauchemars corrompt le soigneur et lui inflige 248 dégâts d’Ombre toutes les 1 s. Cet effet peut se cumuler."
+									}
+								]
+							},
+							{
+								"id": 7636,
+								"title": "Rôdeurs dans l’ombre",
+								"body_text": "Lu’lin invoque les Rôdeurs dans l’ombre, qui submergent de ténèbres des cibles au hasard, leur infligeant 379 points de dégâts d’Ombre.\r\n\r\nExposer les rôdeurs à la lumière du jour de Suen pendant qu’elle canalise les Larmes du soleil permet de les révéler, et par conséquent de les attaquer et de les tuer. Ils deviennent également visibles de façon naturelle au crépuscule et durant la journée.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/43281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 43281
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7642,
+						"title": "Suen, maîtresse de la colère",
+						"sections": [
+							{
+								"id": 7643,
+								"title": "Larmes du soleil",
+								"body_text": "Suen apparaît brièvement pendant la nuit pour attaquer les personnages-joueurs et canaliser les Larmes du soleil. Les Larmes du soleil infligent 0 points de dégâts de Feu à des personnages-joueurs choisis au hasard pendant toute la durée de la canalisation.\r\n\r\nAprès avoir fini de canaliser les Larmes du soleil, elle se dissipe dans la nuit."
+							},
+							{
+								"id": 7644,
+								"title": "Lumière du jour",
+								"body_text": "Suen apparaît brièvement pendant la nuit pour lancer un rayon de soleil sur un personnage-joueur choisi au hasard, ce qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant à moins de 8 mètres de sa cible.\r\n\r\nElle se dissipe ensuite dans la nuit. La Lumière du jour fait fondre instantanément toute Comète de glace avec laquelle elle entre en contact."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7645,
+				"title": "Jour flamboyant : Fureur de Suen",
+				"body_text": "À l’heure où l’aube se lève sur la chambre des jumelles empyréennes, la puissance de Suen est renforcée tandis que Lu’lin joue un rôle plus limité.",
+				"sections": [
+					{
+						"id": 7632,
+						"title": "Suen, maîtresse de la colère",
+						"sections": [
+							{
+								"id": 7637,
+								"title": "Éventail de flammes",
+								"body_text": "Suen découpe rapidement sa cible avec un éventail de flammes, lui infligeant un montant de dégâts de Feu égal aux dégâts de l’arme et augmentant les dégâts que lui inflige le Feu de 25% pendant 30 s.\r\n\r\nSuen n’utilisera cette technique que pendant la journée."
+							},
+							{
+								"id": 7638,
+								"title": "Flammes de la passion",
+								"body_text": "Suen saute sur une cible éloignée choisie au hasard, ce qui inflige 0 points de dégâts de Feu et fait tomber à la renverse tous les ennemis proches. Elle laissera une traînée de flammes persistantes en retournant vers sa cible principale."
+							},
+							{
+								"id": 7646,
+								"title": "Radiance incandescente",
+								"body_text": "Suen brûle ardemment pendant la journée, ce qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs toutes les 2 s. La libération de cette énergie entraîne un effet cumulatif à chaque pulsation, augmentant de 5% les dégâts infligés par les attaques de Feu de Suen.\r\n\r\nRadiance incandescente fait fondre les Comètes de glace. Plus Suen est proche d’une Comète de glace, plus cette dernière fond rapidement. Cependant, la proximité avec une Comète de glace réduit les charges de Radiance incandescente sur Suen."
+							},
+							{
+								"id": 7647,
+								"title": "Lumière du jour",
+								"body_text": "Suen lance un rayon de soleil sur une cible choisie au hasard, ce qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant à moins de 8 mètres de la cible.\r\n\r\n"
+							},
+							{
+								"id": 7652,
+								"title": "Inferno nucléaire",
+								"body_text": "Suen canalise un Inferno nucléaire, ce qui irradie le raid pour 0 points de dégâts toutes les 1 s.\r\n\r\nPendant qu’elle canalise cet effet, ses déviations des sorts et des attaques à distance sont augmentées de 100%. Ses chances d’esquiver sont également augmentées de 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					},
+					{
+						"id": 7648,
+						"title": "Lu’lin, maîtresse de la solitude",
+						"sections": [
+							{
+								"id": 7649,
+								"title": "Comète de glace",
+								"body_text": "Lu’lin sort brièvement de son voile de ténèbres et fait apparaître une Comète de glace autour d’un personnage-joueur choisi au hasard. Le souffle gelé inflige 0 points de dégâts de Givre à tous les ennemis se trouvant à moins de 6 mètres de la cible et laisse une Comète de glace à sa place.\r\n\r\nDe plus, les Comètes de glace réduisent les charges de Radiance incandescente sur Suen si elle se trouve à proximité.",
+								"sections": [
+									{
+										"id": 7650,
+										"title": "Ombres glaciales",
+										"body_text": "La Comète de glace masque la lumière et projette une ombre profonde derrière elle. Les personnages qui se trouvent dans les Ombres glaciales voient les dégâts de Feu qu’ils subissent réduits de 80%.\r\n\r\nDe plus, les comètes de glace réduisent la vitesse d’attaque en mêlée et à distance ainsi que la vitesse d’incantation de 75%."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					}
+				]
+			},
+			{
+				"id": 7633,
+				"title": "Tombée du crépuscule : La danse des Empyréennes",
+				"body_text": "Pendant le crépuscule, les deux Jumelles sont actives. Chacune conserve certaines techniques et obtient les suivantes.",
+				"sections": [
+					{
+						"id": 7653,
+						"title": "Lu’lin, maîtresse de la solitude",
+						"body_text": "Si Lu’lin meurt, le Crépuscule se termine, et la Lumière du jour brille de nouveau, renforçant les pouvoirs de Suen. Pendant la journée, Suen brille de nouveau d’une Radiance incandescente.",
+						"sections": [
+							{
+								"id": 7654,
+								"title": "Force des flots",
+								"body_text": "Des eaux glacées protectrices entourent Lu’lin et explosent, ce qui inflige 378 points de dégâts de Givre en cas d’impact. Pendant que Lu’lin canalise cet effet, ses déviations des sorts et des attaques à distance sont augmentées de 100%. Ses chances d’esquiver sont également augmentées de 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7655,
+						"title": "Suen, maîtresse de la colère",
+						"body_text": "Si Suen meurt, le Crépuscule se termine, et la Nuit tombe, renforçant les pouvoirs de Lu’lin. Pendant la Nuit, les Lotus de lune fleurissent de nouveau et les bêtes des cauchemars réapparaissent.",
+						"sections": [
+							{
+								"id": 7656,
+								"title": "Inferno nucléaire",
+								"body_text": "Suen canalise un Inferno nucléaire, ce qui irradie le raid pour 0 points de dégâts toutes les 1 secondes.\r\n\r\nPendant qu’elle canalise cet effet, ses déviations des sorts et des attaques à distance sont augmentées de 100%. Ses chances d’esquiver sont également augmentées de 100%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7651,
+				"title": "Aide des Astres",
+				"sections": [
+					{
+						"id": 7657,
+						"title": "Niuzao : la robustesse du Buffle",
+						"body_text": "Un personnage-joueur peut choisir d'invoquer l'esprit de Niuzao en sélectionnant son image estompée. Il doit alors tracer la constellation de Niuzao.\r\n\r\nUne fois l'invocation terminée, Niuzao apparaît et bénit les personnages-joueurs avec la robustesse du Buffle qui leur confère temporairement à tous un maximum de points de vie accru. Lorsque l’effet prend fin, les points de vie supplémentaires sont perdus. Cet effet dure 30 s.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47675?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47675
+						}
+					},
+					{
+						"id": 7658,
+						"title": "Chi Ji : une ruée de Grues",
+						"body_text": "Un personnage-joueur peut choisir d'invoquer l'esprit de Chi Ji en sélectionnant son image estompée. Il doit alors tracer la constellation de Chi Ji.\r\n\r\nUne fois l'invocation terminée, Chi Ji apparaît et envahit le champ de bataille avec des grues. Ces dernières infligent 39739 points de dégâts aux ennemis avec qui elles entrent en contact.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47674?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47674
+						}
+					},
+					{
+						"id": 7659,
+						"title": "Yu’lon : la vitalité du Serpent",
+						"body_text": "Un personnage-joueur peut choisir d’invoquer l’esprit de Yu’lon en sélectionnant son image estompée. Il doit alors tracer la constellation de Yu’lon.\r\n\r\nUne fois l’invocation terminée, Yu’lon apparaît et insuffle de la vie aux personnages-joueurs, leur permettant de régénérer 0 points de vie et 0 points de mana toutes les 1 s.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47676?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47676
+						}
+					},
+					{
+						"id": 7664,
+						"title": "Xuen : la célérité du Tigre",
+						"body_text": "Un personnage-joueur peut choisir d'invoquer l'esprit de Xuen en sélectionnant son image estompée. Il doit alors tracer la constellation de Xuen.\r\n\r\nUne fois l'invocation terminée, Xuen apparaît et imprègne les personnages-joueurs de la célérité du Tigre. Ces derniers se déplacent si vite que le temps ralentit, ce qui affecte les vitesses de déplacement et d'incantation de tous les ennemis, ainsi que la vitesse de leurs projectiles. Les personnages-joueurs peuvent se soustraire à des techniques auparavant impossibles à éviter.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47672?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47672
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/362?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Trône du tonnerre",
+			"id": 362
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 829,
+		"name": "Twin Empyreans",
+		"description": "The Twin Empyreans are among the most formidable of the Thunder King's champions. Determined to safeguard his reign, Lei Shen keeps his loyalists close and their combined arsenal against interlopers closer.",
+		"creatures": [
+			{
+				"id": 1569,
+				"name": "Lu'lin",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46975
+				}
+			},
+			{
+				"id": 1581,
+				"name": "Suen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 46974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 15864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Vanquisher",
+					"id": 95879
+				}
+			},
+			{
+				"id": 15865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Conqueror",
+					"id": 95880
+				}
+			},
+			{
+				"id": 15866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Protector",
+					"id": 95881
+				}
+			},
+			{
+				"id": 15867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, Bladed Fan of the Empyreans",
+					"id": 95791
+				}
+			},
+			{
+				"id": 15868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Moon Lotus",
+					"id": 95792
+				}
+			},
+			{
+				"id": 15869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Passionfire Choker",
+					"id": 95793
+				}
+			},
+			{
+				"id": 15870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shield of Twinned Despair",
+					"id": 95794
+				}
+			},
+			{
+				"id": 15871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, Spire of the Falling Sun",
+					"id": 95795
+				}
+			},
+			{
+				"id": 15872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Midnight Comet",
+					"id": 95796
+				}
+			},
+			{
+				"id": 15873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of Night and Day",
+					"id": 95797
+				}
+			},
+			{
+				"id": 15874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tidal Force Treads",
+					"id": 95798
+				}
+			},
+			{
+				"id": 15875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gaze of the Twins",
+					"id": 95799
+				}
+			},
+			{
+				"id": 15876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moonjade Necklace",
+					"id": 95800
+				}
+			},
+			{
+				"id": 15877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of the Night",
+					"id": 95801
+				}
+			},
+			{
+				"id": 15734,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tidal Force Treads",
+					"id": 94976
+				}
+			},
+			{
+				"id": 15735,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moonjade Necklace",
+					"id": 96544
+				}
+			},
+			{
+				"id": 15736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Moon Lotus",
+					"id": 94977
+				}
+			},
+			{
+				"id": 15737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gaze of the Twins",
+					"id": 94529
+				}
+			},
+			{
+				"id": 15738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of the Night",
+					"id": 96545
+				}
+			},
+			{
+				"id": 15739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of Night and Day",
+					"id": 94978
+				}
+			},
+			{
+				"id": 15740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94979?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Midnight Comet",
+					"id": 94979
+				}
+			},
+			{
+				"id": 15741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94980?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Passionfire Choker",
+					"id": 94980
+				}
+			},
+			{
+				"id": 15742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of the Night",
+					"id": 94757
+				}
+			},
+			{
+				"id": 15743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moonjade Necklace",
+					"id": 94981
+				}
+			},
+			{
+				"id": 15744,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Vanquisher",
+					"id": 96623
+				}
+			},
+			{
+				"id": 15745,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Conqueror",
+					"id": 96624
+				}
+			},
+			{
+				"id": 15746,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Protector",
+					"id": 96625
+				}
+			},
+			{
+				"id": 15747,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Vanquisher",
+					"id": 95571
+				}
+			},
+			{
+				"id": 15748,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, Bladed Fan of the Empyreans",
+					"id": 96535
+				}
+			},
+			{
+				"id": 15749,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Moon Lotus",
+					"id": 96536
+				}
+			},
+			{
+				"id": 15750,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Passionfire Choker",
+					"id": 96537
+				}
+			},
+			{
+				"id": 15751,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95577?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Conqueror",
+					"id": 95577
+				}
+			},
+			{
+				"id": 15752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shield of Twinned Despair",
+					"id": 96538
+				}
+			},
+			{
+				"id": 15753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shield of Twinned Despair",
+					"id": 95515
+				}
+			},
+			{
+				"id": 15754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, Spire of the Falling Sun",
+					"id": 96539
+				}
+			},
+			{
+				"id": 15755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96540?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Midnight Comet",
+					"id": 96540
+				}
+			},
+			{
+				"id": 15756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wu-Lai, Bladed Fan of the Empyreans",
+					"id": 94973
+				}
+			},
+			{
+				"id": 15757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of Night and Day",
+					"id": 96541
+				}
+			},
+			{
+				"id": 15758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95582?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Crackling Protector",
+					"id": 95582
+				}
+			},
+			{
+				"id": 15759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Suen-Wo, Spire of the Falling Sun",
+					"id": 94974
+				}
+			},
+			{
+				"id": 15760,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tidal Force Treads",
+					"id": 96542
+				}
+			},
+			{
+				"id": 15761,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/96543?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gaze of the Twins",
+					"id": 96543
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7641,
+				"title": "Darkness Falls: Lu'lin's Luminosity",
+				"body_text": "As Night falls upon the Twin Empyreans' chamber, Lu'lin is empowered and fully active, while Suen plays a more limited role.",
+				"sections": [
+					{
+						"id": 7629,
+						"title": "Lu'lin, Mistress of Solitude",
+						"sections": [
+							{
+								"id": 7630,
+								"title": "Moon Lotus",
+								"body_text": "Lu'lin sprouts a lovely Moon Lotus, which casts Slumber Spores in each direction. Coming into contact with Slumber Spores puts the player to sleep for 5 sec.\r\n\r\nThis effect may only occur in darkness. During dusk or daytime, the Moon Lotus will remain but no longer bloom."
+							},
+							{
+								"id": 7631,
+								"title": "Cosmic Barrage",
+								"body_text": "Lu'lin dances in place, summoning a barrage of stars. At the end of her dance, she commands the stars to attack. Each star selects a random player and crash down upon them, inflicting 0 Arcane damage to all players within 8 yards of the target, knocking them back.\r\n\r\nThis effect may only occur in darkness."
+							},
+							{
+								"id": 7634,
+								"title": "Beast of Nightmares",
+								"body_text": "Lul'lin pulls a beast from her target's Nightmares, commanding it to attack! This beast may only be attacked by the target on whom it is fixated. Healing this target will cause the Corrupted Healing effect.\r\n\r\nThis effect may only occur in darkness. During dusk or daytime the target may still attack the beast, but no new beasts will be summoned.",
+								"sections": [
+									{
+										"id": 7635,
+										"title": "Corrupted Healing",
+										"body_text": "Healing the target of the Beast of Nightmares corrupts the healer, inflicting 248 Shadow damage every 1 sec. This effect stacks."
+									}
+								]
+							},
+							{
+								"id": 7636,
+								"title": "Lurkers in the Night",
+								"body_text": "Lu'lin calls forth the Lurkers of the Night. Lurkers barrage random targets with darkness, inflicting 377 Shadow damage.\r\n\r\nExposing Lurkers to Suen's daylight while she is channeling Tears of the Sun will reveal them, allowing them to be attacked and killed. They will also naturally become visible during dusk and daytime.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/43281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 43281
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7642,
+						"title": "Suen, Mistress of Anger",
+						"sections": [
+							{
+								"id": 7643,
+								"title": "Tears of the Sun",
+								"body_text": "Suen appears briefly during the night, attacking players and channeling the Tears of the Sun. Tears of the Sun inflicts 0 Fire damage to random players over the course of the channel.\r\n\r\nAfter she finishes channeling Tears of the Sun, she will dissipate into the night."
+							},
+							{
+								"id": 7644,
+								"title": "Light of Day",
+								"body_text": "Suen appears briefly during the night, beaming a ray of sunlight at a random player, inflicting 0 Fire damage to all players within 8 yards of the target.\r\n\r\nShe will then dissipate into the night. Light of Day will instantly melt any Ice Comets with which it comes into contact."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7645,
+				"title": "Blazing Daylight: Suen's Fury",
+				"body_text": "As Day breaks within the Twin Empyreans' chamber, Suen is empowered and fully active, while Lu'lin plays a more limited role.",
+				"sections": [
+					{
+						"id": 7632,
+						"title": "Suen, Mistress of Anger",
+						"sections": [
+							{
+								"id": 7637,
+								"title": "Fan of Flames",
+								"body_text": "Suen slices rapidly at her target with a burning fan, inflicting weapon damage as Fire and increasing the amount of Fire damage taken by 25% for 30 sec.\r\n\r\nSuen will only use this ability during daytime."
+							},
+							{
+								"id": 7638,
+								"title": "Flames of Passion",
+								"body_text": "Suen leaps at a random distant target, inflicting 0 Fire damage and knocking all nearby enemies away. She will leave a lingering trail of flames as she returns to her primary target."
+							},
+							{
+								"id": 7646,
+								"title": "Blazing Radiance",
+								"body_text": "Suen burns brightly during the day, inflicting 0 Fire damage to all players every 2 sec. Releasing this energy will cause a stacking effect every time it pulses, increasing the damage dealt by Suen's Fire attacks by 5%.\r\n\r\nBlazing Radiance will melt Ice Comets. The closer Suen is to an Ice Comet, the more quickly it will melt. However, standing very close to an Ice Comet will decrement stacks of Blazing Radiance on Suen."
+							},
+							{
+								"id": 7647,
+								"title": "Light of Day",
+								"body_text": "Suen beams a ray of sunlight at a random player, inflicting 0 Fire damage to all players within 8 yards of the target.\r\n\r\n"
+							},
+							{
+								"id": 7652,
+								"title": "Nuclear Inferno",
+								"body_text": "Suen channels a nuclear inferno, blasting the raid for 0 damage every 1 sec.\r\n\r\nWhile she is channeling this effect, her ranged and spell deflection is increased by 100%. Her dodge chance is increased by 100% as well."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					},
+					{
+						"id": 7648,
+						"title": "Lu'lin, Mistress of Solitude",
+						"sections": [
+							{
+								"id": 7649,
+								"title": "Ice Comet",
+								"body_text": "Lu'lin peers briefly from her veil of darkness, calling forth an Ice Comet around a random player. The frozen blast inflicts 0 Frost damage to all enemies within 6 yards of the target, leaving an Ice Comet in its place.\r\n\r\nAdditionally, Ice Comets will reduce stacks of Blazing Radiance on Suen if she stands nearby.",
+								"sections": [
+									{
+										"id": 7650,
+										"title": "Icy Shadows",
+										"body_text": "Ice Comet block the light, casting deep shadows behind them. Players who stand in Icy Shadows have their Fire damage taken reduced by 80%.\r\n\r\nAdditionally, ice comets reduce melee, ranged, and casting speed by 75%."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					}
+				]
+			},
+			{
+				"id": 7633,
+				"title": "Break of Dusk: The Dance of the Empyreans",
+				"body_text": "During the Dusk, both Twins are active, each retaining some of their abilities, and gaining the following new abilities.",
+				"sections": [
+					{
+						"id": 7653,
+						"title": "Lu'lin, Mistress of Solitude",
+						"body_text": "If Lu'lin perishes, Dusk ends and Day begins anew, fully empowering Suen. During Day, Suen once again burns brightly with Blazing Radiance.",
+						"sections": [
+							{
+								"id": 7654,
+								"title": "Tidal Force",
+								"body_text": "Protective icy waters encase Lu'lin and burst outwards, inflicting 384 Frost damage on impact. While she is channeling this effect, her ranged and spell deflection is increased by 100%. Her dodge chance is increased by 100% as well."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46975?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46975
+						}
+					},
+					{
+						"id": 7655,
+						"title": "Suen, Mistress of Anger",
+						"body_text": "If Suen perishes, Dusk ends and Night begins anew, fully empowering Lu'lin. During Night, Moon Lotuses once again bloom, and Beasts of Nightmares once again spawn.",
+						"sections": [
+							{
+								"id": 7656,
+								"title": "Nuclear Inferno",
+								"body_text": "Suen channels a nuclear inferno, blasting the raid for 0 damage every 1 sec.\r\n\r\nWhile she is channeling this effect, her ranged and spell deflection is increased by 100%. Her dodge chance is increased by 100% as well."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46974
+						}
+					}
+				]
+			},
+			{
+				"id": 7651,
+				"title": "Celestial Aid",
+				"sections": [
+					{
+						"id": 7657,
+						"title": "Niuzao: Fortitude of the Ox",
+						"body_text": "A player may choose to invoke the spirit of Niuzao by selecting his faded image. Upon doing so, the player must trace Niuzao's constellation.\r\n\r\nUpon completion, Niuzao appears and blesses players with Fortitude of the Ox, which temporarily grants all players additional maximum health.  After the effect expires, the health is lost. This effect lasts 30 sec.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47675?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47675
+						}
+					},
+					{
+						"id": 7658,
+						"title": "Chi-Ji: A Rush of Cranes",
+						"body_text": "A player may choose to invoke the spirit of Chi-Ji by selecting his faded image. Upon doing so, the player must trace Chi-Ji's constellation.\r\n\r\nUpon completion, Chi-Ji appears and swarms the battlefield with cranes. These cranes inflict 39,739 damage to enemies with which they come into contact.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47674?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47674
+						}
+					},
+					{
+						"id": 7659,
+						"title": "Yu'lon: The Serpent's Vitality",
+						"body_text": "A player may choose to invoke the spirit of Yu'lon by selecting her faded image. Upon doing so, the player must trace Yu'lon's constellation.\r\n\r\nUpon completion, Yu'lon appears and breathes life into players, causing them to regenerate 0 health and 0 mana every 1 sec.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47676?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47676
+						}
+					},
+					{
+						"id": 7664,
+						"title": "Xuen: The Tiger's Celerity",
+						"body_text": "A player may choose to invoke the spirit of Xuen by selecting his faded image. Upon doing so, the player must trace Xuen's constellation.\r\n\r\nUpon completion, Xuen appears and imbues players with Tiger's Celerity. Blessed players move so quickly that time itself seems to slow down, affecting the movement, casting, and projectile speed of all enemies. Players will be able to avoid abilities that were previously unavoidable.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47672?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 47672
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/362?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Throne of Thunder",
+			"id": 362
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

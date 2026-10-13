@@ -66,9 +66,13 @@ enc["2888"] = "213217,213216"; -- Master Machinists (Brokk y Dorlita)
 enc["2883"] = "213119"; -- Void Speaker Eirich
 enc["2880"] = "210156"; -- Skarmorak
 
+-- Operation: Floodgate (2773) — Geezle (remaster: el NPC live de DBM es 236950,
+-- el del GUID/BigWigs es 226404; los dos van de candidatos, el primero tiene entrada)
+enc["3054"] = "226404,236950"; -- Geezle Gigazap
+
 -- Pendientes (sin entrada en el pack; el modo depuración los anotará):
 --   Goldie Baronbottom (ENC 2930, CID de DBM 218523; nuestra entrada es
---   214661, pendiente de confirmar), Geez Nuts (ENC 3054, CID 236950) y
+--   214661, pendiente de confirmar) y
 --   los delves de TWW: Underpin's Lair (3126/3138), Voidrazor Sanctuary
 --   (3326/3325), Zekvir's Lair (2987/2985).
 

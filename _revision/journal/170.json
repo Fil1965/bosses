@@ -1,0 +1,1356 @@
+{
+	"id": 170,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/170?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 170,
+		"name": "Faucemagma",
+		"description": "Faucemagma es un gusano de lava colosal que invocaron hace siglos, de las Tierras de Fuego, los servidores Hierro Negro de Ragnaros. Nefarian considera a Faucemagma una molestia preocupante, pero ha acabado gustándole alimentar a la bestia con experimentos fallidos... y sirvientes.",
+		"creatures": [
+			{
+				"id": 593,
+				"name": "Faucemagma",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37993
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de Rabieta de arrabio",
+					"id": 59328
+				}
+			},
+			{
+				"id": 10097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles parasitados",
+					"id": 59329
+				}
+			},
+			{
+				"id": 10098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuerza letal",
+					"id": 59331
+				}
+			},
+			{
+				"id": 10099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus la Partegusanos",
+					"id": 59492
+				}
+			},
+			{
+				"id": 10100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gusano simbiótico",
+					"id": 59332
+				}
+			},
+			{
+				"id": 10101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espina de lava",
+					"id": 59333
+				}
+			},
+			{
+				"id": 10102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de ciclo de vida",
+					"id": 59334
+				}
+			},
+			{
+				"id": 10103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jubón de gusanitos agostado",
+					"id": 59335
+				}
+			},
+			{
+				"id": 10104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de pilar de llamas",
+					"id": 59336
+				}
+			},
+			{
+				"id": 10105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de llamas vengadoras",
+					"id": 59340
+				}
+			},
+			{
+				"id": 10106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incineratus",
+					"id": 59341
+				}
+			},
+			{
+				"id": 10107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus la Partegusanos",
+					"id": 65007
+				}
+			},
+			{
+				"id": 10108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incineratus",
+					"id": 65041
+				}
+			},
+			{
+				"id": 10109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de llamas vengadoras",
+					"id": 65042
+				}
+			},
+			{
+				"id": 10110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de pilar de llamas",
+					"id": 65044
+				}
+			},
+			{
+				"id": 10111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jubón de gusanitos agostado",
+					"id": 65045
+				}
+			},
+			{
+				"id": 10112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de ciclo de vida",
+					"id": 65046
+				}
+			},
+			{
+				"id": 10113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65047?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espina de lava",
+					"id": 65047
+				}
+			},
+			{
+				"id": 10114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gusano simbiótico",
+					"id": 65048
+				}
+			},
+			{
+				"id": 10115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65049?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuerza letal",
+					"id": 65049
+				}
+			},
+			{
+				"id": 10116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles parasitados",
+					"id": 65050
+				}
+			},
+			{
+				"id": 10117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de Rabieta de arrabio",
+					"id": 65051
+				}
+			},
+			{
+				"id": 10118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de aguas ardientes",
+					"id": 59452
+				}
+			},
+			{
+				"id": 10119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de aguas ardientes",
+					"id": 65020
+				}
+			},
+			{
+				"id": 37909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del conquistador desolado",
+					"id": 67429
+				}
+			},
+			{
+				"id": 37910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del vencedor desolado",
+					"id": 67431
+				}
+			},
+			{
+				"id": 37911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del protector desolado",
+					"id": 67430
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3310,
+				"title": "Flema de magma",
+				"body_text": "Faucemagma escupe una salva de magma a 3 jugadores aleatorios que inflige 0 p. de daño de Fuego a cada uno."
+			},
+			{
+				"id": 3311,
+				"title": "Columna de llamas",
+				"body_text": "Faucemagma descarga pegotes de magma enturbiado contra el suelo bajo los pies de un jugador aleatorio. Los impactos rompen el suelo y provocan erupciones que lanzan por los aires a los jugadores en un radio de 5 m, lo que inflige 0 p. de daño de Fuego cada 0,5 s y engendra varios parásitos de lava.",
+				"sections": [
+					{
+						"id": 3312,
+						"title": "Parásito de lava",
+						"body_text": "Estas lentas criaturas se entierran en los cuerpos de los jugadores cuando atacan, lo que hace que infecten a su nuevo huésped.",
+						"sections": [
+							{
+								"id": 3313,
+								"title": "Infección parasitaria",
+								"body_text": "Metido en las carnes de un jugador, el parásito de lava inflige 0 p. de daño cada 2 s, durante 10 s. Una vez completada la infección, el jugador vomitará el parásito, que iniciará la búsqueda de un nuevo anfitrión."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37456?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37456
+						}
+					}
+				]
+			},
+			{
+				"id": 3316,
+				"title": "Vómito de lava",
+				"body_text": "Faucemagma escupe una corriente de lava fundida entre todos los jugadores, lo que inflige 0 p. de daño de Fuego cada 2 s durante 6 s."
+			},
+			{
+				"id": 3317,
+				"title": "Rabieta de arrabio",
+				"body_text": "Si en algún momento Faucemagma no es capaz de alcanzar a algún enemigo con sus ataques cuerpo a cuerpo, entra en frenesí, dispara Flema de magma a todos los jugadores y aumenta su daño de Fuego infligido un 100% durante 10 s. Este efecto se acumula."
+			},
+			{
+				"id": 3314,
+				"title": "Destrozar",
+				"body_text": "Faucemagma atrapa a su objetivo actual en sus mandíbulas y le inflige 0 p. de daño cada 2 s. La víctima queda aplastada tras 30 s. Empalar a Faucemagma hará que suelte a su presa.",
+				"sections": [
+					{
+						"id": 3315,
+						"title": "Armadura sofocante",
+						"body_text": "Las mandíbulas ígneas de Faucemagma funden la armadura del jugador objetivo de Destrozar, lo que la reduce un 50% durante 1,5 min."
+					}
+				]
+			},
+			{
+				"id": 3318,
+				"title": "Colisión monumental",
+				"body_text": "Faucemagma golpea con todo su cuerpo una mitad de la sala, lo que inflige 0 p. de daño a todos los jugadores que atrapa debajo y los aturde durante 3 s. Faucemagma también queda aturdido brevemente tras realizar Colisión monumental, lo que permite a dos jugadores saltar a sus tenazas."
+			},
+			{
+				"id": 3319,
+				"title": "Arrastre de gusanos de lava",
+				"body_text": "Inmediatamente después de que Faucemagma lance Colisión monumental, surge una oportunidad durante la que los jugadores pueden saltar sobre sus tenazas. Desde esa posición ventajosa, pueden atar cadenas a la púa que sobresale del suelo frente al gusano, lo que lo arrastra para atarlo a la púa.",
+				"sections": [
+					{
+						"id": 3320,
+						"title": "Lanzar gancho",
+						"body_text": "Los jugadores que se hayan subido a las tenazas de Faucemagma pueden lanzar un gancho a la púa que hay frente al gusano. Si se engancha, encadena a Faucemagma a la púa durante 3 s, tras lo que Faucemagma se liberará de una sola cadena que lo apresa, pero si el jugador engancha una segunda cadena a la púa, Faucemagma quedará encadenado y empalado en la púa."
+					},
+					{
+						"id": 3321,
+						"title": "Punto vulnerable",
+						"body_text": "Cuando Faucemagma está empalado en el pincho, los jugadores pueden atacar a su cabeza desprotegida y desarmada. Atacar a la cabeza desprotegida aumenta un 100% el daño infligido. Faucemagma se libera del pincho tras 30 s."
+					}
+				]
+			},
+			{
+				"id": 3322,
+				"title": "Lord Victor Nefarius",
+				"body_text": "En dificultad heroica, lord Nefarius llega para ver cómo luchan los aventureros con su mascota y para frustrar sus intentos de derrotarla.",
+				"sections": [
+					{
+						"id": 3323,
+						"title": "Inferno llameante",
+						"body_text": "Lord Nefarius invoca un meteorito de huesos y fuego en el suelo bajo un jugador aleatorio. El meteorito inflige 0 p. de daño de Fuego a los jugadores en un radio de 4 m, lo que los derriba. La explosión crea un ensamblaje de huesos llameantes y enciende la ignición de llamas veloces en una espiral alrededor del punto de impacto.",
+						"sections": [
+							{
+								"id": 3324,
+								"title": "Ignición",
+								"body_text": "El inferno llameante crea zonas en llamas que se mueven alrededor del punto de impacto, lo que inflige 0 p. de daño de Fuego cada 1 s a todos los jugadores en un radio de 2 m de ellos. Las llamas de Ignición se disipan tras 1 min."
+							},
+							{
+								"id": 3325,
+								"title": "Ensamblaje de huesos llameantes",
+								"body_text": "El Inferno llameante de lord Nefarius crea un solo ensamblaje esquelético llameante.",
+								"sections": [
+									{
+										"id": 3326,
+										"title": "Tajo ígneo",
+										"body_text": "El ensamblaje golpea a su enemigo con sus garras ígneas, lo que inflige un 75% del daño cuerpo a cuerpo normal como daño de Fuego."
+									},
+									{
+										"id": 3327,
+										"title": "Armagedón",
+										"body_text": "Al alcanzar un 20% de salud, el ensamblaje de huesos llameantes se prepara para autodestruirse. Al terminar, el ensamblaje desencadena un Armagedón que inflige 386 p. de daño de Fuego a todos los jugadores."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37397?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37397
+								}
+							}
+						]
+					},
+					{
+						"id": 3328,
+						"title": "Aliento sombrío",
+						"body_text": "Cuando la Faucemagma alcanza el 30% de salud, lord Nefarius empieza a atacar directamente a los jugadores. Lanza salvas de llamas sombrías a jugadores aleatorios. Aliento sombrío inflige 0 p. de daño de las Sombras a todos los jugadores en un radio de 5 m de su objetivo."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32440?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32440
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/170?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 170,
+		"name": "Magmagueule",
+		"description": "Magmagueule est un colossal ver de lave invoqué depuis les terres de Feu il y a des siècles par les serviteurs sombrefer de Ragnaros. Nefarian le considère généralement comme un nuisible inquiétant, mais a fini par aimer nourrir la bête de ses expériences ratées... et serviteurs.",
+		"creatures": [
+			{
+				"id": 593,
+				"name": "Magmagueule",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37993
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de colère de la fournaise",
+					"id": 59328
+				}
+			},
+			{
+				"id": 10097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignets parasites",
+					"id": 59329
+				}
+			},
+			{
+				"id": 10098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de force mortelle",
+					"id": 59331
+				}
+			},
+			{
+				"id": 10099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus le Briseur de ver",
+					"id": 59492
+				}
+			},
+			{
+				"id": 10100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ver symbiotique",
+					"id": 59332
+				}
+			},
+			{
+				"id": 10101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eperon de lave",
+					"id": 59333
+				}
+			},
+			{
+				"id": 10102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle du cycle de la vie",
+					"id": 59334
+				}
+			},
+			{
+				"id": 10103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gilet de vermelin brûlé",
+					"id": 59335
+				}
+			},
+			{
+				"id": 10104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du pilier de flammes",
+					"id": 59336
+				}
+			},
+			{
+				"id": 10105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de la flamme vengeresse",
+					"id": 59340
+				}
+			},
+			{
+				"id": 10106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incinératrice",
+					"id": 59341
+				}
+			},
+			{
+				"id": 10107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus le Briseur de ver",
+					"id": 65007
+				}
+			},
+			{
+				"id": 10108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incinératrice",
+					"id": 65041
+				}
+			},
+			{
+				"id": 10109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de la flamme vengeresse",
+					"id": 65042
+				}
+			},
+			{
+				"id": 10110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du pilier de flammes",
+					"id": 65044
+				}
+			},
+			{
+				"id": 10111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gilet de vermelin brûlé",
+					"id": 65045
+				}
+			},
+			{
+				"id": 10112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle du cycle de la vie",
+					"id": 65046
+				}
+			},
+			{
+				"id": 10113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65047?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eperon de lave",
+					"id": 65047
+				}
+			},
+			{
+				"id": 10114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ver symbiotique",
+					"id": 65048
+				}
+			},
+			{
+				"id": 10115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65049?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de force mortelle",
+					"id": 65049
+				}
+			},
+			{
+				"id": 10116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignets parasites",
+					"id": 65050
+				}
+			},
+			{
+				"id": 10117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de colère de la fournaise",
+					"id": 65051
+				}
+			},
+			{
+				"id": 10118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne des eaux brûlantes",
+					"id": 59452
+				}
+			},
+			{
+				"id": 10119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne des eaux brûlantes",
+					"id": 65020
+				}
+			},
+			{
+				"id": 37909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du conquérant lugubre",
+					"id": 67429
+				}
+			},
+			{
+				"id": 37910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du vainqueur lugubre",
+					"id": 67431
+				}
+			},
+			{
+				"id": 37911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du protecteur lugubre",
+					"id": 67430
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3310,
+				"title": "Crachat de magma",
+				"body_text": "Magmagueule crache un jet de magma sur trois personnages-joueurs aléatoires, infligeant 0 points de dégâts de Feu à chacun d’eux."
+			},
+			{
+				"id": 3311,
+				"title": "Pilier de flammes",
+				"body_text": "Magmagueule fait apparaître des globules de magma bouillant sous les pieds d’un personnage-joueur aléatoire. Les impacts fissurent le sol, provoquant des éruptions qui projettent en l’air les personnages-joueurs se trouvant à moins de 5 mètres et infligent 0 points de dégâts de Feu toutes les 0,5 s. Les impacts font aussi apparaître de nombreux parasites de lave.",
+				"sections": [
+					{
+						"id": 3312,
+						"title": "Parasite de lave",
+						"body_text": "Ces créatures se déplacent lentement et s’infiltrent sous la peau des personnages-joueurs qu’ils attaquent, infectant alors leur nouvel hôte.",
+						"sections": [
+							{
+								"id": 3313,
+								"title": "Infection parasitique",
+								"body_text": "Lorsqu’un Parasite de lave s’enfonce dans la chair d’un personnage-joueur, il lui inflige 0 points de dégâts toutes les 2 s pendant 10 s. Après la propagation de l’infection, le personnage-joueur vomit le parasite. Celui-ci se met alors en quête d’un nouvel hôte."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37456?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37456
+						}
+					}
+				]
+			},
+			{
+				"id": 3316,
+				"title": "Crachement de magma",
+				"body_text": "Magmagueule vomit un flot de lave sur tous les combattants, infligeant 0 points de dégâts de Feu toutes les 2 s pendant 6 s."
+			},
+			{
+				"id": 3317,
+				"title": "Colère de la fournaise",
+				"body_text": "Si Magmagueule ne parvient pas à toucher un ennemi avec son attaque en mêlée, il entre en frénésie. Ensuite, Magmagueule projette un Crachat de magma sur tous les personnages-joueurs et les dégâts de Feu qu’il inflige sont augmentés de 100% pendant 10 s. Cumulable."
+			},
+			{
+				"id": 3314,
+				"title": "Mutilation",
+				"body_text": "Magmagueule saisit sa cible actuelle entre ses mâchoires, puis la mord. La pression exercée inflige 0 points de dégâts toutes les 2 secs. Au bout de 30 s, Magmagueule broie violemment sa cible. Lorsque Magmagueule est empalé, il relâche la cible.",
+				"sections": [
+					{
+						"id": 3315,
+						"title": "Armure étouffante",
+						"body_text": "Les mâchoires brûlantes de Magmagueule font fondre l’armure du personnage-joueur victime de Mutilation et la réduisent de 50% pendant 1,5 min."
+					}
+				]
+			},
+			{
+				"id": 3318,
+				"title": "Impact massif",
+				"body_text": "Magmagueule déplace tout son corps et vient s’écraser sur une moitié de la pièce, infligeant 0 points de dégâts et étourdissant tous les personnages-joueurs pris au piège sous son poids pendant 3 s. De plus, l’Impact massif étourdit brièvement Magmagueule, permettant à deux personnages-joueurs de grimper sur ses pinces."
+			},
+			{
+				"id": 3319,
+				"title": "Bagarre de ver de lave",
+				"body_text": "Immédiatement après que Magmagueule a lancé un Impact massif, deux personnages-joueurs ont l’opportunité de grimper sur ses pinces. De là, ils peuvent attacher des chaînes à la pointe qui dépasse du sol devant le ver et l’empaler.",
+				"sections": [
+					{
+						"id": 3320,
+						"title": "Lancer le crochet",
+						"body_text": "Les personnages-joueurs qui ont grimpé sur les pinces de Magmagueule peuvent lancer un crochet sur une pointe devant le ver. Si le crochet se fiche sur la pointe, Magmagueule est enchaîné pendant 3 s. Il se libère si une seule chaîne l’entrave, mais si un personnage-joueur accroche une deuxième chaîne à la pointe, Magmagueule est ébranlé et empalé sur la pointe."
+					},
+					{
+						"id": 3321,
+						"title": "Point vulnérable",
+						"body_text": "Lorsque Magmagueule est empalé sur la pointe, les personnages-joueurs peuvent attaquer sa tête qui est à nu et sans armure. Si les personnages-joueurs attaquent sa tête à nu, les dégâts infligés à Magmagueule sont augmentés de 100%. Magmagueule parvient à se dégager de la pointe au bout de 30 s."
+					}
+				]
+			},
+			{
+				"id": 3322,
+				"title": "Seigneur Victor Nefarius",
+				"body_text": "En mode héroïque, le seigneur Nefarius surgit pour observer les aventuriers affronter son familier et contrecarrer leurs plans.",
+				"sections": [
+					{
+						"id": 3323,
+						"title": "Inferno flamboyant",
+						"body_text": "Le seigneur Nefarius invoque un météore d’os et de feu sous les pieds d’un membre aléatoire du raid. Le météore inflige 0 points de dégâts aux personnages-joueurs dans un rayon de 4 mètres et les renverse. L’explosion crée un Assemblage d'os flamboyant et déclenche l'Embrasement de flammes qui se déplacent rapidement en spirale autour du point d’impact.",
+						"sections": [
+							{
+								"id": 3324,
+								"title": "Embrasement",
+								"body_text": "L’inferno flamboyant crée des flammes mouvantes qui tourbillonnent autour du point d’impact, infligeant 0 points de dégâts de Feu toutes les 1 s à tous les ennemis dans un rayon de 2 mètres. Les flammes de l’Embrasement se dispersent au bout de 1 min."
+							},
+							{
+								"id": 3325,
+								"title": "Assemblage d'os flamboyant",
+								"body_text": "L’Inferno flamboyant du seigneur Nefarius crée un seul assemblage d'os flamboyant.",
+								"sections": [
+									{
+										"id": 3326,
+										"title": "Balafre ardente",
+										"body_text": "L’assemblage entaille un ennemi avec ses griffes embrasées, lui infligeant 75% des dégâts normaux en mêlée sous forme de dégâts de Feu."
+									},
+									{
+										"id": 3327,
+										"title": "Armageddon",
+										"body_text": "Lorsqu’il n’a plus que 20% de points de vie, l’assemblage d’os flamboyant entame son auto-destruction. Lorsqu’elle arrive à terme, la technique Armageddon déclenche une explosion massive qui détruit totalement l’assemblage et inflige 372 points de dégâts de Feu à tous les personnages-joueurs."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37397?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37397
+								}
+							}
+						]
+					},
+					{
+						"id": 3328,
+						"title": "Souffle d'ombre",
+						"body_text": "Quand les points de vie de Magmagueule atteignent 30% de leur maximum, le seigneur Nefarius se met à attaquer directement les personnages-joueurs. Il projette des volées de flammes ténébreuses sur des personnages-joueurs au hasard. Le Souffle d’ombre inflige 0 points de dégâts d’Ombre à tous les personnages-joueurs à moins de 5 mètres de sa cible."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32440?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32440
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/170?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 170,
+		"name": "Magmaw",
+		"description": "Magmaw is a colossal lava worm summoned from the Firelands centuries ago by Ragnaros' Dark Iron servitors. Nefarian largely considers Magmaw a worrisome pest, but has grown fond of feeding the beast his failed experiments... and servants.",
+		"creatures": [
+			{
+				"id": 593,
+				"name": "Magmaw",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37993
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Molten Tantrum Boots",
+					"id": 59328
+				}
+			},
+			{
+				"id": 10097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59329?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Parasitic Bands",
+					"id": 59329
+				}
+			},
+			{
+				"id": 10098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Lethal Force",
+					"id": 59331
+				}
+			},
+			{
+				"id": 10099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus the Worm-Breaker",
+					"id": 59492
+				}
+			},
+			{
+				"id": 10100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Symbiotic Worm",
+					"id": 59332
+				}
+			},
+			{
+				"id": 10101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lava Spine",
+					"id": 59333
+				}
+			},
+			{
+				"id": 10102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lifecycle Waistguard",
+					"id": 59334
+				}
+			},
+			{
+				"id": 10103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scorched Wormling Vest",
+					"id": 59335
+				}
+			},
+			{
+				"id": 10104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flame Pillar Leggings",
+					"id": 59336
+				}
+			},
+			{
+				"id": 10105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of Avenging Flame",
+					"id": 59340
+				}
+			},
+			{
+				"id": 10106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incineratus",
+					"id": 59341
+				}
+			},
+			{
+				"id": 10107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akirus the Worm-Breaker",
+					"id": 65007
+				}
+			},
+			{
+				"id": 10108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incineratus",
+					"id": 65041
+				}
+			},
+			{
+				"id": 10109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of Avenging Flame",
+					"id": 65042
+				}
+			},
+			{
+				"id": 10110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flame Pillar Leggings",
+					"id": 65044
+				}
+			},
+			{
+				"id": 10111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65045?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scorched Wormling Vest",
+					"id": 65045
+				}
+			},
+			{
+				"id": 10112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65046?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lifecycle Waistguard",
+					"id": 65046
+				}
+			},
+			{
+				"id": 10113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65047?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lava Spine",
+					"id": 65047
+				}
+			},
+			{
+				"id": 10114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65048?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Symbiotic Worm",
+					"id": 65048
+				}
+			},
+			{
+				"id": 10115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65049?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Lethal Force",
+					"id": 65049
+				}
+			},
+			{
+				"id": 10116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Parasitic Bands",
+					"id": 65050
+				}
+			},
+			{
+				"id": 10117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Molten Tantrum Boots",
+					"id": 65051
+				}
+			},
+			{
+				"id": 10118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Burning Waters",
+					"id": 59452
+				}
+			},
+			{
+				"id": 10119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Burning Waters",
+					"id": 65020
+				}
+			},
+			{
+				"id": 37909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Forlorn Conqueror",
+					"id": 67429
+				}
+			},
+			{
+				"id": 37910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Forlorn Vanquisher",
+					"id": 67431
+				}
+			},
+			{
+				"id": 37911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Forlorn Protector",
+					"id": 67430
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3310,
+				"title": "Magma Spit",
+				"body_text": "Magmaw spits a volley of magma at three random players, inflicting 0 Fire damage to each player."
+			},
+			{
+				"id": 3311,
+				"title": "Pillar of Flame",
+				"body_text": "Magmaw barrages the ground beneath a random player's feet with globs of roiling magma. The impacts sunder the ground, causing eruptions that knock players within 5 yards high into the air and inflicting 0 Fire damage every 0.5 sec. The impacts also spawn multiple Lava Parasites.",
+				"sections": [
+					{
+						"id": 3312,
+						"title": "Lava Parasite",
+						"body_text": "These slow moving creatures will burrow into the warm flesh of players when they attack, infecting their new host.",
+						"sections": [
+							{
+								"id": 3313,
+								"title": "Parasitic Infection",
+								"body_text": "When a Lava Parasite burrows into the flesh of a player, the Lava Parasite inflicts 0 damage every 2 sec. for 10 sec. After the infection runs its course, the player vomits up the Parasite. It then begins to search for a new host."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37456?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37456
+						}
+					}
+				]
+			},
+			{
+				"id": 3316,
+				"title": "Lava Spew",
+				"body_text": "Magmaw spews a stream of molten lava across all players, inflicting 0 Fire damage every 2 sec for 6 sec."
+			},
+			{
+				"id": 3317,
+				"title": "Molten Tantrum",
+				"body_text": "If Magmaw is ever unable to reach an enemy with his melee attack, he enters a frenzy. Magmaw then launches Magma Spit at all players and increases his Fire damage dealt by 100% for 10 sec. This effect stacks."
+			},
+			{
+				"id": 3314,
+				"title": "Mangle",
+				"body_text": "Magmaw picks up his current target in his jaws, then bites down. The crushing force inflicts 0 damage every 2 sec.  Magmaw crushes his target severely after 30 sec.  Impaling Magmaw causes him to release his grasp on the target.",
+				"sections": [
+					{
+						"id": 3315,
+						"title": "Sweltering Armor",
+						"body_text": "Magmaw's fiery jaws melt the armor of the player targeted by Mangle, reducing the player's armor by 50% for 1.5 min."
+					}
+				]
+			},
+			{
+				"id": 3318,
+				"title": "Massive Crash",
+				"body_text": "Magmaw brings his entire body smashing down on one half of the room, inflicting 0 damage and stuns all players caught beneath him for 3 sec. The Massive Crash also briefly stuns Magmaw, allowing two players to leap onto his pincers."
+			},
+			{
+				"id": 3319,
+				"title": "Lava Worm Wrangling",
+				"body_text": "Immediately after Magmaw performs Massive Crash, a window of opportunity exists where two players can leap onto his pincers. From that location they can attach chains to the spike protruding from the ground in front of the worm, and then reel Magmaw onto the spike.",
+				"sections": [
+					{
+						"id": 3320,
+						"title": "Launch Hook",
+						"body_text": "The players hanging onto Magmaw's pincers can launch a hook at the spike in front of the worm. If the hook connects, it chains Magmaw to the spike for 3 sec. Magmaw will break free from a single connecting chain, but if a player connects a second chain to the spike then the players reel the chains in and impale Magmaw on the spike."
+					},
+					{
+						"id": 3321,
+						"title": "Point of Vulnerability",
+						"body_text": "When Magmaw is impaled on the spike, players can attack his exposed and unarmored head. Attacking the exposed head increases the damage dealt to Magmaw by 100%.  Magmaw frees himself from the spike after 30 sec."
+					}
+				]
+			},
+			{
+				"id": 3322,
+				"title": "Lord Victor Nefarius",
+				"body_text": "On Heroic Difficulty Lord Nefarius arrives to observe the adventurers contend with his pet and thwart their efforts.",
+				"sections": [
+					{
+						"id": 3323,
+						"title": "Blazing Inferno",
+						"body_text": "Lord Nefarius calls down a meteor of bone and fire at the ground beneath a random player. The meteor inflicts 0 Fire damage to players in a 4 yard radius and knocks them down. The explosion creates a Blazing Bone Construct, and sparks the Ignition of fast-moving flames in a spiral around the point of impact.",
+						"sections": [
+							{
+								"id": 3324,
+								"title": "Ignition",
+								"body_text": "The Blazing Inferno creates moving patches of flame that swirl around the point of impact, inflicting 0 Fire damage every 1 sec to all players within 2 yards of them. The Ignition flames dissipate after 1 min."
+							},
+							{
+								"id": 3325,
+								"title": "Blazing Bone Construct",
+								"body_text": "Lord Nefarius's Blazing Inferno creates a single flaming skeletal construct.",
+								"sections": [
+									{
+										"id": 3326,
+										"title": "Fiery Slash",
+										"body_text": "The construct slashes at an enemy with its fiery claws, dealing 75% of normal melee damage as Fire damage."
+									},
+									{
+										"id": 3327,
+										"title": "Armageddon",
+										"body_text": "When a Blazing Bone Construct reaches 20% remaining health, it prepares to self-destruct. The Blazing Bone Construct then explodes in an Armageddon, inflicting 383 Fire damage to all players."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37397?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 37397
+								}
+							}
+						]
+					},
+					{
+						"id": 3328,
+						"title": "Shadow Breath",
+						"body_text": "When Magmaw reaches 30% remaining health, Lord Nefarius begins to directly attack the players. He launches volleys of shadowy flame at random players. The Shadow Breath inflicts 0 Shadow damage to all players within 5 yards of his target."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32440?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32440
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

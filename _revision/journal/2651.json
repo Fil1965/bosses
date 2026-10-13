@@ -1,0 +1,849 @@
+{
+	"id": 2651,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2651?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2651,
+		"name": "Geezle Gigachispa",
+		"description": "En el corazón de la presa de la Estación de Bombeo, el genio eléctrico Geezle Gigachispa bombea poder para el \"proyecto\". Cuando se ve acorralado y los planes secretos de Gallywix están a punto de irse al garete, Geezle reconduce el poder que va a Minahonda... ¡hacia sí mismo!",
+		"creatures": [
+			{
+				"id": 5755,
+				"name": "Geezle Gigachispa",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/124579?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 124579
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Generador de poder portátil",
+					"id": 234501
+				}
+			},
+			{
+				"id": 45038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rascadores de andamio de arrancador",
+					"id": 234504
+				}
+			},
+			{
+				"id": 45039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/232545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gorro de chispazos de Gigachispa",
+					"id": 232545
+				}
+			},
+			{
+				"id": 45040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voltiómetro coactivo de Geezle",
+					"id": 234493
+				}
+			},
+			{
+				"id": 45041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Disyuntor",
+					"id": 234490
+				}
+			},
+			{
+				"id": 45042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaqueta de goma de saboteador",
+					"id": 234496
+				}
+			},
+			{
+				"id": 45043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Filtro de succión de electricista",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Filtro de succión de electricista",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/246274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas pasochispa de Geezle",
+					"id": 246274
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30480,
+				"title": "Resumen",
+				"body_text": "Geezle extrae una inmensa cantidad de energía del generador durante [Turbocarga], lo que hace que la Estación de Bombeo se desestabilice y se derrumbe. \r\n\r\nDespués, Geezle achicharra a sus enemigos con varios ataques voltaicos mientras las [Chispas saltarinas] persiguen a los jugadores para electrocutarlos en las profundidades de la presa.",
+				"sections": [
+					{
+						"id": 31955,
+						"title": "Tanques",
+						"body_text": "$bullet;[Puñetazo de trueno] inflige un daño masivo y repele al objetivo.\r\n$bullet;El [Agua de presa] se electrifica al entrar en contacto con las facultades de relámpago de Geezle.\r\n$bullet;Las [Chispas saltarinas] persiguen a los jugadores y los aturden al entrar en contacto."
+					},
+					{
+						"id": 31956,
+						"title": "DPS",
+						"body_text": "$bullet;Las [Chispas Saltarinas] persiguen a los jugadores y los aturden al tocarlos.\r\n$bullet;El [Agua de presa] se electrifica al entrar en contacto con las facultades de relámpago de Geezle.\r\n$bullet;[Turbocarga] y [Gigachispa] infligen mucho daño."
+					},
+					{
+						"id": 31957,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Turbocarga] y [Gigachispa] infligen mucho daño.\r\n$bullet;Las [Chispas saltarinas] persiguen a los jugadores y los aturden al tocarlos.\r\n$bullet;El [Agua de presa] se electrifica al entrar en contacto con las facultades de relámpago de Geezle."
+					}
+				]
+			},
+			{
+				"id": 30484,
+				"title": "Turbocarga",
+				"sections": [
+					{
+						"id": 30485,
+						"title": "Turbodescarga",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/466088?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Turbodescarga",
+							"id": 466088
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/465456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Turbocarga",
+					"id": 465456
+				}
+			},
+			{
+				"id": 30729,
+				"title": "¡Presa!",
+				"sections": [
+					{
+						"id": 30730,
+						"title": "Agua de presa",
+						"sections": [
+							{
+								"id": 30731,
+								"title": "Agua electrizante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/468661?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Agua electrizante",
+									"id": 468661
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Agua de presa",
+							"id": 468261
+						}
+					},
+					{
+						"id": 30799,
+						"title": "Escombros de presa",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468606?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Escombros de presa",
+							"id": 468606
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "¡Presa!",
+					"id": 468276
+				}
+			},
+			{
+				"id": 31781,
+				"title": "Chispas saltarinas",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chispas saltarinas",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30798,
+				"title": "Chispas saltarinas",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chispas saltarinas",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30939,
+				"title": "Gigachispa",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gigachispa",
+					"id": 468812
+				}
+			},
+			{
+				"id": 30499,
+				"title": "Puñetazo de trueno",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/466197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puñetazo de trueno",
+					"id": 466197
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1298?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Operación: Compuerta",
+			"id": 1298
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2651?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2651,
+		"name": "Geezle Gigazap",
+		"description": "Au cœur du barrage du moulin à eau, le génie électrique Geezle Gigazap siphonne de l’énergie pour « LE PROJET ». Lorsqu’il est acculé, une fois les plans secrets de Gallywix au bord de l’échec, il redirige l’énergie prévue pour Terremine… vers lui-même !",
+		"creatures": [
+			{
+				"id": 5755,
+				"name": "Geezle Gigazap",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/124579?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 124579
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Générateur portatif",
+					"id": 234501
+				}
+			},
+			{
+				"id": 45038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gratte-échauffaudage de démarreur",
+					"id": 234504
+				}
+			},
+			{
+				"id": 45039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/232545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zap-clap de Gigazap",
+					"id": 232545
+				}
+			},
+			{
+				"id": 45040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Volt-ohmmètre coercitif de Geezle",
+					"id": 234493
+				}
+			},
+			{
+				"id": 45041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Disjoncteur",
+					"id": 234490
+				}
+			},
+			{
+				"id": 45042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Veste en caoutchouc de saboteur",
+					"id": 234496
+				}
+			},
+			{
+				"id": 45043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Filtre de siphonnage d’électricité",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Filtre de siphonnage d’électricité",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/246274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes à foulées foudroyantes de Geezle",
+					"id": 246274
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30480,
+				"title": "Vue d’ensemble",
+				"body_text": "Geezle siphonne énormément d’énergie du générateur pendant [Charge turbo], ce qui provoque la déstabilisation et l’effondrement du moulin à eau.\r\n\r\nGeezle fait ensuite griller ses adversaires avec une panoplie d’attaques voltaïques pendant que des [Étincelles bondissantes] poursuivent les personnages-joueurs afin de les électrocuter dans les profondeurs du barrage.",
+				"sections": [
+					{
+						"id": 31955,
+						"title": "Tanks",
+						"body_text": "$bullet;[Coup de poing tonnerre] inflige des dégâts colossaux et repousse la cible.\r\n$bullet;L’[Eau de barrage] s’électrise au contact avec les techniques foudroyantes de Geezle.\r\n$bullet;Les [Étincelles bondissantes] poursuivent les personnages-joueurs et les étourdissent au contact."
+					},
+					{
+						"id": 31956,
+						"title": "DPS",
+						"body_text": "$bullet;Les [Étincelles bondissantes] poursuivent les personnages-joueurs et les étourdissent au contact.\r\n$bullet;L’[Eau de barrage] s’électrise au contact avec les techniques foudroyantes de Geezle.\r\n$bullet;[Charge turbo] et [Gigadécharge] infligent des dégâts importants."
+					},
+					{
+						"id": 31957,
+						"title": "Soigneurs",
+						"body_text": "$bullet;[Charge turbo] et [Gigadécharge] infligent des dégâts importants.\r\n$bullet;Les [Étincelles bondissantes] poursuivent les personnages-joueurs et les étourdissent au contact.\r\n$bullet;L’[Eau de barrage] s’électrise au contact avec les techniques foudroyantes de Geezle."
+					}
+				]
+			},
+			{
+				"id": 30484,
+				"title": "Charge turbo",
+				"sections": [
+					{
+						"id": 30485,
+						"title": "Turbo-trait",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/466088?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Turbo-trait",
+							"id": 466088
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/465456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Charge turbo",
+					"id": 465456
+				}
+			},
+			{
+				"id": 30729,
+				"title": "Barrage !",
+				"sections": [
+					{
+						"id": 30730,
+						"title": "Eau de barrage",
+						"sections": [
+							{
+								"id": 30731,
+								"title": "Eau électrifiée",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/468661?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Eau électrifiée",
+									"id": 468661
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Eau de barrage",
+							"id": 468261
+						}
+					},
+					{
+						"id": 30799,
+						"title": "Débris du barrage",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468606?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Débris du barrage",
+							"id": 468606
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrage !",
+					"id": 468276
+				}
+			},
+			{
+				"id": 31781,
+				"title": "Étincelles bondissantes",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étincelles bondissantes",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30798,
+				"title": "Étincelles bondissantes",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étincelles bondissantes",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30939,
+				"title": "Gigazap",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gigazap",
+					"id": 468812
+				}
+			},
+			{
+				"id": 30499,
+				"title": "Coup de poing tonnerre",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/466197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coup de poing tonnerre",
+					"id": 466197
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1298?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Opération Vannes ouvertes",
+			"id": 1298
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2651?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2651,
+		"name": "Geezle Gigazap",
+		"description": "At the heart of the Waterworks dam, the electric mastermind Geezle Gigazap siphons power for \"THE PROJECT\". When he is cornered and Gallywix's secret plans have nearly come to a halt, Geezle reroutes the power headed to the Undermine... to himself!",
+		"creatures": [
+			{
+				"id": 5755,
+				"name": "Geezle Gigazap",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/124579?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 124579
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Portable Power Generator",
+					"id": 234501
+				}
+			},
+			{
+				"id": 45038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jumpstarter's Scaffold-Scrapers",
+					"id": 234504
+				}
+			},
+			{
+				"id": 45039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/232545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gigazap's Zap-Cap",
+					"id": 232545
+				}
+			},
+			{
+				"id": 45040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Geezle's Coercive Volt-Ohmmeter",
+					"id": 234493
+				}
+			},
+			{
+				"id": 45041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Circuit Breaker",
+					"id": 234490
+				}
+			},
+			{
+				"id": 45042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Saboteur's Rubber Jacket",
+					"id": 234496
+				}
+			},
+			{
+				"id": 45043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Electrician's Siphoning Filter",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/234507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Electrician's Siphoning Filter",
+					"id": 234507
+				}
+			},
+			{
+				"id": 45503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/246274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Geezle's Zapstep Boots",
+					"id": 246274
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30480,
+				"title": "Overview",
+				"body_text": "Geezle siphons massive power from the generator during [Turbo Charge], causing the Waterworks to destabilize and collapse. \r\n\r\nGeezle then fries his enemies with an array of voltaic attacks as [Leaping Sparks] pursue players to their electrocution in the depths of the dam.",
+				"sections": [
+					{
+						"id": 31955,
+						"title": "Tanks",
+						"body_text": "$bullet;[Thunder Punch] inflicts massive damage and knocks the target back.\r\n$bullet;[Dam Water] electrifies upon contact with Geezle's lightning abilities.\r\n$bullet;[Leaping Sparks] pursue players and stun them upon contact."
+					},
+					{
+						"id": 31956,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Leaping Sparks] pursue players and stun them upon contact.\r\n$bullet;[Dam Water] electrifies upon contact with Geezle's lightning abilities.\r\n$bullet;[Turbo Charge] and [Gigazap] inflict heavy damage."
+					},
+					{
+						"id": 31957,
+						"title": "Healers",
+						"body_text": "$bullet;[Turbo Charge] and [Gigazap] inflict heavy damage.\r\n$bullet;[Leaping Sparks] pursue players and stun them upon contact.\r\n$bullet;[Dam Water] electrifies upon contact with Geezle's lightning abilities."
+					}
+				]
+			},
+			{
+				"id": 30484,
+				"title": "Turbo Charge",
+				"sections": [
+					{
+						"id": 30485,
+						"title": "Turbo Bolt",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/466088?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Turbo Bolt",
+							"id": 466088
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/465456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Turbo Charge",
+					"id": 465456
+				}
+			},
+			{
+				"id": 30729,
+				"title": "Dam!",
+				"sections": [
+					{
+						"id": 30730,
+						"title": "Dam Water",
+						"sections": [
+							{
+								"id": 30731,
+								"title": "Shock Water",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/468661?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Shock Water",
+									"id": 468661
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Dam Water",
+							"id": 468261
+						}
+					},
+					{
+						"id": 30799,
+						"title": "Dam Rubble",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/468606?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Dam Rubble",
+							"id": 468606
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dam!",
+					"id": 468276
+				}
+			},
+			{
+				"id": 31781,
+				"title": "Leaping Sparks",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leaping Sparks",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30798,
+				"title": "Leaping Sparks",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468846?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leaping Sparks",
+					"id": 468846
+				}
+			},
+			{
+				"id": 30939,
+				"title": "Gigazap",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/468812?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gigazap",
+					"id": 468812
+				}
+			},
+			{
+				"id": 30499,
+				"title": "Thunder Punch",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/466197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thunder Punch",
+					"id": 466197
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1298?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Operation: Floodgate",
+			"id": 1298
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

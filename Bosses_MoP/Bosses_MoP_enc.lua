@@ -33,7 +33,7 @@ enc["1604"] = "71734"; -- Sha of Pride
 enc["1606"] = "71859,71858"; -- Kor'kron Dark Shaman
 enc["1622"] = "72311,72560,72249,73910,72302,72561,73909"; -- Galakras
 enc["1623"] = "71865"; -- Garrosh Hellscream
-enc["1624"] = "72276"; -- Norushen
+enc["866"] = "72276"; -- Prueba del Amalgama (Norushen)
 enc["1409"] = "60585,60586,60583"; -- Protectors of Endless
 enc["1431"] = "60999"; -- Sha of Fear
 enc["1505"] = "62442"; -- Tsulong
@@ -50,7 +50,8 @@ enc["1576"] = "69427"; -- Dark Animus
 enc["1577"] = "69465"; -- Jin'rokh the Breaker
 enc["1578"] = "68065,70235,70247"; -- Megaera
 enc["1579"] = "68397"; -- Lei Shen
--- SIN ENC: Ra-Den (69473)
+enc["1580"] = "69473"; -- Ra-Den (heroic/heroic25)
+enc["1581"] = "69473"; -- Ra-Den (LFR)
 enc["1397"] = "56906"; -- Kiptilak
 enc["1405"] = "56589"; -- Striker Ga'dok
 enc["1406"] = "56636"; -- Commander Ri'mok
@@ -61,7 +62,9 @@ enc["1418"] = "56448"; -- Wise Mari
 enc["1439"] = "56439"; -- Sha of Doubt
 enc["1441"] = "61398"; -- Weaponmaster Xin
 enc["1442"] = "61442,61444,61445"; -- Trial of the King
--- SIN ENC: Gekkan (61243,61337,61338,61339,61340)
+enc["1509"] = "61243,61337,61338,61339,61340"; -- Gekkan (Mogu'Shan Palace)
+enc["1510"] = "61243,61337,61338,61339,61340"; -- Gekkan (Mogu'Shan Palace, segunda variante)
+-- Nota: los 1509/1510 de los CIDs de Gekkan valen en retail remaster.
 enc["1447"] = "61485"; -- General Pavalak
 enc["1464"] = "62205"; -- Neronok
 enc["1465"] = "61567"; -- Vizier Jin'bak

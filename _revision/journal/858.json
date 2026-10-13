@@ -1,0 +1,7692 @@
+{
+	"id": 858,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/858?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 858,
+		"name": "Yu'lon, El Dragón de Jade",
+		"description": "La prueba de Yu'lon es una prueba de sabiduría y fe. Cuando los augurios de un futuro nefasto nublaban su mente, el emperador Shaohao ascendió el Monte Nieverest para pedir el consejo del Dragón de Jade. Yu'lon animó a Shaohao a que expulsara las emociones oscuras que lo asolaban; mediante las pruebas, el emperador Shaohao se volvería uno con la tierra. Para superar la prueba del dragón, los guerreros deben tomar decisiones sabias.",
+		"creatures": [
+			{
+				"id": 1619,
+				"name": "Yu'lon",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49234?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49234
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 19999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de hierro de Gladiador orgulloso",
+					"id": 102656
+				}
+			},
+			{
+				"id": 20000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador orgulloso",
+					"id": 102657
+				}
+			},
+			{
+				"id": 20001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador orgulloso",
+					"id": 103426
+				}
+			},
+			{
+				"id": 20002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador orgulloso",
+					"id": 103427
+				}
+			},
+			{
+				"id": 20003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador orgulloso",
+					"id": 102660
+				}
+			},
+			{
+				"id": 20004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador orgulloso",
+					"id": 103428
+				}
+			},
+			{
+				"id": 20005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de hierro de Gladiador orgulloso",
+					"id": 103429
+				}
+			},
+			{
+				"id": 20006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador orgulloso",
+					"id": 102662
+				}
+			},
+			{
+				"id": 20007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador orgulloso",
+					"id": 102663
+				}
+			},
+			{
+				"id": 20008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de hierro de Gladiador orgulloso",
+					"id": 103431
+				}
+			},
+			{
+				"id": 20009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador orgulloso",
+					"id": 102664
+				}
+			},
+			{
+				"id": 20010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador orgulloso",
+					"id": 102665
+				}
+			},
+			{
+				"id": 20011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de cobre de Gladiador orgulloso",
+					"id": 103434
+				}
+			},
+			{
+				"id": 20012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador orgulloso",
+					"id": 102666
+				}
+			},
+			{
+				"id": 20013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de cobre de Gladiador orgulloso",
+					"id": 103436
+				}
+			},
+			{
+				"id": 20014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador orgulloso",
+					"id": 102668
+				}
+			},
+			{
+				"id": 20015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de crueldad de Gladiador orgulloso",
+					"id": 102669
+				}
+			},
+			{
+				"id": 20016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador orgulloso",
+					"id": 102670
+				}
+			},
+			{
+				"id": 20017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador orgulloso",
+					"id": 103440
+				}
+			},
+			{
+				"id": 20018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador orgulloso",
+					"id": 102674
+				}
+			},
+			{
+				"id": 20019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador orgulloso",
+					"id": 103442
+				}
+			},
+			{
+				"id": 20020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de hierro de Gladiador orgulloso",
+					"id": 102675
+				}
+			},
+			{
+				"id": 20021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador orgulloso",
+					"id": 103444
+				}
+			},
+			{
+				"id": 20022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador orgulloso",
+					"id": 102677
+				}
+			},
+			{
+				"id": 20023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador orgulloso",
+					"id": 103445
+				}
+			},
+			{
+				"id": 20024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador orgulloso",
+					"id": 103446
+				}
+			},
+			{
+				"id": 20025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador orgulloso",
+					"id": 102678
+				}
+			},
+			{
+				"id": 20026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador orgulloso",
+					"id": 103447
+				}
+			},
+			{
+				"id": 20027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador orgulloso",
+					"id": 102679
+				}
+			},
+			{
+				"id": 20028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador orgulloso",
+					"id": 103448
+				}
+			},
+			{
+				"id": 20029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador orgulloso",
+					"id": 103449
+				}
+			},
+			{
+				"id": 20030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador orgulloso",
+					"id": 102683
+				}
+			},
+			{
+				"id": 20031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador orgulloso",
+					"id": 103451
+				}
+			},
+			{
+				"id": 20032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador orgulloso",
+					"id": 102684
+				}
+			},
+			{
+				"id": 20033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador orgulloso",
+					"id": 103453
+				}
+			},
+			{
+				"id": 20034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador orgulloso",
+					"id": 102686
+				}
+			},
+			{
+				"id": 20035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador orgulloso",
+					"id": 102687
+				}
+			},
+			{
+				"id": 20036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de precisión de Gladiador orgulloso",
+					"id": 103455
+				}
+			},
+			{
+				"id": 20037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador orgulloso",
+					"id": 102688
+				}
+			},
+			{
+				"id": 20038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador orgulloso",
+					"id": 103456
+				}
+			},
+			{
+				"id": 20039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador orgulloso",
+					"id": 103457
+				}
+			},
+			{
+				"id": 20040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador orgulloso",
+					"id": 103458
+				}
+			},
+			{
+				"id": 20041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador orgulloso",
+					"id": 103459
+				}
+			},
+			{
+				"id": 20042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador orgulloso",
+					"id": 102691
+				}
+			},
+			{
+				"id": 20043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador orgulloso",
+					"id": 102692
+				}
+			},
+			{
+				"id": 20044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador orgulloso",
+					"id": 103460
+				}
+			},
+			{
+				"id": 20045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador orgulloso",
+					"id": 103462
+				}
+			},
+			{
+				"id": 20046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador orgulloso",
+					"id": 102694
+				}
+			},
+			{
+				"id": 20047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador orgulloso",
+					"id": 102695
+				}
+			},
+			{
+				"id": 20048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador orgulloso",
+					"id": 102696
+				}
+			},
+			{
+				"id": 20049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador orgulloso",
+					"id": 103464
+				}
+			},
+			{
+				"id": 20050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador orgulloso",
+					"id": 102698
+				}
+			},
+			{
+				"id": 20051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador orgulloso",
+					"id": 103467
+				}
+			},
+			{
+				"id": 20052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador orgulloso",
+					"id": 102701
+				}
+			},
+			{
+				"id": 18796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de armonía celestial",
+					"id": 99092
+				}
+			},
+			{
+				"id": 18800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de armonía celestial",
+					"id": 99094
+				}
+			},
+			{
+				"id": 18803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99096?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la Pesadilla astada",
+					"id": 99096
+				}
+			},
+			{
+				"id": 18807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99098?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la Pesadilla astada",
+					"id": 99098
+				}
+			},
+			{
+				"id": 18809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de armonía celestial",
+					"id": 99099
+				}
+			},
+			{
+				"id": 18814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de armonía celestial",
+					"id": 99102
+				}
+			},
+			{
+				"id": 18816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de armonía celestial",
+					"id": 99104
+				}
+			},
+			{
+				"id": 18821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de armonía celestial",
+					"id": 99108
+				}
+			},
+			{
+				"id": 18826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del asesino espinoso",
+					"id": 99113
+				}
+			},
+			{
+				"id": 18830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del asesino espinoso",
+					"id": 99115
+				}
+			},
+			{
+				"id": 18834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de la gloria tríplice",
+					"id": 99118
+				}
+			},
+			{
+				"id": 18839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la gloria tríplice",
+					"id": 99121
+				}
+			},
+			{
+				"id": 18841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la gloria tríplice",
+					"id": 99123
+				}
+			},
+			{
+				"id": 18842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de triunfo alado",
+					"id": 99124
+				}
+			},
+			{
+				"id": 18845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de triunfo alado",
+					"id": 99127
+				}
+			},
+			{
+				"id": 18848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de triunfo alado",
+					"id": 99129
+				}
+			},
+			{
+				"id": 18849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de la gloria tríplice",
+					"id": 99131
+				}
+			},
+			{
+				"id": 18853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99134?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de triunfo alado",
+					"id": 99134
+				}
+			},
+			{
+				"id": 18856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de triunfo alado",
+					"id": 99137
+				}
+			},
+			{
+				"id": 18859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de triunfo alado",
+					"id": 99139
+				}
+			},
+			{
+				"id": 18861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de los siete sellos sagrados",
+					"id": 99141
+				}
+			},
+			{
+				"id": 18864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99143?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de los siete sellos sagrados",
+					"id": 99143
+				}
+			},
+			{
+				"id": 18867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de los siete sellos sagrados",
+					"id": 99145
+				}
+			},
+			{
+				"id": 18871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de los siete sellos sagrados",
+					"id": 99147
+				}
+			},
+			{
+				"id": 18874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de los siete sellos sagrados",
+					"id": 99149
+				}
+			},
+			{
+				"id": 18878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de los siete sellos sagrados",
+					"id": 99155
+				}
+			},
+			{
+				"id": 18882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de la vigilia insomne",
+					"id": 99158
+				}
+			},
+			{
+				"id": 18885,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99160?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cronomántico",
+					"id": 99160
+				}
+			},
+			{
+				"id": 18888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cronomántico",
+					"id": 99162
+				}
+			},
+			{
+				"id": 18890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del valle destrozado",
+					"id": 99163
+				}
+			},
+			{
+				"id": 18894,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzones del valle destrozado",
+					"id": 99165
+				}
+			},
+			{
+				"id": 18900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99168?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la vigilia insomne",
+					"id": 99168
+				}
+			},
+			{
+				"id": 18904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del valle destrozado",
+					"id": 99171
+				}
+			},
+			{
+				"id": 18911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del valle destrozado",
+					"id": 99174
+				}
+			},
+			{
+				"id": 18914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del valle destrozado",
+					"id": 99176
+				}
+			},
+			{
+				"id": 18924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del valle destrozado",
+					"id": 99181
+				}
+			},
+			{
+				"id": 18928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del valle destrozado",
+					"id": 99183
+				}
+			},
+			{
+				"id": 18933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del valle destrozado",
+					"id": 99185
+				}
+			},
+			{
+				"id": 18934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de pavor ciclópeo",
+					"id": 99186
+				}
+			},
+			{
+				"id": 18939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de pavor ciclópeo",
+					"id": 99189
+				}
+			},
+			{
+				"id": 18943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pavor ciclópeo",
+					"id": 99191
+				}
+			},
+			{
+				"id": 18946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de pavor ciclópeo",
+					"id": 99193
+				}
+			},
+			{
+				"id": 18949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del maleante prehistórico",
+					"id": 99195
+				}
+			},
+			{
+				"id": 20053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador orgulloso",
+					"id": 103469
+				}
+			},
+			{
+				"id": 20054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador orgulloso",
+					"id": 102702
+				}
+			},
+			{
+				"id": 20055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador orgulloso",
+					"id": 102704
+				}
+			},
+			{
+				"id": 20056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador orgulloso",
+					"id": 103472
+				}
+			},
+			{
+				"id": 20057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador orgulloso",
+					"id": 102705
+				}
+			},
+			{
+				"id": 20058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador orgulloso",
+					"id": 103473
+				}
+			},
+			{
+				"id": 20059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador orgulloso",
+					"id": 103474
+				}
+			},
+			{
+				"id": 20060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador orgulloso",
+					"id": 102707
+				}
+			},
+			{
+				"id": 20061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador orgulloso",
+					"id": 103476
+				}
+			},
+			{
+				"id": 20062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador orgulloso",
+					"id": 102708
+				}
+			},
+			{
+				"id": 20063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador orgulloso",
+					"id": 102709
+				}
+			},
+			{
+				"id": 20064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador orgulloso",
+					"id": 103478
+				}
+			},
+			{
+				"id": 20065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador orgulloso",
+					"id": 102711
+				}
+			},
+			{
+				"id": 20066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador orgulloso",
+					"id": 103480
+				}
+			},
+			{
+				"id": 20067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador orgulloso",
+					"id": 103481
+				}
+			},
+			{
+				"id": 20068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103482?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador orgulloso",
+					"id": 103482
+				}
+			},
+			{
+				"id": 20069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador orgulloso",
+					"id": 103483
+				}
+			},
+			{
+				"id": 20070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador orgulloso",
+					"id": 102716
+				}
+			},
+			{
+				"id": 20071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador orgulloso",
+					"id": 103484
+				}
+			},
+			{
+				"id": 20072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador orgulloso",
+					"id": 103486
+				}
+			},
+			{
+				"id": 20073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador orgulloso",
+					"id": 102719
+				}
+			},
+			{
+				"id": 20074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador orgulloso",
+					"id": 103488
+				}
+			},
+			{
+				"id": 20075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador orgulloso",
+					"id": 102722
+				}
+			},
+			{
+				"id": 20076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador orgulloso",
+					"id": 103491
+				}
+			},
+			{
+				"id": 20077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador orgulloso",
+					"id": 102723
+				}
+			},
+			{
+				"id": 20078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador orgulloso",
+					"id": 102724
+				}
+			},
+			{
+				"id": 20079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador orgulloso",
+					"id": 102725
+				}
+			},
+			{
+				"id": 20080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador orgulloso",
+					"id": 103493
+				}
+			},
+			{
+				"id": 20081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador orgulloso",
+					"id": 103495
+				}
+			},
+			{
+				"id": 20082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador orgulloso",
+					"id": 102729
+				}
+			},
+			{
+				"id": 20083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador orgulloso",
+					"id": 103497
+				}
+			},
+			{
+				"id": 20084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador orgulloso",
+					"id": 102730
+				}
+			},
+			{
+				"id": 20085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador orgulloso",
+					"id": 103499
+				}
+			},
+			{
+				"id": 20086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador orgulloso",
+					"id": 102732
+				}
+			},
+			{
+				"id": 20087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador orgulloso",
+					"id": 102733
+				}
+			},
+			{
+				"id": 20088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador orgulloso",
+					"id": 102735
+				}
+			},
+			{
+				"id": 20089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador orgulloso",
+					"id": 102736
+				}
+			},
+			{
+				"id": 20090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador orgulloso",
+					"id": 102737
+				}
+			},
+			{
+				"id": 20091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador orgulloso",
+					"id": 102739
+				}
+			},
+			{
+				"id": 20092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador orgulloso",
+					"id": 102742
+				}
+			},
+			{
+				"id": 20093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador orgulloso",
+					"id": 103512
+				}
+			},
+			{
+				"id": 20094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador orgulloso",
+					"id": 103513
+				}
+			},
+			{
+				"id": 20095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador orgulloso",
+					"id": 102745
+				}
+			},
+			{
+				"id": 20096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador orgulloso",
+					"id": 102746
+				}
+			},
+			{
+				"id": 20097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador orgulloso",
+					"id": 103514
+				}
+			},
+			{
+				"id": 20098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador orgulloso",
+					"id": 103515
+				}
+			},
+			{
+				"id": 20099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador orgulloso",
+					"id": 102748
+				}
+			},
+			{
+				"id": 20100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador orgulloso",
+					"id": 103517
+				}
+			},
+			{
+				"id": 20101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador orgulloso",
+					"id": 102749
+				}
+			},
+			{
+				"id": 20102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador orgulloso",
+					"id": 103518
+				}
+			},
+			{
+				"id": 20103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador orgulloso",
+					"id": 102752
+				}
+			},
+			{
+				"id": 20104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador orgulloso",
+					"id": 103520
+				}
+			},
+			{
+				"id": 20105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador orgulloso",
+					"id": 102753
+				}
+			},
+			{
+				"id": 20106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador orgulloso",
+					"id": 103522
+				}
+			},
+			{
+				"id": 20107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador orgulloso",
+					"id": 102754
+				}
+			},
+			{
+				"id": 20108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador orgulloso",
+					"id": 102755
+				}
+			},
+			{
+				"id": 20109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador orgulloso",
+					"id": 102756
+				}
+			},
+			{
+				"id": 20110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador orgulloso",
+					"id": 102757
+				}
+			},
+			{
+				"id": 20111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador orgulloso",
+					"id": 102758
+				}
+			},
+			{
+				"id": 20112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador orgulloso",
+					"id": 103526
+				}
+			},
+			{
+				"id": 20113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador orgulloso",
+					"id": 102760
+				}
+			},
+			{
+				"id": 20114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador orgulloso",
+					"id": 103528
+				}
+			},
+			{
+				"id": 20115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador orgulloso",
+					"id": 102761
+				}
+			},
+			{
+				"id": 20116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de cobre de Gladiador orgulloso",
+					"id": 102762
+				}
+			},
+			{
+				"id": 20117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador orgulloso",
+					"id": 102764
+				}
+			},
+			{
+				"id": 20118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador orgulloso",
+					"id": 102765
+				}
+			},
+			{
+				"id": 20119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador orgulloso",
+					"id": 102767
+				}
+			},
+			{
+				"id": 20120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador orgulloso",
+					"id": 102768
+				}
+			},
+			{
+				"id": 18954,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del maleante prehistórico",
+					"id": 99198
+				}
+			},
+			{
+				"id": 18955,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del maleante prehistórico",
+					"id": 99199
+				}
+			},
+			{
+				"id": 18956,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99202?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del maleante prehistórico",
+					"id": 99202
+				}
+			},
+			{
+				"id": 20121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador orgulloso",
+					"id": 102769
+				}
+			},
+			{
+				"id": 20122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador orgulloso",
+					"id": 102770
+				}
+			},
+			{
+				"id": 20123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador orgulloso",
+					"id": 102771
+				}
+			},
+			{
+				"id": 20124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador orgulloso",
+					"id": 102772
+				}
+			},
+			{
+				"id": 20125,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de crueldad de Gladiador orgulloso",
+					"id": 102773
+				}
+			},
+			{
+				"id": 20126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador orgulloso",
+					"id": 102774
+				}
+			},
+			{
+				"id": 20127,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador orgulloso",
+					"id": 102775
+				}
+			},
+			{
+				"id": 20128,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador orgulloso",
+					"id": 102778
+				}
+			},
+			{
+				"id": 20129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador orgulloso",
+					"id": 102780
+				}
+			},
+			{
+				"id": 20130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador orgulloso",
+					"id": 102781
+				}
+			},
+			{
+				"id": 20131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador orgulloso",
+					"id": 103343
+				}
+			},
+			{
+				"id": 20132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador orgulloso",
+					"id": 103344
+				}
+			},
+			{
+				"id": 20133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador orgulloso",
+					"id": 103345
+				}
+			},
+			{
+				"id": 20134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador orgulloso",
+					"id": 103346
+				}
+			},
+			{
+				"id": 20135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador orgulloso",
+					"id": 103348
+				}
+			},
+			{
+				"id": 20136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador orgulloso",
+					"id": 103349
+				}
+			},
+			{
+				"id": 20137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador orgulloso",
+					"id": 103351
+				}
+			},
+			{
+				"id": 20138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador orgulloso",
+					"id": 103352
+				}
+			},
+			{
+				"id": 20139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador orgulloso",
+					"id": 103353
+				}
+			},
+			{
+				"id": 20140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador orgulloso",
+					"id": 103354
+				}
+			},
+			{
+				"id": 20141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador orgulloso",
+					"id": 103355
+				}
+			},
+			{
+				"id": 20142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador orgulloso",
+					"id": 103356
+				}
+			},
+			{
+				"id": 20143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador orgulloso",
+					"id": 103357
+				}
+			},
+			{
+				"id": 20144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador orgulloso",
+					"id": 103358
+				}
+			},
+			{
+				"id": 20145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador orgulloso",
+					"id": 103359
+				}
+			},
+			{
+				"id": 20146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de crueldad de Gladiador orgulloso",
+					"id": 103360
+				}
+			},
+			{
+				"id": 20147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador orgulloso",
+					"id": 103361
+				}
+			},
+			{
+				"id": 20148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador orgulloso",
+					"id": 103362
+				}
+			},
+			{
+				"id": 20149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de crueldad de Gladiador orgulloso",
+					"id": 103367
+				}
+			},
+			{
+				"id": 20150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador orgulloso",
+					"id": 103368
+				}
+			},
+			{
+				"id": 20151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador orgulloso",
+					"id": 103369
+				}
+			},
+			{
+				"id": 20152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador orgulloso",
+					"id": 103370
+				}
+			},
+			{
+				"id": 20153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador orgulloso",
+					"id": 103371
+				}
+			},
+			{
+				"id": 20154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador orgulloso",
+					"id": 103372
+				}
+			},
+			{
+				"id": 20155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador orgulloso",
+					"id": 103377
+				}
+			},
+			{
+				"id": 20156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador orgulloso",
+					"id": 103379
+				}
+			},
+			{
+				"id": 20157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador orgulloso",
+					"id": 103381
+				}
+			},
+			{
+				"id": 20158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador orgulloso",
+					"id": 102615
+				}
+			},
+			{
+				"id": 20159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador orgulloso",
+					"id": 103383
+				}
+			},
+			{
+				"id": 20160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador orgulloso",
+					"id": 102617
+				}
+			},
+			{
+				"id": 20161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador orgulloso",
+					"id": 102618
+				}
+			},
+			{
+				"id": 20162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador orgulloso",
+					"id": 103386
+				}
+			},
+			{
+				"id": 20163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador orgulloso",
+					"id": 103387
+				}
+			},
+			{
+				"id": 20164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador orgulloso",
+					"id": 102620
+				}
+			},
+			{
+				"id": 20165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador orgulloso",
+					"id": 103388
+				}
+			},
+			{
+				"id": 20166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador orgulloso",
+					"id": 103389
+				}
+			},
+			{
+				"id": 20167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador orgulloso",
+					"id": 102621
+				}
+			},
+			{
+				"id": 20168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador orgulloso",
+					"id": 102623
+				}
+			},
+			{
+				"id": 20169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador orgulloso",
+					"id": 103391
+				}
+			},
+			{
+				"id": 20170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador orgulloso",
+					"id": 102624
+				}
+			},
+			{
+				"id": 20171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de cobre de Gladiador orgulloso",
+					"id": 102627
+				}
+			},
+			{
+				"id": 20172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador orgulloso",
+					"id": 103395
+				}
+			},
+			{
+				"id": 20173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador orgulloso",
+					"id": 103396
+				}
+			},
+			{
+				"id": 20174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador orgulloso",
+					"id": 103397
+				}
+			},
+			{
+				"id": 20175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador orgulloso",
+					"id": 102630
+				}
+			},
+			{
+				"id": 20176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador orgulloso",
+					"id": 103398
+				}
+			},
+			{
+				"id": 20177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador orgulloso",
+					"id": 102631
+				}
+			},
+			{
+				"id": 20178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador orgulloso",
+					"id": 103400
+				}
+			},
+			{
+				"id": 20179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador orgulloso",
+					"id": 102638
+				}
+			},
+			{
+				"id": 20180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador orgulloso",
+					"id": 102639
+				}
+			},
+			{
+				"id": 20181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de precisión de Gladiador orgulloso",
+					"id": 102640
+				}
+			},
+			{
+				"id": 20182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador orgulloso",
+					"id": 102641
+				}
+			},
+			{
+				"id": 20183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador orgulloso",
+					"id": 102642
+				}
+			},
+			{
+				"id": 20184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador orgulloso",
+					"id": 103410
+				}
+			},
+			{
+				"id": 20185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador orgulloso",
+					"id": 103411
+				}
+			},
+			{
+				"id": 20186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador orgulloso",
+					"id": 103412
+				}
+			},
+			{
+				"id": 20187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador orgulloso",
+					"id": 102644
+				}
+			},
+			{
+				"id": 20188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador orgulloso",
+					"id": 103413
+				}
+			},
+			{
+				"id": 20189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador orgulloso",
+					"id": 102645
+				}
+			},
+			{
+				"id": 20190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador orgulloso",
+					"id": 102646
+				}
+			},
+			{
+				"id": 20191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador orgulloso",
+					"id": 103414
+				}
+			},
+			{
+				"id": 20192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador orgulloso",
+					"id": 103415
+				}
+			},
+			{
+				"id": 20193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador orgulloso",
+					"id": 102647
+				}
+			},
+			{
+				"id": 20194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador orgulloso",
+					"id": 102648
+				}
+			},
+			{
+				"id": 20195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador orgulloso",
+					"id": 102649
+				}
+			},
+			{
+				"id": 20196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador orgulloso",
+					"id": 103417
+				}
+			},
+			{
+				"id": 20197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador orgulloso",
+					"id": 102650
+				}
+			},
+			{
+				"id": 20198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador orgulloso",
+					"id": 103419
+				}
+			},
+			{
+				"id": 20199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador orgulloso",
+					"id": 102651
+				}
+			},
+			{
+				"id": 20200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador orgulloso",
+					"id": 103421
+				}
+			},
+			{
+				"id": 20201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador orgulloso",
+					"id": 102654
+				}
+			},
+			{
+				"id": 20202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador orgulloso",
+					"id": 103423
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8157,
+				"title": "Sacudida de llama de jade",
+				"body_text": "Inflige 0 p. de daño de Fuego a todos los jugadores cercanos y aumenta el daño de Fuego recibido un 5% durante 1 min. Este efecto se acumula."
+			},
+			{
+				"id": 8158,
+				"title": "Aliento de fuego de jade",
+				"body_text": "Inflige 0 p. de daño de Fuego a los jugadores en un cono de 40 m."
+			},
+			{
+				"id": 8159,
+				"title": "Descarga de fuego de jade",
+				"body_text": "Lanza varias Descargas de fuego de jade, lo que crea Llamaradas de fuego de jade en las zonas de impacto.",
+				"sections": [
+					{
+						"id": 8160,
+						"title": "Llamarada de fuego de jade",
+						"body_text": "Inflige 0 p. de daño de Fuego a los jugadores en un radio de 11 m cada 1 s."
+					}
+				]
+			},
+			{
+				"id": 8161,
+				"title": "Muro de fuego de jade",
+				"body_text": "Invoca un enorme muro de fuego de jade que inflige 12418 p. de daño de Fuego a los jugadores afectados por las llamas."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/858?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 858,
+		"name": "Yu’lon, le Serpent de jade",
+		"description": "L’épreuve de Yu’lon est un test de sagesse et de foi. Tourmenté par de sombres présages, l’empereur Shaohao entreprit un jour l’ascension du mont Sans-Repos pour aller demander conseil au Serpent de jade. Yu’lon l’exhorta à se purger des émotions négatives qui le tenaillaient, pour qu’à travers l’épreuve l’empereur finisse par ne plus faire qu’un avec la terre. Pour surmonter l’épreuve du Serpent, un guerrier doit faire preuve de sagesse dans ses choix.",
+		"creatures": [
+			{
+				"id": 1619,
+				"name": "Yu’lon",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49234?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49234
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 19999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau-de-fer",
+					"id": 102656
+				}
+			},
+			{
+				"id": 20000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en cuir de kodo du gladiateur orgueilleux",
+					"id": 102657
+				}
+			},
+			{
+				"id": 20001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur orgueilleux",
+					"id": 103426
+				}
+			},
+			{
+				"id": 20002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur orgueilleux",
+					"id": 103427
+				}
+			},
+			{
+				"id": 20003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur orgueilleux",
+					"id": 102660
+				}
+			},
+			{
+				"id": 20004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur orgueilleux",
+					"id": 103428
+				}
+			},
+			{
+				"id": 20005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau-de-fer",
+					"id": 103429
+				}
+			},
+			{
+				"id": 20006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur orgueilleux",
+					"id": 102662
+				}
+			},
+			{
+				"id": 20007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en cuir du gladiateur orgueilleux",
+					"id": 102663
+				}
+			},
+			{
+				"id": 20008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau-de-fer",
+					"id": 103431
+				}
+			},
+			{
+				"id": 20009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia d'empressement du gladiateur orgueilleux",
+					"id": 102664
+				}
+			},
+			{
+				"id": 20010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur orgueilleux",
+					"id": 102665
+				}
+			},
+			{
+				"id": 20011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en cuivrepeau",
+					"id": 103434
+				}
+			},
+			{
+				"id": 20012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur orgueilleux",
+					"id": 102666
+				}
+			},
+			{
+				"id": 20013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en cuivrepeau",
+					"id": 103436
+				}
+			},
+			{
+				"id": 20014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur orgueilleux",
+					"id": 102668
+				}
+			},
+			{
+				"id": 20015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de cruauté du gladiateur orgueilleux",
+					"id": 102669
+				}
+			},
+			{
+				"id": 20016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en anneaux",
+					"id": 102670
+				}
+			},
+			{
+				"id": 20017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en écailles",
+					"id": 103440
+				}
+			},
+			{
+				"id": 20018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur orgueilleux",
+					"id": 102674
+				}
+			},
+			{
+				"id": 20019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en écailles",
+					"id": 103442
+				}
+			},
+			{
+				"id": 20020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau-de-fer",
+					"id": 102675
+				}
+			},
+			{
+				"id": 20021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur orgueilleux",
+					"id": 103444
+				}
+			},
+			{
+				"id": 20022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur orgueilleux",
+					"id": 102677
+				}
+			},
+			{
+				"id": 20023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur orgueilleux",
+					"id": 103445
+				}
+			},
+			{
+				"id": 20024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur orgueilleux",
+					"id": 103446
+				}
+			},
+			{
+				"id": 20025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'expertise du gladiateur orgueilleux",
+					"id": 102678
+				}
+			},
+			{
+				"id": 20026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur orgueilleux",
+					"id": 103447
+				}
+			},
+			{
+				"id": 20027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur orgueilleux",
+					"id": 102679
+				}
+			},
+			{
+				"id": 20028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur orgueilleux",
+					"id": 103448
+				}
+			},
+			{
+				"id": 20029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur orgueilleux",
+					"id": 103449
+				}
+			},
+			{
+				"id": 20030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur orgueilleux",
+					"id": 102683
+				}
+			},
+			{
+				"id": 20031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur orgueilleux",
+					"id": 103451
+				}
+			},
+			{
+				"id": 20032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur orgueilleux",
+					"id": 102684
+				}
+			},
+			{
+				"id": 20033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur orgueilleux",
+					"id": 103453
+				}
+			},
+			{
+				"id": 20034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur orgueilleux",
+					"id": 102686
+				}
+			},
+			{
+				"id": 20035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur orgueilleux",
+					"id": 102687
+				}
+			},
+			{
+				"id": 20036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de précision du gladiateur orgueilleux",
+					"id": 103455
+				}
+			},
+			{
+				"id": 20037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur orgueilleux",
+					"id": 102688
+				}
+			},
+			{
+				"id": 20038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur orgueilleux",
+					"id": 103456
+				}
+			},
+			{
+				"id": 20039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur orgueilleux",
+					"id": 103457
+				}
+			},
+			{
+				"id": 20040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur orgueilleux",
+					"id": 103458
+				}
+			},
+			{
+				"id": 20041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur orgueilleux",
+					"id": 103459
+				}
+			},
+			{
+				"id": 20042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur orgueilleux",
+					"id": 102691
+				}
+			},
+			{
+				"id": 20043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en mailles",
+					"id": 102692
+				}
+			},
+			{
+				"id": 20044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur orgueilleux",
+					"id": 103460
+				}
+			},
+			{
+				"id": 20045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en étoffe lunaire",
+					"id": 103462
+				}
+			},
+			{
+				"id": 20046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur orgueilleux",
+					"id": 102694
+				}
+			},
+			{
+				"id": 20047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur orgueilleux",
+					"id": 102695
+				}
+			},
+			{
+				"id": 20048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau de wyrm",
+					"id": 102696
+				}
+			},
+			{
+				"id": 20049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en étoffe lunaire",
+					"id": 103464
+				}
+			},
+			{
+				"id": 20050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur orgueilleux",
+					"id": 102698
+				}
+			},
+			{
+				"id": 20051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en satin",
+					"id": 103467
+				}
+			},
+			{
+				"id": 20052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur orgueilleux",
+					"id": 102701
+				}
+			},
+			{
+				"id": 18796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'harmonie céleste",
+					"id": 99092
+				}
+			},
+			{
+				"id": 18800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières d'harmonie céleste",
+					"id": 99094
+				}
+			},
+			{
+				"id": 18803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99096?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du cauchemar cornu",
+					"id": 99096
+				}
+			},
+			{
+				"id": 18807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99098?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du cauchemar cornu",
+					"id": 99098
+				}
+			},
+			{
+				"id": 18809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards d'harmonie céleste",
+					"id": 99099
+				}
+			},
+			{
+				"id": 18814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes d'harmonie céleste",
+					"id": 99102
+				}
+			},
+			{
+				"id": 18816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes d'harmonie céleste",
+					"id": 99104
+				}
+			},
+			{
+				"id": 18821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains d'harmonie céleste",
+					"id": 99108
+				}
+			},
+			{
+				"id": 18826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'assassin barbelé",
+					"id": 99113
+				}
+			},
+			{
+				"id": 18830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'assassin barbelé",
+					"id": 99115
+				}
+			},
+			{
+				"id": 18834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la gloire trinaire",
+					"id": 99118
+				}
+			},
+			{
+				"id": 18839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la gloire trinaire",
+					"id": 99121
+				}
+			},
+			{
+				"id": 18841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la gloire trinaire",
+					"id": 99123
+				}
+			},
+			{
+				"id": 18842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de triomphe ailé",
+					"id": 99124
+				}
+			},
+			{
+				"id": 18845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de triomphe ailé",
+					"id": 99127
+				}
+			},
+			{
+				"id": 18848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de triomphe ailé",
+					"id": 99129
+				}
+			},
+			{
+				"id": 18849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la gloire trinaire",
+					"id": 99131
+				}
+			},
+			{
+				"id": 18853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99134?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de triomphe ailé",
+					"id": 99134
+				}
+			},
+			{
+				"id": 18856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de triomphe ailé",
+					"id": 99137
+				}
+			},
+			{
+				"id": 18859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de triomphe ailé",
+					"id": 99139
+				}
+			},
+			{
+				"id": 18861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets des sept sceaux sacrés",
+					"id": 99141
+				}
+			},
+			{
+				"id": 18864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99143?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes des sept sceaux sacrés",
+					"id": 99143
+				}
+			},
+			{
+				"id": 18867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières des sept sceaux sacrés",
+					"id": 99145
+				}
+			},
+			{
+				"id": 18871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains des sept sceaux sacrés",
+					"id": 99147
+				}
+			},
+			{
+				"id": 18874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards des sept sceaux sacrés",
+					"id": 99149
+				}
+			},
+			{
+				"id": 18878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes des sept sceaux sacrés",
+					"id": 99155
+				}
+			},
+			{
+				"id": 18882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la veille continuelle",
+					"id": 99158
+				}
+			},
+			{
+				"id": 18885,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99160?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de chronomancien",
+					"id": 99160
+				}
+			},
+			{
+				"id": 18888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de chronomancien",
+					"id": 99162
+				}
+			},
+			{
+				"id": 18890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du val brisé",
+					"id": 99163
+				}
+			},
+			{
+				"id": 18894,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braies du val brisé",
+					"id": 99165
+				}
+			},
+			{
+				"id": 18900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99168?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la veille continuelle",
+					"id": 99168
+				}
+			},
+			{
+				"id": 18904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards du val brisé",
+					"id": 99171
+				}
+			},
+			{
+				"id": 18911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du val brisé",
+					"id": 99174
+				}
+			},
+			{
+				"id": 18914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du val brisé",
+					"id": 99176
+				}
+			},
+			{
+				"id": 18924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du val brisé",
+					"id": 99181
+				}
+			},
+			{
+				"id": 18928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du val brisé",
+					"id": 99183
+				}
+			},
+			{
+				"id": 18933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains du val brisé",
+					"id": 99185
+				}
+			},
+			{
+				"id": 18934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de l'effroi cyclopéen",
+					"id": 99186
+				}
+			},
+			{
+				"id": 18939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de l'effroi cyclopéen",
+					"id": 99189
+				}
+			},
+			{
+				"id": 18943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'effroi cyclopéen",
+					"id": 99191
+				}
+			},
+			{
+				"id": 18946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de l'effroi cyclopéen",
+					"id": 99193
+				}
+			},
+			{
+				"id": 18949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du maraudeur préhistorique",
+					"id": 99195
+				}
+			},
+			{
+				"id": 20053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en satin",
+					"id": 103469
+				}
+			},
+			{
+				"id": 20054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur orgueilleux",
+					"id": 102702
+				}
+			},
+			{
+				"id": 20055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en étoffe lunaire",
+					"id": 102704
+				}
+			},
+			{
+				"id": 20056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur orgueilleux",
+					"id": 103472
+				}
+			},
+			{
+				"id": 20057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur orgueilleux",
+					"id": 102705
+				}
+			},
+			{
+				"id": 20058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur orgueilleux",
+					"id": 103473
+				}
+			},
+			{
+				"id": 20059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur orgueilleux",
+					"id": 103474
+				}
+			},
+			{
+				"id": 20060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en satin",
+					"id": 102707
+				}
+			},
+			{
+				"id": 20061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en cuir du gladiateur orgueilleux",
+					"id": 103476
+				}
+			},
+			{
+				"id": 20062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur orgueilleux",
+					"id": 102708
+				}
+			},
+			{
+				"id": 20063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur orgueilleux",
+					"id": 102709
+				}
+			},
+			{
+				"id": 20064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes en cuir du gladiateur orgueilleux",
+					"id": 103478
+				}
+			},
+			{
+				"id": 20065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur orgueilleux",
+					"id": 102711
+				}
+			},
+			{
+				"id": 20066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur orgueilleux",
+					"id": 103480
+				}
+			},
+			{
+				"id": 20067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia d'empressement du gladiateur orgueilleux",
+					"id": 103481
+				}
+			},
+			{
+				"id": 20068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103482?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia de méditation du gladiateur orgueilleux",
+					"id": 103482
+				}
+			},
+			{
+				"id": 20069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur orgueilleux",
+					"id": 103483
+				}
+			},
+			{
+				"id": 20070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur orgueilleux",
+					"id": 102716
+				}
+			},
+			{
+				"id": 20071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur orgueilleux",
+					"id": 103484
+				}
+			},
+			{
+				"id": 20072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en mailles annelées",
+					"id": 103486
+				}
+			},
+			{
+				"id": 20073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en mailles annelées",
+					"id": 102719
+				}
+			},
+			{
+				"id": 20074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en mailles annelées",
+					"id": 103488
+				}
+			},
+			{
+				"id": 20075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur orgueilleux",
+					"id": 102722
+				}
+			},
+			{
+				"id": 20076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur orgueilleux",
+					"id": 103491
+				}
+			},
+			{
+				"id": 20077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur orgueilleux",
+					"id": 102723
+				}
+			},
+			{
+				"id": 20078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur orgueilleux",
+					"id": 102724
+				}
+			},
+			{
+				"id": 20079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur orgueilleux en tisse-gangrène",
+					"id": 102725
+				}
+			},
+			{
+				"id": 20080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur orgueilleux",
+					"id": 103493
+				}
+			},
+			{
+				"id": 20081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur orgueilleux",
+					"id": 103495
+				}
+			},
+			{
+				"id": 20082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur orgueilleux",
+					"id": 102729
+				}
+			},
+			{
+				"id": 20083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en mailles",
+					"id": 103497
+				}
+			},
+			{
+				"id": 20084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes en cuir du gladiateur orgueilleux",
+					"id": 102730
+				}
+			},
+			{
+				"id": 20085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en mailles",
+					"id": 103499
+				}
+			},
+			{
+				"id": 20086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en plaques",
+					"id": 102732
+				}
+			},
+			{
+				"id": 20087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur orgueilleux",
+					"id": 102733
+				}
+			},
+			{
+				"id": 20088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur orgueilleux en soie",
+					"id": 102735
+				}
+			},
+			{
+				"id": 20089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur orgueilleux",
+					"id": 102736
+				}
+			},
+			{
+				"id": 20090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en anneaux",
+					"id": 102737
+				}
+			},
+			{
+				"id": 20091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau de dragon",
+					"id": 102739
+				}
+			},
+			{
+				"id": 20092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur orgueilleux",
+					"id": 102742
+				}
+			},
+			{
+				"id": 20093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'empressement du gladiateur orgueilleux",
+					"id": 103512
+				}
+			},
+			{
+				"id": 20094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de prouesse du gladiateur orgueilleux",
+					"id": 103513
+				}
+			},
+			{
+				"id": 20095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur orgueilleux",
+					"id": 102745
+				}
+			},
+			{
+				"id": 20096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur orgueilleux",
+					"id": 102746
+				}
+			},
+			{
+				"id": 20097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur orgueilleux",
+					"id": 103514
+				}
+			},
+			{
+				"id": 20098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur orgueilleux",
+					"id": 103515
+				}
+			},
+			{
+				"id": 20099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur orgueilleux",
+					"id": 102748
+				}
+			},
+			{
+				"id": 20100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur orgueilleux",
+					"id": 103517
+				}
+			},
+			{
+				"id": 20101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur orgueilleux",
+					"id": 102749
+				}
+			},
+			{
+				"id": 20102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur orgueilleux",
+					"id": 103518
+				}
+			},
+			{
+				"id": 20103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur orgueilleux",
+					"id": 102752
+				}
+			},
+			{
+				"id": 20104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur orgueilleux en tisse-gangrène",
+					"id": 103520
+				}
+			},
+			{
+				"id": 20105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur orgueilleux",
+					"id": 102753
+				}
+			},
+			{
+				"id": 20106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur orgueilleux en tisse-gangrène",
+					"id": 103522
+				}
+			},
+			{
+				"id": 20107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur orgueilleux",
+					"id": 102754
+				}
+			},
+			{
+				"id": 20108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur orgueilleux en tisse-gangrène",
+					"id": 102755
+				}
+			},
+			{
+				"id": 20109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur orgueilleux",
+					"id": 102756
+				}
+			},
+			{
+				"id": 20110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur orgueilleux",
+					"id": 102757
+				}
+			},
+			{
+				"id": 20111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur orgueilleux",
+					"id": 102758
+				}
+			},
+			{
+				"id": 20112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en plaques",
+					"id": 103526
+				}
+			},
+			{
+				"id": 20113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia de méditation du gladiateur orgueilleux",
+					"id": 102760
+				}
+			},
+			{
+				"id": 20114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en plaques",
+					"id": 103528
+				}
+			},
+			{
+				"id": 20115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes en cuir de kodo du gladiateur orgueilleux",
+					"id": 102761
+				}
+			},
+			{
+				"id": 20116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en cuivrepeau",
+					"id": 102762
+				}
+			},
+			{
+				"id": 20117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur orgueilleux",
+					"id": 102764
+				}
+			},
+			{
+				"id": 20118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur orgueilleux",
+					"id": 102765
+				}
+			},
+			{
+				"id": 20119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau de wyrm",
+					"id": 102767
+				}
+			},
+			{
+				"id": 20120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur orgueilleux",
+					"id": 102768
+				}
+			},
+			{
+				"id": 18954,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du maraudeur préhistorique",
+					"id": 99198
+				}
+			},
+			{
+				"id": 18955,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du maraudeur préhistorique",
+					"id": 99199
+				}
+			},
+			{
+				"id": 18956,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99202?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du maraudeur préhistorique",
+					"id": 99202
+				}
+			},
+			{
+				"id": 20121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'empressement du gladiateur orgueilleux",
+					"id": 102769
+				}
+			},
+			{
+				"id": 20122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de prouesse du gladiateur orgueilleux",
+					"id": 102770
+				}
+			},
+			{
+				"id": 20123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur orgueilleux",
+					"id": 102771
+				}
+			},
+			{
+				"id": 20124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur orgueilleux",
+					"id": 102772
+				}
+			},
+			{
+				"id": 20125,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de cruauté du gladiateur orgueilleux",
+					"id": 102773
+				}
+			},
+			{
+				"id": 20126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en mailles annelées",
+					"id": 102774
+				}
+			},
+			{
+				"id": 20127,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur orgueilleux",
+					"id": 102775
+				}
+			},
+			{
+				"id": 20128,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur orgueilleux",
+					"id": 102778
+				}
+			},
+			{
+				"id": 20129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en écailles",
+					"id": 102780
+				}
+			},
+			{
+				"id": 20130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en mailles",
+					"id": 102781
+				}
+			},
+			{
+				"id": 20131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur orgueilleux",
+					"id": 103343
+				}
+			},
+			{
+				"id": 20132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur orgueilleux",
+					"id": 103344
+				}
+			},
+			{
+				"id": 20133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'expertise du gladiateur orgueilleux",
+					"id": 103345
+				}
+			},
+			{
+				"id": 20134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur orgueilleux",
+					"id": 103346
+				}
+			},
+			{
+				"id": 20135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur orgueilleux",
+					"id": 103348
+				}
+			},
+			{
+				"id": 20136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur orgueilleux",
+					"id": 103349
+				}
+			},
+			{
+				"id": 20137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur orgueilleux",
+					"id": 103351
+				}
+			},
+			{
+				"id": 20138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur orgueilleux",
+					"id": 103352
+				}
+			},
+			{
+				"id": 20139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur orgueilleux",
+					"id": 103353
+				}
+			},
+			{
+				"id": 20140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur orgueilleux",
+					"id": 103354
+				}
+			},
+			{
+				"id": 20141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur orgueilleux",
+					"id": 103355
+				}
+			},
+			{
+				"id": 20142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur orgueilleux",
+					"id": 103356
+				}
+			},
+			{
+				"id": 20143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur orgueilleux",
+					"id": 103357
+				}
+			},
+			{
+				"id": 20144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur orgueilleux",
+					"id": 103358
+				}
+			},
+			{
+				"id": 20145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur orgueilleux",
+					"id": 103359
+				}
+			},
+			{
+				"id": 20146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de cruauté du gladiateur orgueilleux",
+					"id": 103360
+				}
+			},
+			{
+				"id": 20147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur orgueilleux",
+					"id": 103361
+				}
+			},
+			{
+				"id": 20148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur orgueilleux",
+					"id": 103362
+				}
+			},
+			{
+				"id": 20149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de cruauté du gladiateur orgueilleux",
+					"id": 103367
+				}
+			},
+			{
+				"id": 20150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur orgueilleux",
+					"id": 103368
+				}
+			},
+			{
+				"id": 20151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur orgueilleux",
+					"id": 103369
+				}
+			},
+			{
+				"id": 20152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur orgueilleux",
+					"id": 103370
+				}
+			},
+			{
+				"id": 20153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur orgueilleux",
+					"id": 103371
+				}
+			},
+			{
+				"id": 20154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur orgueilleux",
+					"id": 103372
+				}
+			},
+			{
+				"id": 20155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en plaques d'effroi",
+					"id": 103377
+				}
+			},
+			{
+				"id": 20156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en plaques d'effroi",
+					"id": 103379
+				}
+			},
+			{
+				"id": 20157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau de dragon",
+					"id": 103381
+				}
+			},
+			{
+				"id": 20158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en étoffe lunaire",
+					"id": 102615
+				}
+			},
+			{
+				"id": 20159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau de dragon",
+					"id": 103383
+				}
+			},
+			{
+				"id": 20160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur orgueilleux",
+					"id": 102617
+				}
+			},
+			{
+				"id": 20161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en plaques",
+					"id": 102618
+				}
+			},
+			{
+				"id": 20162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur orgueilleux",
+					"id": 103386
+				}
+			},
+			{
+				"id": 20163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia de méditation du gladiateur orgueilleux",
+					"id": 103387
+				}
+			},
+			{
+				"id": 20164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur orgueilleux",
+					"id": 102620
+				}
+			},
+			{
+				"id": 20165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur orgueilleux",
+					"id": 103388
+				}
+			},
+			{
+				"id": 20166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en cuir de kodo du gladiateur orgueilleux",
+					"id": 103389
+				}
+			},
+			{
+				"id": 20167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en satin",
+					"id": 102621
+				}
+			},
+			{
+				"id": 20168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia de méditation du gladiateur orgueilleux",
+					"id": 102623
+				}
+			},
+			{
+				"id": 20169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes en cuir de kodo du gladiateur orgueilleux",
+					"id": 103391
+				}
+			},
+			{
+				"id": 20170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur orgueilleux",
+					"id": 102624
+				}
+			},
+			{
+				"id": 20171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en cuivrepeau",
+					"id": 102627
+				}
+			},
+			{
+				"id": 20172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur orgueilleux",
+					"id": 103395
+				}
+			},
+			{
+				"id": 20173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia d'empressement du gladiateur orgueilleux",
+					"id": 103396
+				}
+			},
+			{
+				"id": 20174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur orgueilleux",
+					"id": 103397
+				}
+			},
+			{
+				"id": 20175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en écailles",
+					"id": 102630
+				}
+			},
+			{
+				"id": 20176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur orgueilleux en peau de wyrm",
+					"id": 103398
+				}
+			},
+			{
+				"id": 20177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibia d'empressement du gladiateur orgueilleux",
+					"id": 102631
+				}
+			},
+			{
+				"id": 20178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau de wyrm",
+					"id": 103400
+				}
+			},
+			{
+				"id": 20179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur orgueilleux",
+					"id": 102638
+				}
+			},
+			{
+				"id": 20180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur orgueilleux",
+					"id": 102639
+				}
+			},
+			{
+				"id": 20181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de précision du gladiateur orgueilleux",
+					"id": 102640
+				}
+			},
+			{
+				"id": 20182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur orgueilleux",
+					"id": 102641
+				}
+			},
+			{
+				"id": 20183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur orgueilleux",
+					"id": 102642
+				}
+			},
+			{
+				"id": 20184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur orgueilleux",
+					"id": 103410
+				}
+			},
+			{
+				"id": 20185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur orgueilleux",
+					"id": 103411
+				}
+			},
+			{
+				"id": 20186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur orgueilleux",
+					"id": 103412
+				}
+			},
+			{
+				"id": 20187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur orgueilleux",
+					"id": 102644
+				}
+			},
+			{
+				"id": 20188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur orgueilleux",
+					"id": 103413
+				}
+			},
+			{
+				"id": 20189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur orgueilleux",
+					"id": 102645
+				}
+			},
+			{
+				"id": 20190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur orgueilleux",
+					"id": 102646
+				}
+			},
+			{
+				"id": 20191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur orgueilleux",
+					"id": 103414
+				}
+			},
+			{
+				"id": 20192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur orgueilleux",
+					"id": 103415
+				}
+			},
+			{
+				"id": 20193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur orgueilleux",
+					"id": 102647
+				}
+			},
+			{
+				"id": 20194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur orgueilleux en soie",
+					"id": 102648
+				}
+			},
+			{
+				"id": 20195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur orgueilleux",
+					"id": 102649
+				}
+			},
+			{
+				"id": 20196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en anneaux",
+					"id": 103417
+				}
+			},
+			{
+				"id": 20197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur orgueilleux en plaques d'effroi",
+					"id": 102650
+				}
+			},
+			{
+				"id": 20198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur orgueilleux en anneaux",
+					"id": 103419
+				}
+			},
+			{
+				"id": 20199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en plaques d'effroi",
+					"id": 102651
+				}
+			},
+			{
+				"id": 20200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur orgueilleux en soie",
+					"id": 103421
+				}
+			},
+			{
+				"id": 20201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur orgueilleux en peau de dragon",
+					"id": 102654
+				}
+			},
+			{
+				"id": 20202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur orgueilleux en soie",
+					"id": 103423
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8157,
+				"title": "Rafale de jadeflamme",
+				"body_text": "Inflige 0 points de dégâts de Feu à tous les personnages-joueurs proches et augmente les dégâts de Feu subis de 5% pendant 1 min. Cet effet est cumulable."
+			},
+			{
+				"id": 8158,
+				"title": "Souffle de jadefeu",
+				"body_text": "Inflige 0 points de dégâts de Feu aux personnages-joueurs dans un cône de 40 mètres."
+			},
+			{
+				"id": 8159,
+				"title": "Trait de jadefeu",
+				"body_text": "Lance une série de traits de jadefeu qui font apparaître des brasiers jadefeu aux points d’impact.",
+				"sections": [
+					{
+						"id": 8160,
+						"title": "Brasier jadefeu",
+						"body_text": "Inflige 0 points de dégâts de Feu aux personnages-joueurs à moins de 11 mètres toutes les 1 s."
+					}
+				]
+			},
+			{
+				"id": 8161,
+				"title": "Mur jadefeu",
+				"body_text": "Invoque un grand mur de feu de jade qui inflige 12418 points de dégâts de Feu aux personnages-joueurs pris dans les flammes."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandarie",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/858?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 858,
+		"name": "Yu'lon, The Jade Serpent",
+		"description": "The trial of Yu'lon is a test of wisdom and faith. With omens of a bleak future floating through his mind, Emperor Shaohao climbed to the summit of Mount Neverest to seek the council of the Jade Serpent. Yu'lon urged Shaohao to cast off the dark emotions that plagued him, and through his trials, Emperor Shaohao would become one with the land. To pass the trial of the Serpent, warriors must be wise in their choices.",
+		"creatures": [
+			{
+				"id": 1619,
+				"name": "Yu'lon",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49234?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49234
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 19999,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ironskin Legguards",
+					"id": 102656
+				}
+			},
+			{
+				"id": 20000,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Kodohide Gloves",
+					"id": 102657
+				}
+			},
+			{
+				"id": 20001,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistband of Cruelty",
+					"id": 103426
+				}
+			},
+			{
+				"id": 20002,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Boots of Alacrity",
+					"id": 103427
+				}
+			},
+			{
+				"id": 20003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Boots of Cruelty",
+					"id": 102660
+				}
+			},
+			{
+				"id": 20004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armwraps of Accuracy",
+					"id": 103428
+				}
+			},
+			{
+				"id": 20005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ironskin Gloves",
+					"id": 103429
+				}
+			},
+			{
+				"id": 20006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Accuracy",
+					"id": 102662
+				}
+			},
+			{
+				"id": 20007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Leather Gloves",
+					"id": 102663
+				}
+			},
+			{
+				"id": 20008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ironskin Legguards",
+					"id": 103431
+				}
+			},
+			{
+				"id": 20009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Alacrity",
+					"id": 102664
+				}
+			},
+			{
+				"id": 20010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armbands of Prowess",
+					"id": 102665
+				}
+			},
+			{
+				"id": 20011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Copperskin Gloves",
+					"id": 103434
+				}
+			},
+			{
+				"id": 20012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Meditation",
+					"id": 102666
+				}
+			},
+			{
+				"id": 20013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Copperskin Legguards",
+					"id": 103436
+				}
+			},
+			{
+				"id": 20014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistguard of Meditation",
+					"id": 102668
+				}
+			},
+			{
+				"id": 20015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Cruelty",
+					"id": 102669
+				}
+			},
+			{
+				"id": 20016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Chain Leggings",
+					"id": 102670
+				}
+			},
+			{
+				"id": 20017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Scaled Gauntlets",
+					"id": 103440
+				}
+			},
+			{
+				"id": 20018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Cruelty",
+					"id": 102674
+				}
+			},
+			{
+				"id": 20019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Scaled Legguards",
+					"id": 103442
+				}
+			},
+			{
+				"id": 20020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ironskin Gloves",
+					"id": 102675
+				}
+			},
+			{
+				"id": 20021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Clasp of Cruelty",
+					"id": 103444
+				}
+			},
+			{
+				"id": 20022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistguard of Cruelty",
+					"id": 102677
+				}
+			},
+			{
+				"id": 20023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Clasp of Meditation",
+					"id": 103445
+				}
+			},
+			{
+				"id": 20024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Greaves of Alacrity",
+					"id": 103446
+				}
+			},
+			{
+				"id": 20025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Necklace of Proficiency",
+					"id": 102678
+				}
+			},
+			{
+				"id": 20026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Greaves of Meditation",
+					"id": 103447
+				}
+			},
+			{
+				"id": 20027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Necklace of Prowess",
+					"id": 102679
+				}
+			},
+			{
+				"id": 20028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bracers of Prowess",
+					"id": 103448
+				}
+			},
+			{
+				"id": 20029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bracers of Meditation",
+					"id": 103449
+				}
+			},
+			{
+				"id": 20030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ring of Accuracy",
+					"id": 102683
+				}
+			},
+			{
+				"id": 20031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ornamented Gloves",
+					"id": 103451
+				}
+			},
+			{
+				"id": 20032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Cruelty",
+					"id": 102684
+				}
+			},
+			{
+				"id": 20033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ornamented Legplates",
+					"id": 103453
+				}
+			},
+			{
+				"id": 20034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Cruelty",
+					"id": 102686
+				}
+			},
+			{
+				"id": 20035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Accuracy",
+					"id": 102687
+				}
+			},
+			{
+				"id": 20036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Girdle of Accuracy",
+					"id": 103455
+				}
+			},
+			{
+				"id": 20037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wristguards of Alacrity",
+					"id": 102688
+				}
+			},
+			{
+				"id": 20038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Girdle of Prowess",
+					"id": 103456
+				}
+			},
+			{
+				"id": 20039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Warboots of Cruelty",
+					"id": 103457
+				}
+			},
+			{
+				"id": 20040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Warboots of Alacrity",
+					"id": 103458
+				}
+			},
+			{
+				"id": 20041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armplates of Proficiency",
+					"id": 103459
+				}
+			},
+			{
+				"id": 20042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bindings of Meditation",
+					"id": 102691
+				}
+			},
+			{
+				"id": 20043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mail Gauntlets",
+					"id": 102692
+				}
+			},
+			{
+				"id": 20044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armplates of Alacrity",
+					"id": 103460
+				}
+			},
+			{
+				"id": 20045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mooncloth Gloves",
+					"id": 103462
+				}
+			},
+			{
+				"id": 20046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Belt of Cruelty",
+					"id": 102694
+				}
+			},
+			{
+				"id": 20047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bracers of Prowess",
+					"id": 102695
+				}
+			},
+			{
+				"id": 20048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wyrmhide Gloves",
+					"id": 102696
+				}
+			},
+			{
+				"id": 20049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mooncloth Leggings",
+					"id": 103464
+				}
+			},
+			{
+				"id": 20050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Warboots of Cruelty",
+					"id": 102698
+				}
+			},
+			{
+				"id": 20051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103467?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Satin Gloves",
+					"id": 103467
+				}
+			},
+			{
+				"id": 20052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Signet of Cruelty",
+					"id": 102701
+				}
+			},
+			{
+				"id": 18796,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99092?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Celestial Harmony",
+					"id": 99092
+				}
+			},
+			{
+				"id": 18800,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99094?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Celestial Harmony",
+					"id": 99094
+				}
+			},
+			{
+				"id": 18803,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99096?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Horned Nightmare",
+					"id": 99096
+				}
+			},
+			{
+				"id": 18807,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99098?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Horned Nightmare",
+					"id": 99098
+				}
+			},
+			{
+				"id": 18809,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99099?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of Celestial Harmony",
+					"id": 99099
+				}
+			},
+			{
+				"id": 18814,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Celestial Harmony",
+					"id": 99102
+				}
+			},
+			{
+				"id": 18816,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99104?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Celestial Harmony",
+					"id": 99104
+				}
+			},
+			{
+				"id": 18821,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of Celestial Harmony",
+					"id": 99108
+				}
+			},
+			{
+				"id": 18826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Barbed Assassin",
+					"id": 99113
+				}
+			},
+			{
+				"id": 18830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Barbed Assassin",
+					"id": 99115
+				}
+			},
+			{
+				"id": 18834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Ternion Glory",
+					"id": 99118
+				}
+			},
+			{
+				"id": 18839,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Ternion Glory",
+					"id": 99121
+				}
+			},
+			{
+				"id": 18841,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Ternion Glory",
+					"id": 99123
+				}
+			},
+			{
+				"id": 18842,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of Winged Triumph",
+					"id": 99124
+				}
+			},
+			{
+				"id": 18845,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of Winged Triumph",
+					"id": 99127
+				}
+			},
+			{
+				"id": 18848,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Winged Triumph",
+					"id": 99129
+				}
+			},
+			{
+				"id": 18849,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Ternion Glory",
+					"id": 99131
+				}
+			},
+			{
+				"id": 18853,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99134?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Winged Triumph",
+					"id": 99134
+				}
+			},
+			{
+				"id": 18856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Winged Triumph",
+					"id": 99137
+				}
+			},
+			{
+				"id": 18859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Winged Triumph",
+					"id": 99139
+				}
+			},
+			{
+				"id": 18861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99141?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Seven Sacred Seals",
+					"id": 99141
+				}
+			},
+			{
+				"id": 18864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99143?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Seven Sacred Seals",
+					"id": 99143
+				}
+			},
+			{
+				"id": 18867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Seven Sacred Seals",
+					"id": 99145
+				}
+			},
+			{
+				"id": 18871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of Seven Sacred Seals",
+					"id": 99147
+				}
+			},
+			{
+				"id": 18874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of Seven Sacred Seals",
+					"id": 99149
+				}
+			},
+			{
+				"id": 18878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Seven Sacred Seals",
+					"id": 99155
+				}
+			},
+			{
+				"id": 18882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Unblinking Vigil",
+					"id": 99158
+				}
+			},
+			{
+				"id": 18885,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99160?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronomancer Gloves",
+					"id": 99160
+				}
+			},
+			{
+				"id": 18888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99162?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronomancer Leggings",
+					"id": 99162
+				}
+			},
+			{
+				"id": 18890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Shattered Vale",
+					"id": 99163
+				}
+			},
+			{
+				"id": 18894,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breeches of the Shattered Vale",
+					"id": 99165
+				}
+			},
+			{
+				"id": 18900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99168?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Unblinking Vigil",
+					"id": 99168
+				}
+			},
+			{
+				"id": 18904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Shattered Vale",
+					"id": 99171
+				}
+			},
+			{
+				"id": 18911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Shattered Vale",
+					"id": 99174
+				}
+			},
+			{
+				"id": 18914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Shattered Vale",
+					"id": 99176
+				}
+			},
+			{
+				"id": 18924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Shattered Vale",
+					"id": 99181
+				}
+			},
+			{
+				"id": 18928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Shattered Vale",
+					"id": 99183
+				}
+			},
+			{
+				"id": 18933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Shattered Vale",
+					"id": 99185
+				}
+			},
+			{
+				"id": 18934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of Cyclopean Dread",
+					"id": 99186
+				}
+			},
+			{
+				"id": 18939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of Cyclopean Dread",
+					"id": 99189
+				}
+			},
+			{
+				"id": 18943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Cyclopean Dread",
+					"id": 99191
+				}
+			},
+			{
+				"id": 18946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Cyclopean Dread",
+					"id": 99193
+				}
+			},
+			{
+				"id": 18949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Prehistoric Marauder",
+					"id": 99195
+				}
+			},
+			{
+				"id": 20053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Satin Leggings",
+					"id": 103469
+				}
+			},
+			{
+				"id": 20054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armplates of Proficiency",
+					"id": 102702
+				}
+			},
+			{
+				"id": 20055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mooncloth Leggings",
+					"id": 102704
+				}
+			},
+			{
+				"id": 20056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistband of Accuracy",
+					"id": 103472
+				}
+			},
+			{
+				"id": 20057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cape of Cruelty",
+					"id": 102705
+				}
+			},
+			{
+				"id": 20058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Boots of Cruelty",
+					"id": 103473
+				}
+			},
+			{
+				"id": 20059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armwraps of Alacrity",
+					"id": 103474
+				}
+			},
+			{
+				"id": 20060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Satin Gloves",
+					"id": 102707
+				}
+			},
+			{
+				"id": 20061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Leather Gloves",
+					"id": 103476
+				}
+			},
+			{
+				"id": 20062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102708?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistband of Accuracy",
+					"id": 102708
+				}
+			},
+			{
+				"id": 20063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Meditation",
+					"id": 102709
+				}
+			},
+			{
+				"id": 20064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Leather Legguards",
+					"id": 103478
+				}
+			},
+			{
+				"id": 20065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armwraps of Accuracy",
+					"id": 102711
+				}
+			},
+			{
+				"id": 20066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistguard of Meditation",
+					"id": 103480
+				}
+			},
+			{
+				"id": 20067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Alacrity",
+					"id": 103481
+				}
+			},
+			{
+				"id": 20068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103482?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Meditation",
+					"id": 103482
+				}
+			},
+			{
+				"id": 20069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armbands of Prowess",
+					"id": 103483
+				}
+			},
+			{
+				"id": 20070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102716?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Boots of Alacrity",
+					"id": 102716
+				}
+			},
+			{
+				"id": 20071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armbands of Meditation",
+					"id": 103484
+				}
+			},
+			{
+				"id": 20072,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ringmail Gauntlets",
+					"id": 103486
+				}
+			},
+			{
+				"id": 20073,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102719?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ringmail Leggings",
+					"id": 102719
+				}
+			},
+			{
+				"id": 20074,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ringmail Leggings",
+					"id": 103488
+				}
+			},
+			{
+				"id": 20075,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102722?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ornamented Gloves",
+					"id": 102722
+				}
+			},
+			{
+				"id": 20076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Linked Gauntlets",
+					"id": 103491
+				}
+			},
+			{
+				"id": 20077,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bindings of Prowess",
+					"id": 102723
+				}
+			},
+			{
+				"id": 20078,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Girdle of Prowess",
+					"id": 102724
+				}
+			},
+			{
+				"id": 20079,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Felweave Handguards",
+					"id": 102725
+				}
+			},
+			{
+				"id": 20080,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Linked Leggings",
+					"id": 103493
+				}
+			},
+			{
+				"id": 20081,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistguard of Cruelty",
+					"id": 103495
+				}
+			},
+			{
+				"id": 20082,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Sabatons of Cruelty",
+					"id": 102729
+				}
+			},
+			{
+				"id": 20083,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mail Gauntlets",
+					"id": 103497
+				}
+			},
+			{
+				"id": 20084,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Leather Legguards",
+					"id": 102730
+				}
+			},
+			{
+				"id": 20085,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mail Leggings",
+					"id": 103499
+				}
+			},
+			{
+				"id": 20086,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Plate Legguards",
+					"id": 102732
+				}
+			},
+			{
+				"id": 20087,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Prowess",
+					"id": 102733
+				}
+			},
+			{
+				"id": 20088,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Silk Handguards",
+					"id": 102735
+				}
+			},
+			{
+				"id": 20089,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Meditation",
+					"id": 102736
+				}
+			},
+			{
+				"id": 20090,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Chain Gauntlets",
+					"id": 102737
+				}
+			},
+			{
+				"id": 20091,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dragonhide Gloves",
+					"id": 102739
+				}
+			},
+			{
+				"id": 20092,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Linked Gauntlets",
+					"id": 102742
+				}
+			},
+			{
+				"id": 20093,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103512?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cloak of Alacrity",
+					"id": 103512
+				}
+			},
+			{
+				"id": 20094,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cloak of Prowess",
+					"id": 103513
+				}
+			},
+			{
+				"id": 20095,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Warboots of Alacrity",
+					"id": 102745
+				}
+			},
+			{
+				"id": 20096,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Signet of Accuracy",
+					"id": 102746
+				}
+			},
+			{
+				"id": 20097,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Choker of Proficiency",
+					"id": 103514
+				}
+			},
+			{
+				"id": 20098,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103515?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Choker of Accuracy",
+					"id": 103515
+				}
+			},
+			{
+				"id": 20099,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Clasp of Meditation",
+					"id": 102748
+				}
+			},
+			{
+				"id": 20100,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Signet of Cruelty",
+					"id": 103517
+				}
+			},
+			{
+				"id": 20101,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Choker of Proficiency",
+					"id": 102749
+				}
+			},
+			{
+				"id": 20102,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Signet of Accuracy",
+					"id": 103518
+				}
+			},
+			{
+				"id": 20103,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102752?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Meditation",
+					"id": 102752
+				}
+			},
+			{
+				"id": 20104,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Felweave Handguards",
+					"id": 103520
+				}
+			},
+			{
+				"id": 20105,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wristguards of Accuracy",
+					"id": 102753
+				}
+			},
+			{
+				"id": 20106,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Felweave Trousers",
+					"id": 103522
+				}
+			},
+			{
+				"id": 20107,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armwraps of Alacrity",
+					"id": 102754
+				}
+			},
+			{
+				"id": 20108,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Felweave Trousers",
+					"id": 102755
+				}
+			},
+			{
+				"id": 20109,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Meditation",
+					"id": 102756
+				}
+			},
+			{
+				"id": 20110,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Alacrity",
+					"id": 102757
+				}
+			},
+			{
+				"id": 20111,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Meditation",
+					"id": 102758
+				}
+			},
+			{
+				"id": 20112,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Plate Gauntlets",
+					"id": 103526
+				}
+			},
+			{
+				"id": 20113,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Meditation",
+					"id": 102760
+				}
+			},
+			{
+				"id": 20114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Plate Legguards",
+					"id": 103528
+				}
+			},
+			{
+				"id": 20115,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Kodohide Legguards",
+					"id": 102761
+				}
+			},
+			{
+				"id": 20116,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Copperskin Legguards",
+					"id": 102762
+				}
+			},
+			{
+				"id": 20117,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Clasp of Cruelty",
+					"id": 102764
+				}
+			},
+			{
+				"id": 20118,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bracers of Meditation",
+					"id": 102765
+				}
+			},
+			{
+				"id": 20119,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wyrmhide Legguards",
+					"id": 102767
+				}
+			},
+			{
+				"id": 20120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ornamented Legplates",
+					"id": 102768
+				}
+			},
+			{
+				"id": 18954,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Prehistoric Marauder",
+					"id": 99198
+				}
+			},
+			{
+				"id": 18955,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of the Prehistoric Marauder",
+					"id": 99199
+				}
+			},
+			{
+				"id": 18956,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/99202?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Prehistoric Marauder",
+					"id": 99202
+				}
+			},
+			{
+				"id": 20121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cloak of Alacrity",
+					"id": 102769
+				}
+			},
+			{
+				"id": 20122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cloak of Prowess",
+					"id": 102770
+				}
+			},
+			{
+				"id": 20123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armplates of Alacrity",
+					"id": 102771
+				}
+			},
+			{
+				"id": 20124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Prowess",
+					"id": 102772
+				}
+			},
+			{
+				"id": 20125,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Cruelty",
+					"id": 102773
+				}
+			},
+			{
+				"id": 20126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ringmail Gauntlets",
+					"id": 102774
+				}
+			},
+			{
+				"id": 20127,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Belt of Meditation",
+					"id": 102775
+				}
+			},
+			{
+				"id": 20128,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Linked Leggings",
+					"id": 102778
+				}
+			},
+			{
+				"id": 20129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Scaled Legguards",
+					"id": 102780
+				}
+			},
+			{
+				"id": 20130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mail Leggings",
+					"id": 102781
+				}
+			},
+			{
+				"id": 20131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cape of Cruelty",
+					"id": 103343
+				}
+			},
+			{
+				"id": 20132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cape of Prowess",
+					"id": 103344
+				}
+			},
+			{
+				"id": 20133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Necklace of Proficiency",
+					"id": 103345
+				}
+			},
+			{
+				"id": 20134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Necklace of Prowess",
+					"id": 103346
+				}
+			},
+			{
+				"id": 20135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ring of Cruelty",
+					"id": 103348
+				}
+			},
+			{
+				"id": 20136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ring of Accuracy",
+					"id": 103349
+				}
+			},
+			{
+				"id": 20137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Cruelty",
+					"id": 103351
+				}
+			},
+			{
+				"id": 20138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Accuracy",
+					"id": 103352
+				}
+			},
+			{
+				"id": 20139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cord of Meditation",
+					"id": 103353
+				}
+			},
+			{
+				"id": 20140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Cruelty",
+					"id": 103354
+				}
+			},
+			{
+				"id": 20141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Alacrity",
+					"id": 103355
+				}
+			},
+			{
+				"id": 20142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Meditation",
+					"id": 103356
+				}
+			},
+			{
+				"id": 20143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Accuracy",
+					"id": 103357
+				}
+			},
+			{
+				"id": 20144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Prowess",
+					"id": 103358
+				}
+			},
+			{
+				"id": 20145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cuffs of Meditation",
+					"id": 103359
+				}
+			},
+			{
+				"id": 20146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Cruelty",
+					"id": 103360
+				}
+			},
+			{
+				"id": 20147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103361?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Prowess",
+					"id": 103361
+				}
+			},
+			{
+				"id": 20148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Drape of Meditation",
+					"id": 103362
+				}
+			},
+			{
+				"id": 20149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103367?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Cruelty",
+					"id": 103367
+				}
+			},
+			{
+				"id": 20150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Alacrity",
+					"id": 103368
+				}
+			},
+			{
+				"id": 20151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103369?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Pendant of Meditation",
+					"id": 103369
+				}
+			},
+			{
+				"id": 20152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Cruelty",
+					"id": 103370
+				}
+			},
+			{
+				"id": 20153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Accuracy",
+					"id": 103371
+				}
+			},
+			{
+				"id": 20154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Meditation",
+					"id": 103372
+				}
+			},
+			{
+				"id": 20155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dreadplate Gauntlets",
+					"id": 103377
+				}
+			},
+			{
+				"id": 20156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dreadplate Legguards",
+					"id": 103379
+				}
+			},
+			{
+				"id": 20157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dragonhide Gloves",
+					"id": 103381
+				}
+			},
+			{
+				"id": 20158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Mooncloth Gloves",
+					"id": 102615
+				}
+			},
+			{
+				"id": 20159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dragonhide Legguards",
+					"id": 103383
+				}
+			},
+			{
+				"id": 20160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Links of Cruelty",
+					"id": 102617
+				}
+			},
+			{
+				"id": 20161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102618?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Plate Gauntlets",
+					"id": 102618
+				}
+			},
+			{
+				"id": 20162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Belt of Meditation",
+					"id": 103386
+				}
+			},
+			{
+				"id": 20163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103387?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Meditation",
+					"id": 103387
+				}
+			},
+			{
+				"id": 20164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102620?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Treads of Alacrity",
+					"id": 102620
+				}
+			},
+			{
+				"id": 20165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103388?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bindings of Meditation",
+					"id": 103388
+				}
+			},
+			{
+				"id": 20166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103389?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Kodohide Gloves",
+					"id": 103389
+				}
+			},
+			{
+				"id": 20167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Satin Leggings",
+					"id": 102621
+				}
+			},
+			{
+				"id": 20168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Meditation",
+					"id": 102623
+				}
+			},
+			{
+				"id": 20169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Kodohide Legguards",
+					"id": 103391
+				}
+			},
+			{
+				"id": 20170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102624?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Armbands of Meditation",
+					"id": 102624
+				}
+			},
+			{
+				"id": 20171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Copperskin Gloves",
+					"id": 102627
+				}
+			},
+			{
+				"id": 20172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Belt of Cruelty",
+					"id": 103395
+				}
+			},
+			{
+				"id": 20173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103396?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Alacrity",
+					"id": 103396
+				}
+			},
+			{
+				"id": 20174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103397?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Bindings of Prowess",
+					"id": 103397
+				}
+			},
+			{
+				"id": 20175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Scaled Gauntlets",
+					"id": 102630
+				}
+			},
+			{
+				"id": 20176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103398?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wyrmhide Gloves",
+					"id": 103398
+				}
+			},
+			{
+				"id": 20177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Footguards of Alacrity",
+					"id": 102631
+				}
+			},
+			{
+				"id": 20178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wyrmhide Legguards",
+					"id": 103400
+				}
+			},
+			{
+				"id": 20179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Greaves of Alacrity",
+					"id": 102638
+				}
+			},
+			{
+				"id": 20180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Greaves of Meditation",
+					"id": 102639
+				}
+			},
+			{
+				"id": 20181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Girdle of Accuracy",
+					"id": 102640
+				}
+			},
+			{
+				"id": 20182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Choker of Accuracy",
+					"id": 102641
+				}
+			},
+			{
+				"id": 20183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102642?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Cape of Prowess",
+					"id": 102642
+				}
+			},
+			{
+				"id": 20184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Links of Cruelty",
+					"id": 103410
+				}
+			},
+			{
+				"id": 20185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Links of Accuracy",
+					"id": 103411
+				}
+			},
+			{
+				"id": 20186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Sabatons of Cruelty",
+					"id": 103412
+				}
+			},
+			{
+				"id": 20187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Ring of Cruelty",
+					"id": 102644
+				}
+			},
+			{
+				"id": 20188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Sabatons of Alacrity",
+					"id": 103413
+				}
+			},
+			{
+				"id": 20189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Links of Accuracy",
+					"id": 102645
+				}
+			},
+			{
+				"id": 20190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Sabatons of Alacrity",
+					"id": 102646
+				}
+			},
+			{
+				"id": 20191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wristguards of Alacrity",
+					"id": 103414
+				}
+			},
+			{
+				"id": 20192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Wristguards of Accuracy",
+					"id": 103415
+				}
+			},
+			{
+				"id": 20193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Waistband of Cruelty",
+					"id": 102647
+				}
+			},
+			{
+				"id": 20194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Silk Trousers",
+					"id": 102648
+				}
+			},
+			{
+				"id": 20195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Band of Accuracy",
+					"id": 102649
+				}
+			},
+			{
+				"id": 20196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Chain Gauntlets",
+					"id": 103417
+				}
+			},
+			{
+				"id": 20197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dreadplate Gauntlets",
+					"id": 102650
+				}
+			},
+			{
+				"id": 20198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Chain Leggings",
+					"id": 103419
+				}
+			},
+			{
+				"id": 20199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dreadplate Legguards",
+					"id": 102651
+				}
+			},
+			{
+				"id": 20200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Silk Handguards",
+					"id": 103421
+				}
+			},
+			{
+				"id": 20201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/102654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Dragonhide Legguards",
+					"id": 102654
+				}
+			},
+			{
+				"id": 20202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/103423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prideful Gladiator's Silk Trousers",
+					"id": 103423
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8157,
+				"title": "Jadeflame Buffet",
+				"body_text": "Inflicts 0 Fire damage to all nearby players and increases Fire damage taken by 5% for 1 min. This effect stacks."
+			},
+			{
+				"id": 8158,
+				"title": "Jadefire Breath",
+				"body_text": "Inflicts 0 Fire damage to players within a 40 yard cone."
+			},
+			{
+				"id": 8159,
+				"title": "Jadefire Bolt",
+				"body_text": "Launches several Jadefire Bolts, creating Jadefire Blazes at the impact locations.",
+				"sections": [
+					{
+						"id": 8160,
+						"title": "Jadefire Blaze",
+						"body_text": "Inflicts 0 Fire damage to players within 11 yards every 1 sec."
+					}
+				]
+			},
+			{
+				"id": 8161,
+				"title": "Jadefire Wall",
+				"body_text": "Summons a massive wall of jade fire, inflicting 12,418 Fire damage to players caught within the blaze."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

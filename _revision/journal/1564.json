@@ -1,0 +1,510 @@
+{
+	"id": 1564,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1564?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1564,
+		"name": "Su majestad Maulgar",
+		"creatures": [
+			{
+				"id": 3794,
+				"name": "Su majestad Maulgar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18649?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18649
+				}
+			},
+			{
+				"id": 3796,
+				"name": "Kiggler el Enloquecido",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/12472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 12472
+				}
+			},
+			{
+				"id": 3797,
+				"name": "Ciego el Vidente",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11585?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11585
+				}
+			},
+			{
+				"id": 3798,
+				"name": "Olm el Invocador",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20195?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20195
+				}
+			},
+			{
+				"id": 3795,
+				"name": "Krosh Manofuego",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20194?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20194
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de guerra de Maulgar",
+					"id": 28801
+				}
+			},
+			{
+				"id": 26038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de guerra Aguja del Filo",
+					"id": 28795
+				}
+			},
+			{
+				"id": 26039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del héroe caído",
+					"id": 29762
+				}
+			},
+			{
+				"id": 26040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa brutal de los magi ogros",
+					"id": 28797
+				}
+			},
+			{
+				"id": 26041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del defensor caído",
+					"id": 29764
+				}
+			},
+			{
+				"id": 26042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de inspiración divina",
+					"id": 28799
+				}
+			},
+			{
+				"id": 26043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del campeón caído",
+					"id": 29763
+				}
+			},
+			{
+				"id": 26044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Máscara maléfica de las sombras",
+					"id": 28796
+				}
+			},
+			{
+				"id": 26045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Martillo de los naaru",
+					"id": 28800
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/746?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Guarida de Gruul",
+			"id": 746
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1564?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1564,
+		"name": "Haut Roi Maulgar",
+		"creatures": [
+			{
+				"id": 3794,
+				"name": "Haut Roi Maulgar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18649?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18649
+				}
+			},
+			{
+				"id": 3796,
+				"name": "Kiggler le Cinglé",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/12472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 12472
+				}
+			},
+			{
+				"id": 3797,
+				"name": "Oeillaveugle le Voyant",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11585?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11585
+				}
+			},
+			{
+				"id": 3798,
+				"name": "Olm l’Invocateur",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20195?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20195
+				}
+			},
+			{
+				"id": 3795,
+				"name": "Krosh Brasemain",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20194?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20194
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de guerre de Maulgar",
+					"id": 28801
+				}
+			},
+			{
+				"id": 26038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignets de guerre flèchelame",
+					"id": 28795
+				}
+			},
+			{
+				"id": 26039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers du héros déchu",
+					"id": 29762
+				}
+			},
+			{
+				"id": 26040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape brutale de l'ogre-magi",
+					"id": 28797
+				}
+			},
+			{
+				"id": 26041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers du défenseur déchu",
+					"id": 29764
+				}
+			},
+			{
+				"id": 26042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture d'inspiration divine",
+					"id": 28799
+				}
+			},
+			{
+				"id": 26043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers du champion déchu",
+					"id": 29763
+				}
+			},
+			{
+				"id": 26044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Masque maléfique des ombres",
+					"id": 28796
+				}
+			},
+			{
+				"id": 26045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marteau des Naaru",
+					"id": 28800
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/746?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Repaire de Gruul",
+			"id": 746
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1564?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1564,
+		"name": "High King Maulgar",
+		"creatures": [
+			{
+				"id": 3794,
+				"name": "High King Maulgar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18649?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18649
+				}
+			},
+			{
+				"id": 3796,
+				"name": "Kiggler the Crazed",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/12472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 12472
+				}
+			},
+			{
+				"id": 3797,
+				"name": "Blindeye the Seer",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11585?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11585
+				}
+			},
+			{
+				"id": 3798,
+				"name": "Olm the Summoner",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20195?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20195
+				}
+			},
+			{
+				"id": 3795,
+				"name": "Krosh Firehand",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20194?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 20194
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maulgar's Warhelm",
+					"id": 28801
+				}
+			},
+			{
+				"id": 26038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bladespire Warbands",
+					"id": 28795
+				}
+			},
+			{
+				"id": 26039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Fallen Hero",
+					"id": 29762
+				}
+			},
+			{
+				"id": 26040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brute Cloak of the Ogre-Magi",
+					"id": 28797
+				}
+			},
+			{
+				"id": 26041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Fallen Defender",
+					"id": 29764
+				}
+			},
+			{
+				"id": 26042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Divine Inspiration",
+					"id": 28799
+				}
+			},
+			{
+				"id": 26043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Fallen Champion",
+					"id": 29763
+				}
+			},
+			{
+				"id": 26044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malefic Mask of the Shadows",
+					"id": 28796
+				}
+			},
+			{
+				"id": 26045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hammer of the Naaru",
+					"id": 28800
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/746?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Gruul's Lair",
+			"id": 746
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			}
+		]
+	}
+}

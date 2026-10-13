@@ -1,0 +1,2355 @@
+{
+	"id": 1197,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1197,
+		"name": "Imperador Mar'gok",
+		"description": "Como gran Imperador de Ogrópolis, Mar'gok desciende de una larga línea de hechiceros que han gobernado el Imperio goriano. Astuto y brutal a la vez, Mar'gok vio cómo la Horda de Hierro prosperaba y se dio cuenta de lo que supondría enfrentarse a ellos. Aunque ahora ha accedido a formar una alianza con Grommash, sigue buscando la forma de inclinar la balanza de poder a su favor.",
+		"creatures": [
+			{
+				"id": 3392,
+				"name": "Imperador Mar'gok",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54329?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 54329
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escudo de espejo de fortificación Arcana",
+					"id": 116373
+				}
+			},
+			{
+				"id": 22051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de cólera Arcana",
+					"id": 116280
+				}
+			},
+			{
+				"id": 22052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113848?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gor'gah, alta hoja de los gorianos",
+					"id": 113848
+				}
+			},
+			{
+				"id": 22053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113849?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pateacaras",
+					"id": 113849
+				}
+			},
+			{
+				"id": 22054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113850?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas del ultimátum Arcano",
+					"id": 113850
+				}
+			},
+			{
+				"id": 22055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113851?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro para la nariz de atracador",
+					"id": 113851
+				}
+			},
+			{
+				"id": 22056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona real goriana",
+					"id": 116027
+				}
+			},
+			{
+				"id": 22057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113852?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de Nova de fuerza",
+					"id": 113852
+				}
+			},
+			{
+				"id": 22058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113853?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Microaberración cautiva",
+					"id": 113853
+				}
+			},
+			{
+				"id": 22059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113854?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marca de réplica rauda",
+					"id": 113854
+				}
+			},
+			{
+				"id": 22060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113855?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras aceradas",
+					"id": 113855
+				}
+			},
+			{
+				"id": 22061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena del linaje ininterrumpido",
+					"id": 116287
+				}
+			},
+			{
+				"id": 22039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113856?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de Explosión abisal",
+					"id": 113856
+				}
+			},
+			{
+				"id": 22040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bastón del gran Imperador",
+					"id": 113857
+				}
+			},
+			{
+				"id": 22041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de alto arcanista",
+					"id": 116002
+				}
+			},
+			{
+				"id": 22042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de desplazamiento violento",
+					"id": 113858
+				}
+			},
+			{
+				"id": 22043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113859?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra rúnica inactiva",
+					"id": 113859
+				}
+			},
+			{
+				"id": 22044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113860?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de Ola de choque",
+					"id": 113860
+				}
+			},
+			{
+				"id": 22045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113861?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eidolon Arcano de mirada eterna",
+					"id": 113861
+				}
+			},
+			{
+				"id": 22046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran capa de Pulso con impacto",
+					"id": 116296
+				}
+			},
+			{
+				"id": 22047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Peto de Resonancia destructiva",
+					"id": 116235
+				}
+			},
+			{
+				"id": 22048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116206?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de mago de guerra",
+					"id": 116206
+				}
+			},
+			{
+				"id": 22049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bastón de guerra del Imperador",
+					"id": 116372
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9956,
+				"title": "Resumen",
+				"body_text": "El imperador Mar'gok asalta a los jugadores con magia Arcana destructora e invoca aberraciones Arcanas para que luchen por él.\r\n\r\nCuando al imperador Mar'gok le queda un 85%, un 55% y un 25% de salud, activa una de las piedras rúnicas en su sala del trono, lo que aumenta sus facultades con efectos adicionales.\r\n\r\nLas piedras rúnicas activadas al 55% y al 25% deben ser despertadas de su estado de hibernación. Mientras se cargan, llegan guardias a defender al imperador, mientras que de la piedra surgen Anomalías volátiles.",
+				"sections": [
+					{
+						"id": 9957,
+						"title": "DPS",
+						"body_text": "$bullet;[Cólera Arcana] se extiende a aliados cercanos.\r\n$bullet;[Resonancia destructiva] infligirá daño letal si se activa.\r\n$bullet;Las aberraciones Arcanas infligen un importante daño a toda la banda mientras siguen con vida."
+					},
+					{
+						"id": 9958,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Cólera Arcana] inflige mucho daño al expirar en un objetivo.\r\n$bullet;Las aberraciones Arcanas infligirán daño a toda la banda cada segundo que sigan con vida.\r\n$bullet;[Nova de fuerza] inflige mucho daño a todos los jugadores al pasar sobre ellos."
+					},
+					{
+						"id": 9959,
+						"title": "Tanques",
+						"body_text": "$bullet;[Asalto acelerado] se acumulará indefinidamente hasta que el imperador Mar'gok ataque cuerpo a cuerpo a un objetivo distinto.\r\n$bullet;[Marca de caos] infligirá daño a los aliados en un radio de 35 m al agotarse.\r\n$bullet;El imperador Mar'gok invocará periódicamente aberraciones Arcanas."
+					}
+				]
+			},
+			{
+				"id": 9889,
+				"title": "Fase 1: Poderío de la corona",
+				"sections": [
+					{
+						"id": 9895,
+						"title": "Cólera Arcana",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156238?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Cólera Arcana",
+							"id": 156238
+						}
+					},
+					{
+						"id": 9896,
+						"title": "Resonancia destructiva",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Resonancia destructiva",
+							"id": 156467
+						}
+					},
+					{
+						"id": 9945,
+						"title": "Aberración Arcana",
+						"body_text": "El imperador Mar'gok invoca una aberración Arcana.",
+						"sections": [
+							{
+								"id": 9949,
+								"title": "Entidad en colapso",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158703?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Entidad en colapso",
+									"id": 158703
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55131?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55131
+						}
+					},
+					{
+						"id": 9897,
+						"title": "Marca de caos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/158605?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Marca de caos",
+							"id": 158605
+						}
+					},
+					{
+						"id": 9898,
+						"title": "Nova de fuerza",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157349?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Nova de fuerza",
+							"id": 157349
+						}
+					},
+					{
+						"id": 9899,
+						"title": "Asalto acelerado",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159515?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Asalto acelerado",
+							"id": 159515
+						}
+					}
+				]
+			},
+			{
+				"id": 9890,
+				"title": "Fase 2: Runa de desplazamiento",
+				"body_text": "Cuando al imperador Mar'gok le queda un 85% de salud, activa la runa de desplazamiento.",
+				"sections": [
+					{
+						"id": 9900,
+						"title": "Cólera Arcana: Desplazamiento",
+						"body_text": "Además de los efectos normales de Cólera Arcana, los jugadores marcados son incapaces de moverse a más de 10 m del lugar donde han sido marcados. Si intentan salir del área marcada, serán teletransportados de vuelta a la misma."
+					},
+					{
+						"id": 9901,
+						"title": "Resonancia destructiva: Desplazamiento",
+						"body_text": "Además de los efectos normales de Resonancia destructiva, crece hasta el doble de su tamaño original durante 30 s."
+					},
+					{
+						"id": 9946,
+						"title": "Aberración Arcana desplazante",
+						"body_text": "El imperador Mar'gok invoca una aberración Arcana desplazante.",
+						"sections": [
+							{
+								"id": 9953,
+								"title": "Pulso con impacto",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160367?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Pulso con impacto",
+									"id": 160367
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55142?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55142
+						}
+					},
+					{
+						"id": 9902,
+						"title": "Marca de caos: Desplazamiento",
+						"body_text": "Además de los efectos normales de Marca de caos, el objetivo se teletransporta a una ubicación aleatoria."
+					},
+					{
+						"id": 9903,
+						"title": "Nova de fuerza: Desplazamiento",
+						"body_text": "Además de los efectos normales de Nova de fuerza, ahora también repele a los jugadores cuando la nova se mueve hacia fuera."
+					}
+				]
+			},
+			{
+				"id": 9891,
+				"title": "Intermedio: Runas durmientes",
+				"body_text": "Cuando al imperador Mar'gok le queda un 55% de salud, comienza a despertar la runa de fortificación. La runa se carga durante 1 min antes de liberar su poder.",
+				"sections": [
+					{
+						"id": 9915,
+						"title": "Mago de guerra goriano",
+						"body_text": "Dos magos de guerra gorianos vienen a defender al imperador Mar'gok mientras este carga la runa de fortificación.",
+						"sections": [
+							{
+								"id": 10621,
+								"title": "Aura de dominancia",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Aura de dominancia",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9916,
+								"title": "Explosión abisal",
+								"sections": [
+									{
+										"id": 10852,
+										"title": "Energía abisal",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Energía abisal",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Explosión abisal",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9917,
+								"title": "Ralentizar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ralentizar",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9918,
+								"title": "Fijar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fijar",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9919,
+						"title": "Anomalía volátil",
+						"body_text": "Mientras la runa de fortificación se carga, de la piedra rúnica salen anomalías volátiles cada 12 s.",
+						"sections": [
+							{
+								"id": 9920,
+								"title": "Desestabilizar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Desestabilizar",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9892,
+				"title": "Fase 3: Runa de fortificación",
+				"sections": [
+					{
+						"id": 9905,
+						"title": "Cólera Arcana: Fortificación",
+						"body_text": "Además de los efectos normales de Cólera Arcana, el alcance del salto de Cólera Arcana solo se reduce un 25% con cada salto."
+					},
+					{
+						"id": 9906,
+						"title": "Resonancia destructiva: Fortificación",
+						"body_text": "Además de los efectos normales de Resonancia destructiva, persiste durante 2 min."
+					},
+					{
+						"id": 9947,
+						"title": "Aberración Arcana reforzada",
+						"body_text": "El imperador Mar'gok invoca una aberración Arcana reforzada.",
+						"sections": [
+							{
+								"id": 9954,
+								"title": "Reforzado",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157252?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Reforzado",
+									"id": 157252
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55143?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55143
+						}
+					},
+					{
+						"id": 9907,
+						"title": "Marca de caos: Fortificación",
+						"body_text": "Además de los efectos normales de Marca de caos, el objetivo queda enraizado."
+					},
+					{
+						"id": 9908,
+						"title": "Nova de fuerza: Fortificación",
+						"body_text": "Además de los efectos normales de Nova de fuerza, se libera una nova adicional cada 8 s durante 16 s."
+					}
+				]
+			},
+			{
+				"id": 9893,
+				"title": "Intermedio: Linaje de poder",
+				"body_text": "Cuando al imperador Mar'gok le queda un 25% de salud, comienza a despertar la runa de réplica. La runa se carga durante 1 min antes de liberar su poder.",
+				"sections": [
+					{
+						"id": 9921,
+						"title": "Atracador goriano",
+						"body_text": "Un atracador goriano viene a defender al imperador Mar'gok mientras este carga la runa de réplica.",
+						"sections": [
+							{
+								"id": 9924,
+								"title": "Ola de choque devastadora",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158547?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ola de choque devastadora",
+									"id": 158547
+								}
+							},
+							{
+								"id": 9925,
+								"title": "Machacar armadura",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158553?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Machacar armadura",
+									"id": 158553
+								}
+							},
+							{
+								"id": 9926,
+								"title": "Patada en la cara",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158563?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Patada en la cara",
+									"id": 158563
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54586?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54586
+						}
+					},
+					{
+						"id": 9922,
+						"title": "Mago de guerra goriano",
+						"body_text": "Dos magos de guerra gorianos vienen a defender al imperador Mar'gok mientras este carga la runa de réplica.",
+						"sections": [
+							{
+								"id": 10622,
+								"title": "Aura de dominancia",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Aura de dominancia",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9927,
+								"title": "Explosión abisal",
+								"sections": [
+									{
+										"id": 10851,
+										"title": "Energía abisal",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Energía abisal",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Explosión abisal",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9928,
+								"title": "Ralentizar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ralentizar",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9929,
+								"title": "Fijar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fijar",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9923,
+						"title": "Anomalía volátil",
+						"body_text": "Mientras la runa de réplica se carga, de la piedra rúnica salen anomalías volátiles cada 12 s.",
+						"sections": [
+							{
+								"id": 9930,
+								"title": "Desestabilizar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Desestabilizar",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9894,
+				"title": "Fase 4: Runa de réplica",
+				"sections": [
+					{
+						"id": 9910,
+						"title": "Cólera Arcana: Réplica",
+						"body_text": "Además de los efectos normales de Cólera Arcana, se marcará a un segundo jugador la primera vez que Cólera Arcana salte."
+					},
+					{
+						"id": 9911,
+						"title": "Resonancia destructiva: Réplica",
+						"body_text": "Además de los efectos normales de Resonancia destructiva, se crean dos resonancias destructivas adicionales cerca cuando se detona o expira."
+					},
+					{
+						"id": 9948,
+						"title": "Aberración Arcana replicante",
+						"body_text": "El imperador Mar'gok invoca una aberración Arcana replicante.",
+						"sections": [
+							{
+								"id": 9955,
+								"title": "Replicar",
+								"body_text": "Al morir, las aberraciones Arcanas replicantes se dividen en 7 remanentes Arcanos."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55144?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55144
+						}
+					},
+					{
+						"id": 9912,
+						"title": "Marca de caos: Réplica",
+						"body_text": "Además de los efectos normales de Marca de caos, se invocan 8 orbes de Caos al expirar Marca de caos. Cada orbe sale volando del portador e inflige 7848 p. de daño Arcano a todos los jugadores a los que atraviesa."
+					},
+					{
+						"id": 9913,
+						"title": "Nova de fuerza: Réplica",
+						"body_text": "Además de los efectos normales de Nova de fuerza, los jugadores dañados por Nova de fuerza infligirán 0 p. de daño Arcano a sus aliados en un radio de 4 m."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/477?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Ogrópolis",
+			"id": 477
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1197,
+		"name": "Imperator Mar’gok",
+		"description": "Grand imperator de Cognefort, Mar’gok est le dernier descendant d’une longue lignée de sorciers qui ont régné sur l’empire gorien. L’ascension fulgurante de la Horde de Fer n’a pas échappé à Mar’gok, dont la fourberie n’a d’égale que la brutalité. Il a formé une alliance avec Grommash en attendant de trouver le moyen de faire pencher à nouveau la balance en sa faveur.",
+		"creatures": [
+			{
+				"id": 3392,
+				"name": "Imperator Mar’gok",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54329?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 54329
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier-miroir de fortification arcanique",
+					"id": 116373
+				}
+			},
+			{
+				"id": 22051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de colère des Arcanes",
+					"id": 116280
+				}
+			},
+			{
+				"id": 22052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113848?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gor'gah, haute lame des Goriens",
+					"id": 113848
+				}
+			},
+			{
+				"id": 22053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113849?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grolles",
+					"id": 113849
+				}
+			},
+			{
+				"id": 22054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113850?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de l'ultimatum arcanique",
+					"id": 113850
+				}
+			},
+			{
+				"id": 22055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113851?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau nasal de saccageur",
+					"id": 113851
+				}
+			},
+			{
+				"id": 22056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne royale gorienne",
+					"id": 116027
+				}
+			},
+			{
+				"id": 22057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113852?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de nova de force",
+					"id": 113852
+				}
+			},
+			{
+				"id": 22058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113853?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Micro-aberration captive",
+					"id": 113853
+				}
+			},
+			{
+				"id": 22059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113854?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marque de réplication rapide",
+					"id": 113854
+				}
+			},
+			{
+				"id": 22060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113855?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques d'épaule infroissables",
+					"id": 113855
+				}
+			},
+			{
+				"id": 22061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de la lignée non interrompue",
+					"id": 116287
+				}
+			},
+			{
+				"id": 22039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113856?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières d'éclair de Néant",
+					"id": 113856
+				}
+			},
+			{
+				"id": 22040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâton du grand imperator",
+					"id": 113857
+				}
+			},
+			{
+				"id": 22041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de grand arcaniste",
+					"id": 116002
+				}
+			},
+			{
+				"id": 22042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de déplacement violent",
+					"id": 113858
+				}
+			},
+			{
+				"id": 22043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113859?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre runique quiescente",
+					"id": 113859
+				}
+			},
+			{
+				"id": 22044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113860?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière d'onde de choc",
+					"id": 113860
+				}
+			},
+			{
+				"id": 22045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113861?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eidolon arcanique de scrutation éternelle",
+					"id": 113861
+				}
+			},
+			{
+				"id": 22046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande cape des impulsions percutantes",
+					"id": 116296
+				}
+			},
+			{
+				"id": 22047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pansière de résonance destructrice",
+					"id": 116235
+				}
+			},
+			{
+				"id": 22048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116206?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de mage de guerre",
+					"id": 116206
+				}
+			},
+			{
+				"id": 22049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâton de guerre de l'imperator",
+					"id": 116372
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9956,
+				"title": "Vue d’ensemble",
+				"body_text": "L’imperator Mar’gok attaque les personnages-joueurs avec une magie des Arcanes destructrice et invoque des aberrations des Arcanes pour combattre à ses côtés.\r\n\r\nQuand il n’a plus que 85%, 55% ou 25% de ses points de vie, il active une des pierres runiques dans la salle du trône, ce qui ajoute des effets à ses techniques.\r\n\r\nLes pierres runiques activées à 55% et 25% doivent être sorties de leur état dormant. Pendant leur chargement, des anomalies volatiles en jaillissent et des gardes viennent défendre l’imperator.",
+				"sections": [
+					{
+						"id": 9957,
+						"title": "DPS",
+						"body_text": "$bullet;[Colère des Arcanes] se propage aux alliés proches.\r\n$bullet;[Résonance destructrice] inflige des dégâts mortels en cas de déclenchement.\r\n$bullet;Les aberrations des Arcanes infligent des dégâts considérables à tout le raid tant qu’elles sont en vie."
+					},
+					{
+						"id": 9958,
+						"title": "Soigneurs",
+						"body_text": "$bullet;[Colère des Arcanes] inflige des dégâts considérables en arrivant à expiration sur une cible.\r\n$bullet;Les aberrations des Arcanes infligent des dégâts toutes les secondes à tout le raid tant qu’elles sont en vie.\r\n$bullet;[Nova de force] inflige des dégâts considérables aux personnages-joueurs en les traversant."
+					},
+					{
+						"id": 9959,
+						"title": "Tanks",
+						"body_text": "$bullet;[Attaque accélérée] s’accumule indéfiniment jusqu’à ce que l’Imperator Mar’gok attaque une cible différente en mêlée.\r\n$bullet;[Marque du chaos] inflige des dégâts aux alliés dans un rayon de 35 mètres en arrivant à expiration.\r\n$bullet;L’Imperator Mar’gok invoque périodiquement des aberrations des Arcanes."
+					}
+				]
+			},
+			{
+				"id": 9889,
+				"title": "Phase 1 : La puissance de la couronne",
+				"sections": [
+					{
+						"id": 9895,
+						"title": "Colère des Arcanes",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156238?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Colère des Arcanes",
+							"id": 156238
+						}
+					},
+					{
+						"id": 9896,
+						"title": "Résonance destructrice",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Résonance destructrice",
+							"id": 156467
+						}
+					},
+					{
+						"id": 9945,
+						"title": "Aberration des Arcanes",
+						"body_text": "L’imperator Mar’gok invoque une aberration des Arcanes.",
+						"sections": [
+							{
+								"id": 9949,
+								"title": "Effondrement d’entité",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158703?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Effondrement d’entité",
+									"id": 158703
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55131?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55131
+						}
+					},
+					{
+						"id": 9897,
+						"title": "Marque du Chaos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/158605?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Marque du Chaos",
+							"id": 158605
+						}
+					},
+					{
+						"id": 9898,
+						"title": "Nova de force",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157349?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Nova de force",
+							"id": 157349
+						}
+					},
+					{
+						"id": 9899,
+						"title": "Assaut accéléré",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159515?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Assaut accéléré",
+							"id": 159515
+						}
+					}
+				]
+			},
+			{
+				"id": 9890,
+				"title": "Phase 2 : Rune de déplacement",
+				"body_text": "Quand l’imperator Mar’gok n’a plus que 85% de ses points de vie, il active la Rune de déplacement.",
+				"sections": [
+					{
+						"id": 9900,
+						"title": "Colère des Arcanes : Déplacement",
+						"body_text": "En plus de subir les effets normaux de Colère des Arcanes, les personnages-joueurs marqués ne peuvent s’éloigner de plus de 10 mètres de l’endroit où ils ont été marqués. Si un personnage-joueur tente de quitter cette zone, il sera téléporté à l’endroit où il a été marqué."
+					},
+					{
+						"id": 9901,
+						"title": "Résonance destructrice : Déplacement",
+						"body_text": "En plus de ses effets normaux, Résonance destructrice s’étend sur une zone deux fois plus grande que celle d’origine en 30 secondes."
+					},
+					{
+						"id": 9946,
+						"title": "Aberration des Arcanes déplacée",
+						"body_text": "L’imperator Mar’gok invoque une aberration des Arcanes déplacée.",
+						"sections": [
+							{
+								"id": 9953,
+								"title": "Impulsion percutante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160367?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Impulsion percutante",
+									"id": 160367
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55142?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55142
+						}
+					},
+					{
+						"id": 9902,
+						"title": "Marque du Chaos : Déplacement",
+						"body_text": "En plus de subir les effets normaux de Marque du Chaos, la cible est téléportée vers une position aléatoire."
+					},
+					{
+						"id": 9903,
+						"title": "Nova de force : Déplacement",
+						"body_text": "En plus de ses effets normaux, Nova de force repousse les personnages-joueurs en se déplaçant vers l’extérieur."
+					}
+				]
+			},
+			{
+				"id": 9891,
+				"title": "Intervalle : Pierres runiques dormantes",
+				"body_text": "Quand l’imperator Mar’gok n’a plus que 55% de ses points de vie, il commence à éveiller la Rune de fortification. La rune se charge pendant 1 minute avant de libérer son pouvoir.",
+				"sections": [
+					{
+						"id": 9915,
+						"title": "Mage de guerre gorien",
+						"body_text": "Deux mages de guerre goriens viennent défendre l’imperator Mar’gok pendant qu’il charge la Rune de fortification.",
+						"sections": [
+							{
+								"id": 10621,
+								"title": "Aura de domination",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Aura de domination",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9916,
+								"title": "Éclair de Néant",
+								"sections": [
+									{
+										"id": 10852,
+										"title": "Énergie du Néant",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Énergie du Néant",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Éclair de Néant",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9917,
+								"title": "Lenteur",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lenteur",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9918,
+								"title": "Fixer",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fixer",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9919,
+						"title": "Anomalie volatile",
+						"body_text": "Pendant le chargement de la Rune de fortification, des anomalies volatiles jaillissent de la pierre runique toutes les 12 s.",
+						"sections": [
+							{
+								"id": 9920,
+								"title": "Déstabiliser",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Déstabiliser",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9892,
+				"title": "Phase 3 : Rune de fortification",
+				"sections": [
+					{
+						"id": 9905,
+						"title": "Colère des Arcanes : Fortification",
+						"body_text": "En plus de son effet normal, la portée de saut de Colère des Arcanes n’est plus réduite que de 25% à chaque saut."
+					},
+					{
+						"id": 9906,
+						"title": "Résonance destructrice : Fortification",
+						"body_text": "En plus de ses effets normaux, Résonance destructrice dure pendant 2 minutes."
+					},
+					{
+						"id": 9947,
+						"title": "Aberration des Arcanes fortifiée",
+						"body_text": "L’imperator Mar’gok invoque une aberration des Arcanes fortifiée.",
+						"sections": [
+							{
+								"id": 9954,
+								"title": "Fortifié",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157252?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fortifié",
+									"id": 157252
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55143?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55143
+						}
+					},
+					{
+						"id": 9907,
+						"title": "Marque du Chaos : Fortification",
+						"body_text": "En plus de subir les effets normaux de Marque du Chaos, la cible est immobilisée."
+					},
+					{
+						"id": 9908,
+						"title": "Nova de force : Fortification",
+						"body_text": "En plus de ses effets normaux, Nova de force libère une nova supplémentaire toutes les 8 s pendant 16 s."
+					}
+				]
+			},
+			{
+				"id": 9893,
+				"title": "Intervalle : Lignée du pouvoir",
+				"body_text": "Quand l’imperator Mar’gok n’a plus que 25% de ses points de vie, il commence à éveiller la Rune de réplication. La rune se charge pendant 1 minute avant de libérer son pouvoir.",
+				"sections": [
+					{
+						"id": 9921,
+						"title": "Saccageur gorien",
+						"body_text": "Un saccageur gorien vient défendre l’imperator Mar’gok pendant qu’il charge la Rune de reproduction.",
+						"sections": [
+							{
+								"id": 9924,
+								"title": "Onde de choc dévastatrice",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158547?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Onde de choc dévastatrice",
+									"id": 158547
+								}
+							},
+							{
+								"id": 9925,
+								"title": "Écraser armure",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158553?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Écraser armure",
+									"id": 158553
+								}
+							},
+							{
+								"id": 9926,
+								"title": "Coup de pied au visage",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158563?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Coup de pied au visage",
+									"id": 158563
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54586?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54586
+						}
+					},
+					{
+						"id": 9922,
+						"title": "Mage de guerre gorien",
+						"body_text": "Deux mages de guerre goriens viennent défendre l’imperator Mar’gok pendant qu’il charge la Rune de reproduction.",
+						"sections": [
+							{
+								"id": 10622,
+								"title": "Aura de domination",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Aura de domination",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9927,
+								"title": "Éclair de Néant",
+								"sections": [
+									{
+										"id": 10851,
+										"title": "Énergie du Néant",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Énergie du Néant",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Éclair de Néant",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9928,
+								"title": "Lenteur",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lenteur",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9929,
+								"title": "Fixer",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fixer",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9923,
+						"title": "Anomalie volatile",
+						"body_text": "Pendant le chargement de la Rune de reproduction, des anomalies volatiles jaillissent de la pierre runique toutes les 12 s.",
+						"sections": [
+							{
+								"id": 9930,
+								"title": "Déstabiliser",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Déstabiliser",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9894,
+				"title": "Phase 4 : Rune de réplication",
+				"sections": [
+					{
+						"id": 9910,
+						"title": "Colère des Arcanes : Reproduction",
+						"body_text": "En plus de ses effets normaux, Colère des Arcanes marque un second personnage-joueur la première fois qu’elle saute."
+					},
+					{
+						"id": 9911,
+						"title": "Résonance destructrice : Reproduction",
+						"body_text": "En plus de ses effets normaux, quand Résonance destructrice explose ou arrive à expiration, elle crée deux Résonances destructrices supplémentaires à proximité."
+					},
+					{
+						"id": 9948,
+						"title": "Aberration des Arcanes réplicante",
+						"body_text": "L’imperator Mar’gok invoque une aberration des Arcanes reproductrice.",
+						"sections": [
+							{
+								"id": 9955,
+								"title": "Reproduction",
+								"body_text": "En mourant, les aberrations des Arcanes reproductrices se divisent en 7 vestiges des Arcanes."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55144?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55144
+						}
+					},
+					{
+						"id": 9912,
+						"title": "Marque du Chaos : Reproduction",
+						"body_text": "En plus de ses effets normaux, quand Marque du Chaos arrive à expiration, 8 orbes du Chaos sont invoqués. Chaque orbe jaillit du porteur de la marque et inflige 7848 points de dégâts des Arcanes à tous les personnages-joueurs qu’il traverse."
+					},
+					{
+						"id": 9913,
+						"title": "Nova de force : Reproduction",
+						"body_text": "Nova de force continue à produire ses effets normaux, et les personnages-joueurs touchés infligent également 0 points de dégâts des Arcanes à leurs alliés à moins de 4 mètres."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/477?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Cognefort",
+			"id": 477
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1197?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1197,
+		"name": "Imperator Mar'gok",
+		"description": "As the grand Imperator of Highmaul, Mar'gok is descended from a long line of sorcerers who have ruled the Gorian Empire. Equal parts cunning and brutality, Mar'gok recognized the rising tide of the Iron Horde and what it would mean to oppose them. He has acquiesced to an alliance with Grommash, even as he continues to search for a way to tip the balance of power back into his favor.",
+		"creatures": [
+			{
+				"id": 3392,
+				"name": "Imperator Mar'gok",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54329?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 54329
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 22050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116373?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mirrorshield of Arcane Fortification",
+					"id": 116373
+				}
+			},
+			{
+				"id": 22051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116280?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of Arcane Wrath",
+					"id": 116280
+				}
+			},
+			{
+				"id": 22052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113848?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gor'gah, High Blade of the Gorians",
+					"id": 113848
+				}
+			},
+			{
+				"id": 22053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113849?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Face Kickers",
+					"id": 113849
+				}
+			},
+			{
+				"id": 22054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113850?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Arcane Ultimatum",
+					"id": 113850
+				}
+			},
+			{
+				"id": 22055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113851?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reaver's Nose Ring",
+					"id": 113851
+				}
+			},
+			{
+				"id": 22056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gorian Royal Crown",
+					"id": 116027
+				}
+			},
+			{
+				"id": 22057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113852?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Force Nova Cloak",
+					"id": 113852
+				}
+			},
+			{
+				"id": 22058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113853?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Captive Micro-Aberration",
+					"id": 113853
+				}
+			},
+			{
+				"id": 22059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113854?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mark of Rapid Replication",
+					"id": 113854
+				}
+			},
+			{
+				"id": 22060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113855?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uncrushable Shoulderplates",
+					"id": 113855
+				}
+			},
+			{
+				"id": 22061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chain of the Unbroken Lineage",
+					"id": 116287
+				}
+			},
+			{
+				"id": 22039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113856?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nether Blast Leggings",
+					"id": 113856
+				}
+			},
+			{
+				"id": 22040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113857?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Staff of the Grand Imperator",
+					"id": 113857
+				}
+			},
+			{
+				"id": 22041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "High Arcanist Leggings",
+					"id": 116002
+				}
+			},
+			{
+				"id": 22042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113858?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of Violent Displacement",
+					"id": 113858
+				}
+			},
+			{
+				"id": 22043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113859?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quiescent Runestone",
+					"id": 113859
+				}
+			},
+			{
+				"id": 22044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113860?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shockwave Signet",
+					"id": 113860
+				}
+			},
+			{
+				"id": 22045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113861?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Evergaze Arcane Eidolon",
+					"id": 113861
+				}
+			},
+			{
+				"id": 22046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greatcloak of Impactful Pulses",
+					"id": 116296
+				}
+			},
+			{
+				"id": 22047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chestplate of Destructive Resonance",
+					"id": 116235
+				}
+			},
+			{
+				"id": 22048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116206?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Warmage's Legwraps",
+					"id": 116206
+				}
+			},
+			{
+				"id": 22049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116372?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Imperator's Warstaff",
+					"id": 116372
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 9956,
+				"title": "Overview",
+				"body_text": "Imperator Mar'gok assaults players with destructive Arcane magic and summons Arcane Aberrations to fight for him.\r\n\r\nWhen Imperator Mar'gok reaches 85%, 55% and 25% health remaining, he activates one of the runestones in his throne room, augmenting his abilities with additional effects.\r\n\r\nThe runestones activated at 55% and 25% must be awakened from their dormant state. As they charge, guards arrive to defend the Imperator as Volatile Anomalies pour from the stone.",
+				"sections": [
+					{
+						"id": 9957,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Arcane Wrath] spreads to nearby allies.\r\n$bullet;[Destructive Resonance] will inflict lethal damage if triggered.\r\n$bullet;Arcane Aberrations inflict heavy raid wide damage as long as they are alive."
+					},
+					{
+						"id": 9958,
+						"title": "Healers",
+						"body_text": "$bullet;[Arcane Wrath] inflicts heavy damage when it expires from a target.\r\n$bullet;Arcane Aberrations will inflict raid wide damage every second that they are alive.\r\n$bullet;[Force Nova] inflicts heavy damage to players as it moves over them."
+					},
+					{
+						"id": 9959,
+						"title": "Tanks",
+						"body_text": "$bullet;[Accelerated Assault] will stack indefinitely until Imperator Mar'gok melee attacks a different target.\r\n$bullet;[Mark of Chaos] will inflict damage to allies within 35 yards when it expires.\r\n$bullet;Imperator Mar'gok will periodically summon Arcane Aberrations."
+					}
+				]
+			},
+			{
+				"id": 9889,
+				"title": "Stage One: Might of the Crown",
+				"sections": [
+					{
+						"id": 9895,
+						"title": "Arcane Wrath",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156238?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Arcane Wrath",
+							"id": 156238
+						}
+					},
+					{
+						"id": 9896,
+						"title": "Destructive Resonance",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/156467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Destructive Resonance",
+							"id": 156467
+						}
+					},
+					{
+						"id": 9945,
+						"title": "Arcane Aberration",
+						"body_text": "Imperator Mar'gok summons an Arcane Aberration.",
+						"sections": [
+							{
+								"id": 9949,
+								"title": "Collapsing Entity",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158703?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Collapsing Entity",
+									"id": 158703
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55131?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55131
+						}
+					},
+					{
+						"id": 9897,
+						"title": "Mark of Chaos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/158605?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Mark of Chaos",
+							"id": 158605
+						}
+					},
+					{
+						"id": 9898,
+						"title": "Force Nova",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/157349?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Force Nova",
+							"id": 157349
+						}
+					},
+					{
+						"id": 9899,
+						"title": "Accelerated Assault",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159515?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Accelerated Assault",
+							"id": 159515
+						}
+					}
+				]
+			},
+			{
+				"id": 9890,
+				"title": "Stage Two: Rune of Displacement",
+				"body_text": "When Imperator Mar'gok reaches 85% health remaining, he activates the Rune of Displacement.",
+				"sections": [
+					{
+						"id": 9900,
+						"title": "Arcane Wrath: Displacement",
+						"body_text": "In addition to Arcane Wrath's normal effects, Branded Players are unable to move more than 10 yards from the location they were marked. Attempting to leave the marked area will teleport the player back to the location they were originally marked."
+					},
+					{
+						"id": 9901,
+						"title": "Destructive Resonance: Displacement",
+						"body_text": "In addition to Destructive Resonance's normal effects, it grows to twice its original size over 30 seconds."
+					},
+					{
+						"id": 9946,
+						"title": "Displacing Arcane Aberration",
+						"body_text": "Imperator Mar'gok summons a Displacing Arcane Aberration.",
+						"sections": [
+							{
+								"id": 9953,
+								"title": "Impactful Pulse",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160367?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Impactful Pulse",
+									"id": 160367
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55142?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55142
+						}
+					},
+					{
+						"id": 9902,
+						"title": "Mark of Chaos: Displacement",
+						"body_text": "In addition to Mark of Chaos' normal effects, the target is teleported to a random location."
+					},
+					{
+						"id": 9903,
+						"title": "Force Nova: Displacement",
+						"body_text": "In addition to Force Nova's normal effects, it now also pushes players away as the nova moves outwards."
+					}
+				]
+			},
+			{
+				"id": 9891,
+				"title": "Intermission: Dormant Runestones",
+				"body_text": "When Imperator Mar'gok reaches 55% health remaining, he begins to awaken the Rune of Fortification. The rune charges for 1 minute before releasing its power.",
+				"sections": [
+					{
+						"id": 9915,
+						"title": "Gorian Warmage",
+						"body_text": "Two Gorian Warmages come to defend Imperator Mar'gok as he charges the Rune of Fortification.",
+						"sections": [
+							{
+								"id": 10621,
+								"title": "Dominance Aura",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dominance Aura",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9916,
+								"title": "Nether Blast",
+								"sections": [
+									{
+										"id": 10852,
+										"title": "Nether Energy",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Nether Energy",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Nether Blast",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9917,
+								"title": "Slow",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Slow",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9918,
+								"title": "Fixate",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fixate",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9919,
+						"title": "Volatile Anomaly",
+						"body_text": "As the Rune of Fortification charges, Volatile Anomalies pour from the rune stone every 12 sec.",
+						"sections": [
+							{
+								"id": 9920,
+								"title": "Destabilize",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Destabilize",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9892,
+				"title": "Stage Three: Rune of Fortification",
+				"sections": [
+					{
+						"id": 9905,
+						"title": "Arcane Wrath: Fortification",
+						"body_text": "In addition to Arcane Wrath's normal effect, the jump range of Arcane Wrath is only decreased by 25% with each jump."
+					},
+					{
+						"id": 9906,
+						"title": "Destructive Resonance: Fortification",
+						"body_text": "In addition to Destructive Resonance's normal effects, it persists for 2 minutes."
+					},
+					{
+						"id": 9947,
+						"title": "Fortified Arcane Aberration",
+						"body_text": "Imperator Mar'gok summons a Fortified Arcane Aberration.",
+						"sections": [
+							{
+								"id": 9954,
+								"title": "Fortified",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157252?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fortified",
+									"id": 157252
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55143?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55143
+						}
+					},
+					{
+						"id": 9907,
+						"title": "Mark of Chaos: Fortification",
+						"body_text": "In addition to Mark of Chaos' normal effects, the target is rooted in place."
+					},
+					{
+						"id": 9908,
+						"title": "Force Nova: Fortification",
+						"body_text": "In addition to Force Nova's normal effects, an additional nova is released every 8 sec,. for 16 sec."
+					}
+				]
+			},
+			{
+				"id": 9893,
+				"title": "Intermission: Lineage of Power",
+				"body_text": "When Imperator Mar'gok reaches 25% health remaining, he begins to awaken the Rune of Replication. The rune charges for 1 minute before releasing its power.",
+				"sections": [
+					{
+						"id": 9921,
+						"title": "Gorian Reaver",
+						"body_text": "A Gorian Reaver comes to defend Imperator Mar'gok as he charges the Rune of Replication.",
+						"sections": [
+							{
+								"id": 9924,
+								"title": "Devastating Shockwave",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158547?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Devastating Shockwave",
+									"id": 158547
+								}
+							},
+							{
+								"id": 9925,
+								"title": "Crush Armor",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158553?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Crush Armor",
+									"id": 158553
+								}
+							},
+							{
+								"id": 9926,
+								"title": "Kick to the Face",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158563?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Kick to the Face",
+									"id": 158563
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54586?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54586
+						}
+					},
+					{
+						"id": 9922,
+						"title": "Gorian Warmage",
+						"body_text": "Two Gorian Warmages come to defend Imperator Mar'gok as he charges the Rune of Replication.",
+						"sections": [
+							{
+								"id": 10622,
+								"title": "Dominance Aura",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/174126?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dominance Aura",
+									"id": 174126
+								}
+							},
+							{
+								"id": 9927,
+								"title": "Nether Blast",
+								"sections": [
+									{
+										"id": 10851,
+										"title": "Nether Energy",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/178468?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Nether Energy",
+											"id": 178468
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157769?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Nether Blast",
+									"id": 157769
+								}
+							},
+							{
+								"id": 9928,
+								"title": "Slow",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157801?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Slow",
+									"id": 157801
+								}
+							},
+							{
+								"id": 9929,
+								"title": "Fixate",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fixate",
+									"id": 157763
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54330?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54330
+						}
+					},
+					{
+						"id": 9923,
+						"title": "Volatile Anomaly",
+						"body_text": "As the Rune of Replication charges, Volatile Anomalies pour from the rune stone every 12 sec.",
+						"sections": [
+							{
+								"id": 9930,
+								"title": "Destabilize",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157657?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Destabilize",
+									"id": 157657
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 54282
+						}
+					}
+				]
+			},
+			{
+				"id": 9894,
+				"title": "Stage Four: Rune of Replication",
+				"sections": [
+					{
+						"id": 9910,
+						"title": "Arcane Wrath: Replication",
+						"body_text": "In addition to Arcane Wrath's normal effects, a second player will be Branded the first time Arcane Wrath jumps."
+					},
+					{
+						"id": 9911,
+						"title": "Destructive Resonance: Replication",
+						"body_text": "In addition to Destructive Resonance's normal effects, two additional Destructive Resonances are created nearby when it detonates or expires."
+					},
+					{
+						"id": 9948,
+						"title": "Replicating Arcane Aberration",
+						"body_text": "Imperator Mar'gok summons a Replicating Arcane Aberration.",
+						"sections": [
+							{
+								"id": 9955,
+								"title": "Replicate",
+								"body_text": "Upon death, Replicating Arcane Aberrations split into 7 Arcane Remnants."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/55144?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 55144
+						}
+					},
+					{
+						"id": 9912,
+						"title": "Mark of Chaos: Replication",
+						"body_text": "In addition to Mark of Chaos' normal effects, 8 Orbs of Chaos are conjured when Mark of Chaos expires. Each orb flies out from the wearer and inflicts 7,848 Arcane damage to all players that they move through."
+					},
+					{
+						"id": 9913,
+						"title": "Force Nova: Replication",
+						"body_text": "In addition to Force Nova's normal effects, players who are damaged by Force Nova will inflict 0 Arcane damage to their allies within 4 yards."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/477?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Highmaul",
+			"id": 477
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			}
+		]
+	}
+}

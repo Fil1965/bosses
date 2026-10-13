@@ -1,0 +1,1569 @@
+{
+	"id": 173,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/173?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 173,
+		"name": "Maloriak",
+		"description": "El humano Malory era un joven alquimista brillante hasta que Nefarian lo raptó y lo fusionó con el cadáver de un dragauro. El resultado, Maloriak, es un esbirro incompetente al que apenas le queda un atisbo de su antigua inteligencia.",
+		"creatures": [
+			{
+				"id": 596,
+				"name": "Maloriak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33186?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33186
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del vencedor desolado",
+					"id": 67426
+				}
+			},
+			{
+				"id": 10172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del protector desolado",
+					"id": 67427
+				}
+			},
+			{
+				"id": 10173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del conquistador desolado",
+					"id": 67428
+				}
+			},
+			{
+				"id": 10174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tarro de remedios antiguos",
+					"id": 65029
+				}
+			},
+			{
+				"id": 10175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de llamas acuciantes",
+					"id": 65030
+				}
+			},
+			{
+				"id": 10176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de Congelación apresurada",
+					"id": 65031
+				}
+			},
+			{
+				"id": 10177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del buen hijo",
+					"id": 65032
+				}
+			},
+			{
+				"id": 10178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65033?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de creación impecable",
+					"id": 65033
+				}
+			},
+			{
+				"id": 10179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65034?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de tormentas arcanas",
+					"id": 65034
+				}
+			},
+			{
+				"id": 10180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65035?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de Escalofrío cortante",
+					"id": 65035
+				}
+			},
+			{
+				"id": 10181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maza de muerte acre",
+					"id": 65036
+				}
+			},
+			{
+				"id": 10182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65037?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de experimentos fallidos",
+					"id": 65037
+				}
+			},
+			{
+				"id": 10183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de cero absoluto",
+					"id": 59342
+				}
+			},
+			{
+				"id": 10184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de guerra de hueso de dragón",
+					"id": 65038
+				}
+			},
+			{
+				"id": 10185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de aberración",
+					"id": 59343
+				}
+			},
+			{
+				"id": 10186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de aberración",
+					"id": 65039
+				}
+			},
+			{
+				"id": 10187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de cero absoluto",
+					"id": 65040
+				}
+			},
+			{
+				"id": 10188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de guerra de hueso de dragón",
+					"id": 59344
+				}
+			},
+			{
+				"id": 10189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de experimentos fallidos",
+					"id": 59346
+				}
+			},
+			{
+				"id": 10190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maza de muerte acre",
+					"id": 59347
+				}
+			},
+			{
+				"id": 10191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de Escalofrío cortante",
+					"id": 59348
+				}
+			},
+			{
+				"id": 10192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de tormentas arcanas",
+					"id": 59349
+				}
+			},
+			{
+				"id": 10193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de creación impecable",
+					"id": 59350
+				}
+			},
+			{
+				"id": 10194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del buen hijo",
+					"id": 59351
+				}
+			},
+			{
+				"id": 10195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de Congelación apresurada",
+					"id": 59352
+				}
+			},
+			{
+				"id": 10196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de llamas acuciantes",
+					"id": 59353
+				}
+			},
+			{
+				"id": 10197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tarro de remedios antiguos",
+					"id": 59354
+				}
+			},
+			{
+				"id": 35266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Experimento envasado",
+					"id": 152967
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2929,
+				"title": "Fase 1: ¡No puedo volver a fallar!",
+				"body_text": "De forma periódica, Maloriak lanzará varios viales a la caldera, con diferentes efectos. Los dos primeros viales serán rojo y azul, o bien azul y rojo, luego verde, y después se repite el ciclo.",
+				"sections": [
+					{
+						"id": 2930,
+						"title": "Tormenta Arcana",
+						"body_text": "Maloriak canaliza una Tormenta Arcana, lo que inflige 0 p. de daño Arcano por segundo durante 6 s a todos los jugadores."
+					},
+					{
+						"id": 2934,
+						"title": "Remedio",
+						"body_text": "Maloriak se sana 0 p. de salud y genera 0 p. de maná por segundo durante 10 s. La cantidad sanada aumenta 0 p. por segundo."
+					},
+					{
+						"id": 2935,
+						"title": "Vial rojo",
+						"body_text": "Maloriak lanza un vial rojo en su caldero, lo que le otorga un aliento llameante. El efecto del vial rojo dura 40 s.",
+						"sections": [
+							{
+								"id": 2936,
+								"title": "Llamas acuciantes",
+								"body_text": "Maloriak prende a un jugador aleatorio, lo que inflige 0 p. de daño de Fuego durante 10 s. Todo el daño sufrido por el jugador mientras está ardiendo aumenta el daño que inflige Llamas acuciantes un 50% del daño mágico sufrido."
+							},
+							{
+								"id": 2937,
+								"title": "Explosión agostadora",
+								"body_text": "Maloriak respira fuego, lo que inflige 0 p. de daño de Fuego, que se divide entre todos los objetivos en un cono de 70 grados hasta 60 m frente a él."
+							},
+							{
+								"id": 2931,
+								"title": "Liberar aberraciones",
+								"body_text": "Maloriak libera 3 aberraciones de sus cámaras de crecimiento que atacan a los jugadores.",
+								"sections": [
+									{
+										"id": 2932,
+										"title": "Aberración",
+										"body_text": "Estos experimentos fallidos usan un Catalizador de crecimiento para aumentar el daño de los aliados cercanos y reducir su daño recibido.",
+										"sections": [
+											{
+												"id": 2933,
+												"title": "Catalizador de crecimiento",
+												"body_text": "Cada aberración aumenta un 10% el daño de otras aberraciones cercanas en un radio de 10 m y reducen un 20% su daño recibido. Este efecto se acumula y también afecta a Maloriak y a los sujetos principales."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2938,
+						"title": "Vial azul",
+						"body_text": "Maloriak lanza un vial azul en su caldero, lo que le otorga magia congelante. Los efectos del vial azul duran 40 s.",
+						"sections": [
+							{
+								"id": 2939,
+								"title": "Escalofrío cortante",
+								"body_text": "Maloriak lanza un Anillo de Escarcha a un jugador aleatorio que inflige 447 p. de daño de Escarcha al jugador y a los aliados en un radio de 3 m. Dura 10 s."
+							},
+							{
+								"id": 2940,
+								"title": "Congelación apresurada",
+								"body_text": "Maloriak congela repentinamente el área que hay alrededor de un jugador aleatorio, lo que inflige 0 p. de daño de Escarcha a todos los jugadores en un radio de 5 m del objetivo y los recubre de hielo sólido durante 30 s.\r\n\r\nCuando se rompe el hielo, los objetivos se liberan, pero el hielo roto inflige 0 p. de daño de Escarcha extra a todos los jugadores en un radio de 5 m alrededor del objetivo, lo que rompe todo el hielo en esa área."
+							},
+							{
+								"id": 2956,
+								"title": "Liberar aberraciones",
+								"body_text": "Maloriak libera 3 aberraciones de sus cámaras de crecimiento que atacan a los jugadores.",
+								"sections": [
+									{
+										"id": 2957,
+										"title": "Aberración",
+										"body_text": "Estos experimentos fallidos usan un Catalizador de crecimiento para aumentar el daño de los aliados cercanos y reducir su daño recibido.",
+										"sections": [
+											{
+												"id": 2958,
+												"title": "Catalizador de crecimiento",
+												"body_text": "Cada aberración aumenta un 10% el daño de otras aberraciones cercanas en un radio de 10 m y reducen un 20% su daño recibido. Este efecto se acumula y también afecta a Maloriak y a los sujetos principales."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2941,
+						"title": "Vial verde",
+						"body_text": "Maloriak lanza un vial verde en su caldero. La mezcla explota y cancela el Catalizador de crecimiento de las aberraciones. El efecto del vial verde dura 40 s.",
+						"sections": [
+							{
+								"id": 2942,
+								"title": "Baba debilitadora",
+								"body_text": "Salpican babas de la caldera que cubren todas las unidades de la sala. Las babas aumentan todo el daño recibido un 100% y anulan temporalmente los catalizadores de crecimiento. Dura 15 s."
+							}
+						]
+					},
+					{
+						"id": 2943,
+						"title": "Magia oscura",
+						"body_text": "Lord Victor Nefarius lanza Magia oscura en el caldero, lo que hace que escupa bazofias viles. Los efectos de Magia oscura duran 90 s, durante los que no se puede provocar a Maloriak.",
+						"sections": [
+							{
+								"id": 2945,
+								"title": "Oscuridad engullidora",
+								"body_text": "Maloriak cubre un área en forma de cono de 20 grados frente a él con Oscuridad engullidora, lo que inflige 0 p. de daño de las Sombras y reduce un 100% la sanación recibida durante 1,5 s."
+							},
+							{
+								"id": 2946,
+								"title": "Bazofia vil",
+								"body_text": "La magia oscura hace que aparezcan 5 bazofias viles. Estas babas horribles lanzan continuamente Fango oscuro a jugadores aleatorios hasta que mueren.",
+								"sections": [
+									{
+										"id": 2947,
+										"title": "Fango oscuro",
+										"body_text": "La bazofia vil ataca a un jugador aleatorio con Fango oscuro, lo que deja un charco en el suelo durante 30 s que inflige 0 p. de daño de las Sombras cada 0,5 s a todos los jugadores en un radio de 3 m."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2948,
+				"title": "Fase 2: Resultados impredecibles",
+				"body_text": "Cuando su salud está al 25%, Maloriak deja de lanzar viales al caldero. Inflige más daño cuerpo a cuerpo, obtiene nuevas facultades y libera al instante a todos los experimentos restantes en las cámaras de crecimiento.",
+				"sections": [
+					{
+						"id": 2949,
+						"title": "Liberar a todos",
+						"body_text": "Maloriak libera a todas las aberraciones restantes y a los dos sujetos principales de sus cámaras de crecimiento."
+					},
+					{
+						"id": 2950,
+						"title": "Chorros de magma",
+						"body_text": "Maloriak libera una corriente de pequeñas fisuras de fuego frente a él. Estas fisuras infligen 0 p. de daño de Fuego a todos los jugadores en un radio de 3 m. Además, las fisuras dejan un efecto persistente de quemado que inflige 0 p. de daño de Fuego a todos los jugadores cercanos."
+					},
+					{
+						"id": 2951,
+						"title": "Cero absoluto",
+						"body_text": "Maloriak invoca una esfera de energía ultracongelante cerca de un objetivo aleatorio. Si la esfera entra en un radio de 3 m de un jugador, explota, lo que inflige 0 p. de daño de Escarcha a todos los aliados en un radio de 5 m y los derriba."
+					},
+					{
+						"id": 2952,
+						"title": "Nova de ácido",
+						"body_text": "Maloriak inflige 0 p. de daño de Naturaleza por segundo a todos los jugadores durante 10 s."
+					},
+					{
+						"id": 2953,
+						"title": "Sujeto principal",
+						"body_text": "Estos dracónidos experimentales mejoran el daño de los aliados con Catalizador de crecimiento.",
+						"sections": [
+							{
+								"id": 2954,
+								"title": "Catalizador de crecimiento",
+								"body_text": "Cada sujeto principal aumenta el daño de los otros sujetos principales en un radio de 10 m un 10% y reduce su daño recibido un 20%. Este efecto se acumula y también afecta a Maloriak y a las aberraciones."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20726?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 20726
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/173?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 173,
+		"name": "Maloriak",
+		"description": "L’Humain Malory était un jeune alchimiste brillant avant de se faire enlever par Nefarian. Ce dernier fusionna le corps de l'alchimiste avec celui d’un jeune dragon. Le résultat de cette fusion, Maloriak, est un serviteur bredouillant qui ne possède que de lointains restes de son ancienne intelligence.",
+		"creatures": [
+			{
+				"id": 596,
+				"name": "Maloriak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33186?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33186
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du vainqueur lugubre",
+					"id": 67426
+				}
+			},
+			{
+				"id": 10172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du protecteur lugubre",
+					"id": 67427
+				}
+			},
+			{
+				"id": 10173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du conquérant lugubre",
+					"id": 67428
+				}
+			},
+			{
+				"id": 10174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pot d'antiques remèdes",
+					"id": 65029
+				}
+			},
+			{
+				"id": 10175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de flammes dévorantes",
+					"id": 65030
+				}
+			},
+			{
+				"id": 10176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de gel instantané",
+					"id": 65031
+				}
+			},
+			{
+				"id": 10177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards du meilleur fils",
+					"id": 65032
+				}
+			},
+			{
+				"id": 10178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65033?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de création parfaite",
+					"id": 65033
+				}
+			},
+			{
+				"id": 10179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65034?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de tempêtes arcaniques",
+					"id": 65034
+				}
+			},
+			{
+				"id": 10180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65035?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de froid mordant",
+					"id": 65035
+				}
+			},
+			{
+				"id": 10181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Masse de mort acerbe",
+					"id": 65036
+				}
+			},
+			{
+				"id": 10182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65037?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique des expériences ratées",
+					"id": 65037
+				}
+			},
+			{
+				"id": 10183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de zéro absolu",
+					"id": 59342
+				}
+			},
+			{
+				"id": 10184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de guerre en os de dragon",
+					"id": 65038
+				}
+			},
+			{
+				"id": 10185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières d'aberration",
+					"id": 59343
+				}
+			},
+			{
+				"id": 10186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières d'aberration",
+					"id": 65039
+				}
+			},
+			{
+				"id": 10187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de zéro absolu",
+					"id": 65040
+				}
+			},
+			{
+				"id": 10188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de guerre en os de dragon",
+					"id": 59344
+				}
+			},
+			{
+				"id": 10189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique des expériences ratées",
+					"id": 59346
+				}
+			},
+			{
+				"id": 10190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Masse de mort acerbe",
+					"id": 59347
+				}
+			},
+			{
+				"id": 10191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de froid mordant",
+					"id": 59348
+				}
+			},
+			{
+				"id": 10192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de tempêtes arcaniques",
+					"id": 59349
+				}
+			},
+			{
+				"id": 10193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de création parfaite",
+					"id": 59350
+				}
+			},
+			{
+				"id": 10194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards du meilleur fils",
+					"id": 59351
+				}
+			},
+			{
+				"id": 10195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de gel instantané",
+					"id": 59352
+				}
+			},
+			{
+				"id": 10196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de flammes dévorantes",
+					"id": 59353
+				}
+			},
+			{
+				"id": 10197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pot d'antiques remèdes",
+					"id": 59354
+				}
+			},
+			{
+				"id": 35266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Expérience-en-bouteille",
+					"id": 152967
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2929,
+				"title": "Phase 1 : Ne pas échouer encore !",
+				"body_text": "Maloriak jette périodiquement différentes fioles dans son chaudron, ce qui produit divers effets. La première fiole est rouge et la deuxième bleue, ou inversement, mais la troisième est toujours verte. Ensuite, le cycle recommence.",
+				"sections": [
+					{
+						"id": 2930,
+						"title": "Orage arcanique",
+						"body_text": "Maloriak canalise un orage arcanique et inflige 0 points de dégâts des Arcanes par seconde pendant 6 s à tous les ennemis dans la pièce."
+					},
+					{
+						"id": 2934,
+						"title": "Remède",
+						"body_text": "Toutes les secondes pendant 10 s, Maloriak se soigne de 0 points de vie et récupère 0 points de mana. La quantité de soins qu’il récupère augmente de 0 toutes les secondes."
+					},
+					{
+						"id": 2935,
+						"title": "Fiole rouge",
+						"body_text": "Maloriak jette une fiole rouge dans son chaudron, ce qui lui confère un souffle enflammé. Les effets de la fiole rouge durent 40 s.",
+						"sections": [
+							{
+								"id": 2936,
+								"title": "Flammes consumantes",
+								"body_text": "Maloriak enflamme un personnage-joueur aléatoire, lui infligeant 0 points de dégâts de Feu par seconde pendant 10 s. Tous les dégâts magiques subis par le personnage-joueur alors qu’il brûle augmentent les dégâts infligés par Magie consumante de 50% des dégâts magiques subis."
+							},
+							{
+								"id": 2937,
+								"title": "Déflagration brûlante",
+								"body_text": "Maloriak exhale du feu en infligeant 0 points de dégâts de Feu divisés par le nombre de cibles présentes dans un cône long de 60 mètres et large de 70 degrés devant lui."
+							},
+							{
+								"id": 2931,
+								"title": "Libération des aberrations",
+								"body_text": "Maloriak libère 3 aberrations de leur chambre de croissance. Ces aberrations attaquent alors les personnages-joueurs.",
+								"sections": [
+									{
+										"id": 2932,
+										"title": "Aberration",
+										"body_text": "Ces expérimentations ratées utilisent un Catalyseur de croissance pour augmenter les dégâts infligés par leurs alliés proches et réduire les dégâts subis.",
+										"sections": [
+											{
+												"id": 2933,
+												"title": "Catalyseur de croissance",
+												"body_text": "Chaque aberration augmente les dégâts des autres aberrations dans un rayon de 10 mètres de 10% et réduit les dégâts qu’elles subissent de 20%. Cet effet est cumulable et affecte également Maloriak et ses sujets primordiaux."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2938,
+						"title": "Fiole bleue",
+						"body_text": "Maloriak lance une fiole bleue dans son chaudron et utilise la magie du givre. Les effets de la fiole bleue durent 40 s.",
+						"sections": [
+							{
+								"id": 2939,
+								"title": "Frisson mordant",
+								"body_text": "Maloriak cible un personnage-joueur aléatoire avec un Anneau de givre qui inflige 447 points de dégâts de Givre au personnage-joueur et à tous ses alliés dans un rayon de 3 mètres. L’anneau dure 10 s."
+							},
+							{
+								"id": 2940,
+								"title": "Gel instantané",
+								"body_text": "Maloriak gèle l’air autour d’un personnage-joueur aléatoire, infligeant 0 points de dégâts de Givre à tous ceux qui se trouvent dans un rayon de 5 mètres de la cible et les enfermant dans un bloc de glace pendant 30 s. \r\n\r\nLorsque la glace est brisée, les cibles sont libérées, mais les éclats de glace infligent 0 points de dégâts de Givre supplémentaires à tous les personnages-joueurs dans un rayon de 5 mètres autour de la cible, brisant les autres blocs de glace dans la zone d'effet."
+							},
+							{
+								"id": 2956,
+								"title": "Libération des aberrations",
+								"body_text": "Maloriak libère 3 aberrations de leur chambre de croissance. Ces aberrations attaquent alors les personnages-joueurs.",
+								"sections": [
+									{
+										"id": 2957,
+										"title": "Aberration",
+										"body_text": "Ces expérimentations ratées utilisent un Catalyseur de croissance pour augmenter les dégâts infligés par leurs alliés proches et réduire les dégâts subis.",
+										"sections": [
+											{
+												"id": 2958,
+												"title": "Catalyseur de croissance",
+												"body_text": "Chaque aberration augmente les dégâts des autres aberrations dans un rayon de 10 mètres de 10% et réduit les dégâts qu’elles subissent de 20%. Cet effet est cumulable et affecte également Maloriak et ses sujets primordiaux."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2941,
+						"title": "Fiole verte",
+						"body_text": "Maloriak lance une fiole verte dans son chaudron. La mixture explose et annule le Catalyseur de croissance sur les aberrations. Les effets de la fiole verte durent 40 s.",
+						"sections": [
+							{
+								"id": 2942,
+								"title": "Gelée débilitante",
+								"body_text": "De la gelée jaillit du chaudron et recouvre tout ce qui se trouve dans la pièce. La gelée augmente les dégâts subis de 100% et supprime temporairement tout Catalyseur de croissance. Dure 15 s."
+							}
+						]
+					},
+					{
+						"id": 2943,
+						"title": "Magie noire",
+						"body_text": "Le seigneur Victor Nefarius lance de la Magie noire dans le chaudron, qui recrache un Vil rata. Les effets de Magie noire durent 90 secondes. Magie noire rend également Maloriak insensible aux effets de provocation.",
+						"sections": [
+							{
+								"id": 2945,
+								"title": "Linceul de ténèbres",
+								"body_text": "Maloriak enveloppe une zone devant lui en forme de cône de 20 degrés dans un Linceul de ténèbres, infligeant 0 points de dégâts d’Ombre et réduisant les soins reçus de 100% pendant 1,5 s à tous les personnages-joueurs dans la zone."
+							},
+							{
+								"id": 2946,
+								"title": "Vil rata",
+								"body_text": "La magie noire entraîne l’apparition de cinq vils ratas. Ces horribles gelées incantent sans arrêt Vase des ténèbres sur des personnages-joueurs au hasard jusqu’à ce qu’elles soient détruites.",
+								"sections": [
+									{
+										"id": 2947,
+										"title": "Vase des ténèbres",
+										"body_text": "Le Vil rata cible un membre du raid aléatoire avec Vase des ténèbres, qui laisse une flaque sur le sol pendant 30 s. Celle-ci inflige 0 points de dégâts d’Ombre toutes les 0,5 s à tous les alliés dans un rayon de 3 mètres."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2948,
+				"title": "Phase 2 : Des résultats imprévisibles !",
+				"body_text": "Lorsque ses points de vie atteignent 25% de leur maximum, Maloriak cesse de jeter des fioles dans le chaudron. Il inflige des dégâts accrus en mêlée, obtient une nouvelle panoplie de techniques et libère immédiatement toutes les expériences encore dans les chambres de croissance.",
+				"sections": [
+					{
+						"id": 2949,
+						"title": "Libération de tous les serviteurs",
+						"body_text": "Maloriak libère toutes les aberrations ainsi que les deux sujets primordiaux des chambres de croissance."
+					},
+					{
+						"id": 2950,
+						"title": "Jets de magma",
+						"body_text": "Maloriak libère un flot de petites fissures de feu devant lui. Ces fissures infligent 0 points de dégâts de Feu à tous les personnages-joueurs à moins de 3 mètres. De plus, les fissures ont un effet de brûlure persistant qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs à proximité."
+					},
+					{
+						"id": 2951,
+						"title": "Zéro absolu",
+						"body_text": "Maloriak invoque une sphère d'énergie inférieure à zéro près d'une cible aléatoire. Si cette sphère s'approche à moins de 3 mètres d'un ennemi, elle explose, infligeant 0 points de dégâts de Givre à tous les ennemis dans un rayon de 5 mètres, les faisant tomber à la renverse."
+					},
+					{
+						"id": 2952,
+						"title": "Nova d'acide",
+						"body_text": "Maloriak inflige 0 points de dégâts de Nature par seconde à tous les ennemis pendant 10 s."
+					},
+					{
+						"id": 2953,
+						"title": "Sujet primordial",
+						"body_text": "Ces drakônides expérimentaux augmentent les points de dégâts infligés par leurs alliés en leur conférant Catalyseur de croissance.",
+						"sections": [
+							{
+								"id": 2954,
+								"title": "Catalyseur de croissance",
+								"body_text": "Chaque sujet primordial augmente les dégâts des autres sujets primordiaux dans un rayon de 10 mètres de 10% et réduit les dégâts qu’ils subissent de 20%. Cet effet est cumulable et affecte également Maloriak et ses aberrations."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20726?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 20726
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/173?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 173,
+		"name": "Maloriak",
+		"description": "The human Malory was a bright young alchemist until he was kidnapped by Nefarian and fused with the corpse of a dragonspawn. The result-Maloriak-is a bumbling minion who possesses only a dull glimmer of his former intelligence.",
+		"creatures": [
+			{
+				"id": 596,
+				"name": "Maloriak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33186?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33186
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10171,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Forlorn Vanquisher",
+					"id": 67426
+				}
+			},
+			{
+				"id": 10172,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Forlorn Protector",
+					"id": 67427
+				}
+			},
+			{
+				"id": 10173,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/67428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Forlorn Conqueror",
+					"id": 67428
+				}
+			},
+			{
+				"id": 10174,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jar of Ancient Remedies",
+					"id": 65029
+				}
+			},
+			{
+				"id": 10175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Consuming Flames",
+					"id": 65030
+				}
+			},
+			{
+				"id": 10176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flash Freeze Gauntlets",
+					"id": 65031
+				}
+			},
+			{
+				"id": 10177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Greatest Son",
+					"id": 65032
+				}
+			},
+			{
+				"id": 10178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65033?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Flawless Creation",
+					"id": 65033
+				}
+			},
+			{
+				"id": 10179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65034?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Arcane Storms",
+					"id": 65034
+				}
+			},
+			{
+				"id": 10180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65035?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloak of Biting Chill",
+					"id": 65035
+				}
+			},
+			{
+				"id": 10181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mace of Acrid Death",
+					"id": 65036
+				}
+			},
+			{
+				"id": 10182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65037?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunic of Failed Experiments",
+					"id": 65037
+				}
+			},
+			{
+				"id": 10183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Absolute Zero",
+					"id": 59342
+				}
+			},
+			{
+				"id": 10184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dragon Bone Warhelm",
+					"id": 65038
+				}
+			},
+			{
+				"id": 10185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aberration's Leggings",
+					"id": 59343
+				}
+			},
+			{
+				"id": 10186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aberration's Leggings",
+					"id": 65039
+				}
+			},
+			{
+				"id": 10187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Absolute Zero",
+					"id": 65040
+				}
+			},
+			{
+				"id": 10188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dragon Bone Warhelm",
+					"id": 59344
+				}
+			},
+			{
+				"id": 10189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunic of Failed Experiments",
+					"id": 59346
+				}
+			},
+			{
+				"id": 10190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mace of Acrid Death",
+					"id": 59347
+				}
+			},
+			{
+				"id": 10191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloak of Biting Chill",
+					"id": 59348
+				}
+			},
+			{
+				"id": 10192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Arcane Storms",
+					"id": 59349
+				}
+			},
+			{
+				"id": 10193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Flawless Creation",
+					"id": 59350
+				}
+			},
+			{
+				"id": 10194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Greatest Son",
+					"id": 59351
+				}
+			},
+			{
+				"id": 10195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flash Freeze Gauntlets",
+					"id": 59352
+				}
+			},
+			{
+				"id": 10196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Consuming Flames",
+					"id": 59353
+				}
+			},
+			{
+				"id": 10197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jar of Ancient Remedies",
+					"id": 59354
+				}
+			},
+			{
+				"id": 35266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Experiment-In-A-Jar",
+					"id": 152967
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2929,
+				"title": "Stage One: Mustn't Fail Again!",
+				"body_text": "Periodically, Maloriak throws various vials into his cauldron, causing different effects. The first two Vials will be Red then Blue or Blue then Red, followed by Green, then the cycle repeats.",
+				"sections": [
+					{
+						"id": 2930,
+						"title": "Arcane Storm",
+						"body_text": "Maloriak channels an Arcane Storm inflicting 0 Arcane damage per second for 6 sec. to all players."
+					},
+					{
+						"id": 2934,
+						"title": "Remedy",
+						"body_text": "Maloriak heals himself for 0 health and generates 0 mana per second for 10 sec. The amount healed increases by 0 per second."
+					},
+					{
+						"id": 2935,
+						"title": "Red Vial",
+						"body_text": "Maloriak throws a Red Vial into his cauldron, giving him flaming breath. The effects of the Red Vial last for 40 seconds.",
+						"sections": [
+							{
+								"id": 2936,
+								"title": "Consuming Flames",
+								"body_text": "Maloriak ignites a random player in flames, inflicting 0 Fire damage per second for 10 sec. Any magic damage taken by the player while ignited increases the damage Consuming Magic deals by 50% of the magic damage taken."
+							},
+							{
+								"id": 2937,
+								"title": "Scorching Blast",
+								"body_text": "Maloriak breathes fire, inflicting 0 Fire damage divided among all targets in a 70 degree cone up to 60 yards in front of him."
+							},
+							{
+								"id": 2931,
+								"title": "Release Aberrations",
+								"body_text": "Maloriak releases 3 Aberrations from their growth chambers. These Aberrations then attack the players.",
+								"sections": [
+									{
+										"id": 2932,
+										"title": "Aberration",
+										"body_text": "These failed experiments use a Growth Catalyst to increase the damage of nearby allies and reduce their damage taken.",
+										"sections": [
+											{
+												"id": 2933,
+												"title": "Growth Catalyst",
+												"body_text": "Each Aberration increases the damage of other Aberrations within 10 yards by 10% and reduces their damage taken by 20%. This effect stacks, and also affects Maloriak and Prime Subjects."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2938,
+						"title": "Blue Vial",
+						"body_text": "Maloriak throws a Blue Vial into his cauldron, granting him freezing magic. The effects of the Blue Vial last for 40 seconds.",
+						"sections": [
+							{
+								"id": 2939,
+								"title": "Biting Chill",
+								"body_text": "Maloriak targets a random player with a ring of frost, which inflicts 447 Frost damage to the player and any other players within 3 yards. The ring lasts 10 sec."
+							},
+							{
+								"id": 2940,
+								"title": "Flash Freeze",
+								"body_text": "Maloriak causes the area around a random player to suddenly become freezing cold, inflicting 0 Frost damage to all players within 5 yards of the target and encasing them in solid ice for 30 sec. \r\n\r\nWhen the ice breaks, the targets are released but the breaking ice inflicts an additional 0 Frost damage to all players within 5 yards around that target, breaking all ice in that area."
+							},
+							{
+								"id": 2956,
+								"title": "Release Aberrations",
+								"body_text": "Maloriak releases 3 Aberrations from their growth chambers. These Aberrations then attack the players.",
+								"sections": [
+									{
+										"id": 2957,
+										"title": "Aberration",
+										"body_text": "These failed experiments use a Growth Catalyst to increase the damage of nearby allies and reduce their damage taken.",
+										"sections": [
+											{
+												"id": 2958,
+												"title": "Growth Catalyst",
+												"body_text": "Each Aberration increases the damage of other Aberrations within 10 yards by 10% and reduces their damage taken by 20%. This effect stacks, and also affects Maloriak and Prime Subjects."
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35677?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 35677
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2941,
+						"title": "Green Vial",
+						"body_text": "Maloriak throws a Green Vial into his cauldron. The mixture explodes and cancels the Growth Catalyst on the Aberrations. The effects of the Green Vial last for 40 seconds.",
+						"sections": [
+							{
+								"id": 2942,
+								"title": "Debilitating Slime",
+								"body_text": "Slime sprays out from the cauldron, coating every unit in the room. The slime increases all damage taken by 100% and temporarily suppresses any Growth Catalysts. Lasts 15 sec."
+							}
+						]
+					},
+					{
+						"id": 2943,
+						"title": "Dark Magic",
+						"body_text": "Lord Victor Nefarius throws Dark Magic into the cauldron, causing Vile Swill to spew from the cauldron. The effects of the Dark Magic last for 90 seconds. The Dark Magic also grants Maloriak immunity to Taunt effects.",
+						"sections": [
+							{
+								"id": 2945,
+								"title": "Engulfing Darkness",
+								"body_text": "Maloriak blasts a 20 degree cone shaped area in front of him in Engulfing Darkness, inflicting 0 Shadow damage and reducing the healing dealt by 100% to players within the area for 1.5 sec."
+							},
+							{
+								"id": 2946,
+								"title": "Vile Swill",
+								"body_text": "The Dark Magic causes five Vile Swill to appear. These horrible slimes continually cast Dark Sludge on random players until slain.",
+								"sections": [
+									{
+										"id": 2947,
+										"title": "Dark Sludge",
+										"body_text": "The Vile Swill targets a random player with Dark Sludge. The sludge leaves a puddle on the ground for 30 sec. that inflicts 0 Shadow damage every 0.5 seconds to all players within a 3 yard radius."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2948,
+				"title": "Stage Two: Unpredictable Results",
+				"body_text": "At 25% remaining health, Maloriak stops throwing vials into the cauldron. He deals more melee damage, gains a new set of abilities, and immediately frees all remaining experiments in the growth chambers.",
+				"sections": [
+					{
+						"id": 2949,
+						"title": "Release All",
+						"body_text": "Maloriak releases all remaining Aberrations and the two Prime Subjects from their growth chambers."
+					},
+					{
+						"id": 2950,
+						"title": "Magma Jets",
+						"body_text": "Maloriak releases a stream of small fire fissures in front of him. These fissures deal 0 Fire damage to all players within 3 yards. The fissures also leave behind a persistent burning effect that inflicts 0 Fire damage to all nearby players."
+					},
+					{
+						"id": 2951,
+						"title": "Absolute Zero",
+						"body_text": "Maloriak summons a sphere of sub-freezing energy near a random player. If this sphere comes within 3 yards of any player, it explodes, inflicts 0 Frost damage, and knocks back any player within 5 yards."
+					},
+					{
+						"id": 2952,
+						"title": "Acid Nova",
+						"body_text": "Maloriak inflicts 0 Nature damage per second to all players for 10 sec."
+					},
+					{
+						"id": 2953,
+						"title": "Prime Subject",
+						"body_text": "These experimental drakonids enhance allies' damage with Growth Catalyst.",
+						"sections": [
+							{
+								"id": 2954,
+								"title": "Growth Catalyst",
+								"body_text": "Each Prime Subject increases the damage of other Prime Subjects within 10 yards by 10% and reduces their damage taken by 20%. This effect stacks, and also affects Maloriak and Aberrations."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/20726?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 20726
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

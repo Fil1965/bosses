@@ -1,0 +1,7701 @@
+{
+	"id": 814,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/814?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 814,
+		"name": "Nalak, el Señor de la Tormenta",
+		"description": "Cuando Lei Shen descubrió una extraña nidada de dragones nimbo tronadores, los quiso someter a su voluntad. La prole más grande se resistió con ferocidad y, cuando Lei Shen fue al establo de los cuidadores, soltó una sonora carcajada ante los mogu carbonizados de los muros. Cogió la prole él mismo y, por obediente, le otorgó el poder de los cielos y de las tormentas. Durante miles de años después de la muerte del Rey del Trueno, Nalak ha vigilado los muros de esta ciudadela oculta, aguardando su retorno.",
+		"creatures": [
+			{
+				"id": 1540,
+				"name": "Nalak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador tiránico",
+					"id": 94464
+				}
+			},
+			{
+				"id": 16214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador tiránico",
+					"id": 91136
+				}
+			},
+			{
+				"id": 16215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador tiránico",
+					"id": 94465
+				}
+			},
+			{
+				"id": 16216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de las fauces absorbentes",
+					"id": 95233
+				}
+			},
+			{
+				"id": 16217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador tiránico",
+					"id": 91137
+				}
+			},
+			{
+				"id": 16218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador tiránico",
+					"id": 91138
+				}
+			},
+			{
+				"id": 16219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador tiránico",
+					"id": 91139
+				}
+			},
+			{
+				"id": 16220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del bosque embrujado",
+					"id": 95236
+				}
+			},
+			{
+				"id": 16221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador tiránico",
+					"id": 94468
+				}
+			},
+			{
+				"id": 16222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91140?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador tiránico",
+					"id": 91140
+				}
+			},
+			{
+				"id": 16223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador tiránico",
+					"id": 94469
+				}
+			},
+			{
+				"id": 16224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador tiránico",
+					"id": 94470
+				}
+			},
+			{
+				"id": 16225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del bosque embrujado",
+					"id": 95238
+				}
+			},
+			{
+				"id": 16226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador tiránico",
+					"id": 94471
+				}
+			},
+			{
+				"id": 16227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador tiránico",
+					"id": 94472
+				}
+			},
+			{
+				"id": 16228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del bosque embrujado",
+					"id": 95240
+				}
+			},
+			{
+				"id": 16229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador tiránico",
+					"id": 94473
+				}
+			},
+			{
+				"id": 16230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador tiránico",
+					"id": 94474
+				}
+			},
+			{
+				"id": 16231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del bosque embrujado",
+					"id": 95242
+				}
+			},
+			{
+				"id": 16232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador tiránico",
+					"id": 94476
+				}
+			},
+			{
+				"id": 16233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del bosque embrujado",
+					"id": 95245
+				}
+			},
+			{
+				"id": 16234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94477?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador tiránico",
+					"id": 94477
+				}
+			},
+			{
+				"id": 16235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador tiránico",
+					"id": 91149
+				}
+			},
+			{
+				"id": 16236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de cobre de Gladiador tiránico",
+					"id": 94478
+				}
+			},
+			{
+				"id": 16237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del bosque embrujado",
+					"id": 95247
+				}
+			},
+			{
+				"id": 16238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador tiránico",
+					"id": 94480
+				}
+			},
+			{
+				"id": 16239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador tiránico",
+					"id": 94481
+				}
+			},
+			{
+				"id": 16240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador tiránico",
+					"id": 91153
+				}
+			},
+			{
+				"id": 16241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del bosque embrujado",
+					"id": 95251
+				}
+			},
+			{
+				"id": 16242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador tiránico",
+					"id": 94483
+				}
+			},
+			{
+				"id": 16243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador tiránico",
+					"id": 91411
+				}
+			},
+			{
+				"id": 16244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador tiránico",
+					"id": 94484
+				}
+			},
+			{
+				"id": 16245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador tiránico",
+					"id": 91412
+				}
+			},
+			{
+				"id": 16246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador tiránico",
+					"id": 94485
+				}
+			},
+			{
+				"id": 16247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzones del bosque embrujado",
+					"id": 95253
+				}
+			},
+			{
+				"id": 16248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador tiránico",
+					"id": 91413
+				}
+			},
+			{
+				"id": 16249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91157?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador tiránico",
+					"id": 91157
+				}
+			},
+			{
+				"id": 16250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador tiránico",
+					"id": 94486
+				}
+			},
+			{
+				"id": 16251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador tiránico",
+					"id": 91414
+				}
+			},
+			{
+				"id": 16252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador tiránico",
+					"id": 94487
+				}
+			},
+			{
+				"id": 16253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador tiránico",
+					"id": 94488
+				}
+			},
+			{
+				"id": 16254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95256?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de acechador saurok",
+					"id": 95256
+				}
+			},
+			{
+				"id": 16255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador tiránico",
+					"id": 91416
+				}
+			},
+			{
+				"id": 16256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de crueldad de Gladiador tiránico",
+					"id": 94489
+				}
+			},
+			{
+				"id": 16257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador tiránico",
+					"id": 91417
+				}
+			},
+			{
+				"id": 16258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91161?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador tiránico",
+					"id": 91161
+				}
+			},
+			{
+				"id": 16259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador tiránico",
+					"id": 94490
+				}
+			},
+			{
+				"id": 16260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95258?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de acechador saurok",
+					"id": 95258
+				}
+			},
+			{
+				"id": 16261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador tiránico",
+					"id": 94491
+				}
+			},
+			{
+				"id": 16262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la hidra cromática",
+					"id": 95260
+				}
+			},
+			{
+				"id": 16263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador tiránico",
+					"id": 91420
+				}
+			},
+			{
+				"id": 16264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la hidra cromática",
+					"id": 95262
+				}
+			},
+			{
+				"id": 16265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador tiránico",
+					"id": 94494
+				}
+			},
+			{
+				"id": 16266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador tiránico",
+					"id": 91167
+				}
+			},
+			{
+				"id": 16267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador tiránico",
+					"id": 94496
+				}
+			},
+			{
+				"id": 16268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador tiránico",
+					"id": 91424
+				}
+			},
+			{
+				"id": 16269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador tiránico",
+					"id": 94497
+				}
+			},
+			{
+				"id": 16270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91169?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador tiránico",
+					"id": 91169
+				}
+			},
+			{
+				"id": 16271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del talismán de fuego",
+					"id": 95266
+				}
+			},
+			{
+				"id": 16272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador tiránico",
+					"id": 91171
+				}
+			},
+			{
+				"id": 16273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del talismán de fuego",
+					"id": 95268
+				}
+			},
+			{
+				"id": 16274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91172?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador tiránico",
+					"id": 91172
+				}
+			},
+			{
+				"id": 16275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del talismán de fuego",
+					"id": 95270
+				}
+			},
+			{
+				"id": 16276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del talismán de fuego",
+					"id": 95272
+				}
+			},
+			{
+				"id": 16277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador tiránico",
+					"id": 91432
+				}
+			},
+			{
+				"id": 16278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador tiránico",
+					"id": 91176
+				}
+			},
+			{
+				"id": 16279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del talismán de fuego",
+					"id": 95276
+				}
+			},
+			{
+				"id": 16280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador tiránico",
+					"id": 91436
+				}
+			},
+			{
+				"id": 16281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del talismán de fuego",
+					"id": 95278
+				}
+			},
+			{
+				"id": 16282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador tiránico",
+					"id": 91184
+				}
+			},
+			{
+				"id": 16283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del Emperador del Relámpago",
+					"id": 95281
+				}
+			},
+			{
+				"id": 16284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador tiránico",
+					"id": 91186
+				}
+			},
+			{
+				"id": 16285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del Emperador del Relámpago",
+					"id": 95283
+				}
+			},
+			{
+				"id": 16286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador tiránico",
+					"id": 91188
+				}
+			},
+			{
+				"id": 16287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador tiránico",
+					"id": 91189
+				}
+			},
+			{
+				"id": 16288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del Emperador del Relámpago",
+					"id": 95286
+				}
+			},
+			{
+				"id": 16289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas del Emperador del Relámpago",
+					"id": 95288
+				}
+			},
+			{
+				"id": 16290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador tiránico",
+					"id": 91193
+				}
+			},
+			{
+				"id": 16291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del Emperador del Relámpago",
+					"id": 95291
+				}
+			},
+			{
+				"id": 16292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del Emperador del Relámpago",
+					"id": 95293
+				}
+			},
+			{
+				"id": 16293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del exorcista",
+					"id": 95295
+				}
+			},
+			{
+				"id": 16294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del exorcista",
+					"id": 95297
+				}
+			},
+			{
+				"id": 16295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del exorcista",
+					"id": 95300
+				}
+			},
+			{
+				"id": 16296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del exorcista",
+					"id": 95302
+				}
+			},
+			{
+				"id": 16297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de las nueve colas",
+					"id": 95306
+				}
+			},
+			{
+				"id": 16298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de las nueve colas",
+					"id": 95308
+				}
+			},
+			{
+				"id": 16299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador tiránico",
+					"id": 91212
+				}
+			},
+			{
+				"id": 16300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador tiránico",
+					"id": 91214
+				}
+			},
+			{
+				"id": 16301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del médico brujo",
+					"id": 95311
+				}
+			},
+			{
+				"id": 16302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador tiránico",
+					"id": 91216
+				}
+			},
+			{
+				"id": 16303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del dragón nimbo de cobalto tronador",
+					"id": 95057
+				}
+			},
+			{
+				"id": 16304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del médico brujo",
+					"id": 95313
+				}
+			},
+			{
+				"id": 16305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador tiránico",
+					"id": 91218
+				}
+			},
+			{
+				"id": 16306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del médico brujo",
+					"id": 95316
+				}
+			},
+			{
+				"id": 16307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador tiránico",
+					"id": 91220
+				}
+			},
+			{
+				"id": 16308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador tiránico",
+					"id": 91221
+				}
+			},
+			{
+				"id": 16309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del médico brujo",
+					"id": 95318
+				}
+			},
+			{
+				"id": 16310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador tiránico",
+					"id": 91224
+				}
+			},
+			{
+				"id": 16311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del médico brujo",
+					"id": 95321
+				}
+			},
+			{
+				"id": 16312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda del médico brujo",
+					"id": 95323
+				}
+			},
+			{
+				"id": 16313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador tiránico",
+					"id": 91228
+				}
+			},
+			{
+				"id": 16314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de los mil infiernos",
+					"id": 95325
+				}
+			},
+			{
+				"id": 16315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de los mil infiernos",
+					"id": 95327
+				}
+			},
+			{
+				"id": 16316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador tiránico",
+					"id": 91232
+				}
+			},
+			{
+				"id": 16317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del último mogu",
+					"id": 95332
+				}
+			},
+			{
+				"id": 16318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador tiránico",
+					"id": 91236
+				}
+			},
+			{
+				"id": 16319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del último mogu",
+					"id": 95333
+				}
+			},
+			{
+				"id": 16320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del último mogu",
+					"id": 95336
+				}
+			},
+			{
+				"id": 16321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del último mogu",
+					"id": 95338
+				}
+			},
+			{
+				"id": 16322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador tiránico",
+					"id": 91242
+				}
+			},
+			{
+				"id": 16323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91244?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador tiránico",
+					"id": 91244
+				}
+			},
+			{
+				"id": 16324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91246?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador tiránico",
+					"id": 91246
+				}
+			},
+			{
+				"id": 16325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de hierro de Gladiador tiránico",
+					"id": 91247
+				}
+			},
+			{
+				"id": 16326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de hierro de Gladiador tiránico",
+					"id": 91251
+				}
+			},
+			{
+				"id": 16327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador tiránico",
+					"id": 94328
+				}
+			},
+			{
+				"id": 16328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de cobre de Gladiador tiránico",
+					"id": 91257
+				}
+			},
+			{
+				"id": 16329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador tiránico",
+					"id": 94330
+				}
+			},
+			{
+				"id": 16330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador tiránico",
+					"id": 94331
+				}
+			},
+			{
+				"id": 16331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador tiránico",
+					"id": 94333
+				}
+			},
+			{
+				"id": 16332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de cobre de Gladiador tiránico",
+					"id": 91261
+				}
+			},
+			{
+				"id": 16333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador tiránico",
+					"id": 94334
+				}
+			},
+			{
+				"id": 16334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador tiránico",
+					"id": 94336
+				}
+			},
+			{
+				"id": 16335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador tiránico",
+					"id": 94337
+				}
+			},
+			{
+				"id": 16336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de cobre de Gladiador tiránico",
+					"id": 94340
+				}
+			},
+			{
+				"id": 16337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91269?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador tiránico",
+					"id": 91269
+				}
+			},
+			{
+				"id": 16338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador tiránico",
+					"id": 94343
+				}
+			},
+			{
+				"id": 16339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador tiránico",
+					"id": 94344
+				}
+			},
+			{
+				"id": 16340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador tiránico",
+					"id": 91273
+				}
+			},
+			{
+				"id": 16341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador tiránico",
+					"id": 91277
+				}
+			},
+			{
+				"id": 16342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador tiránico",
+					"id": 94351
+				}
+			},
+			{
+				"id": 16343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador tiránico",
+					"id": 91279
+				}
+			},
+			{
+				"id": 16344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador tiránico",
+					"id": 94352
+				}
+			},
+			{
+				"id": 16345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de precisión de Gladiador tiránico",
+					"id": 94353
+				}
+			},
+			{
+				"id": 16346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador tiránico",
+					"id": 91281
+				}
+			},
+			{
+				"id": 16347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de precisión de Gladiador tiránico",
+					"id": 94354
+				}
+			},
+			{
+				"id": 16348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador tiránico",
+					"id": 94355
+				}
+			},
+			{
+				"id": 16349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador tiránico",
+					"id": 91283
+				}
+			},
+			{
+				"id": 16350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador tiránico",
+					"id": 94357
+				}
+			},
+			{
+				"id": 16351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador tiránico",
+					"id": 91285
+				}
+			},
+			{
+				"id": 16352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador tiránico",
+					"id": 94358
+				}
+			},
+			{
+				"id": 16353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador tiránico",
+					"id": 91286
+				}
+			},
+			{
+				"id": 16354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador tiránico",
+					"id": 94359
+				}
+			},
+			{
+				"id": 16355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador tiránico",
+					"id": 94360
+				}
+			},
+			{
+				"id": 16356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador tiránico",
+					"id": 91289
+				}
+			},
+			{
+				"id": 16357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador tiránico",
+					"id": 94362
+				}
+			},
+			{
+				"id": 16358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador tiránico",
+					"id": 94363
+				}
+			},
+			{
+				"id": 16359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador tiránico",
+					"id": 94364
+				}
+			},
+			{
+				"id": 16360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador tiránico",
+					"id": 94365
+				}
+			},
+			{
+				"id": 16361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador tiránico",
+					"id": 91293
+				}
+			},
+			{
+				"id": 16362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador tiránico",
+					"id": 94368
+				}
+			},
+			{
+				"id": 16363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de precisión de Gladiador tiránico",
+					"id": 91297
+				}
+			},
+			{
+				"id": 16364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de piel de hierro de Gladiador tiránico",
+					"id": 94370
+				}
+			},
+			{
+				"id": 16365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador tiránico",
+					"id": 94371
+				}
+			},
+			{
+				"id": 16366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador tiránico",
+					"id": 91299
+				}
+			},
+			{
+				"id": 16367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador tiránico",
+					"id": 91301
+				}
+			},
+			{
+				"id": 16368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador tiránico",
+					"id": 94374
+				}
+			},
+			{
+				"id": 16369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador tiránico",
+					"id": 91303
+				}
+			},
+			{
+				"id": 16370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador tiránico",
+					"id": 94376
+				}
+			},
+			{
+				"id": 16371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador tiránico",
+					"id": 94377
+				}
+			},
+			{
+				"id": 16372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91305?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador tiránico",
+					"id": 91305
+				}
+			},
+			{
+				"id": 16373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador tiránico",
+					"id": 94378
+				}
+			},
+			{
+				"id": 16374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador tiránico",
+					"id": 91306
+				}
+			},
+			{
+				"id": 16375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador tiránico",
+					"id": 94379
+				}
+			},
+			{
+				"id": 16376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador tiránico",
+					"id": 94380
+				}
+			},
+			{
+				"id": 16377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador tiránico",
+					"id": 91309
+				}
+			},
+			{
+				"id": 16378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador tiránico",
+					"id": 94382
+				}
+			},
+			{
+				"id": 16379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de crueldad de Gladiador tiránico",
+					"id": 94383
+				}
+			},
+			{
+				"id": 16380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador tiránico",
+					"id": 94384
+				}
+			},
+			{
+				"id": 16381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador tiránico",
+					"id": 91313
+				}
+			},
+			{
+				"id": 16382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador tiránico",
+					"id": 94390
+				}
+			},
+			{
+				"id": 16383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de piel de hierro de Gladiador tiránico",
+					"id": 94391
+				}
+			},
+			{
+				"id": 16384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador tiránico",
+					"id": 91319
+				}
+			},
+			{
+				"id": 16385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador tiránico",
+					"id": 94393
+				}
+			},
+			{
+				"id": 16386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador tiránico",
+					"id": 94394
+				}
+			},
+			{
+				"id": 16387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador tiránico",
+					"id": 94395
+				}
+			},
+			{
+				"id": 16388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador tiránico",
+					"id": 91323
+				}
+			},
+			{
+				"id": 16389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador tiránico",
+					"id": 94399
+				}
+			},
+			{
+				"id": 16390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador tiránico",
+					"id": 94400
+				}
+			},
+			{
+				"id": 16391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador tiránico",
+					"id": 94402
+				}
+			},
+			{
+				"id": 16392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador tiránico",
+					"id": 94403
+				}
+			},
+			{
+				"id": 16393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador tiránico",
+					"id": 94404
+				}
+			},
+			{
+				"id": 16394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador tiránico",
+					"id": 94407
+				}
+			},
+			{
+				"id": 16395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador tiránico",
+					"id": 91335
+				}
+			},
+			{
+				"id": 16396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador tiránico",
+					"id": 94408
+				}
+			},
+			{
+				"id": 16397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador tiránico",
+					"id": 91337
+				}
+			},
+			{
+				"id": 16398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador tiránico",
+					"id": 94410
+				}
+			},
+			{
+				"id": 16399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador tiránico",
+					"id": 94411
+				}
+			},
+			{
+				"id": 16400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador tiránico",
+					"id": 91339
+				}
+			},
+			{
+				"id": 16401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador tiránico",
+					"id": 94412
+				}
+			},
+			{
+				"id": 16402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador tiránico",
+					"id": 94414
+				}
+			},
+			{
+				"id": 16403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador tiránico",
+					"id": 91342
+				}
+			},
+			{
+				"id": 16404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador tiránico",
+					"id": 94417
+				}
+			},
+			{
+				"id": 16405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador tiránico",
+					"id": 94418
+				}
+			},
+			{
+				"id": 16406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador tiránico",
+					"id": 91346
+				}
+			},
+			{
+				"id": 16407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador tiránico",
+					"id": 94420
+				}
+			},
+			{
+				"id": 16408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador tiránico",
+					"id": 94421
+				}
+			},
+			{
+				"id": 16409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador tiránico",
+					"id": 91350
+				}
+			},
+			{
+				"id": 16410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador tiránico",
+					"id": 94423
+				}
+			},
+			{
+				"id": 16411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador tiránico",
+					"id": 94424
+				}
+			},
+			{
+				"id": 16412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador tiránico",
+					"id": 91352
+				}
+			},
+			{
+				"id": 16413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador tiránico",
+					"id": 94425
+				}
+			},
+			{
+				"id": 16414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador tiránico",
+					"id": 91354
+				}
+			},
+			{
+				"id": 16415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador tiránico",
+					"id": 94427
+				}
+			},
+			{
+				"id": 16416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador tiránico",
+					"id": 91356
+				}
+			},
+			{
+				"id": 16417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91100?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador tiránico",
+					"id": 91100
+				}
+			},
+			{
+				"id": 16418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador tiránico",
+					"id": 91357
+				}
+			},
+			{
+				"id": 16419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91101?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador tiránico",
+					"id": 91101
+				}
+			},
+			{
+				"id": 16420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador tiránico",
+					"id": 91102
+				}
+			},
+			{
+				"id": 16421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91103?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador tiránico",
+					"id": 91103
+				}
+			},
+			{
+				"id": 16422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador tiránico",
+					"id": 94432
+				}
+			},
+			{
+				"id": 16423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador tiránico",
+					"id": 91360
+				}
+			},
+			{
+				"id": 16424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91105?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador tiránico",
+					"id": 91105
+				}
+			},
+			{
+				"id": 16425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91106?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador tiránico",
+					"id": 91106
+				}
+			},
+			{
+				"id": 16426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador tiránico",
+					"id": 94435
+				}
+			},
+			{
+				"id": 16427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador tiránico",
+					"id": 91364
+				}
+			},
+			{
+				"id": 16428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador tiránico",
+					"id": 91109
+				}
+			},
+			{
+				"id": 16429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador tiránico",
+					"id": 94438
+				}
+			},
+			{
+				"id": 16430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador tiránico",
+					"id": 94439
+				}
+			},
+			{
+				"id": 16431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador tiránico",
+					"id": 91111
+				}
+			},
+			{
+				"id": 16432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador tiránico",
+					"id": 94440
+				}
+			},
+			{
+				"id": 16433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador tiránico",
+					"id": 94441
+				}
+			},
+			{
+				"id": 16434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador tiránico",
+					"id": 91113
+				}
+			},
+			{
+				"id": 16435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador tiránico",
+					"id": 91370
+				}
+			},
+			{
+				"id": 16436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador tiránico",
+					"id": 91115
+				}
+			},
+			{
+				"id": 16437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador tiránico",
+					"id": 94445
+				}
+			},
+			{
+				"id": 16438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador tiránico",
+					"id": 91117
+				}
+			},
+			{
+				"id": 16439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador tiránico",
+					"id": 94446
+				}
+			},
+			{
+				"id": 16440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador tiránico",
+					"id": 91374
+				}
+			},
+			{
+				"id": 16441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador tiránico",
+					"id": 91119
+				}
+			},
+			{
+				"id": 16442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador tiránico",
+					"id": 94448
+				}
+			},
+			{
+				"id": 16443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador tiránico",
+					"id": 94449
+				}
+			},
+			{
+				"id": 16444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador tiránico",
+					"id": 91121
+				}
+			},
+			{
+				"id": 16445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador tiránico",
+					"id": 91378
+				}
+			},
+			{
+				"id": 16446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador tiránico",
+					"id": 91122
+				}
+			},
+			{
+				"id": 16447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador tiránico",
+					"id": 94451
+				}
+			},
+			{
+				"id": 16448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador tiránico",
+					"id": 91123
+				}
+			},
+			{
+				"id": 16449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador tiránico",
+					"id": 94452
+				}
+			},
+			{
+				"id": 16450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de crueldad de Gladiador tiránico",
+					"id": 91124
+				}
+			},
+			{
+				"id": 16451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador tiránico",
+					"id": 94453
+				}
+			},
+			{
+				"id": 16452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador tiránico",
+					"id": 91125
+				}
+			},
+			{
+				"id": 16453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador tiránico",
+					"id": 91126
+				}
+			},
+			{
+				"id": 16454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador tiránico",
+					"id": 91382
+				}
+			},
+			{
+				"id": 16455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador tiránico",
+					"id": 94455
+				}
+			},
+			{
+				"id": 16456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador tiránico",
+					"id": 94458
+				}
+			},
+			{
+				"id": 16457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de las fauces absorbentes",
+					"id": 95226
+				}
+			},
+			{
+				"id": 16458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador tiránico",
+					"id": 91386
+				}
+			},
+			{
+				"id": 16459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de las fauces absorbentes",
+					"id": 95228
+				}
+			},
+			{
+				"id": 16460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador tiránico",
+					"id": 94461
+				}
+			},
+			{
+				"id": 16461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador tiránico",
+					"id": 94462
+				}
+			},
+			{
+				"id": 16462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de las fauces absorbentes",
+					"id": 95231
+				}
+			},
+			{
+				"id": 16463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de crueldad de Gladiador tiránico",
+					"id": 91135
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 6860,
+				"title": "Arco de nova",
+				"body_text": "Un pulso de energía eléctrica inflige 0 p. de daño de Naturaleza a los jugadores en un radio de 35 m y los repele."
+			},
+			{
+				"id": 6861,
+				"title": "Collar de relámpagos",
+				"body_text": "Nalak ata a varios jugadores a sí mismo, lo que inflige 0 p. de daño de Naturaleza cada 1 s y 0 p. de daño de Naturaleza extra si están a más de 30 m de Nalak. Dura 15 s."
+			},
+			{
+				"id": 6862,
+				"title": "Escudo estático",
+				"body_text": "La energía que rodea a Nalak inflige 0 p. de daño de Naturaleza cada 1 s a un jugador aleatorio."
+			},
+			{
+				"id": 6863,
+				"title": "Nube de tormenta",
+				"body_text": "Nalak coloca nubes de tormenta sobre varios jugadores, lo que inflige 825 p. de daño de Naturaleza cada 3 s a todos los jugadores en un radio de 10 m durante 30 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/814?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 814,
+		"name": "Nalak, le seigneur des tempêtes",
+		"description": "Quand Lei Shen découvrit une couvée très rare de serpents-nuages fulminants, il fut fasciné et décida de les asservir. Le plus grand résista farouchement, et lorsque Lei Shen se rendit dans l’enclos, il éclata de rire en voyant les cadavres de mogu calcinés s’empiler. Il adopta le jeune serpent-nuage, et en échange de son obéissance, lui offrit le contrôle du ciel et des tempêtes. Depuis la mort de son maître, Nalak continue de protéger les murs de sa citadelle cachée, en attendant son retour.",
+		"creatures": [
+			{
+				"id": 1540,
+				"name": "Nalak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur tyrannique",
+					"id": 94464
+				}
+			},
+			{
+				"id": 16214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur tyrannique",
+					"id": 91136
+				}
+			},
+			{
+				"id": 16215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur tyrannique",
+					"id": 94465
+				}
+			},
+			{
+				"id": 16216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la gueule insatiable",
+					"id": 95233
+				}
+			},
+			{
+				"id": 16217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur tyrannique",
+					"id": 91137
+				}
+			},
+			{
+				"id": 16218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur tyrannique",
+					"id": 91138
+				}
+			},
+			{
+				"id": 16219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur tyrannique",
+					"id": 91139
+				}
+			},
+			{
+				"id": 16220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de la forêt hantée",
+					"id": 95236
+				}
+			},
+			{
+				"id": 16221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur tyrannique",
+					"id": 94468
+				}
+			},
+			{
+				"id": 16222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91140?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur tyrannique",
+					"id": 91140
+				}
+			},
+			{
+				"id": 16223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur tyrannique",
+					"id": 94469
+				}
+			},
+			{
+				"id": 16224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur tyrannique",
+					"id": 94470
+				}
+			},
+			{
+				"id": 16225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la forêt hantée",
+					"id": 95238
+				}
+			},
+			{
+				"id": 16226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur tyrannique en tisse-gangrène",
+					"id": 94471
+				}
+			},
+			{
+				"id": 16227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur tyrannique",
+					"id": 94472
+				}
+			},
+			{
+				"id": 16228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la forêt hantée",
+					"id": 95240
+				}
+			},
+			{
+				"id": 16229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur tyrannique",
+					"id": 94473
+				}
+			},
+			{
+				"id": 16230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur tyrannique",
+					"id": 94474
+				}
+			},
+			{
+				"id": 16231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la forêt hantée",
+					"id": 95242
+				}
+			},
+			{
+				"id": 16232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur tyrannique",
+					"id": 94476
+				}
+			},
+			{
+				"id": 16233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la forêt hantée",
+					"id": 95245
+				}
+			},
+			{
+				"id": 16234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94477?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuir de kodo",
+					"id": 94477
+				}
+			},
+			{
+				"id": 16235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en plaques d'effroi",
+					"id": 91149
+				}
+			},
+			{
+				"id": 16236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuivrepeau",
+					"id": 94478
+				}
+			},
+			{
+				"id": 16237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la forêt hantée",
+					"id": 95247
+				}
+			},
+			{
+				"id": 16238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur tyrannique",
+					"id": 94480
+				}
+			},
+			{
+				"id": 16239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur tyrannique",
+					"id": 94481
+				}
+			},
+			{
+				"id": 16240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en plaques d'effroi",
+					"id": 91153
+				}
+			},
+			{
+				"id": 16241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de la forêt hantée",
+					"id": 95251
+				}
+			},
+			{
+				"id": 16242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau de wyrm",
+					"id": 94483
+				}
+			},
+			{
+				"id": 16243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse d'empressement du gladiateur tyrannique",
+					"id": 91411
+				}
+			},
+			{
+				"id": 16244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur tyrannique",
+					"id": 94484
+				}
+			},
+			{
+				"id": 16245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse de prouesse du gladiateur tyrannique",
+					"id": 91412
+				}
+			},
+			{
+				"id": 16246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse d'empressement du gladiateur tyrannique",
+					"id": 94485
+				}
+			},
+			{
+				"id": 16247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braies de la forêt hantée",
+					"id": 95253
+				}
+			},
+			{
+				"id": 16248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur tyrannique",
+					"id": 91413
+				}
+			},
+			{
+				"id": 16249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91157?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau de dragon",
+					"id": 91157
+				}
+			},
+			{
+				"id": 16250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pelisse de prouesse du gladiateur tyrannique",
+					"id": 94486
+				}
+			},
+			{
+				"id": 16251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur tyrannique",
+					"id": 91414
+				}
+			},
+			{
+				"id": 16252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur tyrannique",
+					"id": 94487
+				}
+			},
+			{
+				"id": 16253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur tyrannique",
+					"id": 94488
+				}
+			},
+			{
+				"id": 16254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95256?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du traqueur saurok",
+					"id": 95256
+				}
+			},
+			{
+				"id": 16255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur tyrannique",
+					"id": 91416
+				}
+			},
+			{
+				"id": 16256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de cruauté du gladiateur tyrannique",
+					"id": 94489
+				}
+			},
+			{
+				"id": 16257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur tyrannique",
+					"id": 91417
+				}
+			},
+			{
+				"id": 16258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91161?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau de dragon",
+					"id": 91161
+				}
+			},
+			{
+				"id": 16259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en mailles annelées",
+					"id": 94490
+				}
+			},
+			{
+				"id": 16260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95258?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du traqueur saurok",
+					"id": 95258
+				}
+			},
+			{
+				"id": 16261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur tyrannique",
+					"id": 94491
+				}
+			},
+			{
+				"id": 16262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'hydre chromatique",
+					"id": 95260
+				}
+			},
+			{
+				"id": 16263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur tyrannique en tisse-gangrène",
+					"id": 91420
+				}
+			},
+			{
+				"id": 16264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de l'hydre chromatique",
+					"id": 95262
+				}
+			},
+			{
+				"id": 16265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur tyrannique",
+					"id": 94494
+				}
+			},
+			{
+				"id": 16266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur tyrannique",
+					"id": 91167
+				}
+			},
+			{
+				"id": 16267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en écailles",
+					"id": 94496
+				}
+			},
+			{
+				"id": 16268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur tyrannique en tisse-gangrène",
+					"id": 91424
+				}
+			},
+			{
+				"id": 16269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en mailles",
+					"id": 94497
+				}
+			},
+			{
+				"id": 16270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91169?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur tyrannique",
+					"id": 91169
+				}
+			},
+			{
+				"id": 16271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes charme-feu",
+					"id": 95266
+				}
+			},
+			{
+				"id": 16272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur tyrannique",
+					"id": 91171
+				}
+			},
+			{
+				"id": 16273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières charme-feu",
+					"id": 95268
+				}
+			},
+			{
+				"id": 16274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91172?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuir de kodo",
+					"id": 91172
+				}
+			},
+			{
+				"id": 16275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains charme-feu",
+					"id": 95270
+				}
+			},
+			{
+				"id": 16276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards charme-feu",
+					"id": 95272
+				}
+			},
+			{
+				"id": 16277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en plaques",
+					"id": 91432
+				}
+			},
+			{
+				"id": 16278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuir de kodo",
+					"id": 91176
+				}
+			},
+			{
+				"id": 16279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets charme-feu",
+					"id": 95276
+				}
+			},
+			{
+				"id": 16280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en plaques",
+					"id": 91436
+				}
+			},
+			{
+				"id": 16281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes charme-feu",
+					"id": 95278
+				}
+			},
+			{
+				"id": 16282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur tyrannique",
+					"id": 91184
+				}
+			},
+			{
+				"id": 16283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de l'empereur de la foudre",
+					"id": 95281
+				}
+			},
+			{
+				"id": 16284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur tyrannique",
+					"id": 91186
+				}
+			},
+			{
+				"id": 16285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de l'empereur de la foudre",
+					"id": 95283
+				}
+			},
+			{
+				"id": 16286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur tyrannique",
+					"id": 91188
+				}
+			},
+			{
+				"id": 16287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau de wyrm",
+					"id": 91189
+				}
+			},
+			{
+				"id": 16288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'empereur de la foudre",
+					"id": 95286
+				}
+			},
+			{
+				"id": 16289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de l'empereur de la foudre",
+					"id": 95288
+				}
+			},
+			{
+				"id": 16290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau de wyrm",
+					"id": 91193
+				}
+			},
+			{
+				"id": 16291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de l'empereur de la foudre",
+					"id": 95291
+				}
+			},
+			{
+				"id": 16292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l'empereur de la foudre",
+					"id": 95293
+				}
+			},
+			{
+				"id": 16293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l'exorciste",
+					"id": 95295
+				}
+			},
+			{
+				"id": 16294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de l'exorciste",
+					"id": 95297
+				}
+			},
+			{
+				"id": 16295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'exorciste",
+					"id": 95300
+				}
+			},
+			{
+				"id": 16296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de l'exorciste",
+					"id": 95302
+				}
+			},
+			{
+				"id": 16297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants à neuf queues",
+					"id": 95306
+				}
+			},
+			{
+				"id": 16298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes à neuf queues",
+					"id": 95308
+				}
+			},
+			{
+				"id": 16299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur tyrannique",
+					"id": 91212
+				}
+			},
+			{
+				"id": 16300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur tyrannique",
+					"id": 91214
+				}
+			},
+			{
+				"id": 16301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains du féticheur",
+					"id": 95311
+				}
+			},
+			{
+				"id": 16302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur tyrannique",
+					"id": 91216
+				}
+			},
+			{
+				"id": 16303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de serpent-nuage de cobalt fulminant",
+					"id": 95057
+				}
+			},
+			{
+				"id": 16304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards du féticheur",
+					"id": 95313
+				}
+			},
+			{
+				"id": 16305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur tyrannique",
+					"id": 91218
+				}
+			},
+			{
+				"id": 16306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du féticheur",
+					"id": 95316
+				}
+			},
+			{
+				"id": 16307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur tyrannique",
+					"id": 91220
+				}
+			},
+			{
+				"id": 16308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur tyrannique",
+					"id": 91221
+				}
+			},
+			{
+				"id": 16309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du féticheur",
+					"id": 95318
+				}
+			},
+			{
+				"id": 16310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en anneaux",
+					"id": 91224
+				}
+			},
+			{
+				"id": 16311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du féticheur",
+					"id": 95321
+				}
+			},
+			{
+				"id": 16312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt du féticheur",
+					"id": 95323
+				}
+			},
+			{
+				"id": 16313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en anneaux",
+					"id": 91228
+				}
+			},
+			{
+				"id": 16314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants des mille enfers",
+					"id": 95325
+				}
+			},
+			{
+				"id": 16315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières des mille enfers",
+					"id": 95327
+				}
+			},
+			{
+				"id": 16316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur tyrannique en soie",
+					"id": 91232
+				}
+			},
+			{
+				"id": 16317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du dernier Mogu",
+					"id": 95332
+				}
+			},
+			{
+				"id": 16318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur tyrannique en soie",
+					"id": 91236
+				}
+			},
+			{
+				"id": 16319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du dernier Mogu",
+					"id": 95333
+				}
+			},
+			{
+				"id": 16320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du dernier Mogu",
+					"id": 95336
+				}
+			},
+			{
+				"id": 16321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du dernier Mogu",
+					"id": 95338
+				}
+			},
+			{
+				"id": 16322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur tyrannique",
+					"id": 91242
+				}
+			},
+			{
+				"id": 16323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91244?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur tyrannique",
+					"id": 91244
+				}
+			},
+			{
+				"id": 16324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91246?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur tyrannique",
+					"id": 91246
+				}
+			},
+			{
+				"id": 16325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau-de-fer",
+					"id": 91247
+				}
+			},
+			{
+				"id": 16326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau-de-fer",
+					"id": 91251
+				}
+			},
+			{
+				"id": 16327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en étoffe lunaire",
+					"id": 94328
+				}
+			},
+			{
+				"id": 16328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuivrepeau",
+					"id": 91257
+				}
+			},
+			{
+				"id": 16329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur tyrannique",
+					"id": 94330
+				}
+			},
+			{
+				"id": 16330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en plaques",
+					"id": 94331
+				}
+			},
+			{
+				"id": 16331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur tyrannique",
+					"id": 94333
+				}
+			},
+			{
+				"id": 16332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuivrepeau",
+					"id": 91261
+				}
+			},
+			{
+				"id": 16333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en satin",
+					"id": 94334
+				}
+			},
+			{
+				"id": 16334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur tyrannique",
+					"id": 94336
+				}
+			},
+			{
+				"id": 16335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur tyrannique",
+					"id": 94337
+				}
+			},
+			{
+				"id": 16336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuivrepeau",
+					"id": 94340
+				}
+			},
+			{
+				"id": 16337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91269?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en écailles",
+					"id": 91269
+				}
+			},
+			{
+				"id": 16338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en écailles",
+					"id": 94343
+				}
+			},
+			{
+				"id": 16339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur tyrannique",
+					"id": 94344
+				}
+			},
+			{
+				"id": 16340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en écailles",
+					"id": 91273
+				}
+			},
+			{
+				"id": 16341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur tyrannique",
+					"id": 91277
+				}
+			},
+			{
+				"id": 16342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur tyrannique",
+					"id": 94351
+				}
+			},
+			{
+				"id": 16343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur tyrannique",
+					"id": 91279
+				}
+			},
+			{
+				"id": 16344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur tyrannique",
+					"id": 94352
+				}
+			},
+			{
+				"id": 16345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de précision du gladiateur tyrannique",
+					"id": 94353
+				}
+			},
+			{
+				"id": 16346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur tyrannique",
+					"id": 91281
+				}
+			},
+			{
+				"id": 16347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de précision du gladiateur tyrannique",
+					"id": 94354
+				}
+			},
+			{
+				"id": 16348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur tyrannique",
+					"id": 94355
+				}
+			},
+			{
+				"id": 16349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur tyrannique",
+					"id": 91283
+				}
+			},
+			{
+				"id": 16350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur tyrannique",
+					"id": 94357
+				}
+			},
+			{
+				"id": 16351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur tyrannique",
+					"id": 91285
+				}
+			},
+			{
+				"id": 16352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur tyrannique",
+					"id": 94358
+				}
+			},
+			{
+				"id": 16353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur tyrannique",
+					"id": 91286
+				}
+			},
+			{
+				"id": 16354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur tyrannique",
+					"id": 94359
+				}
+			},
+			{
+				"id": 16355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur tyrannique",
+					"id": 94360
+				}
+			},
+			{
+				"id": 16356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur tyrannique",
+					"id": 91289
+				}
+			},
+			{
+				"id": 16357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur tyrannique en soie",
+					"id": 94362
+				}
+			},
+			{
+				"id": 16358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur tyrannique",
+					"id": 94363
+				}
+			},
+			{
+				"id": 16359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en plaques d'effroi",
+					"id": 94364
+				}
+			},
+			{
+				"id": 16360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en plaques d'effroi",
+					"id": 94365
+				}
+			},
+			{
+				"id": 16361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur tyrannique",
+					"id": 91293
+				}
+			},
+			{
+				"id": 16362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau de dragon",
+					"id": 94368
+				}
+			},
+			{
+				"id": 16363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de précision du gladiateur tyrannique",
+					"id": 91297
+				}
+			},
+			{
+				"id": 16364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en peau-de-fer",
+					"id": 94370
+				}
+			},
+			{
+				"id": 16365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuir de kodo",
+					"id": 94371
+				}
+			},
+			{
+				"id": 16366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur tyrannique",
+					"id": 91299
+				}
+			},
+			{
+				"id": 16367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur tyrannique",
+					"id": 91301
+				}
+			},
+			{
+				"id": 16368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur tyrannique",
+					"id": 94374
+				}
+			},
+			{
+				"id": 16369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur tyrannique",
+					"id": 91303
+				}
+			},
+			{
+				"id": 16370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur tyrannique",
+					"id": 94376
+				}
+			},
+			{
+				"id": 16371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuir",
+					"id": 94377
+				}
+			},
+			{
+				"id": 16372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91305?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur tyrannique",
+					"id": 91305
+				}
+			},
+			{
+				"id": 16373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur tyrannique",
+					"id": 94378
+				}
+			},
+			{
+				"id": 16374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur tyrannique",
+					"id": 91306
+				}
+			},
+			{
+				"id": 16375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur tyrannique",
+					"id": 94379
+				}
+			},
+			{
+				"id": 16376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur tyrannique",
+					"id": 94380
+				}
+			},
+			{
+				"id": 16377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en étoffe lunaire",
+					"id": 91309
+				}
+			},
+			{
+				"id": 16378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur tyrannique",
+					"id": 94382
+				}
+			},
+			{
+				"id": 16379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de cruauté du gladiateur tyrannique",
+					"id": 94383
+				}
+			},
+			{
+				"id": 16380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en anneaux",
+					"id": 94384
+				}
+			},
+			{
+				"id": 16381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en étoffe lunaire",
+					"id": 91313
+				}
+			},
+			{
+				"id": 16382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur tyrannique",
+					"id": 94390
+				}
+			},
+			{
+				"id": 16383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau-de-fer",
+					"id": 94391
+				}
+			},
+			{
+				"id": 16384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en satin",
+					"id": 91319
+				}
+			},
+			{
+				"id": 16385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur tyrannique",
+					"id": 94393
+				}
+			},
+			{
+				"id": 16386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de précision du gladiateur tyrannique",
+					"id": 94394
+				}
+			},
+			{
+				"id": 16387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur tyrannique",
+					"id": 94395
+				}
+			},
+			{
+				"id": 16388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en satin",
+					"id": 91323
+				}
+			},
+			{
+				"id": 16389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur tyrannique",
+					"id": 94399
+				}
+			},
+			{
+				"id": 16390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur tyrannique",
+					"id": 94400
+				}
+			},
+			{
+				"id": 16391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur tyrannique",
+					"id": 94402
+				}
+			},
+			{
+				"id": 16392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur tyrannique",
+					"id": 94403
+				}
+			},
+			{
+				"id": 16393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur tyrannique",
+					"id": 94404
+				}
+			},
+			{
+				"id": 16394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur tyrannique",
+					"id": 94407
+				}
+			},
+			{
+				"id": 16395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur tyrannique",
+					"id": 91335
+				}
+			},
+			{
+				"id": 16396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en mailles",
+					"id": 94408
+				}
+			},
+			{
+				"id": 16397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur tyrannique",
+					"id": 91337
+				}
+			},
+			{
+				"id": 16398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur tyrannique",
+					"id": 94410
+				}
+			},
+			{
+				"id": 16399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur tyrannique",
+					"id": 94411
+				}
+			},
+			{
+				"id": 16400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur tyrannique",
+					"id": 91339
+				}
+			},
+			{
+				"id": 16401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau de wyrm",
+					"id": 94412
+				}
+			},
+			{
+				"id": 16402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur tyrannique",
+					"id": 94414
+				}
+			},
+			{
+				"id": 16403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en cuir",
+					"id": 91342
+				}
+			},
+			{
+				"id": 16404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur tyrannique",
+					"id": 94417
+				}
+			},
+			{
+				"id": 16405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur tyrannique",
+					"id": 94418
+				}
+			},
+			{
+				"id": 16406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuir",
+					"id": 91346
+				}
+			},
+			{
+				"id": 16407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en étoffe lunaire",
+					"id": 94420
+				}
+			},
+			{
+				"id": 16408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur tyrannique",
+					"id": 94421
+				}
+			},
+			{
+				"id": 16409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur tyrannique",
+					"id": 91350
+				}
+			},
+			{
+				"id": 16410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en satin",
+					"id": 94423
+				}
+			},
+			{
+				"id": 16411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur tyrannique",
+					"id": 94424
+				}
+			},
+			{
+				"id": 16412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur tyrannique",
+					"id": 91352
+				}
+			},
+			{
+				"id": 16413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur tyrannique",
+					"id": 94425
+				}
+			},
+			{
+				"id": 16414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur tyrannique",
+					"id": 91354
+				}
+			},
+			{
+				"id": 16415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur tyrannique",
+					"id": 94427
+				}
+			},
+			{
+				"id": 16416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur tyrannique",
+					"id": 91356
+				}
+			},
+			{
+				"id": 16417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91100?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur tyrannique",
+					"id": 91100
+				}
+			},
+			{
+				"id": 16418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur tyrannique",
+					"id": 91357
+				}
+			},
+			{
+				"id": 16419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91101?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur tyrannique",
+					"id": 91101
+				}
+			},
+			{
+				"id": 16420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de précision du gladiateur tyrannique",
+					"id": 91102
+				}
+			},
+			{
+				"id": 16421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91103?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur tyrannique",
+					"id": 91103
+				}
+			},
+			{
+				"id": 16422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur tyrannique",
+					"id": 94432
+				}
+			},
+			{
+				"id": 16423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en mailles annelées",
+					"id": 91360
+				}
+			},
+			{
+				"id": 16424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91105?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur tyrannique",
+					"id": 91105
+				}
+			},
+			{
+				"id": 16425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91106?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur tyrannique",
+					"id": 91106
+				}
+			},
+			{
+				"id": 16426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en mailles annelées",
+					"id": 94435
+				}
+			},
+			{
+				"id": 16427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en mailles annelées",
+					"id": 91364
+				}
+			},
+			{
+				"id": 16428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur tyrannique",
+					"id": 91109
+				}
+			},
+			{
+				"id": 16429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur tyrannique",
+					"id": 94438
+				}
+			},
+			{
+				"id": 16430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur tyrannique",
+					"id": 94439
+				}
+			},
+			{
+				"id": 16431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur tyrannique",
+					"id": 91111
+				}
+			},
+			{
+				"id": 16432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur tyrannique",
+					"id": 94440
+				}
+			},
+			{
+				"id": 16433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur tyrannique en tisse-gangrène",
+					"id": 94441
+				}
+			},
+			{
+				"id": 16434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur tyrannique",
+					"id": 91113
+				}
+			},
+			{
+				"id": 16435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur tyrannique",
+					"id": 91370
+				}
+			},
+			{
+				"id": 16436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur tyrannique",
+					"id": 91115
+				}
+			},
+			{
+				"id": 16437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur tyrannique",
+					"id": 94445
+				}
+			},
+			{
+				"id": 16438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur tyrannique",
+					"id": 91117
+				}
+			},
+			{
+				"id": 16439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en cuir",
+					"id": 94446
+				}
+			},
+			{
+				"id": 16440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur tyrannique",
+					"id": 91374
+				}
+			},
+			{
+				"id": 16441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur tyrannique",
+					"id": 91119
+				}
+			},
+			{
+				"id": 16442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur tyrannique en plaques",
+					"id": 94448
+				}
+			},
+			{
+				"id": 16443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur tyrannique",
+					"id": 94449
+				}
+			},
+			{
+				"id": 16444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur tyrannique",
+					"id": 91121
+				}
+			},
+			{
+				"id": 16445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur tyrannique",
+					"id": 91378
+				}
+			},
+			{
+				"id": 16446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur tyrannique",
+					"id": 91122
+				}
+			},
+			{
+				"id": 16447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur tyrannique en soie",
+					"id": 94451
+				}
+			},
+			{
+				"id": 16448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur tyrannique",
+					"id": 91123
+				}
+			},
+			{
+				"id": 16449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur tyrannique",
+					"id": 94452
+				}
+			},
+			{
+				"id": 16450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de cruauté du gladiateur tyrannique",
+					"id": 91124
+				}
+			},
+			{
+				"id": 16451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en anneaux",
+					"id": 94453
+				}
+			},
+			{
+				"id": 16452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur tyrannique",
+					"id": 91125
+				}
+			},
+			{
+				"id": 16453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur tyrannique",
+					"id": 91126
+				}
+			},
+			{
+				"id": 16454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur tyrannique en mailles",
+					"id": 91382
+				}
+			},
+			{
+				"id": 16455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur tyrannique en peau de dragon",
+					"id": 94455
+				}
+			},
+			{
+				"id": 16456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur tyrannique",
+					"id": 94458
+				}
+			},
+			{
+				"id": 16457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la gueule insatiable",
+					"id": 95226
+				}
+			},
+			{
+				"id": 16458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur tyrannique en mailles",
+					"id": 91386
+				}
+			},
+			{
+				"id": 16459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de la gueule insatiable",
+					"id": 95228
+				}
+			},
+			{
+				"id": 16460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur tyrannique",
+					"id": 94461
+				}
+			},
+			{
+				"id": 16461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur tyrannique",
+					"id": 94462
+				}
+			},
+			{
+				"id": 16462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de la gueule insatiable",
+					"id": 95231
+				}
+			},
+			{
+				"id": 16463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de cruauté du gladiateur tyrannique",
+					"id": 91135
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 6860,
+				"title": "Nova en arc",
+				"body_text": "Une impulsion d’énergie électrique inflige 0 points de dégâts de Nature aux personnages-joueurs se trouvant à moins de 35 mètres et les fait tomber à la renverse."
+			},
+			{
+				"id": 6861,
+				"title": "Longe éclair",
+				"body_text": "Nalak relie plusieurs personnages-joueurs à lui, infligeant 0 points de dégâts de Nature toutes les 1 s plus 0 points de dégâts de Nature si la victime se trouve à plus de 30 mètres de Nalak. Dure 15 s."
+			},
+			{
+				"id": 6862,
+				"title": "Bouclier statique",
+				"body_text": "Des décharges de puissance autour de Nalak infligent 0 points de dégâts de Nature toutes les 1 s à un personnage-joueur choisi au hasard."
+			},
+			{
+				"id": 6863,
+				"title": "Nuage orageux",
+				"body_text": "Nalak place des nuages d’orage au-dessus de plusieurs personnages-joueurs, ce qui inflige 825 points de dégâts de Nature toutes les 3 s pendant 30 s à tous ceux qui se trouvent à moins de 10 mètres."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandarie",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/814?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 814,
+		"name": "Nalak, The Storm Lord",
+		"description": "When Lei Shen discovered a rare clutch of thundering cloud serpents, he was awed, and set to subjugating them. The largest hatchling fiercely resisted, and when Lei Shen visited the handling pens, he laughed mightily at the charred mogu that lined the walls. He took the hatchling for his own, and for its obedience, granted it power over the storms and the sky.  For thousands of years following the death of the Thunder King, Nalak has guarded the walls of his hidden citadel, awaiting his return.",
+		"creatures": [
+			{
+				"id": 1540,
+				"name": "Nalak",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Clasp of Meditation",
+					"id": 94464
+				}
+			},
+			{
+				"id": 16214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Alacrity",
+					"id": 91136
+				}
+			},
+			{
+				"id": 16215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Choker of Proficiency",
+					"id": 94465
+				}
+			},
+			{
+				"id": 16216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the All-Consuming Maw",
+					"id": 95233
+				}
+			},
+			{
+				"id": 16217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91137?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Meditation",
+					"id": 91137
+				}
+			},
+			{
+				"id": 16218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Cruelty",
+					"id": 91138
+				}
+			},
+			{
+				"id": 16219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Accuracy",
+					"id": 91139
+				}
+			},
+			{
+				"id": 16220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Haunted Forest",
+					"id": 95236
+				}
+			},
+			{
+				"id": 16221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94468?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Meditation",
+					"id": 94468
+				}
+			},
+			{
+				"id": 16222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91140?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Meditation",
+					"id": 91140
+				}
+			},
+			{
+				"id": 16223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94469?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wristguards of Accuracy",
+					"id": 94469
+				}
+			},
+			{
+				"id": 16224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94470?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armwraps of Alacrity",
+					"id": 94470
+				}
+			},
+			{
+				"id": 16225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Haunted Forest",
+					"id": 95238
+				}
+			},
+			{
+				"id": 16226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94471?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Felweave Trousers",
+					"id": 94471
+				}
+			},
+			{
+				"id": 16227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94472?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Meditation",
+					"id": 94472
+				}
+			},
+			{
+				"id": 16228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95240?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Haunted Forest",
+					"id": 95240
+				}
+			},
+			{
+				"id": 16229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94473?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Alacrity",
+					"id": 94473
+				}
+			},
+			{
+				"id": 16230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94474?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Meditation",
+					"id": 94474
+				}
+			},
+			{
+				"id": 16231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Haunted Forest",
+					"id": 95242
+				}
+			},
+			{
+				"id": 16232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94476?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Meditation",
+					"id": 94476
+				}
+			},
+			{
+				"id": 16233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95245?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Haunted Forest",
+					"id": 95245
+				}
+			},
+			{
+				"id": 16234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94477?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Kodohide Legguards",
+					"id": 94477
+				}
+			},
+			{
+				"id": 16235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dreadplate Gauntlets",
+					"id": 91149
+				}
+			},
+			{
+				"id": 16236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94478?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Copperskin Legguards",
+					"id": 94478
+				}
+			},
+			{
+				"id": 16237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Haunted Forest",
+					"id": 95247
+				}
+			},
+			{
+				"id": 16238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94480?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Clasp of Cruelty",
+					"id": 94480
+				}
+			},
+			{
+				"id": 16239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bracers of Meditation",
+					"id": 94481
+				}
+			},
+			{
+				"id": 16240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dreadplate Legguards",
+					"id": 91153
+				}
+			},
+			{
+				"id": 16241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Haunted Forest",
+					"id": 95251
+				}
+			},
+			{
+				"id": 16242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94483?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wyrmhide Legguards",
+					"id": 94483
+				}
+			},
+			{
+				"id": 16243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cloak of Alacrity",
+					"id": 91411
+				}
+			},
+			{
+				"id": 16244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ornamented Legplates",
+					"id": 94484
+				}
+			},
+			{
+				"id": 16245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cloak of Prowess",
+					"id": 91412
+				}
+			},
+			{
+				"id": 16246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cloak of Alacrity",
+					"id": 94485
+				}
+			},
+			{
+				"id": 16247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95253?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breeches of the Haunted Forest",
+					"id": 95253
+				}
+			},
+			{
+				"id": 16248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Choker of Proficiency",
+					"id": 91413
+				}
+			},
+			{
+				"id": 16249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91157?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dragonhide Gloves",
+					"id": 91157
+				}
+			},
+			{
+				"id": 16250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cloak of Prowess",
+					"id": 94486
+				}
+			},
+			{
+				"id": 16251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Choker of Accuracy",
+					"id": 91414
+				}
+			},
+			{
+				"id": 16252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armplates of Alacrity",
+					"id": 94487
+				}
+			},
+			{
+				"id": 16253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Prowess",
+					"id": 94488
+				}
+			},
+			{
+				"id": 16254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95256?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Saurok Stalker's Gloves",
+					"id": 95256
+				}
+			},
+			{
+				"id": 16255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Signet of Cruelty",
+					"id": 91416
+				}
+			},
+			{
+				"id": 16256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Cruelty",
+					"id": 94489
+				}
+			},
+			{
+				"id": 16257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Signet of Accuracy",
+					"id": 91417
+				}
+			},
+			{
+				"id": 16258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91161?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dragonhide Legguards",
+					"id": 91161
+				}
+			},
+			{
+				"id": 16259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ringmail Gauntlets",
+					"id": 94490
+				}
+			},
+			{
+				"id": 16260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95258?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Saurok Stalker's Legguards",
+					"id": 95258
+				}
+			},
+			{
+				"id": 16261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Belt of Meditation",
+					"id": 94491
+				}
+			},
+			{
+				"id": 16262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95260?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Chromatic Hydra",
+					"id": 95260
+				}
+			},
+			{
+				"id": 16263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Felweave Handguards",
+					"id": 91420
+				}
+			},
+			{
+				"id": 16264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95262?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Chromatic Hydra",
+					"id": 95262
+				}
+			},
+			{
+				"id": 16265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Linked Leggings",
+					"id": 94494
+				}
+			},
+			{
+				"id": 16266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Belt of Meditation",
+					"id": 91167
+				}
+			},
+			{
+				"id": 16267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Scaled Legguards",
+					"id": 94496
+				}
+			},
+			{
+				"id": 16268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Felweave Trousers",
+					"id": 91424
+				}
+			},
+			{
+				"id": 16269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mail Leggings",
+					"id": 94497
+				}
+			},
+			{
+				"id": 16270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91169?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Meditation",
+					"id": 91169
+				}
+			},
+			{
+				"id": 16271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Grips",
+					"id": 95266
+				}
+			},
+			{
+				"id": 16272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91171?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bindings of Meditation",
+					"id": 91171
+				}
+			},
+			{
+				"id": 16273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Leggings",
+					"id": 95268
+				}
+			},
+			{
+				"id": 16274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91172?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Kodohide Gloves",
+					"id": 91172
+				}
+			},
+			{
+				"id": 16275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95270?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Handwraps",
+					"id": 95270
+				}
+			},
+			{
+				"id": 16276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Legwraps",
+					"id": 95272
+				}
+			},
+			{
+				"id": 16277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Plate Gauntlets",
+					"id": 91432
+				}
+			},
+			{
+				"id": 16278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Kodohide Legguards",
+					"id": 91176
+				}
+			},
+			{
+				"id": 16279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Gauntlets",
+					"id": 95276
+				}
+			},
+			{
+				"id": 16280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Plate Legguards",
+					"id": 91436
+				}
+			},
+			{
+				"id": 16281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fire-Charm Legguards",
+					"id": 95278
+				}
+			},
+			{
+				"id": 16282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Belt of Cruelty",
+					"id": 91184
+				}
+			},
+			{
+				"id": 16283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Gauntlets",
+					"id": 95281
+				}
+			},
+			{
+				"id": 16284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Alacrity",
+					"id": 91186
+				}
+			},
+			{
+				"id": 16285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Legplates",
+					"id": 95283
+				}
+			},
+			{
+				"id": 16286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bindings of Prowess",
+					"id": 91188
+				}
+			},
+			{
+				"id": 16287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wyrmhide Gloves",
+					"id": 91189
+				}
+			},
+			{
+				"id": 16288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Gloves",
+					"id": 95286
+				}
+			},
+			{
+				"id": 16289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Greaves",
+					"id": 95288
+				}
+			},
+			{
+				"id": 16290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wyrmhide Legguards",
+					"id": 91193
+				}
+			},
+			{
+				"id": 16291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Handguards",
+					"id": 95291
+				}
+			},
+			{
+				"id": 16292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Emperor's Legguards",
+					"id": 95293
+				}
+			},
+			{
+				"id": 16293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Exorcist",
+					"id": 95295
+				}
+			},
+			{
+				"id": 16294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Exorcist",
+					"id": 95297
+				}
+			},
+			{
+				"id": 16295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Exorcist",
+					"id": 95300
+				}
+			},
+			{
+				"id": 16296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Exorcist",
+					"id": 95302
+				}
+			},
+			{
+				"id": 16297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nine-Tailed Gloves",
+					"id": 95306
+				}
+			},
+			{
+				"id": 16298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95308?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nine-Tailed Legguards",
+					"id": 95308
+				}
+			},
+			{
+				"id": 16299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Links of Cruelty",
+					"id": 91212
+				}
+			},
+			{
+				"id": 16300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Links of Accuracy",
+					"id": 91214
+				}
+			},
+			{
+				"id": 16301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Witch Doctor",
+					"id": 95311
+				}
+			},
+			{
+				"id": 16302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91216?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Sabatons of Cruelty",
+					"id": 91216
+				}
+			},
+			{
+				"id": 16303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Thundering Cobalt Cloud Serpent",
+					"id": 95057
+				}
+			},
+			{
+				"id": 16304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Witch Doctor",
+					"id": 95313
+				}
+			},
+			{
+				"id": 16305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91218?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Sabatons of Alacrity",
+					"id": 91218
+				}
+			},
+			{
+				"id": 16306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Witch Doctor",
+					"id": 95316
+				}
+			},
+			{
+				"id": 16307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wristguards of Alacrity",
+					"id": 91220
+				}
+			},
+			{
+				"id": 16308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wristguards of Accuracy",
+					"id": 91221
+				}
+			},
+			{
+				"id": 16309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Witch Doctor",
+					"id": 95318
+				}
+			},
+			{
+				"id": 16310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Chain Gauntlets",
+					"id": 91224
+				}
+			},
+			{
+				"id": 16311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Witch Doctor",
+					"id": 95321
+				}
+			},
+			{
+				"id": 16312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt of the Witch Doctor",
+					"id": 95323
+				}
+			},
+			{
+				"id": 16313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Chain Leggings",
+					"id": 91228
+				}
+			},
+			{
+				"id": 16314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Thousandfold Hells",
+					"id": 95325
+				}
+			},
+			{
+				"id": 16315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Thousandfold Hells",
+					"id": 95327
+				}
+			},
+			{
+				"id": 16316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Silk Handguards",
+					"id": 91232
+				}
+			},
+			{
+				"id": 16317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Last Mogu",
+					"id": 95332
+				}
+			},
+			{
+				"id": 16318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Silk Trousers",
+					"id": 91236
+				}
+			},
+			{
+				"id": 16319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of the Last Mogu",
+					"id": 95333
+				}
+			},
+			{
+				"id": 16320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Last Mogu",
+					"id": 95336
+				}
+			},
+			{
+				"id": 16321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95338?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Last Mogu",
+					"id": 95338
+				}
+			},
+			{
+				"id": 16322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91242?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistband of Cruelty",
+					"id": 91242
+				}
+			},
+			{
+				"id": 16323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91244?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Boots of Alacrity",
+					"id": 91244
+				}
+			},
+			{
+				"id": 16324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91246?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armwraps of Accuracy",
+					"id": 91246
+				}
+			},
+			{
+				"id": 16325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ironskin Gloves",
+					"id": 91247
+				}
+			},
+			{
+				"id": 16326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91251?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ironskin Legguards",
+					"id": 91251
+				}
+			},
+			{
+				"id": 16327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94328?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mooncloth Gloves",
+					"id": 94328
+				}
+			},
+			{
+				"id": 16328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91257?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Copperskin Gloves",
+					"id": 91257
+				}
+			},
+			{
+				"id": 16329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Links of Cruelty",
+					"id": 94330
+				}
+			},
+			{
+				"id": 16330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94331?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Plate Gauntlets",
+					"id": 94331
+				}
+			},
+			{
+				"id": 16331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94333?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Alacrity",
+					"id": 94333
+				}
+			},
+			{
+				"id": 16332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91261?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Copperskin Legguards",
+					"id": 91261
+				}
+			},
+			{
+				"id": 16333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94334?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Satin Leggings",
+					"id": 94334
+				}
+			},
+			{
+				"id": 16334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94336?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Meditation",
+					"id": 94336
+				}
+			},
+			{
+				"id": 16335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armbands of Meditation",
+					"id": 94337
+				}
+			},
+			{
+				"id": 16336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Copperskin Gloves",
+					"id": 94340
+				}
+			},
+			{
+				"id": 16337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91269?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Scaled Gauntlets",
+					"id": 91269
+				}
+			},
+			{
+				"id": 16338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Scaled Gauntlets",
+					"id": 94343
+				}
+			},
+			{
+				"id": 16339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94344?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Alacrity",
+					"id": 94344
+				}
+			},
+			{
+				"id": 16340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Scaled Legguards",
+					"id": 91273
+				}
+			},
+			{
+				"id": 16341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Clasp of Cruelty",
+					"id": 91277
+				}
+			},
+			{
+				"id": 16342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Greaves of Alacrity",
+					"id": 94351
+				}
+			},
+			{
+				"id": 16343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91279?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Clasp of Meditation",
+					"id": 91279
+				}
+			},
+			{
+				"id": 16344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Greaves of Meditation",
+					"id": 94352
+				}
+			},
+			{
+				"id": 16345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Girdle of Accuracy",
+					"id": 94353
+				}
+			},
+			{
+				"id": 16346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91281?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Greaves of Alacrity",
+					"id": 91281
+				}
+			},
+			{
+				"id": 16347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Choker of Accuracy",
+					"id": 94354
+				}
+			},
+			{
+				"id": 16348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cape of Prowess",
+					"id": 94355
+				}
+			},
+			{
+				"id": 16349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91283?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Greaves of Meditation",
+					"id": 91283
+				}
+			},
+			{
+				"id": 16350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ring of Cruelty",
+					"id": 94357
+				}
+			},
+			{
+				"id": 16351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bracers of Prowess",
+					"id": 91285
+				}
+			},
+			{
+				"id": 16352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Links of Accuracy",
+					"id": 94358
+				}
+			},
+			{
+				"id": 16353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bracers of Meditation",
+					"id": 91286
+				}
+			},
+			{
+				"id": 16354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Sabatons of Alacrity",
+					"id": 94359
+				}
+			},
+			{
+				"id": 16355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistband of Cruelty",
+					"id": 94360
+				}
+			},
+			{
+				"id": 16356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ornamented Gloves",
+					"id": 91289
+				}
+			},
+			{
+				"id": 16357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Silk Trousers",
+					"id": 94362
+				}
+			},
+			{
+				"id": 16358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Accuracy",
+					"id": 94363
+				}
+			},
+			{
+				"id": 16359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dreadplate Gauntlets",
+					"id": 94364
+				}
+			},
+			{
+				"id": 16360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94365?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dreadplate Legguards",
+					"id": 94365
+				}
+			},
+			{
+				"id": 16361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ornamented Legplates",
+					"id": 91293
+				}
+			},
+			{
+				"id": 16362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94368?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dragonhide Legguards",
+					"id": 94368
+				}
+			},
+			{
+				"id": 16363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Girdle of Accuracy",
+					"id": 91297
+				}
+			},
+			{
+				"id": 16364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ironskin Legguards",
+					"id": 94370
+				}
+			},
+			{
+				"id": 16365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94371?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Kodohide Gloves",
+					"id": 94371
+				}
+			},
+			{
+				"id": 16366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Girdle of Prowess",
+					"id": 91299
+				}
+			},
+			{
+				"id": 16367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Warboots of Cruelty",
+					"id": 91301
+				}
+			},
+			{
+				"id": 16368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Boots of Cruelty",
+					"id": 94374
+				}
+			},
+			{
+				"id": 16369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Warboots of Alacrity",
+					"id": 91303
+				}
+			},
+			{
+				"id": 16370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94376?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Accuracy",
+					"id": 94376
+				}
+			},
+			{
+				"id": 16371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94377?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Leather Gloves",
+					"id": 94377
+				}
+			},
+			{
+				"id": 16372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91305?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armplates of Proficiency",
+					"id": 91305
+				}
+			},
+			{
+				"id": 16373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Alacrity",
+					"id": 94378
+				}
+			},
+			{
+				"id": 16374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armplates of Alacrity",
+					"id": 91306
+				}
+			},
+			{
+				"id": 16375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armbands of Prowess",
+					"id": 94379
+				}
+			},
+			{
+				"id": 16376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Meditation",
+					"id": 94380
+				}
+			},
+			{
+				"id": 16377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mooncloth Gloves",
+					"id": 91309
+				}
+			},
+			{
+				"id": 16378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistguard of Meditation",
+					"id": 94382
+				}
+			},
+			{
+				"id": 16379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Cruelty",
+					"id": 94383
+				}
+			},
+			{
+				"id": 16380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Chain Leggings",
+					"id": 94384
+				}
+			},
+			{
+				"id": 16381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mooncloth Leggings",
+					"id": 91313
+				}
+			},
+			{
+				"id": 16382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Band of Cruelty",
+					"id": 94390
+				}
+			},
+			{
+				"id": 16383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94391?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ironskin Gloves",
+					"id": 94391
+				}
+			},
+			{
+				"id": 16384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Satin Gloves",
+					"id": 91319
+				}
+			},
+			{
+				"id": 16385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94393?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistguard of Cruelty",
+					"id": 94393
+				}
+			},
+			{
+				"id": 16386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Necklace of Proficiency",
+					"id": 94394
+				}
+			},
+			{
+				"id": 16387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94395?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Necklace of Prowess",
+					"id": 94395
+				}
+			},
+			{
+				"id": 16388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Satin Leggings",
+					"id": 91323
+				}
+			},
+			{
+				"id": 16389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94399?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ring of Accuracy",
+					"id": 94399
+				}
+			},
+			{
+				"id": 16390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94400?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Cruelty",
+					"id": 94400
+				}
+			},
+			{
+				"id": 16391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Cruelty",
+					"id": 94402
+				}
+			},
+			{
+				"id": 16392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Accuracy",
+					"id": 94403
+				}
+			},
+			{
+				"id": 16393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wristguards of Alacrity",
+					"id": 94404
+				}
+			},
+			{
+				"id": 16394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bindings of Meditation",
+					"id": 94407
+				}
+			},
+			{
+				"id": 16395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91335?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistband of Accuracy",
+					"id": 91335
+				}
+			},
+			{
+				"id": 16396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mail Gauntlets",
+					"id": 94408
+				}
+			},
+			{
+				"id": 16397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Boots of Cruelty",
+					"id": 91337
+				}
+			},
+			{
+				"id": 16398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Belt of Cruelty",
+					"id": 94410
+				}
+			},
+			{
+				"id": 16399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bracers of Prowess",
+					"id": 94411
+				}
+			},
+			{
+				"id": 16400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91339?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armwraps of Alacrity",
+					"id": 91339
+				}
+			},
+			{
+				"id": 16401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Wyrmhide Gloves",
+					"id": 94412
+				}
+			},
+			{
+				"id": 16402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Warboots of Cruelty",
+					"id": 94414
+				}
+			},
+			{
+				"id": 16403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Leather Gloves",
+					"id": 91342
+				}
+			},
+			{
+				"id": 16404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Signet of Cruelty",
+					"id": 94417
+				}
+			},
+			{
+				"id": 16405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armplates of Proficiency",
+					"id": 94418
+				}
+			},
+			{
+				"id": 16406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Leather Legguards",
+					"id": 91346
+				}
+			},
+			{
+				"id": 16407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mooncloth Leggings",
+					"id": 94420
+				}
+			},
+			{
+				"id": 16408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cape of Cruelty",
+					"id": 94421
+				}
+			},
+			{
+				"id": 16409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistguard of Meditation",
+					"id": 91350
+				}
+			},
+			{
+				"id": 16410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Satin Gloves",
+					"id": 94423
+				}
+			},
+			{
+				"id": 16411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistband of Accuracy",
+					"id": 94424
+				}
+			},
+			{
+				"id": 16412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Alacrity",
+					"id": 91352
+				}
+			},
+			{
+				"id": 16413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Meditation",
+					"id": 94425
+				}
+			},
+			{
+				"id": 16414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Footguards of Meditation",
+					"id": 91354
+				}
+			},
+			{
+				"id": 16415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armwraps of Accuracy",
+					"id": 94427
+				}
+			},
+			{
+				"id": 16416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armbands of Prowess",
+					"id": 91356
+				}
+			},
+			{
+				"id": 16417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91100?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cape of Cruelty",
+					"id": 91100
+				}
+			},
+			{
+				"id": 16418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Armbands of Meditation",
+					"id": 91357
+				}
+			},
+			{
+				"id": 16419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91101?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cape of Prowess",
+					"id": 91101
+				}
+			},
+			{
+				"id": 16420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91102?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Necklace of Proficiency",
+					"id": 91102
+				}
+			},
+			{
+				"id": 16421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91103?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Necklace of Prowess",
+					"id": 91103
+				}
+			},
+			{
+				"id": 16422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Boots of Alacrity",
+					"id": 94432
+				}
+			},
+			{
+				"id": 16423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91360?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ringmail Gauntlets",
+					"id": 91360
+				}
+			},
+			{
+				"id": 16424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91105?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ring of Cruelty",
+					"id": 91105
+				}
+			},
+			{
+				"id": 16425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91106?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ring of Accuracy",
+					"id": 91106
+				}
+			},
+			{
+				"id": 16426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ringmail Leggings",
+					"id": 94435
+				}
+			},
+			{
+				"id": 16427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91364?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ringmail Leggings",
+					"id": 91364
+				}
+			},
+			{
+				"id": 16428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Cruelty",
+					"id": 91109
+				}
+			},
+			{
+				"id": 16429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Ornamented Gloves",
+					"id": 94438
+				}
+			},
+			{
+				"id": 16430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Bindings of Prowess",
+					"id": 94439
+				}
+			},
+			{
+				"id": 16431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Accuracy",
+					"id": 91111
+				}
+			},
+			{
+				"id": 16432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Girdle of Prowess",
+					"id": 94440
+				}
+			},
+			{
+				"id": 16433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Felweave Handguards",
+					"id": 94441
+				}
+			},
+			{
+				"id": 16434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cord of Meditation",
+					"id": 91113
+				}
+			},
+			{
+				"id": 16435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91370?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Linked Gauntlets",
+					"id": 91370
+				}
+			},
+			{
+				"id": 16436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Cruelty",
+					"id": 91115
+				}
+			},
+			{
+				"id": 16437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Sabatons of Cruelty",
+					"id": 94445
+				}
+			},
+			{
+				"id": 16438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Alacrity",
+					"id": 91117
+				}
+			},
+			{
+				"id": 16439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Leather Legguards",
+					"id": 94446
+				}
+			},
+			{
+				"id": 16440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Linked Leggings",
+					"id": 91374
+				}
+			},
+			{
+				"id": 16441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Treads of Meditation",
+					"id": 91119
+				}
+			},
+			{
+				"id": 16442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Plate Legguards",
+					"id": 94448
+				}
+			},
+			{
+				"id": 16443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Prowess",
+					"id": 94449
+				}
+			},
+			{
+				"id": 16444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Accuracy",
+					"id": 91121
+				}
+			},
+			{
+				"id": 16445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Waistguard of Cruelty",
+					"id": 91378
+				}
+			},
+			{
+				"id": 16446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Prowess",
+					"id": 91122
+				}
+			},
+			{
+				"id": 16447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Silk Handguards",
+					"id": 94451
+				}
+			},
+			{
+				"id": 16448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Cuffs of Meditation",
+					"id": 91123
+				}
+			},
+			{
+				"id": 16449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Meditation",
+					"id": 94452
+				}
+			},
+			{
+				"id": 16450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Cruelty",
+					"id": 91124
+				}
+			},
+			{
+				"id": 16451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Chain Gauntlets",
+					"id": 94453
+				}
+			},
+			{
+				"id": 16452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Prowess",
+					"id": 91125
+				}
+			},
+			{
+				"id": 16453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Drape of Meditation",
+					"id": 91126
+				}
+			},
+			{
+				"id": 16454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mail Gauntlets",
+					"id": 91382
+				}
+			},
+			{
+				"id": 16455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Dragonhide Gloves",
+					"id": 94455
+				}
+			},
+			{
+				"id": 16456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Linked Gauntlets",
+					"id": 94458
+				}
+			},
+			{
+				"id": 16457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the All-Consuming Maw",
+					"id": 95226
+				}
+			},
+			{
+				"id": 16458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Mail Leggings",
+					"id": 91386
+				}
+			},
+			{
+				"id": 16459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of the All-Consuming Maw",
+					"id": 95228
+				}
+			},
+			{
+				"id": 16460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Warboots of Alacrity",
+					"id": 94461
+				}
+			},
+			{
+				"id": 16461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Signet of Accuracy",
+					"id": 94462
+				}
+			},
+			{
+				"id": 16462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the All-Consuming Maw",
+					"id": 95231
+				}
+			},
+			{
+				"id": 16463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/91135?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrannical Gladiator's Pendant of Cruelty",
+					"id": 91135
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 6860,
+				"title": "Arc Nova",
+				"body_text": "A pulse of electric energy inflicts 0 Nature damage to players within 35 yards and knocks them back."
+			},
+			{
+				"id": 6861,
+				"title": "Lightning Tether",
+				"body_text": "Nalak tethers several players to him, inflicting 0 Nature damage every 1 sec. and an additional 0 Nature damage if they are greater than 30 yards from Nalak.  Lasts 15 sec."
+			},
+			{
+				"id": 6862,
+				"title": "Static Shield",
+				"body_text": "Jolts of power surrounding Nalak inflict 0 Nature damage every 1 sec. to a random player."
+			},
+			{
+				"id": 6863,
+				"title": "Stormcloud",
+				"body_text": "Nalak places storm clouds above several players, which inflict 825 Nature damage every 3 sec.to all players within 10 yards for 30 sec."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

@@ -186,9 +186,10 @@ async function selectEntry(id) {
 	state.entryData = r.entry;
 	state.dirty = false;
 	renderEditor();
-	cargarMedia(id);
 	renderLista();
-	renderReferencia(); // referencia ES + resolución de nombres al vuelo
+	await cargarMedia(id); // el diario enseña nombres de spells: primero él
+	resolverNombresSpell(); // y ahora la traducción al vuelo con todo el mapa
+	renderReferencia(); // referencia ES + resolución (idempotente)
 }
 
 // --------------------------------------------------------------- editor ---
@@ -369,28 +370,58 @@ function openSpellPicker() {
 }
 function debounceBuscar() {
 	clearTimeout(debounceBuscar.t);
-	debounceBuscar.t = setTimeout(async () => {
-		const q = $("spellQ").value.trim();
-		if (!q) return ($("spellRes").innerHTML = "");
-		const r = await api(`/api/spells?q=${encodeURIComponent(q)}`);
-		$("spellRes").innerHTML = (r.spells ?? []).map((s) => {
-			// icono (si ya está resuelto) y nombres por idioma, el activo primero
-			const icono = s.icon ? `<img src="${s.icon}" alt="" class="inline h-5 w-5 rounded align-middle mr-1">` : "";
-			const orden = [state.lang, "es", "en", "fr", "de"];
-			const names = Object.entries(s.name)
-				.sort((a, b) => orden.indexOf(a[0]) - orden.indexOf(b[0]))
-				.map(([l, n]) => `${l.toUpperCase()}: ${esc(n)}`).join(" · ");
-			return `<button data-id="${s.id}" class="w-full text-left px-2 py-1.5 text-sm hover:bg-wow-panel2">
-				${icono}<span class="tabular-nums text-slate-400 text-xs">${s.id}</span> · ${names}
-			</button>`;
-		}).join("") || `<div class="px-2 py-2 text-xs text-slate-500">sin resultados — usa el campo de id manual</div>`;
-		$("spellRes").querySelectorAll("button").forEach((b) => (b.onclick = () => {
-			const s = r.spells.find((x) => x.id === b.dataset.id);
-			const nombre = s?.name?.[state.lang] ?? s?.name?.es ?? s?.name?.en ?? "";
-			insertSpell(s.id, nombre);
-			closeSpellPicker();
-		}));
-	}, 220);
+	debounceBuscar.t = setTimeout(buscarSpells, 220);
+}
+async function buscarSpells() {
+	const q = $("spellQ").value.trim();
+	if (!q) return ($("spellRes").innerHTML = "");
+	const r = await api(`/api/spells?q=${encodeURIComponent(q)}`);
+	$("spellRes").innerHTML = (r.spells ?? []).map((s) => {
+		// icono (si ya está resuelto) y nombres por idioma, el activo primero
+		const icono = s.icon ? `<img src="${s.icon}" alt="" class="inline h-5 w-5 rounded align-middle mr-1">` : "";
+		const orden = [state.lang, "es", "en", "fr", "de"];
+		const names = Object.entries(s.name)
+			.sort((a, b) => orden.indexOf(a[0]) - orden.indexOf(b[0]))
+			.map(([l, n]) => `${l.toUpperCase()}: ${esc(n)}`).join(" · ");
+		// ¿falta la traducción del idioma activo? (no está o sospechosamente
+		// repite el EN: tablas ES de Midnight/TWW con la esES pendiente)
+		const faltaTrad = !s.name?.[state.lang] || (state.lang !== "en" && s.name[state.lang] === s.name.en);
+		const marcaApi = s.api ? ` <span class="text-[10px] text-slate-500" title="parte de estos nombres viene de la API de Blizzard o se enseñó a mano (el pack guarda otro texto)">◆</span>` : "";
+		return `<div class="flex items-center gap-1 group">
+			<button data-id="${s.id}" class="flex-1 min-w-0 text-left px-2 py-1.5 text-sm hover:bg-wow-panel2 rounded">
+				${icono}<span class="tabular-nums text-slate-400 text-xs">${s.id}</span> · ${names}${marcaApi}
+			</button>
+			${faltaTrad ? `<button data-ensenar="${s.id}" class="shrink-0 text-xs px-1.5 py-1 rounded border border-wow-edge opacity-60 hover:opacity-100 hover:border-wow-gold" title="enseñar la traducción ${state.lang.toUpperCase()} de este spell (no está en la API de Blizzard)">✎</button>` : ""}
+		</div>`;
+	}).join("") || `<div class="px-2 py-2 text-xs text-slate-500">sin resultados — usa el campo de id manual</div>`;
+	$("spellRes").querySelectorAll("button[data-id]").forEach((b) => (b.onclick = () => {
+		const s = r.spells.find((x) => x.id === b.dataset.id);
+		const nombre = s?.name?.[state.lang] ?? s?.name?.es ?? s?.name?.en ?? "";
+		insertSpell(s.id, nombre);
+		closeSpellPicker();
+	}));
+	$("spellRes").querySelectorAll("button[data-ensenar]").forEach((b) => (b.onclick = () => {
+		const s = r.spells.find((x) => x.id === b.dataset.ensenar);
+		if (s) ensenarTraduccion(s);
+	}));
+}
+
+// enseñar a mano la traducción de un spell que la API de Blizzard no indexa
+// (habilidades de jefes de mazmorra de Midnight): queda en spell-names.json,
+// lo usan picker, preview y cobertura; corregir el corchete en el pack sigue
+// siendo el arreglo definitivo (la pasada esES enseña al índice al guardar)
+async function ensenarTraduccion(s) {
+	const guardado = s.name?.[state.lang] ?? s.name?.en ?? "";
+	const nombre = prompt(`Traducción ${state.lang.toUpperCase()} del spell ${s.id}\n(guardado ahora: "${guardado}")`, guardado);
+	if (nombre === null) return;
+	const texto = nombre.trim();
+	if (!texto) return toast("nombre vacío — no se ha enseñado nada", false);
+	const r = await api("/api/spells/nombre-manual", { method: "POST", body: JSON.stringify({ id: s.id, lang: state.lang, nombre: texto }) });
+	if (!r.ok) return toast(`No se pudo enseñar: ${r.error}`, false);
+	state.nombresSpell[s.id] = r.nombres;
+	renderPreview();
+	toast(`Spell ${s.id}: ${state.lang.toUpperCase()} "${texto}" aprendido (picker, preview y cobertura)`);
+	buscarSpells(); // la fila pierde el ✎ y muestra la traducción
 }
 function closeSpellPicker() { $("spellModal").classList.add("hidden"); }
 $("spellClose").onclick = closeSpellPicker;
@@ -462,6 +493,12 @@ async function cargarMedia(id) {
 	const r = await api(`/api/media/${state.pack}/${id}?locale=${locale}`);
 	if (r.ok) m = r.media;
 	state.media = m;
+	// nombres que el diario del jefe acaba de enseñar (spells sin índice en
+	// la búsqueda de Blizzard): se funden y la vista previa traduce ya mismo
+	if (r.ok && r.spellnames) {
+		Object.assign(state.nombresSpell, r.spellnames);
+		renderPreview();
+	}
 	// con o sin datos del diario el banner respira igual: nada de saltos
 	renderBanner(id, m, r.ok ? null : (r.error ?? "sin coincidencia"));
 	if (!r.ok) {
@@ -469,7 +506,9 @@ async function cargarMedia(id) {
 			<div class="text-xs text-slate-500">${esc(r.error ?? "sin coincidencia")}</div>`;
 		return;
 	}
-	// habilidades del diario (secciones) para redactar, en el idioma de la pestaña
+	// habilidades del diario (secciones) para redactar, en el idioma de la
+	// pestaña; los [nombres de habilidad] lucen como chips con id cuando se conoce
+	const mapa = mapaNombreSpell();
 	$("diario").innerHTML = `
 		<div class="flex items-center mb-1">
 			<div class="font-ui text-xs text-wow-gold tracking-widest">HABILIDADES DEL DIARIO <span class="text-slate-500">(encounter API ${m.encounter?.id} · ${locale})</span></div>
@@ -477,11 +516,40 @@ async function cargarMedia(id) {
 			<button id="btnEsqueleto" class="text-xs px-2 py-1 rounded border border-wow-edge hover:border-wow-gold" title="añade las habilidades del diario como líneas borrador para pulir a mano">＋ esqueleto</button>
 		</div>
 		<div class="golddiv mb-2"></div>
-		${m.description ? `<div class="text-xs text-slate-400 leading-5 mb-2">${renderWow(limpiarTextoDiario(m.description))}</div>` : ""}
+		${m.description ? `<div class="text-xs text-slate-400 leading-5 mb-2">${renderDiario(m.description, mapa)}</div>` : ""}
 		<div class="space-y-1 text-xs leading-5 max-h-72 overflow-y-auto">
-			${(m.sections ?? []).map((s) => `<div>${s.title ? `<span class="text-slate-200">${esc(limpiarTextoDiario(s.title))}</span>: ` : ""}${s.bullet ? esc(limpiarTextoDiario(s.bullet)) : ""}</div>`).join("") || `<div class="text-slate-500">sin secciones</div>`}
+			${(m.sections ?? []).map((s) => `<div>${s.title ? `<span class="text-slate-200">${renderDiario(s.title, mapa)}</span>: ` : ""}${s.bullet ? renderDiario(s.bullet, mapa) : ""}</div>`).join("") || `<div class="text-slate-500">sin secciones</div>`}
 		</div>`;
 	$("btnEsqueleto").onclick = insertarEsqueleto;
+}
+
+// mapa inverso nombre(normalizado) → id de spell, con los corchetes de la
+// entrada y los nombres resueltos/aprendidos — da tooltip con id a los
+// [nombres de habilidad] del diario
+function mapaNombreSpell() {
+	const mapa = new Map();
+	const añade = (nombre, id) => {
+		const k = norm(nombre);
+		if (k && !mapa.has(k)) mapa.set(k, String(id));
+	};
+	const e = state.entryData;
+	for (const l of [...(e?.lines ?? []), ...(state.nombresRef ?? [])]) {
+		for (const m of String(l).matchAll(/\|Hspell:(\d+)\|h\[([^\]]+)\]/g)) añade(m[2], m[1]);
+	}
+	for (const [id, n] of Object.entries(state.nombresSpell)) for (const lang of ["es", "en", "fr", "de"]) if (n?.[lang]) añade(n[lang], id);
+	return mapa;
+}
+
+// texto del diario con los [nombres de habilidad] remarcados como chips
+// (color de spell del addon, icono y tooltip con el id cuando se conocen)
+function renderDiario(txt, mapa) {
+	let html = renderWow(limpiarTextoDiario(txt));
+	html = html.replace(/\[([^\]<][^\]]*)\]/g, (_m, nombre) => {
+		const id = mapa.get(norm(nombre));
+		const icono = id && state.nombresSpell[id]?.icon;
+		return `<span class="spellchip" style="color:#71d5ff" title="${id ? `spell ${id}` : "habilidad del diario"}">${icono ? `<img src="${urlSegura(icono)}" alt="" class="inline h-4 w-4 rounded mr-0.5 align-[-3px]">` : ""}${nombre}</span>`;
+	});
+	return html;
 }
 
 // esqueleto de entrada: las habilidades del diario como líneas borrador —
@@ -552,7 +620,7 @@ $("nuevaOk").onclick = () => {
 // por nombre): señala entradas con huecos o sin diario — dónde mirar, no veredicto
 $("btnCobertura").onclick = async () => {
 	$("coberturaModal").classList.remove("hidden");
-	$("coberturaRes").innerHTML = `<div class="text-xs text-slate-500">calculando… la primera vez por pack trae todas las habilidades del diario y las cachea (puede tardar un rato); a partir de ahí es instantáneo.</div>`;
+	$("coberturaRes").innerHTML = `<div class="text-xs text-slate-500">calculando… la primera vez por pack trae el diario de todos sus jefes y aprende nombres+iconos de sus spells (con ritmo educado ante Wowhead): puede tardar VARIOS MINUTOS y no hay barra — a partir de ahí es instantáneo.</div>`;
 	const r = await api(`/api/cobertura/${state.pack}`);
 	if (!r.ok) { $("coberturaRes").innerHTML = `<div class="text-xs text-red-400">${esc(r.error)}</div>`; return; }
 	const huecos = r.informe.filter((f) => !f.sinDiario && f.faltan.length);

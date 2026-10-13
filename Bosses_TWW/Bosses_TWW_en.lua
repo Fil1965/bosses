@@ -105,9 +105,9 @@ pack["228458"] = { "The One-Armed Bandit",
 };
 
 pack["229953"] = { "Mug'Zee, Heads of Security",
-	"* |cff71d5ff|Hspell:466385|h[Moxie]|h|r empowers them alternately; mind the |cff71d5ff|Hspell:472631|h[Earthshaker Gaol]|h|r.",
-	"* Kill the |cff71d5ff|Hspell:466539|h[Unstable Crawler Mines]|h|r.",
-	"* |cff71d5ff|Hspell:467380|h[Goblin-guided Rocket]|h|r: the marked dodges."
+	"* Two bosses; |cff71d5ff|Hspell:466385|h[Moxie]|h|r empowers them alternately.",
+	"* |cff71d5ff|Hspell:472631|h[Earthshaker Gaol]|h|r: the marked player moves away from the group.",
+	"* Mind the |cff71d5ff|Hspell:466539|h[Unstable Crawler Mines]|h|r; the |cff71d5ff|Hspell:467380|h[Goblin-guided Rocket]|h|r punishes the marked player: dodge them."
 };
 
 pack["231075"] = { "Chrome King Gallywix",

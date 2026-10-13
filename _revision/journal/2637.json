@@ -1,0 +1,669 @@
+{
+	"id": 2637,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2637?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2637,
+		"name": "Kordac, el Protector Durmiente",
+		"description": "El deterioro de Kordac, apenas funcional y caído en el olvido, le obliga a ser un observador latente. Incluso al detectar el vacío en algún lugar por debajo, no pudo hacer nada. Pero eso ha cambiado. Las formas de vida indistinguibles que llegaron al a isla de Dorn son lo suficientemente poderosas como para suponer una amenaza para Azeroth. Por ello, se opone a nosotros. Y nosotros a él.",
+		"creatures": [
+			{
+				"id": 5730,
+				"name": "Kordac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/118472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 118472
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zancos quitinosos resistentes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abrigo de celador de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mallas de zarcillos abisales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de buscador de la Luz",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de cristal estelar",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de habitante de las zonas profundas",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del amanecer radiante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello del vigía silencioso",
+					"id": 225748
+				}
+			},
+			{
+				"id": 44619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cincho de mirada pétrea",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30005,
+				"title": "Resumen",
+				"body_text": "Kordac defiende Azeroth y ataca a los jugadores con unos [Láseres sobrecargados] que dejan [Tierra sobrecargada] y [Coalescencia potenciadora] a su paso. Al llegar a 100 p. de energía, invoca un [Bombardeo Arcano].",
+				"sections": [
+					{
+						"id": 30006,
+						"title": "Tanques",
+						"body_text": "$bullet;El [Impacto titánico] de Kordac inflige mucho daño y lanza a los jugadores por los aires.\r\n$bullet;La [Ráfaga de supresión] pacifica y silencia a los jugadores cercanos al detonar."
+					},
+					{
+						"id": 30007,
+						"title": "Sanadores",
+						"body_text": "$bullet;Los [Láseres sobrecargados] perseguirán a los jugadores y dejarán [Tierra sobrecargada].\r\n$bullet;La [Ráfaga de supresión] pacifica y silencia a todos los jugadores que estén cerca de su objetivo cuando detona."
+					},
+					{
+						"id": 30008,
+						"title": "DPS",
+						"body_text": "$bullet;La [Coalescencia potenciadora] se puede recoger para aumentar el daño durante un breve lapso.\r\n$bullet;Los [Láseres sobrecargados] perseguirán a los jugadores y dejarán [Tierra sobrecargada]."
+					}
+				]
+			},
+			{
+				"id": 30057,
+				"title": "Bombardeo Arcano",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bombardeo Arcano",
+					"id": 458423
+				}
+			},
+			{
+				"id": 30009,
+				"title": "Láseres sobrecargados",
+				"sections": [
+					{
+						"id": 30055,
+						"title": "Tierra sobrecargada",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/458799?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tierra sobrecargada",
+							"id": 458799
+						}
+					},
+					{
+						"id": 30270,
+						"title": "Coalescencia potenciadora",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/459281?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Coalescencia potenciadora",
+							"id": 459281
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458209?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Láseres sobrecargados",
+					"id": 458209
+				}
+			},
+			{
+				"id": 30056,
+				"title": "Impacto titánico",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Impacto titánico",
+					"id": 458320
+				}
+			},
+			{
+				"id": 30058,
+				"title": "Ráfaga de supresión",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ráfaga de supresión",
+					"id": 458838
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2637?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2637,
+		"name": "Kordac, le protecteur inerte",
+		"description": "À peine fonctionnel, voire quasiment oublié, Kordac se trouve dans un état qui le force à rester un observateur passif. Même après avoir détecté le Vide quelque part en contrebas, il a été forcé à l’inaction. Mais les choses ont changé ! Les formes de vie non identifiables qui sont arrivées sur l’île de Dorn sont assez puissantes pour menacer Azeroth. Aussi se dresse-t-il contre nous. Et ainsi, nous nous dressons contre lui.",
+		"creatures": [
+			{
+				"id": 5730,
+				"name": "Kordac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/118472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 118472
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissardes chitineuses robustes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteau de gardienne de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collants en vrilles abyssales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de cherche-lumière",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissières d’étoile cristalline",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de rôdeur des profondeurs",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de l’Aube éclatante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de la Veille Silencieuse",
+					"id": 225748
+				}
+			},
+			{
+				"id": 44619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du regard de pierre",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30005,
+				"title": "Vue d’ensemble",
+				"body_text": "Kordac défend Azeroth et cible des personnages-joueurs avec des [Lasers surchargés] qui laissent une [Terre surchargée] et une [Coalescence de renforcement] sur leur passage. À 100 points d’énergie, il abat un [Bombardement arcanique].",
+				"sections": [
+					{
+						"id": 30006,
+						"title": "Tanks",
+						"body_text": "$bullet; L’[Impact titanesque] de Kordac inflige de lourds dégâts et projette les personnages-joueurs dans les airs.\r\n$bullet;[Détonation de suppression] réduit les personnages-joueurs proches au silence et les pacifie au moment de l’explosion."
+					},
+					{
+						"id": 30007,
+						"title": "Soigneurs",
+						"body_text": "$bullet; Des [Lasers surchargés] poursuivront les personnages-joueurs et laisseront une [Terre surchargée] sur leur passage.\r\n$bullet;[Détonation de suppression] réduit tous les personnages-joueurs proches de sa cible au silence et les pacifie au moment de l’explosion."
+					},
+					{
+						"id": 30008,
+						"title": "DPS",
+						"body_text": "$bullet; Une [Coalescence de renforcement] peut être récupérée pour augmenter brièvement les dégâts.\r\n$bullet; Des [Lasers surchargés] poursuivront les personnages-joueurs et laisseront une [Terre surchargée] sur leur passage."
+					}
+				]
+			},
+			{
+				"id": 30057,
+				"title": "Bombardement arcanique",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bombardement arcanique",
+					"id": 458423
+				}
+			},
+			{
+				"id": 30009,
+				"title": "Lasers surchargés",
+				"sections": [
+					{
+						"id": 30055,
+						"title": "Terre surchargée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/458799?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Terre surchargée",
+							"id": 458799
+						}
+					},
+					{
+						"id": 30270,
+						"title": "Coalescence surpuissante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/459281?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Coalescence surpuissante",
+							"id": 459281
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458209?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lasers surchargés",
+					"id": 458209
+				}
+			},
+			{
+				"id": 30056,
+				"title": "Impact titanesque",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Impact titanesque",
+					"id": 458320
+				}
+			},
+			{
+				"id": 30058,
+				"title": "Détonation de suppression",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Détonation de suppression",
+					"id": 458838
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2637?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2637,
+		"name": "Kordac, the Dormant Protector",
+		"description": "Barely functional or even remembered, Kordac's disrepair forces him to remain a dormant observer. Even upon detecting the void somewhere below, he was forced into inaction. But that's changed. The unidentifiable lifeforms who have arrived to the Isle of Dorn are powerful enough to potentially pose a threat to Azeroth. And so he stands against us. And so we stand against him.",
+		"creatures": [
+			{
+				"id": 5730,
+				"name": "Kordac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/118472?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 118472
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44611,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sturdy Chitinous Striders",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44612,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dornish Warden's Coat",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44613,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abyssal Tendril Tights",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44614,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightseeker's Robes",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Star Cuisses",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Dweller's Tabi",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Gleaming Dawn",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of the Silent Vigil",
+					"id": 225748
+				}
+			},
+			{
+				"id": 44619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stone Gaze Ceinture",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 30005,
+				"title": "Overview",
+				"body_text": "Kordac defends Azeroth, targeting players with [Overcharged Lasers] which leave [Overcharged Earth] and [Empowering Coalescence] in their wake. Upon reaching 100 Energy, he rains down [Arcane Bombardment].",
+				"sections": [
+					{
+						"id": 30006,
+						"title": "Tanks",
+						"body_text": "$bullet; Kordac's [Titanic Impact] inflicts high damage and launches players into the air.\r\n$bullet;[Supression Burst] pacifies and silences nearby players on detonation."
+					},
+					{
+						"id": 30007,
+						"title": "Healers",
+						"body_text": "$bullet; [Overcharged Lasers] will pursue players and leave behind [Overcharged Earth].\r\n$bullet;[Supression Burst] pacifies and silences any players near its target when it detonates."
+					},
+					{
+						"id": 30008,
+						"title": "Damage Dealers",
+						"body_text": "$bullet; [Empowering Coalescence] can be collected for a brief damage increase.\r\n$bullet; [Overcharged Lasers] will pursue players and leave behind [Overcharged Earth]."
+					}
+				]
+			},
+			{
+				"id": 30057,
+				"title": "Arcane Bombardment",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arcane Bombardment",
+					"id": 458423
+				}
+			},
+			{
+				"id": 30009,
+				"title": "Overcharged Lasers",
+				"sections": [
+					{
+						"id": 30055,
+						"title": "Overcharged Earth",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/458799?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Overcharged Earth",
+							"id": 458799
+						}
+					},
+					{
+						"id": 30270,
+						"title": "Empowering Coalescence",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/459281?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Empowering Coalescence",
+							"id": 459281
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458209?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Overcharged Lasers",
+					"id": 458209
+				}
+			},
+			{
+				"id": 30056,
+				"title": "Titanic Impact",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Titanic Impact",
+					"id": 458320
+				}
+			},
+			{
+				"id": 30058,
+				"title": "Supression Burst",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/458838?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Supression Burst",
+					"id": 458838
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

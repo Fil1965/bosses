@@ -38,7 +38,7 @@ enc["2982"] = "47296,47297"; -- Helix Rompengranajes (remaster S2)
 enc["1062"] = "47626"; -- Almirante Rasgagruñido
 enc["2974"] = "47626"; -- Almirante Rasgagruñido (remaster S2)
 enc["2979"] = "47626"; -- Almirante Rasgagruñido (remaster S2)
--- enc["1081"] = "49541"; -- Vanessa VanCleef: ENC conocida, sin entrada todavía
+enc["1081"] = "49429,49541"; -- Vanessa VanCleef
 
 -- End Time (938)
 enc["1881"] = "54431"; -- Eco de Baine
@@ -55,6 +55,7 @@ enc["1051"] = "39625"; -- General Umbriss
 
 -- Halls of Origination (644)
 enc["1074"] = "39731"; -- Ammunae
+enc["1076"] = "39428"; -- Terracundo Ptah
 enc["1075"] = "39788"; -- Anraphet
 enc["1077"] = "39587"; -- Isiset
 enc["1078"] = "39378"; -- Rajh
@@ -69,6 +70,7 @@ enc["1339"] = "54938"; -- Arzobispo Benedictus
 -- Lost City of the Tol'vir (755)
 enc["1052"] = "44577"; -- General Husam
 enc["1053"] = "43612"; -- Sumo profeta Barim
+enc["1054"] = "43614"; -- Cierrafauce
 enc["1055"] = "44819"; -- Siamat
 
 -- Shadowfang Keep (33)
@@ -115,14 +117,47 @@ enc["1179"] = "52151"; -- Señor sangriento Mandokir
 enc["1178"] = "52155"; -- Sumo sacerdote Venoxis
 enc["1181"] = "52053"; -- Zanzil
 
+-- Bandas de Cataclysm (módulos DBM-Raids-Cata del repo oficial) --------------
+
+-- Bastión de Baradin (757)
+enc["1033"] = "47120"; -- Argaloth
+enc["1250"] = "52363"; -- Occu'thar
+enc["1332"] = "55869"; -- Alizabal, Señora del odio
+
+-- Descenso de Alanegra (669)
+enc["1022"] = "41442"; -- Atramedes
+enc["1023"] = "43296"; -- Chimaeron
+enc["1024"] = "41570"; -- Faucemagma
+enc["1025"] = "41378"; -- Maloriak
+enc["1026"] = "41376,41270"; -- El final de Nefarian
+enc["1027"] = "42180,42178,42179,42166"; -- Sistema de Defensa de Omnitron
+
+-- El Bastión del Crepúsculo (671)
+enc["1028"] = "43686,43687,43688,43689,43735"; -- Consejo de ascendientes
+enc["1029"] = "43324"; -- Cho'gall
+enc["1082"] = "45213"; -- Sinestra (25 heroico)
+enc["1083"] = "45213"; -- Sinestra
+
+-- Tierras de Fuego (720)
+enc["1185"] = "52571"; -- Mayordomo Corzocelada
+enc["1197"] = "52498"; -- Beth'tilac
+enc["1200"] = "53494"; -- Baleroc, el Guardián de la Puerta
+enc["1203"] = "52409"; -- Ragnaros
+enc["1204"] = "52558"; -- Lord Piroclasto
+enc["1205"] = "53691"; -- Shannox
+enc["1206"] = "52530"; -- Alysrazor
+
+-- Trono de los Cuatro Vientos (754)
+enc["1034"] = "46753"; -- Al'Akir
+enc["1035"] = "45870,45871,45872"; -- Cónclave del Viento
+
 -- Evento aniversario de Cataclysm (DBM-WorldEvents) ------------------------
 
-enc["2320"] = "43324,52409,41376"; -- Cho'gall (evento del aniversario)
+enc["2320"] = "43324,52409,41376"; -- Cho'gall/Ragnaros/Nefarian (evento del aniversario)
 
--- Pendientes (sin entrada en el pack; el modo depuración los anotará):
---   Vanessa VanCleef (ENC 1081, CID 49541). Las criaturas del Zul'Gurub
---   clásico (Gri'lek, Hazza'rah, Renataki, Wushoolay, 52258-52271) y
---   Terracundo Ptah/Augh/Cierrafauce tienen entrada pero sin ENC conocida
---   en esta copia de DBM.
+-- Pendientes (sin ENC conocida; el modo depuración los anotará):
+--   Las criaturas del Zul'Gurub clásico (Gri'lek, Hazza'rah, Renataki,
+--   Wushoolay, 52258-52271) y Augh (49045) siguen sin ENC en esta copia
+--   de DBM.
 
 P.enc = enc;

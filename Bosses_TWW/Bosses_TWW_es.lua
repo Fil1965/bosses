@@ -108,7 +108,7 @@ pack["228458"] = { "El bandido manco",
 pack["229953"] = { "Mug'Zee, responsable de seguridad",
 	"* Dos jefes; |cff71d5ff|Hspell:466385|h[Moxie]|h|r los enfurece alternativamente.",
 	"* |cff71d5ff|Hspell:472631|h[Earthshaker Gaol]|h|r: el marcado se aleja del grupo.",
-	"* Cuidado con las |cff71d5ff|Hspell:466539|h[Unstable Crawler Mines]|h|r."
+	"* Cuidado con las |cff71d5ff|Hspell:466539|h[Unstable Crawler Mines]|h|r; los |cff71d5ff|Hspell:467380|h[Goblin-guided Rocket]|h|r castigan al marcado: esquivarlos."
 };
 
 pack["231075"] = { "Rey Cromado Gallywix",

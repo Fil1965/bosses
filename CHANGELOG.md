@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.10] - 2026-10-12
+- **Los 4 packs ganan FR completo (español, inglés y francés en todos)**: rellenadas las subtablas frFR de `Bosses_Cata`, `Bosses_MoP`, `Bosses_TWW` y `Bosses_Midnight` — 398 entradas (113/134/80/71) con nombres oficiales frFR del diario (Blizzard Game Data API contra el retail live) y Wowhead fr; elemento 1 = nombre base del cliente fr (apóstrofe U+2019 del API: "Yu’lon", "Xin le Maître d’armes") y corchetes = títulos exactos del diario fr. `/bosses IDIOMA fr` ya es útil en los cuatro packs.
+- **Reparación de escapes en los FR**: 7 enlaces de Cata fr sin la apertura `|h[` (`|Hspell:ID|[Texto]|h|r`) corregidos en masa y Beth'tilac L626 parcheado con `|Hspell:-2782|h[Phase 2 : La frénésie !]|h|r`; verificación nueva que vigila aperturas y cierres por separado — equilibrio aperturas=cierres en los 4 packs (Cata 341, TWW 195, Midnight 188, MoP 46), 0 `|h*r`.
+- **Paridad ES/EN total ([B] OK en los 4 packs)**: Mug'Zee (229953, Manaforge Omega) reestructurado EN para alinearse con ES — bullets y spells idénticos entrada a entrada en los cuatro packs.
+- **Pasada esES extra (~21 nombres aplicados)**: Cata ~20 (API + Wowhead) y Midnight 1; los nombres idénticos ES/EN de Cata bajan de 51 a 30 (los 30 restantes son nombres propios legítimos) y los de Midnight de 22 a 21.
+- **UNKNOWN fr de MoP resueltos vía diario live**: Lei Shen, Xin le Maître d’armes (encounter 698 live), Grande inquisitrice Blanchetête et Commandant Durand (674), Maître-chien Braun (660), Galion, Sha de la Colère, Nalak, Oondasta, Ordos, los celestiales (Chi Ji/Xuen/Niuzao/Yu’lon), Les jumelles empyréennes (829) y el grupo zandalar (Éclaireurs/Porteguerre). Los encounter ids de la era NO valen contra el live (vienen reutilizados: 1563=Malchezaar…): para nombres remaster la vía correcta es la caché de instancias live `_nombres/_instancias.json`.
+- **ENC**: Predaxas 238015 (lair de Midnight) añadido en ES/EN/FR con su ENC 3431; MoP gana 866/1580/1581/1509/1510 y retira 1624; TWW gana 3054 (jefe de mundo de Khaz Algar).
+- **DESCRIPTION.md actualizado**: idiomas disponibles (español, inglés y francés; alemán solo con datos de Cata) y los 4 packs de expansión — Mists of Pandaria no estaba documentado.
+- **TOC de los packs sincronizados a mano con el core** (1.0.7 → 1.0.10, convención de la casa).
+
 ## [1.0.9] - 2026-10-10
 - Símbolos ilegibles en chat y frame: las flechas/emoji Unicode del pack MoP (Gekkan, Protectores de la Eternidad, escudo de Malkorok) no existen en las fuentes del juego y salían como cajones [] — ahora ASCII '->' en ES y EN
 

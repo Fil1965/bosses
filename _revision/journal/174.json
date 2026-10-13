@@ -1,0 +1,1773 @@
+{
+	"id": 174,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/174?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 174,
+		"name": "El final de Nefarian",
+		"description": "El hijo de Alamuerte, Nefarian, se ganó su mala fama por sus horribles intentos de crear dragones cromáticos con la esencia de los distintos Vuelos de Azeroth. Tras su muerte en la Guarida de Alanegra, Alamuerte lo reanimó y le encargó proseguir sus insidiosos propósitos.",
+		"creatures": [
+			{
+				"id": 600,
+				"name": "Nefarian",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32716
+				}
+			},
+			{
+				"id": 599,
+				"name": "Onyxia",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32569?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32569
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, el Arco del Trueno",
+					"id": 65024
+				}
+			},
+			{
+				"id": 10199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sombra de terror",
+					"id": 59457
+				}
+			},
+			{
+				"id": 10200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ira de las Eras",
+					"id": 65025
+				}
+			},
+			{
+				"id": 10201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de la Pesadilla",
+					"id": 65057
+				}
+			},
+			{
+				"id": 10202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor desolado",
+					"id": 63682
+				}
+			},
+			{
+				"id": 10203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dije de maquinación de Prestor",
+					"id": 65026
+				}
+			},
+			{
+				"id": 10204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador desolado",
+					"id": 63683
+				}
+			},
+			{
+				"id": 10205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, puño del Rey Dragón",
+					"id": 59459
+				}
+			},
+			{
+				"id": 10206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del Apocalipsis",
+					"id": 65027
+				}
+			},
+			{
+				"id": 10207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector desolado",
+					"id": 63684
+				}
+			},
+			{
+				"id": 10208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del protector desolado",
+					"id": 65000
+				}
+			},
+			{
+				"id": 10209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del conquistador desolado",
+					"id": 65001
+				}
+			},
+			{
+				"id": 10210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de Nefarius",
+					"id": 59337
+				}
+			},
+			{
+				"id": 10211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del vencedor desolado",
+					"id": 65002
+				}
+			},
+			{
+				"id": 10212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ashkandi restituida, Espada magna de la Hermandad",
+					"id": 65003
+				}
+			},
+			{
+				"id": 10213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dije de maquinación de Prestor",
+					"id": 59441
+				}
+			},
+			{
+				"id": 10214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ira de las Eras",
+					"id": 59442
+				}
+			},
+			{
+				"id": 10215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65074?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de la dama con cicatrices",
+					"id": 65074
+				}
+			},
+			{
+				"id": 10216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, el Arco del Trueno",
+					"id": 59443
+				}
+			},
+			{
+				"id": 10217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de Nefarius",
+					"id": 65043
+				}
+			},
+			{
+				"id": 10218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, el escudo de dominio",
+					"id": 59444
+				}
+			},
+			{
+				"id": 10219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59222?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de la dama con cicatrices",
+					"id": 59222
+				}
+			},
+			{
+				"id": 10220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de la Pesadilla",
+					"id": 59321
+				}
+			},
+			{
+				"id": 10221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, puño del Rey Dragón",
+					"id": 65017
+				}
+			},
+			{
+				"id": 10222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de los Puño Negro",
+					"id": 59450
+				}
+			},
+			{
+				"id": 10223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sombra de terror",
+					"id": 65018
+				}
+			},
+			{
+				"id": 10224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de Llamarada de las Sombras",
+					"id": 65019
+				}
+			},
+			{
+				"id": 10225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares del Apocalipsis",
+					"id": 59356
+				}
+			},
+			{
+				"id": 10226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de Llamarada de las Sombras",
+					"id": 59454
+				}
+			},
+			{
+				"id": 10227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de los Puño Negro",
+					"id": 65022
+				}
+			},
+			{
+				"id": 10228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ashkandi restituida, Espada magna de la Hermandad",
+					"id": 63679
+				}
+			},
+			{
+				"id": 10229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, el escudo de dominio",
+					"id": 65023
+				}
+			},
+			{
+				"id": 32120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ilusión: Torrente de poder",
+					"id": 138802
+				}
+			},
+			{
+				"id": 35270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pila de huesos sombríos",
+					"id": 152968
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3276,
+				"title": "Electrocutar",
+				"body_text": "A lo largo del combate, Nefarian electrocuta a toda la banda cada vez que pierde un 10% de salud. Electrocutar genera un gran chisporroteo de relámpagos que inflige 0 p. de daño de Naturaleza a todos los jugadores."
+			},
+			{
+				"id": 3277,
+				"title": "Fase 1: ¡Álzate, hermana!",
+				"body_text": "Nefarian revela la forma de no-muerta de su hermana Onyxia y los dos dragones atacan a la banda.",
+				"sections": [
+					{
+						"id": 3278,
+						"title": "Hijos de Alamuerte",
+						"body_text": "Nefarian y Onyxia atacan un 100% más rápido cuando los separan menos de 50 m."
+					},
+					{
+						"id": 3279,
+						"title": "Nefarian",
+						"sections": [
+							{
+								"id": 3280,
+								"title": "Granizo de huesos",
+								"body_text": "Antes de que Nefarian aterrice al comienzo de la fase 1, invoca algunos guerreros osario animados. Cada uno inflige 0 p. de daño de las Sombras a los jugadores cercanos en un radio de 0 m."
+							},
+							{
+								"id": 3281,
+								"title": "Aliento de Pirosombra",
+								"body_text": "El aliento de dragón de Nefarian inflige 0 p. de daño de Pirosombra a los enemigos en un cono de 60 grados de 60 m y recarga por completo la energía de los guerreros osarios animados en el área de efecto."
+							},
+							{
+								"id": 3282,
+								"title": "Latigazo de cola",
+								"body_text": "Nefarian barre con su cola a los enemigos en un cono de 60 grados detrás de él, lo que inflige 0 p. de daño físico y los aturde durante 2 s."
+							},
+							{
+								"id": 3289,
+								"title": "Guerreros osarios animados",
+								"body_text": "Al principio de la fase 1, Nefarian invoca guerreros osarios animados antes de aterrizar. Los esqueletos tienen una barra de energía que se agota con el tiempo. Caerán si se quedan sin energía, pero restauran energía al ser golpeados por Aliento de Pirosombra o Llamarada de las Sombras.",
+								"sections": [
+									{
+										"id": 3290,
+										"title": "Golpes potenciantes",
+										"body_text": "Los guerreros osarios animados se vuelven más poderosos con el tiempo, lo que aumenta el daño que infligen un 100% y su velocidad de movimiento un 10%. Este efecto se acumula."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 31092
+								}
+							},
+							{
+								"id": 3295,
+								"title": "Dominio",
+								"body_text": "Nefarian domina periódicamente las mentes de jugadores aleatorios y se hace con el control de sus cuerpos durante 20 s. Los jugadores dominados caminan hacia un portal que aparece y, si lo alcanzan, mueren.\r\n\r\nDominio otorga 3 facultades especiales a los jugadores.",
+								"sections": [
+									{
+										"id": 3296,
+										"title": "Succionar poder",
+										"body_text": "Los jugadores dominados absorben un poco del inmenso poder que utiliza Nefarian para controlarlos y obtener así el beneficio Poder robado.",
+										"sections": [
+											{
+												"id": 3297,
+												"title": "Poder robado",
+												"body_text": "Los jugadores dominados contraatacan contra Nefarian con venganza y furia, lo que aumenta su daño y su sanación un 3% durante 15 s. Este efecto se acumula."
+											}
+										]
+									},
+									{
+										"id": 3298,
+										"title": "Libera tu mente",
+										"body_text": "Los jugadores dominados centran su voluntad para romper el dominio de Nefarian sobre ellos, lo que también aumenta su velocidad de movimiento un 120% durante 10 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3283,
+						"title": "Onyxia",
+						"sections": [
+							{
+								"id": 3284,
+								"title": "Energía eléctrica",
+								"body_text": "Onyxia obtiene energía con el tiempo y consigue aún más cuando Nefarian lanza Electrocutar. Si Onyxia reúne toda su energía, explota en una Sobrecarga eléctrica que mata a todos los jugadores."
+							},
+							{
+								"id": 3285,
+								"title": "Descarga relampagueante",
+								"body_text": "Onyxia descarga electricidad de los orbes en sus costados, lo que inflige 0 p. de daño de Naturaleza a los objetivos en un radio de 60 m."
+							},
+							{
+								"id": 3286,
+								"title": "Aliento de Pirosombra",
+								"body_text": "El aliento de dragón de Onyxia inflige 0 p. de daño de Pirosombra a los jugadores en un cono de 60 grados de 60 m y recarga por completo la energía de los guerreros osarios animados en el área de efecto."
+							},
+							{
+								"id": 3287,
+								"title": "Latigazo de cola",
+								"body_text": "Onyxia sacude con su cola a los enemigos en un cono de 60 grados detrás de ella, lo que inflige 0 p. de daño físico y los aturde durante 2 s."
+							},
+							{
+								"id": 3288,
+								"title": "Sobrecarga eléctrica",
+								"body_text": "Si Onyxia alcanza su energía total, libera una gran Sobrecarga eléctrica, lo que inflige 0 p. de daño de Naturaleza a todos jugadores."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3291,
+				"title": "Fase 2: ¡Os maldigo, mortales!",
+				"body_text": "Cuando los jugadores matan a Onyxia, Nefarian se eleva y llena la sala de magma a excepción de tres plataformas. Después Nefarian invoca un prototipo cromático en cada una de las plataformas.",
+				"sections": [
+					{
+						"id": 3299,
+						"title": "Prototipo cromático",
+						"body_text": "Aparece un prototipo cromático en cada plataforma. Permanecen en el sitio y lanzan Nova explosiva.",
+						"sections": [
+							{
+								"id": 3300,
+								"title": "Nova explosiva",
+								"body_text": "Los prototipos cromáticos lanzan Nova explosiva, lo que inflige 0 p. de daño de Fuego cada 2 s a todos los enemigos."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33185?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33185
+						}
+					},
+					{
+						"id": 3301,
+						"title": "Tromba de Pirosombra",
+						"body_text": "Mientras vuela, Nefarian exhala una Tromba de Pirosombra sobre jugadores aleatorios, lo que inflige 0 p. de daño de Pirosombra."
+					},
+					{
+						"id": 3302,
+						"title": "Cenizas explosivas",
+						"body_text": "Mientras vuela, Nefarian ataca de vez en cuando a jugadores aleatorios con Cenizas explosivas, lo que los cubre de residuos explosivos que infligen 0 p. de daño de Fuego cada 2 s.\r\n\r\nLos residuos explotan tras 8 s, lo que inflige 4023 p. de daño de Fuego a todos los jugadores en un radio de 10 m."
+					}
+				]
+			},
+			{
+				"id": 3292,
+				"title": "Fase 3: ¡No morís!",
+				"body_text": "Después de que los jugadores eliminen a todos los prototipos cromáticos, la lava amaina y Nefarian aterriza para terminar el combate.",
+				"sections": [
+					{
+						"id": 3303,
+						"title": "Aliento de Pirosombra",
+						"body_text": "El aliento de dragón de Nefarian inflige 0 p. de daño de Pirosombra a los enemigos en un cono de 60 grados de 60 m y recarga por completo la energía de los guerreros osarios animados en el área de efecto."
+					},
+					{
+						"id": 3304,
+						"title": "Latigazo de cola",
+						"body_text": "Nefarian barre con su cola a los enemigos en un cono de 60 grados detrás de él, lo que inflige 0 p. de daño físico y los aturde durante 2 s."
+					},
+					{
+						"id": 3305,
+						"title": "Chispa de llamarada de las Sombras",
+						"body_text": "Nefarian crea una llamarada sombría en una ubicación cercana que se extiende rápidamente, lo que inflige 0 p. de daño de Pirosombra a todos los enemigos en un radio de 4 m y reanima a guerreros osarios animados."
+					},
+					{
+						"id": 3306,
+						"title": "Guerreros osarios animados",
+						"body_text": "Los guerreros osarios animados se pueden reanimar en la fase 3. Estos esqueletos tienen una barra de energía que se agota en el tiempo. Se derrumban si se quedan sin energía pero restauran energía si les golpea Aliento de Pirosombra o Llamarada de las Sombras.",
+						"sections": [
+							{
+								"id": 3307,
+								"title": "Golpes potenciantes",
+								"body_text": "Los guerreros osarios animados se vuelven más poderosos con el tiempo, lo que aumenta el daño que infligen un 100% y su velocidad de movimiento un 10%. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 31092
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/174?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 174,
+		"name": "Fin de Nefarian",
+		"description": "Le fils d’Aile de mort, Nefarian, est devenu tristement célèbre à cause de ses sinistres efforts pour créer des dragons chromatiques à partir des essences de divers Vols d’Azeroth. Après sa mort au repaire de l’Aile noire, il a été réanimé et chargé par Aile de mort de continuer ses insidieuses tentatives.",
+		"creatures": [
+			{
+				"id": 600,
+				"name": "Nefarian",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32716
+				}
+			},
+			{
+				"id": 599,
+				"name": "Onyxia",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32569?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32569
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, l'arc de foudre",
+					"id": 65024
+				}
+			},
+			{
+				"id": 10199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ombre d'effroi",
+					"id": 59457
+				}
+			},
+			{
+				"id": 10200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rage des âges",
+					"id": 65025
+				}
+			},
+			{
+				"id": 10201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du cauchemar",
+					"id": 65057
+				}
+			},
+			{
+				"id": 10202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur lugubre",
+					"id": 63682
+				}
+			},
+			{
+				"id": 10203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talisman de machination de Prestor",
+					"id": 65026
+				}
+			},
+			{
+				"id": 10204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant lugubre",
+					"id": 63683
+				}
+			},
+			{
+				"id": 10205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, poing du roi-dragon",
+					"id": 59459
+				}
+			},
+			{
+				"id": 10206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de l'apocalypse",
+					"id": 65027
+				}
+			},
+			{
+				"id": 10207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur lugubre",
+					"id": 63684
+				}
+			},
+			{
+				"id": 10208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du protecteur lugubre",
+					"id": 65000
+				}
+			},
+			{
+				"id": 10209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du conquérant lugubre",
+					"id": 65001
+				}
+			},
+			{
+				"id": 10210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de Nefarius",
+					"id": 59337
+				}
+			},
+			{
+				"id": 10211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du vainqueur lugubre",
+					"id": 65002
+				}
+			},
+			{
+				"id": 10212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ashkandi recouvrée, estramaçon de la Confrérie",
+					"id": 65003
+				}
+			},
+			{
+				"id": 10213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talisman de machination de Prestor",
+					"id": 59441
+				}
+			},
+			{
+				"id": 10214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rage des âges",
+					"id": 59442
+				}
+			},
+			{
+				"id": 10215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65074?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de la dame balafrée",
+					"id": 65074
+				}
+			},
+			{
+				"id": 10216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, l'arc de foudre",
+					"id": 59443
+				}
+			},
+			{
+				"id": 10217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de Nefarius",
+					"id": 65043
+				}
+			},
+			{
+				"id": 10218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, bouclier de domination",
+					"id": 59444
+				}
+			},
+			{
+				"id": 10219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59222?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de la dame balafrée",
+					"id": 59222
+				}
+			},
+			{
+				"id": 10220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du cauchemar",
+					"id": 59321
+				}
+			},
+			{
+				"id": 10221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, poing du roi-dragon",
+					"id": 65017
+				}
+			},
+			{
+				"id": 10222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de la Main-Noire",
+					"id": 59450
+				}
+			},
+			{
+				"id": 10223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ombre d'effroi",
+					"id": 65018
+				}
+			},
+			{
+				"id": 10224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe d'Ombrase",
+					"id": 65019
+				}
+			},
+			{
+				"id": 10225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de l'apocalypse",
+					"id": 59356
+				}
+			},
+			{
+				"id": 10226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe d'Ombrase",
+					"id": 59454
+				}
+			},
+			{
+				"id": 10227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de la Main-Noire",
+					"id": 65022
+				}
+			},
+			{
+				"id": 10228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ashkandi recouvrée, estramaçon de la Confrérie",
+					"id": 63679
+				}
+			},
+			{
+				"id": 10229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, bouclier de domination",
+					"id": 65023
+				}
+			},
+			{
+				"id": 32120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion : Torrent de puissance",
+					"id": 138802
+				}
+			},
+			{
+				"id": 35270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pile d'ossements ténébreuse",
+					"id": 152968
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3276,
+				"title": "Électrocuter",
+				"body_text": "Tout au long du combat, Nefarian lance Électrocuter sur tout le raid à chaque fois qu’il perd 10% de ses points de vie. Électrocuter génère un gigantesque crépitement de foudre qui inflige 0 points de dégâts de Nature à tous les personnages-joueurs."
+			},
+			{
+				"id": 3277,
+				"title": "Phase 1 : Relève-toi, ma sœur !",
+				"body_text": "Nefarian révèle la forme de morte-vivante de sa sœur Onyxia, et les deux dragons attaquent le raid.",
+				"sections": [
+					{
+						"id": 3278,
+						"title": "Enfants d’Aile de mort",
+						"body_text": "Nefarian et Onyxia attaquent 100% plus vite lorsqu’ils se trouvent à moins de 50 mètres l’un de l’autre."
+					},
+					{
+						"id": 3279,
+						"title": "Nefarian",
+						"sections": [
+							{
+								"id": 3280,
+								"title": "Grêle d'os",
+								"body_text": "Avant que Nefarian atterrisse au début de la phase 1, il invoque des guerriers des ossements animés. Chaque invocation inflige 0 points de dégâts d’Ombre à tous les personnages-joueurs à moins de 0 mètres."
+							},
+							{
+								"id": 3281,
+								"title": "Souffle d'Ombreflamme",
+								"body_text": "Le souffle draconique de Nefarian inflige 0 points de dégâts d’Ombreflamme aux ennemis dans un cône long de 60 mètres et large de 60 degrés, et recharge complètement en énergie tous les guerriers des ossements animés se trouvant dans le cône du souffle."
+							},
+							{
+								"id": 3282,
+								"title": "Fouette-queue",
+								"body_text": "Nefarian fouette l’air de sa queue, frappant tous les ennemis qui se trouvent dans un cône de 60 degrés derrière lui. Cela leur inflige 0 points de dégâts physiques et les étourdit pendant 2 s."
+							},
+							{
+								"id": 3289,
+								"title": "Guerriers des ossements animés",
+								"body_text": "Au début de la phase 1, Nefarian invoque des guerriers des ossements animés avant de se poser. Ces squelettes ont une barre d’énergie qui se vide au fur et à mesure. Ils s’évanouissent s’ils tombent à cours d’énergie, mais la restaurent s’ils sont touchés par un Souffle d'ombreflamme ou une Ombrase.",
+								"sections": [
+									{
+										"id": 3290,
+										"title": "Coups surpuissants",
+										"body_text": "Les guerriers des ossements animés sont de plus en plus puissants au fil du temps. Leurs dégâts sont augmentés de 100% et leur vitesse d’attaque de 10%. Cet effet est cumulable."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 31092
+								}
+							},
+							{
+								"id": 3295,
+								"title": "Assujettissement",
+								"body_text": "Nefarian domine périodiquement l’esprit de membres du raid choisis au hasard, prenant le contrôle de leur corps pendant 20 s. Les personnages-joueurs assujettis se dirigent vers un portail qui apparaît. Si un personnage-joueur atteint ce portail, il meurt.\r\n\r\nDomination donne accès aux personnages-joueurs à trois techniques spéciales.",
+								"sections": [
+									{
+										"id": 3296,
+										"title": "Absorption de la puissance",
+										"body_text": "Les personnages-joueurs dominés absorbent un peu de l’immense pouvoir que Nefarian utilise pour les contrôler afin d’obtenir l’amélioration Puissance dérobée.",
+										"sections": [
+											{
+												"id": 3297,
+												"title": "Puissance dérobée",
+												"body_text": "Stimulés par la colère et la vengeance, les personnages-joueurs dominés rendent ses coups à Nefarian, augmentant de 3% pendant 15 s les points de dégâts qu’ils infligent et la quantité de soins qu’ils prodiguent. Cet effet est cumulable."
+											}
+										]
+									},
+									{
+										"id": 3298,
+										"title": "Libérez votre esprit",
+										"body_text": "Les personnages-joueurs contrôlés peuvent se concentrer pour briser la volonté de Nefarian, ce qui augmente également leur vitesse de déplacement de 120% pendant 10 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3283,
+						"title": "Onyxia",
+						"sections": [
+							{
+								"id": 3284,
+								"title": "Énergie électrique",
+								"body_text": "Onyxia gagne de l’énergie au fil du temps avec un bonus lorsque Nefarian lance Électrocuter. Si elle emmagasine de l’énergie au maximum, Onyxia explose d’une Surcharge électrique qui tue tous les membres du raid."
+							},
+							{
+								"id": 3285,
+								"title": "Décharge de foudre",
+								"body_text": "Les orbes placés sur les flancs d’Onyxia libèrent une décharge électrique, infligeant 0 points de dégâts de Nature aux cibles se trouvant à moins de 60 mètres."
+							},
+							{
+								"id": 3286,
+								"title": "Souffle d'Ombreflamme",
+								"body_text": "Le souffle draconique d’Onyxia inflige 0 points de dégâts d’Ombreflamme aux ennemis dans un cône long de 60 mètres et large de 60 degrés, et recharge complètement en énergie tous les guerriers des ossements animés se trouvant dans le cône du souffle."
+							},
+							{
+								"id": 3287,
+								"title": "Fouette-queue",
+								"body_text": "Onyxia fouette l’air de sa queue, frappant tous les ennemis qui se trouvent dans un cône de 60 degrés derrière elle. Cela leur inflige 0 points de dégâts physiques et les étourdit pour 2 s."
+							},
+							{
+								"id": 3288,
+								"title": "Surcharge électrique",
+								"body_text": "Si Onyxia emmagasine de l’énergie au maximum, elle libère une Surcharge électrique qui inflige 0 points de dégâts de Nature à tous les personnages-joueurs."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3291,
+				"title": "Phase 2 : Soyez maudits, mortels !",
+				"body_text": "Quand Onyxia est tuée, Nefarian prend son envol et remplit toute la salle de magma à l’exception de trois plateformes sur chacune desquelles il invoque un prototype chromatique.",
+				"sections": [
+					{
+						"id": 3299,
+						"title": "Prototype chromatique",
+						"body_text": "Un prototype chromatique apparaît sur chaque plateforme. Ils restent immobiles et lancent une Nova explosive.",
+						"sections": [
+							{
+								"id": 3300,
+								"title": "Nova explosive",
+								"body_text": "Les prototypes chromatiques lancent des Novas explosives qui infligent 0 points de dégâts de Feu toutes les 2 s à tous les ennemis."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33185?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33185
+						}
+					},
+					{
+						"id": 3301,
+						"title": "Barrage d'Ombreflamme",
+						"body_text": "Tout en volant, Nefarian exhale un barrage d’Ombreflamme vers des personnages-joueurs au hasard et leur inflige 0 points de dégâts d’Ombreflamme."
+					},
+					{
+						"id": 3302,
+						"title": "Braises explosives",
+						"body_text": "En vol, Nefarian cible de temps en temps des personnages-joueurs aléatoires avec des Braises explosives, les recouvrant de résidus explosifs qui infligent 0 points de dégâts de Feu toutes les 2 s.\r\n\r\nLes résidus explosent au bout de 8 s et infligent 4023 points de dégâts de Feu aux personnages-joueurs dans un rayon de 10 mètres."
+					}
+				]
+			},
+			{
+				"id": 3292,
+				"title": "Phase 3 : Vous ne daignez pas mourir !",
+				"body_text": "Quand les personnages-joueurs ont tué tous les prototypes, la lave se retire et Nefarian atterrit pour terminer le combat.",
+				"sections": [
+					{
+						"id": 3303,
+						"title": "Souffle d'Ombreflamme",
+						"body_text": "Le souffle draconique de Nefarian inflige 0 points de dégâts d’Ombreflamme aux ennemis dans un cône long de 60 mètres et large de 60 degrés, et recharge complètement en énergie tous les guerriers des ossements animés se trouvant dans le cône du souffle."
+					},
+					{
+						"id": 3304,
+						"title": "Fouette-queue",
+						"body_text": "Nefarian fouette l’air de sa queue, frappant tous les ennemis qui se trouvent dans un cône de 60 degrés derrière lui. Cela leur inflige 0 points de dégâts physiques et les étourdit pendant 2 s."
+					},
+					{
+						"id": 3305,
+						"title": "Etincelle d'Ombrase",
+						"body_text": "Nefarian crée un brasier ténébreux non loin de lui. Cette Ombrase gagne rapidement du terrain et inflige 0 points de dégâts d’Ombreflamme à tous les ennemis à moins de 4 mètres. Elle réanime aussi tout guerrier des ossements animés qu’elle touche."
+					},
+					{
+						"id": 3306,
+						"title": "Guerriers des ossements animés",
+						"body_text": "Les guerriers des ossements animés peuvent être réanimés en phase 3. Ces squelettes ont une barre d’énergie qui se vide au fur et à mesure. Ils s’évanouissent s’ils tombent à cours d’énergie, mais la restaurent s’ils sont touchés par un Souffle d'ombreflamme ou une Ombrase de Nefarian.",
+						"sections": [
+							{
+								"id": 3307,
+								"title": "Coups surpuissants",
+								"body_text": "Les guerriers des ossements animés sont de plus en plus puissants au fil du temps. Leurs dégâts sont augmentés de 100% et leur vitesse d’attaque de 10%. Cet effet est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 31092
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/174?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 174,
+		"name": "Nefarian's End",
+		"description": "Deathwing's son, Nefarian, gained infamy for his horrifying efforts to create chromatic dragons from the essences of Azeroth's various dragonflights. After his death in Blackwing Lair, he was reanimated and charged by Deathwing to continue his insidious endeavors.",
+		"creatures": [
+			{
+				"id": 600,
+				"name": "Nefarian",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32716
+				}
+			},
+			{
+				"id": 599,
+				"name": "Onyxia",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32569?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 32569
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, the Lightning's Arc",
+					"id": 65024
+				}
+			},
+			{
+				"id": 10199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadow of Dread",
+					"id": 59457
+				}
+			},
+			{
+				"id": 10200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rage of Ages",
+					"id": 65025
+				}
+			},
+			{
+				"id": 10201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65057?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Nightmare",
+					"id": 65057
+				}
+			},
+			{
+				"id": 10202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Vanquisher",
+					"id": 63682
+				}
+			},
+			{
+				"id": 10203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prestor's Talisman of Machination",
+					"id": 65026
+				}
+			},
+			{
+				"id": 10204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Conqueror",
+					"id": 63683
+				}
+			},
+			{
+				"id": 10205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, Fist of the Dragon King",
+					"id": 59459
+				}
+			},
+			{
+				"id": 10206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Apocalypse",
+					"id": 65027
+				}
+			},
+			{
+				"id": 10207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Protector",
+					"id": 63684
+				}
+			},
+			{
+				"id": 10208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Protector",
+					"id": 65000
+				}
+			},
+			{
+				"id": 10209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Conqueror",
+					"id": 65001
+				}
+			},
+			{
+				"id": 10210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59337?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Nefarius",
+					"id": 59337
+				}
+			},
+			{
+				"id": 10211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Vanquisher",
+					"id": 65002
+				}
+			},
+			{
+				"id": 10212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reclaimed Ashkandi, Greatsword of the Brotherhood",
+					"id": 65003
+				}
+			},
+			{
+				"id": 10213,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Prestor's Talisman of Machination",
+					"id": 59441
+				}
+			},
+			{
+				"id": 10214,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rage of Ages",
+					"id": 59442
+				}
+			},
+			{
+				"id": 10215,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65074?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of the Scarred Lady",
+					"id": 65074
+				}
+			},
+			{
+				"id": 10216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crul'korak, the Lightning's Arc",
+					"id": 59443
+				}
+			},
+			{
+				"id": 10217,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Nefarius",
+					"id": 65043
+				}
+			},
+			{
+				"id": 10218,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, Dominion's Shield",
+					"id": 59444
+				}
+			},
+			{
+				"id": 10219,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59222?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of the Scarred Lady",
+					"id": 59222
+				}
+			},
+			{
+				"id": 10220,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59321?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Nightmare",
+					"id": 59321
+				}
+			},
+			{
+				"id": 10221,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Andoros, Fist of the Dragon King",
+					"id": 65017
+				}
+			},
+			{
+				"id": 10222,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Blackhand",
+					"id": 59450
+				}
+			},
+			{
+				"id": 10223,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadow of Dread",
+					"id": 65018
+				}
+			},
+			{
+				"id": 10224,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadowblaze Robes",
+					"id": 65019
+				}
+			},
+			{
+				"id": 10225,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of the Apocalypse",
+					"id": 59356
+				}
+			},
+			{
+				"id": 10226,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadowblaze Robes",
+					"id": 59454
+				}
+			},
+			{
+				"id": 10227,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Blackhand",
+					"id": 65022
+				}
+			},
+			{
+				"id": 10228,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reclaimed Ashkandi, Greatsword of the Brotherhood",
+					"id": 63679
+				}
+			},
+			{
+				"id": 10229,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Akmin-Kurai, Dominion's Shield",
+					"id": 65023
+				}
+			},
+			{
+				"id": 32120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion: Power Torrent",
+					"id": 138802
+				}
+			},
+			{
+				"id": 35270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadowy Pile of Bones",
+					"id": 152968
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3276,
+				"title": "Electrocute",
+				"body_text": "Throughout the battle, Nefarian electrocutes the entire raid every time he loses 10% of his health. Electrocute generates a massive crackle of lightning that inflicts 0 Nature damage on all players."
+			},
+			{
+				"id": 3277,
+				"title": "Stage One: Rise, Sister!",
+				"body_text": "Nefarian reveals the undead form of his sister, Onyxia, and the two dragons attack the raid.",
+				"sections": [
+					{
+						"id": 3278,
+						"title": "Children of Deathwing",
+						"body_text": "Nefarian and Onyxia attack 100% faster when they are within 50 yards of each other."
+					},
+					{
+						"id": 3279,
+						"title": "Nefarian",
+						"sections": [
+							{
+								"id": 3280,
+								"title": "Hail of Bones",
+								"body_text": "Before Nefarian lands at the beginning of Stage One, he summons some Animated Bone Warriors. Each summoning inflicts 0 Shadow damage to nearby players within 0 yards."
+							},
+							{
+								"id": 3281,
+								"title": "Shadowflame Breath",
+								"body_text": "Nefarian's dragon breath inflicts 0 Shadowflame damage to players within a 60 yard long 60 degree cone, and fully recharges the energy of any Animated Bone Warriors in the breath's area."
+							},
+							{
+								"id": 3282,
+								"title": "Tail Lash",
+								"body_text": "Nefarian sweeps his tail at any enemies in a 60 degree cone facing behind him, inflicting 0 Physical damage and stunning them for 2 sec."
+							},
+							{
+								"id": 3289,
+								"title": "Animated Bone Warriors",
+								"body_text": "Early in stage one and before he lands, Nefarian summons Animated Bone Warriors. The skeletons possess an energy bar that depletes over time. They collapse if they run out of energy, but restore energy if struck by Shadowflame Breath or Shadowblaze.",
+								"sections": [
+									{
+										"id": 3290,
+										"title": "Empowering Strikes",
+										"body_text": "The Animated Bone Warriors grow more powerful over time, increasing their damage dealt by 100% and their movement speed by 10%. This effect stacks."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 31092
+								}
+							},
+							{
+								"id": 3295,
+								"title": "Dominion",
+								"body_text": "Nefarian periodically dominates the mind of random players, seizing control of their bodies for 20 sec. Dominated players walk towards a portal that appears. If a Dominated player reach the portal, it kills them.\r\n\r\nDominion grants players access to three special abilities.",
+								"sections": [
+									{
+										"id": 3296,
+										"title": "Siphon Power",
+										"body_text": "Dominated players absorb a little of the immense power Nefarian is using to control them to gain the Stolen Power effect.",
+										"sections": [
+											{
+												"id": 3297,
+												"title": "Stolen Power",
+												"body_text": "Dominated players strike back against Nefarian with vengeance and anger, increasing their damage and healing by 3% for 15 sec. This effect stacks."
+											}
+										]
+									},
+									{
+										"id": 3298,
+										"title": "Free Your Mind",
+										"body_text": "Dominated players focus their will to break Nefarian's Dominion over them, which also increases their movement speed by 120% for 10 sec."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3283,
+						"title": "Onyxia",
+						"sections": [
+							{
+								"id": 3284,
+								"title": "Electrical Energy",
+								"body_text": "Onyxia gains energy over time and more energy when Nefarian casts Electrocute. If Onyxia reaches full energy, she explodes in an Electrical Overload, killing all players."
+							},
+							{
+								"id": 3285,
+								"title": "Lightning Discharge",
+								"body_text": "Onyxia discharges electricity from the orbs along her sides, inflicting 0 Nature damage to targets within 60 yards."
+							},
+							{
+								"id": 3286,
+								"title": "Shadowflame Breath",
+								"body_text": "Onyxia's dragon breath inflicts 0 Shadowflame damage to players within a 60 yard long 60 degree cone, and fully recharges the energy of any Animated Bone Warriors in the breath's area."
+							},
+							{
+								"id": 3287,
+								"title": "Tail Lash",
+								"body_text": "Onyxia sweeps her tail at any enemies in a 60 degree cone facing behind her, inflicting 0 Physical damage and stunning them for 2 sec."
+							},
+							{
+								"id": 3288,
+								"title": "Electrical Overload",
+								"body_text": "If Onyxia reaches full energy, she releases a massive Electrical Overload and causes 0 Nature damage to all players."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3291,
+				"title": "Stage Two: Curse You, Mortals!",
+				"body_text": "When the players kill Onyxia, Nefarian takes to the air and fills the room with magma except for three platforms. Nefarian then summons a Chromatic Prototype upon each of the platforms.",
+				"sections": [
+					{
+						"id": 3299,
+						"title": "Chromatic Prototype",
+						"body_text": "A Chromatic Prototype appears on each platform. They stand in place and cast Blast Nova.",
+						"sections": [
+							{
+								"id": 3300,
+								"title": "Blast Nova",
+								"body_text": "Chromatic Prototypes cast Blast Nova, which inflicts 0 Fire damage every 2 sec. to all enemies."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33185?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 33185
+						}
+					},
+					{
+						"id": 3301,
+						"title": "Shadowflame Barrage",
+						"body_text": "While flying, Nefarian breathes a Shadowflame Barrage at random players, inflicting 0 Shadowflame damage."
+					},
+					{
+						"id": 3302,
+						"title": "Explosive Cinders",
+						"body_text": "While flying, Nefarian occasionally targets random players with Explosive Cinders, coating them in explosive residue that inflicts 0 Fire damage every 2 seconds.\r\n\r\nThe residue detonates after 8 sec., inflicting 4,023 Fire damage to players within 10 yards."
+					}
+				]
+			},
+			{
+				"id": 3292,
+				"title": "Stage Three: You Simply Will Not Die!",
+				"body_text": "After the players kill all the Chromatic Prototypes, the lava subsides, and Nefarian lands to finish the battle.",
+				"sections": [
+					{
+						"id": 3303,
+						"title": "Shadowflame Breath",
+						"body_text": "Nefarian's dragon breath inflicts 0 Shadowflame damage to players within a 60 yard long 60 degree cone, and fully recharges the energy of any Animated Bone Warriors in the breath's area."
+					},
+					{
+						"id": 3304,
+						"title": "Tail Lash",
+						"body_text": "Nefarian sweeps his tail at any enemies in a 60 degree cone facing behind him, inflicting 0 Physical damage and stunning them for 2 sec."
+					},
+					{
+						"id": 3305,
+						"title": "Shadowblaze Spark",
+						"body_text": "Nefarian creates a shadowy blaze at a nearby location that spreads quickly, inflicting 0 Shadowflame damage to all enemies within 4 yards and reanimating any Animated Bone Warriors."
+					},
+					{
+						"id": 3306,
+						"title": "Animated Bone Warriors",
+						"body_text": "Animated Bone Warriors can be reanimated in Stage Three. The skeletons possess an energy bar that depletes over time. They collapse if they run out of energy, but restore energy if struck by Shadowflame Breath or Shadowblaze.",
+						"sections": [
+							{
+								"id": 3307,
+								"title": "Empowering Strikes",
+								"body_text": "The Animated Bone Warriors grow more powerful over time, increasing their damage dealt by 100% and their movement speed by 10%. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31092?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 31092
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

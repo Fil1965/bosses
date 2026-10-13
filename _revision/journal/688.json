@@ -1,0 +1,684 @@
+{
+	"id": 688,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/688?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 688,
+		"name": "Thalnos",
+		"description": "Thalnos se labró una reputación en la Cruzada Escarlata gracias a los brutales métodos de tortura que utilizaba para \"purificar\" a los nuevos reclutas. Al final, este mago sádico acabó por contraer la peste de los no-muertos y se alzó como un temible ser esquelético. Ahora, el vengativo Thalnos vaga por el cementerio del monasterio y ordena a apariciones y criaturas zombificadas que ataquen a todo aquel que ponga un pie en su dominio profano.",
+		"creatures": [
+			{
+				"id": 1312,
+				"name": "Thalnos, el Desgarrador de almas",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/27705?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 27705
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cruzado caído",
+					"id": 144184
+				}
+			},
+			{
+				"id": 33501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de la puerta oculta",
+					"id": 144174
+				}
+			},
+			{
+				"id": 33502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran capa del Desgarrador de almas",
+					"id": 144183
+				}
+			},
+			{
+				"id": 13911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran capa del Desgarrador de almas",
+					"id": 88288
+				}
+			},
+			{
+				"id": 13912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de mago sangriento olvidado",
+					"id": 88284
+				}
+			},
+			{
+				"id": 13913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de la puerta oculta",
+					"id": 88285
+				}
+			},
+			{
+				"id": 13914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del mago carmesí",
+					"id": 88286
+				}
+			},
+			{
+				"id": 13915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cruzado caído",
+					"id": 88287
+				}
+			},
+			{
+				"id": 33348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del mago carmesí",
+					"id": 144002
+				}
+			},
+			{
+				"id": 33349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de mago sangriento olvidado",
+					"id": 144001
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5862,
+				"title": "Resucitar cruzado caído",
+				"body_text": "Thalnos reanima a los soldados caídos de la Cruzada Argenta e invoca un cruzado caído cada 1 s durante 5 s.",
+				"sections": [
+					{
+						"id": 5863,
+						"title": "Cruzado caído",
+						"body_text": "Los cuerpos de los cruzados caídos permanecen después de ser derrotados.",
+						"sections": [
+							{
+								"id": 5864,
+								"title": "Putrefacción mental",
+								"body_text": "Los ataques cuerpo a cuerpo de un cruzado caído pueden provocar Putrefacción mental a su objetivo actual. Putrefacción mental inflige 0 p. de daño de las Sombras cada 2 s durante 6 s. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/14707?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 14707
+						}
+					}
+				]
+			},
+			{
+				"id": 5865,
+				"title": "Vendaval espiritual",
+				"body_text": "Thalnos, el Desgarrador de almas, lanza un espíritu hacia la ubicación de su objetivo actual. Cuando el espíritu alcanza a su objetivo, se forma un Vendaval espiritual. El Vendaval inflige 0 p. de daño de las Sombras al instante a los jugadores en un radio de 2 m y luego inflige 555 p. de daño de las Sombras cada 1 s a los enemigos que se encuentren en el área de efecto."
+			},
+			{
+				"id": 5866,
+				"title": "Expulsar alma",
+				"body_text": "Thalnos, el Desgarrador de almas, desgarra el alma de un jugador aleatorio, lo que inflige 0 p. de daño de las Sombras cada 3 s durante 6 s.\r\n\r\nCada vez que Expulsar alma inflige daño, crea un Alma expulsada del objetivo. Las Almas expulsadas atacan al amigo más cercano del objetivo.",
+				"sections": [
+					{
+						"id": 5867,
+						"title": "Alma expulsada",
+						"body_text": "Los ataques del alma expulsada infligen 0 p. de daño de las Sombras a los enemigos en un radio de 6 m de su objetivo.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21481?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 21481
+						}
+					}
+				]
+			},
+			{
+				"id": 5868,
+				"title": "Invocar espíritu potenciador",
+				"body_text": "Thalnos crea un espíritu potenciador cerca.",
+				"sections": [
+					{
+						"id": 5869,
+						"title": "Espíritu potenciador",
+						"body_text": "Los espíritus potenciadores intentan introducirse en el cuerpo del cruzado caído más cercano para crear un zombi potenciado.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11649?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 11649
+						}
+					},
+					{
+						"id": 5870,
+						"title": "Zombi potenciado",
+						"body_text": "Los zombis potenciados son no-muertos poderosos y difíciles de destruir.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36329?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36329
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monasterio Escarlata",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/688?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 688,
+		"name": "Thalnos le Déchiqueteur d’âmes",
+		"description": "Thalnos s'est taillé une réputation au sein de la Croisade écarlate pour les méthodes d'interrogation brutales qu'il utilisait pour « purifier » les nouvelles recrues. Mage sadique, il a fini par contracter la peste morte-vivante et s'est relevé sous la forme d'un terrifiant squelette. Il hante désormais le cimetière du monastère, assoiffé de vengeance, ordonnant à ses apparitions et zombies d'attaquer quiconque pénètre en son domaine impie.",
+		"creatures": [
+			{
+				"id": 1312,
+				"name": "Thalnos le Déchiqueteur d’âmes",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/27705?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 27705
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du croisé déchu",
+					"id": 144184
+				}
+			},
+			{
+				"id": 33501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de la porte cachée",
+					"id": 144174
+				}
+			},
+			{
+				"id": 33502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande cape d'étripeur d'âme",
+					"id": 144183
+				}
+			},
+			{
+				"id": 13911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande cape d'étripeur d'âme",
+					"id": 88288
+				}
+			},
+			{
+				"id": 13912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de mage de sang oublié",
+					"id": 88284
+				}
+			},
+			{
+				"id": 13913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de la porte cachée",
+					"id": 88285
+				}
+			},
+			{
+				"id": 13914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du magus cramoisi",
+					"id": 88286
+				}
+			},
+			{
+				"id": 13915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du croisé déchu",
+					"id": 88287
+				}
+			},
+			{
+				"id": 33348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du magus cramoisi",
+					"id": 144002
+				}
+			},
+			{
+				"id": 33349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de mage de sang oublié",
+					"id": 144001
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5862,
+				"title": "Résurrection de croisé déchu",
+				"body_text": "Thalnos ressuscite les soldats morts de la Croisade d’argent, invoquant un croisé déchu toutes les 1 s pendant 5 s.",
+				"sections": [
+					{
+						"id": 5863,
+						"title": "Croisé déchu",
+						"body_text": "Quand ils sont vaincus, les corps des croisés déchus restent sur le terrain.",
+						"sections": [
+							{
+								"id": 5864,
+								"title": "Dégénérescence mentale",
+								"body_text": "Les attaques de mêlée d’un croisé déchu peuvent infliger Dégénérescence mentale à sa cible actuelle. Cet effet inflige 0 points de dégâts d’Ombre toutes les 2 s pendant 6 s et il est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/14707?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 14707
+						}
+					}
+				]
+			},
+			{
+				"id": 5865,
+				"title": "Trombe d’esprit",
+				"body_text": "Thalnos le Déchiqueteur d’âmes envoie un esprit à l’emplacement de sa cible actuelle. Quand l’esprit atteint la cible, une trombe d’esprit se forme. Cette dernière inflige immédiatement 0 points de dégâts d’Ombre à tous les personnages-joueurs situés à moins de 2 mètres, suivis de 555 points de dégâts d’Ombre toutes les 1 s à tous les personnages-joueurs restant dans la zone d’effet."
+			},
+			{
+				"id": 5866,
+				"title": "Expulser l’âme",
+				"body_text": "Thalnos le Déchiqueteur d’âmes fauche l’âme d’un personnage-joueur au hasard, lui infligeant 0 points de dégâts d’Ombre toutes les 3 s pendant 6 s.\r\n\r\nChaque fois qu’Expulser l’âme inflige des dégâts, elle donne naissance à une âme expulsée. Cette âme s’attaque à l’allié le plus proche du personnage-joueur affecté.",
+				"sections": [
+					{
+						"id": 5867,
+						"title": "Ame expulsée",
+						"body_text": "Les attaques d’une âme expulsée infligent 0 points de dégâts d’Ombre à tous les ennemis situés à moins de 6 mètres de sa cible.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21481?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 21481
+						}
+					}
+				]
+			},
+			{
+				"id": 5868,
+				"title": "Invocation d’un esprit surpuissant",
+				"body_text": "Thalnos invoque un esprit surpuissant près de lui.",
+				"sections": [
+					{
+						"id": 5869,
+						"title": "Esprit surpuissant",
+						"body_text": "Des esprits surpuissants tentent de prendre possession du cadavre de croisé déchu le plus proche pour donner naissance à un zombie investi.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11649?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 11649
+						}
+					},
+					{
+						"id": 5870,
+						"title": "Zombie investi",
+						"body_text": "Les zombies investis sont des Morts-vivants puissants difficiles à terrasser.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36329?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36329
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monastère Écarlate",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/688?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 688,
+		"name": "Thalnos the Soulrender",
+		"description": "Thalnos earned repute in the Scarlet Crusade for the brutal torture methods he used to \"purify\" new recruits. Ultimately, the sadistic mage contracted the plague of undeath and arose as a fearsome skeletal being. The vengeful Thalnos now prowls the monastery's graveyard, commanding apparitions and zombified creatures to attack anyone who trespasses on his unholy domain.",
+		"creatures": [
+			{
+				"id": 1312,
+				"name": "Thalnos the Soulrender",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/27705?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 27705
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Fallen Crusader",
+					"id": 144184
+				}
+			},
+			{
+				"id": 33501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144174?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of the Hidden Door",
+					"id": 144174
+				}
+			},
+			{
+				"id": 33502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soulrender Greatcloak",
+					"id": 144183
+				}
+			},
+			{
+				"id": 13911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88288?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soulrender Greatcloak",
+					"id": 88288
+				}
+			},
+			{
+				"id": 13912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88284?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgotten Bloodmage Mantle",
+					"id": 88284
+				}
+			},
+			{
+				"id": 13913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88285?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of the Hidden Door",
+					"id": 88285
+				}
+			},
+			{
+				"id": 13914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88286?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Crimson Magus",
+					"id": 88286
+				}
+			},
+			{
+				"id": 13915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88287?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Fallen Crusader",
+					"id": 88287
+				}
+			},
+			{
+				"id": 33348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Crimson Magus",
+					"id": 144002
+				}
+			},
+			{
+				"id": 33349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgotten Bloodmage Mantle",
+					"id": 144001
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5862,
+				"title": "Raise Fallen Crusader",
+				"body_text": "Thalnos raises the fallen soldiers of the Argent Crusade, summoning a Fallen Crusader every 1 sec for 5 sec.",
+				"sections": [
+					{
+						"id": 5863,
+						"title": "Fallen Crusader",
+						"body_text": "The bodies of Fallen Crusaders remain after being defeated.",
+						"sections": [
+							{
+								"id": 5864,
+								"title": "Mind Rot",
+								"body_text": "The melee attacks of a Fallen Crusader can inflict Mind Rot on their current target. The Mind Rot inflicts 0 Shadow damage every 2 sec for 6 sec. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/14707?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 14707
+						}
+					}
+				]
+			},
+			{
+				"id": 5865,
+				"title": "Spirit Gale",
+				"body_text": "Thalnos the Soulrender launches a spirit at the location of his current target. When the spirit reaches its target, a Spirit Gale forms. The Gale immediately inflicts 0 Shadow damage to players within 2 yards, then inflicts 555 Shadow damage every 1 sec. to enemies standing inside the effect."
+			},
+			{
+				"id": 5866,
+				"title": "Evict Soul",
+				"body_text": "Thalnos the Soulrender rips the soul from a random player, inflicting 0 Shadow damage every 3 sec for 6 sec.\r\n\r\nEvery time Evict Soul inflicts damage it creates an Evicted Soul of the target.  Evicted Souls attack the closest friend of their target.",
+				"sections": [
+					{
+						"id": 5867,
+						"title": "Evicted Soul",
+						"body_text": "The Evicted Soul's attacks inflict 0 Shadow damage to enemies within 6 yards of his target.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21481?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 21481
+						}
+					}
+				]
+			},
+			{
+				"id": 5868,
+				"title": "Summon Empowering Spirit",
+				"body_text": "Thalnos creates an Empowering Spirit near him.",
+				"sections": [
+					{
+						"id": 5869,
+						"title": "Empowering Spirit",
+						"body_text": "Empowering Spirits attempt to inhabit the body of the closest Fallen Crusader and create an Empowered Zombie.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11649?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 11649
+						}
+					},
+					{
+						"id": 5870,
+						"title": "Empowered Zombie",
+						"body_text": "Empowered Zombies are powerful and not easily destroyed Undead.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36329?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36329
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Scarlet Monastery",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

@@ -1,0 +1,2172 @@
+{
+	"id": 155,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/155?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 155,
+		"name": "Al'Akir",
+		"description": "Dotado de gran inteligencia y astucia, Al'Akir el Señor del Viento fue antaño el mejor estratega de los terroríficos ejércitos de los dioses antiguos. Al comienzo del Cataclismo, se alió con Alamuerte usando sus poderes casi divinos en contra de muchas de las antiguas némesis tol'vir de los elementales de aire.",
+		"creatures": [
+			{
+				"id": 558,
+				"name": "Al'akir",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35248?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35248
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9898,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del conquistador desolado",
+					"id": 65088
+				}
+			},
+			{
+				"id": 9899,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas del vencedor desolado",
+					"id": 65089
+				}
+			},
+			{
+				"id": 9900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del draco del Viento del Sur",
+					"id": 63041
+				}
+			},
+			{
+				"id": 9901,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor desolado",
+					"id": 63682
+				}
+			},
+			{
+				"id": 9902,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de mistral",
+					"id": 69827
+				}
+			},
+			{
+				"id": 9903,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador desolado",
+					"id": 63683
+				}
+			},
+			{
+				"id": 9904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de escarcha permanente",
+					"id": 69828
+				}
+			},
+			{
+				"id": 9905,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector desolado",
+					"id": 63684
+				}
+			},
+			{
+				"id": 9906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de Ráfaga de nubes",
+					"id": 69829
+				}
+			},
+			{
+				"id": 9907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto planetario",
+					"id": 69830
+				}
+			},
+			{
+				"id": 9908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de mistral",
+					"id": 69831
+				}
+			},
+			{
+				"id": 9909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de escarcha permanente",
+					"id": 69833
+				}
+			},
+			{
+				"id": 9910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa Ráfaga de nubes",
+					"id": 69834
+				}
+			},
+			{
+				"id": 9911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de planetario",
+					"id": 69835
+				}
+			},
+			{
+				"id": 9912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Ráfaga de nubes",
+					"id": 63499
+				}
+			},
+			{
+				"id": 9913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de zancacielos",
+					"id": 63500
+				}
+			},
+			{
+				"id": 9914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas del muro del trueno",
+					"id": 63501
+				}
+			},
+			{
+				"id": 9915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cazaestrellas",
+					"id": 63502
+				}
+			},
+			{
+				"id": 9916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de acechador de viento",
+					"id": 63503
+				}
+			},
+			{
+				"id": 9917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de vigía de tempestad",
+					"id": 63504
+				}
+			},
+			{
+				"id": 9918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pozo de relámpagos",
+					"id": 63505
+				}
+			},
+			{
+				"id": 9919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de despertador de vendavales",
+					"id": 63506
+				}
+			},
+			{
+				"id": 9920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de aliento de alma",
+					"id": 63507
+				}
+			},
+			{
+				"id": 9921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68127
+				}
+			},
+			{
+				"id": 9922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68128
+				}
+			},
+			{
+				"id": 9923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68129
+				}
+			},
+			{
+				"id": 9924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68130
+				}
+			},
+			{
+				"id": 9925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cazaestrellas",
+					"id": 65378
+				}
+			},
+			{
+				"id": 9926,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68131
+				}
+			},
+			{
+				"id": 9927,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de zancacielos",
+					"id": 65379
+				}
+			},
+			{
+				"id": 9928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Levantatormentas, Tramo de la Tempestad",
+					"id": 68132
+				}
+			},
+			{
+				"id": 9929,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas del muro del trueno",
+					"id": 65380
+				}
+			},
+			{
+				"id": 9930,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de acechador de viento",
+					"id": 65381
+				}
+			},
+			{
+				"id": 9931,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Ráfaga de nubes",
+					"id": 65382
+				}
+			},
+			{
+				"id": 9932,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de aliento de alma",
+					"id": 65383
+				}
+			},
+			{
+				"id": 9933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de despertador de vendavales",
+					"id": 65384
+				}
+			},
+			{
+				"id": 9934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del protector desolado",
+					"id": 65000
+				}
+			},
+			{
+				"id": 9935,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de vigía de tempestad",
+					"id": 65385
+				}
+			},
+			{
+				"id": 9936,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del conquistador desolado",
+					"id": 65001
+				}
+			},
+			{
+				"id": 9937,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pozo de relámpagos",
+					"id": 65386
+				}
+			},
+			{
+				"id": 9938,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del vencedor desolado",
+					"id": 65002
+				}
+			},
+			{
+				"id": 9939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69878?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de escarcha permanente",
+					"id": 69878
+				}
+			},
+			{
+				"id": 9940,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/66998?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esencia del desolado",
+					"id": 66998
+				}
+			},
+			{
+				"id": 9941,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa Ráfaga de nubes",
+					"id": 69879
+				}
+			},
+			{
+				"id": 9942,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de mistral",
+					"id": 69880
+				}
+			},
+			{
+				"id": 9943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de planetario",
+					"id": 69881
+				}
+			},
+			{
+				"id": 9944,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del vencedor desolado",
+					"id": 64314
+				}
+			},
+			{
+				"id": 9945,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69882?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto planetario",
+					"id": 69882
+				}
+			},
+			{
+				"id": 9946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del conquistador desolado",
+					"id": 64315
+				}
+			},
+			{
+				"id": 9947,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69883?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de escarcha permanente",
+					"id": 69883
+				}
+			},
+			{
+				"id": 9948,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del protector desolado",
+					"id": 64316
+				}
+			},
+			{
+				"id": 9949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69884?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de mistral",
+					"id": 69884
+				}
+			},
+			{
+				"id": 9950,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69885?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de Ráfaga de nubes",
+					"id": 69885
+				}
+			},
+			{
+				"id": 9951,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del protector desolado",
+					"id": 65087
+				}
+			},
+			{
+				"id": 32131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ilusión: Viento furioso",
+					"id": 138836
+				}
+			},
+			{
+				"id": 35269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Llamada de céfiro",
+					"id": 152973
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3021,
+				"title": "Fase 1: ¡Acepto vuestro desafío!",
+				"body_text": "Al'Akir lanza periódicamente Línea de borrasca, Ráfaga de viento, Tormenta de hielo y Golpe de relámpagos a jugadores aleatorios. Lanza Choque estático a cualquier objetivo a distancia cuerpo a cuerpo y Electrocutar a su objetivo principal si ese objetivo permanece fuera de la distancia cuerpo a cuerpo.",
+				"sections": [
+					{
+						"id": 3022,
+						"title": "Ráfaga de viento",
+						"body_text": "Al'Akir lanza una Ráfaga de viento a todos los jugadores, lo que inflige 0 p. de daño de Naturaleza y los repele."
+					},
+					{
+						"id": 3023,
+						"title": "Línea de borrasca",
+						"body_text": "Al'Akir invoca una línea de cauces de viento que se mueve en círculo alrededor de la plataforma. Las borrascas atrapan a los jugadores en un radio de 4 m e infligen 0 p. de daño de Naturaleza por segundo durante 5 s."
+					},
+					{
+						"id": 3024,
+						"title": "Tormenta de hielo",
+						"body_text": "Al'Akir lanza una tormenta de hielo en ubicaciones aleatorias alrededor de la plataforma. La tormenta de hielo se mueve lentamente, lo que deja una zona de hielo en el suelo. El hielo inflige 0 p. de daño de Escarcha cada 0,5 s y reduce un 50% la velocidad de movimiento a todos los enemigos que permanezcan en la zona de hielo."
+					},
+					{
+						"id": 3025,
+						"title": "Golpe de relámpagos",
+						"body_text": "Al'Akir lanza un Golpe de relámpagos a un jugador aleatorio, lo que inflige 0 p. de daño de Naturaleza a ese objetivo y 0 p. de daño de Naturaleza a todos los demás objetivos en un cono de 60 grados centrado en el objetivo original.\r\n\r\n"
+					},
+					{
+						"id": 3027,
+						"title": "Electrocutar",
+						"body_text": "Al'Akir canaliza una descarga de electricidad que inflige daño de Naturaleza creciente en el tiempo a su objetivo actual si no puede golpear a ese objetivo con su ataque cuerpo a cuerpo. Dejará de canalizar Electrocutar cuando el objetivo vuelva a una distancia cuerpo a cuerpo."
+					},
+					{
+						"id": 3447,
+						"title": "Choque estático",
+						"body_text": "Al'Akir electrocuta a todos los jugadores a una distancia cuerpo a cuerpo, lo que inflige 0 p. de daño de Naturaleza e interrumpe todos los hechizos lanzados durante 0,1 s."
+					}
+				]
+			},
+			{
+				"id": 3028,
+				"title": "Fase 2: ¡Vuestra persistencia aumenta mi ira!",
+				"body_text": "Cuando su salud está al 80%, Al'Akir ya no lanza Ráfagas de viento, pero invocará continuamente Lluvia ácida y hará que aparezcan tormentillas.",
+				"sections": [
+					{
+						"id": 3029,
+						"title": "Línea de borrasca",
+						"body_text": "Al'Akir invoca una línea de cauces de viento que se mueve en círculo alrededor de la plataforma. Las borrascas atrapan a los jugadores en un radio de 4 m e infligen 0 p. de daño de Naturaleza por segundo durante 5 s."
+					},
+					{
+						"id": 3031,
+						"title": "Electrocutar",
+						"body_text": "Al'Akir canaliza una descarga de electricidad que inflige daño de Naturaleza creciente en el tiempo a su objetivo actual si no puede golpear a ese objetivo con su ataque cuerpo a cuerpo. Dejará de canalizar Electrocutar cuando el objetivo vuelva a una distancia cuerpo a cuerpo."
+					},
+					{
+						"id": 3032,
+						"title": "Lluvia ácida",
+						"body_text": "Al'Akir inflige 0 p. de daño de Naturaleza por segundo a todos los enemigos. El daño infligido aumenta 0 p. cada 15 s."
+					},
+					{
+						"id": 3033,
+						"title": "Tormentilla",
+						"body_text": "Al'Akir invoca una tormentilla cada 20 s. Las tormentillas infligen 0 p. de daño de Naturaleza por segundo a todos los jugadores en un radio de 5 m. Cuando se eliminan las tormentillas, provocan un efecto rebote en Al'Akir, lo que aumenta su daño recibido.",
+						"sections": [
+							{
+								"id": 3034,
+								"title": "Rebote",
+								"body_text": "La muerte de una tormentilla provoca un efecto rebote hacia Al'Akir, lo que aumenta un 10% el daño que recibe. Este efecto se acumula y dura 30 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35043?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35043
+						}
+					}
+				]
+			},
+			{
+				"id": 3035,
+				"title": "Fase 3: ¡Basta!",
+				"body_text": "Cuando su salud está al 25%, Al'Akir destroza su plataforma, lo que sume a todos los jugadores en el aire, donde pueden volar. Ya no lanzará Líneas de borrasca pero volverá a lanzar Ráfaga de viento una vez más junto con Relámpago, Nube de relámpagos y Pararrayos.",
+				"sections": [
+					{
+						"id": 3037,
+						"title": "Ojo de la tormenta",
+						"body_text": "Todos los jugadores pueden volar a un 300% de la velocidad de movimiento normal."
+					},
+					{
+						"id": 3036,
+						"title": "Ráfaga de viento",
+						"body_text": "Al'Akir lanza una Ráfaga de viento a todos los jugadores, lo que inflige 0 p. de daño de Naturaleza y los repele."
+					},
+					{
+						"id": 3038,
+						"title": "Relámpago",
+						"body_text": "Al'Akir lanza continuamente Descargas de relámpagos a jugadores aleatorios, lo que inflige 0 p. de daño de Naturaleza."
+					},
+					{
+						"id": 3039,
+						"title": "Pararrayos",
+						"body_text": "Al'Akir electrifica a un jugador aleatorio y lo convierte en Pararrayos. Tras 5 s, el jugador emite relámpagos a los jugadores cercanos durante 5 s. Los relámpagos infligen 447 p. de daño de Naturaleza por segundo a todos los jugadores en un radio de 20 m en horizontal y 5 m en vertical."
+					},
+					{
+						"id": 3040,
+						"title": "Nube de relámpagos",
+						"body_text": "Al'Akir invoca nubes a la altura de un jugador aleatorio. La Nube de relámpagos inunda toda la zona a esa altura y, 5 s después, estos estallan en una tormenta eléctrica, lo que inflige 0 p. de daño de Naturaleza por segundo a todos los jugadores en la nube. La Nube de relámpagos dura 30 s."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/74?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Trono de los Cuatro Vientos",
+			"id": 74
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/155?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 155,
+		"name": "Al’Akir",
+		"description": "Doué d’une grande intelligence et très astucieux, Al’Akir le seigneur des Vents était autrefois le plus grand tacticien des épouvantables armées des Dieux très anciens. Après le cataclysme, il a suivi Aile de mort et a retourné ses pouvoirs quasi divins contre nombres de Tol'vir, l'ancienne némésis des élémentaires d'air.",
+		"creatures": [
+			{
+				"id": 558,
+				"name": "Al’akir",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35248?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35248
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9898,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du conquérant lugubre",
+					"id": 65088
+				}
+			},
+			{
+				"id": 9899,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du vainqueur lugubre",
+					"id": 65089
+				}
+			},
+			{
+				"id": 9900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de drake du vent du Sud",
+					"id": 63041
+				}
+			},
+			{
+				"id": 9901,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur lugubre",
+					"id": 63682
+				}
+			},
+			{
+				"id": 9902,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de mistral",
+					"id": 69827
+				}
+			},
+			{
+				"id": 9903,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant lugubre",
+					"id": 63683
+				}
+			},
+			{
+				"id": 9904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de pergélisol",
+					"id": 69828
+				}
+			},
+			{
+				"id": 9905,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur lugubre",
+					"id": 63684
+				}
+			},
+			{
+				"id": 9906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'explosion de nuage",
+					"id": 69829
+				}
+			},
+			{
+				"id": 9907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette planétaire",
+					"id": 69830
+				}
+			},
+			{
+				"id": 9908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de mistral",
+					"id": 69831
+				}
+			},
+			{
+				"id": 9909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de pergélisol",
+					"id": 69833
+				}
+			},
+			{
+				"id": 9910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'explosion de nuage",
+					"id": 69834
+				}
+			},
+			{
+				"id": 9911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé planétaire",
+					"id": 69835
+				}
+			},
+			{
+				"id": 9912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau d'explosion de nuage",
+					"id": 63499
+				}
+			},
+			{
+				"id": 9913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de marche-ciel",
+					"id": 63500
+				}
+			},
+			{
+				"id": 9914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de Mur-Tonnerre",
+					"id": 63501
+				}
+			},
+			{
+				"id": 9915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de chasseur d'étoiles",
+					"id": 63502
+				}
+			},
+			{
+				"id": 9916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de traqueur du vent",
+					"id": 63503
+				}
+			},
+			{
+				"id": 9917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de gardien de la Tempête",
+					"id": 63504
+				}
+			},
+			{
+				"id": 9918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du puits d'éclairs",
+					"id": 63505
+				}
+			},
+			{
+				"id": 9919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de lève-tempête",
+					"id": 63506
+				}
+			},
+			{
+				"id": 9920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de souffle de l'âme",
+					"id": 63507
+				}
+			},
+			{
+				"id": 9921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68127
+				}
+			},
+			{
+				"id": 9922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68128
+				}
+			},
+			{
+				"id": 9923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68129
+				}
+			},
+			{
+				"id": 9924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68130
+				}
+			},
+			{
+				"id": 9925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de chasseur d'étoiles",
+					"id": 65378
+				}
+			},
+			{
+				"id": 9926,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68131
+				}
+			},
+			{
+				"id": 9927,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de marche-ciel",
+					"id": 65379
+				}
+			},
+			{
+				"id": 9928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lève-tempête, les confins de la Tourmente",
+					"id": 68132
+				}
+			},
+			{
+				"id": 9929,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de Mur-Tonnerre",
+					"id": 65380
+				}
+			},
+			{
+				"id": 9930,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de traqueur du vent",
+					"id": 65381
+				}
+			},
+			{
+				"id": 9931,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau d'explosion de nuage",
+					"id": 65382
+				}
+			},
+			{
+				"id": 9932,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de souffle de l'âme",
+					"id": 65383
+				}
+			},
+			{
+				"id": 9933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de lève-tempête",
+					"id": 65384
+				}
+			},
+			{
+				"id": 9934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du protecteur lugubre",
+					"id": 65000
+				}
+			},
+			{
+				"id": 9935,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de gardien de la Tempête",
+					"id": 65385
+				}
+			},
+			{
+				"id": 9936,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du conquérant lugubre",
+					"id": 65001
+				}
+			},
+			{
+				"id": 9937,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du puits d'éclairs",
+					"id": 65386
+				}
+			},
+			{
+				"id": 9938,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du vainqueur lugubre",
+					"id": 65002
+				}
+			},
+			{
+				"id": 9939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69878?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de pergélisol",
+					"id": 69878
+				}
+			},
+			{
+				"id": 9940,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/66998?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Essence du lugubre",
+					"id": 66998
+				}
+			},
+			{
+				"id": 9941,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'explosion de nuage",
+					"id": 69879
+				}
+			},
+			{
+				"id": 9942,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de mistral",
+					"id": 69880
+				}
+			},
+			{
+				"id": 9943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé planétaire",
+					"id": 69881
+				}
+			},
+			{
+				"id": 9944,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du vainqueur lugubre",
+					"id": 64314
+				}
+			},
+			{
+				"id": 9945,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69882?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette planétaire",
+					"id": 69882
+				}
+			},
+			{
+				"id": 9946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du conquérant lugubre",
+					"id": 64315
+				}
+			},
+			{
+				"id": 9947,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69883?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de pergélisol",
+					"id": 69883
+				}
+			},
+			{
+				"id": 9948,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du protecteur lugubre",
+					"id": 64316
+				}
+			},
+			{
+				"id": 9949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69884?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de mistral",
+					"id": 69884
+				}
+			},
+			{
+				"id": 9950,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69885?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'explosion de nuage",
+					"id": 69885
+				}
+			},
+			{
+				"id": 9951,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du protecteur lugubre",
+					"id": 65087
+				}
+			},
+			{
+				"id": 32131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion : Furie-des-vents",
+					"id": 138836
+				}
+			},
+			{
+				"id": 35269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Appel du zéphyr",
+					"id": 152973
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3021,
+				"title": "Phase 1 : Je relève votre défi !",
+				"body_text": "Al’Akir incante périodiquement Ligne de grains, Jaillissement de vent, Tempête de glace et Foudre sur des personnages-joueurs au hasard. Il incante Horion statique sur n’importe quelle cible de mêlée et Électrocuter sur sa cible primaire, si celle-ci se place hors de portée de mêlée.",
+				"sections": [
+					{
+						"id": 3022,
+						"title": "Jaillissement de vent",
+						"body_text": "Al’Akir projette un jaillissement de vent sur tous les personnages-joueurs, ce qui leur inflige 0 points de dégâts de Nature et les fait tomber à la renverse."
+					},
+					{
+						"id": 3023,
+						"title": "Ligne de grains",
+						"body_text": "Al’Akir invoque une Ligne de grains qui décrit des cercles autour de la plateforme. Les grains frappent tout personnage-joueur qui s’en approche à moins de 4 mètres et infligent 0 points de dégâts de Nature par seconde pendant 5 s."
+					},
+					{
+						"id": 3024,
+						"title": "Tempête de glace",
+						"body_text": "Al’Akir lance une Tempête de glace à divers endroits sur sa plateforme. La Tempête de glace se déplace lentement, laissant derrière elle une plaque de glace. La glace inflige 0 points de dégâts de Givre toutes les 0,5 s à tous les ennemis se trouvant sur les plaques de glace en plus de réduire leur vitesse de déplacement de 50%."
+					},
+					{
+						"id": 3025,
+						"title": "Foudre",
+						"body_text": "Al'Akir lance Foudre sur un personnage-joueur aléatoire, lui infligeant 0 points de dégâts de Nature mais aussi 0 points de dégâts de Nature à tous les autres personnages-joueurs se trouvant dans un cône de 60 degrés devant la cible initiale.\r\n\r\n"
+					},
+					{
+						"id": 3027,
+						"title": "Électrocuter",
+						"body_text": "Al’Akir canalise un éclair d’électricité qui inflige des dégâts de Nature croissants sur la durée à sa cible actuelle s’il n’arrive pas à l'atteindre avec ses attaques de mêlée. Il arrête de canaliser Électrocuter lorsque sa cible retourne au corps à corps."
+					},
+					{
+						"id": 3447,
+						"title": "Horion statique",
+						"body_text": "Al’Akir électrocute tous les personnages-joueurs qui sont à portée d’attaque de mêlée, infligeant 0 points de dégâts de Nature et interrompant tout sort incanté pendant 0,1 s."
+					}
+				]
+			},
+			{
+				"id": 3028,
+				"title": "Phase 2 : Votre insistance commence à me fâcher !",
+				"body_text": "À 80% de points de vie, Al’Akir cesse d’incanter des jaillissements de vent, mais fait pleuvoir continuellement une Pluie acide et invoque des tourmentins.",
+				"sections": [
+					{
+						"id": 3029,
+						"title": "Ligne de grains",
+						"body_text": "Al’Akir invoque une Ligne de grains qui décrit des cercles autour de la plateforme. Les grains frappent tout personnage-joueur qui s’en approche à moins de 4 mètres et infligent 0 points de dégâts de Nature par seconde pendant 5 s."
+					},
+					{
+						"id": 3031,
+						"title": "Électrocuter",
+						"body_text": "Al’Akir canalise un éclair d’électricité qui inflige des dégâts de Nature croissants sur la durée à sa cible actuelle s’il n’arrive pas à l'atteindre avec ses attaques de mêlée. Il arrête de canaliser Électrocuter lorsque sa cible retourne au corps à corps."
+					},
+					{
+						"id": 3032,
+						"title": "Pluie acide",
+						"body_text": "Al’Akir inflige 0 points de dégâts de Nature par seconde à tous les ennemis. Les dégâts infligés augmentent de 0 toutes les 15 s."
+					},
+					{
+						"id": 3033,
+						"title": "Tourmentin",
+						"body_text": "Al’Akir invoque un tourmentin toutes les 20 secondes. Celui-ci inflige 0 points de dégâts de Nature toutes les secondes à tous les personnages-joueurs à moins de 5 mètres. Quand des tourmentins sont tués, ils créent une Réaction sur Al’Akir et augmentent les dégâts qu’il subit.\r\n\r\n",
+						"sections": [
+							{
+								"id": 3034,
+								"title": "Réaction",
+								"body_text": "La mort d’un tourmentin provoque une Réaction sur Al’Akir, augmentant les dégâts qu’il subit de 10%. Cet effet est cumulable et dure 30 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35043?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35043
+						}
+					}
+				]
+			},
+			{
+				"id": 3035,
+				"title": "Phase 3 : Assez !",
+				"body_text": "À 25% de points de vie, Al’Akir fait voler sa plateforme en éclats et projette tous les personnages-joueurs dans les airs en leur donnant la faculté de voler. Al’Akir n’incante plus Ligne de grains, mais il recommence à incanter Jaillissement de vent, ainsi qu’Éclair, Nuage d’éclairs et Bâtonnet d’éclair.",
+				"sections": [
+					{
+						"id": 3037,
+						"title": "Œil du cyclone",
+						"body_text": "Le raid entier peut voler à 300% de la vitesse de déplacement normale."
+					},
+					{
+						"id": 3036,
+						"title": "Jaillissement de vent",
+						"body_text": "Al’Akir projette un jaillissement de vent sur tous les personnages-joueurs, ce qui leur inflige 0 points de dégâts de Nature et les fait tomber à la renverse."
+					},
+					{
+						"id": 3038,
+						"title": "Foudre",
+						"body_text": "Al’Akir lance continuellement des Éclairs sur des personnages-joueurs aléatoires, leur infligeant 0 points de dégâts de Nature."
+					},
+					{
+						"id": 3039,
+						"title": "Bâtonnet d'éclair",
+						"body_text": "Al'Akir électrifie un personnage-joueur aléatoire et le transforme en Bâtonnet d’éclair. Au bout de 5 s, le personnage-joueur projette des décharges de foudre sur les alliés proches pendant 5 s. La foudre inflige 447 points de dégâts de Nature par seconde à tous les personnages-joueurs se trouvant à moins de 20 mètres horizontalement et 5 mètres verticalement."
+					},
+					{
+						"id": 3040,
+						"title": "Nuage d'éclairs",
+						"body_text": "Al’Akir invoque des nuages à l’altitude d’un personnage-joueur aléatoire. Le Nuage d’éclairs envahit toute la zone à cette altitude, et au bout de 5 s, de la foudre en surgit, infligeant 0 points de dégâts de Nature par seconde à tous les personnages-joueurs présents dans le nuage. Un Nuage d’éclairs dure 30 s."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/74?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Trône des quatre vents",
+			"id": 74
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/155?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 155,
+		"name": "Al'Akir",
+		"description": "Gifted with great intelligence and cunning, Al'Akir the Windlord once served as the foremost tactician in the Old Gods' horrific armies. In the wake of the Cataclysm, he has aligned with Deathwing and turned his godlike powers against many of the air elementals' ancient tol'vir nemeses.",
+		"creatures": [
+			{
+				"id": 558,
+				"name": "Al'akir",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35248?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 35248
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 9898,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Conqueror",
+					"id": 65088
+				}
+			},
+			{
+				"id": 9899,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Vanquisher",
+					"id": 65089
+				}
+			},
+			{
+				"id": 9900,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Drake of the South Wind",
+					"id": 63041
+				}
+			},
+			{
+				"id": 9901,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Vanquisher",
+					"id": 63682
+				}
+			},
+			{
+				"id": 9902,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69827?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mistral Pendant",
+					"id": 69827
+				}
+			},
+			{
+				"id": 9903,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Conqueror",
+					"id": 63683
+				}
+			},
+			{
+				"id": 9904,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69828?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Permafrost Choker",
+					"id": 69828
+				}
+			},
+			{
+				"id": 9905,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Forlorn Protector",
+					"id": 63684
+				}
+			},
+			{
+				"id": 9906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69829?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Necklace",
+					"id": 69829
+				}
+			},
+			{
+				"id": 9907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69830?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Planetary Amulet",
+					"id": 69830
+				}
+			},
+			{
+				"id": 9908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69831?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mistral Drape",
+					"id": 69831
+				}
+			},
+			{
+				"id": 9909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69833?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Permafrost Cape",
+					"id": 69833
+				}
+			},
+			{
+				"id": 9910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69834?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Cloak",
+					"id": 69834
+				}
+			},
+			{
+				"id": 9911,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69835?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Planetary Drape",
+					"id": 69835
+				}
+			},
+			{
+				"id": 9912,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Ring",
+					"id": 63499
+				}
+			},
+			{
+				"id": 9913,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sky Strider Greaves",
+					"id": 63500
+				}
+			},
+			{
+				"id": 9914,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thunder Wall Greaves",
+					"id": 63501
+				}
+			},
+			{
+				"id": 9915,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Star Chaser Legguards",
+					"id": 63502
+				}
+			},
+			{
+				"id": 9916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wind Stalker Leggings",
+					"id": 63503
+				}
+			},
+			{
+				"id": 9917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tempest Keeper Leggings",
+					"id": 63504
+				}
+			},
+			{
+				"id": 9918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Well Legguards",
+					"id": 63505
+				}
+			},
+			{
+				"id": 9919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gale Rouser Leggings",
+					"id": 63506
+				}
+			},
+			{
+				"id": 9920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soul Breath Leggings",
+					"id": 63507
+				}
+			},
+			{
+				"id": 9921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68127
+				}
+			},
+			{
+				"id": 9922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68128
+				}
+			},
+			{
+				"id": 9923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68129
+				}
+			},
+			{
+				"id": 9924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68130
+				}
+			},
+			{
+				"id": 9925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65378?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Star Chaser Legguards",
+					"id": 65378
+				}
+			},
+			{
+				"id": 9926,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68131
+				}
+			},
+			{
+				"id": 9927,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65379?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sky Strider Greaves",
+					"id": 65379
+				}
+			},
+			{
+				"id": 9928,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormwake, the Tempest's Reach",
+					"id": 68132
+				}
+			},
+			{
+				"id": 9929,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65380?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thunder Wall Greaves",
+					"id": 65380
+				}
+			},
+			{
+				"id": 9930,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65381?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wind Stalker Leggings",
+					"id": 65381
+				}
+			},
+			{
+				"id": 9931,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65382?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Ring",
+					"id": 65382
+				}
+			},
+			{
+				"id": 9932,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65383?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soul Breath Leggings",
+					"id": 65383
+				}
+			},
+			{
+				"id": 9933,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gale Rouser Leggings",
+					"id": 65384
+				}
+			},
+			{
+				"id": 9934,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65000?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Protector",
+					"id": 65000
+				}
+			},
+			{
+				"id": 9935,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65385?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tempest Keeper Leggings",
+					"id": 65385
+				}
+			},
+			{
+				"id": 9936,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65001?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Conqueror",
+					"id": 65001
+				}
+			},
+			{
+				"id": 9937,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightning Well Legguards",
+					"id": 65386
+				}
+			},
+			{
+				"id": 9938,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65002?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Forlorn Vanquisher",
+					"id": 65002
+				}
+			},
+			{
+				"id": 9939,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69878?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Permafrost Cape",
+					"id": 69878
+				}
+			},
+			{
+				"id": 9940,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/66998?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Essence of the Forlorn",
+					"id": 66998
+				}
+			},
+			{
+				"id": 9941,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69879?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Cloak",
+					"id": 69879
+				}
+			},
+			{
+				"id": 9942,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69880?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mistral Pendant",
+					"id": 69880
+				}
+			},
+			{
+				"id": 9943,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69881?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Planetary Drape",
+					"id": 69881
+				}
+			},
+			{
+				"id": 9944,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Vanquisher",
+					"id": 64314
+				}
+			},
+			{
+				"id": 9945,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69882?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Planetary Amulet",
+					"id": 69882
+				}
+			},
+			{
+				"id": 9946,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Conqueror",
+					"id": 64315
+				}
+			},
+			{
+				"id": 9947,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69883?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Permafrost Choker",
+					"id": 69883
+				}
+			},
+			{
+				"id": 9948,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Protector",
+					"id": 64316
+				}
+			},
+			{
+				"id": 9949,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69884?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mistral Drape",
+					"id": 69884
+				}
+			},
+			{
+				"id": 9950,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69885?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloudburst Necklace",
+					"id": 69885
+				}
+			},
+			{
+				"id": 9951,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Protector",
+					"id": 65087
+				}
+			},
+			{
+				"id": 32131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138836?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion: Windfury",
+					"id": 138836
+				}
+			},
+			{
+				"id": 35269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zephyr's Call",
+					"id": 152973
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3021,
+				"title": "Stage One: Your Challenge is Accepted!",
+				"body_text": "Al'Akir periodically casts Squall Line, Wind Burst, Ice Storm and Lightning Strike on random players. He casts Static Shock on any target in melee range and Electrocute on his primary target if that target leaves melee range.",
+				"sections": [
+					{
+						"id": 3022,
+						"title": "Wind Burst",
+						"body_text": "Al'Akir casts a Wind Burst on all players, inflicting 0 Nature damage and knocking them back."
+					},
+					{
+						"id": 3023,
+						"title": "Squall Line",
+						"body_text": "Al'Akir summons a line of wind funnels that move around the platform in a circle. The squalls catch any player that stands within 4 yards, and inflict 0 Nature damage per second for 5 sec."
+					},
+					{
+						"id": 3024,
+						"title": "Ice Storm",
+						"body_text": "Al'akir casts an Ice Storm at random locations around the platform. The Ice Storm slowly moves, leaving behind an ice patch on the ground. The ice inflicts 0 Frost damage every 0.5 seconds and reduces the movement speed by 50% for all enemies standing within the ice patch."
+					},
+					{
+						"id": 3025,
+						"title": "Lightning Strike",
+						"body_text": "Al'Akir casts a Lightning Strike at a random player, inflicting 0 Nature damage to that player, and also 0 Nature damage to all other players within a 60 degree cone centered on the original target.\r\n\r\n"
+					},
+					{
+						"id": 3027,
+						"title": "Electrocute",
+						"body_text": "Al'Akir channels a bolt of electricity to his current target if he is unable to reach that target with his melee attack, inflicting increasing Nature damage over time. He stops channeling Electrocute when his target returns to melee range."
+					},
+					{
+						"id": 3447,
+						"title": "Static Shock",
+						"body_text": "Al'Akir shocks all players within his melee range, inflicting 0 Nature damage and interrupting any spells cast for 0.1 sec."
+					}
+				]
+			},
+			{
+				"id": 3028,
+				"title": "Stage Two: Your Persistence Angers Me!",
+				"body_text": "At 80% health, Al'Akir no longer casts Wind Bursts but continually brings down Acid Rain and spawns Stormlings.",
+				"sections": [
+					{
+						"id": 3029,
+						"title": "Squall Line",
+						"body_text": "Al'Akir summons a line of wind funnels that move around the platform in a circle. The squalls catch any player that stands within 4 yards, and inflict 0 Nature damage per second for 5 sec."
+					},
+					{
+						"id": 3031,
+						"title": "Electrocute",
+						"body_text": "Al'Akir channels a bolt of electricity to his current target if he is unable to reach that target with his melee attack, inflicting increasing Nature damage over time. He stops channeling Electrocute when his target returns to melee range."
+					},
+					{
+						"id": 3032,
+						"title": "Acid Rain",
+						"body_text": "Al'Akir inflicts 0 Nature damage per second to all enemies. The damage dealt increases by 0 every 15 sec."
+					},
+					{
+						"id": 3033,
+						"title": "Stormling",
+						"body_text": "Al'Akir summons a Stormling every 20 seconds. Stormlings inflict 0 Nature damage every second to all players within 5 yards. When Stormlings are killed they cause a Feedback effect on Al'Akir, increasing his damage taken.",
+						"sections": [
+							{
+								"id": 3034,
+								"title": "Feedback",
+								"body_text": "A Stormling's death causes a feedback effect on Al'Akir, increasing the damage he receives by 10%. This effect stacks and lasts 30 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35043?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35043
+						}
+					}
+				]
+			},
+			{
+				"id": 3035,
+				"title": "Stage Three: Enough!",
+				"body_text": "At 25% health, Al'Akir shatters his platform, tossing all players into the air and granting them the ability to fly. Al'Akir no longer cast Squall Lines, but casts Wind Burst again, along with Lightning, Lightning Cloud and Lightning Rod.",
+				"sections": [
+					{
+						"id": 3037,
+						"title": "Eye of the Storm",
+						"body_text": "All players can fly at 300% normal movement speed."
+					},
+					{
+						"id": 3036,
+						"title": "Wind Burst",
+						"body_text": "Al'Akir casts a Wind Burst on all players, inflicting 0 Nature damage and knocking them back."
+					},
+					{
+						"id": 3038,
+						"title": "Lightning",
+						"body_text": "Al'Akir continually casts Lightning Bolts at random players, inflicting 0 Nature damage."
+					},
+					{
+						"id": 3039,
+						"title": "Lightning Rod",
+						"body_text": "Al'Akir electrifies a random player and makes them a Lightning Rod. After 5 sec., the player emits lightning at nearby players for 5 sec. The lightning inflicts 447 Nature damage every second to all players within 20 yards horizontally and 5 yards vertically."
+					},
+					{
+						"id": 3040,
+						"title": "Lightning Cloud",
+						"body_text": "Al'Akir summons clouds at the altitude of a random player. The Lightning Cloud fills the entire area of that altitude, and after 5 seconds they erupt in an electrical storm, inflicting 0 Nature damage per second to all players within the cloud. A Lightning Cloud lasts 30 seconds."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/74?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Throne of the Four Winds",
+			"id": 74
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

@@ -1,0 +1,169 @@
+== 194: ES Alysrazor | FR Alysrazor
+  20817 Vue d’ensemble
+    20818 Tanks
+    20819 Soigneurs
+    20820 DPS
+    20821 Aériens
+  2824 Tempête de feu
+  2825 Feu volcanique
+  2820 Phase 1 : Je vais vous descendre en flammes !
+    2826 Griffes flamboyantes
+    2841 Tempête de feu
+    2827 Mue
+      2828 Plume de feu
+        2829 Ailes de flamme
+    2830 Vol
+      2831 Puissance flamboyante
+      2832 Rasoir d’Alysra
+      2833 Nuage incendiaire
+    2834 Initié de la Serre flamboyante
+      2835 Feu de broussailles
+      3335 Bouclier flamboyant
+      3330 Conflagration de flammes
+      3331 Allumez le feu !
+    2836 Jeune vorace
+      2837 Gravé dans la mémoire
+      2838 Gavé
+      2839 Affamé
+      2840 Colère
+      2842 Blessure hémorragique
+    2843 Ver de lave dodu
+      2844 Crachement de magma
+    2845 Héraut de la Fin ardente
+      2846 Cataclysme
+        2847 Météore en fusion
+        2848 Rocher en fusion
+  2821 Phase 2 : Ce ciel est à MOI.
+    2849 Vortex embrasé
+    3332 Vents cinglants
+    2850 Tornade embrasée
+    2851 Puissance flamboyante
+  2822 Phase 3 : Ardeur épuisante !
+    2852 Ardeur épuisante
+      2853 Essence des Verts
+    2854 Étincelle
+    2855 Sculptegriffe de la Serre flamboyante
+      2856 Embrasement
+  2823 Phase 4 : Renaissance de flammes !
+    2857 Embrasé
+    2858 Rafale flamboyante
+    2859 Griffes flamboyantes
+    2860 Pleine puissance
+== 195: ES Shannox | FR Shannox
+  20808 Vue d’ensemble
+    20809 Tanks
+    20810 Soigneurs
+    20811 DPS
+  2575 Piège d'immolation
+  2576 Piège prison de cristal
+  2577 Entaille tranchante
+    2578 Déchiqueture
+  2579 Jeter la lance
+  2580 Frénésie
+  2928 Rupture de magma
+  2581 Croquepatte
+    2582 Déchirure de membre
+      2587 Déchiqueture
+    2588 Dévotion frénétique
+    2589 Frénésie affamée
+  2583 Ragegueule
+    2584 Rage faciale
+    2585 Dévotion frénétique
+    2586 Frénésie affamée
+== 196: ES Baleroc, el Guardián de la Puerta | FR Baleroc, le Gardien de la porte
+  20822 Vue d’ensemble
+    20823 Tanks
+    20824 Soigneurs
+    20825 DPS
+  2590 Brasier de gloire
+    2591 Âme incendiaire
+  2592 Éclats de tourment
+    2593 Tourment
+    2594 Tourmenté
+    2595 Vague de tourment
+    2596 Etincelle vitale
+      2597 Flamme vitale
+  2598 Lames de Baleroc
+    2599 Lame de décimation
+    2600 Lame infernale
+  2601 Compte à rebours
+== 197: ES Mayordomo Corzocelada | FR Chambellan Forteramure
+  20830 Vue d’ensemble
+    20831 Tanks
+    20832 Soigneurs
+    20833 DPS
+  2911 Concentration
+  2912 Changeforme
+    2913 Forme de félin
+      2914 Flammes bondissantes
+      2915 Esprit de la flamme
+      2916 Adrénaline
+      2917 Fureur
+    2918 Forme de scorpion
+      2919 Faux de flammes
+      2920 Adrénaline
+      2921 Fureur
+    2922 Forme d’Elfe de la nuit
+      2923 Cyclone ardent
+      2924 Graines incendiaires
+      2925 Orbes ardents
+== 198: ES Ragnaros | FR Ragnaros
+  20834 Vue d’ensemble
+    20835 Tanks
+    20836 Soigneurs
+    20837 DPS
+  2629 Phase 1 : Par le feu, soyez purifiés !
+    2630 Frappe de Sulfuras
+      2631 Vague de lave
+    2632 Colère de Ragnaros
+    2633 Main de Ragnaros
+    2634 Piège de magma
+      2635 Éruption du piège de magma
+    3535 Trait de magma
+  2636 Intervalle : Créatures du feu !
+    2678 Coup brisant
+    2637 Fils des flammes
+      2638 Vitesse ardente
+      2639 Supernova
+    3534 Trait de lave
+  2640 Phase 2 : Sulfuras sera votre fin.
+    2641 Frappe de Sulfuras
+      2642 Vague de lave
+    2643 Linceul de flamme
+    2644 Monde en flammes
+    2645 Graine en fusion
+      2646 Inferno de la fournaise
+      2647 Élémentaire du magma
+        2648 Puissance du magma
+    3536 Trait de magma
+  2649 Intervalle : Habitants des flammes !
+    2679 Coup brisant
+    2650 Fils des flammes
+      2651 Vitesse ardente
+      2652 Supernova
+    2653 Scion de lave
+      2654 Chaleur flamboyante
+  2655 Phase 3 : Disparaissez de mon royaume !
+    2656 Frappe de Sulfuras
+      2657 Vague de lave
+    2658 Linceul de flamme
+    2659 Monde en flammes
+    2660 Invocation de météore vivant
+      2661 Météore vivant
+        2662 Impact de météore
+        2663 Combustible
+          2664 Combustion
+        3528 Trempé de lave
+    3537 Trait de magma
+  2665 Phase 4 : La vraie puissance du seigneur du Feu !
+    2680 Chaleur extrême
+    2681 Renforcer Sulfuras
+      2682 Flammes de Sulfuras
+    2683 Flammeffroi
+    2685 Cénarius
+      2686 Étendue de givre
+    2687 Archidruide Hamuul Totem-Runique
+      2688 Racines piégeuses
+    2689 Malfurion Hurlorage
+      2690 Explosion nuageuse
+        2691 Déluge

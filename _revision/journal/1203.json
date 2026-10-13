@@ -1,0 +1,3051 @@
+{
+	"id": 1203,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1203?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1203,
+		"name": "Las Doncellas de Hierro",
+		"description": "Casi sin oportunidades para demostrar su brillantez táctica en la anticuada estructura social de los clanes orcos, Gar'an estaba encantada de ser una de las primeras guerreras voluntarias para el servicio naval a las órdenes de la Horda de Hierro. Tras su éxito inmediato en combate, fue nombrada almirante de la flota de la Horda de Hierro y seleccionó a Marak y a Sorka como sus tenientes. Juntas, se hacen llamar las Doncellas de Hierro, y han aplastado a todos los que se han atrevido a enfrentarse a ellas.",
+		"creatures": [
+			{
+				"id": 3267,
+				"name": "Almirante Gar'an",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53982
+				}
+			},
+			{
+				"id": 3265,
+				"name": "Déspota Sorka",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53752
+				}
+			},
+			{
+				"id": 3266,
+				"name": "Marak la Ensangrentada",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Varita de médico de batalla",
+					"id": 116390
+				}
+			},
+			{
+				"id": 21858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de placas del Vórtice",
+					"id": 116263
+				}
+			},
+			{
+				"id": 21859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del conquistador de hierro",
+					"id": 119306
+				}
+			},
+			{
+				"id": 21860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos incendiarios",
+					"id": 116010
+				}
+			},
+			{
+				"id": 21861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadenapuño de Sorka",
+					"id": 113965
+				}
+			},
+			{
+				"id": 21862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arrojaarpones brutal de Gar'an",
+					"id": 113966
+				}
+			},
+			{
+				"id": 21863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del vencedor de hierro",
+					"id": 119311
+				}
+			},
+			{
+				"id": 21864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de cuerda de marinero de cubierta",
+					"id": 113967
+				}
+			},
+			{
+				"id": 21865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de remolino de sangre",
+					"id": 113968
+				}
+			},
+			{
+				"id": 21866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vial de Sombras convulsivas",
+					"id": 113969
+				}
+			},
+			{
+				"id": 21867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de marinero de cubierta",
+					"id": 116017
+				}
+			},
+			{
+				"id": 21868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de mecánico de torreta",
+					"id": 113970
+				}
+			},
+			{
+				"id": 21869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de objetivos de bombardero",
+					"id": 116050
+				}
+			},
+			{
+				"id": 21870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113971?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de Cacería oscura",
+					"id": 113971
+				}
+			},
+			{
+				"id": 21871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras terráneas de Rogg",
+					"id": 116051
+				}
+			},
+			{
+				"id": 21872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de terror sanguino",
+					"id": 113972
+				}
+			},
+			{
+				"id": 21873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Koloch Na, el Festín Sangriento",
+					"id": 113973
+				}
+			},
+			{
+				"id": 21874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de Cacería oscura",
+					"id": 113974
+				}
+			},
+			{
+				"id": 21875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello corrupto de Uk'urogg",
+					"id": 113975
+				}
+			},
+			{
+				"id": 21876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del protector de hierro",
+					"id": 119319
+				}
+			},
+			{
+				"id": 21877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de anillos repiqueteantes de Uktar",
+					"id": 113976
+				}
+			},
+			{
+				"id": 21878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colección de orejas de Sorka",
+					"id": 116312
+				}
+			},
+			{
+				"id": 21879,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protegecorazones empapado de sangre",
+					"id": 113977
+				}
+			},
+			{
+				"id": 21880,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha Sombranoche de Sorka",
+					"id": 113978
+				}
+			},
+			{
+				"id": 21881,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de déspota de Negrozón",
+					"id": 116314
+				}
+			},
+			{
+				"id": 21882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grandes botas del Empalador",
+					"id": 116250
+				}
+			},
+			{
+				"id": 21883,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de metralla",
+					"id": 116220
+				}
+			},
+			{
+				"id": 21856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de hojas oscilantes",
+					"id": 116225
+				}
+			},
+			{
+				"id": 23985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de piel tiznada",
+					"id": 120384
+				}
+			},
+			{
+				"id": 23986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de ligas de ceniza",
+					"id": 120386
+				}
+			},
+			{
+				"id": 23987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de acero negro",
+					"id": 120392
+				}
+			},
+			{
+				"id": 23988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de llama ebenácea",
+					"id": 120374
+				}
+			},
+			{
+				"id": 32027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del sacerdote de almas",
+					"id": 115562
+				}
+			},
+			{
+				"id": 32028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de Puño Negro",
+					"id": 115583
+				}
+			},
+			{
+				"id": 32029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de acecharrylaks",
+					"id": 115549
+				}
+			},
+			{
+				"id": 32030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de la mirada sombría",
+					"id": 115555
+				}
+			},
+			{
+				"id": 32031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de madera viviente",
+					"id": 115541
+				}
+			},
+			{
+				"id": 32032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del Consejo de la Sombra",
+					"id": 115585
+				}
+			},
+			{
+				"id": 32033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de Luz inspiradora",
+					"id": 115567
+				}
+			},
+			{
+				"id": 32034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de envenenador",
+					"id": 115571
+				}
+			},
+			{
+				"id": 32035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de devastación Arcana",
+					"id": 115552
+				}
+			},
+			{
+				"id": 32036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas óseas de craneogro",
+					"id": 115538
+				}
+			},
+			{
+				"id": 32037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115578?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de hablavientos",
+					"id": 115578
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10006,
+				"title": "Resumen",
+				"body_text": "Las Doncellas de Hierro obtienen Furia de hierro de manera continua y desbloquean nuevas facultades progresivamente. \r\n\r\nPoco a poco, una de las Doncellas se mueve hacia El Acorator para bombardear a los jugadores con su cañón. Un equipo de jugadores debe usar las cadenas de carga para acceder a la cubierta del barco, derrotar al marinero de cubierta allí apostado y sabotear la munición del cañón principal antes de que termine su [Calentamiento].\r\n\r\nCuando alguna de las Doncellas llegue al 20% de salud, las tres activarán [Voluntad férrea] durante el resto de la partida.",
+				"sections": [
+					{
+						"id": 10014,
+						"title": "DPS",
+						"body_text": "$bullet;[Embate con espada] puede ser letal; evita estar cerca de otros jugadores si te estás enfrentando a Sorka.\r\n$bullet;Intercepta el [Disparo penetrante] de Gar'an para salvar al jugador objetivo."
+					},
+					{
+						"id": 10015,
+						"title": "Sanadores",
+						"body_text": "$bullet;Los jugadores que no logren evitar la [Secuencia de detonación] de las bombas disparadas por el cañón principal de El Acorator recibirán un gran daño.\r\n$bullet;Mientras [Golpes sanguinos] esté activo, la banda recibirá un gran daño de las Sombras.\r\n$bullet;Asegúrate de que los jugadores seleccionados por [Cacería oscura] no estén bajos de salud cuando se agote."
+					},
+					{
+						"id": 10016,
+						"title": "Tanques",
+						"body_text": "$bullet;Pasa entre Marak y el objetivo de su [Ritual de sangre] para interceptar el efecto de [Sangre cristalizada].\r\n$bullet;Minimiza el daño recibido por los ataques cuerpo a cuerpo de Marak mientras [Golpes sanguinos] está activo.\r\n$bullet;Persigue a Sorka o a Marak cuando suban a El Acorator para bombardear los muelles."
+					}
+				]
+			},
+			{
+				"id": 10018,
+				"title": "Las Doncellas de Hierro",
+				"sections": [
+					{
+						"id": 10693,
+						"title": "Voluntad férrea",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Voluntad férrea",
+							"id": 159337
+						}
+					},
+					{
+						"id": 10025,
+						"title": "Almirante Gar'an",
+						"sections": [
+							{
+								"id": 10026,
+								"title": "Disparo férreo",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156666?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Disparo férreo",
+									"id": 156666
+								}
+							},
+							{
+								"id": 10027,
+								"title": "Fuego rápido",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156629?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fuego rápido",
+									"id": 156629
+								}
+							},
+							{
+								"id": 10028,
+								"title": "Disparo penetrante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/164264?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Disparo penetrante",
+									"id": 164264
+								}
+							},
+							{
+								"id": 10029,
+								"title": "Desplegar torreta",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/159585?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Desplegar torreta",
+									"id": 159585
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53982
+						}
+					},
+					{
+						"id": 10030,
+						"title": "Déspota Sorka",
+						"sections": [
+							{
+								"id": 10031,
+								"title": "Embate con espada",
+								"sections": [
+									{
+										"id": 10570,
+										"title": "Vórtice espiral",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/160435?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Vórtice espiral",
+											"id": 160435
+										}
+									},
+									{
+										"id": 10576,
+										"title": "Presa de Sorka",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170395?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Presa de Sorka",
+											"id": 170395
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160796?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Embate con espada",
+									"id": 160796
+								}
+							},
+							{
+								"id": 10571,
+								"title": "Sombras convulsivas",
+								"sections": [
+									{
+										"id": 10850,
+										"title": "Sombra persistente",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/156210?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Sombra persistente",
+											"id": 156210
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156112?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Sombras convulsivas",
+									"id": 156112
+								}
+							},
+							{
+								"id": 10034,
+								"title": "Cacería oscura",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158315?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Cacería oscura",
+									"id": 158315
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53752
+						}
+					},
+					{
+						"id": 10033,
+						"title": "Marak la Ensangrentada",
+						"sections": [
+							{
+								"id": 10036,
+								"title": "Ritual de sangre",
+								"sections": [
+									{
+										"id": 10849,
+										"title": "Sangre cristalizada",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158080?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Sangre cristalizada",
+											"id": 158080
+										}
+									},
+									{
+										"id": 10577,
+										"title": "Llamada de sangre de Marak",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170405?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Llamada de sangre de Marak",
+											"id": 170405
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158078?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ritual de sangre",
+									"id": 158078
+								}
+							},
+							{
+								"id": 10037,
+								"title": "Buscacorazones empapado de sangre",
+								"sections": [
+									{
+										"id": 10853,
+										"title": "Orbe de sangre volátil",
+										"sections": [
+											{
+												"id": 10652,
+												"title": "Baño de sangre volátil",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/173901?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Baño de sangre volátil",
+													"id": 173901
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/173900?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Orbe de sangre volátil",
+											"id": 173900
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158008?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Buscacorazones empapado de sangre",
+									"id": 158008
+								}
+							},
+							{
+								"id": 10038,
+								"title": "Golpes sanguinos",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156601?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Golpes sanguinos",
+									"id": 156601
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53876
+						}
+					}
+				]
+			},
+			{
+				"id": 10019,
+				"title": "El Acorator",
+				"body_text": "Cuando alguna de las doncellas maneje el cañón principal de El Acorator, un grupo de jugadores deberá usar las cadenas de carga para acceder al barco y derrotar al marinero de cubierta de esa doncella antes de que esta finalice la secuencia de calentamiento del cañón principal.\r\n\r\nDurante el calentamiento, el cañón principal bombardeará los muelles, algo que los jugadores que sigan allí deberán evitar.",
+				"sections": [
+					{
+						"id": 10854,
+						"title": "Patrón de bombardeo",
+						"body_text": "Una de las doncellas dispara una tromba de bombas con el cañón principal del barco contra el muelle.\r\n\r\nTras la tromba inicial, el cañón principal dispara una ráfaga de bombas mucho más grande contra el muelle.",
+						"sections": [
+							{
+								"id": 10855,
+								"title": "Impacto de bomba",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160733?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Impacto de bomba",
+									"id": 160733
+								}
+							},
+							{
+								"id": 10856,
+								"title": "Secuencia de detonación",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157884?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Secuencia de detonación",
+									"id": 157884
+								}
+							}
+						]
+					},
+					{
+						"id": 10039,
+						"title": "Marinero de cubierta Roca Negra",
+						"sections": [
+							{
+								"id": 10040,
+								"title": "Uktar, marinero de cubierta de la almirante Gar'an",
+								"body_text": "Al derrotar a Uktar, se revelarán las reservas de munición de El Acorator.",
+								"sections": [
+									{
+										"id": 10041,
+										"title": "Explosión de metralla",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158695?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosión de metralla",
+											"id": 158695
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54455?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54455
+								}
+							},
+							{
+								"id": 10042,
+								"title": "Médico de batalla Rogg",
+								"sections": [
+									{
+										"id": 10573,
+										"title": "Barrera terránea",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158708?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Barrera terránea",
+											"id": 158708
+										}
+									},
+									{
+										"id": 10574,
+										"title": "Tierra protectora",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158707?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Tierra protectora",
+											"id": 158707
+										}
+									},
+									{
+										"id": 10575,
+										"title": "Cadena de relámpagos",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158710?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Cadena de relámpagos",
+											"id": 158710
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54456?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54456
+								}
+							}
+						]
+					},
+					{
+						"id": 10043,
+						"title": "Marinero de cubierta Mano Destrozada",
+						"sections": [
+							{
+								"id": 10045,
+								"title": "Gorak, marinero de cubierta de la déspota Sorka",
+								"body_text": "Al derrotar a Gorak, se revelarán las reservas de munición de El Acorator.",
+								"sections": [
+									{
+										"id": 10046,
+										"title": "Lanzamiento mortal",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158692?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Lanzamiento mortal",
+											"id": 158692
+										}
+									},
+									{
+										"id": 10047,
+										"title": "Pedir refuerzos",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158701?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Pedir refuerzos",
+											"id": 158701
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54448?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54448
+								}
+							},
+							{
+								"id": 10048,
+								"title": "Eviscerador de la Horda de Hierro",
+								"sections": [
+									{
+										"id": 10049,
+										"title": "Fijar",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158702?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Fijar",
+											"id": 158702
+										}
+									},
+									{
+										"id": 10050,
+										"title": "Presteza",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158689?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Presteza",
+											"id": 158689
+										}
+									},
+									{
+										"id": 10051,
+										"title": "Exponer armadura",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158686?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Exponer armadura",
+											"id": 158686
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54450?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54450
+								}
+							}
+						]
+					},
+					{
+						"id": 10044,
+						"title": "Marinero de cubierta Foso Sangrante",
+						"sections": [
+							{
+								"id": 10052,
+								"title": "Uk'urogg, marinero de cubierta de Marak la Ensangrentada",
+								"body_text": "Al derrotar a Uk'urogg, se revelarán las reservas de munición de El Acorator.",
+								"sections": [
+									{
+										"id": 10053,
+										"title": "Aura de Corrupción de sangre",
+										"sections": [
+											{
+												"id": 10054,
+												"title": "Sangre corrupta",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/158683?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Sangre corrupta",
+													"id": 158683
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158731?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Aura de Corrupción de sangre",
+											"id": 158731
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/59051?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 59051
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/457?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Fundición Roca Negra",
+			"id": 457
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1203?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1203,
+		"name": "Les Vierges de Fer",
+		"description": "Empêchée de faire la preuve de son sens tactique par la structure patriarcale des clans orcs, Ga’ran n’a pas hésité un seul instant à se porter volontaires pour rejoindre la marine de la Horde de Fer. Remportant aussitôt victoire sur victoire, elle a été promue au rang d’amiral de la flotte et s’est choisi Marak et Sorka pour lieutenants. Surnommées les Vierges de Fer, elles écrasent ensemble tous ceux qui ont l’impudence de les défier au combat.",
+		"creatures": [
+			{
+				"id": 3267,
+				"name": "Amiral Gar’an",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53982
+				}
+			},
+			{
+				"id": 3265,
+				"name": "Massacreuse Sorka",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53752
+				}
+			},
+			{
+				"id": 3266,
+				"name": "Marak la Sanglante",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baguette de secouriste de combat",
+					"id": 116390
+				}
+			},
+			{
+				"id": 21858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume en plaques de vortex",
+					"id": 116263
+				}
+			},
+			{
+				"id": 21859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du conquérant de Fer",
+					"id": 119306
+				}
+			},
+			{
+				"id": 21860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières incendiaires",
+					"id": 116010
+				}
+			},
+			{
+				"id": 21861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de poing de Sorka",
+					"id": 113965
+				}
+			},
+			{
+				"id": 21862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jette-lance brutal de Gar'an",
+					"id": 113966
+				}
+			},
+			{
+				"id": 21863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du vainqueur de Fer",
+					"id": 119311
+				}
+			},
+			{
+				"id": 21864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de matelot en corde",
+					"id": 113967
+				}
+			},
+			{
+				"id": 21865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du tourbillon sanglant",
+					"id": 113968
+				}
+			},
+			{
+				"id": 21866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fiole d'ombres convulsives",
+					"id": 113969
+				}
+			},
+			{
+				"id": 21867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de matelot",
+					"id": 116017
+				}
+			},
+			{
+				"id": 21868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de mécanicien de tourelle",
+					"id": 113970
+				}
+			},
+			{
+				"id": 21869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de visée de bombardier",
+					"id": 116050
+				}
+			},
+			{
+				"id": 21870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113971?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de chasse de l'ombre",
+					"id": 113971
+				}
+			},
+			{
+				"id": 21871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes terrestres de Rogg",
+					"id": 116051
+				}
+			},
+			{
+				"id": 21872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de la terreur sanguine",
+					"id": 113972
+				}
+			},
+			{
+				"id": 21873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Koloch'na, le festin sanglant",
+					"id": 113973
+				}
+			},
+			{
+				"id": 21874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de chasse de l'ombre",
+					"id": 113974
+				}
+			},
+			{
+				"id": 21875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau corrompu d'Uk'urogg",
+					"id": 113975
+				}
+			},
+			{
+				"id": 21876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du protecteur de Fer",
+					"id": 119319
+				}
+			},
+			{
+				"id": 21877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture aux anneaux carillonnants d'Uktar",
+					"id": 113976
+				}
+			},
+			{
+				"id": 21878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collection d'oreilles de Sorka",
+					"id": 116312
+				}
+			},
+			{
+				"id": 21879,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-cœur imprégné de sang",
+					"id": 113977
+				}
+			},
+			{
+				"id": 21880,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche de belladone de Sorka",
+					"id": 113978
+				}
+			},
+			{
+				"id": 21881,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de massacreur de Cœur-Noir",
+					"id": 116314
+				}
+			},
+			{
+				"id": 21882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grandes bottes d'empaleur",
+					"id": 116250
+				}
+			},
+			{
+				"id": 21883,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de mitraille",
+					"id": 116220
+				}
+			},
+			{
+				"id": 21856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets des lames vacillantes",
+					"id": 116225
+				}
+			},
+			{
+				"id": 23985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets fourre-suie",
+					"id": 120384
+				}
+			},
+			{
+				"id": 23986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en cendremailles",
+					"id": 120386
+				}
+			},
+			{
+				"id": 23987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets en noiracier",
+					"id": 120392
+				}
+			},
+			{
+				"id": 23988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes flamme d'ébène",
+					"id": 120374
+				}
+			},
+			{
+				"id": 32027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de prêtre de l'âme",
+					"id": 115562
+				}
+			},
+			{
+				"id": 32028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de Main-Noire",
+					"id": 115583
+				}
+			},
+			{
+				"id": 32029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de traqueur de rylak",
+					"id": 115549
+				}
+			},
+			{
+				"id": 32030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains du regard sombre",
+					"id": 115555
+				}
+			},
+			{
+				"id": 32031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du bois Vivant",
+					"id": 115541
+				}
+			},
+			{
+				"id": 32032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du Conseil des ombres",
+					"id": 115585
+				}
+			},
+			{
+				"id": 32033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de guide de lumière",
+					"id": 115567
+				}
+			},
+			{
+				"id": 32034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l'empoisonneur",
+					"id": 115571
+				}
+			},
+			{
+				"id": 32035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'arcanobroyeur",
+					"id": 115552
+				}
+			},
+			{
+				"id": 32036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets en plaques d'os crânien d'ogre",
+					"id": 115538
+				}
+			},
+			{
+				"id": 32037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115578?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de parlevent",
+					"id": 115578
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10006,
+				"title": "Vue d’ensemble",
+				"body_text": "Les vierges de Fer génèrent en permanence de la furie de Fer qui leur donne peu à peu accès à de nouvelles techniques. \r\n\r\nPériodiquement, l’une des vierges se rend sur le Cuirassé dont elle utilise le canon pour bombarder les personnages-joueurs. Ces derniers doivent se servir des chaînes de chargement pour atteindre le pont du navire, vaincre le matelot qui s’y trouve et saboter les munitions du canon avant la fin de l’incantation d’[Échauffement].\r\n\r\nQuand l’une des vierges n’a plus que 20% de points de vie, toutes trois activent [Volonté de Fer] jusqu’à la fin du combat.",
+				"sections": [
+					{
+						"id": 10014,
+						"title": "DPS",
+						"body_text": "$bullet;[Célérité tranchante] peut être fatale, évitez de rester près des autres personnages-joueurs si vous affrontez Sorka.\r\n$bullet;Interceptez le [Tir pénétrant] de Gar’an pour sauver le personnage-joueur visé."
+					},
+					{
+						"id": 10015,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Les personnages-joueurs qui ne parviennent pas à éviter la [Séquence de détonation] des bombes tirées par le canon principal du Cuirassier subissent de lourds dégâts.\r\n$bullet;Tant que [Frappes sanguines] est active, le raid subit d’importants dégâts d’Ombre.\r\n$bullet;Faites en sorte que les personnages-joueurs ciblés par [Chasse de l’ombre] aient suffisamment de points de vie quand l’effet expire."
+					},
+					{
+						"id": 10016,
+						"title": "Tanks",
+						"body_text": "$bullet;Interposez-vous entre Marak et la cible de son [Rituel de sang] pour intercepter l’effet de [Sang cristallisé].\r\n$bullet;Réduisez autant que possible les dégâts des attaques en mêlée de Marak tant que [Frappes sanguines] est active.\r\n$bullet;Poursuivez Sorka ou Marak quand elles montent à bord du Cuirassier pour bombarder les quais."
+					}
+				]
+			},
+			{
+				"id": 10018,
+				"title": "Les Vierges de Fer",
+				"sections": [
+					{
+						"id": 10693,
+						"title": "Volonté de fer",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Volonté de fer",
+							"id": 159337
+						}
+					},
+					{
+						"id": 10025,
+						"title": "Amiral Gar’an",
+						"sections": [
+							{
+								"id": 10026,
+								"title": "Projectile de Fer",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156666?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Projectile de Fer",
+									"id": 156666
+								}
+							},
+							{
+								"id": 10027,
+								"title": "Tir rapide",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156629?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Tir rapide",
+									"id": 156629
+								}
+							},
+							{
+								"id": 10028,
+								"title": "Tir pénétrant",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/164264?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Tir pénétrant",
+									"id": 164264
+								}
+							},
+							{
+								"id": 10029,
+								"title": "Déploiement de tourelle",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/159585?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Déploiement de tourelle",
+									"id": 159585
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53982
+						}
+					},
+					{
+						"id": 10030,
+						"title": "Massacreuse Sorka",
+						"sections": [
+							{
+								"id": 10031,
+								"title": "Célérité tranchante",
+								"sections": [
+									{
+										"id": 10570,
+										"title": "Vortex tourbillonnant",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/160435?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Vortex tourbillonnant",
+											"id": 160435
+										}
+									},
+									{
+										"id": 10576,
+										"title": "Proie de Sorka",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170395?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Proie de Sorka",
+											"id": 170395
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160796?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Célérité tranchante",
+									"id": 160796
+								}
+							},
+							{
+								"id": 10571,
+								"title": "Ombres convulsives",
+								"sections": [
+									{
+										"id": 10850,
+										"title": "Ombre persistante",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/156210?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ombre persistante",
+											"id": 156210
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156112?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ombres convulsives",
+									"id": 156112
+								}
+							},
+							{
+								"id": 10034,
+								"title": "Chasse de l’ombre",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158315?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Chasse de l’ombre",
+									"id": 158315
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53752
+						}
+					},
+					{
+						"id": 10033,
+						"title": "Marak la Sanglante",
+						"sections": [
+							{
+								"id": 10036,
+								"title": "Rituel de sang",
+								"sections": [
+									{
+										"id": 10849,
+										"title": "Sang cristallisé",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158080?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Sang cristallisé",
+											"id": 158080
+										}
+									},
+									{
+										"id": 10577,
+										"title": "Appel sanglant de Marak",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170405?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Appel sanglant de Marak",
+											"id": 170405
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158078?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Rituel de sang",
+									"id": 158078
+								}
+							},
+							{
+								"id": 10037,
+								"title": "Crève-cœur imprégné de sang",
+								"sections": [
+									{
+										"id": 10853,
+										"title": "Orbe de sang volatil",
+										"sections": [
+											{
+												"id": 10652,
+												"title": "Bain de sang volatil",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/173901?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Bain de sang volatil",
+													"id": 173901
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/173900?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Orbe de sang volatil",
+											"id": 173900
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158008?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Crève-cœur imprégné de sang",
+									"id": 158008
+								}
+							},
+							{
+								"id": 10038,
+								"title": "Frappes sanguines",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156601?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Frappes sanguines",
+									"id": 156601
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53876
+						}
+					}
+				]
+			},
+			{
+				"id": 10019,
+				"title": "Le Cuirassier",
+				"body_text": "Dès qu’une Vierge prend le contrôle du canon principal du Cuirassier, un groupe de personnages-joueurs doit utiliser les chaînes de chargement pour atteindre le navire et vaincre le matelot de cette Vierge avant qu’elle n’ait achevé la séquence de chauffe du canon.\r\n\r\nPendant cette phase, le canon principal bombarde les quais et les personnages-joueurs qui s’y trouvent encore doivent éviter les explosions.",
+				"sections": [
+					{
+						"id": 10854,
+						"title": "Schéma de bombardement",
+						"body_text": "Une des vierges tire un barrage de bombes vers les quais avec le canon principal du navire.\r\n\r\nAprès le tir de barrage initial, le canon principal tire une rafale de bombes plus importante vers les quais.",
+						"sections": [
+							{
+								"id": 10855,
+								"title": "Impact de bombe",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160733?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Impact de bombe",
+									"id": 160733
+								}
+							},
+							{
+								"id": 10856,
+								"title": "Séquence de détonation",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157884?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Séquence de détonation",
+									"id": 157884
+								}
+							}
+						]
+					},
+					{
+						"id": 10039,
+						"title": "Matelot rochenoire",
+						"sections": [
+							{
+								"id": 10040,
+								"title": "Uktar, matelot de l’amiral Gar’an",
+								"body_text": "Venez à bout d’Uktar pour dévoiler les réserves de munitions du canon du Cuirassier.",
+								"sections": [
+									{
+										"id": 10041,
+										"title": "Déflagration mitrailleuse",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158695?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Déflagration mitrailleuse",
+											"id": 158695
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54455?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54455
+								}
+							},
+							{
+								"id": 10042,
+								"title": "Médecin de bataille Rogg",
+								"sections": [
+									{
+										"id": 10573,
+										"title": "Barrière terrestre",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158708?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Barrière terrestre",
+											"id": 158708
+										}
+									},
+									{
+										"id": 10574,
+										"title": "Terre protectrice",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158707?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Terre protectrice",
+											"id": 158707
+										}
+									},
+									{
+										"id": 10575,
+										"title": "Chaîne d’éclairs",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158710?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Chaîne d’éclairs",
+											"id": 158710
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54456?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54456
+								}
+							}
+						]
+					},
+					{
+						"id": 10043,
+						"title": "Matelot de la Main-Brisée",
+						"sections": [
+							{
+								"id": 10045,
+								"title": "Gorak, matelot de la massacreuse Sorka",
+								"body_text": "Venez à bout de Gorak pour dévoiler les réserves de munitions du canon du Cuirassier.",
+								"sections": [
+									{
+										"id": 10046,
+										"title": "Lancer mortel",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158692?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Lancer mortel",
+											"id": 158692
+										}
+									},
+									{
+										"id": 10047,
+										"title": "Appel de renforts",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158701?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Appel de renforts",
+											"id": 158701
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54448?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54448
+								}
+							},
+							{
+								"id": 10048,
+								"title": "Eviscérateur de Fer",
+								"sections": [
+									{
+										"id": 10049,
+										"title": "Fixer",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158702?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Fixer",
+											"id": 158702
+										}
+									},
+									{
+										"id": 10050,
+										"title": "Rapidité",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158689?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Rapidité",
+											"id": 158689
+										}
+									},
+									{
+										"id": 10051,
+										"title": "Exposer l’armure",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158686?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Exposer l’armure",
+											"id": 158686
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54450?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54450
+								}
+							}
+						]
+					},
+					{
+						"id": 10044,
+						"title": "Matelot de l’Orbite-Sanglante",
+						"sections": [
+							{
+								"id": 10052,
+								"title": "Uk’urogg, matelot de Marak la Sanglante",
+								"body_text": "Venez à bout d’Uk’urogg pour dévoiler les réserves de munitions du canon du Cuirassier.",
+								"sections": [
+									{
+										"id": 10053,
+										"title": "Aura de corruption du sang",
+										"sections": [
+											{
+												"id": 10054,
+												"title": "Sang vicié",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/158683?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Sang vicié",
+													"id": 158683
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158731?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Aura de corruption du sang",
+											"id": 158731
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/59051?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 59051
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/457?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Fonderie des Rochenoires",
+			"id": 457
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1203?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1203,
+		"name": "The Iron Maidens",
+		"description": "With little opportunity to exercise her tactical brilliance under the ancient social structure of the orc clans, Gar'an was thrilled to be one of the first warriors to volunteer for naval duty under the Iron Horde. Instantly successful in battle, she was named Admiral of the Iron Horde fleet and selected Marak and Sorka as her lieutenants. Together, they are called the Iron Maidens, and have crushed any who have dared face them in battle.",
+		"creatures": [
+			{
+				"id": 3267,
+				"name": "Admiral Gar'an",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53982
+				}
+			},
+			{
+				"id": 3265,
+				"name": "Enforcer Sorka",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53752
+				}
+			},
+			{
+				"id": 3266,
+				"name": "Marak the Blooded",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 53876
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21857,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116390?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battle Medic's Wand",
+					"id": 116390
+				}
+			},
+			{
+				"id": 21858,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116263?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vortex Plate Helm",
+					"id": 116263
+				}
+			},
+			{
+				"id": 21859,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119306?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Iron Conqueror",
+					"id": 119306
+				}
+			},
+			{
+				"id": 21860,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incendiary Leggings",
+					"id": 116010
+				}
+			},
+			{
+				"id": 21861,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sorka's Chainfist",
+					"id": 113965
+				}
+			},
+			{
+				"id": 21862,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gar'an's Brutal Spearlauncher",
+					"id": 113966
+				}
+			},
+			{
+				"id": 21863,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Iron Vanquisher",
+					"id": 119311
+				}
+			},
+			{
+				"id": 21864,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113967?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deckhand's Rope Belt",
+					"id": 113967
+				}
+			},
+			{
+				"id": 21865,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113968?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodwhirl Bracers",
+					"id": 113968
+				}
+			},
+			{
+				"id": 21866,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113969?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vial of Convulsive Shadows",
+					"id": 113969
+				}
+			},
+			{
+				"id": 21867,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116017?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deckhand's Cord",
+					"id": 116017
+				}
+			},
+			{
+				"id": 21868,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Turret Mechanic's Legwraps",
+					"id": 113970
+				}
+			},
+			{
+				"id": 21869,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116050?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bombardeer's Targeting Helm",
+					"id": 116050
+				}
+			},
+			{
+				"id": 21870,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113971?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drape of the Dark Hunt",
+					"id": 113971
+				}
+			},
+			{
+				"id": 21871,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116051?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rogg's Earthen Legguards",
+					"id": 116051
+				}
+			},
+			{
+				"id": 21872,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloak of Sanguine Terror",
+					"id": 113972
+				}
+			},
+			{
+				"id": 21873,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113973?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Koloch Na, the Blood Feast",
+					"id": 113973
+				}
+			},
+			{
+				"id": 21874,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113974?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of the Dark Hunt",
+					"id": 113974
+				}
+			},
+			{
+				"id": 21875,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uk'urogg's Corrupted Seal",
+					"id": 113975
+				}
+			},
+			{
+				"id": 21876,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/119319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Iron Protector",
+					"id": 119319
+				}
+			},
+			{
+				"id": 21877,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uktar's Belt of Chiming Rings",
+					"id": 113976
+				}
+			},
+			{
+				"id": 21878,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sorka's Ear Collection",
+					"id": 116312
+				}
+			},
+			{
+				"id": 21879,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodsoaked Heart Protector",
+					"id": 113977
+				}
+			},
+			{
+				"id": 21880,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/113978?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sorka's Nightshade Cowl",
+					"id": 113978
+				}
+			},
+			{
+				"id": 21881,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blackheart Enforcer's Medallion",
+					"id": 116314
+				}
+			},
+			{
+				"id": 21882,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116250?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Impaler's Greatboots",
+					"id": 116250
+				}
+			},
+			{
+				"id": 21883,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116220?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grapeshot Hood",
+					"id": 116220
+				}
+			},
+			{
+				"id": 21856,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/116225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Flickering Blades",
+					"id": 116225
+				}
+			},
+			{
+				"id": 23985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120384?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sootfur Gauntlets",
+					"id": 120384
+				}
+			},
+			{
+				"id": 23986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120386?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ashlink Gloves",
+					"id": 120386
+				}
+			},
+			{
+				"id": 23987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120392?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blacksteel Gauntlets",
+					"id": 120392
+				}
+			},
+			{
+				"id": 23988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/120374?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ebonflame Grips",
+					"id": 120374
+				}
+			},
+			{
+				"id": 32027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soul Priest's Gloves",
+					"id": 115562
+				}
+			},
+			{
+				"id": 32028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blackhand's Handguards",
+					"id": 115583
+				}
+			},
+			{
+				"id": 32029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rylakstalker's Gloves",
+					"id": 115549
+				}
+			},
+			{
+				"id": 32030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Somber Gaze",
+					"id": 115555
+				}
+			},
+			{
+				"id": 32031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115541?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Wood Grips",
+					"id": 115541
+				}
+			},
+			{
+				"id": 32032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadow Council's Gloves",
+					"id": 115585
+				}
+			},
+			{
+				"id": 32033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115567?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Guiding Light",
+					"id": 115567
+				}
+			},
+			{
+				"id": 32034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115571?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poisoner's Gloves",
+					"id": 115571
+				}
+			},
+			{
+				"id": 32035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arcanoshatter Gloves",
+					"id": 115552
+				}
+			},
+			{
+				"id": 32036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ogreskull Boneplate Gauntlets",
+					"id": 115538
+				}
+			},
+			{
+				"id": 32037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/115578?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Windspeaker's Handwraps",
+					"id": 115578
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10006,
+				"title": "Overview",
+				"body_text": "The Iron Maidens continuously gain Iron Fury, progressively unlocking new abilities. \r\n\r\nPeriodically, one of the Maidens moves to the Dreadnaught to bombard players with its cannon. A team of players must use loading chains to get to the deck of the boat, defeat the Deckhand stationed there, and sabotage the ammunition of the main cannon before it finishes [Warming Up].\r\n\r\nWhen any one of the Maidens reaches 20% health, all three activate [Iron Will] for the remainder of the fight.",
+				"sections": [
+					{
+						"id": 10014,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Blade Dash] can be deadly - avoid standing close to other players if you are battling Sorka.\r\n$bullet;Intercept Garan's [Penetrating Shot] to save the targeted player."
+					},
+					{
+						"id": 10015,
+						"title": "Healers",
+						"body_text": "$bullet;Players who fail to avoid the [Detonation Sequence] from bombs fired by the Dreadnaught's main cannon will take heavy damage.\r\n$bullet;While [Sanguine Strikes], is active, the raid while take heavy Shadow damage.\r\n$bullet;Ensure players targeted by [Dark Hunt] are not low on health when it expires."
+					},
+					{
+						"id": 10016,
+						"title": "Tanks",
+						"body_text": "$bullet;Move between Marak and the target of her [Blood Ritual] to intercept the effect of [Crystalized Blood].\r\n$bullet;Minimize damage taken by Marak's melee strikes while [Sanguine Strikes] is active.\r\n$bullet;Pursue Sorka or Marak when they board the Dreadnaught to bombard the docks."
+					}
+				]
+			},
+			{
+				"id": 10018,
+				"title": "The Iron Maidens",
+				"sections": [
+					{
+						"id": 10693,
+						"title": "Iron Will",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/159337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Iron Will",
+							"id": 159337
+						}
+					},
+					{
+						"id": 10025,
+						"title": "Admiral Gar'an",
+						"sections": [
+							{
+								"id": 10026,
+								"title": "Iron Shot",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156666?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Iron Shot",
+									"id": 156666
+								}
+							},
+							{
+								"id": 10027,
+								"title": "Rapid Fire",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156629?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Rapid Fire",
+									"id": 156629
+								}
+							},
+							{
+								"id": 10028,
+								"title": "Penetrating Shot",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/164264?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Penetrating Shot",
+									"id": 164264
+								}
+							},
+							{
+								"id": 10029,
+								"title": "Deploy Turret",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/159585?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Deploy Turret",
+									"id": 159585
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53982?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53982
+						}
+					},
+					{
+						"id": 10030,
+						"title": "Enforcer Sorka",
+						"sections": [
+							{
+								"id": 10031,
+								"title": "Blade Dash",
+								"sections": [
+									{
+										"id": 10570,
+										"title": "Swirling Vortex",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/160435?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Swirling Vortex",
+											"id": 160435
+										}
+									},
+									{
+										"id": 10576,
+										"title": "Sorka's Prey",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170395?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Sorka's Prey",
+											"id": 170395
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160796?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Blade Dash",
+									"id": 160796
+								}
+							},
+							{
+								"id": 10571,
+								"title": "Convulsive Shadows",
+								"sections": [
+									{
+										"id": 10850,
+										"title": "Lingering Shadow",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/156210?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Lingering Shadow",
+											"id": 156210
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156112?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Convulsive Shadows",
+									"id": 156112
+								}
+							},
+							{
+								"id": 10034,
+								"title": "Dark Hunt",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158315?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dark Hunt",
+									"id": 158315
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53752?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53752
+						}
+					},
+					{
+						"id": 10033,
+						"title": "Marak the Blooded",
+						"sections": [
+							{
+								"id": 10036,
+								"title": "Blood Ritual",
+								"sections": [
+									{
+										"id": 10849,
+										"title": "Crystallized Blood",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158080?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Crystallized Blood",
+											"id": 158080
+										}
+									},
+									{
+										"id": 10577,
+										"title": "Marak's Bloodcalling",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/170405?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Marak's Bloodcalling",
+											"id": 170405
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158078?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Blood Ritual",
+									"id": 158078
+								}
+							},
+							{
+								"id": 10037,
+								"title": "Bloodsoaked Heartseeker",
+								"sections": [
+									{
+										"id": 10853,
+										"title": "Volatile Blood Orb",
+										"sections": [
+											{
+												"id": 10652,
+												"title": "Volatile Bloodbath",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/173901?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Volatile Bloodbath",
+													"id": 173901
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/173900?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volatile Blood Orb",
+											"id": 173900
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/158008?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Bloodsoaked Heartseeker",
+									"id": 158008
+								}
+							},
+							{
+								"id": 10038,
+								"title": "Sanguine Strikes",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/156601?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Sanguine Strikes",
+									"id": 156601
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/53876?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 53876
+						}
+					}
+				]
+			},
+			{
+				"id": 10019,
+				"title": "The Dreadnaught",
+				"body_text": "When one of the Maidens mans the Dreadnaught's main gun, a group of players must use the loading chains to travel to the Dreadnaught and defeat that Maiden's deckhand before the Maiden completes the warmup sequence of the main gun.\r\n\r\nWhile the gun is warming up, the main cannon will barrage the docks with bombs, which players who remain on the docks must avoid.",
+				"sections": [
+					{
+						"id": 10854,
+						"title": "Bombardment Pattern",
+						"body_text": "One of the Maidens fires a barrage of bombs with the main cannon of the ship towards the dock.\r\n\r\nAfter the initial barrage, the main cannon fires a much larger burst of bombs towards the dock.",
+						"sections": [
+							{
+								"id": 10855,
+								"title": "Bomb Impact",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/160733?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Bomb Impact",
+									"id": 160733
+								}
+							},
+							{
+								"id": 10856,
+								"title": "Detonation Sequence",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/157884?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Detonation Sequence",
+									"id": 157884
+								}
+							}
+						]
+					},
+					{
+						"id": 10039,
+						"title": "Blackrock Deckhand",
+						"sections": [
+							{
+								"id": 10040,
+								"title": "Uktar, Deckhand of Admiral Gar'an",
+								"body_text": "Defeating Uktar will reveal the Dreadnaught Cannon's ammunition reserves.",
+								"sections": [
+									{
+										"id": 10041,
+										"title": "Grapeshot Blast",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158695?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Grapeshot Blast",
+											"id": 158695
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54455?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54455
+								}
+							},
+							{
+								"id": 10042,
+								"title": "Battle Medic Rogg",
+								"sections": [
+									{
+										"id": 10573,
+										"title": "Earthen Barrier",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158708?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Earthen Barrier",
+											"id": 158708
+										}
+									},
+									{
+										"id": 10574,
+										"title": "Protective Earth",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158707?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Protective Earth",
+											"id": 158707
+										}
+									},
+									{
+										"id": 10575,
+										"title": "Chain Lightning",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158710?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Chain Lightning",
+											"id": 158710
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54456?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54456
+								}
+							}
+						]
+					},
+					{
+						"id": 10043,
+						"title": "Shattered Hand Deckhand",
+						"sections": [
+							{
+								"id": 10045,
+								"title": "Gorak, Deckhand of Enforcer Sorka",
+								"body_text": "Defeating Gorak will reveal the Dreadnaught Cannon's ammunition reserves.",
+								"sections": [
+									{
+										"id": 10046,
+										"title": "Deadly Throw",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158692?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Deadly Throw",
+											"id": 158692
+										}
+									},
+									{
+										"id": 10047,
+										"title": "Call for Reinforcements",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158701?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Call for Reinforcements",
+											"id": 158701
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54448?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54448
+								}
+							},
+							{
+								"id": 10048,
+								"title": "Iron Eviscerator",
+								"sections": [
+									{
+										"id": 10049,
+										"title": "Fixate",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158702?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Fixate",
+											"id": 158702
+										}
+									},
+									{
+										"id": 10050,
+										"title": "Swiftness",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158689?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Swiftness",
+											"id": 158689
+										}
+									},
+									{
+										"id": 10051,
+										"title": "Expose Armor",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158686?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Expose Armor",
+											"id": 158686
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/54450?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 54450
+								}
+							}
+						]
+					},
+					{
+						"id": 10044,
+						"title": "Bleeding Hollow Deckhand",
+						"sections": [
+							{
+								"id": 10052,
+								"title": "Uk'urogg, Deckhand of Marak the Blooded",
+								"body_text": "Defeating Uk'urogg will reveal the Dreadnaught Cannon's ammunition reserves.",
+								"sections": [
+									{
+										"id": 10053,
+										"title": "Blood Corruption Aura",
+										"sections": [
+											{
+												"id": 10054,
+												"title": "Corrupted Blood",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/158683?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Corrupted Blood",
+													"id": 158683
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/158731?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Blood Corruption Aura",
+											"id": 158731
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/59051?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 59051
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/457?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackrock Foundry",
+			"id": 457
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			}
+		]
+	}
+}

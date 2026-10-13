@@ -1,0 +1,1230 @@
+{
+	"id": 171,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/171?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 171,
+		"name": "Atramedes",
+		"description": "Atramedes, o el experimento 25463-D, es un intento fallido de conferirle sentidos mejorados a una cría de dragón Negro. El bálsamo tóxico que le aplicaron a la estirpe le dejó ciego, obligándole a confiar en su oído y su olfato para sobrevivir. Sería una historia trágica... si Atramedes no fuera tan malvado.",
+		"creatures": [
+			{
+				"id": 594,
+				"name": "Atramedes",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34547?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34547
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65056?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de Ojoardiente",
+					"id": 65056
+				}
+			},
+			{
+				"id": 10121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65058?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios el Oscurecedor",
+					"id": 65058
+				}
+			},
+			{
+				"id": 10122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto Ferroestrella",
+					"id": 65059
+				}
+			},
+			{
+				"id": 10123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65060?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Camisola del desatendido",
+					"id": 65060
+				}
+			},
+			{
+				"id": 10124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del ciego",
+					"id": 65061
+				}
+			},
+			{
+				"id": 10126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65062?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de los antiguos reyes",
+					"id": 65062
+				}
+			},
+			{
+				"id": 10129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65063?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de vértigo",
+					"id": 65063
+				}
+			},
+			{
+				"id": 10130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vidente ciego",
+					"id": 65066
+				}
+			},
+			{
+				"id": 10131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vidente ciego",
+					"id": 59312
+				}
+			},
+			{
+				"id": 10132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de vértigo",
+					"id": 59315
+				}
+			},
+			{
+				"id": 10133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de los antiguos reyes",
+					"id": 59316
+				}
+			},
+			{
+				"id": 10134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del ciego",
+					"id": 59317
+				}
+			},
+			{
+				"id": 10135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Camisola del desatendido",
+					"id": 59318
+				}
+			},
+			{
+				"id": 10136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto Ferroestrella",
+					"id": 59319
+				}
+			},
+			{
+				"id": 10137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios el Oscurecedor",
+					"id": 59320
+				}
+			},
+			{
+				"id": 10138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de Ojoardiente",
+					"id": 59322
+				}
+			},
+			{
+				"id": 10139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cacofonía",
+					"id": 59324
+				}
+			},
+			{
+				"id": 10140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón del reino",
+					"id": 65052
+				}
+			},
+			{
+				"id": 10141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de llamas vivas",
+					"id": 59325
+				}
+			},
+			{
+				"id": 10142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65053?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Campana de resonancia enfurecedora",
+					"id": 65053
+				}
+			},
+			{
+				"id": 10143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Campana de resonancia enfurecedora",
+					"id": 59326
+				}
+			},
+			{
+				"id": 10144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65054?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de llamas vivas",
+					"id": 65054
+				}
+			},
+			{
+				"id": 10145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón del reino",
+					"id": 59327
+				}
+			},
+			{
+				"id": 10146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65055?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cacofonía",
+					"id": 65055
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3072,
+				"title": "Sonido",
+				"body_text": "Atramedes está ciego y se orienta por el sonido para cazar. Los jugadores comienzan la batalla con 0 p. de sonido y lo obtienen al recibir daño. Atramedes lanza Devastación sobre los objetivos con 100 p. de sonido y los mata rápidamente.\r\n\r\nAl usar un escudo enano antiguo se reinicia el sonido de todos los jugadores."
+			},
+			{
+				"id": 3073,
+				"title": "Escudos enanos antiguos",
+				"body_text": "Hay repartidos 10 escudos enanos antiguos por la sala. Los jugadores pueden golpear cualquiera de estos escudos, lo que causa Fragor resonador, que interrumpe el lanzamiento de hechizos de Atramedes, reinicia el sonido de todos los jugadores y provoca Vértigo a Atramedes. Cuando Atramedes se recupera del Vértigo, destruye el escudo.",
+				"sections": [
+					{
+						"id": 3074,
+						"title": "Fragor resonador",
+						"body_text": "El sonido que resuena del escudo enano antiguo interrumpe el lanzamiento de Atramedes.\r\n\r\nMientras esté en el aire, Atramedes cambia el objetivo de su Aliento de llama rugidora al jugador que lance Fragor resonador.",
+						"sections": [
+							{
+								"id": 3075,
+								"title": "Vértigo",
+								"body_text": "El Fragor resonador sume a Atramedes en un estado de Vértigo, lo que aumenta un 50% el daño recibido durante 5 s."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3061,
+				"title": "Facultades de suelo",
+				"body_text": "Atramedes comienza el combate en el suelo.",
+				"sections": [
+					{
+						"id": 3076,
+						"title": "Impulso de sónar",
+						"body_text": "Atramedes envía periódicamente discos de energía sónica para localizar a los jugadores. El jugador golpeado por Impulso de sónar obtiene 3 p. de sonido."
+					},
+					{
+						"id": 3077,
+						"title": "Modulación",
+						"body_text": "Atramedes lanza Modulación, lo que inflige 0 p. de daño de las Sombras."
+					},
+					{
+						"id": 3078,
+						"title": "Aliento sónico",
+						"body_text": "Atramedes rastrea a un jugador aleatorio y respira fuego mientras se vuelve hacia el jugador. La llama sónica inflige 0 p. de daño de Fuego a todos los enemigos en su camino y genera 20 p. de sonido."
+					},
+					{
+						"id": 3079,
+						"title": "Llamas abrasadoras",
+						"body_text": "Atramedes canaliza e inunda la sala con llamas. Las llamas infligen 0 p. de daño de Fuego cada 2 s y aumenta un 50% el daño de Fuego recibido durante 6 s. El daño aumenta un 2% por cantidad de sonido en el objetivo. Fragor resonador interrumpe la canalización de Llamas abrasadoras.\r\n\r\nLlamas abrasadoras deja una zona de Llamas abrasadoras en el suelo durante 4 s.",
+						"sections": [
+							{
+								"id": 3080,
+								"title": "Llamas rugidoras",
+								"body_text": "Llamas abrasadoras crea zonas de Llama rugidora en el suelo. Los jugadores que cruzan las Llamas abrasadoras reciben 0 p. de daño de Fuego y 0 p. de daño de Fuego extra cada 1 s durante 4 s. Las Llamas rugidoras también añaden 5 p. de sonido."
+							}
+						]
+					},
+					{
+						"id": 3455,
+						"title": "Devastación",
+						"body_text": "Atramedes canaliza Devastación sobre todos los jugadores con 100 p. de sonido, lo que inflige 0 p. de daño de Fuego cada 0,5 s."
+					}
+				]
+			},
+			{
+				"id": 3081,
+				"title": "Facultades aéreas",
+				"body_text": "Atramedes se eleva en el aire periódicamente durante el combate y descarga destrucción sobre sus enemigos desde arriba.",
+				"sections": [
+					{
+						"id": 3086,
+						"title": "Aliento de llama rugidora",
+						"body_text": "Atramedes exhala un aliento de llamas que sigue a un jugador aleatorio por la sala. El Aliento de llama rugidora inflige 0 p. de daño de Fuego y deja a su paso llamas rugidoras. La velocidad del aliento aumenta con el tiempo.\r\n\r\nFragor resonador interrumpe temporalmente el progreso del aliento, pero Atramedes siempre seleccionará al jugador que haya utilizado el escudo enano antiguo.",
+						"sections": [
+							{
+								"id": 3087,
+								"title": "Llamas rugidoras",
+								"body_text": "Aliento de llama rugidora crea zonas de Llama rugidora en el suelo. Los jugadores que crucen las Llamas rugidoras reciben 0 p. de daño de Fuego y 0 p. de daño de Fuego extra cada 1 s durante 4 s. Llamas rugidoras también añade 5 p. de sonido."
+							}
+						]
+					},
+					{
+						"id": 3085,
+						"title": "Bomba de sónar",
+						"body_text": "Mientras está en el aire, Atramedes lanza Bombas de sónar a jugadores aleatorios. El impacto de Bomba de sónar inflige 0 p. de daño Arcano a los enemigos en un radio de 6 m y aumenta su sonido 20 p."
+					},
+					{
+						"id": 3088,
+						"title": "Bola de Fuego sónica",
+						"body_text": "Atramedes lanza Bolas de Fuego sónicas en las áreas donde aterrizan sus Bombas de sónar. Las Bolas de fuego sónicas infligen 0 p. de daño de Fuego a todos los enemigos en un radio de 50000 m del objetivo."
+					}
+				]
+			},
+			{
+				"id": 3082,
+				"title": "Maligno execrable",
+				"body_text": "Lord Victor Nefarius se inmiscuye en el combate y abre portales aleatoriamente para hacer que los malignos execrables se unan a la pelea. Cada maligno execrable salta sobre la espalda de un jugador aleatorio e intenta aumentar el sonido de ese jugador.",
+				"sections": [
+					{
+						"id": 3083,
+						"title": "Cambio de fase",
+						"body_text": "Los malignos execrables son inmunes a los hechizos cuando no están sobre la espalda de un jugador."
+					},
+					{
+						"id": 3084,
+						"title": "Execrable",
+						"body_text": "Cuando un maligno execrable salta a la espalda de un jugador, el maligno lanza Execrable para aumentar 10 p. el sonido de ese jugador."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18038?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18038
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/171?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 171,
+		"name": "Atramédès",
+		"description": "Atramédès, ou expérience 25463-D, est une tentative ratée de conférer des sens améliorés à un dragonnet noir. Le baume toxique appliqué sur le rejeton l'a privé de la vue, le forçant à ne compter que sur son ouïe et son odorat pour survivre. Une histoire tragique... si Atramédès n'était pas aussi mauvais.",
+		"creatures": [
+			{
+				"id": 594,
+				"name": "Atramédès",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34547?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34547
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65056?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l'Oeil-Brûlant",
+					"id": 65056
+				}
+			},
+			{
+				"id": 10121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65058?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios le Porte-l'ombre",
+					"id": 65058
+				}
+			},
+			{
+				"id": 10122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette d'Etoile-de-Fer",
+					"id": 65059
+				}
+			},
+			{
+				"id": 10123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65060?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liquette du négligé",
+					"id": 65060
+				}
+			},
+			{
+				"id": 10124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du non-voyant",
+					"id": 65061
+				}
+			},
+			{
+				"id": 10126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65062?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille d'anciens rois",
+					"id": 65062
+				}
+			},
+			{
+				"id": 10129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65063?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de vertige",
+					"id": 65063
+				}
+			},
+			{
+				"id": 10130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du voyant aveugle",
+					"id": 65066
+				}
+			},
+			{
+				"id": 10131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du voyant aveugle",
+					"id": 59312
+				}
+			},
+			{
+				"id": 10132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de vertige",
+					"id": 59315
+				}
+			},
+			{
+				"id": 10133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille d'anciens rois",
+					"id": 59316
+				}
+			},
+			{
+				"id": 10134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du non-voyant",
+					"id": 59317
+				}
+			},
+			{
+				"id": 10135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liquette du négligé",
+					"id": 59318
+				}
+			},
+			{
+				"id": 10136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette d'Etoile-de-Fer",
+					"id": 59319
+				}
+			},
+			{
+				"id": 10137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios le Porte-l'ombre",
+					"id": 59320
+				}
+			},
+			{
+				"id": 10138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l'Oeil-Brûlant",
+					"id": 59322
+				}
+			},
+			{
+				"id": 10139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de cacophonie",
+					"id": 59324
+				}
+			},
+			{
+				"id": 10140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur du royaume",
+					"id": 65052
+				}
+			},
+			{
+				"id": 10141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des flammes rugissantes",
+					"id": 59325
+				}
+			},
+			{
+				"id": 10142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65053?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloche de résonance enragée",
+					"id": 65053
+				}
+			},
+			{
+				"id": 10143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloche de résonance enragée",
+					"id": 59326
+				}
+			},
+			{
+				"id": 10144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65054?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des flammes rugissantes",
+					"id": 65054
+				}
+			},
+			{
+				"id": 10145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur du royaume",
+					"id": 59327
+				}
+			},
+			{
+				"id": 10146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65055?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de cacophonie",
+					"id": 65055
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3072,
+				"title": "Son",
+				"body_text": "Atramédès est aveugle et repère ses proies au son qu’elles émettent. Les personnages-joueurs commencent la rencontre à zéro point de son et en accumulent quand ils subissent des dégâts. Atramédès canalise Dévastation sur les cibles ayant 100 points de son et les tue rapidement.\r\n\r\nL'utilisation d'un Ancien bouclier nain réinitialise le niveau sonore de tous les membres du raid."
+			},
+			{
+				"id": 3073,
+				"title": "Anciens boucliers nains",
+				"body_text": "Dix Anciens boucliers nains sont placés tout autour de la pièce. N’importe quel personnage-joueur peut les frapper, ce qui provoque un Fracas résonnant qui interrompt l’incantation d’Atramédès et réinitialise la barre de son de chaque personnage-joueur, en plus de provoquer un Vertige chez Atramédès. Lorsque Atramédès se remet de son Vertige, il détruit le bouclier.",
+				"sections": [
+					{
+						"id": 3074,
+						"title": "Fracas résonnant",
+						"body_text": "Le son qui se répercute sur l’Ancien bouclier nain interrompt les incantations d’Atramédès.\r\n\r\nQuand il est en vol, Atramédès détourne son Souffle de flamme ronflante de sa cible actuelle pour le concentrer sur le personnage-joueur qui a utilisé l’Ancien bouclier nain.",
+						"sections": [
+							{
+								"id": 3075,
+								"title": "Vertige",
+								"body_text": "Le Fracas résonnant plonge Atramédès dans un état de Vertige, ce qui augmente les points de dégâts reçus de 50% pendant 5 s."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3061,
+				"title": "Techniques au sol",
+				"body_text": "Atramédès entame le combat au sol.",
+				"sections": [
+					{
+						"id": 3076,
+						"title": "Pulsation de sonar",
+						"body_text": "Atramédès envoie périodiquement des disques d’énergie sonique pour situer les personnages-joueurs. Ceux qui sont atteints par une Pulsation de sonar obtiennent 3 points de son."
+					},
+					{
+						"id": 3077,
+						"title": "Modulation",
+						"body_text": "Atramédès lance Modulation, infligeant 0 points de dégâts d’Ombre."
+					},
+					{
+						"id": 3078,
+						"title": "Souffle sonique",
+						"body_text": "Atramédès localise un personnage-joueur au hasard et exhale du feu tout en se tournant vers ce personnage-joueur. La flamme sonique inflige 0 points de dégâts de Feu à tous les ennemis sur son passage et génère 20 points de son."
+					},
+					{
+						"id": 3079,
+						"title": "Flammes incendiaires",
+						"body_text": "Atramédès canalise en remplissant la salle de flammes. Celles-ci infligent 0 points de dégâts de Feu toutes les 2 s et augmentent les points de dégâts de Feu reçus de 50% pendant 6 s. Les points de dégâts sont majorés de 2% pour chaque point de Son présent sur la cible. Fracas résonnant interrompt la canalisation de Flammes incendiaires.\r\n\r\nAprès s’être retirées, les Flammes incendiaires laissent au sol des nappes de Flammes ronflantes qui s’éteignent après 4 s.",
+						"sections": [
+							{
+								"id": 3080,
+								"title": "Flammes ronflantes",
+								"body_text": "Les Flammes incendiaires laissent sur le sol des nappes de Flammes ronflantes. Les personnages-joueurs qui les traversent subissent 0 points de dégâts de Feu, ainsi que 0 points de dégâts de Feu supplémentaires toutes les 1 s pendant 4 s. Les Flammes ronflantes génèrent aussi 5 points de son."
+							}
+						]
+					},
+					{
+						"id": 3455,
+						"title": "Dévastation",
+						"body_text": "Atramédès canalise sa Dévastation sur tous les personnages-joueurs ayant 100 points de son, leur infligeant 0 points de dégâts de Feu toutes les 0,5 s."
+					}
+				]
+			},
+			{
+				"id": 3081,
+				"title": "Techniques en vol",
+				"body_text": "Atramédès s’envole régulièrement au cours du combat et fait pleuvoir la destruction sur ses ennemis.",
+				"sections": [
+					{
+						"id": 3086,
+						"title": "Souffle de flamme ronflante",
+						"body_text": "Atramédès exhale un flot de flammes qui suit un personnage-joueur au hasard à travers la salle. Le Souffle de flammes ronflantes inflige 0 points de dégâts de Feu et laisse des Flammes ronflantes dans son sillage. La vitesse de déplacement du souffle augmente avec le temps.\r\n\r\nUn Fracas résonnant interrompt temporairement la progression du souffle, mais Atramédès finit par rediriger les flammes sur un personnage-joueur qui a utilisé l’Ancien bouclier nain.",
+						"sections": [
+							{
+								"id": 3087,
+								"title": "Flammes ronflantes",
+								"body_text": "Le Souffle de flammes ronflantes laisse sur le sol des nappes de flammes ronflantes. Les personnages-joueurs qui les traversent subissent 0 points de dégâts de Feu, ainsi que 0 points de dégâts de Feu supplémentaires toutes les 1 s pendant 4 s. Les Flammes ronflantes génèrent aussi 5 points de son."
+							}
+						]
+					},
+					{
+						"id": 3085,
+						"title": "Bombe sonar",
+						"body_text": "Atramédès largue des Bombes sonar à l’emplacement de personnages-joueurs au hasard. Une Bombe sonar inflige 0 points de dégâts des Arcanes aux ennemis dans un rayon de 6 mètres de l’endroit ciblé et augmente leur niveau sonore de 20."
+					},
+					{
+						"id": 3088,
+						"title": "Boule de feu sonique",
+						"body_text": "Atramédès projette des boules de feu soniques là où ses bombes sonar ont atterri. Les boules de feu soniques infligent 0 points de dégâts de Feu à tous les ennemis à moins de 50000 mètres de la cible."
+					}
+				]
+			},
+			{
+				"id": 3082,
+				"title": "Démon odieux",
+				"body_text": "Le seigneur Victor Nefarius intervient pendant la rencontre, ouvrant aléatoirement des portails et permettant aux démons odieux de se joindre au combat. Chaque démon odieux saute sur le dos d’un personnage-joueur aléatoire et tente d’augmenter le Son du personnage-joueur.",
+				"sections": [
+					{
+						"id": 3083,
+						"title": "Changement de phase",
+						"body_text": "Les démons odieux sont immunisés contre les sorts quand ils ne sont pas sur le dos d’un personnage-joueur."
+					},
+					{
+						"id": 3084,
+						"title": "Odieux",
+						"body_text": "Lorsqu’un démon odieux saute sur le dos d’un personnage-joueur, il lance Odieux pour augmenter le Son du personnage-joueur de 10."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18038?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18038
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/171?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 171,
+		"name": "Atramedes",
+		"description": "Atramedes, or Experiment 25463-D, is a failed attempt to bestow enhanced senses on a black dragon whelp. The toxic salve applied to the broodling robbed him of sight, forcing him to rely on sound and smell for survival. A tragic story... if Atramedes weren't so evil.",
+		"creatures": [
+			{
+				"id": 594,
+				"name": "Atramedes",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34547?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34547
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10120,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65056?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Burningeye",
+					"id": 65056
+				}
+			},
+			{
+				"id": 10121,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65058?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios the Darkbringer",
+					"id": 65058
+				}
+			},
+			{
+				"id": 10122,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65059?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ironstar Amulet",
+					"id": 65059
+				}
+			},
+			{
+				"id": 10123,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65060?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sark of the Unwatched",
+					"id": 65060
+				}
+			},
+			{
+				"id": 10124,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65061?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Unseeing",
+					"id": 65061
+				}
+			},
+			{
+				"id": 10126,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65062?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battleplate of Ancient Kings",
+					"id": 65062
+				}
+			},
+			{
+				"id": 10129,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65063?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boots of Vertigo",
+					"id": 65063
+				}
+			},
+			{
+				"id": 10130,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65066?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Blind Seer",
+					"id": 65066
+				}
+			},
+			{
+				"id": 10131,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Blind Seer",
+					"id": 59312
+				}
+			},
+			{
+				"id": 10132,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boots of Vertigo",
+					"id": 59315
+				}
+			},
+			{
+				"id": 10133,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battleplate of Ancient Kings",
+					"id": 59316
+				}
+			},
+			{
+				"id": 10134,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59317?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Unseeing",
+					"id": 59317
+				}
+			},
+			{
+				"id": 10135,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59318?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sark of the Unwatched",
+					"id": 59318
+				}
+			},
+			{
+				"id": 10136,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59319?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ironstar Amulet",
+					"id": 59319
+				}
+			},
+			{
+				"id": 10137,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Themios the Darkbringer",
+					"id": 59320
+				}
+			},
+			{
+				"id": 10138,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59322?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Burningeye",
+					"id": 59322
+				}
+			},
+			{
+				"id": 10139,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Cacophony",
+					"id": 59324
+				}
+			},
+			{
+				"id": 10140,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65052?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kingdom's Heart",
+					"id": 65052
+				}
+			},
+			{
+				"id": 10141,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Roaring Flames",
+					"id": 59325
+				}
+			},
+			{
+				"id": 10142,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65053?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bell of Enraging Resonance",
+					"id": 65053
+				}
+			},
+			{
+				"id": 10143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bell of Enraging Resonance",
+					"id": 59326
+				}
+			},
+			{
+				"id": 10144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65054?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Roaring Flames",
+					"id": 65054
+				}
+			},
+			{
+				"id": 10145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kingdom's Heart",
+					"id": 59327
+				}
+			},
+			{
+				"id": 10146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65055?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Cacophony",
+					"id": 65055
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3072,
+				"title": "Sound",
+				"body_text": "Atramedes is blind and hunts based on sound. Players begin the battle with 0 Sound and gain Sound when taking damage. Atramedes channels Devastation on targets with 100 Sound and quickly kills them.\r\n\r\nUsing an Ancient Dwarven Shield resets the Sound on all players."
+			},
+			{
+				"id": 3073,
+				"title": "Ancient Dwarven Shields",
+				"body_text": "Ten Ancient Dwarven Shields are positioned around the room. Any player can strike one of the shields and cause a Resonating Clash. This interrupts Atramedes' casting, resets the Sound on every player to zero, and gives Atramedes a case of Vertigo. When Atramedes recovers from Vertigo, he destroys the shield.",
+				"sections": [
+					{
+						"id": 3074,
+						"title": "Resonating Clash",
+						"body_text": "The sound resonating from the Ancient Dwarven Shield interrupts Atramedes' casting.\r\n\r\nWhile Airborne, Atramedes switches the target of his Roaring Flame Breath to the player who used the Ancient Dwarven Shield.",
+						"sections": [
+							{
+								"id": 3075,
+								"title": "Vertigo",
+								"body_text": "The Resonating Clash places Atramedes into a state of Vertigo, increasing damage taken by 50% for 5 sec."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3061,
+				"title": "Grounded Abilities",
+				"body_text": "Atramedes begins the fight on the ground.",
+				"sections": [
+					{
+						"id": 3076,
+						"title": "Sonar Pulse",
+						"body_text": "Atramedes periodically sends out discs of sonic energy to locate players. Players struck by a Sonar Pulse gain 3 Sound. "
+					},
+					{
+						"id": 3077,
+						"title": "Modulation",
+						"body_text": "Atramedes casts Modulation, inflicting 0 Shadow damage."
+					},
+					{
+						"id": 3078,
+						"title": "Sonic Breath",
+						"body_text": "Atramedes tracks on a random player, breathing fire as he turns towards that player. Sonic Flame inflicts 0 Fire damage to all players in its path and adds 20 Sound."
+					},
+					{
+						"id": 3079,
+						"title": "Searing Flames",
+						"body_text": "Atramedes channels and fills the room with flames. The flames inflict 0 Fire damage every 2 sec. and increases Fire damage taken by 50% for 6 sec. The damage increases by 2% for every point of Sound on the target. Resonating Clash interrupts the channeling of Searing Flames.\r\n\r\nSearing Flames leaves behind patches of Roaring Flames on the ground for 4 sec.",
+						"sections": [
+							{
+								"id": 3080,
+								"title": "Roaring Flames",
+								"body_text": "Searing Flames produces patches of Roaring Flame on the ground. Players crossing the Roaring Flames take 0 Fire damage and an additional 0 Fire damage every 1 sec for 4 sec. Roaring Flames also adds 5 Sound."
+							}
+						]
+					},
+					{
+						"id": 3455,
+						"title": "Devastation",
+						"body_text": "Atramedes channels Devastation on all players with 100 sound, inflicting 0 Fire damage every 0.5 second."
+					}
+				]
+			},
+			{
+				"id": 3081,
+				"title": "Airborne Abilities",
+				"body_text": "Atramedes periodically flies up into the air during the fight, raining destruction down on his enemies from above.",
+				"sections": [
+					{
+						"id": 3086,
+						"title": "Roaring Flame Breath",
+						"body_text": "Atramedes breathes a gout of flame that follows a random player around the room. The Roaring Flame Breath inflicts 0 Fire damage and leaves Roaring Flames in its wake. The movement of the breath speeds up over time.\r\n\r\nA Resonating Clash temporarily halts the progress of breath, but Atramedes then retargets the flames on a player that used the Ancient Dwarven Shield.",
+						"sections": [
+							{
+								"id": 3087,
+								"title": "Roaring Flames",
+								"body_text": "Roaring Flame Breath produces patches of Roaring Flame on the ground. Players crossing the Roaring Flames take 0 Fire damage and an additional 0 Fire damage every 1 sec for 4 sec. Roaring Flames also adds 5 Sound."
+							}
+						]
+					},
+					{
+						"id": 3085,
+						"title": "Sonar Bomb",
+						"body_text": "Atramedes launches Sonar Bombs at the locations of random players. The impact of the Sonar Bomb inflicts 0 Arcane damage to players within 6 yards of the targeted location and increases their Sound by 20."
+					},
+					{
+						"id": 3088,
+						"title": "Sonic Fireball",
+						"body_text": "Atramedes launches Sonic Fireballs at the areas where his Sonar Bombs landed. Sonic Fireballs inflict 0 Fire damage to all enemies within 50000 yards of the target."
+					}
+				]
+			},
+			{
+				"id": 3082,
+				"title": "Obnoxious Fiend",
+				"body_text": "Lord Victor Nefarius meddles in the fight, randomly opening portals and allowing Obnoxious Fiends to enter the fray. Each Obnoxious Fiend jumps on the back of a random player and tries to increase that player's Sound.",
+				"sections": [
+					{
+						"id": 3083,
+						"title": "Phase Shift",
+						"body_text": "Obnoxious Fiends are immune to spells when not on a player's back."
+					},
+					{
+						"id": 3084,
+						"title": "Obnoxious",
+						"body_text": "When an Obnoxious Fiend jumps on a player's back, it casts Obnoxious to increase that player's Sound by 10."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/18038?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 18038
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

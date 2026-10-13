@@ -1,0 +1,1140 @@
+{
+	"id": 172,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/172?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 172,
+		"name": "Chimaeron",
+		"description": "Terrorífico. Feo. Malvado. Mátalo.",
+		"creatures": [
+			{
+				"id": 595,
+				"name": "Chimaeron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33308?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33308
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tuerca del Bilistrón",
+					"id": 59233
+				}
+			},
+			{
+				"id": 10148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Galochas de paso veloz",
+					"id": 59234
+				}
+			},
+			{
+				"id": 10149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardabrazos de Chimaeron",
+					"id": 65028
+				}
+			},
+			{
+				"id": 10150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agitador de soluciones de Pip",
+					"id": 65064
+				}
+			},
+			{
+				"id": 10151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65065?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes salobres",
+					"id": 65065
+				}
+			},
+			{
+				"id": 10152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65067?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carga de mortalidad",
+					"id": 65067
+				}
+			},
+			{
+				"id": 10153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65068?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de bestia del caos",
+					"id": 65068
+				}
+			},
+			{
+				"id": 10154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Galochas de paso veloz",
+					"id": 65069
+				}
+			},
+			{
+				"id": 10155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65070?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tuerca del Bilistrón",
+					"id": 65070
+				}
+			},
+			{
+				"id": 10156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de bestia del caos",
+					"id": 59310
+				}
+			},
+			{
+				"id": 10157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carga de mortalidad",
+					"id": 59311
+				}
+			},
+			{
+				"id": 10158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños de provocación con placas",
+					"id": 65071
+				}
+			},
+			{
+				"id": 10159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65072?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón de ira",
+					"id": 65072
+				}
+			},
+			{
+				"id": 10160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes salobres",
+					"id": 59313
+				}
+			},
+			{
+				"id": 10161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65073?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de ataque doble",
+					"id": 65073
+				}
+			},
+			{
+				"id": 10162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agitador de soluciones de Pip",
+					"id": 59314
+				}
+			},
+			{
+				"id": 10163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65075?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de masacre",
+					"id": 65075
+				}
+			},
+			{
+				"id": 10164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de masacre",
+					"id": 59221
+				}
+			},
+			{
+				"id": 10165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59223?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de ataque doble",
+					"id": 59223
+				}
+			},
+			{
+				"id": 10166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón de ira",
+					"id": 59224
+				}
+			},
+			{
+				"id": 10167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños de provocación con placas",
+					"id": 59225
+				}
+			},
+			{
+				"id": 10168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardabrazos de Chimaeron",
+					"id": 59355
+				}
+			},
+			{
+				"id": 10169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de la bestia durmiente",
+					"id": 59451
+				}
+			},
+			{
+				"id": 10170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de la bestia durmiente",
+					"id": 65021
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3008,
+				"title": "Pip Perspicaz",
+				"body_text": "Nefarian ha capturado a Pip Perspicaz, un explorador gnomo extraordinario, y no se le puede liberar de la jaula hasta que se elimine a Chimaeron. Un jugador puede hablar con Pip antes de que empiece el combate para convencerle de que active su Bilistrón, que ayuda a la banda a mantenerse con vida. Al activar el Bilistrón también se despertará Chimaeron.",
+				"sections": [
+					{
+						"id": 3009,
+						"title": "Bilistrón",
+						"body_text": "Cuando Pip activa el Bilistrón, se mueve por la sala y rocía a los miembros de la banda con la mezcla de Pip mientras está activo. Chimaeron desconecta el Bilistrón periódicamente.",
+						"sections": [
+							{
+								"id": 3010,
+								"title": "Mezcla de Pip",
+								"body_text": "El Bilistrón rocía a la banda con la mezcla de Pip mientras está encendido. La mezcla de Pip evita que los jugadores con más de un 10% de salud caigan por debajo de 1 p. de salud."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/23361?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 23361
+						}
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33716
+				}
+			},
+			{
+				"id": 3011,
+				"title": "Fase 1: Algo que merece la pena ver",
+				"body_text": "Chimaeron ataca a su objetivo actual con Romper y Ataque doble mientras lanza continuamente Babosas cáusticas a la banda. Periódicamente, lanza Masacre a la banda y, a veces, sufrirá Enemistad después de Masacre.",
+				"sections": [
+					{
+						"id": 3012,
+						"title": "Babosa cáustica",
+						"body_text": "Chimaeron lanza Babosas cáusticas a dos jugadores aleatorios. Cada Babosa cáustica inflige 380 p. de daño de Naturaleza que se divide equitativamente entre todos los jugadores en un radio de 6 m del objetivo. Babosa cáustica también reduce un 75% la probabilidad de golpear durante 2,5 s."
+					},
+					{
+						"id": 3013,
+						"title": "Masacre",
+						"body_text": "Chimaeron golpea a todos los jugadores y les inflige daño masivo, lo que probablemente mata a todos los que no estén bajo los efectos de Mezcla de Pip.\r\n\r\nA veces, Masacre desconecta el Bilistrón durante un periodo de tiempo corto."
+					},
+					{
+						"id": 3014,
+						"title": "Enemistad",
+						"body_text": "Cuando Chimaeron desconecta el Bilistrón, sus dos cabezas comienzan a discutir entre ellas, lo que impide a Chimaeron realizar ataques cuerpo a cuerpo durante 30 s."
+					},
+					{
+						"id": 3015,
+						"title": "Romper",
+						"body_text": "Chimaeron ataca ferozmente, lo que atraviesa las defensas de su objetivo, aumenta un 25% el daño físico recibido y reduce un 15% la sanación realizada durante 1 min. Este efecto se acumula."
+					},
+					{
+						"id": 3016,
+						"title": "Ataque doble",
+						"body_text": "Chimaeron golpea 2 veces en su siguiente ataque."
+					}
+				]
+			},
+			{
+				"id": 3017,
+				"title": "Fase 2: Una creación terrorífica",
+				"body_text": "Cuando su salud está al 20%, Chimaeron se enfurece, lo que evita que sea provocado y reduce considerablemente la sanación que realiza la banda.",
+				"sections": [
+					{
+						"id": 3018,
+						"title": "Mortalidad",
+						"body_text": "Chimaeron se enfurece, lo que le hace inmune a los efectos de Provocar. Además, reduce un 99% los efectos de sanación realizada a la banda.\r\n\r\nEn las bandas de 10 jugadores, Chimaeron recibe un 10% de daño extra mientras Mortalidad está activo."
+					},
+					{
+						"id": 3019,
+						"title": "Ataque doble",
+						"body_text": "Chimaeron golpea 2 veces en su siguiente ataque."
+					},
+					{
+						"id": 3020,
+						"title": "Sombras burlescas",
+						"body_text": "Lord Victor Nefarius inflige 0 p. de daño de las Sombras por segundo a todos los jugadores."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descenso de Alanegra",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/172?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 172,
+		"name": "Chimaeron",
+		"description": "Terrifiant. Moche. Méchant. Tuez-le.",
+		"creatures": [
+			{
+				"id": 595,
+				"name": "Chimaeron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33308?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33308
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecrou de Bile-O-Tron",
+					"id": 59233
+				}
+			},
+			{
+				"id": 10148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Galoches de Preste-Jugeote",
+					"id": 59234
+				}
+			},
+			{
+				"id": 10149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-bras de Chimaeron",
+					"id": 65028
+				}
+			},
+			{
+				"id": 10150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mélangeur de solution de Pépin",
+					"id": 65064
+				}
+			},
+			{
+				"id": 10151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65065?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants des eaux saumâtres",
+					"id": 65065
+				}
+			},
+			{
+				"id": 10152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65067?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fardeau de mortalité",
+					"id": 65067
+				}
+			},
+			{
+				"id": 10153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65068?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de bête du chaos",
+					"id": 65068
+				}
+			},
+			{
+				"id": 10154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Galoches de Preste-Jugeote",
+					"id": 65069
+				}
+			},
+			{
+				"id": 10155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65070?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecrou de Bile-O-Tron",
+					"id": 65070
+				}
+			},
+			{
+				"id": 10156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de bête du chaos",
+					"id": 59310
+				}
+			},
+			{
+				"id": 10157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fardeau de mortalité",
+					"id": 59311
+				}
+			},
+			{
+				"id": 10158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poings de provocation cuirassés",
+					"id": 65071
+				}
+			},
+			{
+				"id": 10159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65072?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur de rage",
+					"id": 65072
+				}
+			},
+			{
+				"id": 10160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants des eaux saumâtres",
+					"id": 59313
+				}
+			},
+			{
+				"id": 10161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65073?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de double attaque",
+					"id": 65073
+				}
+			},
+			{
+				"id": 10162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mélangeur de solution de Pépin",
+					"id": 59314
+				}
+			},
+			{
+				"id": 10163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65075?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines du massacre",
+					"id": 65075
+				}
+			},
+			{
+				"id": 10164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines du massacre",
+					"id": 59221
+				}
+			},
+			{
+				"id": 10165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59223?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de double attaque",
+					"id": 59223
+				}
+			},
+			{
+				"id": 10166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur de rage",
+					"id": 59224
+				}
+			},
+			{
+				"id": 10167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poings de provocation cuirassés",
+					"id": 59225
+				}
+			},
+			{
+				"id": 10168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-bras de Chimaeron",
+					"id": 59355
+				}
+			},
+			{
+				"id": 10169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maniques de la bête endormie",
+					"id": 59451
+				}
+			},
+			{
+				"id": 10170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maniques de la bête endormie",
+					"id": 65021
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3008,
+				"title": "Pépin Preste-Jugeote",
+				"body_text": "Pépin Preste-Jugeote, grand explorateur gnome, s’est fait capturer par Nefarian et ne peut pas être libéré de sa cage tant que Chimaeron est vivant. Un membre du raid peut parler à Pépin avant le début du combat pour le convaincre d’activer son Bile-O-Tron, qui aidera à maintenir le raid en vie. Activer le Bile-O-Tron réveille également Chimaeron.",
+				"sections": [
+					{
+						"id": 3009,
+						"title": "Bile-O-Tron",
+						"body_text": "Lorsque Pépin active son Bile-O-Tron, ce dernier fait le tour de la salle et asperge les membres du raid d’une Mixture de Pépin tant qu’il est actif. De temps en temps, Chimaeron frappe le Bile-O-Tron et le désactive.",
+						"sections": [
+							{
+								"id": 3010,
+								"title": "Mixture de Pépin",
+								"body_text": "Le Bile-O-Tron projette la mixture de Pépin sur le raid tant qu’il est activé. La mixture de Pépin empêche les membres du raid ayant plus de 10% de leurs points de vie de tomber à moins de 1 point de vie."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/23361?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 23361
+						}
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33716
+				}
+			},
+			{
+				"id": 3011,
+				"title": "Phase 1 : Ça vaut vraiment le détour",
+				"body_text": "Chimaeron attaque sa cible actuelle avec Brèche et Attaque double, tout en aspergeant continuellement le raid de Gelée caustique. Il incante périodiquement Massacre sur le raid, et ses têtes enchaînent parfois avec Querelle.",
+				"sections": [
+					{
+						"id": 3012,
+						"title": "Gelée caustique",
+						"body_text": "Chimaeron lance régulièrement une Gelée caustique sur deux personnages-joueurs aléatoires. Chaque Gelée caustique inflige 380 points de dégâts de Nature, divisés équitablement entre tous les personnages-joueurs dans un rayon de 6 mètres autour de la cible. La Gelée caustique réduit également les chances de toucher de 75% pendant 2,5 s."
+					},
+					{
+						"id": 3013,
+						"title": "Massacre",
+						"body_text": "Chimaeron inflige d’importants dégâts aux personnages-joueurs et doit pouvoir tuer ceux qui ne sont pas sous l’effet de la Mixture de pépin.\r\n\r\nMassacre heurte parfois le Bile-O-Tron et le désactive pendant un court instant."
+					},
+					{
+						"id": 3014,
+						"title": "Querelle",
+						"body_text": "Lorsque Chimaeron désactive le Bile-O-Tron, ses deux têtes se mettent à se battre, l'empêchant de lancer ses attaques en mêlée pendant 30 s. "
+					},
+					{
+						"id": 3015,
+						"title": "Brèche",
+						"body_text": "Chimaeron lance une attaque vicieuse qui perce les défenses de sa cible, augmente les dégâts physiques qu’elle subit de 25% et réduit les soins qu’elle reçoit de 15% pendant 1 min. Cet effet est cumulable."
+					},
+					{
+						"id": 3016,
+						"title": "Attaque double",
+						"body_text": "Chimaeron frappe deux fois avec son attaque suivante."
+					}
+				]
+			},
+			{
+				"id": 3017,
+				"title": "Phase 2 : Une terrifiante création",
+				"body_text": "Lorsque ses points de vie tombent à 20% de leur maximum, Chimaeron entre dans une rage folle qui l’empêche d’être provoqué et réduit fortement les soins prodigués par les membres du raid.",
+				"sections": [
+					{
+						"id": 3018,
+						"title": "Mortalité",
+						"body_text": "Chimaeron entre dans une rage noire et devient immunisé contre les effets de provocation. De plus, il réduit les effets des soins prodigués aux personnages-joueurs de 99%.\r\n\r\nEn raid à 10, les dégâts subis par Chimaeron sont augmentés de 10% tant que le sort Mortalité est actif."
+					},
+					{
+						"id": 3019,
+						"title": "Attaque double",
+						"body_text": "Chimaeron frappe deux fois avec son attaque suivante."
+					},
+					{
+						"id": 3020,
+						"title": "Ombres moqueuses",
+						"body_text": "Le seigneur Victor Nefarius inflige 0 points de dégâts d’Ombre chaque seconde à tous les personnages-joueurs."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Descente de l’Aile noire",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/172?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 172,
+		"name": "Chimaeron",
+		"description": "Terrifying. Ugly. Evil. Kill it.",
+		"creatures": [
+			{
+				"id": 595,
+				"name": "Chimaeron",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33308?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33308
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bile-O-Tron Nut",
+					"id": 59233
+				}
+			},
+			{
+				"id": 10148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quickstep Galoshes",
+					"id": 59234
+				}
+			},
+			{
+				"id": 10149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chimaeron Armguards",
+					"id": 65028
+				}
+			},
+			{
+				"id": 10150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65064?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pip's Solution Agitator",
+					"id": 65064
+				}
+			},
+			{
+				"id": 10151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65065?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brackish Gloves",
+					"id": 65065
+				}
+			},
+			{
+				"id": 10152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65067?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Burden of Mortality",
+					"id": 65067
+				}
+			},
+			{
+				"id": 10153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65068?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaos Beast Bracers",
+					"id": 65068
+				}
+			},
+			{
+				"id": 10154,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65069?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quickstep Galoshes",
+					"id": 65069
+				}
+			},
+			{
+				"id": 10155,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65070?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bile-O-Tron Nut",
+					"id": 65070
+				}
+			},
+			{
+				"id": 10156,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaos Beast Bracers",
+					"id": 59310
+				}
+			},
+			{
+				"id": 10157,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59311?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Burden of Mortality",
+					"id": 59311
+				}
+			},
+			{
+				"id": 10158,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65071?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plated Fists of Provocation",
+					"id": 65071
+				}
+			},
+			{
+				"id": 10159,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65072?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heart of Rage",
+					"id": 65072
+				}
+			},
+			{
+				"id": 10160,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59313?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brackish Gloves",
+					"id": 59313
+				}
+			},
+			{
+				"id": 10161,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65073?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Double Attack Handguards",
+					"id": 65073
+				}
+			},
+			{
+				"id": 10162,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pip's Solution Agitator",
+					"id": 59314
+				}
+			},
+			{
+				"id": 10163,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65075?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Massacre Treads",
+					"id": 65075
+				}
+			},
+			{
+				"id": 10164,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Massacre Treads",
+					"id": 59221
+				}
+			},
+			{
+				"id": 10165,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59223?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Double Attack Handguards",
+					"id": 59223
+				}
+			},
+			{
+				"id": 10166,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heart of Rage",
+					"id": 59224
+				}
+			},
+			{
+				"id": 10167,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59225?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plated Fists of Provocation",
+					"id": 59225
+				}
+			},
+			{
+				"id": 10168,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chimaeron Armguards",
+					"id": 59355
+				}
+			},
+			{
+				"id": 10169,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manacles of the Sleeping Beast",
+					"id": 59451
+				}
+			},
+			{
+				"id": 10170,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manacles of the Sleeping Beast",
+					"id": 65021
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3008,
+				"title": "Pip Quickwit",
+				"body_text": "Pip Quickwit, gnome explorer extraordinare, has been captured by Nefarian and cannot be freed from his cage until Chimaeron is slain. A player can talk to Pip before the fight begins to convince him to activate his Bile-O-Tron, which helps keep the raid alive. Activating the Bile-O-Tron also wakes Chimaeron.",
+				"sections": [
+					{
+						"id": 3009,
+						"title": "Bile-O-Tron",
+						"body_text": "When Pip activates the Bile-O-Tron, it moves about the room and sprays raid members with Pip's Mixture as long as it is active. Chimaeron periodically knocks the Bile-O-Tron offline.",
+						"sections": [
+							{
+								"id": 3010,
+								"title": "Pip's Mixture",
+								"body_text": "The Bile-O-Tron sprays Pip's Mixture on the raid while online. Pip's Mixture prevents players whose health is above 10% from dropping below 1 health."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/23361?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 23361
+						}
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33716?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 33716
+				}
+			},
+			{
+				"id": 3011,
+				"title": "Stage One: Truly Something to Behold",
+				"body_text": "Chimaeron attacks his current target with Break and Double Attack, while continually spraying Caustic Slime at the raid. He periodically casts Massacre on the raid, and his heads sometimes Feud following a Massacre.",
+				"sections": [
+					{
+						"id": 3012,
+						"title": "Caustic Slime",
+						"body_text": "Chimaeron lobs Caustic Slime at two random players.  Each Caustic Slime inflicts 380 Nature damage, divided evenly among all players within 6 yards of the target. Caustic Slime also reduces chance to hit by 75% for 2.5 sec."
+					},
+					{
+						"id": 3013,
+						"title": "Massacre",
+						"body_text": "Chimaeron hits all players for massive damage, probably killing anyone not under the effects of Pip's Mixture.\r\n\r\nMassacre sometimes knocks the Bile-O-Tron offline for a short period of time."
+					},
+					{
+						"id": 3014,
+						"title": "Feud",
+						"body_text": "Whenever Chimaeron knocks the Bile-O-Tron offline, his two heads begin to argue with each other, preventing Chimaeron from perfoming melee attacks for 30 sec. "
+					},
+					{
+						"id": 3015,
+						"title": "Break",
+						"body_text": "Chimaeron attacks viciously, breaking through his target's defenses and increasing their Physical damage taken by 25% and reducing healing done by 15% for 1 min. This effect stacks."
+					},
+					{
+						"id": 3016,
+						"title": "Double Attack",
+						"body_text": "Chimaeron strikes twice with his next attack."
+					}
+				]
+			},
+			{
+				"id": 3017,
+				"title": "Stage Two: A Horrific Creation",
+				"body_text": "At 20% health Chimaeron goes into a rage. This renders him immune to Taunt effects and greatly decreases healing done by players.",
+				"sections": [
+					{
+						"id": 3018,
+						"title": "Mortality",
+						"body_text": "Chimaeron goes into a rage, rendering him immune to Taunt effects. In addition, he reduces healing effects done to players by 99%.\r\n\r\nIn 10 player raids Chimaeron takes 10% increased damage while Mortality is active."
+					},
+					{
+						"id": 3019,
+						"title": "Double Attack",
+						"body_text": "Chimaeron strikes twice with his next attack."
+					},
+					{
+						"id": 3020,
+						"title": "Mocking Shadows",
+						"body_text": "Lord Victor Nefarius inflicts 0 Shadow damage every second to all players."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/73?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Blackwing Descent",
+			"id": 73
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

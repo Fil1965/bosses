@@ -28,7 +28,8 @@
 			"AddonCompartmentFrame",
 			"DEFAULT_CHAT_FRAME",
 			"UNKNOWNOBJECT",
-			"UISpecialFrames"
+			"UISpecialFrames",
+			"ALTERNATE_POWER_INDEX"
 		]
 	}
 }

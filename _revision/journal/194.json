@@ -1,0 +1,3711 @@
+{
+	"id": 194,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/194?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 194,
+		"name": "Alysrazor",
+		"description": "Cuando las fuerzas de Ragnaros irrumpieron en el Monte Hyjal, la dragona verde Alysra traicionó a sus aliados y ayudó a liberar al archiduida traidor Fandral Corzocelada. Como recompensa, se la purificó con fuego y renació como un halcón de fuego.",
+		"creatures": [
+			{
+				"id": 626,
+				"name": "Alysrazor",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38446?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38446
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuchilla de Alysra",
+					"id": 71427
+				}
+			},
+			{
+				"id": 10408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles chisporroteantes",
+					"id": 71428
+				}
+			},
+			{
+				"id": 10409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos pluma de magma",
+					"id": 71429
+				}
+			},
+			{
+				"id": 10410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera del protector ígneo",
+					"id": 71686
+				}
+			},
+			{
+				"id": 10411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran yelmo de la fauce voraz",
+					"id": 71430
+				}
+			},
+			{
+				"id": 10412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de gusano de lava",
+					"id": 71431
+				}
+			},
+			{
+				"id": 10413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de llama recurrente",
+					"id": 71432
+				}
+			},
+			{
+				"id": 10414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas del cráter en llamas",
+					"id": 70985
+				}
+			},
+			{
+				"id": 10415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71433?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Alysrazor",
+					"id": 71433
+				}
+			},
+			{
+				"id": 10416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes tallagarras",
+					"id": 70986
+				}
+			},
+			{
+				"id": 10417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alas de llamas",
+					"id": 71434
+				}
+			},
+			{
+				"id": 10418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70987?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fénix derribado",
+					"id": 70987
+				}
+			},
+			{
+				"id": 10419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuego vaporoso",
+					"id": 71435
+				}
+			},
+			{
+				"id": 10420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agarre de la madre de fuego",
+					"id": 70988
+				}
+			},
+			{
+				"id": 10421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fénix derribado",
+					"id": 71436
+				}
+			},
+			{
+				"id": 10422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71437?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes tallagarras",
+					"id": 71437
+				}
+			},
+			{
+				"id": 10423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuego vaporoso",
+					"id": 70989
+				}
+			},
+			{
+				"id": 10424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuchilla de Alysra",
+					"id": 70733
+				}
+			},
+			{
+				"id": 10425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas del cráter en llamas",
+					"id": 71438
+				}
+			},
+			{
+				"id": 10426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran yelmo de la fauce voraz",
+					"id": 70734
+				}
+			},
+			{
+				"id": 10427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alas de llamas",
+					"id": 70990
+				}
+			},
+			{
+				"id": 10428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agarre de la madre de fuego",
+					"id": 71439
+				}
+			},
+			{
+				"id": 10429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles chisporroteantes",
+					"id": 70735
+				}
+			},
+			{
+				"id": 10430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos pluma de magma",
+					"id": 70736
+				}
+			},
+			{
+				"id": 10431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de llama recurrente",
+					"id": 70737
+				}
+			},
+			{
+				"id": 10432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Alysrazor",
+					"id": 70738
+				}
+			},
+			{
+				"id": 10433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de gusano de lava",
+					"id": 70739
+				}
+			},
+			{
+				"id": 10434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de Poder llameante",
+					"id": 69149
+				}
+			},
+			{
+				"id": 10435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de Poder llameante",
+					"id": 68983
+				}
+			},
+			{
+				"id": 10451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera del vencedor ígneo",
+					"id": 71672
+				}
+			},
+			{
+				"id": 10452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera del conquistador ígneo",
+					"id": 71679
+				}
+			},
+			{
+				"id": 25216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garfa de fuego de Alysrazor",
+					"id": 71665
+				}
+			},
+			{
+				"id": 40436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de gusano de lava",
+					"id": 171655
+				}
+			},
+			{
+				"id": 40437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuego vaporoso",
+					"id": 171669
+				}
+			},
+			{
+				"id": 40438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alas de llamas",
+					"id": 171670
+				}
+			},
+			{
+				"id": 40439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de Poder llameante",
+					"id": 171645
+				}
+			},
+			{
+				"id": 40440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agarre de la madre de fuego",
+					"id": 171668
+				}
+			},
+			{
+				"id": 40441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas del cráter en llamas",
+					"id": 171665
+				}
+			},
+			{
+				"id": 40442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes tallagarras",
+					"id": 171666
+				}
+			},
+			{
+				"id": 40443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles chisporroteantes",
+					"id": 171651
+				}
+			},
+			{
+				"id": 40444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de llama recurrente",
+					"id": 171653
+				}
+			},
+			{
+				"id": 40445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos pluma de magma",
+					"id": 171652
+				}
+			},
+			{
+				"id": 40446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuchilla de Alysra",
+					"id": 171649
+				}
+			},
+			{
+				"id": 40447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Alysrazor",
+					"id": 171654
+				}
+			},
+			{
+				"id": 40448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171667?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de fénix derribado",
+					"id": 171667
+				}
+			},
+			{
+				"id": 40449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran yelmo de la fauce voraz",
+					"id": 171650
+				}
+			},
+			{
+				"id": 40515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de fénix oscuro",
+					"id": 171768
+				}
+			},
+			{
+				"id": 40563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de placamuerte de elementium",
+					"id": 171737
+				}
+			},
+			{
+				"id": 40564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Túnica de despiertallamas",
+					"id": 171777
+				}
+			},
+			{
+				"id": 40565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de araña corpulenta",
+					"id": 171806
+				}
+			},
+			{
+				"id": 40566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de inmolación",
+					"id": 171778
+				}
+			},
+			{
+				"id": 40567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Loriga volcánica en erupción",
+					"id": 171823
+				}
+			},
+			{
+				"id": 40568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de inmolación",
+					"id": 171767
+				}
+			},
+			{
+				"id": 40569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de halcón de fuego",
+					"id": 171811
+				}
+			},
+			{
+				"id": 40570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de enramada obsidiana",
+					"id": 171751
+				}
+			},
+			{
+				"id": 40571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de inmolación",
+					"id": 171788
+				}
+			},
+			{
+				"id": 40572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de la llama purificadora",
+					"id": 171796
+				}
+			},
+			{
+				"id": 40573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimentas de enramada obsidiana",
+					"id": 171756
+				}
+			},
+			{
+				"id": 40574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de enramada obsidiana",
+					"id": 171746
+				}
+			},
+			{
+				"id": 40575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de placamuerte de elementium",
+					"id": 171738
+				}
+			},
+			{
+				"id": 40576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Túnica volcánica en erupción",
+					"id": 171818
+				}
+			},
+			{
+				"id": 40577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Camisote volcánico en erupción",
+					"id": 171813
+				}
+			},
+			{
+				"id": 40578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimentas de la llama purificadora",
+					"id": 171801
+				}
+			},
+			{
+				"id": 40579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla del gigante fundido",
+					"id": 171783
+				}
+			},
+			{
+				"id": 40580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete del gigante fundido",
+					"id": 171762
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20817,
+				"title": "Resumen",
+				"body_text": "El combate comienza con algunos miembros de tu banda reuniendo plumas de arrabio para volar tras Alysrazor mientras el resto de la banda permanece debajo para ocuparse de varios enemigos adicionales. Una vez acabada esta fase, los jugadores deben reagruparse en el suelo y evitar los ataques de Alysrazor hasta que gaste toda su energía, lo que la hace vulnerable durante un breve período. Una vez recuperada la mitad de su energía vuelve a estar activa y a luchar desde el suelo. Cuando recupere toda su energía, volverá a su comportamiento de la primera fase. Este ciclo se repite hasta que se derrota a Alysrazor.",
+				"sections": [
+					{
+						"id": 20818,
+						"title": "Tanques",
+						"body_text": "$bullet;Las proles voraces usarán [Impronta] contra el jugador más cercano al que vean al engendrarse.\r\n$bullet;Desplazad a las proles voraces cerca de un gusano de lava orondo para mantenerlas [Saciadas] o comenzarán con sus [Rabietas].\r\n$bullet;No hace falta tanquear a los iniciados de garfas llameantes.\r\n$bullet;Colabora con el otro tanque para gestionar vuestras acumulaciones de [Garra llameante] en la cuarta fase."
+					},
+					{
+						"id": 20819,
+						"title": "Sanadores",
+						"body_text": "$bullet; Los tanques recibirán bastante más daño en la primera fase si su prole voraz tiene una [Rabieta].\r\n$bullet; Durante la segunda fase tendréis que moveros constantemente.\r\n$bullet; En la tercera fase, la banda no debería recibir nada de daño.\r\n$bullet; En la cuarta fase, Alysrazor emitirá daño de Fuego contra la banda de forma constante. Al acabar la cuarta fase, emitirá una gran explosión final de daño de Fuego."
+					},
+					{
+						"id": 20820,
+						"title": "DPS",
+						"body_text": "$bullet; Los iniciados de garfas llameantes obtendrán acumulaciones de [¡Enciéndelo!] si logran lanzar [Ignexplosión].\r\n$bullet; La mayoría de las facultades de la primera fase se pueden evitar.\r\n$bullet; Los tallagarras de garfas llameantes que se engendran en la tercera fase otorgan Poder de arrabio a Alysrazor si no se controlan mediante aturdimientos e interrupciones."
+					},
+					{
+						"id": 20821,
+						"title": "Voladores",
+						"body_text": "$bullet;Recoger una pluma de arrabio después de que Alysrazor eche el vuelo en la primera fase te otorgará [Alas de llamas].\r\n$bullet;Mientras tengas [Alas de llamas] podrás lanzar hechizos en movimiento.\r\n$bullet;Atraviesa los anillos de fuego mientras vuelas para obtener [Poder llameante] y reiniciar la duración de [Alas de llamas]."
+					}
+				]
+			},
+			{
+				"id": 2824,
+				"title": "Tormenta de Fuego",
+				"body_text": "Al comienzo de la batalla, Alysrazor asciende hacia el cielo, lo que inflige 0 p. de daño de Fuego a todos los enemigos y los repele. Alysrazor sigue infligiendo 0 p. de daño de Fuego a todos los enemigos cada 1 s durante 10 s."
+			},
+			{
+				"id": 2825,
+				"title": "Fuego volcánico",
+				"body_text": "Una erupción gigantesca crea zonas de fuego que bloquean la salida del dominio de Alysrazor. Las zonas de Fuego volcánico infligen 0 p. de daño de Fuego a los enemigos en un radio de 6 m cada 1 s."
+			},
+			{
+				"id": 2820,
+				"title": "Fase 1: ¡Os quemaré desde el cielo!",
+				"body_text": "Alysrazor vuela por toda la arena, lo que permite a sus esbirros arrinconar a los enemigos abajo. Periódicamente vuela a través del centro de la arena para clavarles sus garras a los enemigos.",
+				"sections": [
+					{
+						"id": 2826,
+						"title": "Garra llameante",
+						"body_text": "Alysrazor se abre paso con sus garras hasta el centro de la arena, lo que inflige 0 p. de daño físico a los enemigos en un cono de 90 grados de 25 m de largo cada 1,5 s. Además, cada flagelo aumenta un 10% el daño de Fuego y físico que recibe el objetivo durante 15 s."
+					},
+					{
+						"id": 2841,
+						"title": "Tormenta de Fuego",
+						"body_text": "Alysrazor se dirige al centro de la arena y levanta un viento fuerte y abrasador. Tras 5 s, la arena se sume en llamas, lo que inflige 0 p. de daño de Fuego cada 1 s a todos los enemigos a la vista durante 5 s."
+					},
+					{
+						"id": 2827,
+						"title": "Muda",
+						"body_text": "Alysrazor muda, lo que crea plumas de arrabio en una ubicación cercana.",
+						"sections": [
+							{
+								"id": 2828,
+								"title": "Pluma de arrabio",
+								"body_text": "Los jugadores pueden recoger hasta 3 plumas de arrabio. Mientras sujetan una pluma de arrabio, todos los hechizos se pueden lanzar en movimiento y la velocidad de movimiento aumenta un 30% por cada pluma. Cuando consigue 3 plumas, el jugador obtiene Alas de llamas.",
+								"sections": [
+									{
+										"id": 2829,
+										"title": "Alas de llamas",
+										"body_text": "Las Alas de llamas permiten volar al jugador durante 30 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2830,
+						"title": "Volar",
+						"body_text": "Los jugadores con Alas de llamas luchan con elementos extra de la contienda.",
+						"sections": [
+							{
+								"id": 2831,
+								"title": "Poder llameante",
+								"body_text": "Alysrazor crea periódicamente anillos de fuego que duran 3 s. Los jugadores que atraviesen un anillo obtendrán Poder llameante, lo que aumenta un 8% la celeridad y se acumula hasta 25 veces. Además, cada acumulación de Poder llameante restaura maná, ira, energía, poder rúnico y poder sagrado, y reinicia la duración de Alas de llamas."
+							},
+							{
+								"id": 2832,
+								"title": "Cuchilla de Alysra",
+								"body_text": "Si un jugador alcanza 25 acumulaciones de poder llameante obtiene Cuchilla de Alysra, que aumenta un 75% la probabilidad de golpe crítico del jugador durante 40 s."
+							},
+							{
+								"id": 2833,
+								"title": "Nube incendiaria",
+								"body_text": "Alysrazor expulsa periódicamente un número creciente de nubes incendiarias, que duran 3 s. Los enemigos que atraviesen una nube recibirán 0 p. de daño de Fuego durante 1,5 s."
+							}
+						]
+					},
+					{
+						"id": 2834,
+						"title": "Iniciado de garfas llameantes",
+						"body_text": "Los iniciados de garfas llameantes entran volando periódicamente para ayudar a Alysrazor a derrotar al ejército enemigo en el suelo.",
+						"sections": [
+							{
+								"id": 2835,
+								"title": "Colardiente",
+								"body_text": "El iniciado de garfas llameantes invoca una bola ígnea que se mueve por la arena, lo que inflige 0 p. de daño cada 1 s a los jugadores en un radio de 3 m."
+							},
+							{
+								"id": 3335,
+								"title": "Escudo llameante",
+								"body_text": "El iniciado de garfas llameantes invoca una llama familiar para protegerse de la Tormenta de Fuego de Alysrazor."
+							},
+							{
+								"id": 3330,
+								"title": "Ignexplosión",
+								"body_text": "El iniciado de garfas llameantes lanza una roca ígnea a un enemigo, lo que inflige 373 p. de daño de Fuego y 38 p. de daño de Fuego cada 3 s durante 12 s."
+							},
+							{
+								"id": 3331,
+								"title": "¡Enciéndelo!",
+								"body_text": "Cuando un iniciado de garfas llameantes lanza Ignexplosión, obtiene una acumulación de ¡Enciéndelo! ¡Enciéndelo! aumenta un 10% el daño infligido y un 10% la velocidad de lanzamiento de hechizos."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38285?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38285
+						}
+					},
+					{
+						"id": 2836,
+						"title": "Prole voraz",
+						"body_text": "Al principio de la fase 1, dos madres de linaje llameantes sueltan 2 huevos de magma. Varios segundos después, los huevos eclosionan y salen proles voraces. Las proles voraces usarán Rabieta si no se las alimenta con gusanos de lava orondos.",
+						"sections": [
+							{
+								"id": 2837,
+								"title": "Impronta",
+								"body_text": "Al nacer, las proles voraces se fijan en el enemigo más cercano. La prole solo atacará a ese objetivo, pero el objetivo obtiene un 1000% de daño extra contra la prole."
+							},
+							{
+								"id": 2838,
+								"title": "Saciada",
+								"body_text": "La prole voraz no se enfurecerá cuando esté Saciada, lo que dura 15 s. Las proles voraces nacen Saciadas y se pueden volver a saciar si un jugador las alimenta con gusanos de lava."
+							},
+							{
+								"id": 2839,
+								"title": "Hambrienta",
+								"body_text": "Una prole feroz que ya no esté Saciada se vuelve Hambrienta, lo que hace que las proles tengan un 20% de probabilidad de lanzar Rabieta al golpear."
+							},
+							{
+								"id": 2840,
+								"title": "Rabieta",
+								"body_text": "La prole voraz se enfurece, lo que aumenta un 50% el daño infligido y un 50% la celeridad."
+							},
+							{
+								"id": 2842,
+								"title": "Herida sangrante",
+								"body_text": "La prole voraz golpea a todos los objetivos en un cono de 10 m de 60 grados y les hace sangrar por 0 p. de daño físico cada 0,2 s durante 1 min o hasta que la salud del objetivo baje del 50% de su salud máxima."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38372?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38372
+						}
+					},
+					{
+						"id": 2843,
+						"title": "Gusano de lava orondo",
+						"body_text": "Durante la fase 1, dos grupos de gusanos de lava surgirán del suelo fundido. Los jugadores no pueden atacar a los gusanos de lava. Las proles voraces que permanezcan cerca de un gusano de lava se apresurarán a devorarlo, lo que hace que estén temporalmente Saciadas.",
+						"sections": [
+							{
+								"id": 2844,
+								"title": "Vómito de lava",
+								"body_text": "Los gusanos de lava orondos vomitan un cono de magma de fuego, lo que inflige 0 p. de daño cada 1 s a todos los enemigos en un cono de 35 grados de 18 m."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37993
+						}
+					},
+					{
+						"id": 2845,
+						"title": "Heraldo del extremo ardiente",
+						"body_text": "Durante la fase 1, un heraldo del extremo ardiente aparecerá periódicamente y empezará a lanzar Cataclismo. El heraldo es inmune a todo el daño, pero morirá cuando termine de lanzar Cataclismo.",
+						"sections": [
+							{
+								"id": 2846,
+								"title": "Cataclismo",
+								"body_text": "El heraldo del extremo ardiente invoca un meteorito fundido, lo que inflige 0 p. de daño de Fogonazo a los enemigos en un radio de 5 m.",
+								"sections": [
+									{
+										"id": 2847,
+										"title": "Meteorito fundido",
+										"body_text": "Ruedan meteoritos fundidos en una de las 8 direcciones aleatorias, lo que inflige 0 p. de daño de Fogonazo a los enemigos en un radio de 5 m cada 1,5 s.\r\n\r\nSi un meteorito golpea una pared, se dividirá en 3 rocas fundidas, que rebotan en dirección contraria. Si se destruye antes de que golpee una pared, el meteorito fundido se detiene temporalmente y bloquea la línea de visión."
+									},
+									{
+										"id": 2848,
+										"title": "Roca fundida",
+										"body_text": "Al chocar contra la pared y dividirse un meteorito fundido se forman tres pedruscos fundidos. Los pedruscos fundidos repelen e infligen 0 p. de daño de Fogonazo a los jugadores en un radio de 0 m cada 1,5 s."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2821,
+				"title": "Fase 2: ¡El cielo es mío!",
+				"body_text": "Alysrazor vuela en un círculo cerrado, lo que elimina Alas de llamas de todos los jugadores 5 s después y lanza su ataque definitivo.",
+				"sections": [
+					{
+						"id": 2849,
+						"title": "Vórtice ígneo",
+						"body_text": "Un vórtice ígneo aparece en medio de la arena, lo que inflige 0 p. de daño de Fuego cada 0,5 s a los enemigos en un radio de 15 m."
+					},
+					{
+						"id": 3332,
+						"title": "Vientos violentos",
+						"body_text": "El poderoso aleteo de Alysrazor provoca que fuertes vientos ígneos escalden los alrededores de su nido, lo que inflige 0 p. de daño de Fuego cada 1 s durante 5 s a los jugadores a más de 60 m del vórtice ígneo. Este efecto se acumula."
+					},
+					{
+						"id": 2850,
+						"title": "Tornado ígneo",
+						"body_text": "Tornados ígneos emergen del vórtice ígneo y empiezan a moverse rápidamente alrededor de la arena de Alysrazor, lo que inflige 0 p. de daño de Fuego cada 1 s a los enemigos en un radio de 10 m."
+					},
+					{
+						"id": 2851,
+						"title": "Poder llameante",
+						"body_text": "Alysrazor sigue desprendiendo anillos de fuego que aparecen en el suelo de la arena y duran 3 s. Los jugadores que atraviesen el anillo obtienen Poder llameante, que aumenta un 8% la celeridad y se acumula hasta 25 veces. Además, cada acumulación de Poder llameante restaura maná, ira, energía, poder rúnico y poder sagrado."
+					}
+				]
+			},
+			{
+				"id": 2822,
+				"title": "Fase 3: Consunción",
+				"body_text": "Alysrazor se desploma en el suelo con 0 puntos de Poder de arrabio y se vuelve vulnerable. Esta fase dura hasta que la barra de energía de Alysrazor alcanza los 50 p. de Poder de arrabio.",
+				"sections": [
+					{
+						"id": 2852,
+						"title": "Consunción",
+						"body_text": "El fuego de Alysrazor se consume, lo que la paraliza y aumenta un 50% el daño recibido. Además, cuando recibe un golpe de un hechizo dañino, Alysrazor emite Esencia del Vuelo Verde.",
+						"sections": [
+							{
+								"id": 2853,
+								"title": "Esencia del Vuelo Verde",
+								"body_text": "Si un hechizo dañino golpea a Alysrazor, emite una Esencia del Vuelo Verde que restaura un 10% del maná máximo del taumaturgo."
+							}
+						]
+					},
+					{
+						"id": 2854,
+						"title": "Chispa",
+						"body_text": "Una chispa brillante arde desde el corazón de Alysrazor, lo que restaura 3 p. de Poder de arrabio cada 2 s."
+					},
+					{
+						"id": 2855,
+						"title": "Tallagarras de garfas llameantes",
+						"body_text": "Al comienzo de la fase 2, dos tallagarras de garfas llameantes entran volando y vuelven a imbuir de energía a Alysrazor.",
+						"sections": [
+							{
+								"id": 2856,
+								"title": "Ignición",
+								"body_text": "Los tallagarras de garfas llameantes canalizan energía fundida en Alysrazor, lo que restaura 1 p. de Poder de arrabio cada 1 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2823,
+				"title": "Fase 4: ¡Renazco en la llama!",
+				"body_text": "El fuego de Alysrazor se vuelve a encender a los 50 p. de Poder de arrabio. Esta fase dura hasta que Alysrazor alcanza los 100 p. de Poder de arrabio.",
+				"sections": [
+					{
+						"id": 2857,
+						"title": "Prendido",
+						"body_text": "El núcleo ígneo de Alysrazor entra en combustión una vez más, lo que restaura rápidamente Poder de arrabio. Restaura 2 p. de Poder de arrabio cada 1 s."
+					},
+					{
+						"id": 2858,
+						"title": "Sacudida llameante",
+						"body_text": "El núcleo ígneo de Alysrazor emite unas explosiones de llamas poderosas, lo que inflige 0 p. de daño de Fuego a todos los jugadores cada 1 s durante el tiempo que Alysrazor permanezca bajo los efectos de Prendido."
+					},
+					{
+						"id": 2859,
+						"title": "Garra llameante",
+						"body_text": "Alysrazor clava sus garras en su objetivo actual, lo que inflige 0 p. de daño físico a los enemigos en un cono de 90 grados de 25 m de largo cada 1,5 s. Además, cada flagelo aumenta un 10% el daño de Fuego y físico que recibe el objetivo durante 15 s."
+					},
+					{
+						"id": 2860,
+						"title": "Máximo poder",
+						"body_text": "Cuando Alysrazor alcanza 100 p. de Poder de arrabio, obtiene Máximo poder, lo que inflige 0 p. de daño de Fuego a todos los enemigos y los repele. Cuando alcanza su Máximo poder, Alysrazor retoma las acciones de la fase 1."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/194?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 194,
+		"name": "Alysrazor",
+		"description": "Quand les troupes de Ragnaros surgirent au mont Hyjal, le dragon vert Alysra trahit ses alliés et aida à libérer un traître, l’archidruide Fandral Forteramure. En récompense, elle fut purifiée par le feu et renaquit sous la forme d’un redoutable faucon de feu.",
+		"creatures": [
+			{
+				"id": 626,
+				"name": "Alysrazor",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38446?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38446
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rasoir d'Alysra",
+					"id": 71427
+				}
+			},
+			{
+				"id": 10408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets aux flammes vacillantes",
+					"id": 71428
+				}
+			},
+			{
+				"id": 10409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de plumes de feu",
+					"id": 71429
+				}
+			},
+			{
+				"id": 10410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du protecteur embrasé",
+					"id": 71686
+				}
+			},
+			{
+				"id": 10411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand heaume de la gueule vorace",
+					"id": 71430
+				}
+			},
+			{
+				"id": 10412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de ver de lave",
+					"id": 71431
+				}
+			},
+			{
+				"id": 10413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de la flamme récurrente",
+					"id": 71432
+				}
+			},
+			{
+				"id": 10414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des flammes du cratère",
+					"id": 70985
+				}
+			},
+			{
+				"id": 10415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71433?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague d'Alysrazor",
+					"id": 71433
+				}
+			},
+			{
+				"id": 10416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de sculptegriffe",
+					"id": 70986
+				}
+			},
+			{
+				"id": 10417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ailes de flamme",
+					"id": 71434
+				}
+			},
+			{
+				"id": 10418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70987?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines à duvet de phénix",
+					"id": 70987
+				}
+			},
+			{
+				"id": 10419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de feu tourbillonnant",
+					"id": 71435
+				}
+			},
+			{
+				"id": 10420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte de la mère du feu",
+					"id": 70988
+				}
+			},
+			{
+				"id": 10421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines à duvet de phénix",
+					"id": 71436
+				}
+			},
+			{
+				"id": 10422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71437?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de sculptegriffe",
+					"id": 71437
+				}
+			},
+			{
+				"id": 10423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de feu tourbillonnant",
+					"id": 70989
+				}
+			},
+			{
+				"id": 10424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rasoir d'Alysra",
+					"id": 70733
+				}
+			},
+			{
+				"id": 10425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des flammes du cratère",
+					"id": 71438
+				}
+			},
+			{
+				"id": 10426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand heaume de la gueule vorace",
+					"id": 70734
+				}
+			},
+			{
+				"id": 10427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ailes de flamme",
+					"id": 70990
+				}
+			},
+			{
+				"id": 10428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte de la mère du feu",
+					"id": 71439
+				}
+			},
+			{
+				"id": 10429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets aux flammes vacillantes",
+					"id": 70735
+				}
+			},
+			{
+				"id": 10430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de plumes de feu",
+					"id": 70736
+				}
+			},
+			{
+				"id": 10431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de la flamme récurrente",
+					"id": 70737
+				}
+			},
+			{
+				"id": 10432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague d'Alysrazor",
+					"id": 70738
+				}
+			},
+			{
+				"id": 10433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de ver de lave",
+					"id": 70739
+				}
+			},
+			{
+				"id": 10434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de la puissance flamboyante",
+					"id": 69149
+				}
+			},
+			{
+				"id": 10435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de la puissance flamboyante",
+					"id": 68983
+				}
+			},
+			{
+				"id": 10451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du vainqueur embrasé",
+					"id": 71672
+				}
+			},
+			{
+				"id": 10452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plastron du conquérant embrasé",
+					"id": 71679
+				}
+			},
+			{
+				"id": 25216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Serres-de-Flammes d'Alysrazor",
+					"id": 71665
+				}
+			},
+			{
+				"id": 40436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de ver de lave",
+					"id": 171655
+				}
+			},
+			{
+				"id": 40437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de feu tourbillonnant",
+					"id": 171669
+				}
+			},
+			{
+				"id": 40438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ailes de flamme",
+					"id": 171670
+				}
+			},
+			{
+				"id": 40439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Œil de la puissance flamboyante",
+					"id": 171645
+				}
+			},
+			{
+				"id": 40440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte de la mère du feu",
+					"id": 171668
+				}
+			},
+			{
+				"id": 40441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des flammes du cratère",
+					"id": 171665
+				}
+			},
+			{
+				"id": 40442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de sculptegriffe",
+					"id": 171666
+				}
+			},
+			{
+				"id": 40443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets aux flammes vacillantes",
+					"id": 171651
+				}
+			},
+			{
+				"id": 40444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières de la flamme récurrente",
+					"id": 171653
+				}
+			},
+			{
+				"id": 40445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de plumes de feu",
+					"id": 171652
+				}
+			},
+			{
+				"id": 40446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rasoir d’Alysra",
+					"id": 171649
+				}
+			},
+			{
+				"id": 40447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague d’Alysrazor",
+					"id": 171654
+				}
+			},
+			{
+				"id": 40448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171667?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines à duvet de phénix",
+					"id": 171667
+				}
+			},
+			{
+				"id": 40449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand heaume de la gueule vorace",
+					"id": 171650
+				}
+			},
+			{
+				"id": 40515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique du phénix sombre",
+					"id": 171768
+				}
+			},
+			{
+				"id": 40563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet de plates mortelles en élémentium",
+					"id": 171737
+				}
+			},
+			{
+				"id": 40564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique d’attise-flammes",
+					"id": 171777
+				}
+			},
+			{
+				"id": 40565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de l’araignée torve",
+					"id": 171806
+				}
+			},
+			{
+				"id": 40566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille de l’immolation",
+					"id": 171778
+				}
+			},
+			{
+				"id": 40567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l’éruption volcanique",
+					"id": 171823
+				}
+			},
+			{
+				"id": 40568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet de l’immolation",
+					"id": 171767
+				}
+			},
+			{
+				"id": 40569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe faucon-de-feu",
+					"id": 171811
+				}
+			},
+			{
+				"id": 40570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique tisse-feuillage en obsidienne",
+					"id": 171751
+				}
+			},
+			{
+				"id": 40571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l’immolation",
+					"id": 171788
+				}
+			},
+			{
+				"id": 40572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de la flamme purificatrice",
+					"id": 171796
+				}
+			},
+			{
+				"id": 40573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Habit tisse-feuillage en obsidienne",
+					"id": 171756
+				}
+			},
+			{
+				"id": 40574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue tisse-feuillage en obsidienne",
+					"id": 171746
+				}
+			},
+			{
+				"id": 40575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de plates mortelles en élémentium",
+					"id": 171738
+				}
+			},
+			{
+				"id": 40576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique de l’éruption volcanique",
+					"id": 171818
+				}
+			},
+			{
+				"id": 40577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Haubert de l’éruption volcanique",
+					"id": 171813
+				}
+			},
+			{
+				"id": 40578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Habit de la flamme purificatrice",
+					"id": 171801
+				}
+			},
+			{
+				"id": 40579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille du géant de lave",
+					"id": 171783
+				}
+			},
+			{
+				"id": 40580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet du géant de lave",
+					"id": 171762
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20817,
+				"title": "Vue d’ensemble",
+				"body_text": "Au début du combat, une partie des membres du raid doit récolter des plumes de feu pour pourchasser Alysrazor dans les airs pendant que l’autre partie reste au sol pour gérer les serviteurs. Une fois cette phase terminée, les personnages-joueurs doivent se regrouper au sol et éviter les attaques d’Alysrazor jusqu’à ce qu’elle ait épuisé toute son énergie, ce qui la rend brièvement vulnérable. Quand elle a récupéré la moitié de son énergie, elle redevient active et se bat au sol. Quand elle a récupéré toute son énergie, elle retourne à son comportement de la phase 1, et ainsi de suite jusqu’à ce qu’elle soit vaincue.",
+				"sections": [
+					{
+						"id": 20818,
+						"title": "Tanks",
+						"body_text": "$bullet;Les jeunes voraces ont le personnage-joueur le plus proche d’eux [Gravé dans la mémoire] quand ils sortent de l’œuf.\r\n$bullet;Menez le jeune vorace auprès d’un ver de lave dodu pour qu’il reste [Gavé], sinon il piquera une [Colère].\r\n$bullet;Les initiés de la Serre flamboyante n’ont pas besoin d’être occupés par un tank.\r\n$bullet;Coordonnez-vous avec le second tank pour gérer vos charges de [Griffes flamboyantes] lors de la phase 4."
+					},
+					{
+						"id": 20819,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Pendant la phase 1, les tanks subissent bien plus de dégâts si leur jeune vorace pique une [Colère].\r\n$bullet;Pendant la phase 2, il faut être constamment en mouvement.\r\n$bullet;Pendant la phase 3, les membres du raid doivent éviter de subir les moindres dégâts.\r\n$bullet;Pendant la phase 4, Alysrazor inflige constamment des vagues de dégâts de Feu aux membres du raid. Au terme de la phase 4, elle projette une dernière gigantesque gerbe de dégâts de Feu."
+					},
+					{
+						"id": 20820,
+						"title": "DPS",
+						"body_text": "$bullet;Les initiés de la Serre flamboyante obtiennent une charge d’[Allumez le feu !] s’ils parviennent à lancer [Conflagration de flammes].\r\n$bullet;La plupart des techniques de la phase 1 peuvent être évitées.\r\n$bullet;Les sculptegriffes de la Serre flamboyante qui apparaissent lors de la phase 3 confèrent de la puissance du magma à Alysrazor s’ils ne sont pas contrôlés par des interruptions ou des étourdissements."
+					},
+					{
+						"id": 20821,
+						"title": "Aériens",
+						"body_text": "$bullet;Ramasser une plume de feu après qu’Alysrazor s’est envolée lors de la phase 1 confère des [Ailes de flamme].\r\n$bullet;Quand vous avez des [Ailes de flamme], vous pouvez lancer des sorts en vous déplaçant.\r\n$bullet;Traversez les anneaux de feu en volant pour obtenir de la [Puissance flamboyante] et réinitialiser la durée des [Ailes de flamme]."
+					}
+				]
+			},
+			{
+				"id": 2824,
+				"title": "Tempête de feu",
+				"body_text": "Au début du combat, Alysrazor s’envole, infligeant 0 points de dégâts de Feu à tous les ennemis et les renversant. De plus, Alysrazor continue d’infliger 0 points de dégâts de Feu à tous les personnages-joueurs toutes les 1 s pendant 10 s."
+			},
+			{
+				"id": 2825,
+				"title": "Feu volcanique",
+				"body_text": "Une éruption colossale crée des nappes de feu qui rendent impossible toute fuite du domaine d’Alysrazor. Les nappes de feu volcanique infligent 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs dans un rayon de 6 mètres."
+			},
+			{
+				"id": 2820,
+				"title": "Phase 1 : Je vais vous descendre en flammes !",
+				"body_text": "Alysrazor survole la périphérie de l’arène en laissant ses sous-fifres harceler ses ennemis loin en dessous d’elle. Elle traverse périodiquement le centre de l’arène pour lacérer ses ennemis de ses griffes.",
+				"sections": [
+					{
+						"id": 2826,
+						"title": "Griffes flamboyantes",
+						"body_text": "Alysrazor se fraie un chemin jusqu’à l’arène à coups de griffes, infligeant 0 points de dégâts physiques toutes les 1,5 s aux ennemis dans un cône de 90 degrés et 25 mètres de long. De plus, chaque balayage augmente les dégâts physiques et de Feu infligés à la cible de 10% pendant 15 s."
+					},
+					{
+						"id": 2841,
+						"title": "Tempête de feu",
+						"body_text": "Alysrazor fait face au centre de l’arène et soulève un violent vent embrasé. Au bout de 5 s, l’arène est enveloppée dans des flammes qui infligent 0 points de dégâts de Feu toutes les 1 sà tous les personnages-joueurs dans son champ de vision pendant 5 s."
+					},
+					{
+						"id": 2827,
+						"title": "Mue",
+						"body_text": "Alysrazor mue, créant des Plumes de feu à proximité.",
+						"sections": [
+							{
+								"id": 2828,
+								"title": "Plume de feu",
+								"body_text": "Les personnages-joueurs peuvent prendre jusqu’à un maximum de trois Plumes de feu. Lorsqu’un personnage-joueur a une Plume de feu, il peut lancer tous ses sorts en mouvement et sa vitesse de déplacement augmente de 30% par plume. Lorsqu’un personnage-joueur obtient trois Plumes de feu, il gagne les Ailes de flamme.",
+								"sections": [
+									{
+										"id": 2829,
+										"title": "Ailes de flamme",
+										"body_text": "Les Ailes de flamme permettent au personnage-joueur de voler pendant 30 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2830,
+						"title": "Vol",
+						"body_text": "Les personnages-joueurs en vol qui utilisent Ailes de flamme doivent combattre des troupes supplémentaires.",
+						"sections": [
+							{
+								"id": 2831,
+								"title": "Puissance flamboyante",
+								"body_text": "En vol, Alysrazor crée régulièrement des anneaux de feu sur le sol de l’arène qui durent 3 s. Les personnages-joueurs qui traversent l’anneau bénéficient de Puissance flamboyante, qui augmente leur hâte de 8%. Cet effet peut se cumuler jusqu’à 25 fois. Chaque charge de Puissance flamboyante rend également du mana, de la rage, de l'énergie, de la puissance runique et de la puissance sacrée, et réinitialise la durée d'Ailes de flamme."
+							},
+							{
+								"id": 2832,
+								"title": "Rasoir d’Alysra",
+								"body_text": "Si un membre du raid cumule 25 charges de Puissance flamboyante, il gagne l’amélioration Rasoir d’Alysra, qui augmente les chances de coup critique du personnage-joueur de 75% pendant 40 s."
+							},
+							{
+								"id": 2833,
+								"title": "Nuage incendiaire",
+								"body_text": "Alysrazor crée régulièrement un nombre croissant de Nuages incendiaires qui durent 3 s. Les ennemis qui traversent le nuage subissent 0 points de dégâts de Feu toutes les 1,5 s."
+							}
+						]
+					},
+					{
+						"id": 2834,
+						"title": "Initié de la Serre flamboyante",
+						"body_text": "Des initiés de la Serre flamboyante s’envolent régulièrement des terres de Feu pour aider Alysrazor à vaincre les troupes ennemies au sol.",
+						"sections": [
+							{
+								"id": 2835,
+								"title": "Feu de broussailles",
+								"body_text": "L’initié de la Serre flamboyante invoque une boule embrasée qui traverse l’arène et inflige 0 points de dégâts toutes les 1 s à tous les membres du raid se trouvant à moins de 3 mètres."
+							},
+							{
+								"id": 3335,
+								"title": "Bouclier flamboyant",
+								"body_text": "L’initié de la Serre flamboyante fait appel à une flamme asservie pour se protéger de la Tempête de feu d’Alysrazor."
+							},
+							{
+								"id": 3330,
+								"title": "Conflagration de flammes",
+								"body_text": "L’initié de la Serre flamboyante lance un rocher embrasé sur un ennemi, lui infligeant 364 points de dégâts de Feu, plus 38 points de dégâts de Feu supplémentaires toutes les 3 s pendant 12 s."
+							},
+							{
+								"id": 3331,
+								"title": "Allumez le feu !",
+								"body_text": "Lorsqu’un initié de la Serre flamboyante lance Conflagration de flammes, il gagne une charge d’Allumez le feu ! Cet effet augmente les dégâts infligés par l’initié de 10% et sa vitesse d’incantation de 10%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38285?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38285
+						}
+					},
+					{
+						"id": 2836,
+						"title": "Jeune vorace",
+						"body_text": "Au début de la phase 1, deux mères des couvées gémissantes pondent chacune un œuf en fusion. Après quelques secondes, les œufs éclosent et des bébés voraces en sortent. Ils sèmeront un vrai chaos si on ne leur donne pas de vers de lave dodus à manger.",
+						"sections": [
+							{
+								"id": 2837,
+								"title": "Gravé dans la mémoire",
+								"body_text": "Lorsqu’ils naissent, les bébés voraces gardent l’ennemi le plus proche Gravé dans leur mémoire. Le bébé n’attaque que cette cible, mais la victime gagne un bonus de 1000% aux dégâts contre le bébé."
+							},
+							{
+								"id": 2838,
+								"title": "Gavé",
+								"body_text": "Le jeune vorace ne piquera pas de Colère tant qu’il est Gavé, ce qui dure 15 s. Les jeunes voraces viennent au monde Gavés et peuvent le redevenir si un personnage-joueur leur donne des vers de lave dodus à manger."
+							},
+							{
+								"id": 2839,
+								"title": "Affamé",
+								"body_text": "Un jeune vorace qui n’est plus Gavé devient Affamé. Lorsqu’ils sont Affamés, les jeunes ont 20% de chances par attaque réussie de piquer une Colère."
+							},
+							{
+								"id": 2840,
+								"title": "Colère",
+								"body_text": "Le jeune vorace entre dans une colère noire, ce qui augmente les points de dégâts qu’il inflige de 50% et sa hâte de 50%."
+							},
+							{
+								"id": 2842,
+								"title": "Blessure hémorragique",
+								"body_text": "Le jeune vorace frappe toutes les cibles dans un cône de 60 degrés et 10 mètres de long et les fait saigner, leur infligeant 0 points de dégâts physiques toutes les 0,2 s pendant 1 min, ou jusqu’à ce que les victimes aient moins de 50% de leurs points de vie maximum."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38372?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38372
+						}
+					},
+					{
+						"id": 2843,
+						"title": "Ver de lave dodu",
+						"body_text": "Pendant la phase 1, deux groupes de quatre vers de lave dodus surgissent de la terre en fusion. Les personnages-joueurs ne peuvent pas attaquer les vers de lave dodus. Des bébés voraces se ruent sur un ver de lave dodu pour le dévorer et deviennent Gavés.",
+						"sections": [
+							{
+								"id": 2844,
+								"title": "Crachement de magma",
+								"body_text": "Les vers de lave dodus crachent un cône de lave, infligeant 0 points de dégâts toutes les 1 s à tous les ennemis dans un cône de 18 mètres et de 35 degrés."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37993
+						}
+					},
+					{
+						"id": 2845,
+						"title": "Héraut de la Fin ardente",
+						"body_text": "Au cours de la phase 1, un héraut de la Fin ardente apparaît périodiquement et commence à incanter un Cataclysme. Le héraut est insensible à tous les dégâts, mais il meurt une fois le Cataclysme lancé.",
+						"sections": [
+							{
+								"id": 2846,
+								"title": "Cataclysme",
+								"body_text": "Le héraut de la Fin ardente invoque un puissant météore en fusion qui inflige 0 points de dégâts de Choc de flammes aux ennemis dans un rayon de 5 mètres.",
+								"sections": [
+									{
+										"id": 2847,
+										"title": "Météore en fusion",
+										"body_text": "Des météores en fusion roulent dans l’une des 8 directions aléatoires, infligeant 0 points de dégâts de Choc de flammes à tous les ennemis à moins de 5 mètres toutes les 1,5 s.\r\n\r\nSi le météore heurte un mur, il se brise en trois Rochers en fusion qui rebondissent dans la direction opposée. S’il est détruit avant d’atteindre le mur, le Météore en fusion s’immobilise temporairement et obstrue la ligne de vue."
+									},
+									{
+										"id": 2848,
+										"title": "Rocher en fusion",
+										"body_text": "Trois Rochers en fusion se forment lorsqu’un Météore en fusion heurte un mur et se disjoint. Les Rochers en fusion renversent les personnages-joueurs à moins de 0 mètres et leur infligent 0 points de dégâts de Choc de flammes toutes les 1,5 s."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2821,
+				"title": "Phase 2 : Ce ciel est à MOI.",
+				"body_text": "Alysrazor vole en décrivant un cercle serré, enlève Ailes de flamme à tous les personnages-joueurs après 5 s, puis elle lance sa dernière attaque.",
+				"sections": [
+					{
+						"id": 2849,
+						"title": "Vortex embrasé",
+						"body_text": "Un Vortex embrasé apparaît au milieu de l’arène, infligeant 0 points de dégâts de Feu toutes les 0,5 s aux personnages-joueurs dans un rayon de 15 mètres."
+					},
+					{
+						"id": 3332,
+						"title": "Vents cinglants",
+						"body_text": "Les puissants battements d’ailes d’Alysrazor font naître des vents violents qui brûlent les environs de son nid, infligeant 0 points de dégâts de Feu toutes les 1 s pendant 5 s à tous les personnages-joueurs qui se trouvent à plus de 60 mètres du Vortex embrasé. Cet effet est cumulable."
+					},
+					{
+						"id": 2850,
+						"title": "Tornade embrasée",
+						"body_text": "Des Tornades embrasées émergent du Vortex embrasé et commencent à se déplacer rapidement dans l’arène d’Alysrazor, infligeant 0 points de dégâts de Feu toutes les 1 s à tous les ennemis à moins de 10 mètres."
+					},
+					{
+						"id": 2851,
+						"title": "Puissance flamboyante",
+						"body_text": "Alysrazor continue de créer des anneaux de feu sur le sol de l’arène qui durent 3 s. Les personnages-joueurs qui traversent l’anneau bénéficient de Puissance flamboyante, qui augmente leur hâte de 8%. Cet effet peut se cumuler jusqu’à 25 fois. Chaque charge de Puissance flamboyante rend également du mana, de la rage, de l'énergie, de la puissance runique et de la puissance sacrée."
+					}
+				]
+			},
+			{
+				"id": 2822,
+				"title": "Phase 3 : Ardeur épuisante !",
+				"body_text": "Alysrazor s’écrase au sol, vidée de sa puissance de magma, et devient vulnérable. Cette phase dure jusqu’à ce qu’Alysrazor récupère 50 points de puissance du magma.",
+				"sections": [
+					{
+						"id": 2852,
+						"title": "Ardeur épuisante",
+						"body_text": "Le feu d’Alysrazor s’éteint, ce qui immobilise le faucon de feu et augmente les dégâts qu’il subit de 50%. De plus, lorsqu’elle est touchée par un sort offensif, Alysrazor émet une Essence des Verts.",
+						"sections": [
+							{
+								"id": 2853,
+								"title": "Essence des Verts",
+								"body_text": "Si Alysrazor est frappée par un sort offensif, elle émet l'Essence des Verts qui rend 10% de son mana maximum au lanceur de sorts."
+							}
+						]
+					},
+					{
+						"id": 2854,
+						"title": "Étincelle",
+						"body_text": "Une claire étincelle brûle dans le cœur d’Alysrazor, lui rendant 3 points de puissance du magma toutes les 2 s."
+					},
+					{
+						"id": 2855,
+						"title": "Sculptegriffe de la Serre flamboyante",
+						"body_text": "Au début de la phase 2, deux sculptegriffes de la Serre flamboyante arrivent par les airs et rendent de l’énergie à Alysrazor.",
+						"sections": [
+							{
+								"id": 2856,
+								"title": "Embrasement",
+								"body_text": "Les sculptegriffes de la Serre flamboyante canalisent de l’énergie du magma vers Alysrazor, lui rendant 1 points de puissance du magma toutes les 1 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2823,
+				"title": "Phase 4 : Renaissance de flammes !",
+				"body_text": "Le feu d’Alysrazor se ravive lorsqu’il atteint 50 points de puissance du magma. Cette phase dure jusqu’à ce qu’Alysrazor atteigne 100 points de puissance du magma.",
+				"sections": [
+					{
+						"id": 2857,
+						"title": "Embrasé",
+						"body_text": "Le cœur embrasé d’Alysrazor se remet à brûler, lui rendant rapidement de la puissance du magma. Rend 2 points de puissance du magma toutes les 1 s."
+					},
+					{
+						"id": 2858,
+						"title": "Rafale flamboyante",
+						"body_text": "Le cœur embrasé d’Alysrazor émet de puissantes rafales de flammes qui infligent 0 points de dégâts de Feu toutes les 1 s à tous les personnages-joueurs tant qu’Alysrazor reste Embrasée."
+					},
+					{
+						"id": 2859,
+						"title": "Griffes flamboyantes",
+						"body_text": "Alysrazor déchire sa cible actuelle et inflige 0 points de dégâts physiques à tous les ennemis dans un cône de 90 degrés et 25 mètres de long toutes les 1,5 s. De plus, chaque balayage augmente les dégâts physiques et de Feu infligés à la cible de 10% pendant 15 s."
+					},
+					{
+						"id": 2860,
+						"title": "Pleine puissance",
+						"body_text": "Lorsque Alysrazor atteint 100 points de Puissance du magma, elle passe en Pleine puissance, ce qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs et les fait tomber à la renverse. Alysrazor reprend ensuite ses activités de phase 1."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/194?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 194,
+		"name": "Alysrazor",
+		"description": "When Ragnaros's forces surged into Mount Hyjal, the green dragon Alysra betrayed her allies and helped liberate the traitorous archdruid Fandral Staghelm. As a reward, she was purified with fire and reborn as a fearsome fire hawk.",
+		"creatures": [
+			{
+				"id": 626,
+				"name": "Alysrazor",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38446?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38446
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10406,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10407,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysra's Razor",
+					"id": 71427
+				}
+			},
+			{
+				"id": 10408,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71428?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Wristbands",
+					"id": 71428
+				}
+			},
+			{
+				"id": 10409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71429?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moltenfeather Leggings",
+					"id": 71429
+				}
+			},
+			{
+				"id": 10410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chest of the Fiery Protector",
+					"id": 71686
+				}
+			},
+			{
+				"id": 10411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71430?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greathelm of the Voracious Maw",
+					"id": 71430
+				}
+			},
+			{
+				"id": 10412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71431?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lavaworm Legplates",
+					"id": 71431
+				}
+			},
+			{
+				"id": 10413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71432?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Recurring Flame",
+					"id": 71432
+				}
+			},
+			{
+				"id": 10414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Craterflame Spaulders",
+					"id": 70985
+				}
+			},
+			{
+				"id": 10415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71433?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysrazor's Band",
+					"id": 71433
+				}
+			},
+			{
+				"id": 10416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clawshaper Gauntlets",
+					"id": 70986
+				}
+			},
+			{
+				"id": 10417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71434?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wings of Flame",
+					"id": 71434
+				}
+			},
+			{
+				"id": 10418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70987?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Phoenix-Down Treads",
+					"id": 70987
+				}
+			},
+			{
+				"id": 10419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71435?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Billowing Fire",
+					"id": 71435
+				}
+			},
+			{
+				"id": 10420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70988?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clutch of the Firemother",
+					"id": 70988
+				}
+			},
+			{
+				"id": 10421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Phoenix-Down Treads",
+					"id": 71436
+				}
+			},
+			{
+				"id": 10422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71437?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clawshaper Gauntlets",
+					"id": 71437
+				}
+			},
+			{
+				"id": 10423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Billowing Fire",
+					"id": 70989
+				}
+			},
+			{
+				"id": 10424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysra's Razor",
+					"id": 70733
+				}
+			},
+			{
+				"id": 10425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71438?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Craterflame Spaulders",
+					"id": 71438
+				}
+			},
+			{
+				"id": 10426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greathelm of the Voracious Maw",
+					"id": 70734
+				}
+			},
+			{
+				"id": 10427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70990?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wings of Flame",
+					"id": 70990
+				}
+			},
+			{
+				"id": 10428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71439?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clutch of the Firemother",
+					"id": 71439
+				}
+			},
+			{
+				"id": 10429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Wristbands",
+					"id": 70735
+				}
+			},
+			{
+				"id": 10430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moltenfeather Leggings",
+					"id": 70736
+				}
+			},
+			{
+				"id": 10431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Recurring Flame",
+					"id": 70737
+				}
+			},
+			{
+				"id": 10432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysrazor's Band",
+					"id": 70738
+				}
+			},
+			{
+				"id": 10433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lavaworm Legplates",
+					"id": 70739
+				}
+			},
+			{
+				"id": 10434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Blazing Power",
+					"id": 69149
+				}
+			},
+			{
+				"id": 10435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68983?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Blazing Power",
+					"id": 68983
+				}
+			},
+			{
+				"id": 10451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chest of the Fiery Vanquisher",
+					"id": 71672
+				}
+			},
+			{
+				"id": 10452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chest of the Fiery Conqueror",
+					"id": 71679
+				}
+			},
+			{
+				"id": 25216,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flametalon of Alysrazor",
+					"id": 71665
+				}
+			},
+			{
+				"id": 40436,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lavaworm Legplates",
+					"id": 171655
+				}
+			},
+			{
+				"id": 40437,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Billowing Fire",
+					"id": 171669
+				}
+			},
+			{
+				"id": 40438,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wings of Flame",
+					"id": 171670
+				}
+			},
+			{
+				"id": 40439,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Blazing Power",
+					"id": 171645
+				}
+			},
+			{
+				"id": 40440,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clutch of the Firemother",
+					"id": 171668
+				}
+			},
+			{
+				"id": 40441,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171665?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Craterflame Spaulders",
+					"id": 171665
+				}
+			},
+			{
+				"id": 40442,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171666?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clawshaper Gauntlets",
+					"id": 171666
+				}
+			},
+			{
+				"id": 40443,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171651?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Wristbands",
+					"id": 171651
+				}
+			},
+			{
+				"id": 40444,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Recurring Flame",
+					"id": 171653
+				}
+			},
+			{
+				"id": 40445,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moltenfeather Leggings",
+					"id": 171652
+				}
+			},
+			{
+				"id": 40446,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171649?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysra's Razor",
+					"id": 171649
+				}
+			},
+			{
+				"id": 40447,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alysrazor's Band",
+					"id": 171654
+				}
+			},
+			{
+				"id": 40448,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171667?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Phoenix-Down Treads",
+					"id": 171667
+				}
+			},
+			{
+				"id": 40449,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171650?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greathelm of the Voracious Maw",
+					"id": 171650
+				}
+			},
+			{
+				"id": 40515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40562,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Tunic",
+					"id": 171768
+				}
+			},
+			{
+				"id": 40563,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171737?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Chestguard",
+					"id": 171737
+				}
+			},
+			{
+				"id": 40564,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Tunic",
+					"id": 171777
+				}
+			},
+			{
+				"id": 40565,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Robes",
+					"id": 171806
+				}
+			},
+			{
+				"id": 40566,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Battleplate",
+					"id": 171778
+				}
+			},
+			{
+				"id": 40567,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171823?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Cuirass",
+					"id": 171823
+				}
+			},
+			{
+				"id": 40568,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Chestguard",
+					"id": 171767
+				}
+			},
+			{
+				"id": 40569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Robes",
+					"id": 171811
+				}
+			},
+			{
+				"id": 40570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Tunic",
+					"id": 171751
+				}
+			},
+			{
+				"id": 40571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Breastplate",
+					"id": 171788
+				}
+			},
+			{
+				"id": 40572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Cleansing Flame",
+					"id": 171796
+				}
+			},
+			{
+				"id": 40573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Vestment",
+					"id": 171756
+				}
+			},
+			{
+				"id": 40574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Raiment",
+					"id": 171746
+				}
+			},
+			{
+				"id": 40575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171738?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Breastplate",
+					"id": 171738
+				}
+			},
+			{
+				"id": 40576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171818?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Tunic",
+					"id": 171818
+				}
+			},
+			{
+				"id": 40577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171813?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Hauberk",
+					"id": 171813
+				}
+			},
+			{
+				"id": 40578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestment of the Cleansing Flame",
+					"id": 171801
+				}
+			},
+			{
+				"id": 40579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battleplate of the Molten Giant",
+					"id": 171783
+				}
+			},
+			{
+				"id": 40580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chestguard of the Molten Giant",
+					"id": 171762
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20817,
+				"title": "Overview",
+				"body_text": "The fight begins with some members of your raid collecting Molten Feathers to fly after Alysrazor while the rest of the raid stays below to handle several adds.  Once this stage ends, players must regroup down on the ground and avoid Alysrazor's attacks before she spends all of her energy, making her vulnerable for a short time.  Once she has regained half of her energy she becomes active again, fighting from the ground.  When she finally reaches full energy she will return to her Stage One activities.\r\nThis cycle repeats until Alysrazor is defeated.",
+				"sections": [
+					{
+						"id": 20818,
+						"title": "Tanks",
+						"body_text": "$bullet;Voracious Hatchlings will [Imprint] on the nearest player they see when they spawn.\r\n$bullet;Move Voracious Hatchlings near a Plump Lava Worm to keep them [Satiated] or else they will start throwing [Tantrums].\r\n$bullet;Blazing Talon Initiates do not need to be tanked.\r\n$bullet;Work with the other tank to manage your stacks of [Blazing Claw] in Stage Four."
+					},
+					{
+						"id": 20819,
+						"title": "Healers",
+						"body_text": "$bullet; Tanks will take significantly more damage in Stage One if their Voracious Hatchling throws a [Tantrum].\r\n$bullet; During Stage Two you will need to move constantly.\r\n$bullet; In Stage Three, no damage should go out on the raid.\r\n$bullet; In Stage Four, Alysrazor will constantly pulse Fire damage to the raid. When Stage Four ends she emits one final, large burst of Fire damage."
+					},
+					{
+						"id": 20820,
+						"title": "Damage Dealers",
+						"body_text": "$bullet; Blazing Talon Initiates will gain stacks of [Fire it Up!] if they successfully cast [Fieroblast].\r\n$bullet; Most abilities in Stage One are avoidable.\r\n$bullet; Blazing Talon Clawshapers that spawn in Stage Three will give Molten Power to Alysrazor if they are not controlled with stuns and interrupts."
+					},
+					{
+						"id": 20821,
+						"title": "Fliers",
+						"body_text": "$bullet;Picking up a Molten Feather after Alysrazor takes to the air in Stage One will give you [Wings of Flame].\r\n$bullet;While you have [Wings of Flame], you can cast while moving.\r\n$bullet;Pass through the Rings of Fire while flying to gain [Blazing Power] and refresh the duration of [Wings of Flame]."
+					}
+				]
+			},
+			{
+				"id": 2824,
+				"title": "Firestorm",
+				"body_text": "At the beginning of the battle Alysrazor ascends into the sky, inflicting 0 Fire damage to players and knocking them back. Alysrazor continues to inflict 0 Fire damage to players every 1 sec. for 10 sec."
+			},
+			{
+				"id": 2825,
+				"title": "Volcanic Fire",
+				"body_text": "A massive eruption creates patches of Fire which block escape from Alysrazor's domain. Volcanic Fire patches inflict 0 Fire damage to players within 6 yards every 1 sec."
+			},
+			{
+				"id": 2820,
+				"title": "Stage One: I Will Burn You From the Sky!",
+				"body_text": "Alysrazor flies around the arena, allowing her minions to corner her foes far below. She periodically flies through the center of the arena to claw at foes.",
+				"sections": [
+					{
+						"id": 2826,
+						"title": "Blazing Claw",
+						"body_text": "Alysrazor claws her way through the center of the arena, inflicting 0 Physical damage to enemies in a 25 yard long 90 degree cone every 1.5 seconds. Each swipe also increases the Fire and Physical damage dealt to the target by 10% for 15 sec."
+					},
+					{
+						"id": 2841,
+						"title": "Firestorm",
+						"body_text": "Alysrazor faces the center of the arena and kicks up a powerful, fiery wind. After 5 seconds the arena is bathed in flames, inflicting 0 Fire damage every 1 seconds to all players within line of sight for 5 sec."
+					},
+					{
+						"id": 2827,
+						"title": "Molting",
+						"body_text": "Alysrazor molts, creating Molten Feathers nearby.",
+						"sections": [
+							{
+								"id": 2828,
+								"title": "Molten Feather",
+								"body_text": "Players can pick up to three Molten Feathers. While holding a Molten Feather, all spells can be cast while moving and movement speed increases by 30% per feather. Once a player obtains three Molten Feathers, they gain Wings of Flame.",
+								"sections": [
+									{
+										"id": 2829,
+										"title": "Wings of Flame",
+										"body_text": "The Wings of Flame allow the player to fly for 30 sec."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 2830,
+						"title": "Flying",
+						"body_text": "Players with Wings of Flame contend with additional elements of the battle.",
+						"sections": [
+							{
+								"id": 2831,
+								"title": "Blazing Power",
+								"body_text": "Alysrazor periodically creates rings of fire which last for 3 seconds.  Players passing through the ring gain Blazing Power, increasing haste by 8%. This effect stacks up to 25 times. Each stack of Blazing Power restores mana, rage, energy, runic power, and holy power, and refreshes the duration of Wings of Flame."
+							},
+							{
+								"id": 2832,
+								"title": "Alysra's Razor",
+								"body_text": "If a player gains 25 stacks of Blazing Power, they gain Alysra's Razor. This increases the player's critical strike chance by 75% for 40 sec."
+							},
+							{
+								"id": 2833,
+								"title": "Incendiary Cloud",
+								"body_text": "Alysrazor periodically creates an increasing number of Incendiary Clouds lasting for 3 seconds. Players that pass through the cloud suffer 0 Fire damage every 1.5 sec."
+							}
+						]
+					},
+					{
+						"id": 2834,
+						"title": "Blazing Talon Initiate",
+						"body_text": "Blazing Talon Initiates periodically fly in to assist Alysrazor in defeating enemy forces on the ground.",
+						"sections": [
+							{
+								"id": 2835,
+								"title": "Brushfire",
+								"body_text": "The Blazing Talon Initiate conjures a fiery ball that moves across the arena, inflicting 0 damage every 1 sec to players within 3 yards."
+							},
+							{
+								"id": 3335,
+								"title": "Blazing Shield",
+								"body_text": "The Blazing Talon Initiate calls upon a familiar flame for protection from Alysrazor's Firestorm."
+							},
+							{
+								"id": 3330,
+								"title": "Fieroblast",
+								"body_text": "The Blazing Talon Initiate hurls a fiery boulder at an enemy, inflicting 386 Fire damage and 38 Fire damage every 3 seconds for 12 sec."
+							},
+							{
+								"id": 3331,
+								"title": "Fire it Up!",
+								"body_text": "When a Blazing Talon Initiate casts Fieroblast, they gain a stack of Fire it Up! This effect increases the Initiate's damage dealt by 10% and casting speed by 10%."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38285?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38285
+						}
+					},
+					{
+						"id": 2836,
+						"title": "Voracious Hatchling",
+						"body_text": "Early in Stage 1, two Blazing Broodmothers drop off two Molten Eggs. After several seconds the eggs hatch into Voracious Hatchlings. Voracious Hatchlings throw a Tantrum if not fed Plump Lava Worms.",
+						"sections": [
+							{
+								"id": 2837,
+								"title": "Imprinted",
+								"body_text": "Upon hatching, Voracious Hatchlings imprint on the nearest player. The hatchling only attacks that player, but they gain 1,000% additional damage against the hatchling."
+							},
+							{
+								"id": 2838,
+								"title": "Satiated",
+								"body_text": "The Voracious Hatchling will not throw a Tantrum when Satiated, which lasts for 15 sec. Voracious Hatchlings hatch Satiated, and can become Satiated again if a player feeds them Plump Lava Worms."
+							},
+							{
+								"id": 2839,
+								"title": "Hungry",
+								"body_text": "A Voracious Hatchling that is no longer Satiated becomes Hungry.  When Hungry, hatchlings have a 20% chance on hit to throw a Tantrum."
+							},
+							{
+								"id": 2840,
+								"title": "Tantrum",
+								"body_text": "The Voracious Hatchling throws a Tantrum, increasing damage dealt by 50% and haste by 50%."
+							},
+							{
+								"id": 2842,
+								"title": "Gushing Wound",
+								"body_text": "The Voracious Hatchling strikes all targets within a 10 yard 60 degree cone, causing them to bleed for 0 Physical damage every 0.2 seconds for 1 min. or until the target's health falls below 50% of their maximum health."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38372?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38372
+						}
+					},
+					{
+						"id": 2843,
+						"title": "Plump Lava Worm",
+						"body_text": "During Stage 1, two sets of four Plump Lava Worms erupt from the molten ground. Players cannot attack Plump Lava Worms. Voracious Hatchlings near a Plump Lava Worm rush to devour it, becoming Satiated.",
+						"sections": [
+							{
+								"id": 2844,
+								"title": "Lava Spew",
+								"body_text": "Plump Lava Worms spew a molten cone of fire, dealing 0 damage every 1 sec to all enemies within a 18 yard 35 degree cone."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37993?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37993
+						}
+					},
+					{
+						"id": 2845,
+						"title": "Herald of the Burning End",
+						"body_text": "During Stage 1, a Herald of the Burning End periodically appears and begins casting Cataclysm. The Herald is immune to all damage, but dies when he casts Cataclysm.",
+						"sections": [
+							{
+								"id": 2846,
+								"title": "Cataclysm",
+								"body_text": "The Herald of the Burning End summons a powerful Molten Meteor, inflicting 0 Flamestrike damage to enemies within 5 yards.",
+								"sections": [
+									{
+										"id": 2847,
+										"title": "Molten Meteor",
+										"body_text": "Molten Meteors roll in one of 8 random directions, dealing 0 Flamestrike damage to enemies within 5 yards every 1.5 sec.  \r\n\r\nIf the meteor reaches a wall, it will break apart into three Molten Boulders, which ricochet back in the opposite direction.  If destroyed before reaching a wall, the Molten Meteor becomes temporarily stationary and blocks line of sight."
+									},
+									{
+										"id": 2848,
+										"title": "Molten Boulder",
+										"body_text": "Three Molten Boulders form when a Molten Meteor hits a wall and breaks apart. Molten Boulders knock back and inflict 0 Flamestrike damage to players within 0 yards every 1.5 sec."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2821,
+				"title": "Stage Two: The Skies are Mine!",
+				"body_text": "Alysrazor flies in a tight circle, removes Wings of Flame from all players after 5 seconds, and then begins her ultimate attack.",
+				"sections": [
+					{
+						"id": 2849,
+						"title": "Fiery Vortex",
+						"body_text": "A Fiery Vortex appears in the middle of the arena, inflicting 0 Fire damage every 0.5 seconds to players within 15 yards."
+					},
+					{
+						"id": 3332,
+						"title": "Harsh Winds",
+						"body_text": "Alysrazor's powerful wingstrokes cause harsh winds to scald the landscape around her nest, inflicting 0 Fire damage every 1 sec. for 5 sec to players farther than 60 yards from the Fiery Vortex. This effect stacks."
+					},
+					{
+						"id": 2850,
+						"title": "Fiery Tornado",
+						"body_text": "Fiery Tornadoes erupt from the Fiery Vortex and begin moving rapidly around Alysrazor's arena, inflicting 0 Fire damage every 1 sec to enemies within 10 yards."
+					},
+					{
+						"id": 2851,
+						"title": "Blazing Power",
+						"body_text": "Alysrazor continues to create rings of fire that appear on the ground of the arena and last for 3 seconds. Players passing through the ring gain Blazing Power, increasing their haste by 8%. This effect stacks up to 25 times.  Each stack of Blazing Power also restores mana, rage, energy, runic power, and holy power."
+					}
+				]
+			},
+			{
+				"id": 2822,
+				"title": "Stage Three: Burnout!",
+				"body_text": "Alysrazor crashes to the ground with 0 Molten Power and becomes vulnerable. This stage lasts until Alyrazor's energy bar reaches 50 Molten Power.",
+				"sections": [
+					{
+						"id": 2852,
+						"title": "Burnout",
+						"body_text": "Alysrazor's fire burns out, immobilizing her and increasing her damage taken by 50%. When struck with a harmful spell Alysrazor emits Essence of the Green.",
+						"sections": [
+							{
+								"id": 2853,
+								"title": "Essence of the Green",
+								"body_text": "If Alysrazor is struck by a harmful spell she emits Essence of the Green, restoring 10% of the caster's maximum mana."
+							}
+						]
+					},
+					{
+						"id": 2854,
+						"title": "Spark",
+						"body_text": "A bright spark burns within the heart of Alysrazor, restoring 3 Molten Power every 2 seconds."
+					},
+					{
+						"id": 2855,
+						"title": "Blazing Talon Clawshaper",
+						"body_text": "At the start of stage 2, two Blazing Talon Clawshapers fly in and re-energize Alysrazor.",
+						"sections": [
+							{
+								"id": 2856,
+								"title": "Ignition",
+								"body_text": "Blazing Talon Clawshapers channel molten energy into Alysrazor, restoring 1 Molten Power every 1 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38652?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38652
+						}
+					}
+				]
+			},
+			{
+				"id": 2823,
+				"title": "Stage Four: Reborn in Flame!",
+				"body_text": "Alysrazor's fire reignites at 50 Molten Power. This stage lasts until Alysrazor reaches 100 Molten Power.",
+				"sections": [
+					{
+						"id": 2857,
+						"title": "Ignited",
+						"body_text": "Alysrazor's fiery core combusts once again, rapidly restoring her Molten Power. The core restores 2 Molten Power every 1 sec."
+					},
+					{
+						"id": 2858,
+						"title": "Blazing Buffet",
+						"body_text": "Alysrazor's fiery core emits powerful bursts of flame, inflicting 0 Fire damage to all players every 1 sec. while Alysrazor remains Ignited."
+					},
+					{
+						"id": 2859,
+						"title": "Blazing Claw",
+						"body_text": "Alysrazor claws at her current target, inflicing 0 Physical damage to enemies in a 25 yard long 90 degree cone every 1.5 seconds. Each swipe also increases the Fire and Physical damage dealt to the target by 10% for 15 sec."
+					},
+					{
+						"id": 2860,
+						"title": "Full Power",
+						"body_text": "When Alysrazor reaches 100 Molten Power, she is at Full Power. This deals 0 Fire damage to all players and knocks them back. Alysrazor then begins her Stage 1 activities again."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

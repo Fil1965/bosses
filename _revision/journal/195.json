@@ -1,0 +1,3147 @@
+{
+	"id": 195,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/195?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 195,
+		"name": "Shannox",
+		"description": "Los despiertallamas están entre los guardianes elementales más temidos en las Tierras de Fuego. Shannox no es una excepción. Es el jefe de cazadores y el maestro de perrera de los canes del averno de Ragnaros. Patrulla el reino elemental con sus dos bestias más feroces: Desmembrador y Rostrofuria.",
+		"creatures": [
+			{
+				"id": 627,
+				"name": "Shannox",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70913?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de devoción demente",
+					"id": 70913
+				}
+			},
+			{
+				"id": 10455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del protector ígneo",
+					"id": 71685
+				}
+			},
+			{
+				"id": 10456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de humo desvanecido",
+					"id": 71440
+				}
+			},
+			{
+				"id": 10457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frenesí hambriento",
+					"id": 71441
+				}
+			},
+			{
+				"id": 10458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabellera del príncipe bandido",
+					"id": 71442
+				}
+			},
+			{
+				"id": 10459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de furia acerado",
+					"id": 71443
+				}
+			},
+			{
+				"id": 10460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de devoción demente",
+					"id": 71444
+				}
+			},
+			{
+				"id": 10461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran hacha del Robacráneos",
+					"id": 71445
+				}
+			},
+			{
+				"id": 10462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de fetiches",
+					"id": 71446
+				}
+			},
+			{
+				"id": 10463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias pisacarbón",
+					"id": 71447
+				}
+			},
+			{
+				"id": 10464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cáliz de inquina",
+					"id": 71448
+				}
+			},
+			{
+				"id": 10465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de prisión de cristal",
+					"id": 71449
+				}
+			},
+			{
+				"id": 10466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros chisporroteantes",
+					"id": 71450
+				}
+			},
+			{
+				"id": 10467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de obediencia implícita",
+					"id": 71451
+				}
+			},
+			{
+				"id": 10468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cazador aterrador",
+					"id": 71452
+				}
+			},
+			{
+				"id": 10469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de control absoluto",
+					"id": 71453
+				}
+			},
+			{
+				"id": 10470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71013?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frenesí hambriento",
+					"id": 71013
+				}
+			},
+			{
+				"id": 10471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran hacha del Robacráneos",
+					"id": 71014
+				}
+			},
+			{
+				"id": 10480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabellera del príncipe bandido",
+					"id": 71018
+				}
+			},
+			{
+				"id": 10485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de fetiches",
+					"id": 71019
+				}
+			},
+			{
+				"id": 10487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de humo desvanecido",
+					"id": 71020
+				}
+			},
+			{
+				"id": 10489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de furia acerado",
+					"id": 71021
+				}
+			},
+			{
+				"id": 10490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cáliz de inquina",
+					"id": 71022
+				}
+			},
+			{
+				"id": 10491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias pisacarbón",
+					"id": 71023
+				}
+			},
+			{
+				"id": 10492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de prisión de cristal",
+					"id": 71024
+				}
+			},
+			{
+				"id": 10493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros chisporroteantes",
+					"id": 71025
+				}
+			},
+			{
+				"id": 10494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cazador aterrador",
+					"id": 71026
+				}
+			},
+			{
+				"id": 10495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de obediencia implícita",
+					"id": 71027
+				}
+			},
+			{
+				"id": 10496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de control absoluto",
+					"id": 71028
+				}
+			},
+			{
+				"id": 10497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del vencedor ígneo",
+					"id": 71671
+				}
+			},
+			{
+				"id": 10499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del conquistador ígneo",
+					"id": 71678
+				}
+			},
+			{
+				"id": 35256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Premio humeante",
+					"id": 152975
+				}
+			},
+			{
+				"id": 40450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de humo desvanecido",
+					"id": 171687
+				}
+			},
+			{
+				"id": 40451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de obediencia implícita",
+					"id": 171694
+				}
+			},
+			{
+				"id": 40452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de control absoluto",
+					"id": 171695
+				}
+			},
+			{
+				"id": 40453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171689?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cáliz de inquina",
+					"id": 171689
+				}
+			},
+			{
+				"id": 40454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabellera del príncipe bandido",
+					"id": 171685
+				}
+			},
+			{
+				"id": 40455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros chisporroteantes",
+					"id": 171692
+				}
+			},
+			{
+				"id": 40456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran hacha del Robacráneos",
+					"id": 171684
+				}
+			},
+			{
+				"id": 40457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de devoción demente",
+					"id": 171657
+				}
+			},
+			{
+				"id": 40458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de fetiches",
+					"id": 171686
+				}
+			},
+			{
+				"id": 40459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171693?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales del cazador aterrador",
+					"id": 171693
+				}
+			},
+			{
+				"id": 40460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo Prisión de cristal",
+					"id": 171691
+				}
+			},
+			{
+				"id": 40461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frenesí hambriento",
+					"id": 171683
+				}
+			},
+			{
+				"id": 40462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171690?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias pisacarbón",
+					"id": 171690
+				}
+			},
+			{
+				"id": 40463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de furia acerado",
+					"id": 171688
+				}
+			},
+			{
+				"id": 40522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de inmolación",
+					"id": 171781
+				}
+			},
+			{
+				"id": 40582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de fénix oscuro",
+					"id": 171771
+				}
+			},
+			{
+				"id": 40583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda volcánica en erupción",
+					"id": 171816
+				}
+			},
+			{
+				"id": 40584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de enramada obsidiana",
+					"id": 171755
+				}
+			},
+			{
+				"id": 40585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de despiertallamas",
+					"id": 171775
+				}
+			},
+			{
+				"id": 40586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras volcánicas en erupción",
+					"id": 171826
+				}
+			},
+			{
+				"id": 40587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de inmolación",
+					"id": 171764
+				}
+			},
+			{
+				"id": 40588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras volcánicas en erupción",
+					"id": 171821
+				}
+			},
+			{
+				"id": 40589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de enramada obsidiana",
+					"id": 171745
+				}
+			},
+			{
+				"id": 40590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del gigante fundido",
+					"id": 171759
+				}
+			},
+			{
+				"id": 40591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del gigante fundido",
+					"id": 171786
+				}
+			},
+			{
+				"id": 40592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placamuerte de elementium",
+					"id": 171734
+				}
+			},
+			{
+				"id": 40593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de la llama purificadora",
+					"id": 171795
+				}
+			},
+			{
+				"id": 40594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de la llama purificadora",
+					"id": 171800
+				}
+			},
+			{
+				"id": 40595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de inmolación",
+					"id": 171791
+				}
+			},
+			{
+				"id": 40596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de placamuerte de elementium",
+					"id": 171741
+				}
+			},
+			{
+				"id": 40597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de enramada obsidiana",
+					"id": 171750
+				}
+			},
+			{
+				"id": 40598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de halcón de fuego",
+					"id": 171810
+				}
+			},
+			{
+				"id": 40599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de araña corpulenta",
+					"id": 171805
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20808,
+				"title": "Resumen",
+				"body_text": "Shannox no aparecerá hasta que hayáis matado a un gran número de los enemigos de la zona.\r\n\r\nUna vez iniciado el combate, Shannox os atacará con sus dos compañeros: Rostrofuria y Desmembrador. Shannox disparará su lanza y colocará trampas de prisión de cristal de forma periódica; al mismo tiempo, Rostrofuria atacará a los jugadores de forma aleatoria y hará falta tanquear a Desmembrador.\r\n\r\nSi se derrota a Rostrofuria o a Desmembrador, Shannox entrará en frenesí. Si se derrota a Shannox, tanto Rostrofuria como Desmembrador obtendrán Devoción demente.",
+				"sections": [
+					{
+						"id": 20809,
+						"title": "Tanques",
+						"body_text": "$bullet;Shannox y Desmembrador son inmunes a las mecánicas de provocación.\r\n$bullet;Rostrofuria se fija en objetivos de forma aleatoria.\r\n$bullet;Aprovecha el tiempo que Desmembrador tarda en recuperar la lanza de Shannox pare reiniciar tus aplicaciones de [Hendedura dentada]."
+					},
+					{
+						"id": 20810,
+						"title": "Sanadores",
+						"body_text": "$bullet;Rostrofuria se fija en objetivos de forma aleatoria.\r\n$bullet;Las víctimas de [Ensañamiento facial] necesitarán una sanación significativa."
+					},
+					{
+						"id": 20811,
+						"title": "DPS",
+						"body_text": "$bullet;Rostrofuria puede quedar atrapado en las [trampas de prisión de cristal] que Shannox suelta en el suelo.\r\n$bullet;Rostrofuria fijará como objetivo a miembros aleatorios de la banda.\r\n$bullet;Acabad con los tres objetivos más o menos al mismo tiempo para evitar el daño extra de [Frenesí] y [Devoción demente]."
+					}
+				]
+			},
+			{
+				"id": 2575,
+				"title": "Trampa de inmolación",
+				"body_text": "Shannox lanza una trampa ígnea a los pies de un jugador. La trampa tarda 2 s en montarse y explota al pisarla un jugador o una de las mascotas de Shannox. Trampa de inmolación inflige 0 p. de daño de Fuego, 0 p. de daño de Fuego cada 3 s y aumenta un 40% todo el daño recibido durante 9 s."
+			},
+			{
+				"id": 2576,
+				"title": "Trampa de prisión de cristal",
+				"body_text": "Shannox lanza una trampa de prisión a los pies de un jugador aleatorio. La trampa tarda 2 s en montarse y se detona cuando un jugador o una de las mascotas de Shannox la pisa. La trampa encierra al objetivo en un bloque de cristal de magma e impide el movimiento u otras acciones. Destruir la prisión de cristal liberará al jugador atrapado."
+			},
+			{
+				"id": 2577,
+				"title": "Tajo arqueado",
+				"body_text": "Shannox inflige un 0% del daño cuerpo a cuerpo normal en un cono de 120 grados de hasta 10 m frente a él e inflige Hendedura dentada a su objetivo actual.",
+				"sections": [
+					{
+						"id": 2578,
+						"title": "Hendedura dentada",
+						"body_text": "El Tajo arqueado de Shannox deja una Hendedura dentada que inflige 0 p. de daño físico cada 3 s durante 24 s. Este efecto se acumula."
+					}
+				]
+			},
+			{
+				"id": 2579,
+				"title": "Tirar lanza",
+				"body_text": "Shannox tira su lanza a una ubicación cercana a su can, Desmembrador. Al caer, la lanza inflige 0 p. de daño físico a los enemigos en un radio de 3 m y 0 p. de daño de Fuego a todos los enemigos en un radio de 50 m. La lanza también activa una cascada de erupciones de magma alrededor del punto de impacto, lo que inflige 0 p. de daño de Fuego a los enemigos atrapados en ellas.\r\n\r\nEntonces Desmembrador dejará el combate, tomará la lanza y se la llevará a Shannox."
+			},
+			{
+				"id": 2580,
+				"title": "Frenesí",
+				"body_text": "Cuando se derrota a uno de los canes de Shannox, entra en frenesí, lo que aumenta el daño físico un 30% y la velocidad de ataque un 30%. Este efecto se acumula dos veces."
+			},
+			{
+				"id": 2928,
+				"title": "Ruptura de magma",
+				"body_text": "Cuando se elimina a Desmembrador, Shannox clava su lanza en el suelo en vez de lanzarla. Este ataque inflige 0 p. de daño de Fuego a todos los enemigos y aumenta un 40% el daño de Fuego recibido durante 1 min. Además, el golpe de la lanza activa una cascada de erupciones de magma alrededor del punto de impacto que inflige 0 p. de daño de Fuego a todos los enemigos atrapados en la erupción."
+			},
+			{
+				"id": 2581,
+				"title": "Desmembrador",
+				"body_text": "Desmembrador atacará al objetivo con más amenaza.\r\n\r\n",
+				"sections": [
+					{
+						"id": 2582,
+						"title": "Desgarrar extremidad",
+						"body_text": "Desmembrador muerde con fiereza a su objetivo actual, lo que inflige un 0% del daño cuerpo a cuerpo normal y aplica Hendedura dentada.",
+						"sections": [
+							{
+								"id": 2587,
+								"title": "Hendedura dentada",
+								"body_text": "Desgarrar extremidad de Desmembrador deja una Hendedura dentada que inflige 0 p. de daño físico cada 3 s durante 24 s. Este efecto se acumula."
+							}
+						]
+					},
+					{
+						"id": 2588,
+						"title": "Devoción demente",
+						"body_text": "Desmembrador entra en una cólera imparable si ve que la salud de Shannox llega al 30%. Este efecto aumenta un 100% el daño que inflige Desmembrador, un 50% su velocidad de ataque y un 100% su velocidad de movimiento."
+					},
+					{
+						"id": 2589,
+						"title": "Frenesí hambriento",
+						"body_text": "Los ataques cuerpo a cuerpo con éxito de Desmembrador aumentan el daño físico infligido un 5% durante 20 s. Este efecto se acumula."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38449?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38449
+				}
+			},
+			{
+				"id": 2583,
+				"title": "Rostrofuria",
+				"body_text": "Rostrofuria no se puede controlar y salta de enemigo a enemigo, cambiando de objetivos periódicamente.",
+				"sections": [
+					{
+						"id": 2584,
+						"title": "Ensañamiento facial",
+						"body_text": "Rostrofuria salta a un objetivo aleatorio, lo que lo aturde y lo derriba y comienza a arañarlo con saña. Inflige 0 p. de daño físico cada 0,5 s, pero el daño infligido aumenta con el tiempo. Mientras se ensaña con el jugador, todos los ataques dirigidos contra la bestia serán golpes críticos.\r\n \r\nRostrofuria seguirá ensañándose hasta que su objetivo muera o hasta que reciba un daño equivalente al 6,5% de su salud total."
+					},
+					{
+						"id": 2585,
+						"title": "Devoción demente",
+						"body_text": "Rostrofuria entra en una cólera imparable si ve que la salud de Shannox llega al 30%. Este efecto aumenta un 100% el daño infligido de Desmembrador, un 50% su velocidad de ataque y un 100% su velocidad de movimiento."
+					},
+					{
+						"id": 2586,
+						"title": "Frenesí hambriento",
+						"body_text": "Los ataques cuerpo a cuerpo con éxito de Rostrofuria aumentan el daño físico infligido un 5% durante 20 s. Este efecto se acumula."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38450
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/195?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 195,
+		"name": "Shannox",
+		"description": "Les attise-flammes sont parmi les gardiens élémentaires les plus craints des terres de Feu. Et Shannox ne fait pas exception. Servant de chasseur en chef et de maître du chenil pour les chiens de l’enfer de Ragnaros, Shannox patrouille dans le royaume élémentaire avec deux de ses bêtes les plus féroces : Croquepatte et Ragegueule.",
+		"creatures": [
+			{
+				"id": 627,
+				"name": "Shannox",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70913?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de dévotion frénétique",
+					"id": 70913
+				}
+			},
+			{
+				"id": 10455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du protecteur embrasé",
+					"id": 71685
+				}
+			},
+			{
+				"id": 10456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de fumée dissolvante",
+					"id": 71440
+				}
+			},
+			{
+				"id": 10457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frénésie affamée",
+					"id": 71441
+				}
+			},
+			{
+				"id": 10458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp du prince bandit",
+					"id": 71442
+				}
+			},
+			{
+				"id": 10459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture infroissable de la fureur",
+					"id": 71443
+				}
+			},
+			{
+				"id": 10460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de dévotion frénétique",
+					"id": 71444
+				}
+			},
+			{
+				"id": 10461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bardiche du faucheur de crâne",
+					"id": 71445
+				}
+			},
+			{
+				"id": 10462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de fétiches",
+					"id": 71446
+				}
+			},
+			{
+				"id": 10463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales du foule-braises",
+					"id": 71447
+				}
+			},
+			{
+				"id": 10464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coupe de colère",
+					"id": 71448
+				}
+			},
+			{
+				"id": 10465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de la prison de cristal",
+					"id": 71449
+				}
+			},
+			{
+				"id": 10466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules aux flammes vacillantes",
+					"id": 71450
+				}
+			},
+			{
+				"id": 10467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de l'obéissance implicite",
+					"id": 71451
+				}
+			},
+			{
+				"id": 10468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du chasseur redouté",
+					"id": 71452
+				}
+			},
+			{
+				"id": 10469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du contrôle absolu",
+					"id": 71453
+				}
+			},
+			{
+				"id": 10470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71013?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frénésie affamée",
+					"id": 71013
+				}
+			},
+			{
+				"id": 10471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bardiche du faucheur de crâne",
+					"id": 71014
+				}
+			},
+			{
+				"id": 10480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp du prince bandit",
+					"id": 71018
+				}
+			},
+			{
+				"id": 10485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de fétiches",
+					"id": 71019
+				}
+			},
+			{
+				"id": 10487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de fumée dissolvante",
+					"id": 71020
+				}
+			},
+			{
+				"id": 10489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture infroissable de la fureur",
+					"id": 71021
+				}
+			},
+			{
+				"id": 10490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coupe de colère",
+					"id": 71022
+				}
+			},
+			{
+				"id": 10491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales du foule-braises",
+					"id": 71023
+				}
+			},
+			{
+				"id": 10492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de la prison de cristal",
+					"id": 71024
+				}
+			},
+			{
+				"id": 10493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules aux flammes vacillantes",
+					"id": 71025
+				}
+			},
+			{
+				"id": 10494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du chasseur redouté",
+					"id": 71026
+				}
+			},
+			{
+				"id": 10495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de l'obéissance implicite",
+					"id": 71027
+				}
+			},
+			{
+				"id": 10496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du contrôle absolu",
+					"id": 71028
+				}
+			},
+			{
+				"id": 10497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du vainqueur embrasé",
+					"id": 71671
+				}
+			},
+			{
+				"id": 10499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du conquérant embrasé",
+					"id": 71678
+				}
+			},
+			{
+				"id": 35256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Friandise fumante",
+					"id": 152975
+				}
+			},
+			{
+				"id": 40450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de fumée dissolvante",
+					"id": 171687
+				}
+			},
+			{
+				"id": 40451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de l’obéissance implicite",
+					"id": 171694
+				}
+			},
+			{
+				"id": 40452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du contrôle absolu",
+					"id": 171695
+				}
+			},
+			{
+				"id": 40453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171689?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coupe de colère",
+					"id": 171689
+				}
+			},
+			{
+				"id": 40454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp du prince bandit",
+					"id": 171685
+				}
+			},
+			{
+				"id": 40455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules aux flammes vacillantes",
+					"id": 171692
+				}
+			},
+			{
+				"id": 40456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bardiche du faucheur de crâne",
+					"id": 171684
+				}
+			},
+			{
+				"id": 40457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de dévotion frénétique",
+					"id": 171657
+				}
+			},
+			{
+				"id": 40458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de fétiches",
+					"id": 171686
+				}
+			},
+			{
+				"id": 40459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171693?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du chasseur redouté",
+					"id": 171693
+				}
+			},
+			{
+				"id": 40460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de la prison de cristal",
+					"id": 171691
+				}
+			},
+			{
+				"id": 40461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frénésie dévorante",
+					"id": 171683
+				}
+			},
+			{
+				"id": 40462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171690?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales du foule-braises",
+					"id": 171690
+				}
+			},
+			{
+				"id": 40463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture infroissable de la fureur",
+					"id": 171688
+				}
+			},
+			{
+				"id": 40522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de l’immolation",
+					"id": 171781
+				}
+			},
+			{
+				"id": 40582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du phénix sombre",
+					"id": 171771
+				}
+			},
+			{
+				"id": 40583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de l’éruption volcanique",
+					"id": 171816
+				}
+			},
+			{
+				"id": 40584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières tisse-feuillage en obsidienne",
+					"id": 171755
+				}
+			},
+			{
+				"id": 40585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes d’attise-flammes",
+					"id": 171775
+				}
+			},
+			{
+				"id": 40586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l’éruption volcanique",
+					"id": 171826
+				}
+			},
+			{
+				"id": 40587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de l’immolation",
+					"id": 171764
+				}
+			},
+			{
+				"id": 40588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de l’éruption volcanique",
+					"id": 171821
+				}
+			},
+			{
+				"id": 40589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes tisse-feuillage en obsidienne",
+					"id": 171745
+				}
+			},
+			{
+				"id": 40590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du géant de lave",
+					"id": 171759
+				}
+			},
+			{
+				"id": 40591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards du géant de lave",
+					"id": 171786
+				}
+			},
+			{
+				"id": 40592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de plates mortelles en élémentium",
+					"id": 171734
+				}
+			},
+			{
+				"id": 40593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la flamme purificatrice",
+					"id": 171795
+				}
+			},
+			{
+				"id": 40594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la flamme purificatrice",
+					"id": 171800
+				}
+			},
+			{
+				"id": 40595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de l’immolation",
+					"id": 171791
+				}
+			},
+			{
+				"id": 40596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de plates mortelles en élémentium",
+					"id": 171741
+				}
+			},
+			{
+				"id": 40597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards tisse-feuillage en obsidienne",
+					"id": 171750
+				}
+			},
+			{
+				"id": 40598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières faucon-de-feu",
+					"id": 171810
+				}
+			},
+			{
+				"id": 40599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de l’araignée torve",
+					"id": 171805
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20808,
+				"title": "Vue d’ensemble",
+				"body_text": "Shannox n’apparaît pas tant que vous n’avez pas tué un grand nombre d’ennemis dans la zone.\r\n\r\nUne fois en combat, Shannox vous attaque avec ses deux compagnons : Ragegueule et Croquepatte. Il projette sa lance et place des pièges prison de cristal périodiquement tandis que Ragegueule attaque des personnages-joueurs aléatoires. Croquepatte devra être géré par un tank.\r\n\r\nQuand Ragegueule ou Croquepatte est vaincu, Shannox devient frénétique. Quand il est vaincu, Ragegueule et Croquepatte gagnent Dévotion frénétique.",
+				"sections": [
+					{
+						"id": 20809,
+						"title": "Tanks",
+						"body_text": "$bullet;Shannox et Croquepatte sont insensibles aux techniques de provocation.\r\n$bullet;Ragegueule choisit des cibles de façon aléatoire.\r\n$bullet;Profitez du moment pendant lequel Croquepatte récupère la lance de Shannox pour renouveler vos applications de [Déchiqueture]."
+					},
+					{
+						"id": 20810,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Ragegueule choisit des cibles de façon aléatoire.\r\n$bullet;Les victimes de [Rage faciale] ont besoin de soins intenses."
+					},
+					{
+						"id": 20811,
+						"title": "DPS",
+						"body_text": "$bullet;Ragegueule peut être emprisonné dans les [Pièges prison de cristal] que Shannox sème au sol.\r\n$bullet;Ragegueule se concentre sur des membres aléatoires de votre raid.\r\n$bullet;Tuez les trois cibles quasiment en même temps pour éviter les dégâts supplémentaires de [Frénésie] et [Dévotion frénétique]."
+					}
+				]
+			},
+			{
+				"id": 2575,
+				"title": "Piège d'immolation",
+				"body_text": "Shannox lance un piège enflammé aux pieds d’un personnage-joueur aléatoire. Le piège met 2 secondes à s’armer et se déclenche ensuite lorsqu’un personnage-joueur ou l’un des familiers de Shannox marche dessus. Le Piège d’immolation inflige 0 points de dégâts de Feu, puis 0 points de dégâts de Feu toutes les 3 s, en plus d'augmenter tous les dégâts subis par la cible de 40%, pendant 9 s."
+			},
+			{
+				"id": 2576,
+				"title": "Piège prison de cristal",
+				"body_text": "Shannox lance un piège emprisonnant sur la position d'un personnage-joueur. Le piège s’active au bout de 2 s et est ensuite déclenché lorsqu'un membre du raid ou l'un des familiers de Shannox marche dessus. Le piège prison de cristal entrave la cible dans un bloc de cristal de magma, l’empêchant de se déplacer ou de tenter toute autre action. Détruire la prison de cristal permet de libérer le personnage-joueur piégé."
+			},
+			{
+				"id": 2577,
+				"title": "Entaille tranchante",
+				"body_text": "Shannox inflige 0% des dégâts de mêlée normaux dans un cône de 120 degrés jusqu’à 10 mètres devant lui, et inflige également une Déchiqueture à sa cible actuelle.",
+				"sections": [
+					{
+						"id": 2578,
+						"title": "Déchiqueture",
+						"body_text": "L’Entaille tranchante de Shannox laisse une Déchiqueture qui inflige 0 points de dégâts physiques toutes les 3 s pendant 24 s. Cet effet est cumulable."
+					}
+				]
+			},
+			{
+				"id": 2579,
+				"title": "Jeter la lance",
+				"body_text": "Shannox jette sa lance dans la direction de son chien, Croquepatte. La lance inflige 0 points de dégâts physiques à tous les ennemis se trouvant à moins de 3 mètres, ainsi que 0 points de dégâts de Feu à tous les ennemis à moins de 50 mètres. Le coup de lance déclenche également une cascade d'éruptions de lave autour du point d'impact, qui inflige 0 points de dégâts de Feu à tous les ennemis touchés par ses éruptions.\r\n\r\nCroquepatte se désengage alors du combat, attrape la lance et la rapporte à Shannox."
+			},
+			{
+				"id": 2580,
+				"title": "Frénésie",
+				"body_text": "Lorsque Croquepatte ou Ragegueule est vaincu, Shannox est pris de frénésie. Cela augmente les dégâts physiques qu’il inflige de 30% et sa vitesse d’attaque de 30%. Cet effet est cumulable deux fois."
+			},
+			{
+				"id": 2928,
+				"title": "Rupture de magma",
+				"body_text": "À la mort de Croquepatte, Shannox plante sa lance dans le sol au lieu de la jeter violemment. Cette attaque inflige 0 points de dégâts de Feu et augmente les dégâts de Feu subis pour tous les personnages-joueurs de 40% pendant 1 min. Le choc de la lance provoque une cascade d’éruptions de lave autour du point d’impact, infligeant 0 points de dégâts de Feu aux ennemis pris au piège dans une éruption."
+			},
+			{
+				"id": 2581,
+				"title": "Croquepatte",
+				"body_text": "Croquepatte attaque la cible qui possède le niveau de menace le plus élevé.\r\n\r\n",
+				"sections": [
+					{
+						"id": 2582,
+						"title": "Déchirure de membre",
+						"body_text": "Croquepatte mord sauvagement sa cible actuelle, lui infligeant 0% des points de dégâts de mêlée normaux ainsi que Déchiqueture.",
+						"sections": [
+							{
+								"id": 2587,
+								"title": "Déchiqueture",
+								"body_text": "La Déchirure de membre de Croquepatte laisse une Déchiqueture qui inflige 0 points de dégâts physiques toutes les 3 s pendant 24 s. Cet effet est cumulable."
+							}
+						]
+					},
+					{
+						"id": 2588,
+						"title": "Dévotion frénétique",
+						"body_text": "Croquepatte entre dans une rage irrépressible si elle est vivante quand les points de vie de Shannox atteignent 30%. Cet effet augmente les dégâts qu’elle inflige de 100%, sa vitesse d’attaque de 50% et sa vitesse de déplacement de 100%."
+					},
+					{
+						"id": 2589,
+						"title": "Frénésie affamée",
+						"body_text": "Les attaques en mêlée réussies de Croquepatte lui octroient un bonus de 5% aux dégâts physiques infligés pendant 20 s. Cet effet est cumulable."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38449?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38449
+				}
+			},
+			{
+				"id": 2583,
+				"title": "Ragegueule",
+				"body_text": "Ragegueule ne peut être contrôlé et se précipite d’ennemi en ennemi, changeant de cible périodiquement.",
+				"sections": [
+					{
+						"id": 2584,
+						"title": "Rage faciale",
+						"body_text": "Ragegueule bondit sur un personnage-joueur aléatoire, l’étourdit et le fait tomber. Il griffe ensuite violemment sa cible, infligeant 0 points de dégâts physiques toutes les 0,5 s, et les dégâts qu’elle subit augmentent avec le temps. Tant que Ragegueule lacère sa cible, toutes les attaques portées contre lui sont des coups critiques.\r\n\r\nRagegueule n’arrête pas avant que sa cible soit morte ou qu’il ait subi un montant de dégâts égal à 6,5% de son total de points de vie."
+					},
+					{
+						"id": 2585,
+						"title": "Dévotion frénétique",
+						"body_text": "Ragegueule entre dans une rage irrépressible s’il est vivant quand les points de vie de Shannox atteignent 30%. Cet effet augmente les dégâts qu’il inflige de 100%, sa vitesse d’attaque de 50% et sa vitesse de déplacement de 100%."
+					},
+					{
+						"id": 2586,
+						"title": "Frénésie affamée",
+						"body_text": "Les attaques en mêlée réussies de Ragegueule lui octroient un bonus de 5% aux dégâts physiques infligés pendant 20 s. Cet effet est cumulable."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38450
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/195?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 195,
+		"name": "Shannox",
+		"description": "The flamewakers are among the most feared elemental guardians in the Firelands.  Shannox is no exception.  Serving as the chief hunter and kennel master of Ragnaros's hell hounds, Shannox patrols the elemental realm with his two most ferocious beasts: Riplimb and Rageface.",
+		"creatures": [
+			{
+				"id": 627,
+				"name": "Shannox",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38448?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38448
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70913?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Frenzied Devotion",
+					"id": 70913
+				}
+			},
+			{
+				"id": 10455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Fiery Protector",
+					"id": 71685
+				}
+			},
+			{
+				"id": 10456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71440?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Dissolving Smoke",
+					"id": 71440
+				}
+			},
+			{
+				"id": 10457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71441?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Feeding Frenzy",
+					"id": 71441
+				}
+			},
+			{
+				"id": 10458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71442?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp of the Bandit Prince",
+					"id": 71442
+				}
+			},
+			{
+				"id": 10459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71443?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uncrushable Belt of Fury",
+					"id": 71443
+				}
+			},
+			{
+				"id": 10460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71444?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Frenzied Devotion",
+					"id": 71444
+				}
+			},
+			{
+				"id": 10461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71445?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skullstealer Greataxe",
+					"id": 71445
+				}
+			},
+			{
+				"id": 10462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necklace of Fetishes",
+					"id": 71446
+				}
+			},
+			{
+				"id": 10463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coalwalker Sandals",
+					"id": 71447
+				}
+			},
+			{
+				"id": 10464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71448?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Goblet of Anger",
+					"id": 71448
+				}
+			},
+			{
+				"id": 10465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Prison Band",
+					"id": 71449
+				}
+			},
+			{
+				"id": 10466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulderpads",
+					"id": 71450
+				}
+			},
+			{
+				"id": 10467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Implicit Obedience",
+					"id": 71451
+				}
+			},
+			{
+				"id": 10468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Dread Hunter",
+					"id": 71452
+				}
+			},
+			{
+				"id": 10469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Absolute Control",
+					"id": 71453
+				}
+			},
+			{
+				"id": 10470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71013?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Feeding Frenzy",
+					"id": 71013
+				}
+			},
+			{
+				"id": 10471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skullstealer Greataxe",
+					"id": 71014
+				}
+			},
+			{
+				"id": 10480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp of the Bandit Prince",
+					"id": 71018
+				}
+			},
+			{
+				"id": 10485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71019?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necklace of Fetishes",
+					"id": 71019
+				}
+			},
+			{
+				"id": 10487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Dissolving Smoke",
+					"id": 71020
+				}
+			},
+			{
+				"id": 10489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71021?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uncrushable Belt of Fury",
+					"id": 71021
+				}
+			},
+			{
+				"id": 10490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71022?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Goblet of Anger",
+					"id": 71022
+				}
+			},
+			{
+				"id": 10491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71023?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coalwalker Sandals",
+					"id": 71023
+				}
+			},
+			{
+				"id": 10492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Prison Band",
+					"id": 71024
+				}
+			},
+			{
+				"id": 10493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71025?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulderpads",
+					"id": 71025
+				}
+			},
+			{
+				"id": 10494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Dread Hunter",
+					"id": 71026
+				}
+			},
+			{
+				"id": 10495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Implicit Obedience",
+					"id": 71027
+				}
+			},
+			{
+				"id": 10496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Absolute Control",
+					"id": 71028
+				}
+			},
+			{
+				"id": 10497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Fiery Vanquisher",
+					"id": 71671
+				}
+			},
+			{
+				"id": 10499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Fiery Conqueror",
+					"id": 71678
+				}
+			},
+			{
+				"id": 35256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Treat",
+					"id": 152975
+				}
+			},
+			{
+				"id": 40450,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171687?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Dissolving Smoke",
+					"id": 171687
+				}
+			},
+			{
+				"id": 40451,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171694?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Implicit Obedience",
+					"id": 171694
+				}
+			},
+			{
+				"id": 40452,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171695?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Absolute Control",
+					"id": 171695
+				}
+			},
+			{
+				"id": 40453,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171689?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Goblet of Anger",
+					"id": 171689
+				}
+			},
+			{
+				"id": 40454,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171685?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scalp of the Bandit Prince",
+					"id": 171685
+				}
+			},
+			{
+				"id": 40455,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171692?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulderpads",
+					"id": 171692
+				}
+			},
+			{
+				"id": 40456,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skullstealer Greataxe",
+					"id": 171684
+				}
+			},
+			{
+				"id": 40457,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Frenzied Devotion",
+					"id": 171657
+				}
+			},
+			{
+				"id": 40458,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171686?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necklace of Fetishes",
+					"id": 171686
+				}
+			},
+			{
+				"id": 40459,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171693?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Dread Hunter",
+					"id": 171693
+				}
+			},
+			{
+				"id": 40460,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171691?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Prison Band",
+					"id": 171691
+				}
+			},
+			{
+				"id": 40461,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Feeding Frenzy",
+					"id": 171683
+				}
+			},
+			{
+				"id": 40462,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171690?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coalwalker Sandals",
+					"id": 171690
+				}
+			},
+			{
+				"id": 40463,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171688?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uncrushable Belt of Fury",
+					"id": 171688
+				}
+			},
+			{
+				"id": 40522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Legplates",
+					"id": 171781
+				}
+			},
+			{
+				"id": 40582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Legguards",
+					"id": 171771
+				}
+			},
+			{
+				"id": 40583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171816?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Kilt",
+					"id": 171816
+				}
+			},
+			{
+				"id": 40584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Leggings",
+					"id": 171755
+				}
+			},
+			{
+				"id": 40585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Legguards",
+					"id": 171775
+				}
+			},
+			{
+				"id": 40586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171826?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Legguards",
+					"id": 171826
+				}
+			},
+			{
+				"id": 40587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Legguards",
+					"id": 171764
+				}
+			},
+			{
+				"id": 40588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171821?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Legwraps",
+					"id": 171821
+				}
+			},
+			{
+				"id": 40589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Legguards",
+					"id": 171745
+				}
+			},
+			{
+				"id": 40590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of the Molten Giant",
+					"id": 171759
+				}
+			},
+			{
+				"id": 40591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of the Molten Giant",
+					"id": 171786
+				}
+			},
+			{
+				"id": 40592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Legguards",
+					"id": 171734
+				}
+			},
+			{
+				"id": 40593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of the Cleansing Flame",
+					"id": 171795
+				}
+			},
+			{
+				"id": 40594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Cleansing Flame",
+					"id": 171800
+				}
+			},
+			{
+				"id": 40595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Greaves",
+					"id": 171791
+				}
+			},
+			{
+				"id": 40596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Greaves",
+					"id": 171741
+				}
+			},
+			{
+				"id": 40597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Legwraps",
+					"id": 171750
+				}
+			},
+			{
+				"id": 40598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Leggings",
+					"id": 171810
+				}
+			},
+			{
+				"id": 40599,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Leggings",
+					"id": 171805
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20808,
+				"title": "Overview",
+				"body_text": "Shannox will not appear until you have slain a large number of the enemies in the zone.\r\n\r\nOnce engaged, Shannox will attack you with his two companions: Rageface and Riplimb. Shannox will throw his spear and lay down Crystal Prison Traps periodically while Rageface attacks players at random and Riplimb must be tanked.\r\n\r\nWhen either Rageface or Riplimb are defeated, Shannox will Frenzy.  When Shannox is defeated, both Rageface and Riplimb will gain Frenzied Devotion.",
+				"sections": [
+					{
+						"id": 20809,
+						"title": "Tanks",
+						"body_text": "$bullet;Shannox and Riplimb are immune to Taunt mechanics.\r\n$bullet;Rageface fixates on targets at random.\r\n$bullet;Use the time when Riplimb retrieves Shannox's spear to reset your applications of [Jagged Tear]."
+					},
+					{
+						"id": 20810,
+						"title": "Healers",
+						"body_text": "$bullet;Rageface fixates on targets at random.\r\n$bullet;Victims of [Face Rage] will need significant healing."
+					},
+					{
+						"id": 20811,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Rageface can be imprisoned by the [Crtystal Prison Traps] Shannox drops on the ground.\r\n$bullet;Rageface will fixate on random members of your raid.\r\n$bullet;Bring down all three targets at nearly the same time to avoid the extra damage from [Frenzy] and [Frenzied Devotion]."
+					}
+				]
+			},
+			{
+				"id": 2575,
+				"title": "Immolation Trap",
+				"body_text": "Shannox launches a fiery trap at a random player's location. The trap arms after 2 seconds, then detonates when either a player or one of Shannox's pets steps over the trap. Immolation Trap inflicts 0 Fire damage, 0 Fire damage every 3 sec., and increases the target's damage taken by 40% for 9 sec."
+			},
+			{
+				"id": 2576,
+				"title": "Crystal Prison Trap",
+				"body_text": "Shannox launches a prison trap at a random player's location. The trap arms after 2 seconds, then detonates when either a player or one of Shannox's pets steps over the trap. The Crystal Prison trap encases the target in a block of magma crystal, preventing all movement and any other action. Destroying the crystal prison frees a trapped player."
+			},
+			{
+				"id": 2577,
+				"title": "Arcing Slash",
+				"body_text": "Shannox inflicts 0% of normal melee damage in a 120 degree cone up to 10 yards in front of him, and inflicts Jagged Tear on his current target.",
+				"sections": [
+					{
+						"id": 2578,
+						"title": "Jagged Tear",
+						"body_text": "Shannox's Arcing Slash leaves a Jagged Tear that inflicts 0 Physical damage every 3 sec. for 24 sec. This effect stacks."
+					}
+				]
+			},
+			{
+				"id": 2579,
+				"title": "Hurl Spear",
+				"body_text": "Shannox hurls his spear at a location near Riplimb. When the spear lands it inflicts 0 Physical damage to all enemies within 3 yards and 0 Fire damage to all enemies within 50 yards.  The spear strike also triggers a cascade of molten eruptions around the impact location, inflicting 0 Fire damage to enemies caught in an eruption.  \r\n\r\nRiplimb will then break off from combat, fetch the spear, and return it to Shannox."
+			},
+			{
+				"id": 2580,
+				"title": "Frenzy",
+				"body_text": "When the players defeat Riplimb or Rageface, Shannox enters a frenzy. This increases his Physical damage by 30% and attack speed by 30%. This effect stacks twice."
+			},
+			{
+				"id": 2928,
+				"title": "Magma Rupture",
+				"body_text": "Once Riplimb has been slain, Shannox drives his spear into the ground instead of hurling it. This attack inflicts 0 Fire damage and increases the Fire damage taken for all players by 40% for 1 min. The spear strike also triggers a cascade of molten eruptions around the impact location, inflicting 0 Fire damage to enemies caught in an eruption."
+			},
+			{
+				"id": 2581,
+				"title": "Riplimb",
+				"body_text": "Riplimb will attack the target with the most threat.\r\n\r\n",
+				"sections": [
+					{
+						"id": 2582,
+						"title": "Limb Rip",
+						"body_text": "Riplimb savagely bites his current target, inflicting 0% of normal melee damage and inflicting Jagged Tear.",
+						"sections": [
+							{
+								"id": 2587,
+								"title": "Jagged Tear",
+								"body_text": "Riplimb's Limb Rip leaves a Jagged Tear that inflicts 0 Physical damage every 3 sec. for 24 sec. This effect stacks."
+							}
+						]
+					},
+					{
+						"id": 2588,
+						"title": "Frenzied Devotion",
+						"body_text": "Riplimb enters an unstoppable rage if he witnesses Shannox's health reach 30%. This effect increases Riplimb's damage dealt by 100%, attack speed by 50% and movement speed by 100%."
+					},
+					{
+						"id": 2589,
+						"title": "Feeding Frenzy",
+						"body_text": "Riplimb's successful melee attacks increase his physical damage dealt by 5% for 20 sec. This effect stacks."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38449?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38449
+				}
+			},
+			{
+				"id": 2583,
+				"title": "Rageface",
+				"body_text": "Rageface cannot be controlled, and darts about from enemy to enemy, changing targets periodically.",
+				"sections": [
+					{
+						"id": 2584,
+						"title": "Face Rage",
+						"body_text": "Rageface leaps at a random player, stunning and knocking them to the ground. Rageface begins to viciously maul the player, inflicting 0 Physical damage every 0.5 sec. and the damage dealt increases over time.  While Rageface mauls the player, all attacks against the beast will be critical strikes.\r\n  \r\nRageface will continue the mauling until his target is dead, or until he has taken 6.5% of total health."
+					},
+					{
+						"id": 2585,
+						"title": "Frenzied Devotion",
+						"body_text": "Rageface enters an unstoppable rage if he witnesses Shannox's health reach 30%. This effect increases Riplimb's damage dealt by 100%, attack speed by 50% and movement speed by 100%."
+					},
+					{
+						"id": 2586,
+						"title": "Feeding Frenzy",
+						"body_text": "Rageface's successful melee attacks increase his physical damage dealt by 5% for 20 sec. This effect stacks."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38450
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

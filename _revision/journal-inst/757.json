@@ -1,0 +1,229 @@
+{
+	"id": 757,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/757?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 757,
+		"name": "Prueba del Cruzado",
+		"map": {
+			"name": "Prueba del Cruzado",
+			"id": 649
+		},
+		"encounters": [
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1618?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Las bestias de Rasganorte",
+				"id": 1618
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1619?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Lord Jaraxxus",
+				"id": 1619
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1620?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Campeones de la Alianza",
+				"id": 1620
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1621?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Campeones de la Horda",
+				"id": 1621
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1622?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Gemelas Val'kyr",
+				"id": 1622
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1623?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Anub'arak",
+				"id": 1623
+			}
+		],
+		"expansion": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-expansion/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Wrath of the Lich King",
+			"id": 72
+		},
+		"location": {
+			"name": "Corona de Hielo",
+			"id": 210
+		},
+		"modes": [
+			{
+				"mode": {
+					"type": "LEGACY_10_MAN",
+					"name": "10 jugadores"
+				},
+				"players": 10,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_25_MAN",
+					"name": "25 jugadores"
+				},
+				"players": 25,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_10_MAN_HEROIC",
+					"name": "10 jugadores (heroica)"
+				},
+				"players": 10,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_25_MAN_HEROIC",
+					"name": "25 jugadores (heroica)"
+				},
+				"players": 25,
+				"is_tracked": true
+			}
+		],
+		"media": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/757?namespace=static-12.1.0_68914-eu"
+			},
+			"id": 757
+		},
+		"minimum_level": 30,
+		"category": {
+			"type": "RAID"
+		},
+		"order_index": 5
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/757?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 757,
+		"name": "L’épreuve du croisé",
+		"map": {
+			"name": "L’épreuve du croisé",
+			"id": 649
+		},
+		"encounters": [
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1618?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Les bêtes du Norfendre",
+				"id": 1618
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1619?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Seigneur Jaraxxus",
+				"id": 1619
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1620?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Champions de l’Alliance",
+				"id": 1620
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1621?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Champions de la Horde",
+				"id": 1621
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1622?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Jumelles val’kyrs",
+				"id": 1622
+			},
+			{
+				"key": {
+					"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1623?namespace=static-12.1.0_68914-eu"
+				},
+				"name": "Anub’arak",
+				"id": 1623
+			}
+		],
+		"expansion": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-expansion/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Wrath of the Lich King",
+			"id": 72
+		},
+		"location": {
+			"name": "La Couronne de glace",
+			"id": 210
+		},
+		"modes": [
+			{
+				"mode": {
+					"type": "LEGACY_10_MAN",
+					"name": "10 joueurs"
+				},
+				"players": 10,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_25_MAN",
+					"name": "25 joueurs"
+				},
+				"players": 25,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_10_MAN_HEROIC",
+					"name": "10 joueurs (héroïque)"
+				},
+				"players": 10,
+				"is_tracked": true
+			},
+			{
+				"mode": {
+					"type": "LEGACY_25_MAN_HEROIC",
+					"name": "25 joueurs (héroïque)"
+				},
+				"players": 25,
+				"is_tracked": true
+			}
+		],
+		"media": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/media/journal-instance/757?namespace=static-12.1.0_68914-eu"
+			},
+			"id": 757
+		},
+		"minimum_level": 30,
+		"category": {
+			"type": "RAID"
+		},
+		"order_index": 5
+	}
+}

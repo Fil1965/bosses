@@ -24,5 +24,7 @@ if P.es == nil or P.en == nil then
 	return;
 end
 
--- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_Cata_enc.lua)
-BossesAPI.register("Cata", { ES = P.es, EN = P.en, ENC = P.enc });
+-- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_Cata_enc.lua);
+-- el de zonas (instanceID → jefes) también (Bosses_Cata_zonas.lua) y alimenta
+-- el desplegable del minimapa.
+BossesAPI.register("Cata", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, DE = P.de  });

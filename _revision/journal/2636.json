@@ -1,0 +1,735 @@
+{
+	"id": 2636,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2636?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2636,
+		"name": "Shurrai, Atrocidad del Inframar",
+		"description": "El fondo marino alberga horrores que superan nuestra imaginación. La cercanía de Santificación al Inframar hace que esté al alcance de las criaturas de lo profundo, y los kobismales están ansiosos por sacarle provecho a esta circunstancia. Sus invocaciones han atraído a Shurrai, la Atrocidad del Inframar, para que siembre el caos en su coto de caza. Shurrai es una amalgama de los peores horrores y la carne putrefacta de las profundidades abisales, así que los arathi necesitarán toda la ayuda posible para detenerlo.",
+		"creatures": [
+			{
+				"id": 5724,
+				"name": "Shurrai",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/96784?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 96784
+				}
+			},
+			{
+				"id": 5725,
+				"name": "Arathi ahogado",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 115496
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zancos quitinosos resistentes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abrigo de celador de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mallas de zarcillos abisales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de buscador de la Luz",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de cristal estelar",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de habitante de las zonas profundas",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del amanecer radiante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello del terror abisal",
+					"id": 225750
+				}
+			},
+			{
+				"id": 44595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cincho de mirada pétrea",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29964,
+				"title": "Resumen",
+				"body_text": "Shurrai arroja [Vómito salobre] a los jugadores y después engulle a los jugadores y limpia el vómito con la [Marea oscura].\r\n\r\nAl llegar a 100 p. de energía, Shurrai lanza [Regurgitar almas] para invocar arathi ahogados y protegerse con el [Sudario del ahogado].",
+				"sections": [
+					{
+						"id": 29965,
+						"title": "Tanques",
+						"body_text": "$bullet;[Golpe abisal] aplica una absorción de sanación equivalente a la cantidad de daño infligido.\r\n$bullet;[Marea oscura] elimina los charcos de [Vómito salobre].\r\n$bullet;Los arathi ahogados infligen una cantidad importante de daño a Shurrai cuando son destruidos."
+					},
+					{
+						"id": 29966,
+						"title": "Sanadores",
+						"body_text": "$bullet;Los arathi ahogados infligen [Expiación del océano] al morir.\r\n$bullet;[Marea oscura] elimina los charcos de [Vómito salobre].\r\n$bullet;Los arathi ahogados infligen una cantidad importante de daño a Shurrai cuando son destruidos."
+					},
+					{
+						"id": 29967,
+						"title": "DPS",
+						"body_text": "$bullet;[Marea oscura] elimina los charcos de [Vómito salobre].\r\n$bullet;Los arathi ahogados infligen una cantidad importante de daño a Shurrai cuando son destruidos."
+					}
+				]
+			},
+			{
+				"id": 29968,
+				"title": "Golpe abisal",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Golpe abisal",
+					"id": 453607
+				}
+			},
+			{
+				"id": 29969,
+				"title": "Vómito salobre",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vómito salobre",
+					"id": 453733
+				}
+			},
+			{
+				"id": 29970,
+				"title": "Marea oscura",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/455275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marea oscura",
+					"id": 455275
+				}
+			},
+			{
+				"id": 29971,
+				"title": "Regurgitar almas",
+				"sections": [
+					{
+						"id": 29972,
+						"title": "Sudario del ahogado",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/455639?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Sudario del ahogado",
+							"id": 455639
+						}
+					},
+					{
+						"id": 29973,
+						"title": "Arathi ahogado",
+						"sections": [
+							{
+								"id": 30063,
+								"title": "Expiación del océano",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/453863?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Expiación del océano",
+									"id": 453863
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 115496
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regurgitar almas",
+					"id": 453875
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2636?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2636,
+		"name": "Shurrai, Atrocité des fonds Marins",
+		"description": "Le plancher océanique cache des horreurs qui dépassent toute imagination. Située si près des fonds Marins, Sainte-Chute se retrouve à portée des créatures des profondeurs, et les Kobyss sont déterminés à en profiter. Leurs invocations ont amené Shurrai, l’Atrocité des fonds Marins, à ravager leurs terrains de chasse. Shurrai est un amalgame des pires terreurs et des chairs putréfiées des profondeurs abyssales, et la cité arathie aura besoin d’aide pour l’arrêter.",
+		"creatures": [
+			{
+				"id": 5724,
+				"name": "Shurrai",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/96784?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 96784
+				}
+			},
+			{
+				"id": 5725,
+				"name": "Noyé arathi",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 115496
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissardes chitineuses robustes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteau de gardienne de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collants en vrilles abyssales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de cherche-lumière",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissières d’étoile cristalline",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de rôdeur des profondeurs",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de l’Aube éclatante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de la terreur abyssale",
+					"id": 225750
+				}
+			},
+			{
+				"id": 44595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du regard de pierre",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29964,
+				"title": "Vue d’ensemble",
+				"body_text": "Shurrai asperge les personnages-joueurs de [Vomi saumâtre] avant de rincer le tout avec une [Noire marée].\r\n\r\nÀ 100 points d’énergie, Shurrai lance [Régurgitation d’âmes], invoquant des noyés arathis et se protégeant avec [Voile des noyés].",
+				"sections": [
+					{
+						"id": 29965,
+						"title": "Tanks",
+						"body_text": "$bullet;[Frappe abyssale] applique une absorption de soins équivalente à la quantité de dégâts infligés.\r\n$bullet;[Noire marée] emporte toutes les flaques de [Vomi saumâtre].\r\n$bullet;Les noyés arathis infligent une quantité importante de dégâts à Shurrai lorsqu’ils meurent."
+					},
+					{
+						"id": 29966,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Les noyés arathis infligent [Revanche de l’océan] lorsqu’ils meurent.\r\n$bullet;[Noire marée] emporte toutes les flaques de [Vomi saumâtre].\r\n$bullet;Les noyés arathis infligent une quantité importante de dégâts à Shurrai lorsqu’ils meurent."
+					},
+					{
+						"id": 29967,
+						"title": "DPS",
+						"body_text": "$bullet;[Noire marée] emporte toutes les flaques de [Vomi saumâtre].\r\n$bullet;Les noyés arathis infligent une quantité importante de dégâts à Shurrai lorsqu’ils meurent."
+					}
+				]
+			},
+			{
+				"id": 29968,
+				"title": "Frappe abyssale",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frappe abyssale",
+					"id": 453607
+				}
+			},
+			{
+				"id": 29969,
+				"title": "Vomi saumâtre",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vomi saumâtre",
+					"id": 453733
+				}
+			},
+			{
+				"id": 29970,
+				"title": "Noire marée",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/455275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Noire marée",
+					"id": 455275
+				}
+			},
+			{
+				"id": 29971,
+				"title": "Régurgitation d’âmes",
+				"sections": [
+					{
+						"id": 29972,
+						"title": "Voile des noyés",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/455639?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Voile des noyés",
+							"id": 455639
+						}
+					},
+					{
+						"id": 29973,
+						"title": "Noyé arathi",
+						"sections": [
+							{
+								"id": 30063,
+								"title": "La revanche de l’océan",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/453863?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "La revanche de l’océan",
+									"id": 453863
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 115496
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Régurgitation d’âmes",
+					"id": 453875
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2636?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2636,
+		"name": "Shurrai, Atrocity of the Undersea",
+		"description": "The sea floor hides horrors beyond our imagining. Hallowfall's proximity to the Undersea brings it near the reach of creatures of the deep, and the kobyss are only eager to take advantage. Their summons raise Shurrai, Atrocity of the Undersea, to wreak havoc on their hunting grounds. Shurrai is an amalgamation of the worst terrors and putrefying flesh of the abyssal depths, and the Arathi will need all the help they can get to stop it.",
+		"creatures": [
+			{
+				"id": 5724,
+				"name": "Shurrai",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/96784?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 96784
+				}
+			},
+			{
+				"id": 5725,
+				"name": "Drowned Arathi",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 115496
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44587,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sturdy Chitinous Striders",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44588,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dornish Warden's Coat",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44589,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abyssal Tendril Tights",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44590,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightseeker's Robes",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Star Cuisses",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Dweller's Tabi",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Gleaming Dawn",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of the Abyssal Terror",
+					"id": 225750
+				}
+			},
+			{
+				"id": 44595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stone Gaze Ceinture",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29964,
+				"title": "Overview",
+				"body_text": "Shurrai showers players with [Briny Vomit] before washing away both players and vomit with [Dark Tide].\r\n\r\nAt 100 energy Shurrai casts [Regurgitate Souls], summoning Drowned Arathi and shielding himself with [Shroud of the Drowned].",
+				"sections": [
+					{
+						"id": 29965,
+						"title": "Tanks",
+						"body_text": "$bullet;[Abyssal Strike] applies a heal absorb equivalent to the amount of damage inflicted.\r\n$bullet;[Dark Tide] washes away pools of [Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+					},
+					{
+						"id": 29966,
+						"title": "Healers",
+						"body_text": "$bullet;Drowned Arathi inflict [Ocean's Reckoning] upon death.\r\n$bullet;[Dark Tide] washes away pools of [Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+					},
+					{
+						"id": 29967,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Dark Tide] washes away pools of [Briny Vomit].\r\n$bullet;Drowned Arathi inflict a significant amount of damage to Shurrai when slain."
+					}
+				]
+			},
+			{
+				"id": 29968,
+				"title": "Abyssal Strike",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abyssal Strike",
+					"id": 453607
+				}
+			},
+			{
+				"id": 29969,
+				"title": "Briny Vomit",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Briny Vomit",
+					"id": 453733
+				}
+			},
+			{
+				"id": 29970,
+				"title": "Dark Tide",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/455275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Tide",
+					"id": 455275
+				}
+			},
+			{
+				"id": 29971,
+				"title": "Regurgitate Souls",
+				"sections": [
+					{
+						"id": 29972,
+						"title": "Shroud of the Drowned",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/455639?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Shroud of the Drowned",
+							"id": 455639
+						}
+					},
+					{
+						"id": 29973,
+						"title": "Drowned Arathi",
+						"sections": [
+							{
+								"id": 30063,
+								"title": "Ocean's Reckoning",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/453863?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ocean's Reckoning",
+									"id": 453863
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/115496?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 115496
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regurgitate Souls",
+					"id": 453875
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

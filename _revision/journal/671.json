@@ -1,0 +1,513 @@
+{
+	"id": 671,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/671?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 671,
+		"name": "Hermano Korloff",
+		"description": "El hermano Korloff aprendió las artes letales del monje por primera vez de los embajadores pandaren que viajaban por Azeroth. Cuando el cruzado demostró sus artes marciales ante sus superiores, estos le ordenaron de forma unánime que entrenara a toda una generación de iniciados en la senda del monje.",
+		"creatures": [
+			{
+				"id": 1275,
+				"name": "Hermano Korloff",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41154?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41154
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144175?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo Brasadedo",
+					"id": 144175
+				}
+			},
+			{
+				"id": 33504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa terrestre agostada",
+					"id": 144185
+				}
+			},
+			{
+				"id": 33505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran báculo de tormenta de Fuego",
+					"id": 144186
+				}
+			},
+			{
+				"id": 13906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran báculo de tormenta de Fuego",
+					"id": 88289
+				}
+			},
+			{
+				"id": 13907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa terrestre agostada",
+					"id": 88290
+				}
+			},
+			{
+				"id": 13908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de Korloff",
+					"id": 88291
+				}
+			},
+			{
+				"id": 13909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de llama creciente",
+					"id": 88292
+				}
+			},
+			{
+				"id": 13910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo Brasadedo",
+					"id": 88293
+				}
+			},
+			{
+				"id": 33350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de llama creciente",
+					"id": 144026
+				}
+			},
+			{
+				"id": 33351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestiduras de Korloff",
+					"id": 143965
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5601,
+				"title": "Puños llameantes",
+				"body_text": "El hermano Korloff desata un torbellino de fieros golpes, lo que inflige un 40% de su daño normal cuerpo a cuerpo como daño de Fuego a los objetivos que estén frente a él cada 1 s durante 6 s."
+			},
+			{
+				"id": 5602,
+				"title": "Patada de tormenta de Fuego",
+				"body_text": "El hermano Korloff se lanza contra un jugador aleatorio y realiza una Patada de tormenta de Fuego que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 7 m."
+			},
+			{
+				"id": 5603,
+				"title": "Llama creciente",
+				"body_text": "Cada vez que el hermano Korloff pierde un 10% de su salud total, una Llama creciente arde en su interior e inflige un 10% de daño de Fuego extra. Este efecto se acumula."
+			},
+			{
+				"id": 5604,
+				"title": "Tierra agostada",
+				"body_text": "Cuando la salud del hermano Korloff llega al 50%, arde lo suficiente como para dejar una estela de fuego allá por donde pasa. La Tierra agostada inflige 0 p. de daño de Fuego cada 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monasterio Escarlata",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/671?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 671,
+		"name": "Frère Korloff",
+		"description": "Frère Korloff a appris les redoutables arts des moines auprès des ambassadeurs pandarens lors de leur premier voyage en Azeroth. Lorsqu'il a fait la démonstration de son style à ses supérieurs de la croisade, ces derniers ont unanimement décidé qu'il formerait une génération entière d'initiés à la voie du moine.",
+		"creatures": [
+			{
+				"id": 1275,
+				"name": "Frère Korloff",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41154?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41154
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144175?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau doigt-de-feu",
+					"id": 144175
+				}
+			},
+			{
+				"id": 33504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de la terre brûlée",
+					"id": 144185
+				}
+			},
+			{
+				"id": 33505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand bâton tempête-de-feu",
+					"id": 144186
+				}
+			},
+			{
+				"id": 13906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand bâton tempête-de-feu",
+					"id": 88289
+				}
+			},
+			{
+				"id": 13907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de la terre brûlée",
+					"id": 88290
+				}
+			},
+			{
+				"id": 13908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de Korloff",
+					"id": 88291
+				}
+			},
+			{
+				"id": 13909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de levée de flammes",
+					"id": 88292
+				}
+			},
+			{
+				"id": 13910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau doigt-de-feu",
+					"id": 88293
+				}
+			},
+			{
+				"id": 33350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de levée de flammes",
+					"id": 144026
+				}
+			},
+			{
+				"id": 33351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande tenue de Korloff",
+					"id": 143965
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5601,
+				"title": "Poings flamboyants",
+				"body_text": "Frère Korloff commence à déchaîner un déluge de coups embrasés, infligeant 40% de ses dégâts de mêlée normaux sous forme de dégâts de Feu aux cibles devant lui toutes les 1 s pendant 6 s."
+			},
+			{
+				"id": 5602,
+				"title": "Coup de pied de la tempête de feu",
+				"body_text": "Frère Korloff vole vers un personnage-joueur choisi au hasard et exécute un coup de pied de la tempête de feu, infligeant 0 points de dégâts de Feu à tous les personnages-joueurs à moins de 7 mètres."
+			},
+			{
+				"id": 5603,
+				"title": "Levée de flamme",
+				"body_text": "Chaque fois que frère Korloff perd 10% de ses points de vie maximum, une levée de flammes brûle en lui. Il inflige alors 10% de dégâts de Feu supplémentaires. Cet effet se cumule."
+			},
+			{
+				"id": 5604,
+				"title": "Terre brûlée",
+				"body_text": "A 50% de ses points de vie, frère Korloff brûle assez vivement pour laisser une traînée de feu derrière lui. Terre brûlée inflige 0 points de dégâts de Feu toutes les 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monastère Écarlate",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/671?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 671,
+		"name": "Brother Korloff",
+		"description": "Brother Korloff first learned of the monk's deadly arts from pandaren ambassadors as they journeyed through Azeroth. When the crusader demonstrated this martial style to his superiors, they unanimously ordered Korloff to train an entire generation of initiates in the ways of the monk.",
+		"creatures": [
+			{
+				"id": 1275,
+				"name": "Brother Korloff",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41154?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41154
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144175?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firefinger Ring",
+					"id": 144175
+				}
+			},
+			{
+				"id": 33504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scorched Earth Cloak",
+					"id": 144185
+				}
+			},
+			{
+				"id": 33505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firestorm Greatstaff",
+					"id": 144186
+				}
+			},
+			{
+				"id": 13906,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88289?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firestorm Greatstaff",
+					"id": 88289
+				}
+			},
+			{
+				"id": 13907,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88290?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scorched Earth Cloak",
+					"id": 88290
+				}
+			},
+			{
+				"id": 13908,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88291?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Korloff's Raiment",
+					"id": 88291
+				}
+			},
+			{
+				"id": 13909,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88292?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Rising Flame",
+					"id": 88292
+				}
+			},
+			{
+				"id": 13910,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88293?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firefinger Ring",
+					"id": 88293
+				}
+			},
+			{
+				"id": 33350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Rising Flame",
+					"id": 144026
+				}
+			},
+			{
+				"id": 33351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143965?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Korloff's Raiment",
+					"id": 143965
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5601,
+				"title": "Blazing Fists",
+				"body_text": "Brother Korloff begins to unleash a flurry of fiery blows, inflicting 40% of his normal melee damage as Fire damage to targets in front of him every 1 sec. for 6 sec."
+			},
+			{
+				"id": 5602,
+				"title": "Firestorm Kick",
+				"body_text": "Brother Korloff flies towards a random player and performs a Firestorm Kick, inflicting 0 Fire damage to all players within 7 yards."
+			},
+			{
+				"id": 5603,
+				"title": "Rising Flame",
+				"body_text": "Whenever Brother Korloff loses 10% of his total health, a Rising Flame burns within him and he inflicts 10% additional Fire damage. This effect stacks."
+			},
+			{
+				"id": 5604,
+				"title": "Scorched Earth",
+				"body_text": "At 50% remaining health Brother Korloff burns brightly enough to leave a trail of fire as he moves. The Scorched Earth inflicts 0 Fire damage every 1 sec."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Scarlet Monastery",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

@@ -1,0 +1,3927 @@
+{
+	"id": 2499,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2499?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2499,
+		"name": "Raszageth la Devoradora de Tormentas",
+		"description": "Raszageth cree que los dragónicos debían ser tan salvajes y libres como la propia tormenta. Si logra liberar a las Encarnaciones de su antigua prisión, Raszageth y su pueblo derrotarán a los Aspectos y limpiarán el mundo de todo rastro de la influencia de los titanes.",
+		"creatures": [
+			{
+				"id": 5385,
+				"name": "Raszageth la Devoradora de Tormentas",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103255
+				}
+			},
+			{
+				"id": 5456,
+				"name": "Chispa volátil",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 108341
+				}
+			},
+			{
+				"id": 5453,
+				"name": "Arruinador emergente",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/110591?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 110591
+				}
+			},
+			{
+				"id": 5454,
+				"name": "Vanguardia juramentado",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102945
+				}
+			},
+			{
+				"id": 5455,
+				"name": "Acólita buscatormentas",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102868
+				}
+			},
+			{
+				"id": 5457,
+				"name": "Maligno de tormenta colosal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 107145
+				}
+			},
+			{
+				"id": 5466,
+				"name": "Zelote forjado con Escarcha",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106477
+				}
+			},
+			{
+				"id": 5465,
+				"name": "Heraldo jurallamas",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106476
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 43230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedraforja de topacio cénit",
+					"id": 196595
+				}
+			},
+			{
+				"id": 43231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Siegacielos de las Encarnaciones",
+					"id": 195528
+				}
+			},
+			{
+				"id": 43232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Último recurso de Látigo de Tormenta",
+					"id": 195529
+				}
+			},
+			{
+				"id": 43233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedraforja de topacio mística",
+					"id": 196600
+				}
+			},
+			{
+				"id": 43234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tormenta rencorosa",
+					"id": 194309
+				}
+			},
+			{
+				"id": 43235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Neltharax, Enemigo del Cielo",
+					"id": 195527
+				}
+			},
+			{
+				"id": 43236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandalias de la soberana salvaje",
+					"id": 195532
+				}
+			},
+			{
+				"id": 43237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedraforja de topacio venerada",
+					"id": 196605
+				}
+			},
+			{
+				"id": 43238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perneras de trueno odiosas",
+					"id": 195530
+				}
+			},
+			{
+				"id": 43239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grilletes de fracaso de los titanes",
+					"id": 195533
+				}
+			},
+			{
+				"id": 43240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardachoques calamitosos",
+					"id": 195531
+				}
+			},
+			{
+				"id": 43241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Códice de invocador desesperado",
+					"id": 194310
+				}
+			},
+			{
+				"id": 43242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedraforja de topacio espantosa",
+					"id": 196590
+				}
+			},
+			{
+				"id": 44018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cronógrafo desacelerado místico",
+					"id": 217325
+				}
+			},
+			{
+				"id": 44019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cronógrafo desacelerado espantoso",
+					"id": 217324
+				}
+			},
+			{
+				"id": 44020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cronógrafo desacelerado cénit",
+					"id": 217327
+				}
+			},
+			{
+				"id": 44021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cronógrafo desacelerado venerado",
+					"id": 217326
+				}
+			},
+			{
+				"id": 44076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tempopiedra despierta",
+					"id": 217408
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 25240,
+				"title": "Resumen",
+				"body_text": "Raszageth y sus fuerzas primalistas pretenden destruir las prisiones que mantienen encerrados a sus hermanos. Cuando empieza la batalla, Raszageth usa [Ala de huracán] para barrer a sus asaltantes desde la plataforma central.\r\n\r\nAl llegar a un 65% de salud, Raszageth comienza un asalto aéreo contra las prisiones de Fyrakk y Vyranoth con [Devastación de relámpagos] al tiempo que invoca fuerzas terrestres para que carguen directamente contra ellas. Los arruinadores emergentes surgen con una [Oleada] de relámpagos, que drena el poder de la cámara.\r\n\r\nCuando la integridad de la cámara cae hasta un 50%, Raszageth aterriza en la prisión de Iridikron y empieza a drenar el poder de la cámara usando [Oleada tormentosa].\r\n\r\nCuando la integridad de la cámara cae hasta un 0%, Raszageth alza el vuelo e invoca malignos de tormenta colosales para drenar el poder restante de la cámara.\r\n\r\nCuando la cámara falla, Raszageth regresa a la plataforma central y se convierte en el núcleo de una [Tormenta enfurecida]. La Devoradora de Tormentas lanza toda la fuerza de sus facultades contra sus asaltantes mientras da paso a las oscuras nubes de una nueva era.",
+				"sections": [
+					{
+						"id": 25241,
+						"title": "DPS",
+						"body_text": "$bullet; Las chispas volátiles se destruyen si se elimina [Volátil] o se interrumpe [Ráfaga].\r\n$bullet; [Carga fulminante] inflige daño a los jugadores alrededor del portador y salta al jugador más cercano al agotarse.\r\n$bullet; [Campo estático] reduce la velocidad de movimiento y los efectos de movimiento forzado de los jugadores que permanecen en su área de efecto.\r\n$bullet; Las tormentillas lanzarán [Fusión] si alcanzan al maligno de tormenta colosal creado con [Ruptura de tormenta]."
+					},
+					{
+						"id": 25242,
+						"title": "Sanador",
+						"body_text": "$bullet; Las chispas volátiles se destruyen si se elimina [Volátil] o si se interrumpe [Ráfaga].\r\n$bullet; [Energía atronadora] inflige un daño equivalente al daño total infligido por [Explosión atronadora] a su objetivo.\r\n$bullet; [Campo estático] reduce la velocidad de movimiento y los efectos de movimiento forzado de los jugadores que permanezcan en su área de efecto.\r\n$bullet; [Carga fulminante] inflige daño en un área y aplica [Carga persistente] al portador al agotarse."
+					},
+					{
+						"id": 25243,
+						"title": "Tanque",
+						"body_text": "$bullet; Las chispas volátiles se destruyen si se elimina [Volátil] o si se interrumpe [Ráfaga].\r\n$bullet; [Energía atronadora] inflige un daño equivalente al daño total infligido por [Explosión atronadora] a su objetivo.\r\n$bullet; [Campo estático] reduce la velocidad de movimiento y los efectos de movimiento forzado de los jugadores que permanezcan en su área de efecto.\r\n$bullet; Los arruinadores emergentes se moverán y atacarán a los jugadores cuando se elimine [Oleada]."
+					}
+				]
+			},
+			{
+				"id": 25244,
+				"title": "Fase 1: Los vientos de cambio",
+				"sections": [
+					{
+						"id": 25246,
+						"title": "Ala de huracán",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377612?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ala de huracán",
+							"id": 377612
+						}
+					},
+					{
+						"id": 25718,
+						"title": "Carga estática",
+						"sections": [
+							{
+								"id": 25497,
+								"title": "Campo estático",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/377662?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Campo estático",
+									"id": 377662
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381615?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga estática",
+							"id": 381615
+						}
+					},
+					{
+						"id": 25701,
+						"title": "Corriente volátil",
+						"sections": [
+							{
+								"id": 25834,
+								"title": "Chispa volátil",
+								"sections": [
+									{
+										"id": 25896,
+										"title": "Volátil",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volátil",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25733,
+										"title": "Volátil",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volátil",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25734,
+										"title": "Ráfaga",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ráfaga",
+											"id": 388635
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 108341
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Corriente volátil",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25821,
+						"title": "Fauces electrificadas",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fauces electrificadas",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25245,
+						"title": "Aliento de relámpagos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aliento de relámpagos",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25684,
+						"title": "Golpes de relámpagos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Golpes de relámpagos",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25685,
+						"title": "Escamas eléctricas",
+						"sections": [
+							{
+								"id": 25893,
+								"title": "Latigazo eléctrico",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Latigazo eléctrico",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Escamas eléctricas",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25683,
+				"title": "Intermedio: El ataque primalista",
+				"sections": [
+					{
+						"id": 25916,
+						"title": "La Cámara de las Encarnaciones",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "La Cámara de las Encarnaciones",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25813,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25815,
+								"title": "Embozo ruinoso",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388431?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Embozo ruinoso",
+									"id": 388431
+								}
+							},
+							{
+								"id": 25814,
+								"title": "Devastación de relámpagos",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Devastación de relámpagos",
+									"id": 388115
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25638,
+						"title": "Fuerzas primalistas",
+						"sections": [
+							{
+								"id": 25649,
+								"title": "Arruinador emergente",
+								"sections": [
+									{
+										"id": 25650,
+										"title": "Oleada",
+										"sections": [
+											{
+												"id": 25772,
+												"title": "Sobrecarga",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389214?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Sobrecarga",
+													"id": 389214
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/382530?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Oleada",
+											"id": 382530
+										}
+									},
+									{
+										"id": 26040,
+										"title": "Explosión en oleada",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/396037?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosión en oleada",
+											"id": 396037
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102516?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102516
+								}
+							},
+							{
+								"id": 25639,
+								"title": "Vanguardia juramentado",
+								"sections": [
+									{
+										"id": 25640,
+										"title": "Golpes de viento",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385560?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Golpes de viento",
+											"id": 385560
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102945
+								}
+							},
+							{
+								"id": 25641,
+								"title": "Acólita buscatormentas",
+								"sections": [
+									{
+										"id": 25642,
+										"title": "Ascensión",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385541?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ascensión",
+											"id": 385541
+										}
+									},
+									{
+										"id": 25643,
+										"title": "Descarga tormentosa",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385553?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Descarga tormentosa",
+											"id": 385553
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102868
+								}
+							},
+							{
+								"id": 26112,
+								"title": "Zelote forjado con Escarcha",
+								"sections": [
+									{
+										"id": 26113,
+										"title": "Sudario de destrucción",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397382?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Sudario de destrucción",
+											"id": 397382
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106477
+								}
+							},
+							{
+								"id": 26110,
+								"title": "Heraldo jurallamas",
+								"sections": [
+									{
+										"id": 26111,
+										"title": "Escudo de Llamas",
+										"sections": [
+											{
+												"id": 26114,
+												"title": "Rugido llameante",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/397468?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Rugido llameante",
+													"id": 397468
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397387?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Escudo de Llamas",
+											"id": 397387
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25312,
+				"title": "Fase 2: Poder ascendente",
+				"sections": [
+					{
+						"id": 25917,
+						"title": "La Cámara de las Encarnaciones",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "La Cámara de las Encarnaciones",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25707,
+						"title": "Oleada tormentosa",
+						"sections": [
+							{
+								"id": 25921,
+								"title": "Cargado de tormenta",
+								"sections": [
+									{
+										"id": 25992,
+										"title": "Inversión",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394584?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Inversión",
+											"id": 394584
+										}
+									},
+									{
+										"id": 25919,
+										"title": "Carga enfocada",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394582?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Carga enfocada",
+											"id": 394582
+										}
+									},
+									{
+										"id": 26022,
+										"title": "Carga dispersa",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Carga dispersa",
+											"id": 394583
+										}
+									},
+									{
+										"id": 25920,
+										"title": "Carga dispersa",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Carga dispersa",
+											"id": 394583
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391989?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Cargado de tormenta",
+									"id": 391989
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/387261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Oleada tormentosa",
+							"id": 387261
+						}
+					},
+					{
+						"id": 25825,
+						"title": "Ala de tempestad",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ala de tempestad",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25706,
+						"title": "Ala de tempestad",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ala de tempestad",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25827,
+						"title": "Carga fulminante",
+						"sections": [
+							{
+								"id": 25828,
+								"title": "Carga persistente",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Carga persistente",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25826,
+						"title": "Carga fulminante",
+						"sections": [
+							{
+								"id": 25829,
+								"title": "Carga persistente",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Carga persistente",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25719,
+						"title": "Corriente volátil",
+						"sections": [
+							{
+								"id": 25720,
+								"title": "Chispa volátil",
+								"sections": [
+									{
+										"id": 25897,
+										"title": "Volátil",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volátil",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25721,
+										"title": "Volátil",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volátil",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25722,
+										"title": "Ráfaga",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ráfaga",
+											"id": 388635
+										}
+									}
+								]
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Corriente volátil",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25823,
+						"title": "Fauces electrificadas",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fauces electrificadas",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25248,
+						"title": "Golpes de relámpagos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Golpes de relámpagos",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25311,
+						"title": "Escamas eléctricas",
+						"sections": [
+							{
+								"id": 25894,
+								"title": "Latigazo eléctrico",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Latigazo eléctrico",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Escamas eléctricas",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25812,
+				"title": "Intermedio: La Cámara se derrumba",
+				"sections": [
+					{
+						"id": 25402,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25399,
+								"title": "Devastación de relámpagos",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Devastación de relámpagos",
+									"id": 388115
+								}
+							},
+							{
+								"id": 25686,
+								"title": "Embozo tormentoso",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/396734?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Embozo tormentoso",
+									"id": 396734
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25816,
+						"title": "Maligno de tormenta colosal",
+						"sections": [
+							{
+								"id": 25817,
+								"title": "Ruptura de tormenta",
+								"sections": [
+									{
+										"id": 25818,
+										"title": "Tormentilla rastreadora",
+										"body_text": "Una tormentilla que busca a su creador.",
+										"sections": [
+											{
+												"id": 25819,
+												"title": "Fusión",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389878?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Fusión",
+													"id": 389878
+												}
+											},
+											{
+												"id": 26134,
+												"title": "Concentración indómita",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/399057?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Concentración indómita",
+													"id": 399057
+												}
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107928?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 107928
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/389870?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ruptura de tormenta",
+									"id": 389870
+								}
+							},
+							{
+								"id": 25820,
+								"title": "Bola de relámpagos",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/385068?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Bola de relámpagos",
+									"id": 385068
+								}
+							},
+							{
+								"id": 25841,
+								"title": "Energía crepitante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391281?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Energía crepitante",
+									"id": 391281
+								}
+							},
+							{
+								"id": 25918,
+								"title": "Energía descontrolada",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/392086?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Energía descontrolada",
+									"id": 392086
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 107145
+						}
+					}
+				]
+			},
+			{
+				"id": 25477,
+				"title": "Fase 3: La tormenta encarnada",
+				"sections": [
+					{
+						"id": 25478,
+						"title": "Tormenta enfurecida",
+						"sections": [
+							{
+								"id": 26025,
+								"title": "Maldad de la tormenta",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Maldad de la tormenta",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377322?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tormenta enfurecida",
+							"id": 377322
+						}
+					},
+					{
+						"id": 26024,
+						"title": "Devoradora de Tormentas",
+						"sections": [
+							{
+								"id": 26026,
+								"title": "Maldad de la tormenta",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Maldad de la tormenta",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/395885?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Devoradora de Tormentas",
+							"id": 395885
+						}
+					},
+					{
+						"id": 26135,
+						"title": "Carga magnética",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/399713?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga magnética",
+							"id": 399713
+						}
+					},
+					{
+						"id": 26029,
+						"title": "Ala de tempestad",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ala de tempestad",
+							"id": 385574
+						}
+					},
+					{
+						"id": 26028,
+						"title": "Ala de tempestad",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ala de tempestad",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25830,
+						"title": "Carga fulminante",
+						"sections": [
+							{
+								"id": 25831,
+								"title": "Carga persistente",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Carga persistente",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25832,
+						"title": "Carga fulminante",
+						"sections": [
+							{
+								"id": 25833,
+								"title": "Carga persistente",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Carga persistente",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Carga fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25711,
+						"title": "Aliento de relámpagos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aliento de relámpagos",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25810,
+						"title": "Explosión atronadora",
+						"sections": [
+							{
+								"id": 25811,
+								"title": "Energía atronadora",
+								"sections": [
+									{
+										"id": 25843,
+										"title": "Armadura golpeada por el trueno",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/391285?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Armadura golpeada por el trueno",
+											"id": 391285
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Energía atronadora",
+									"id": 390763
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/386410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Explosión atronadora",
+							"id": 386410
+						}
+					},
+					{
+						"id": 25682,
+						"title": "Golpes de relámpagos",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Golpes de relámpagos",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25709,
+						"title": "Escamas eléctricas",
+						"sections": [
+							{
+								"id": 25895,
+								"title": "Latigazo eléctrico",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Latigazo eléctrico",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Escamas eléctricas",
+							"id": 381249
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1200?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Cámara de las Encarnaciones",
+			"id": 1200
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2499?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2499,
+		"name": "Raszageth la Mange-tempêtes",
+		"description": "Raszageth croit fermement que les peuples draconiens étaient destinés à mener une vie aussi sauvage et libre que les tempêtes elles-mêmes. Si elle parvient à libérer les Incarnations de leur prison ancestrale, la Mange-tempêtes et ses comparses renverseront les Aspects et feront disparaître toute trace de l’influence des Titans sur le monde.",
+		"creatures": [
+			{
+				"id": 5385,
+				"name": "Raszageth la Mange-tempêtes",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103255
+				}
+			},
+			{
+				"id": 5456,
+				"name": "Étincelle instable",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 108341
+				}
+			},
+			{
+				"id": 5453,
+				"name": "Dévastateur déferlant",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/110591?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 110591
+				}
+			},
+			{
+				"id": 5454,
+				"name": "Avant-garde assermentée",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102945
+				}
+			},
+			{
+				"id": 5455,
+				"name": "Acolyte cherche-tempête",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102868
+				}
+			},
+			{
+				"id": 5457,
+				"name": "Monstre de tempête colossal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 107145
+				}
+			},
+			{
+				"id": 5466,
+				"name": "Zélote forgegivre",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106477
+				}
+			},
+			{
+				"id": 5465,
+				"name": "Héraut flammelige",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106476
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 43230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgepierre en topaze du zénith",
+					"id": 196595
+				}
+			},
+			{
+				"id": 43231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fendeuse des cieux incarnée",
+					"id": 195528
+				}
+			},
+			{
+				"id": 43232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dernier recours de Claquetempête",
+					"id": 195529
+				}
+			},
+			{
+				"id": 43233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgepierre en topaze mystique",
+					"id": 196600
+				}
+			},
+			{
+				"id": 43234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tempête malveillante",
+					"id": 194309
+				}
+			},
+			{
+				"id": 43235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Neltharax, ennemi des cieux",
+					"id": 195527
+				}
+			},
+			{
+				"id": 43236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandales de la souveraine sauvage",
+					"id": 195532
+				}
+			},
+			{
+				"id": 43237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgepierre en topaze vénérée",
+					"id": 196605
+				}
+			},
+			{
+				"id": 43238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses-de-foudre odieuses",
+					"id": 195530
+				}
+			},
+			{
+				"id": 43239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entraves de l’échec titanesque",
+					"id": 195533
+				}
+			},
+			{
+				"id": 43240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-chocs calamiteux",
+					"id": 195531
+				}
+			},
+			{
+				"id": 43241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Codex d’invocation désespérée",
+					"id": 194310
+				}
+			},
+			{
+				"id": 43242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgepierre en topaze effroyable",
+					"id": 196590
+				}
+			},
+			{
+				"id": 44018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronographe décélérant mystique",
+					"id": 217325
+				}
+			},
+			{
+				"id": 44019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronographe décélérant effroyable",
+					"id": 217324
+				}
+			},
+			{
+				"id": 44020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronographe décélérant du zénith",
+					"id": 217327
+				}
+			},
+			{
+				"id": 44021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chronographe décélérant vénéré",
+					"id": 217326
+				}
+			},
+			{
+				"id": 44076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de tempo éveillée",
+					"id": 217408
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 25240,
+				"title": "Vue d’ensemble",
+				"body_text": "Raszageth et ses armées primalistes cherchent à détruire les prisons des autres incarnations. Au début du combat, la Mange-tempêtes utilise [Aile ouragan] pour faire tomber ses adversaires de la plateforme centrale.\r\n\r\nLorsque ses points de vie tombent à 65%, Raszageth commence un assaut aérien contre les prisons de Fyrakka et de Vyranoth avec [Dévastation de foudre], tout en invoquant des troupes au sol pour frapper directement les geôles. Des dévastateurs déferlants connaissent un [afflux] de foudre, qui draine l’énergie du caveau.\r\n\r\nLorsque l’intégrité du caveau tombe à 50%, Raszageth atterrit sur la prison d’Iridikron et se met à drainer elle-même l’énergie du caveau avec [Éruption de tempête].\r\n\r\nLorsque l’intégrité du caveau tombe à 0%, Raszageth s’envole et invoque des monstres de tempête colossaux afin d’aspirer ce qu’il reste de l’énergie du caveau.\r\n\r\nUne fois le caveau entièrement vidé, Raszageth retourne sur la plateforme centrale et devient l’œil d’une [tempête déchaînée]. La Mange-tempêtes frappe ses adversaires de toute la force dont elle est capable pour provoquer l’avènement d’une nouvelle ère marquée par des nuages noirs.",
+				"sections": [
+					{
+						"id": 25241,
+						"title": "DPS",
+						"body_text": "$bullet; Les étincelles instables sont détruites si [Instabilité] est dissipée ou si [Explosion] est interrompue.\r\n$bullet; [Charge fulminante] inflige des dégâts aux personnages-joueurs dans une zone autour de la victime de l’effet. À expiration, elle se transmet au personnage-joueur à portée le plus proche.\r\n$bullet; [Champ statique] réduit la vitesse de déplacement et les effets affectant le déplacement des personnages-joueurs dans la zone d’effet.\r\n$bullet; Les tourmentins chercheurs lancent [Fusion] s’ils arrivent à atteindre le monstre de tempête colossal qui les a créés avec [Tempête voyageuse]."
+					},
+					{
+						"id": 25242,
+						"title": "Soins",
+						"body_text": "$bullet; Les étincelles instables sont détruites si [Instabilité] est dissipée ou si [Explosion] est interrompue.\r\n$bullet; [Énergie tonitruante] inflige un montant de dégâts à la victime égal aux dégâts totaux infligés par [Explosion tonitruante].\r\n$bullet; [Champ statique] réduit la vitesse de déplacement et les effets affectant le déplacement des personnages-joueurs dans la zone d’effet.\r\n$bullet; [Charge fulminante] inflige des dégâts aux personnages-joueurs dans une zone et applique [Charge persistante] à la victime à expiration."
+					},
+					{
+						"id": 25243,
+						"title": "Tank",
+						"body_text": "$bullet; Les étincelles instables sont détruites si [Étincelle instable] est dissipée ou si [Explosion] est interrompue.\r\n$bullet; [Énergie tonitruante] inflige un montant de dégâts à la victime égal aux dégâts totaux infligés par [Explosion tonitruante].\r\n$bullet; [Champ statique] réduit la vitesse de déplacement et les effets affectant le déplacement des personnages-joueurs dans la zone d’effet.\r\n$bullet; Les dévastateurs déferlants se déplacent et attaquent les personnages-joueurs lorsqu’[Afflux] est dissipé."
+					}
+				]
+			},
+			{
+				"id": 25244,
+				"title": "Phase 1 : Les vents du changement",
+				"sections": [
+					{
+						"id": 25246,
+						"title": "Aile ouragan",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377612?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aile ouragan",
+							"id": 377612
+						}
+					},
+					{
+						"id": 25718,
+						"title": "Charge statique",
+						"sections": [
+							{
+								"id": 25497,
+								"title": "Champ statique",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/377662?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Champ statique",
+									"id": 377662
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381615?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge statique",
+							"id": 381615
+						}
+					},
+					{
+						"id": 25701,
+						"title": "Courant instable",
+						"sections": [
+							{
+								"id": 25834,
+								"title": "Étincelle instable",
+								"sections": [
+									{
+										"id": 25896,
+										"title": "Instabilité",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Instabilité",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25733,
+										"title": "Instabilité",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Instabilité",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25734,
+										"title": "Explosion",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosion",
+											"id": 388635
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 108341
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Courant instable",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25821,
+						"title": "Mâchoire électrifiée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Mâchoire électrifiée",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25245,
+						"title": "Souffle de foudre",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Souffle de foudre",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25684,
+						"title": "Foudres",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Foudres",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25685,
+						"title": "Écailles électriques",
+						"sections": [
+							{
+								"id": 25893,
+								"title": "Fouet électrique",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fouet électrique",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Écailles électriques",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25683,
+				"title": "Intervalle : L’attaque des Primalistes",
+				"sections": [
+					{
+						"id": 25916,
+						"title": "Caveau des Incarnations",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Caveau des Incarnations",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25813,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25815,
+								"title": "Voile de ruine",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388431?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Voile de ruine",
+									"id": 388431
+								}
+							},
+							{
+								"id": 25814,
+								"title": "Dévastation de foudre",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dévastation de foudre",
+									"id": 388115
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25638,
+						"title": "Armées primalistes",
+						"sections": [
+							{
+								"id": 25649,
+								"title": "Dévastateur déferlant",
+								"sections": [
+									{
+										"id": 25650,
+										"title": "Afflux",
+										"sections": [
+											{
+												"id": 25772,
+												"title": "Surcharge",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389214?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Surcharge",
+													"id": 389214
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/382530?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Afflux",
+											"id": 382530
+										}
+									},
+									{
+										"id": 26040,
+										"title": "Explosion déferlante",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/396037?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosion déferlante",
+											"id": 396037
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102516?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102516
+								}
+							},
+							{
+								"id": 25639,
+								"title": "Avant-garde assermentée",
+								"sections": [
+									{
+										"id": 25640,
+										"title": "Frappes éoliennes",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385560?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Frappes éoliennes",
+											"id": 385560
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102945
+								}
+							},
+							{
+								"id": 25641,
+								"title": "Acolyte cherche-tempête",
+								"sections": [
+									{
+										"id": 25642,
+										"title": "Ascension",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385541?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ascension",
+											"id": 385541
+										}
+									},
+									{
+										"id": 25643,
+										"title": "Éclair de tempête",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385553?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Éclair de tempête",
+											"id": 385553
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102868
+								}
+							},
+							{
+								"id": 26112,
+								"title": "Zélote forgegivre",
+								"sections": [
+									{
+										"id": 26113,
+										"title": "Voile fissuré",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397382?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Voile fissuré",
+											"id": 397382
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106477
+								}
+							},
+							{
+								"id": 26110,
+								"title": "Héraut flammelige",
+								"sections": [
+									{
+										"id": 26111,
+										"title": "Bouclier de flammes",
+										"sections": [
+											{
+												"id": 26114,
+												"title": "Rugissement enflammé",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/397468?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Rugissement enflammé",
+													"id": 397468
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397387?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Bouclier de flammes",
+											"id": 397387
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25312,
+				"title": "Phase 2 : Pouvoir déferlant",
+				"sections": [
+					{
+						"id": 25917,
+						"title": "Caveau des Incarnations",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Caveau des Incarnations",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25707,
+						"title": "Éruption de tempête",
+						"sections": [
+							{
+								"id": 25921,
+								"title": "Charge tempétueuse",
+								"sections": [
+									{
+										"id": 25992,
+										"title": "Inversion",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394584?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Inversion",
+											"id": 394584
+										}
+									},
+									{
+										"id": 25919,
+										"title": "Charge concentrée",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394582?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Charge concentrée",
+											"id": 394582
+										}
+									},
+									{
+										"id": 26022,
+										"title": "Charge dispersée",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Charge dispersée",
+											"id": 394583
+										}
+									},
+									{
+										"id": 25920,
+										"title": "Charge dispersée",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Charge dispersée",
+											"id": 394583
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391989?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Charge tempétueuse",
+									"id": 391989
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/387261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Éruption de tempête",
+							"id": 387261
+						}
+					},
+					{
+						"id": 25825,
+						"title": "Aile-tempête",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aile-tempête",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25706,
+						"title": "Aile-tempête",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aile-tempête",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25827,
+						"title": "Charge fulminante",
+						"sections": [
+							{
+								"id": 25828,
+								"title": "Charge persistante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Charge persistante",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25826,
+						"title": "Charge fulminante",
+						"sections": [
+							{
+								"id": 25829,
+								"title": "Charge persistante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Charge persistante",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25719,
+						"title": "Courant instable",
+						"sections": [
+							{
+								"id": 25720,
+								"title": "Étincelle instable",
+								"sections": [
+									{
+										"id": 25897,
+										"title": "Instabilité",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Instabilité",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25721,
+										"title": "Instabilité",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Instabilité",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25722,
+										"title": "Explosion",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosion",
+											"id": 388635
+										}
+									}
+								]
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Courant instable",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25823,
+						"title": "Mâchoire électrifiée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Mâchoire électrifiée",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25248,
+						"title": "Foudres",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Foudres",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25311,
+						"title": "Écailles électriques",
+						"sections": [
+							{
+								"id": 25894,
+								"title": "Fouet électrique",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fouet électrique",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Écailles électriques",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25812,
+				"title": "Intervalle : Le caveau faiblit",
+				"sections": [
+					{
+						"id": 25402,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25399,
+								"title": "Dévastation de foudre",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dévastation de foudre",
+									"id": 388115
+								}
+							},
+							{
+								"id": 25686,
+								"title": "Voile de la tempête",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/396734?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Voile de la tempête",
+									"id": 396734
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25816,
+						"title": "Monstre de tempête colossal",
+						"sections": [
+							{
+								"id": 25817,
+								"title": "Tempête voyageuse",
+								"sections": [
+									{
+										"id": 25818,
+										"title": "Tourmentin chercheur",
+										"body_text": "Un tourmentin qui cherche son créateur.",
+										"sections": [
+											{
+												"id": 25819,
+												"title": "Fusion",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389878?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Fusion",
+													"id": 389878
+												}
+											},
+											{
+												"id": 26134,
+												"title": "Focalisation indomptable",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/399057?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Focalisation indomptable",
+													"id": 399057
+												}
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107928?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 107928
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/389870?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Tempête voyageuse",
+									"id": 389870
+								}
+							},
+							{
+								"id": 25820,
+								"title": "Foudre en boule",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/385068?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Foudre en boule",
+									"id": 385068
+								}
+							},
+							{
+								"id": 25841,
+								"title": "Énergie crépitante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391281?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Énergie crépitante",
+									"id": 391281
+								}
+							},
+							{
+								"id": 25918,
+								"title": "Énergie débridée",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/392086?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Énergie débridée",
+									"id": 392086
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 107145
+						}
+					}
+				]
+			},
+			{
+				"id": 25477,
+				"title": "Phase 3 : Incarnation de la tempête",
+				"sections": [
+					{
+						"id": 25478,
+						"title": "Orage déchaîné",
+						"sections": [
+							{
+								"id": 26025,
+								"title": "Rancune de la tempête",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Rancune de la tempête",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377322?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Orage déchaîné",
+							"id": 377322
+						}
+					},
+					{
+						"id": 26024,
+						"title": "Mange-tempêtes",
+						"sections": [
+							{
+								"id": 26026,
+								"title": "Rancune de la tempête",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Rancune de la tempête",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/395885?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Mange-tempêtes",
+							"id": 395885
+						}
+					},
+					{
+						"id": 26135,
+						"title": "Charge magnétique",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/399713?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge magnétique",
+							"id": 399713
+						}
+					},
+					{
+						"id": 26029,
+						"title": "Aile-tempête",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aile-tempête",
+							"id": 385574
+						}
+					},
+					{
+						"id": 26028,
+						"title": "Aile-tempête",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aile-tempête",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25830,
+						"title": "Charge fulminante",
+						"sections": [
+							{
+								"id": 25831,
+								"title": "Charge persistante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Charge persistante",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25832,
+						"title": "Charge fulminante",
+						"sections": [
+							{
+								"id": 25833,
+								"title": "Charge persistante",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Charge persistante",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Charge fulminante",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25711,
+						"title": "Souffle de foudre",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Souffle de foudre",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25810,
+						"title": "Explosion tonitruante",
+						"sections": [
+							{
+								"id": 25811,
+								"title": "Énergie tonitruante",
+								"sections": [
+									{
+										"id": 25843,
+										"title": "Armure foudroyée",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/391285?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Armure foudroyée",
+											"id": 391285
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Énergie tonitruante",
+									"id": 390763
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/386410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Explosion tonitruante",
+							"id": 386410
+						}
+					},
+					{
+						"id": 25682,
+						"title": "Foudres",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Foudres",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25709,
+						"title": "Écailles électriques",
+						"sections": [
+							{
+								"id": 25895,
+								"title": "Fouet électrique",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Fouet électrique",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Écailles électriques",
+							"id": 381249
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1200?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Caveau des Incarnations",
+			"id": 1200
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2499?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2499,
+		"name": "Raszageth the Storm-Eater",
+		"description": "Raszageth devoutly believes that dragonkind was meant to be as wild and free as the storm itself. Should she succeed at freeing her fellow Incarnates from their ancient prison, Raszageth and her kin will topple the Aspects and scour the world clean of every trace of the titans' influence.",
+		"creatures": [
+			{
+				"id": 5385,
+				"name": "Raszageth the Storm-Eater",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103255
+				}
+			},
+			{
+				"id": 5456,
+				"name": "Volatile Spark",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 108341
+				}
+			},
+			{
+				"id": 5453,
+				"name": "Surging Ruiner",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/110591?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 110591
+				}
+			},
+			{
+				"id": 5454,
+				"name": "Oathsworn Vanguard",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102945
+				}
+			},
+			{
+				"id": 5455,
+				"name": "Stormseeker Acolyte",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102868
+				}
+			},
+			{
+				"id": 5457,
+				"name": "Colossal Stormfiend",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 107145
+				}
+			},
+			{
+				"id": 5466,
+				"name": "Frostforged Zealot",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106477
+				}
+			},
+			{
+				"id": 5465,
+				"name": "Flamesworn Herald",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 106476
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 43230,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196595?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zenith Topaz Forgestone",
+					"id": 196595
+				}
+			},
+			{
+				"id": 43231,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incarnate Sky-Splitter",
+					"id": 195528
+				}
+			},
+			{
+				"id": 43232,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stormlash's Last Resort",
+					"id": 195529
+				}
+			},
+			{
+				"id": 43233,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mystic Topaz Forgestone",
+					"id": 196600
+				}
+			},
+			{
+				"id": 43234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194309?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiteful Storm",
+					"id": 194309
+				}
+			},
+			{
+				"id": 43235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195527?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Neltharax, Enemy of the Sky",
+					"id": 195527
+				}
+			},
+			{
+				"id": 43236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sandals of the Wild Sovereign",
+					"id": 195532
+				}
+			},
+			{
+				"id": 43237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Venerated Topaz Forgestone",
+					"id": 196605
+				}
+			},
+			{
+				"id": 43238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Loathsome Thunderhosen",
+					"id": 195530
+				}
+			},
+			{
+				"id": 43239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shackles of Titanic Failure",
+					"id": 195533
+				}
+			},
+			{
+				"id": 43240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/195531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calamitous Shockguards",
+					"id": 195531
+				}
+			},
+			{
+				"id": 43241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/194310?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Desperate Invoker's Codex",
+					"id": 194310
+				}
+			},
+			{
+				"id": 43242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/196590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadful Topaz Forgestone",
+					"id": 196590
+				}
+			},
+			{
+				"id": 44018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217325?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mystic Decelerating Chronograph",
+					"id": 217325
+				}
+			},
+			{
+				"id": 44019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217324?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadful Decelerating Chronograph",
+					"id": 217324
+				}
+			},
+			{
+				"id": 44020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217327?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zenith Decelerating Chronograph",
+					"id": 217327
+				}
+			},
+			{
+				"id": 44021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217326?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Venerated Decelerating Chronograph",
+					"id": 217326
+				}
+			},
+			{
+				"id": 44076,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/217408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Awakened Tempostone",
+					"id": 217408
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 25240,
+				"title": "Overview",
+				"body_text": "Raszageth and her Primalist forces seek to shatter the prisons that hold her siblings. As the battle begins, Raszageth uses [Hurricane Wing] to sweep her assailants from the central platform.\r\n\r\nUpon reaching 65% health, Raszageth begins an aerial assault against Fyrakk's and Vyranoth's prisons with [Lightning Devastation] while summoning ground forces to attack the prisons directly. Surging Ruiners [Surge] with lightning, draining the vault of its power.\r\n\r\nWhen the integrity of the vault falls to 50%, Raszageth lands on Iridikron's prison and begins to drain the vault's power using [Stormsurge].\r\n\r\nWhen the integrity of the vault falls to 0%, Raszageth takes off and summons Colossal Stormfiends to drain the vault of its remaining power.\r\n\r\nAs the vault fails, Raszageth returns to the central platform and becomes the heart of a [Raging Storm]. The Storm-Eater brings the full force of her abilities against her assailants as she ushers in the dark clouds of a new age.",
+				"sections": [
+					{
+						"id": 25241,
+						"title": "Damage Dealer",
+						"body_text": "$bullet; Volatile Sparks are destroyed if [Volatile] is removed or [Burst] is interrupted.\r\n$bullet; [Fulminating Charge] inflicts damage to players in an area around the wearer and jumps to the closest player within range upon expiration.\r\n$bullet; [Static Field] reduces movement speed and forced movement effects on players standing in the area.\r\n$bullet; Seeking Stormlings will cast [Fuse] if they successfully reach the Colossal Stormfiend that created it with [Storm Break]."
+					},
+					{
+						"id": 25242,
+						"title": "Healer",
+						"body_text": "$bullet; Volatile Sparks are destroyed if [Volatile] is removed or [Burst] is interrupted.\r\n$bullet; [Thunderous Energy] inflicts damage equivalent to the total damage dealt by [Thunderous Blast] to the victim.\r\n$bullet; [Static Field] reduces movement speed and forced movement effects on players standing in the area.\r\n$bullet; [Fulminating Charge] inflicts damage damage in an area and applies [Lingering Charge] to the wearer upon expiration."
+					},
+					{
+						"id": 25243,
+						"title": "Tank",
+						"body_text": "$bullet; Volatile Sparks are destroyed if [Volatile] is removed or [Burst] is interrupted.\r\n$bullet; [Thunderous Energy] inflicts damage equivalent to the total damage dealt by [Thunderous Blast] to the victim.\r\n$bullet; [Static Field] reduces movement speed and forced movement effects on players standing in the area.\r\n$bullet; Surging Ruiners will move and attack players once [Surge] is removed."
+					}
+				]
+			},
+			{
+				"id": 25244,
+				"title": "Stage One: The Winds of Change",
+				"sections": [
+					{
+						"id": 25246,
+						"title": "Hurricane Wing",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377612?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Hurricane Wing",
+							"id": 377612
+						}
+					},
+					{
+						"id": 25718,
+						"title": "Static Charge",
+						"sections": [
+							{
+								"id": 25497,
+								"title": "Static Field",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/377662?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Static Field",
+									"id": 377662
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381615?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Static Charge",
+							"id": 381615
+						}
+					},
+					{
+						"id": 25701,
+						"title": "Volatile Current",
+						"sections": [
+							{
+								"id": 25834,
+								"title": "Volatile Spark",
+								"sections": [
+									{
+										"id": 25896,
+										"title": "Volatile",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volatile",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25733,
+										"title": "Volatile",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volatile",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25734,
+										"title": "Burst",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Burst",
+											"id": 388635
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/108341?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 108341
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Volatile Current",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25821,
+						"title": "Electrified Jaws",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Electrified Jaws",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25245,
+						"title": "Lightning Breath",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lightning Breath",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25684,
+						"title": "Lightning Strikes",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lightning Strikes",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25685,
+						"title": "Electric Scales",
+						"sections": [
+							{
+								"id": 25893,
+								"title": "Electric Lash",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Electric Lash",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Electric Scales",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25683,
+				"title": "Intermission: The Primalist Strike",
+				"sections": [
+					{
+						"id": 25916,
+						"title": "The Vault of the Incarnates",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "The Vault of the Incarnates",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25813,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25815,
+								"title": "Ruinous Shroud",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388431?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ruinous Shroud",
+									"id": 388431
+								}
+							},
+							{
+								"id": 25814,
+								"title": "Lightning Devastation",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lightning Devastation",
+									"id": 388115
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25638,
+						"title": "Primalist Forces",
+						"sections": [
+							{
+								"id": 25649,
+								"title": "Surging Ruiner",
+								"sections": [
+									{
+										"id": 25650,
+										"title": "Surge",
+										"sections": [
+											{
+												"id": 25772,
+												"title": "Overload",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389214?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Overload",
+													"id": 389214
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/382530?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Surge",
+											"id": 382530
+										}
+									},
+									{
+										"id": 26040,
+										"title": "Surging Blast",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/396037?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Surging Blast",
+											"id": 396037
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102516?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102516
+								}
+							},
+							{
+								"id": 25639,
+								"title": "Oathsworn Vanguard",
+								"sections": [
+									{
+										"id": 25640,
+										"title": "Windforce Strikes",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385560?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Windforce Strikes",
+											"id": 385560
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102945?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102945
+								}
+							},
+							{
+								"id": 25641,
+								"title": "Stormseeker Acolyte",
+								"sections": [
+									{
+										"id": 25642,
+										"title": "Ascension",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385541?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ascension",
+											"id": 385541
+										}
+									},
+									{
+										"id": 25643,
+										"title": "Storm Bolt",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/385553?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Storm Bolt",
+											"id": 385553
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102868?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 102868
+								}
+							},
+							{
+								"id": 26112,
+								"title": "Frostforged Zealot",
+								"sections": [
+									{
+										"id": 26113,
+										"title": "Shattering Shroud",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397382?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Shattering Shroud",
+											"id": 397382
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106477?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106477
+								}
+							},
+							{
+								"id": 26110,
+								"title": "Flamesworn Herald",
+								"sections": [
+									{
+										"id": 26111,
+										"title": "Flame Shield",
+										"sections": [
+											{
+												"id": 26114,
+												"title": "Blazing Roar",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/397468?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Blazing Roar",
+													"id": 397468
+												}
+											}
+										],
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/397387?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Flame Shield",
+											"id": 397387
+										}
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/106476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 106476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 25312,
+				"title": "Stage Two: Surging Power",
+				"sections": [
+					{
+						"id": 25917,
+						"title": "The Vault of the Incarnates",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385182?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "The Vault of the Incarnates",
+							"id": 385182
+						}
+					},
+					{
+						"id": 25707,
+						"title": "Stormsurge",
+						"sections": [
+							{
+								"id": 25921,
+								"title": "Stormcharged",
+								"sections": [
+									{
+										"id": 25992,
+										"title": "Inversion",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394584?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Inversion",
+											"id": 394584
+										}
+									},
+									{
+										"id": 25919,
+										"title": "Focused Charge",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394582?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Focused Charge",
+											"id": 394582
+										}
+									},
+									{
+										"id": 26022,
+										"title": "Scattered Charge",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Scattered Charge",
+											"id": 394583
+										}
+									},
+									{
+										"id": 25920,
+										"title": "Scattered Charge",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/394583?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Scattered Charge",
+											"id": 394583
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391989?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Stormcharged",
+									"id": 391989
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/387261?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Stormsurge",
+							"id": 387261
+						}
+					},
+					{
+						"id": 25825,
+						"title": "Tempest Wing",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tempest Wing",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25706,
+						"title": "Tempest Wing",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tempest Wing",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25827,
+						"title": "Fulminating Charge",
+						"sections": [
+							{
+								"id": 25828,
+								"title": "Lingering Charge",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lingering Charge",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fulminating Charge",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25826,
+						"title": "Fulminating Charge",
+						"sections": [
+							{
+								"id": 25829,
+								"title": "Lingering Charge",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lingering Charge",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fulminating Charge",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25719,
+						"title": "Volatile Current",
+						"sections": [
+							{
+								"id": 25720,
+								"title": "Volatile Spark",
+								"sections": [
+									{
+										"id": 25897,
+										"title": "Volatile",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volatile",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25721,
+										"title": "Volatile",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388631?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Volatile",
+											"id": 388631
+										}
+									},
+									{
+										"id": 25722,
+										"title": "Burst",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/388635?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Burst",
+											"id": 388635
+										}
+									}
+								]
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/388643?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Volatile Current",
+							"id": 388643
+						}
+					},
+					{
+						"id": 25823,
+						"title": "Electrified Jaws",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377658?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Electrified Jaws",
+							"id": 377658
+						}
+					},
+					{
+						"id": 25248,
+						"title": "Lightning Strikes",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lightning Strikes",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25311,
+						"title": "Electric Scales",
+						"sections": [
+							{
+								"id": 25894,
+								"title": "Electric Lash",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Electric Lash",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Electric Scales",
+							"id": 381249
+						}
+					}
+				]
+			},
+			{
+				"id": 25812,
+				"title": "Intermission: The Vault Falters",
+				"sections": [
+					{
+						"id": 25402,
+						"title": "Raszageth",
+						"sections": [
+							{
+								"id": 25399,
+								"title": "Lightning Devastation",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/388115?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lightning Devastation",
+									"id": 388115
+								}
+							},
+							{
+								"id": 25686,
+								"title": "Storm Shroud",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/396734?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Storm Shroud",
+									"id": 396734
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103255?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103255
+						}
+					},
+					{
+						"id": 25816,
+						"title": "Colossal Stormfiend",
+						"sections": [
+							{
+								"id": 25817,
+								"title": "Storm Break",
+								"sections": [
+									{
+										"id": 25818,
+										"title": "Seeking Stormling",
+										"body_text": "A Stormling that seeks out its creator.",
+										"sections": [
+											{
+												"id": 25819,
+												"title": "Fuse",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/389878?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Fuse",
+													"id": 389878
+												}
+											},
+											{
+												"id": 26134,
+												"title": "Indomitable Focus",
+												"spell": {
+													"key": {
+														"href": "https://eu.api.blizzard.com/data/wow/spell/399057?namespace=static-12.1.0_68914-eu"
+													},
+													"name": "Indomitable Focus",
+													"id": 399057
+												}
+											}
+										],
+										"creature_display": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107928?namespace=static-12.1.0_68914-eu"
+											},
+											"id": 107928
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/389870?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Storm Break",
+									"id": 389870
+								}
+							},
+							{
+								"id": 25820,
+								"title": "Ball Lightning",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/385068?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ball Lightning",
+									"id": 385068
+								}
+							},
+							{
+								"id": 25841,
+								"title": "Crackling Energy",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/391281?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Crackling Energy",
+									"id": 391281
+								}
+							},
+							{
+								"id": 25918,
+								"title": "Unchecked Energy",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/392086?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Unchecked Energy",
+									"id": 392086
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/107145?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 107145
+						}
+					}
+				]
+			},
+			{
+				"id": 25477,
+				"title": "Stage Three: Storm Incarnate",
+				"sections": [
+					{
+						"id": 25478,
+						"title": "Raging Storm",
+						"sections": [
+							{
+								"id": 26025,
+								"title": "Storm's Spite",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Storm's Spite",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377322?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Raging Storm",
+							"id": 377322
+						}
+					},
+					{
+						"id": 26024,
+						"title": "Storm-Eater",
+						"sections": [
+							{
+								"id": 26026,
+								"title": "Storm's Spite",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/395929?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Storm's Spite",
+									"id": 395929
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/395885?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Storm-Eater",
+							"id": 395885
+						}
+					},
+					{
+						"id": 26135,
+						"title": "Magnetic Charge",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/399713?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Magnetic Charge",
+							"id": 399713
+						}
+					},
+					{
+						"id": 26029,
+						"title": "Tempest Wing",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tempest Wing",
+							"id": 385574
+						}
+					},
+					{
+						"id": 26028,
+						"title": "Tempest Wing",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/385574?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Tempest Wing",
+							"id": 385574
+						}
+					},
+					{
+						"id": 25830,
+						"title": "Fulminating Charge",
+						"sections": [
+							{
+								"id": 25831,
+								"title": "Lingering Charge",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lingering Charge",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fulminating Charge",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25832,
+						"title": "Fulminating Charge",
+						"sections": [
+							{
+								"id": 25833,
+								"title": "Lingering Charge",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390911?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Lingering Charge",
+									"id": 390911
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377467?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fulminating Charge",
+							"id": 377467
+						}
+					},
+					{
+						"id": 25711,
+						"title": "Lightning Breath",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/377594?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lightning Breath",
+							"id": 377594
+						}
+					},
+					{
+						"id": 25810,
+						"title": "Thunderous Blast",
+						"sections": [
+							{
+								"id": 25811,
+								"title": "Thunderous Energy",
+								"sections": [
+									{
+										"id": 25843,
+										"title": "Thunderstruck Armor",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/391285?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Thunderstruck Armor",
+											"id": 391285
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/390763?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Thunderous Energy",
+									"id": 390763
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/386410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Thunderous Blast",
+							"id": 386410
+						}
+					},
+					{
+						"id": 25682,
+						"title": "Lightning Strikes",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/376126?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lightning Strikes",
+							"id": 376126
+						}
+					},
+					{
+						"id": 25709,
+						"title": "Electric Scales",
+						"sections": [
+							{
+								"id": 25895,
+								"title": "Electric Lash",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/381251?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Electric Lash",
+									"id": 381251
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/381249?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Electric Scales",
+							"id": 381249
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1200?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Vault of the Incarnates",
+			"id": 1200
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			}
+		]
+	}
+}

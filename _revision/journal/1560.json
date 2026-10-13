@@ -1,0 +1,540 @@
+{
+	"id": 1560,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1560?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1560,
+		"name": "Terestian Pezuña Enferma",
+		"creatures": [
+			{
+				"id": 3790,
+				"name": "Terestian Pezuña Enferma",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11343?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11343
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 25984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aterralelos",
+					"id": 28657
+				}
+			},
+			{
+				"id": 25985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceñidor de voluntad",
+					"id": 28652
+				}
+			},
+			{
+				"id": 25986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de torio dorada",
+					"id": 28660
+				}
+			},
+			{
+				"id": 25987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talismán de sátiro",
+					"id": 97551
+				}
+			},
+			{
+				"id": 25988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del merodeador",
+					"id": 28656
+				}
+			},
+			{
+				"id": 25989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza del iluminador",
+					"id": 28662
+				}
+			},
+			{
+				"id": 25990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bastón estrangulador de Terestian",
+					"id": 28658
+				}
+			},
+			{
+				"id": 25991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de infusión de vid de sombra",
+					"id": 28653
+				}
+			},
+			{
+				"id": 25992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja maléfica",
+					"id": 28654
+				}
+			},
+			{
+				"id": 25993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/22561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fórmula: Encantar arma: escarcha de alma",
+					"id": 22561
+				}
+			},
+			{
+				"id": 25994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de corazón de curandero",
+					"id": 28661
+				}
+			},
+			{
+				"id": 25995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de sostenimiento natural",
+					"id": 28655
+				}
+			},
+			{
+				"id": 25996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El condensador de rayos",
+					"id": 28785
+				}
+			},
+			{
+				"id": 32114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ilusión: escarcha de alma",
+					"id": 138799
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1560?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1560,
+		"name": "Terestian Malsabot",
+		"creatures": [
+			{
+				"id": 3790,
+				"name": "Terestian Malsabot",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11343?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11343
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 25984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écrase-patate",
+					"id": 28657
+				}
+			},
+			{
+				"id": 25985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordelette de volonté",
+					"id": 28652
+				}
+			},
+			{
+				"id": 25986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape en thorium doré",
+					"id": 28660
+				}
+			},
+			{
+				"id": 25987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Charme de Satyre",
+					"id": 97551
+				}
+			},
+			{
+				"id": 25988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du rôdeur",
+					"id": 28656
+				}
+			},
+			{
+				"id": 25989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse du lieur de lumière",
+					"id": 28662
+				}
+			},
+			{
+				"id": 25990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâton étrangleur de Terestian",
+					"id": 28658
+				}
+			},
+			{
+				"id": 25991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'infusion en ombrevigne",
+					"id": 28653
+				}
+			},
+			{
+				"id": 25992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon maléfique",
+					"id": 28654
+				}
+			},
+			{
+				"id": 25993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/22561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Formule : Enchantement d'arme (Âme de givre)",
+					"id": 22561
+				}
+			},
+			{
+				"id": 25994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau-cœur du soigneur",
+					"id": 28661
+				}
+			},
+			{
+				"id": 25995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de subsistance de la Nature",
+					"id": 28655
+				}
+			},
+			{
+				"id": 25996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Le condensateur de foudre",
+					"id": 28785
+				}
+			},
+			{
+				"id": 32114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion : Ame de givre",
+					"id": 138799
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1560?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1560,
+		"name": "Terestian Illhoof",
+		"creatures": [
+			{
+				"id": 3790,
+				"name": "Terestian Illhoof",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/11343?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 11343
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 25984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28657?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fool's Bane",
+					"id": 28657
+				}
+			},
+			{
+				"id": 25985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28652?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cincture of Will",
+					"id": 28652
+				}
+			},
+			{
+				"id": 25986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gilded Thorium Cloak",
+					"id": 28660
+				}
+			},
+			{
+				"id": 25987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Satyr Charm",
+					"id": 97551
+				}
+			},
+			{
+				"id": 25988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Prowler",
+					"id": 28656
+				}
+			},
+			{
+				"id": 25989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28662?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Lightbinder",
+					"id": 28662
+				}
+			},
+			{
+				"id": 25990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Terestian's Stranglestaff",
+					"id": 28658
+				}
+			},
+			{
+				"id": 25991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28653?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadowvine Cloak of Infusion",
+					"id": 28653
+				}
+			},
+			{
+				"id": 25992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28654?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malefic Girdle",
+					"id": 28654
+				}
+			},
+			{
+				"id": 25993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/22561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Formula: Enchant Weapon - Soulfrost",
+					"id": 22561
+				}
+			},
+			{
+				"id": 25994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mender's Heart-Ring",
+					"id": 28661
+				}
+			},
+			{
+				"id": 25995,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28655?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cord of Nature's Sustenance",
+					"id": 28655
+				}
+			},
+			{
+				"id": 25996,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Lightning Capacitor",
+					"id": 28785
+				}
+			},
+			{
+				"id": 32114,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/138799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Illusion: Soulfrost",
+					"id": 138799
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			}
+		]
+	}
+}

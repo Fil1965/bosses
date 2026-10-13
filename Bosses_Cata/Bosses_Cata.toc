@@ -3,10 +3,13 @@
 ## Notes: Missing Cataclysm bosses (4.3 dungeons, remastered Throne of the Tides) (ES/EN)
 ## Notes-esES: Jefes de Cataclysm que faltaban en la base histórica (mazmorras 4.3 y Throne remasterizada) (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.7
+## Version: 1.0.10
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_Cata_es.lua
 Bosses_Cata_en.lua
+Bosses_Cata_de.lua
+Bosses_Cata_fr.lua
 Bosses_Cata_enc.lua
+Bosses_Cata_zonas.lua
 Bosses_Cata.lua

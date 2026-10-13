@@ -1,0 +1,1608 @@
+{
+	"id": 866,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/866?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 866,
+		"name": "Norushen",
+		"description": "Hay quien dice que la raza mogu fue creada a imagen de esta construcción titánica, abandonada en las profundidades de Pandaria para vigilar y proteger el secreto más oscuro y peligroso del continente.",
+		"creatures": [
+			{
+				"id": 1625,
+				"name": "Norushen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/48860?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 48860
+				}
+			},
+			{
+				"id": 2827,
+				"name": "Amalgama de corrupción",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de odio ciego",
+					"id": 112545
+				}
+			},
+			{
+				"id": 21235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Xifeng, hoja larga del guardián titánico",
+					"id": 112546
+				}
+			},
+			{
+				"id": 21236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hoja corta de Norushen",
+					"id": 112547
+				}
+			},
+			{
+				"id": 21237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112548?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del protector dorado",
+					"id": 112548
+				}
+			},
+			{
+				"id": 21238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas del vigía ennegrecido",
+					"id": 112549
+				}
+			},
+			{
+				"id": 21239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de cuarentena",
+					"id": 112550
+				}
+			},
+			{
+				"id": 21240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de ira ecuánime",
+					"id": 112551
+				}
+			},
+			{
+				"id": 21241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran yelmo cegado por la ira",
+					"id": 112552
+				}
+			},
+			{
+				"id": 21242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de destripador de realidad",
+					"id": 112553
+				}
+			},
+			{
+				"id": 21243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de la fosa de desesperación",
+					"id": 112554
+				}
+			},
+			{
+				"id": 21244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de causalidad quebrada",
+					"id": 112555
+				}
+			},
+			{
+				"id": 21245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arrojadores de añublo",
+					"id": 112556
+				}
+			},
+			{
+				"id": 21246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fajín del último guardián",
+					"id": 112557
+				}
+			},
+			{
+				"id": 21247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros de falla de relente",
+					"id": 112558
+				}
+			},
+			{
+				"id": 21248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena del guardián incólume",
+					"id": 112559
+				}
+			},
+			{
+				"id": 21249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrera enigmática de Norushen",
+					"id": 112560
+				}
+			},
+			{
+				"id": 21250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de confianza rota",
+					"id": 112561
+				}
+			},
+			{
+				"id": 21251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de autoconfianza",
+					"id": 112562
+				}
+			},
+			{
+				"id": 21252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de serenidad final",
+					"id": 112563
+				}
+			},
+			{
+				"id": 21253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda del vinculador de sombras",
+					"id": 112564
+				}
+			},
+			{
+				"id": 21254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Muñequeras de dudas rotas",
+					"id": 112565
+				}
+			},
+			{
+				"id": 21255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Núcleo ígneo de fusión",
+					"id": 112503
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10139,
+				"title": "Resumen",
+				"body_text": "Norushen sella a todos los jugadores dentro de una zona de cuarentena y extrae una fracción de la corrupción de cada jugador para formar una amalgama de corrupción. El objetivo del encuentro es destruir a esa criatura.\r\n\r\nLos jugadores deben purgar su nivel de corrupción personal para infligir daño completo a la amalgama. Para ello, los jugadores pueden interactuar con los nodos de luz purificadora que hay en la sala, lo que los llevará a otra fase donde deberán enfrentarse a un desafío específico de cada función de batalla. Los jugadores que tengan éxito quedarán purificados y podrán infligir daño completo a la amalgama.",
+				"sections": [
+					{
+						"id": 10140,
+						"title": "DPS",
+						"body_text": "$bullet;Interactúa con un orbe de Luz purificadora para someterte a la prueba de serenidad y derrota a los enemigos de dentro para quedar sin corrupción.\r\n$bullet;Todo el daño infligido a las manifestaciones de corrupción y a las esencias de corrupción en el reino normal se copia a la amalgama jefe.\r\n$bullet;Gira en torno a la amalgama para evitar [Odio ciego]."
+					},
+					{
+						"id": 10141,
+						"title": "Sanadores",
+						"body_text": "$bullet;Interactúa con un orbe de Luz purificadora para someterte a la prueba de apoyo; una vez ahí, mantén a tus aliados a tope de salud para maximizar su daño a la corrupción superior y completa la prueba.\r\n$bullet;Gira en torno a la amalgama para evitar [Odio ciego]."
+					},
+					{
+						"id": 10142,
+						"title": "Tanques",
+						"body_text": "$bullet;Interactúa con un orbe de Luz purificadora para someterte a la prueba de confianza; evita y resiste los ataques de la corrupción titánica para limpiarte de corrupción.\r\n$bullet;Gira en torno a la amalgama para evitar [Odio ciego].\r\n$bullet;Atacad a la amalgama por turnos para permitir que [Inseguridad] se desvanezca."
+					}
+				]
+			},
+			{
+				"id": 8215,
+				"title": "La prueba de Norushen",
+				"body_text": "Norushen atrapa a los jugadores en un zona de cuarentena y los desafía a enfrentarse y superar a su propia corrupción si desean seguir adentrándose en la cámara.",
+				"sections": [
+					{
+						"id": 8252,
+						"title": "Corrupción",
+						"body_text": "Los jugadores empiezan el encuentro con 75 p. de corrupción. Cuanto más corrupto esté un jugador, menos daño infligirá a la amalgama de corrupción."
+					},
+					{
+						"id": 8253,
+						"title": "Purificado",
+						"body_text": "Los jugadores que llegan a 0 p. de corrupción quedan purificados. Los sanadores purificados obtienen una bonificación de sanación, los tanques purificados reciben menos daño y los DPS infligen más daño por tener menos corrupción.\r\n\r\nLos efectos de la purificación persisten hasta que el jugador vuelve a corromperse."
+					},
+					{
+						"id": 8401,
+						"title": "Medidas de cuarentena",
+						"body_text": "Si la amalgama de corrupción acaba siendo demasiado peligrosa, Norushen se verá obligado a activar las medidas de seguridad de la zona y destruir la vida de su interior."
+					}
+				]
+			},
+			{
+				"id": 8216,
+				"title": "Amalgama de corrupción",
+				"sections": [
+					{
+						"id": 8218,
+						"title": "Ira desatada",
+						"body_text": "La amalgama da un tajo a su objetivo tanque actual, lo que inflige 0 p. de daño físico."
+					},
+					{
+						"id": 8440,
+						"title": "Inseguridad",
+						"body_text": "La amalgama llena de dudas a su objetivo tanque actual. Inseguridad aumenta el daño de Ira desatada un 40% por aplicación."
+					},
+					{
+						"id": 8219,
+						"title": "Odio ciego",
+						"body_text": "La amalgama crea una zona de corrupción que se extiende hacia fuera y gira lentamente en el sitio. Todos los jugadores que se encuentren en su camino reciben 0 p. de daño de las Sombras cada segundo."
+					},
+					{
+						"id": 8241,
+						"title": "Fusión",
+						"body_text": "Cada corrupción expulsada que alcance a la amalgama de corrupción aumentará el daño que inflige la amalgama un 5% durante 15 s."
+					},
+					{
+						"id": 8333,
+						"title": "Miedo helado",
+						"body_text": "La amalgama inflige 0 p. de daño de Escarcha a todos los jugadores cada 3 s. El daño aumenta a medida que la amalgama pierde salud."
+					},
+					{
+						"id": 8413,
+						"title": "Desgarrado",
+						"body_text": "A partir del 50% de salud y por cada 10% perdido en lo sucesivo, la amalgama liberará una manifestación de la corrupción desatada."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			},
+			{
+				"id": 8220,
+				"title": "Mirar en el interior",
+				"body_text": "Los jugadores pueden interactuar con Luz purificadora para usar Mirar en el interior. Hacerlo transporta al jugador a su propio reino en el que se enfrenta a un desafío personal basado en su función. Completar el desafío con éxito devolverá al jugador al reino normal sin corrupción alguna.\r\n\r\nLos jugadores no pueden usar Mirar en el interior mientras estén bajo los efectos de Purificado.\r\n\r\n",
+				"sections": [
+					{
+						"id": 8221,
+						"title": "Prueba de serenidad",
+						"body_text": "Los jugadores con la función de DPS se enfrentan a una prueba de serenidad. Para completar este reto, los jugadores deben derrotar a los elementos de corrupción presentes. Cuando uno de estos elementos de corrupción sea derrotado, se liberará al reino normal.\r\n\r\nSi no se consigue completar el reto, todos los demás elementos de corrupción se liberarán al reino normal a la vez.",
+						"sections": [
+							{
+								"id": 8224,
+								"title": "Manifestación de la corrupción",
+								"body_text": "Estas criaturas de sha lanzan repetidamente Rasgar realidad, que inflige daño de las Sombras a los enemigos en un cono frente al taumaturgo.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 42282
+								}
+							},
+							{
+								"id": 8225,
+								"title": "Esencia de corrupción",
+								"body_text": "Estas criaturas de sha menores lanzan repetidamente Expulsar corrupción, que dispara una bola de energías corruptas en línea recta e inflige 0 p. de daño de las Sombras a cualquiera que alcance.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 46714
+								}
+							}
+						]
+					},
+					{
+						"id": 8222,
+						"title": "Prueba de apoyo",
+						"body_text": "Los jugadores con la función de sanador se enfrentan a la prueba de apoyo. Para completar este desafío, los jugadores deben derrotar a una corrupción superior. Los sanadores reciben ayuda de varios aliados mientras usan Mirar en el interior.\r\n\r\nSi no completan el desafío, una manifestación de la corrupción se liberará en el reino normal. Si se completa con éxito, el jugador vuelve al reino normal purificado de toda corrupción.",
+						"sections": [
+							{
+								"id": 8227,
+								"title": "Corrupción superior",
+								"sections": [
+									{
+										"id": 8238,
+										"title": "Risa descorazonadora",
+										"body_text": "Inflige daño de las Sombras a todos los enemigos durante 6 s."
+									},
+									{
+										"id": 8402,
+										"title": "Foso de desesperación",
+										"body_text": "Inflige 0 p. de daño de las Sombras cada segundo a todos los enemigos en el área."
+									},
+									{
+										"id": 8239,
+										"title": "Corrupción persistente",
+										"body_text": "Inflige 0 p. de daño de las Sombras si no se disipa la corrupción de la víctima antes de 10 s."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/44651?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 44651
+								}
+							}
+						]
+					},
+					{
+						"id": 8223,
+						"title": "Prueba de confianza",
+						"body_text": "Los jugadores con la función de tanque se enfrentan a la prueba de confianza. Para completar este desafío, el tanque debe sobrevivir 1 min ante una corrupción titánica. Si tiene éxito, el jugador vuelve al reino normal sin corrupción alguna.",
+						"sections": [
+							{
+								"id": 8230,
+								"title": "Corrupción titánica",
+								"sections": [
+									{
+										"id": 8242,
+										"title": "Machaque titánico",
+										"body_text": "Inflige 0 p. de daño de las Sombras a todo el que se encuentre en un cono frente al taumaturgo."
+									},
+									{
+										"id": 8243,
+										"title": "Corrupción",
+										"body_text": "Cada golpe recibido con éxito de la corrupción titánica aplica una acumulación de Corrupción a la víctima, lo que inflige 0 p. de daño de las Sombras por aplicación cada segundo."
+									},
+									{
+										"id": 8244,
+										"title": "Lanzar corrupción",
+										"body_text": "El taumaturgo lanza una bola de corrupción a su objetivo que inflige 0 p. de daño de las Sombras."
+									},
+									{
+										"id": 8245,
+										"title": "Ráfaga de corrupción",
+										"body_text": "Inflige 0 p. de daño de las Sombras a todos los enemigos."
+									},
+									{
+										"id": 8246,
+										"title": "Corrupción perforadora",
+										"body_text": "Inflige 0 p. de daño físico al objetivo. Este ataque no se puede absorber."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 49281
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8231,
+				"title": "Corrupción desatada",
+				"body_text": "Cada vez que los jugadores derrotan con éxito a un elemento de corrupción durante la prueba de serenidad, se liberará en el reino normal.",
+				"sections": [
+					{
+						"id": 8482,
+						"title": "Vínculo impío",
+						"body_text": "Las criaturas liberadas de la Prueba de serenidad copian su daño en la amalgama de corrupción."
+					},
+					{
+						"id": 8232,
+						"title": "Manifestación de la corrupción",
+						"sections": [
+							{
+								"id": 8403,
+								"title": "Ráfaga de ira",
+								"body_text": "Inflige 0 p. de daño de las Sombras a todos los jugadores dentro de la zona de cuarentena."
+							},
+							{
+								"id": 8248,
+								"title": "Corrupción residual",
+								"body_text": "Cuando muere una manifestación de la corrupción desatada, deja atrás una pequeña cantidad de corrupción que infligirá de forma periódica 0 p. de daño de las Sombras a todos los jugadores en la zona de cuarentena hasta que se recoja. Los jugadores no pueden recoger la corrupción residual a menos que antes hayan eliminado suficiente cantidad de su propia corrupción.\r\n\r\nCorrupción residual otorga al jugador 25 p. de corrupción."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 42282
+						}
+					},
+					{
+						"id": 8233,
+						"title": "Esencia de corrupción",
+						"sections": [
+							{
+								"id": 8249,
+								"title": "Expulsar corrupción",
+								"body_text": "Una bola de energía corrupta sale del taumaturgo e inflige 0 p. de daño de las Sombras al primer enemigo contra el que se choque. Cada Corrupción expulsada que alcance la amalgama de corrupción aumentará el daño que inflige la amalgama un 5% durante 15 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46714
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/369?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Asedio de Orgrimmar",
+			"id": 369
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/866?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 866,
+		"name": "Norushen",
+		"description": "D’aucuns disent que la race des mogu a été créée à l’image de cet assemblage titanesque posté au fin fond des entrailles de la Pandarie pour surveiller et protéger le secret le plus noir et le plus dangereux du continent.",
+		"creatures": [
+			{
+				"id": 1625,
+				"name": "Norushen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/48860?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 48860
+				}
+			},
+			{
+				"id": 2827,
+				"name": "Amalgame de corruption",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la haine aveugle",
+					"id": 112545
+				}
+			},
+			{
+				"id": 21235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Xifeng, Lame longue du gardien titanesque",
+					"id": 112546
+				}
+			},
+			{
+				"id": 21236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lame courte de Norushen",
+					"id": 112547
+				}
+			},
+			{
+				"id": 21237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112548?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du protecteur doré",
+					"id": 112548
+				}
+			},
+			{
+				"id": 21238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe du guetteur noirci",
+					"id": 112549
+				}
+			},
+			{
+				"id": 21239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de quarantaine",
+					"id": 112550
+				}
+			},
+			{
+				"id": 21240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la colère sans bornes",
+					"id": 112551
+				}
+			},
+			{
+				"id": 21241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand heaume d'aveuglement enragé",
+					"id": 112552
+				}
+			},
+			{
+				"id": 21242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau déchireur de réalité",
+					"id": 112553
+				}
+			},
+			{
+				"id": 21243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé du puits désespérant",
+					"id": 112554
+				}
+			},
+			{
+				"id": 21244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la causalité brisée",
+					"id": 112555
+				}
+			},
+			{
+				"id": 21245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jeteurs de chancre",
+					"id": 112556
+				}
+			},
+			{
+				"id": 21246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Echarpe du dernier gardien",
+					"id": 112557
+				}
+			},
+			{
+				"id": 21247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières gel-faille",
+					"id": 112558
+				}
+			},
+			{
+				"id": 21248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne du gardien non corrompu",
+					"id": 112559
+				}
+			},
+			{
+				"id": 21249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrière énigmatique de Norushen",
+					"id": 112560
+				}
+			},
+			{
+				"id": 21250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de dépendance brisée",
+					"id": 112561
+				}
+			},
+			{
+				"id": 21251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes assurées",
+					"id": 112562
+				}
+			},
+			{
+				"id": 21252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassard de la sérénité terminale",
+					"id": 112563
+				}
+			},
+			{
+				"id": 21253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt du lieur d'ombres",
+					"id": 112564
+				}
+			},
+			{
+				"id": 21254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plates de poignets du doute brisé",
+					"id": 112565
+				}
+			},
+			{
+				"id": 21255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Noyau du feu de la fusion",
+					"id": 112503
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10139,
+				"title": "Vue d’ensemble",
+				"body_text": "Norushen enferme tous les personnages-joueurs à l’intérieur de la zone de quarantaine et extrait une portion de la corruption de chaque personnage-joueur pour créer un Amalgame de corruption. L’objectif de ce combat est de détruire cette créature.\r\n\r\nLes personnages-joueurs doivent réduire leur niveau individuel de corruption pour infliger la totalité de leurs dégâts à l’Amalgame. Pour cela, ils peuvent interagir avec des nodules de Lumière purificatrice qui apparaissent dans la pièce et peuvent les attirer vers une autre phase où ils doivent remporter un défi spécifique à leur rôle. S’ils réussissent, ils se purifient et peuvent alors infliger la totalité de leurs dégâts à l’Amalgame.",
+				"sections": [
+					{
+						"id": 10140,
+						"title": "DPS",
+						"body_text": "$bullet;Interagissez avec un orbe de Lumière purificatrice pour entrer dans l’Epreuve de sérénité. Tuez les ennemis qui vous y attendent pour vous débarrasser de votre corruption.\r\n$bullet;Tous les dégâts infligés aux manifestations de la corruption et aux essences de corruption dans le monde normal sont appliqués à l’Amalgame.\r\n$bullet;Tournez autour de l’Amalgame pour éviter la technique [Haine aveugle]."
+					},
+					{
+						"id": 10141,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Interagissez avec un orbe de Lumière purificatrice pour entrer dans l’Epreuve de dépendance. À l’intérieur, maintenez vos alliés au maximum de leurs points de vie pour maximiser les dégâts qu’ils infligent à la corruption supérieure et réussir l’épreuve.\r\n$bullet;Tournez autour de l’Amalgame pour éviter la technique [Haine aveugle]."
+					},
+					{
+						"id": 10142,
+						"title": "Tanks",
+						"body_text": "$bullet;Interagissez avec un orbe de Lumière purificatrice pour entrer dans l’Epreuve de confiance. À l’intérieur, évitez et encaissez les attaques de la Corruption titanesque pour vous débarrasser de votre corruption.\r\n$bullet;Tournez autour de l’Amalgame pour éviter la technique [Haine aveugle].\r\n$bullet;Attirez l’attention de l’Amalgame à tour de rôle pour laisser à l’effet [Doute de soi] le temps d’expirer."
+					}
+				]
+			},
+			{
+				"id": 8215,
+				"title": "L’épreuve de Norushen",
+				"body_text": "Norushen enferme les personnages-joueurs dans une zone de quarantaine et les met au défi d’affronter et de vaincre leur propre corruption s’ils souhaitent s’enfoncer plus profondément dans le caveau.",
+				"sections": [
+					{
+						"id": 8252,
+						"title": "Corruption",
+						"body_text": "Les personnages-joueurs débutent la rencontre avec 75 points de corruption. Plus un personnage-joueur est corrompu, moins il inflige de dégâts à l’Amalgame de corruption."
+					},
+					{
+						"id": 8253,
+						"title": "Purifié",
+						"body_text": "Les personnages-joueurs dont le niveau de corruption tombe à 0 sont Purifiés. Les soigneurs purifiés bénéficient d’un bonus aux soins, les tanks purifiés subissent moins de dégâts et les personnages-joueurs spécialisés en dégâts en infligent davantage quand ils sont libres de toute corruption.\r\n\r\nL’état Purifié persiste tant que le personnage n’est pas à nouveau corrompu."
+					},
+					{
+						"id": 8401,
+						"title": "Mesures de quarantaine",
+						"body_text": "Si l’Amalgame de corruption se révèle trop dangereux, Norushen sera forcé d’activer les mesures de sécurité de la zone et de détruire toute vie à l’intérieur."
+					}
+				]
+			},
+			{
+				"id": 8216,
+				"title": "Amalgame de corruption",
+				"sections": [
+					{
+						"id": 8218,
+						"title": "Colère libérée",
+						"body_text": "L’Amalgame taillade le tank qu’il a actuellement en cible, lui infligeant 0 points de dégâts physiques."
+					},
+					{
+						"id": 8440,
+						"title": "Doute de soi",
+						"body_text": "L’Amalgame fait naître le doute dans l’esprit du tank qu’il a pour cible actuelle. Le doute de soi augmente les dégâts infligés par Colère libérée de 40% par application."
+					},
+					{
+						"id": 8219,
+						"title": "Haine aveugle",
+						"body_text": "L’Amalgame crée une zone de corruption qui s’agrandit vers l’extérieur et tourne sur elle-même. Tous les personnages-joueurs se trouvant sur la trajectoire de la corruption subissent 0 points de dégâts d’Ombre par seconde."
+					},
+					{
+						"id": 8241,
+						"title": "Fusionnement",
+						"body_text": "Tout jet de corruption atteignant l’Amalgame de corruption augmente les dégâts infligés par ce dernier de 5% pendant 15 s."
+					},
+					{
+						"id": 8333,
+						"title": "Peur glacée",
+						"body_text": "L’Amalgame inflige 0 points de dégâts de Givre à tous les personnages-joueurs toutes les 3 s. Plus l’Amalgame perd des points de vie, plus ces dégâts sont élevés."
+					},
+					{
+						"id": 8413,
+						"title": "Egratigné",
+						"body_text": "Quand l’Amalgame n’a plus que 50% de ses points de vie maximum, et à chaque fois qu’il en perd 10% supplémentaires, il fait apparaître une Manifestation de la corruption déchaînée."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			},
+			{
+				"id": 8220,
+				"title": "Regard en soi",
+				"body_text": "Un personnage-joueur peut interagir avec la Lumière purificatrice pour lancer Regard en soi. Il se retrouve alors dans un royaume parallèle où il doit traverser une épreuve variant en fonction de son rôle. Surmonter l’épreuve permet au personnage-joueur de revenir dans le royaume normal purgé de toute corruption.\r\n\r\nLes personnages-joueurs ne peuvent lancer Regard en soi en étant sous l’effet de Purifié.\r\n\r\n",
+				"sections": [
+					{
+						"id": 8221,
+						"title": "Épreuve de sérénité",
+						"body_text": "Les personnages-joueurs spécialisés dans les dégâts passent l’Épreuve de sérénité. Pour la surmonter, ils doivent vaincre les éléments de corruption présents. Quand l’un de ces êtres est vaincu, il se manifeste dans le royaume normal.\r\n\r\nTout échec dans cette épreuve entraîne l’apparition simultanée de tous les éléments de corruption restants dans le royaume normal.",
+						"sections": [
+							{
+								"id": 8224,
+								"title": "Manifestation de la corruption",
+								"body_text": "Ces créatures sha lancent de façon répétée Déchirer la réalité, qui inflige des dégâts d’Ombre à tous les ennemis dans un cône devant le lanceur.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 42282
+								}
+							},
+							{
+								"id": 8225,
+								"title": "Essence de corruption",
+								"body_text": "Ces créatures sha inférieures lancent de façon répétée Extraction de la corruption, qui lance une boule d’énergie corrompue en ligne droite, infligeant 0 points de dégâts d’Ombre à tous ceux qu’elle touche.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 46714
+								}
+							}
+						]
+					},
+					{
+						"id": 8222,
+						"title": "Épreuve de dépendance",
+						"body_text": "Les soigneurs passent l’Épreuve de dépendance. Pour la surmonter, ils doivent vaincre une Corruption supérieure. Pendant la phase de Regard en soi, les soigneurs reçoivent l’aide de quelques alliés.\r\n\r\nTout échec dans cette épreuve entraîne la libération immédiate d’une Manifestation de la corruption dans le monde normal. En cas de succès, le personnage-joueur revient dans le monde normal purifié de toute corruption.",
+						"sections": [
+							{
+								"id": 8227,
+								"title": "Corruption supérieure",
+								"sections": [
+									{
+										"id": 8238,
+										"title": "Rire déstabilisant",
+										"body_text": "Inflige des dégâts d’Ombre à tous les ennemis en 6 s."
+									},
+									{
+										"id": 8402,
+										"title": "Fosse du désespoir",
+										"body_text": "Inflige 0 points de dégâts d’Ombre toutes les secondes à tous les ennemis dans la zone."
+									},
+									{
+										"id": 8239,
+										"title": "Corruption rémanente",
+										"body_text": "Inflige 0 points de dégâts d’Ombre si la corruption n’est pas dissipée sur la victime dans les 10 s."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/44651?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 44651
+								}
+							}
+						]
+					},
+					{
+						"id": 8223,
+						"title": "Épreuve de confiance",
+						"body_text": "Les tanks passent l’Épreuve de confiance. Pour le réussir, ils doivent survivre à une Corruption titanesque pendant 1 min.\r\n\r\nSurmonter l’épreuve permet au personnage de revenir dans le royaume normal purgé de toute corruption.",
+						"sections": [
+							{
+								"id": 8230,
+								"title": "Corruption titanesque",
+								"sections": [
+									{
+										"id": 8242,
+										"title": "Choc titanesque",
+										"body_text": "Inflige 0 points de dégâts d’Ombre à quiconque se trouvant dans le cône situé devant le lanceur."
+									},
+									{
+										"id": 8243,
+										"title": "Corruption",
+										"body_text": "Chaque attaque réussie de la Corruption titanesque ajoute une charge de corruption sur sa victime, infligeant 0 points de dégâts d’Ombre par seconde et par charge."
+									},
+									{
+										"id": 8244,
+										"title": "Projection de corruption",
+										"body_text": "Le lanceur projette une boule d’énergie corrompue sur sa cible, lui infligeant 0 points de dégâts d’Ombre."
+									},
+									{
+										"id": 8245,
+										"title": "Explosion de corruption",
+										"body_text": "Inflige 0 points de dégâts d’Ombre à tous les ennemis."
+									},
+									{
+										"id": 8246,
+										"title": "Corruption transperçante",
+										"body_text": "Inflige 0 points de dégâts physiques à la cible. Cette attaque ne peut pas être absorbée."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 49281
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8231,
+				"title": "Corruption déchaînée",
+				"body_text": "Chaque fois que les personnages-joueurs triomphent d’un élément de corruption pendant l’Epreuve de sérénité, il est libéré dans le monde normal.",
+				"sections": [
+					{
+						"id": 8482,
+						"title": "Lien infect",
+						"body_text": "Les créatures libérées par l’Épreuve de sérénité copient leurs dégâts vers l’amalgame de corruption."
+					},
+					{
+						"id": 8232,
+						"title": "Manifestation de la corruption",
+						"sections": [
+							{
+								"id": 8403,
+								"title": "Explosion de colère",
+								"body_text": "Inflige 0 points de dégâts d’Ombre à tous les personnages-joueurs au sein de la zone de quarantaine."
+							},
+							{
+								"id": 8248,
+								"title": "Corruption résiduelle",
+								"body_text": "Lorsqu’une Manifestation de la corruption déchaînée meurt, elle laisse derrière elle une petite quantité de corruption qui inflige de façon périodique 0 points de dégâts d’Ombre à tous les personnages-joueurs dans la zone de quarantaine jusqu’à ce qu’elle soit ramassée. Les personnages-joueurs ne peuvent pas ramasser la Corruption résiduelle tant qu’ils ne se sont pas débarrassés de suffisamment de leur propre corruption.\r\n\r\nLa Corruption résiduelle augmente la corruption sur le personnage-joueur de 25 points."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 42282
+						}
+					},
+					{
+						"id": 8233,
+						"title": "Essence de corruption",
+						"sections": [
+							{
+								"id": 8249,
+								"title": "Extraction de la corruption",
+								"body_text": "Une boule d’énergie corrompue quitte le lanceur pour infliger 0 points de dégâts d’Ombre au premier ennemi qui se trouve sur sa trajectoire. Chaque Jet de corruption qui atteint l’Amalgame de corruption augmente ses dégâts de 5% pendant 15 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46714
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/369?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Siège d’Orgrimmar",
+			"id": 369
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/866?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 866,
+		"name": "Norushen",
+		"description": "Some say that the mogu race was created in the image of this titanic construct, left deep beneath Pandaria to watch over and guard the continent's darkest and most dangerous secret.",
+		"creatures": [
+			{
+				"id": 1625,
+				"name": "Norushen",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/48860?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 48860
+				}
+			},
+			{
+				"id": 2827,
+				"name": "Amalgam of Corruption",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 21234,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112545?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of Blind Hatred",
+					"id": 112545
+				}
+			},
+			{
+				"id": 21235,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112546?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Xifeng, Longblade of the Titanic Guardian",
+					"id": 112546
+				}
+			},
+			{
+				"id": 21236,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Norushen's Shortblade",
+					"id": 112547
+				}
+			},
+			{
+				"id": 21237,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112548?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Golden Protector",
+					"id": 112548
+				}
+			},
+			{
+				"id": 21238,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of the Blackened Watcher",
+					"id": 112549
+				}
+			},
+			{
+				"id": 21239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quarantine Shoulderguards",
+					"id": 112550
+				}
+			},
+			{
+				"id": 21240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Unabashed Anger",
+					"id": 112551
+				}
+			},
+			{
+				"id": 21241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rage-Blind Greathelm",
+					"id": 112552
+				}
+			},
+			{
+				"id": 21242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reality Ripper Ring",
+					"id": 112553
+				}
+			},
+			{
+				"id": 21243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drape of the Despairing Pit",
+					"id": 112554
+				}
+			},
+			{
+				"id": 21244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of Broken Causation",
+					"id": 112555
+				}
+			},
+			{
+				"id": 21245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112556?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blight Hurlers",
+					"id": 112556
+				}
+			},
+			{
+				"id": 21246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sash of the Last Guardian",
+					"id": 112557
+				}
+			},
+			{
+				"id": 21247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112558?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rime-Rift Shoulders",
+					"id": 112558
+				}
+			},
+			{
+				"id": 21248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Untainted Guardian's Chain",
+					"id": 112559
+				}
+			},
+			{
+				"id": 21249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112560?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Norushen's Enigmatic Barrier",
+					"id": 112560
+				}
+			},
+			{
+				"id": 21250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boots of Broken Reliance",
+					"id": 112561
+				}
+			},
+			{
+				"id": 21251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Confident Grips",
+					"id": 112562
+				}
+			},
+			{
+				"id": 21252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of Final Serenity",
+					"id": 112563
+				}
+			},
+			{
+				"id": 21253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadow-Binder's Kilt",
+					"id": 112564
+				}
+			},
+			{
+				"id": 21254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wristplates of Broken Doubt",
+					"id": 112565
+				}
+			},
+			{
+				"id": 21255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/112503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fusion-Fire Core",
+					"id": 112503
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 10139,
+				"title": "Overview",
+				"body_text": "Norushen seals all players inside a Quarantine Zone and extracts a portion of each player's corruption to form an Amalgam of Corruption. The object of the encounter is to destroy this creature.\r\n\r\nPlayers must reduce their personal level of Corruption in order to inflict full damage to the Amalgam. Players can accomplish this by interacting with the nodes of Purifying Light that active around the room, which will pull them into another phase where they must face a role-specific challenge. Overcoming this challenge will Purify the player and allow them to inflict full damage to the Amalgam.",
+				"sections": [
+					{
+						"id": 10140,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Interact with a Purifying Light orb to enter the Test of Serenity and defeat the enemies inside to rid yourself of Corruption.\r\n$bullet;All damage dealt to Manifestations of Corruption and Essences of Corruption in the normal realm is copied to the boss Amalgam.\r\n$bullet;Rotate around the Amalgam to avoid [Blind Hatred]."
+					},
+					{
+						"id": 10141,
+						"title": "Healers",
+						"body_text": "$bullet;Interact with a Purifying Light orb to enter the Test of Reliance; inside, keep your allies at full health to maximize their damage to the Greater Corruption and complete the trial.\r\n$bullet;Rotate around the Amalgam to avoid [Blind Hatred]."
+					},
+					{
+						"id": 10142,
+						"title": "Tanks",
+						"body_text": "$bullet;Interact with a Purifying Light orb to enter the Test of Confidence; avoid and weather the Titanic Corruption's attacks to rid yourself of Corruption.\r\n$bullet;Rotate around the Amalgam to avoid [Blind Hatred].\r\n$bullet;Take turns tanking the Amalgam to allow [Self Doubt] to fade."
+					}
+				]
+			},
+			{
+				"id": 8215,
+				"title": "Norushen's Trial",
+				"body_text": "Norushen traps players in a Quarantine Zone and challenges them to face and overcome their own Corruption if they wish to proceed deeper into the vault.",
+				"sections": [
+					{
+						"id": 8252,
+						"title": "Corruption",
+						"body_text": "Players start the encounter with 75 points of Corruption. The more corrupt a player is the less damage they will inflict to the Amalgam of Corruption."
+					},
+					{
+						"id": 8253,
+						"title": "Purified",
+						"body_text": "Players who reach 0 Corruption become Purified. Healers who are Purified gain bonus healing, tanks who are Purified take less damage, and damage dealers inflict greater damage by virtue of having less Corruption.\r\n\r\nPurified persists until the player is once again Corrupted."
+					},
+					{
+						"id": 8401,
+						"title": "Quarantine Measures",
+						"body_text": "If the Amalgam of Corruption proves too dangerous, Norushen will have no choice but to activate the zone's safety measures and destroy all life within."
+					}
+				]
+			},
+			{
+				"id": 8216,
+				"title": "Amalgam of Corruption",
+				"sections": [
+					{
+						"id": 8218,
+						"title": "Unleashed Anger",
+						"body_text": "The Amalgam slashes at its current tank target, inflicting 0 Physical damage."
+					},
+					{
+						"id": 8440,
+						"title": "Self Doubt",
+						"body_text": "The Amalgam inflicts doubt on its current tank target. Self Doubt increases the damage of Unleashed Anger by 40% per application."
+					},
+					{
+						"id": 8219,
+						"title": "Blind Hatred",
+						"body_text": "The Amalgam creates a zone of corruption that extends outward and slowly turns in place. All players caught in the path of the corruption suffer 0 Shadow damage every second."
+					},
+					{
+						"id": 8241,
+						"title": "Fusion",
+						"body_text": "Every Expelled Corruption that reaches the Amalgam of Corruption will increase the damage the Amalgam inflicts by 5% for 15 sec."
+					},
+					{
+						"id": 8333,
+						"title": "Icy Fear",
+						"body_text": "The Amalgam inflicts 0 Frost damage to all players every 3 sec. This damage increases as the Amalgam loses health."
+					},
+					{
+						"id": 8413,
+						"title": "Frayed",
+						"body_text": "When the Amalgam reaches 50% health remaining, and for every 10% health lost thereafter, the Amalgam spawns an Unleashed Manifestation of Corruption."
+					}
+				],
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49360?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49360
+				}
+			},
+			{
+				"id": 8220,
+				"title": "Look Within",
+				"body_text": "Players can interact with Purifying Light to Look Within. Doing so transports the player to their own realm where they face a personal challenge based on their role. Successfully completing the challenge will return the player to the normal realm with zero Corruption.\r\n\r\nPlayers cannot Look Within while under the effects of Purified.\r\n\r\n",
+				"sections": [
+					{
+						"id": 8221,
+						"title": "Test of Serenity",
+						"body_text": "Players of the DPS role face the Test of Serenity. To complete this challenge, players must defeat the elements of corruption present. Whenever one of these elements of corruption is defeated, it will be unleashed into the normal realm.\r\n\r\nFailure to complete the challenge will unleash all remaining elements of corruption to the normal realm at once.",
+						"sections": [
+							{
+								"id": 8224,
+								"title": "Manifestation of Corruption",
+								"body_text": "These sha creatures repeatedly cast Tear Reality, which inflict Shadow damage to all enemies in a cone in front of the caster.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 42282
+								}
+							},
+							{
+								"id": 8225,
+								"title": "Essence of Corruption",
+								"body_text": "These lesser sha creatures repeatedly cast Expel Corruption, which fires a ball of corrupted energies in a straight line, dealing 0 Shadow damage to anyone it strikes.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 46714
+								}
+							}
+						]
+					},
+					{
+						"id": 8222,
+						"title": "Test of Reliance",
+						"body_text": "Players of the Healer role face the Test of Reliance. To complete this challenge, players must defeat a Greater Corruption. Healers are aided by several allies while Looking Within.\r\n\r\nFailure to complete the challenge will unleash a Manifestation of Corruption to the normal realm. Success returns the player to the normal realm cleansed of all Corruption.",
+						"sections": [
+							{
+								"id": 8227,
+								"title": "Greater Corruption",
+								"sections": [
+									{
+										"id": 8238,
+										"title": "Disheartening Laugh",
+										"body_text": "Inflicts Shadow damage to all enemies over 6 sec."
+									},
+									{
+										"id": 8402,
+										"title": "Pit of Despair",
+										"body_text": "Inflicts 0 Shadow damage every second to all enemies within the area."
+									},
+									{
+										"id": 8239,
+										"title": "Lingering Corruption",
+										"body_text": "Inflicts 0 Shadow damage if not dispelled from the victim within 10 sec."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/44651?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 44651
+								}
+							}
+						]
+					},
+					{
+						"id": 8223,
+						"title": "Test of Confidence",
+						"body_text": "Players of the Tank role face the Test of Confidence. To complete this challenge, the tank must survive for 1 min against a Titanic Corruption.\r\n\r\nSuccess returns the player to the normal realm with zero corruption.",
+						"sections": [
+							{
+								"id": 8230,
+								"title": "Titanic Corruption",
+								"sections": [
+									{
+										"id": 8242,
+										"title": "Titanic Smash",
+										"body_text": "Inflicts 0 Shadow damage to anyone in a cone in front of the caster."
+									},
+									{
+										"id": 8243,
+										"title": "Corruption",
+										"body_text": "Every successful strike received from the Titanic Corruption inflicts the victim with a stack of Corruption, inflicting 0 Shadow damage per application every second."
+									},
+									{
+										"id": 8244,
+										"title": "Hurl Corruption",
+										"body_text": "The caster hurls a ball of corruption at their target, inflicting 0 Shadow damage."
+									},
+									{
+										"id": 8245,
+										"title": "Burst of Corruption",
+										"body_text": "Inflicts 0 Shadow damage to all enemies."
+									},
+									{
+										"id": 8246,
+										"title": "Piercing Corruption",
+										"body_text": "Inflicts 0 Physical damage to the target. This attack cannot be absorbed."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49281?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 49281
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 8231,
+				"title": "Unleashed Corruption",
+				"body_text": "Whenever players successfully defeat an element of corruption during the Test of Serenity it will be unleashed in the normal realm.",
+				"sections": [
+					{
+						"id": 8482,
+						"title": "Foul Link",
+						"body_text": "The creatures released from the Test of Serenity copy their damage to the Amalgam of Corruption."
+					},
+					{
+						"id": 8232,
+						"title": "Manifestation of Corruption",
+						"sections": [
+							{
+								"id": 8403,
+								"title": "Burst of Anger",
+								"body_text": "Inflicts 0 Shadow damage to all players within the Quarantine Zone."
+							},
+							{
+								"id": 8248,
+								"title": "Residual Corruption",
+								"body_text": "When an Unleashed Manifestation of Corruption dies, it leaves behind a small amount of corruption that will periodically inflict 0 Shadow damage to all players in the Quarantine Zone until it is picked up. Players are unable to pick up the Residual Corruption unless they have removed sufficient corruption of their own first.\r\n\r\nResidual Corruption gives the player 25 Corruption."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42282?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 42282
+						}
+					},
+					{
+						"id": 8233,
+						"title": "Essence of Corruption",
+						"sections": [
+							{
+								"id": 8249,
+								"title": "Expel Corruption",
+								"body_text": "A ball of corrupted energy travels outward from the caster, inflicting 0 Shadow damage to the first enemy in its path. Every Expelled Corruption that reaches the Amalgam of Corruption will increase the damage the Amalgam inflicts by 5% for 15 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/46714?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 46714
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/369?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Siege of Orgrimmar",
+			"id": 369
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			}
+		]
+	}
+}

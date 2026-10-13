@@ -1,0 +1,1125 @@
+{
+	"id": 168,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/168?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 168,
+		"name": "Sinestra",
+		"description": "Sinestra, la consorte principal de Alamuerte, creó los primeros dragones Crepusculares, pero acabó siendo destruida por una de sus terroríficas creaciones. Ahora que solo es un cascarón destrozado reanimado con malas artes, Sinestra supervisa la creación de nuevas nidadas Crepusculares.",
+		"creatures": [
+			{
+				"id": 588,
+				"name": "Sinestra",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34335?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34335
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón del linaje caído",
+					"id": 60231
+				}
+			},
+			{
+				"id": 10065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Embozo de dolor infinito",
+					"id": 60232
+				}
+			},
+			{
+				"id": 10066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de tragedia",
+					"id": 60233
+				}
+			},
+			{
+				"id": 10067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de traición funesta",
+					"id": 60234
+				}
+			},
+			{
+				"id": 10068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de Az'galada",
+					"id": 60235
+				}
+			},
+			{
+				"id": 10069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de jinete de pesadillas",
+					"id": 60236
+				}
+			},
+			{
+				"id": 10070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de la Reina del Crepúsculo",
+					"id": 60237
+				}
+			},
+			{
+				"id": 10071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de la madre oscura",
+					"id": 60238
+				}
+			},
+			{
+				"id": 10059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de Dargonax",
+					"id": 60226
+				}
+			},
+			{
+				"id": 10060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60227?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voluntad de Caelestrasz",
+					"id": 60227
+				}
+			},
+			{
+				"id": 10061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de Mat'redor",
+					"id": 60228
+				}
+			},
+			{
+				"id": 10062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60229?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Trituradores destrozados por la guerra",
+					"id": 60229
+				}
+			},
+			{
+				"id": 10063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60230?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de escamas Crepusculares",
+					"id": 60230
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3226,
+				"title": "Fase 1: ¡Yo misma me ocuparé de vosotros!",
+				"body_text": "Al inicio del combate, Sinestra está debilitada por las batallas anteriores y por alimentar a la prole Crepuscular. Comienza con solo un 60% de su salud máxima y el daño que inflige se reduce un 40%.",
+				"sections": [
+					{
+						"id": 3227,
+						"title": "Arruinar",
+						"body_text": "Sinestra hace que un objetivo aleatorio reciba daño de las Sombras cada 2 s durante 1 min, además el daño recibido aumenta rápidamente. Cuando se disipa, Arruinar se extiende a 2 aliados cercanos al jugador afectado, lo que hace que conserve su duración restante pero restablece sus valores de daño originales."
+					},
+					{
+						"id": 3228,
+						"title": "Aliento de llamas",
+						"body_text": "Sinestra libera un torrente de llamas que barre la plataforma, lo que inflige 0 p. de daño de Fuego a todos los enemigos."
+					},
+					{
+						"id": 3229,
+						"title": "Cercenadora Crepuscular",
+						"body_text": "Sinestra invoca 2 orbes sombríos que se fijan en un jugador y empiezan a perseguirlo. Estas esferas están vinculadas entre sí por un haz cortante de energía Crepuscular pura e infligen 0 p. de daño de las Sombras cada 5,2 s a los enemigos que entren en contacto con ellas. Las propias esferas también emiten pulsos de energía Crepuscular, lo que inflige 0 p. de daño de las Sombras cada 0,5 s en un radio de 5 m. Los orbes se disipan tras 15 s."
+					},
+					{
+						"id": 3230,
+						"title": "Explosión Crepuscular",
+						"body_text": "Cuando Sinestra no tiene a nadie en alcance cuerpo a cuerpo, golpea a un enemigo y le inflige 0 p. de daño de las Sombras."
+					},
+					{
+						"id": 3231,
+						"title": "Crías Crepusculares",
+						"body_text": "Sinestra invoca periódicamente un grupo de 5 crías Crepusculares para que ataquen a los intrusos.",
+						"sections": [
+							{
+								"id": 3232,
+								"title": "Saliva Crepuscular",
+								"body_text": "Las crías Crepusculares escupen bilis sombría a su objetivo, lo que inflige 0 p. de daño de las Sombras y aumenta un 10% el daño de las Sombras que recibe el objetivo. Este efecto se acumula."
+							},
+							{
+								"id": 3233,
+								"title": "Esencia Crepuscular",
+								"body_text": "Cuando una cría Crepuscular muere, la esencia que Sinestra imbuye en ella se desborda, lo que forma un charco burbujeante bajo su cadáver. Si esta esencia toca a otra cría Crepuscular muerta, esa cría se reanimará. Cada charco de esencia Crepuscular se extiende con el tiempo. El charco inflige 0 p. de daño de las Sombras cada 2 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3234,
+				"title": "Fase 2: ¡Estoy cansada!",
+				"body_text": "Cuando Siniestra alcanza el 30% de salud, utiliza la energía del ambiente para restaurar su poder y levanta un escudo para protegerse.",
+				"sections": [
+					{
+						"id": 3235,
+						"title": "El conflicto entre la Llama y el Crepúsculo",
+						"body_text": "El dragón Rojo Caelestrasz, Calen en su forma humana, acude en ayuda de la banda y entabla un duelo mágico con Sinestra. El que tenga más maná obtiene ventaja en el duelo.",
+						"sections": [
+							{
+								"id": 3236,
+								"title": "Enfoque pírrico",
+								"body_text": "Calen quema sus propias reservas de salud para restaurar su maná. Su enfoque también aumenta un 500% la sanación que recibe."
+							},
+							{
+								"id": 3237,
+								"title": "Barrera de maná",
+								"body_text": "Sinestra permanece envuelta en una poderosa barrera que repone continuamente cualquier pérdida de salud a costa de su maná."
+							}
+						]
+					},
+					{
+						"id": 3238,
+						"title": "Huevo Crepuscular con pulso",
+						"body_text": "Sinestra ha almacenado ingentes reservas de energía Crepuscular en estos huevos gigantescos.",
+						"sections": [
+							{
+								"id": 3308,
+								"title": "Caparazón Crepuscular",
+								"body_text": "Normalmente, los huevos Crepusculares con pulso son inmunes a todo el daño. En momentos de extrema necesidad, Sinestra puede succionar directamente de los huevos, lo que hace que se caiga un Caparazón Crepuscular temporalmente."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35318?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35318
+						}
+					},
+					{
+						"id": 3239,
+						"title": "Clamafuria Crepuscular",
+						"body_text": "Estos dragonantes Crepusculares se cuelan en la sala de forma periódica durante el enfrentamiento entre Calen y Sinestra.",
+						"sections": [
+							{
+								"id": 3240,
+								"title": "Desatar esencia",
+								"body_text": "El clamafuria Crepuscular libera un torrente de energía Crepuscular que afecta a todos los enemigos cercanos, lo que inflige un daño igual a un 10% de la salud máxima de cada objetivo cada 1 s. Las interrupciones convencionales no pueden evitar el lanzamiento de este hechizo, pero otros efectos que provocan la pérdida de control pueden ser efectivos."
+							},
+							{
+								"id": 3241,
+								"title": "Indomable",
+								"body_text": "Si un clamafuria Crepuscular permanece incapacitado más allá de un breve período de tiempo, este recupera el control gracias a la fuerza de voluntad. Se vuelve inmune a todas las ataduras y limitaciones hasta que un jugador elimina el efecto. Inflige 0 p. de daño de las Sombras a los enemigos en un radio de 8 m y los repele."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36137?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36137
+						}
+					},
+					{
+						"id": 3242,
+						"title": "Draco Crepuscular",
+						"body_text": "Los dracos Crepusculares se lanzan en picado desde los lados de la caverna durante la pelea de Calen y Sinestra.",
+						"sections": [
+							{
+								"id": 3243,
+								"title": "Aliento Crepuscular",
+								"body_text": "El aliento del draco inflige 0 p. de daño de las Sombras en un cono de 25 m de 60 grados frente a él."
+							},
+							{
+								"id": 3244,
+								"title": "Absorber esencia",
+								"body_text": "Si un draco Crepuscular entra en contacto con un charco de esencia crepuscular, succionará esa energía, lo que hará que el charco se reduzca y acabe desapareciendo por completo. Cada carga de esencia absorbida aumenta el daño del draco un 10% y su salud un 10%. Este efecto se acumula."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32232?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32232
+						}
+					}
+				]
+			},
+			{
+				"id": 3245,
+				"title": "Fase 3: ¡Ahora muere!",
+				"body_text": "Cuando se destruyen los huevos Crepusculares con pulso, Sinestra pone fin a su duelo de magia con Calen y ataca a la banda con toda su furia. Potenciada por los huevos Crepusculares de los que extrae energía, Sinestra ya no inflige daño reducido.",
+				"sections": [
+					{
+						"id": 3246,
+						"title": "Esencia de lo Rojo",
+						"body_text": "Calen confiere una bendición de Alexstrasza sobre la banda, lo que otorga a todos los jugadores un 100% de celeridad cuerpo a cuerpo, a distancia y con hechizos y hace que recuperen un 5% de su maná máximo cada segundo. Esencia de lo Rojo dura 3 min."
+					},
+					{
+						"id": 3247,
+						"title": "Arruinar",
+						"body_text": "Sinestra hace que un objetivo aleatorio reciba daño de las Sombras cada 2 s durante 1 min, además el daño recibido aumenta rápidamente. Cuando se disipa, Arruinar se extiende a 2 aliados cercanos al jugador afectado, lo que hace que conserve su duración restante pero restablece sus valores de daño originales.\r\n\r\nDisipar Arruinar con éxito finaliza de inmediato el tiempo de reutilización de las facultades de disipar magia de un solo objetivo del taumaturgo."
+					},
+					{
+						"id": 3248,
+						"title": "Aliento de llamas",
+						"body_text": "Sinestra libera un torrente de llamas que barre la plataforma, lo que inflige 0 p. de daño de Fuego a todos los enemigos."
+					},
+					{
+						"id": 3249,
+						"title": "Cercenadora Crepuscular",
+						"body_text": "Sinestra invoca 2 orbes sombríos que se fijan en un jugador y empiezan a perseguirlo. Estas esferas están vinculadas entre sí por un haz cortante de energía Crepuscular pura e infligen 0 p. de daño de las Sombras cada 5,2 s a los enemigos que entren en contacto con ellas. Las propias esferas también emiten pulsos de energía Crepuscular, lo que inflige 0 p. de daño de las Sombras cada 0,5 s en un radio de 5 m. Los orbes se disipan tras 15 s."
+					},
+					{
+						"id": 3250,
+						"title": "Explosión Crepuscular",
+						"body_text": "Cuando Sinestra no tiene a nadie en alcance cuerpo a cuerpo, golpea a un enemigo y le inflige 0 p. de daño de las Sombras."
+					},
+					{
+						"id": 3251,
+						"title": "Crías Crepusculares",
+						"body_text": "Sinestra invoca periódicamente un grupo de 5 crías Crepusculares para que ataquen a los intrusos.",
+						"sections": [
+							{
+								"id": 3252,
+								"title": "Saliva Crepuscular",
+								"body_text": "Las crías Crepusculares escupen bilis sombría a su objetivo, lo que inflige 0 p. de daño de las Sombras y aumenta un 10% el daño de las Sombras que recibe el objetivo. Este efecto se acumula."
+							},
+							{
+								"id": 3253,
+								"title": "Esencia Crepuscular",
+								"body_text": "Cuando una cría Crepuscular muere, la esencia que Sinestra imbuye en ella se desborda, lo que forma un charco burbujeante bajo su cadáver. Si esta esencia toca a otra cría Crepuscular muerta, esa cría se reanimará. Cada charco de esencia Crepuscular se extiende con el tiempo. El charco inflige 0 p. de daño de las Sombras cada 2 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3352,
+				"title": "Solo en dificultad heroica",
+				"body_text": "Sinestra solo está disponible en dificultad heroica."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "El Bastión del Crepúsculo",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/168?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 168,
+		"name": "Sinestra",
+		"description": "Autrefois première compagne d’Aile de mort, Sinestra créa les premiers dragons du Crépuscule, mais fut par la suite anéantie par l’une de ses terrifiantes créations. Désormais, Sinestra, enveloppe ravagée réanimée par une magie insidieuse, surveille la création de nouvelles couvées du Crépuscule.",
+		"creatures": [
+			{
+				"id": 588,
+				"name": "Sinestra",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34335?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34335
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de la progéniture défunte",
+					"id": 60231
+				}
+			},
+			{
+				"id": 10065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voile de peine sans fin",
+					"id": 60232
+				}
+			},
+			{
+				"id": 10066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Éclat de malheur",
+					"id": 60233
+				}
+			},
+			{
+				"id": 10067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de pâle trahison",
+					"id": 60234
+				}
+			},
+			{
+				"id": 10068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'Az'galada",
+					"id": 60235
+				}
+			},
+			{
+				"id": 10069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de chevaucheur de cauchemar",
+					"id": 60236
+				}
+			},
+			{
+				"id": 10070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne de la reine crépusculaire",
+					"id": 60237
+				}
+			},
+			{
+				"id": 10071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la sombre mère",
+					"id": 60238
+				}
+			},
+			{
+				"id": 10059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de Dargonax",
+					"id": 60226
+				}
+			},
+			{
+				"id": 10060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60227?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Volonté de Caelestrasz",
+					"id": 60227
+				}
+			},
+			{
+				"id": 10061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du Mat'redor",
+					"id": 60228
+				}
+			},
+			{
+				"id": 10062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60229?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseurs déchirés par la guerre",
+					"id": 60229
+				}
+			},
+			{
+				"id": 10063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60230?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du Crépuscule en écailles",
+					"id": 60230
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3226,
+				"title": "Phase 1 : Je vais m'occuper de vous !",
+				"body_text": "Au début du combat, Sinestra est affaiblie par toutes les batailles qu’elle a livrées et par les efforts nécessaires au nourrissage de la progéniture du Crépuscule. Elle commence la rencontre avec 60% de ses points de vie maximum et les points de dégâts qu’elle inflige sont réduits de 40%.",
+				"sections": [
+					{
+						"id": 3227,
+						"title": "Calvaire",
+						"body_text": "Sinestra inflige des dégâts d’Ombre à un personnage-joueur au hasard toutes les 2 s pendant 1 min, leur montant augmentant rapidement. Quand un personnage-joueur le dissipe, Calvaire rebondit sur deux alliés de la cible initiale et conserve la durée d’effet qu’il lui reste, mais en infligeant le montant de dégâts initial."
+					},
+					{
+						"id": 3228,
+						"title": "Souffle de flammes",
+						"body_text": "Sinestra libère une vague de flammes qui balaie toute la plateforme, infligeant 0 points de dégâts de Feu à tous les ennemis."
+					},
+					{
+						"id": 3229,
+						"title": "Tranchoir du Crépuscule",
+						"body_text": "Sinestra invoque deux orbes ténébreux qui fixent chacun leur attention sur un personnage-joueur et le pourchassent. Ces sphères sont reliées entre elles par un rayon de pure énergie crépusculaire qui inflige 0 points de dégâts d’Ombre toutes les 5,2 s à tout personnage-joueur qui le traverse.\r\n\r\nChaque sphère elle-même projette aussi des vagues d’énergie crépusculaire qui infligent 0 points de dégâts d’Ombre toutes les 0,5 s dans un rayon de 5 mètres. Les orbes disparaissent après 15 s."
+					},
+					{
+						"id": 3230,
+						"title": "Déflagration du Crépuscule",
+						"body_text": "Quand Sinestra ne peut atteindre personne en mêlée, elle émet une déflagration qui inflige 0 points de dégâts d’Ombre à un personnage-joueur."
+					},
+					{
+						"id": 3231,
+						"title": "Dragonnet du Crépuscule",
+						"body_text": "Sinestra invoque périodiquement un groupe de cinq dragonnets du Crépuscule qui attaque les intrus.",
+						"sections": [
+							{
+								"id": 3232,
+								"title": "Crachat du Crépuscule",
+								"body_text": "Les dragonnets du Crépuscule crachent une bile ténébreuse sur leur cible, lui infligeant 0 points de dégâts d’Ombre et augmentant les dégâts d’Ombre qu’elle subit de 10%. Cet effet est cumulable."
+							},
+							{
+								"id": 3233,
+								"title": "Essence du Crépuscule",
+								"body_text": "Lorsqu’un dragonnet du Crépuscule meurt, l’essence que Sinestra lui a insufflée s’échappe en formant une flaque bouillonnante sous sa dépouille. Si cette essence touche un autre cadavre de dragonnet du Crépuscule, celui-ci revient à la vie. Chaque flaque d’essence du Crépuscule s’élargit au fil du temps et inflige 0 points de dégâts d’Ombre toutes les 2 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3234,
+				"title": "Phase 2 : J'en ai assez.",
+				"body_text": "Quand les points de vie de Sinestra atteignent 30% de leur maximum, elle puise dans l’énergie ambiante pour ériger un bouclier autour d’elle et récupérer de sa puissance.",
+				"sections": [
+					{
+						"id": 3235,
+						"title": "Le choc de la flamme et du Crépuscule",
+						"body_text": "Le dragon rouge Caelestrasz, appelé Calen en forme humanoïde, vient en aide au groupe et s’engage dans un duel magique contre Sinestra. Le duelliste avec le plus de mana prend l’avantage.",
+						"sections": [
+							{
+								"id": 3236,
+								"title": "Focalisation pyrrhique",
+								"body_text": "Calen consume ses propres réserves de points de vie pour récupérer du mana. La focalisation de Calen augmente également de 500% la quantité de soins qui lui sont prodigués."
+							},
+							{
+								"id": 3237,
+								"title": "Barrière de mana",
+								"body_text": "Une puissante barrière entoure Sinestra et lui redonne continuellement les points de vie qu’elle perd aux dépens de ses points de mana."
+							}
+						]
+					},
+					{
+						"id": 3238,
+						"title": "Œuf du crépuscule vibrant",
+						"body_text": "Sinestra a emmagasiné d’importantes réserves d’énergie du Crépuscule dans ces œufs géants.",
+						"sections": [
+							{
+								"id": 3308,
+								"title": "Carapace du Crépuscule",
+								"body_text": "Les œufs du Crépuscule vibrants sont normalement insensibles à toute forme de dégâts. En cas de besoin impérieux, Sinestra siphonne les œufs directement, ce qui désactive momentanément leur Carapace du Crépuscule."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35318?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35318
+						}
+					},
+					{
+						"id": 3239,
+						"title": "Mande-hargne du Crépuscule",
+						"body_text": "Ces draconiens du Crépuscule déferlent périodiquement dans la salle pendant le combat entre Calen et Sinestra.",
+						"sections": [
+							{
+								"id": 3240,
+								"title": "Déchaînement de l'essence",
+								"body_text": "Le mande-hargne du Crépuscule libère un torrent d’énergie du Crépuscule qui frappe tous les ennemis à sa portée en infligeant un montant de points de dégâts égal à 10% des points de vie maximum de chaque cible toutes les 1 s. Les interruptions conventionnelles ne peuvent empêcher l’incantation de ce sort, mais les autres effets qui causent une perte de contrôle peuvent y arriver."
+							},
+							{
+								"id": 3241,
+								"title": "Indomptable",
+								"body_text": "Si un mande-hargne du Crépuscule est stupéfié pendant plus qu’un court laps de temps, il reprend le contrôle grâce à un regain de volonté brute. Le mande-hargne devient insensible à tous les liens et entraves jusqu’à ce que cet effet soit supprimé, et inflige 0 points de dégâts d'Ombre à tous les personnages-joueurs dans un rayon de 8 mètres et les renverse."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36137?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36137
+						}
+					},
+					{
+						"id": 3242,
+						"title": "Drake du Crépuscule",
+						"body_text": "Des drakes du Crépuscule tapis sur les côtés de la caverne se jettent dans la mêlée pendant le combat entre Calen et Sinestra.",
+						"sections": [
+							{
+								"id": 3243,
+								"title": "Souffle du Crépuscule",
+								"body_text": "En soufflant, le drake forme devant lui un cône de 25 mètres et de 60 degrés d’amplitude qui inflige 0 points de dégâts d’Ombre."
+							},
+							{
+								"id": 3244,
+								"title": "Absorption d'essence",
+								"body_text": "Si un drake du Crépuscule entre en contact avec une flaque d’essence du Crépuscule, il en siphonnera toute l’énergie, faisant réduire la flaque jusqu’à ce qu’elle disparaisse entièrement. Chaque charge d’Essence absorbée augmente les dégâts du Drake de 10% et ses points de vie de 10%. Cet effet est cumulable."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32232?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32232
+						}
+					}
+				]
+			},
+			{
+				"id": 3245,
+				"title": "Phase 3 : Alors mourez !",
+				"body_text": "Quand les personnages-joueurs ont détruit les œufs du crépuscule vibrants, Sinestra coupe court au duel magique qui l’oppose à Calen, et attaque le raid avec une fureur redoublée. Renforcée par les œufs du crépuscule dont elle siphonne l’énergie, Sinestra n’inflige plus des dégâts réduits.",
+				"sections": [
+					{
+						"id": 3246,
+						"title": "Essence des Rouges",
+						"body_text": "Calen accorde une bénédiction d’Alexstrasza au raid, qui octroie à tous les personnages-joueurs un bonus de 100% de hâte en mêlée, à distance et des sorts, et qui leur rend 5% de leur mana maximum par seconde. L’Essence des Rouges dure 3 min."
+					},
+					{
+						"id": 3247,
+						"title": "Calvaire",
+						"body_text": "Sinestra inflige des dégâts d’Ombre à un personnage-joueur au hasard toutes les 2 s pendant 1 min, leur montant augmentant rapidement. Quand un personnage-joueur le dissipe, Calvaire rebondit sur deux alliés de la cible initiale et conserve la durée d’effet qu’il lui reste, mais en infligeant le montant de dégâts initial.\r\n\r\nQuand Calvaire est dissipé avec succès, le temps de recharge des techniques de dissipation de la magie à cible unique du lanceur prend instantanément fin."
+					},
+					{
+						"id": 3248,
+						"title": "Souffle de flammes",
+						"body_text": "Sinestra libère une vague de flammes qui balaie toute la plateforme, infligeant 0 points de dégâts de Feu à tous les ennemis."
+					},
+					{
+						"id": 3249,
+						"title": "Tranchoir du Crépuscule",
+						"body_text": "Sinestra invoque deux orbes ténébreux qui fixent chacun leur attention sur un personnage-joueur et le pourchassent. Ces sphères sont reliées entre elles par un rayon de pure énergie crépusculaire qui inflige 0 points de dégâts d’Ombre toutes les 5,2 s à tout personnage-joueur qui le traverse.\r\n\r\nChaque sphère elle-même projette aussi des vagues d’énergie crépusculaire qui infligent 0 points de dégâts d’Ombre toutes les 0,5 s dans un rayon de 5 mètres. Les orbes disparaissent après 15 s."
+					},
+					{
+						"id": 3250,
+						"title": "Déflagration du Crépuscule",
+						"body_text": "Quand Sinestra ne peut atteindre personne en mêlée, elle émet une déflagration qui inflige 0 points de dégâts d’Ombre à un personnage-joueur."
+					},
+					{
+						"id": 3251,
+						"title": "Dragonnet du Crépuscule",
+						"body_text": "Sinestra invoque périodiquement un groupe de cinq dragonnets du Crépuscule qui attaque les intrus.",
+						"sections": [
+							{
+								"id": 3252,
+								"title": "Crachat du Crépuscule",
+								"body_text": "Les dragonnets du Crépuscule crachent une bile ténébreuse sur leur cible, lui infligeant 0 points de dégâts d’Ombre et augmentant les dégâts d’Ombre qu’elle subit de 10%. Cet effet est cumulable."
+							},
+							{
+								"id": 3253,
+								"title": "Essence du Crépuscule",
+								"body_text": "Lorsqu’un dragonnet du Crépuscule meurt, l’essence que Sinestra lui a insufflée s’échappe en formant une flaque bouillonnante sous sa dépouille. Si cette essence touche un autre cadavre de dragonnet du Crépuscule, celui-ci revient à la vie. Chaque flaque d’essence du Crépuscule s’élargit au fil du temps et inflige 0 points de dégâts d’Ombre toutes les 2 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3352,
+				"title": "Mode héroïque uniquement",
+				"body_text": "Sinestra n’est disponible qu’en mode héroïque."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Le bastion du Crépuscule",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/168?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 168,
+		"name": "Sinestra",
+		"description": "Originally Deathwing's prime consort, Sinestra created the first twilight dragons, but was later obliterated by one of her terrifying creations. Now a ravaged husk reanimated by insidious magic, Sinestra oversees the creation of new twilight clutches.",
+		"creatures": [
+			{
+				"id": 588,
+				"name": "Sinestra",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34335?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34335
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10064,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60231?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Fallen Brood",
+					"id": 60231
+				}
+			},
+			{
+				"id": 10065,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60232?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shroud of Endless Grief",
+					"id": 60232
+				}
+			},
+			{
+				"id": 10066,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60233?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shard of Woe",
+					"id": 60233
+				}
+			},
+			{
+				"id": 10067,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60234?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bindings of Bleak Betrayal",
+					"id": 60234
+				}
+			},
+			{
+				"id": 10068,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60235?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boots of Az'galada",
+					"id": 60235
+				}
+			},
+			{
+				"id": 10069,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60236?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nightmare Rider's Boots",
+					"id": 60236
+				}
+			},
+			{
+				"id": 10070,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Twilight Queen",
+					"id": 60237
+				}
+			},
+			{
+				"id": 10071,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60238?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Dark Mother",
+					"id": 60238
+				}
+			},
+			{
+				"id": 10059,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60226?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dargonax's Signet",
+					"id": 60226
+				}
+			},
+			{
+				"id": 10060,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60227?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caelestrasz's Will",
+					"id": 60227
+				}
+			},
+			{
+				"id": 10061,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of the Mat'redor",
+					"id": 60228
+				}
+			},
+			{
+				"id": 10062,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60229?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "War-Torn Crushers",
+					"id": 60229
+				}
+			},
+			{
+				"id": 10063,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/60230?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Twilight Scale Leggings",
+					"id": 60230
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3226,
+				"title": "Stage One: I Will Deal With You Myself!",
+				"body_text": "At the outset of the battle, Sinestra is weakened from past battles and from nurturing the Twilight brood. She begins with only 60% of her maximum health, and her damage dealt is reduced by by 40%.",
+				"sections": [
+					{
+						"id": 3227,
+						"title": "Wrack",
+						"body_text": "Sinestra causes a random player to suffer Shadow damage every 2 sec. for 1 min. with the damage taken increasing rapidly. When a player dispels Wrack, it bounces to two nearby allies of the afflicted player. Wrack retains its remaining duration but returns to its original damage values."
+					},
+					{
+						"id": 3228,
+						"title": "Flame Breath",
+						"body_text": "Sinestra unleashes a torrent of flame that sweeps across her platform, inflicting 0 Fire damage to all enemies."
+					},
+					{
+						"id": 3229,
+						"title": "Twilight Slicer",
+						"body_text": "Sinestra summons two shadowy orbs, each of which fixates on a player and begins to pursue that player. These spheres are linked together by a cutting beam of pure twilight energy that inflicts 0 Shadow damage per 5.2 sec. to any player who comes into contact with the beam.\r\n\r\nEach sphere also pulses twilight energy, inflicting 0 Shadow damage every 0.5 sec in a 5 yard radius. The orbs dissipate after 15 sec."
+					},
+					{
+						"id": 3230,
+						"title": "Twilight Blast",
+						"body_text": "When Sinestra cannot reach anyone in melee range, she blasts an enemy for 0 Shadow damage."
+					},
+					{
+						"id": 3231,
+						"title": "Twilight Whelps",
+						"body_text": "Sinestra periodically calls forth a set of five Twilight Whelps to attack intruders.",
+						"sections": [
+							{
+								"id": 3232,
+								"title": "Twilight Spit",
+								"body_text": "The Twilight Whelps spit shadowy bile on their target, inflicting 0 Shadow damage and increasing the target's Shadow damage taken by 10%. This effect stacks."
+							},
+							{
+								"id": 3233,
+								"title": "Twilight Essence",
+								"body_text": "When a Twilight Whelp dies, the essence instilled in it by Sinestra leaks out, forming a bubbling puddle beneath its corpse. If this essence touches any other dead Twilight Whelp, that Whelp reanimates. Each pool of Twilight Essence expands over time. The pools inflict 0 Shadow damage every 2 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3234,
+				"title": "Stage Two: I Tire of This!",
+				"body_text": "When Sinestra is brought to 30% health, she draws upon ambient energy to restore her power and erects a shield to protect herself.",
+				"sections": [
+					{
+						"id": 3235,
+						"title": "A Clash of Flame and Twilight",
+						"body_text": "The red dragon Caelestrasz, Calen in his humanoid form, comes to the party's aid and engages in a magical duel with Sinestra. The duelist with the most mana gains the upper hand.",
+						"sections": [
+							{
+								"id": 3236,
+								"title": "Pyrrhic Focus",
+								"body_text": "Calen burns his own health reserves to restore his mana. His focus also increases healing done to Calen by 500%."
+							},
+							{
+								"id": 3237,
+								"title": "Mana Barrier",
+								"body_text": "A powerful barrier envelops Sinestra, continually replenishing any lost health at the expense of her mana."
+							}
+						]
+					},
+					{
+						"id": 3238,
+						"title": "Pulsing Twilight Egg",
+						"body_text": "Sinestra has stored vast reserves of twilight energy in these massive eggs.",
+						"sections": [
+							{
+								"id": 3308,
+								"title": "Twilight Carapace",
+								"body_text": "The Pulsing Twilight Eggs are normally impervious to all damage. In moments of dire need, Sinestra directly siphons from the eggs and causes their Twilight Carapace to drop temporarily."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35318?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35318
+						}
+					},
+					{
+						"id": 3239,
+						"title": "Twilight Spitecaller",
+						"body_text": "These twilight dragonkin periodically stream into the room during the clash between Calen and Sinestra.",
+						"sections": [
+							{
+								"id": 3240,
+								"title": "Unleash Essence",
+								"body_text": "The Twilight Spitecaller releases a torrent of twilight energy that afflicts all nearby enemies, inflicting damage equal to 10% of each target's maximum health every 1 sec.  Conventional interrupts cannot prevent the casting of the spell, but other effects that cause loss of control may be effective."
+							},
+							{
+								"id": 3241,
+								"title": "Indomitable",
+								"body_text": "If a Twilight Spitecaller is incapacitated for more than a brief period of time, it regains control through a surge of sheer will. The Spitecaller becomes immune to all bonds and restraints until a player removes this effect, and inflicts 0 Shadow damage and knocks back players within 8 yards."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/36137?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 36137
+						}
+					},
+					{
+						"id": 3242,
+						"title": "Twilight Drake",
+						"body_text": "Twilight Drakes swoop in from the sides of the cavern during the clash between Calen and Sinestra.",
+						"sections": [
+							{
+								"id": 3243,
+								"title": "Twilight Breath",
+								"body_text": "The Drake's breath inflicts 0 Shadow damage in a 25 yard 60 degree cone in front of it."
+							},
+							{
+								"id": 3244,
+								"title": "Absorb Essence",
+								"body_text": "If a Twilight Drake comes into contact with a pool of Twilight Essence, it siphons that energy and causes the pool to shrink and eventually vanish entirely. Each charge of Essence absorbed increases the Drake's damage by 10%, and its health by 10%. This effect stacks."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32232?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32232
+						}
+					}
+				]
+			},
+			{
+				"id": 3245,
+				"title": "Stage Three: Now Die!",
+				"body_text": "Once the players destroy the Pulsing Twilight Eggs, Sinestra brings her magical duel with Calen to an end and attacks the players with her full fury. Empowered by the twilight eggs from which she reclaims her siphoned energy, Sinestra no longer deals reduced damage.",
+				"sections": [
+					{
+						"id": 3246,
+						"title": "Essence of the Red",
+						"body_text": "Calen bestows a blessing of Alexstrasza upon the raid, granting all players 100% melee, ranged, and spell haste, and causing them to regain 5% of their maximum mana per second. Essence of the Red lasts for 3 min."
+					},
+					{
+						"id": 3247,
+						"title": "Wrack",
+						"body_text": "Sinestra causes a random player to suffer Shadow damage every 2 sec. for 1 min. with the damage taken increasing rapidly. When a player dispels Wrack, it bounces to two nearby allies of the afflicted player. Wrack retains its remaining duration but returns to its original damage values.\r\n\r\nSuccessfully dispelling Wrack instantly finishes the cooldown of the caster's single-target Magic dispel abilities."
+					},
+					{
+						"id": 3248,
+						"title": "Flame Breath",
+						"body_text": "Sinestra unleashes a torrent of flame that sweeps across her platform, dealing 0 Fire damage to all enemies."
+					},
+					{
+						"id": 3249,
+						"title": "Twilight Slicer",
+						"body_text": "Sinestra summons two shadowy orbs, each of which fixates on a player and begins to pursue that player. These spheres are linked together by a cutting beam of pure twilight energy that inflicts 0 Shadow damage per 5.2 sec. to any player who comes into contact with the beam.\r\n\r\nEach sphere also pulses twilight energy, inflicting 0 Shadow damage every 0.5 sec in a 5 yard radius. The orbs dissipate after 15 sec."
+					},
+					{
+						"id": 3250,
+						"title": "Twilight Blast",
+						"body_text": "When Sinestra cannot reach anyone in melee range, she blasts an enemy for 0 Shadow damage."
+					},
+					{
+						"id": 3251,
+						"title": "Twilight Whelps",
+						"body_text": "Sinestra periodically calls forth a set of five Twilight Whelps to attack intruders.",
+						"sections": [
+							{
+								"id": 3252,
+								"title": "Twilight Spit",
+								"body_text": "The Twilight Whelps spit shadowy bile on their target, inflicting 0 Shadow damage and increasing the target's Shadow damage taken by 10%. This effect stacks."
+							},
+							{
+								"id": 3253,
+								"title": "Twilight Essence",
+								"body_text": "When a Twilight Whelp dies, the essence instilled in it by Sinestra leaks out, forming a bubbling puddle beneath its corpse. If this essence touches any other dead Twilight Whelp, that Whelp reanimates. Each pool of Twilight Essence expands over time. The pools inflict 0 Shadow damage every 2 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19295?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 19295
+						}
+					}
+				]
+			},
+			{
+				"id": 3352,
+				"title": "Heroic Difficulty Only",
+				"body_text": "Sinestra is only available in Heroic Difficulty."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "The Bastion of Twilight",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

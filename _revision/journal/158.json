@@ -1,0 +1,1839 @@
+{
+	"id": 158,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/158?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 158,
+		"name": "Consejo de ascendientes",
+		"description": "Son los cultores más poderosos del Martillo Crepuscular y están a punto de convertirse en seres elementales, los miembros del Consejo de ascendientes olvidaron hace tiempo su existencia como meros mortales. Desde su perverso sagrario observan la selección de los nuevos candidatos para la ascensión.",
+		"creatures": [
+			{
+				"id": 565,
+				"name": "Feludius",
+				"description": "Consejero ascendiente del Agua",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34822?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34822
+				}
+			},
+			{
+				"id": 564,
+				"name": "Ignacious",
+				"description": "Consejero ascendiente de llama",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34821?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34821
+				}
+			},
+			{
+				"id": 566,
+				"name": "Arion",
+				"description": "Consejero ascendiente del Aire",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34823?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34823
+				}
+			},
+			{
+				"id": 562,
+				"name": "Terrastra",
+				"description": "Consejera ascendiente de la Tierra",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34824?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34824
+				}
+			},
+			{
+				"id": 563,
+				"name": "Monstruosidad de elementium",
+				"description": "Los consejeros ascendientes combinados",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34825?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34825
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de dispersión",
+					"id": 65122
+				}
+			},
+			{
+				"id": 10006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de dispersión",
+					"id": 59502
+				}
+			},
+			{
+				"id": 10007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de Terrastra",
+					"id": 59503
+				}
+			},
+			{
+				"id": 10008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de Arion",
+					"id": 59504
+				}
+			},
+			{
+				"id": 10009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Atracción gravitacional",
+					"id": 59505
+				}
+			},
+			{
+				"id": 10010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Peso aplastante",
+					"id": 59506
+				}
+			},
+			{
+				"id": 10011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epidermis reluciente",
+					"id": 59507
+				}
+			},
+			{
+				"id": 10012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de hielo líquido",
+					"id": 59508
+				}
+			},
+			{
+				"id": 10013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de glaciación",
+					"id": 59509
+				}
+			},
+			{
+				"id": 10014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón de Ignacious",
+					"id": 65110
+				}
+			},
+			{
+				"id": 10015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59510?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de Feludius",
+					"id": 59510
+				}
+			},
+			{
+				"id": 10016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cetro de hielo",
+					"id": 65111
+				}
+			},
+			{
+				"id": 10017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de hidrolanza",
+					"id": 59511
+				}
+			},
+			{
+				"id": 10018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de hidrolanza",
+					"id": 65113
+				}
+			},
+			{
+				"id": 10019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cetro de hielo",
+					"id": 59513
+				}
+			},
+			{
+				"id": 10020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón de Ignacious",
+					"id": 59514
+				}
+			},
+			{
+				"id": 10021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65114?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de Feludius",
+					"id": 65114
+				}
+			},
+			{
+				"id": 10022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de glaciación",
+					"id": 65115
+				}
+			},
+			{
+				"id": 10023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65116?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de hielo líquido",
+					"id": 65116
+				}
+			},
+			{
+				"id": 10024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epidermis reluciente",
+					"id": 65117
+				}
+			},
+			{
+				"id": 10025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Peso aplastante",
+					"id": 65118
+				}
+			},
+			{
+				"id": 10026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Atracción gravitacional",
+					"id": 65119
+				}
+			},
+			{
+				"id": 10003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de Arion",
+					"id": 65120
+				}
+			},
+			{
+				"id": 10004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de Terrastra",
+					"id": 65121
+				}
+			},
+			{
+				"id": 35260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Círculo de Vínculo inferior",
+					"id": 152970
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3109,
+				"title": "Fase 1: ¡Os atrevéis a invadir!",
+				"body_text": "Al comienzo del encuentro, Feludius e Ignacious entran en combate mientras Arion y Terrastra observan desde lo alto de sus balcones.",
+				"sections": [
+					{
+						"id": 3110,
+						"title": "Feludius",
+						"body_text": "Consejero ascendiente del Agua",
+						"sections": [
+							{
+								"id": 3111,
+								"title": "Helar",
+								"body_text": "Feludius libera una explosión de daño de Escarcha que inflige daño a todos los jugadores de la sala. El daño recibido se reduce con la distancia de Feludius y las víctimas a un alcance directo recibirán un daño mortal. Los jugadores afectados por Calado cuando Feludius usa Helar quedan Congelados y reciben daño extra."
+							},
+							{
+								"id": 3112,
+								"title": "Hidrolanza",
+								"body_text": "Feludius dispara una potente descarga de agua a un jugador aleatorio que inflige 0 p. de daño de Escarcha."
+							},
+							{
+								"id": 3113,
+								"title": "Bomba de agua",
+								"body_text": "Feludius lanza una lluvia de misiles de agua por toda la sala, lo que salpica e inflige 0 p. de daño de Escarcha a los jugadores en un radio de 0 m de cada impacto. Los enemigos golpeados por Bomba de agua recibirán el efecto de Calado.",
+								"sections": [
+									{
+										"id": 3114,
+										"title": "Calado",
+										"body_text": "Bomba de agua empapa al jugador de agua helada, lo que reduce un 25% la velocidad de movimiento. Helar de Feludius hará que todos los jugadores Calados se queden Congelados. La exposición al intenso calor de las facultades de Ignacious disipa este efecto.",
+										"sections": [
+											{
+												"id": 3115,
+												"title": "Congelado",
+												"body_text": "Helar de Feludius hace que todos los enemigos Calados se queden Congelados, lo que los aturde e inflige 0 p. de daño de Escarcha cada 2 s durante 10 s."
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": 3116,
+								"title": "Corazón de hielo",
+								"body_text": "Feludius envuelve el corazón de un enemigo aleatorio con un escalofrío gélido, lo que inflige daño de Escarcha creciente cada 2 s, pero también hace que los aliados en un radio de 10 m queden Imbuidos en Escarcha.",
+								"sections": [
+									{
+										"id": 3117,
+										"title": "Imbuido en Escarcha",
+										"body_text": "Un jugador con un Corazón de hielo potencia a otros jugadores cercanos con energía de Escarcha durante 30 s, lo que hace que sus ataques inflijan daño extra a Ignacious."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3118,
+						"title": "Ignacious",
+						"body_text": "Consejero ascendiente de la Llama",
+						"sections": [
+							{
+								"id": 3119,
+								"title": "Égida de llamas",
+								"body_text": "Ignacious se protege con un escudo de llamas radiante, lo que absorbe hasta 0 p. de daño y evita la interrupción de hechizos mientras está activo. Empieza a canalizar Llamas crecientes inmediatamente después de Égida de llamas.",
+								"sections": [
+									{
+										"id": 3150,
+										"title": "Llamas crecientes",
+										"body_text": "Tras escudarse con Égida de llamas, Ignacious empieza a canalizar Llamas crecientes, lo que inflige 0 p. de daño de Fuego a todos los enemigos en la sala cada 2 s. Cada vez que Llamas crecientes emite un pulso, Ignacious aumenta el daño que inflige un 3% durante 15 s. Este efecto se acumula a un ritmo creciente."
+									}
+								]
+							},
+							{
+								"id": 3120,
+								"title": "Carga inferno",
+								"body_text": "Ignacious salta hasta un objetivo lejano, lo que derriba a todos los enemigos en un radio de 10 m de la zona de impacto e inflige 0 p. de daño de Fuego. Después, Ignacious se vuelve a dirigir rápidamente a su último objetivo, lo que deja un rastro de fuego a su paso. Los que permanecen en el fuego reciben 0 p. de daño de Fuego cada 0,5 s."
+							},
+							{
+								"id": 3121,
+								"title": "Torrente flamígero",
+								"body_text": "Ignacious suelta plumas de fuego de sus manos, lo que inflige 0 p. de daño de Fuego cada 1 s durante 3 s en un cono de 30 grados de 18 m frente a él."
+							},
+							{
+								"id": 3122,
+								"title": "Sangre ardiente",
+								"body_text": "Ignacious hierve la sangre de un jugador aleatorio, lo que inflige daño de Fuego creciente cada 2 s, pero también provoca que los jugadores en un radio de 0 m estén Imbuidos en llamas.",
+								"sections": [
+									{
+										"id": 3151,
+										"title": "Imbuido en llamas",
+										"body_text": "Sangre ardiente potencia a los jugadores cercanos con energía de Fuego durante 30 s, lo que hace que sus ataques inflijan daño extra a Feludius."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3123,
+						"title": "Arion",
+						"sections": [
+							{
+								"id": 3124,
+								"title": "Sobrecarga estática",
+								"body_text": "Arion carga contra un jugador con energía que electrocuta a los aliados cercanos, lo que inflige 626 p. de daño de Naturaleza cada 2 s durante 10 s. Los poderosos campos gravitatorios disipan esta energía sin infligir daño."
+							}
+						]
+					},
+					{
+						"id": 3125,
+						"title": "Terrastra",
+						"sections": [
+							{
+								"id": 3126,
+								"title": "Núcleo de gravedad",
+								"body_text": "Terrastra aplasta a un jugador aleatorio con una fuerza gravitatoria intensa, lo que inflige 0 p. de daño físico cada 2 s. Mientras el Núcleo de gravedad aplasta a un jugador, la onda del campo gravitatorio golpea a los jugadores cercanos en un radio de 10 m. Este campo reduce un 50% la velocidad de movimiento de un jugador y un 100% la celeridad durante 10 s."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3127,
+				"title": "Fase 2: ¡Nos ocuparemos de ellos!",
+				"body_text": "Cuando la salud de Feludius o Ignacious llega al 25%, los 2 consejeros se retiran. Arion y Terrastra descienden de lo alto para retomar la batalla.",
+				"sections": [
+					{
+						"id": 3128,
+						"title": "Arion",
+						"body_text": "Consejero ascendiente del Aire",
+						"sections": [
+							{
+								"id": 3129,
+								"title": "Llamar vientos",
+								"body_text": "Arion centra y agita el aire cercano en un ciclón violento, que se mueve aleatoriamente por la sala durante 50 s antes de disiparse. Los jugadores que entren en contacto con estos ciclones serán lanzados por los aires y recibirán el efecto de Vientos espirales.",
+								"sections": [
+									{
+										"id": 3152,
+										"title": "Vientos espirales",
+										"body_text": "Tras entrar en contacto con uno de los ciclones de Arion, una nube de aire arremolinado se forma bajo los pies de un jugador y lo eleva durante 2 min. El efecto Toma de tierra cancela el efecto Vientos espirales."
+									}
+								]
+							},
+							{
+								"id": 3130,
+								"title": "Choque de truenos",
+								"body_text": "Arion libera una fuerte tormenta eléctrica que inunda la sala de relámpagos chisporroteantes, lo que inflige 0 p. de daño de Naturaleza a todos los jugadores. El daño se reduce mucho contra objetivos con el efecto Toma de tierra."
+							},
+							{
+								"id": 3131,
+								"title": "Pararrayos",
+								"body_text": "Arion marca a un jugador aleatorio como objetivo para recibir un próximo ataque de Cadena de relámpagos.",
+								"sections": [
+									{
+										"id": 3132,
+										"title": "Cadena de relámpagos",
+										"body_text": "Arion dispara un pulso de relámpagos arqueado a todos los jugadores marcados como varas relámpago, lo que inflige 0 p. de daño de Naturaleza y se extiende a jugadores cercanos en un radio de 15 m. El daño de Cadena de relámpagos aumenta a medida que el pulso salta de un jugador a otro."
+									}
+								]
+							},
+							{
+								"id": 3133,
+								"title": "Dispersar",
+								"body_text": "Arion se disuelve en una espiral de viento y se materializa en otra parte de la sala, desde donde empieza a lanzar Explosión de relámpagos.",
+								"sections": [
+									{
+										"id": 3134,
+										"title": "Explosión de relámpagos",
+										"body_text": "Arion hace explotar a su objetivo principal con relámpagos concentrados, lo que inflige 0 p. de daño de Naturaleza."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3135,
+						"title": "Terrastra",
+						"body_text": "Consejera ascendiente de la Tierra",
+						"sections": [
+							{
+								"id": 3136,
+								"title": "Pozo de gravedad",
+								"body_text": "Terrastra crea una bolsa de gravedad intensa cerca de un enemigo aleatorio. El Pozo de gravedad inflige 380 p. de daño de Naturaleza a los jugadores en un radio de 0 m y los atrae hacia él durante 30 s. Los jugadores que sean atraídos hacia pozos de gravedad obtendrán el efecto Toma de tierra.",
+								"sections": [
+									{
+										"id": 3153,
+										"title": "Toma de tierra",
+										"body_text": "Tras entrar en contacto con uno de los pozos de gravedad de Terrastra, el jugador obtiene el efecto Toma de tierra. Este efecto dura 2 min, pero Vientos espirales eleva al jugador por los aires y elimina el efecto."
+									}
+								]
+							},
+							{
+								"id": 3137,
+								"title": "Endurecer piel",
+								"body_text": "La piel de Terrastra se endurece como una roca, lo que aumenta el daño físico infligido un 20% y absorbe un 50% del daño recibido, hasta 0 p., durante 30 s. Si se alcanza este límite antes de que expire el efecto, se romperá la piel rocosa de Terrastra y hará que sufra a la vez todo el daño absorbido por Endurecer piel."
+							},
+							{
+								"id": 3139,
+								"title": "Temblor",
+								"body_text": "Terrastra envía grandes olas de choque por la tierra, lo que inflige 0 p. de daño físico a todos los jugadores. Los jugadores con el efecto Vientos espirales no reciben daño."
+							},
+							{
+								"id": 3138,
+								"title": "Erupción",
+								"body_text": "Terrastra hace que emerjan rocas afiladas del suelo alrededor de sus pies que empalan a todos los objetivos en un radio de 0 m. Inflige 0 p. de daño físico y los lanza por los aires."
+							}
+						]
+					},
+					{
+						"id": 3140,
+						"title": "Feludius",
+						"sections": [
+							{
+								"id": 3141,
+								"title": "Orbe congelado",
+								"body_text": "Feludius invoca una esfera de energía de Escarcha pura para que persiga sin cesar a un jugador aleatorio. La esfera gana velocidad con el tiempo. Si el orbe congelado alcanza a su objetivo, explota e inflige 0 p. de daño de Escarcha a todos los jugadores."
+							}
+						]
+					},
+					{
+						"id": 3142,
+						"title": "Ignacious",
+						"sections": [
+							{
+								"id": 3143,
+								"title": "Golpe de llamas",
+								"body_text": "Ignacious selecciona la ubicación de un jugador aleatorio y dispara una bola de Fuego gigantesca a esa ubicación. El Golpe de llamas inflige 0 p. de daño de Fuego al impactar y deja una zona de fuego persistente. Este fuego inflige 0 p. de daño de Fuego cada 1 s a los jugadores en un radio de 7 m."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3144,
+				"title": "Fase 3: ¡CONTEMPLAD VUESTRA PERDICIÓN!",
+				"body_text": "Cuando la salud de Arion o Terrastra está al 25%, los consejeros se impacientan y colocan a todos los combatientes en un campo estático. Los 4 consejeros se combinan para formar la monstruosidad de elementium, que da comienzo a la fase final del encuentro.",
+				"sections": [
+					{
+						"id": 3145,
+						"title": "Monstruosidad de elementium",
+						"body_text": "La salud inicial de la monstruosidad de elementium equivale a la salud restante combinada de los cuatro consejeros.",
+						"sections": [
+							{
+								"id": 3146,
+								"title": "Inestabilidad eléctrica",
+								"body_text": "Cada 1 s, la monstruosidad inflige a los enemigos cercanos 0 p. de daño de Naturaleza, que se extiende a otros objetivos. La monstruosidad de elementium es una criatura inestable que emana cantidades crecientes de energía eléctrica, lo que hace que estas descargas golpeen a un número creciente de objetivos en el tiempo."
+							},
+							{
+								"id": 3147,
+								"title": "Machaque de gravedad",
+								"body_text": "La monstruosidad de elementium atrapa a un jugador en una burbuja de gravedad que lo eleva del suelo y lo aplasta, lo que reduce un 6% de su salud máxima cada 0,5 s durante 6,5 s. Al expirar el efecto, el jugador cae al suelo."
+							},
+							{
+								"id": 3148,
+								"title": "Semilla de lava",
+								"body_text": "La monstruosidad de elementium rocía el área circundante con semillas de pura energía de Fuego. Cada semilla de lava explota e inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 4 m."
+							},
+							{
+								"id": 3149,
+								"title": "Aura criogénica",
+								"body_text": "La monstruosidad está increíblemente fría, lo que reduce un 25% todo el daño recibido y congela el suelo bajo ella. La monstruosidad forma continuamente charcos de hielo líquido bajo sus pies, lo que inflige 0 p. de daño de Escarcha cada 1 s a los jugadores que permanezcan en ellos. Los charcos de hielo líquido seguirán extendiéndose mientras sigan en contacto con la monstruosidad."
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "El Bastión del Crepúsculo",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/158?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 158,
+		"name": "Conseil d’ascendants",
+		"description": "Les membres du conseil d’ascendants, les sectateurs les plus puissants du Marteau du crépuscule à avoir été corrompus en êtres élémentaires, ont depuis longtemps oublié leur existence de simples mortels. Depuis leur sanctum maléfique, ils surveillent la sélection des nouveaux candidats à l'ascension.",
+		"creatures": [
+			{
+				"id": 565,
+				"name": "Feludius",
+				"description": "Ascendant conseiller de l'eau",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34822?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34822
+				}
+			},
+			{
+				"id": 564,
+				"name": "Ignacious",
+				"description": "Ascendant conseiller de la flamme",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34821?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34821
+				}
+			},
+			{
+				"id": 566,
+				"name": "Arion",
+				"description": "Ascendant conseiller de l'air",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34823?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34823
+				}
+			},
+			{
+				"id": 562,
+				"name": "Terrastra",
+				"description": "Ascendant conseiller de la terre",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34824?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34824
+				}
+			},
+			{
+				"id": 563,
+				"name": "Monstruosité en élémentium",
+				"description": "L'ensemble des ascendants conseillers",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34825?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34825
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture dispersive",
+					"id": 65122
+				}
+			},
+			{
+				"id": 10006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture dispersive",
+					"id": 59502
+				}
+			},
+			{
+				"id": 10007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de Terrastra",
+					"id": 59503
+				}
+			},
+			{
+				"id": 10008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne d'Arion",
+					"id": 59504
+				}
+			},
+			{
+				"id": 10009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Attraction gravitationnelle",
+					"id": 59505
+				}
+			},
+			{
+				"id": 10010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poids écrasant",
+					"id": 59506
+				}
+			},
+			{
+				"id": 10011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epiderme lumineux",
+					"id": 59507
+				}
+			},
+			{
+				"id": 10012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de glace liquide",
+					"id": 59508
+				}
+			},
+			{
+				"id": 10013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume couvert de glace",
+					"id": 59509
+				}
+			},
+			{
+				"id": 10014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur d'Ignacious",
+					"id": 65110
+				}
+			},
+			{
+				"id": 10015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59510?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de Feludius",
+					"id": 59510
+				}
+			},
+			{
+				"id": 10016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceptre de glace",
+					"id": 65111
+				}
+			},
+			{
+				"id": 10017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'hydrolance",
+					"id": 59511
+				}
+			},
+			{
+				"id": 10018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'hydrolance",
+					"id": 65113
+				}
+			},
+			{
+				"id": 10019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceptre de glace",
+					"id": 59513
+				}
+			},
+			{
+				"id": 10020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur d'Ignacious",
+					"id": 59514
+				}
+			},
+			{
+				"id": 10021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65114?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de Feludius",
+					"id": 65114
+				}
+			},
+			{
+				"id": 10022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume couvert de glace",
+					"id": 65115
+				}
+			},
+			{
+				"id": 10023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65116?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de glace liquide",
+					"id": 65116
+				}
+			},
+			{
+				"id": 10024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epiderme lumineux",
+					"id": 65117
+				}
+			},
+			{
+				"id": 10025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poids écrasant",
+					"id": 65118
+				}
+			},
+			{
+				"id": 10026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Attraction gravitationnelle",
+					"id": 65119
+				}
+			},
+			{
+				"id": 10003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne d'Arion",
+					"id": 65120
+				}
+			},
+			{
+				"id": 10004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de Terrastra",
+					"id": 65121
+				}
+			},
+			{
+				"id": 35260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercle de lien inférieur",
+					"id": 152970
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3109,
+				"title": "Phase 1 : Vous osez envahir le sanctum de notre seigneur ?",
+				"body_text": "Au début de la rencontre, Feludius et Ignacious ouvrent le combat. Arion et Terrastra le regardent en spectateurs depuis les balcons qui surplombent la zone.",
+				"sections": [
+					{
+						"id": 3110,
+						"title": "Feludius",
+						"body_text": "Ascendant conseiller de l’eau",
+						"sections": [
+							{
+								"id": 3111,
+								"title": "Glaciation",
+								"body_text": "Feludius libère une explosion de givre qui touche tous les personnages-joueurs dans la pièce. Plus la distance entre Feludius et le personnage-joueur est grande, moins les dégâts sont élevés, mais tout ennemi au corps à corps sera tué net. Les personnages Trempés lorsque Feludius utilise sa Glaciation deviennent Congelés et subissent des dégâts supplémentaires."
+							},
+							{
+								"id": 3112,
+								"title": "Hydrolance",
+								"body_text": "Feludius lance un puissant éclair d’eau à un personnage-joueur aléatoire, lui infligeant 0 points de dégâts de Givre."
+							},
+							{
+								"id": 3113,
+								"title": "Bombe d'eau",
+								"body_text": "Feludius lance en l’air une salve de bombes d’eau qui retombent dans toute la salle et explosent au sol en infligeant 0 points de dégâts de Givre aux personnages-joueurs se trouvant à moins de 0 mètres de chaque impact. Tout ennemi éclaboussé par une bombe d’eau devient trempé.",
+								"sections": [
+									{
+										"id": 3114,
+										"title": "Trempé",
+										"body_text": "Une bombe d’eau trempe les personnages-joueurs d’eau glacée, ce qui réduit leur vitesse de déplacement de 25%. La Glaciation de Feludius gèle tous les personnages-joueurs trempés. L’exposition à la chaleur intense générée par les capacités d’Ignacious fait disparaître cet effet.",
+										"sections": [
+											{
+												"id": 3115,
+												"title": "Gelé",
+												"body_text": "Sous l’effet de la Glaciation de Feludius, tous les ennemis Trempés deviennent Congelés, ce qui les étourdit et leur inflige 0 points de dégâts de Givre toutes les 2 s pendant 10 s."
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": 3116,
+								"title": "Cœur de glace",
+								"body_text": "Feludius invoque un frisson glacial qui enveloppe le cœur d’un personnage-joueur aléatoire, ce qui inflige à la cible des dégâts de Givre croissants toutes les 2 s. De plus, tous les personnages-joueurs à moins de 10 mètres sont Imprégnés de givre.",
+								"sections": [
+									{
+										"id": 3117,
+										"title": "Imprégné de givre",
+										"body_text": "Les personnages-joueurs à proximité d’un allié affecté par Cœur de glace sont infusés d’Énergie du Givre pendant 30 s, et leurs attaques infligent des dégâts supplémentaires à Ignacious."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3118,
+						"title": "Ignacious",
+						"body_text": "Ascendant conseiller de la flamme",
+						"sections": [
+							{
+								"id": 3119,
+								"title": "Égide de flamme",
+								"body_text": "Ignacious s’enveloppe d’un bouclier de flammes éclatant, qui absorbe jusqu’à 0 points de dégâts et empêche les interruptions des sorts tant qu’il est actif. Ignacious commence à incanter Levée de flammes tout de suite après l’Égide.",
+								"sections": [
+									{
+										"id": 3150,
+										"title": "Levée de flammes",
+										"body_text": "Après s’être protégé avec Égide de flamme, Ignacious commence à canaliser Levée de flammes, ce qui inflige 0 points de dégâts de Feu toutes les 2 s à tous les personnages-joueurs dans la salle. À chaque émanation de Levée de flammes, les dégâts infligés par Ignacious augmentent de 3% pendant 15 s. Cet effet se cumule de plus en plus rapidement."
+									}
+								]
+							},
+							{
+								"id": 3120,
+								"title": "Ruée du feu d'enfer",
+								"body_text": "Ignacious bondit sur une cible à distance, repoussant tous les ennemis à moins de 10 mètres du point d’impact et leur infligeant 0 points de dégâts de Feu. Ignacious se rue ensuite sur sa cible précédente, laissant une traînée de flammes dans son sillage. Ces flammes infligent 0 points de dégâts de Feu toutes les 0,5 s."
+							},
+							{
+								"id": 3121,
+								"title": "Torrent de flamme",
+								"body_text": "Ignacious fait jaillir des gerbes de flammes de ses mains, infligeant 0 points de dégâts de Feu toutes les 1 s pendant 3 s dans un cône de 30 degrés et 18 mètres de long devant lui."
+							},
+							{
+								"id": 3122,
+								"title": "Sang ardent",
+								"body_text": "Ignacious fait bouillir le sang d’un personnage-joueur choisi au hasard et lui inflige des dégâts de Feu croissants toutes les 2 s. En outre, les membres du raid dans un rayon de 0 mètres sont affectés par Imprégné de flamme.",
+								"sections": [
+									{
+										"id": 3151,
+										"title": "Imprégné de flamme",
+										"body_text": "Les personnages-joueurs proches de Sang ardent sont renforcés par l’Énergie de Feu pendant 30 s, et leurs attaques infligent plus de dégâts à Feludius."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3123,
+						"title": "Arion",
+						"sections": [
+							{
+								"id": 3124,
+								"title": "Surcharge statique",
+								"body_text": "Arion charge un ennemi d’énergie, ce qui électrocute ses alliés proches et leur inflige 626 points de dégâts de Nature toutes les 2 s pendant 10 s. De puissants champs gravitationnels peuvent dissiper cette énergie sans qu’elle ne cause de mal."
+							}
+						]
+					},
+					{
+						"id": 3125,
+						"title": "Terrastra",
+						"sections": [
+							{
+								"id": 3126,
+								"title": "Noyau de gravité",
+								"body_text": "Terrastra frappe un personnage-joueur aléatoire avec une grande force gravitationnelle, lui infligeant 0 points de dégâts physiques toutes les 2 s. Tant que le Noyau de gravité écrase sa cible, le champ gravitationnel pulse sur les personnages-joueurs dans un rayon de 10 mètres. Le champ réduit la vitesse de déplacement des personnages touchés de 50% et leur hâte de 100% pendant 10 s."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3127,
+				"title": "Phase 2 : Nous allons nous occuper d'eux !",
+				"body_text": "Quand les points de vie de Feludius ou d’Ignacious atteignent 25%, ces deux conseillers se retirent. Arion et Terrastra descendent alors pour continuer le combat à leur place.",
+				"sections": [
+					{
+						"id": 3128,
+						"title": "Arion",
+						"body_text": "Ascendant conseiller de l’air",
+						"sections": [
+							{
+								"id": 3129,
+								"title": "Appel des vents",
+								"body_text": "Arion concentre et agite l’air proche pour créer un violent cyclone qui erre dans la salle pendant 50 s avant de se dissiper. Ce cyclone projette en l'air tout personnage-joueur avec lequel il entre en contact, en plus de lui appliquer l’effet Vents tournoyants.",
+								"sections": [
+									{
+										"id": 3152,
+										"title": "Vents tournoyants",
+										"body_text": "Lorsqu’un personnage-joueur entre en contact avec l’un des cyclones d’Arion, un nuage d’air tourbillonnant se forme sous ses pieds et le soulève de terre pendant 2 min. L’effet Relié à la masse annule les effets de Vents tournoyants."
+									}
+								]
+							},
+							{
+								"id": 3130,
+								"title": "Coup de tonnerre",
+								"body_text": "Arion déchaîne une tempête électrique généralisée qui emplit la salle d’éclairs fracassants. Ceux-ci infligent 0 points de dégâts de Nature à tous les personnages-joueurs, mais ceux qui bénéficient de l’effet Liaison à la masse subissent un montant de dégâts bien moindre."
+							},
+							{
+								"id": 3131,
+								"title": "Bâtonnet d'éclair",
+								"body_text": "Arion désigne un personnage-joueur aléatoire qui sera la prochaine cible de la Chaîne d’éclairs.",
+								"sections": [
+									{
+										"id": 3132,
+										"title": "Chaîne d'éclairs",
+										"body_text": "Arion lance sur tous les personnages-joueurs marqués comme Bâtonnet d’éclair un arc électrique qui leur inflige 0 points de dégâts de Nature avant de rebondir sur les membres proches dans un rayon de 15 mètres. Les dégâts infligés par la Chaîne d’éclairs augmentent tandis que le sort rebondit sur des personnages-joueurs supplémentaires."
+									}
+								]
+							},
+							{
+								"id": 3133,
+								"title": "Disperser",
+								"body_text": "Arion disparaît dans un tourbillon de vent et se rematérialise à un autre point de la pièce, d’où il commence à incanter un Souffle foudroyant.",
+								"sections": [
+									{
+										"id": 3134,
+										"title": "Souffle foudroyant",
+										"body_text": "Arion frappe sa cible principale avec de la foudre concentrée, lui infligeant 0 points de dégâts de Nature."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3135,
+						"title": "Terrastra",
+						"body_text": "Ascendant conseiller de la terre",
+						"sections": [
+							{
+								"id": 3136,
+								"title": "Puits de gravité",
+								"body_text": "Terrastra forme une poche de forte gravité près d’un personnage-joueur aléatoire. Le Puits de gravité inflige périodiquement 380 points de dégâts de Nature à tous les personnages-joueurs dans un rayon de 0 mètres et les attire en son centre pendant 30 s. Les personnages-joueurs attirés dans le Puits de gravité subissent alors une Liaison à la masse.",
+								"sections": [
+									{
+										"id": 3153,
+										"title": "Liaison à la masse",
+										"body_text": "Après être entré en contact avec l’un des Puits de gravité de Terrastra, le personnage-joueur obtient l’effet Liaison à la masse. Cet effet dure 2 min, mais les Vents tournoyants soulèvent le personnage du sol et suppriment l’effet."
+									}
+								]
+							},
+							{
+								"id": 3137,
+								"title": "Durcissement de la peau",
+								"body_text": "La peau de Terrastra devient dure comme la pierre, augmentant les dégâts physiques infligés de 20% et absorbant 50% des dégâts subis, jusqu’à un maximum de 0, pendant 30 s. Si ce seuil est atteint avant la fin de l’effet, la peau rocailleuse de Terrastra se brise, et lui inflige tous les dégâts que Durcissement de la peau avait absorbés."
+							},
+							{
+								"id": 3139,
+								"title": "Secousse",
+								"body_text": "Terrastra envoie de puissantes ondes de choc dans le sol, ce qui inflige 0 points de dégâts physiques à tous les personnages-joueurs. Ceux qui se trouvent dans les Vents tournoyants ne subissent pas de points de dégâts."
+							},
+							{
+								"id": 3138,
+								"title": "Éruption",
+								"body_text": "Terrastra fait apparaître des pointes rocheuses à ses pieds. Chaque pointe empale les personnages-joueurs se trouvant à moins de 0 mètres, leur infligeant 0 points de dégâts physiques et les projetant en l’air."
+							}
+						]
+					},
+					{
+						"id": 3140,
+						"title": "Feludius",
+						"sections": [
+							{
+								"id": 3141,
+								"title": "Orbe gelé",
+								"body_text": "Feludius invoque une sphère de pure énergie de Givre qui poursuit sans relâche un personnage-joueur aléatoire et gagne en vitesse au fur et à mesure. Si l’Orbe gelé atteint sa cible, il explose, infligeant 0 points de dégâts de Givre à tous les membres du raid."
+							}
+						]
+					},
+					{
+						"id": 3142,
+						"title": "Ignacious",
+						"sections": [
+							{
+								"id": 3143,
+								"title": "Frappe de flammes",
+								"body_text": "Ignacious cible un ennemi aléatoire et envoie une énorme boule de feu à son emplacement. À l’impact, cette Frappe de flammes inflige 0 points de dégâts de Feu et laisse une zone de flammes persistantes, qui inflige 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs à moins de 7 mètres."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3144,
+				"title": "Phase 3 : CONTEMPLEZ VOTRE DESTIN !",
+				"body_text": "Quand les points de vie d’Arion ou de Terrastra atteignent 25%, les conseillers perdent patience et placent tous les combattants dans un Champ de stase. Les quatre conseillers se combinent pour former la monstruosité en élémentium et la phase finale de la rencontre commence alors.",
+				"sections": [
+					{
+						"id": 3145,
+						"title": "Monstruosité en élémentium",
+						"body_text": "Les points de vie de départ de la monstruosité en élémentium sont la somme des points de vie restants des quatre conseillers.",
+						"sections": [
+							{
+								"id": 3146,
+								"title": "Instabilité électrique",
+								"body_text": "Toutes les 1 s, la monstruosité foudroie les ennemis proches et leur inflige 0 points de dégâts de Nature. L’éclair rebondit ensuite sur les personnages-joueurs proches. La monstruosité en élémentium est une créature instable de laquelle émane une quantité d'énergie électrique toujours plus grande au fil du temps. Cette énergie croissante augmente le nombre de cibles touchées par la chaîne d'éclairs."
+							},
+							{
+								"id": 3147,
+								"title": "Broiement gravitationnel",
+								"body_text": "La monstruosité en élémentium piège un ennemi dans une bulle de gravité, le projette en l’air et l'écrase, ce qui lui inflige un montant de dégâts égal à 6% de ses points de vie maximum toutes les 0,5 s pendant 6,5 s. Lorsque l'effet se termine, le personnage-joueur retombe sur le sol."
+							},
+							{
+								"id": 3148,
+								"title": "Graine de lave",
+								"body_text": "La monstruosité en élémentium fait pleuvoir une pluie de noyaux de pure énergie de flammes. Chaque Graine de lave entre en éruption et inflige 0 points de dégâts de Feu à tous les ennemis dans un rayon de 4 mètres."
+							},
+							{
+								"id": 3149,
+								"title": "Aura cryogénique",
+								"body_text": "Cette monstruosité à la froideur surnaturelle réduit tous ses dégâts subis de 25% et gèle le sol alentour. La monstruosité forme continuellement des flaques de Glace liquide sous ses pieds, qui infligent 0 points de dégâts de Givre toutes les 1 s aux personnages-joueurs qui se tiennent dedans. Les flaques de Glace liquide continuent de s'étendre tant qu'elles sont en contact avec la monstruosité."
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Le bastion du Crépuscule",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/158?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 158,
+		"name": "Ascendant Council",
+		"description": "As the most powerful Twilight's Hammer cultists to be twisted into elemental beings, the Ascendant Council members have long forgotten their existence as mere mortals. From their wicked sanctum, they oversee the selection of new ascension candidates.",
+		"creatures": [
+			{
+				"id": 565,
+				"name": "Feludius",
+				"description": "Ascendant Councillor of Water",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34822?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34822
+				}
+			},
+			{
+				"id": 564,
+				"name": "Ignacious",
+				"description": "Ascendant Councillor of Flame",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34821?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34821
+				}
+			},
+			{
+				"id": 566,
+				"name": "Arion",
+				"description": "Ascendant Councillor of Air",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34823?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34823
+				}
+			},
+			{
+				"id": 562,
+				"name": "Terrastra",
+				"description": "Ascendant Councillor of Earth",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34824?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34824
+				}
+			},
+			{
+				"id": 563,
+				"name": "Elementium Monstrosity",
+				"description": "The combined Ascendant Councillors",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34825?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34825
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10005,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65122?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dispersing Belt",
+					"id": 65122
+				}
+			},
+			{
+				"id": 10006,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59502?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dispersing Belt",
+					"id": 59502
+				}
+			},
+			{
+				"id": 10007,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Terrastra's Legguards",
+					"id": 59503
+				}
+			},
+			{
+				"id": 10008,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arion's Crown",
+					"id": 59504
+				}
+			},
+			{
+				"id": 10009,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gravitational Pull",
+					"id": 59505
+				}
+			},
+			{
+				"id": 10010,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crushing Weight",
+					"id": 59506
+				}
+			},
+			{
+				"id": 10011,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glittering Epidermis",
+					"id": 59507
+				}
+			},
+			{
+				"id": 10012,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59508?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Liquid Ice",
+					"id": 59508
+				}
+			},
+			{
+				"id": 10013,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glaciated Helm",
+					"id": 59509
+				}
+			},
+			{
+				"id": 10014,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heart of Ignacious",
+					"id": 65110
+				}
+			},
+			{
+				"id": 10015,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59510?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Feludius' Mantle",
+					"id": 59510
+				}
+			},
+			{
+				"id": 10016,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65111?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scepter of Ice",
+					"id": 65111
+				}
+			},
+			{
+				"id": 10017,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hydrolance Gloves",
+					"id": 59511
+				}
+			},
+			{
+				"id": 10018,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65113?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hydrolance Gloves",
+					"id": 65113
+				}
+			},
+			{
+				"id": 10019,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59513?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scepter of Ice",
+					"id": 59513
+				}
+			},
+			{
+				"id": 10020,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heart of Ignacious",
+					"id": 59514
+				}
+			},
+			{
+				"id": 10021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65114?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Feludius' Mantle",
+					"id": 65114
+				}
+			},
+			{
+				"id": 10022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65115?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glaciated Helm",
+					"id": 65115
+				}
+			},
+			{
+				"id": 10023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65116?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Liquid Ice",
+					"id": 65116
+				}
+			},
+			{
+				"id": 10024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65117?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glittering Epidermis",
+					"id": 65117
+				}
+			},
+			{
+				"id": 10025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65118?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crushing Weight",
+					"id": 65118
+				}
+			},
+			{
+				"id": 10026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65119?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gravitational Pull",
+					"id": 65119
+				}
+			},
+			{
+				"id": 10003,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65120?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arion's Crown",
+					"id": 65120
+				}
+			},
+			{
+				"id": 10004,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65121?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Terrastra's Legguards",
+					"id": 65121
+				}
+			},
+			{
+				"id": 35260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152970?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lesser Circle of Binding",
+					"id": 152970
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3109,
+				"title": "Stage One: You Dare Invade?",
+				"body_text": "At the start of the encounter, Feludius and Ignacious enter the battle. Arion and Terrastra then watch from the balconies above.",
+				"sections": [
+					{
+						"id": 3110,
+						"title": "Feludius",
+						"body_text": "Ascendant Councillor of Water",
+						"sections": [
+							{
+								"id": 3111,
+								"title": "Glaciate",
+								"body_text": "Feludius unleashes a burst of Frost that damages all players in the room. Damage taken decreases with distance from Feludius, and any victims at point-blank range suffer fatal damage.  Players afflicted by Waterlogged when Feludius uses Glaciate become Frozen and suffer additional damage."
+							},
+							{
+								"id": 3112,
+								"title": "Hydro Lance",
+								"body_text": "Feludius fires a powerful waterbolt at a random player, inflicting 0 Frost damage."
+							},
+							{
+								"id": 3113,
+								"title": "Water Bomb",
+								"body_text": "Feludius lobs a shower of watery missiles throughout the room, splashing down and inflicting 0 Frost damage to players within 0 yards of each impact. Water Bomb afflicts Waterlogged on any enemy damaged.",
+								"sections": [
+									{
+										"id": 3114,
+										"title": "Waterlogged",
+										"body_text": "Water Bomb soaks the player in icy water, reducing their movement speed by 25%.  Feludius's Glaciate will cause all Waterlogged players to become Frozen.  Exposure to the intense heat from Ignacious's abilities removes this effect.",
+										"sections": [
+											{
+												"id": 3115,
+												"title": "Frozen",
+												"body_text": "Feludius's Glaciate causes all Waterlogged enemies to become Frozen solid, stunning and inflicting 0 Frost damage every 2 sec for 10 sec."
+											}
+										]
+									}
+								]
+							},
+							{
+								"id": 3116,
+								"title": "Heart of Ice",
+								"body_text": "Feludius causes an icy chill to envelop a random player's heart, inflicting increasing Frost damage every 2 sec, but also causing nearby players within 10 yards to become Frost Imbued.",
+								"sections": [
+									{
+										"id": 3117,
+										"title": "Frost Imbued",
+										"body_text": "A player with a Heart of Ice empowers other nearby players with Frost energy for 30 sec, causing their attacks to deal additional damage to Ignacious."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3118,
+						"title": "Ignacious",
+						"body_text": "Ascendant Councillor of Flame",
+						"sections": [
+							{
+								"id": 3119,
+								"title": "Aegis of Flame",
+								"body_text": "Ignacious surrounds himself with a radiant shield of flame, absorbing up to 0 damage and preventing spell interruption while active.  He begins channeling Rising Flames immediately after Aegis.",
+								"sections": [
+									{
+										"id": 3150,
+										"title": "Rising Flames",
+										"body_text": "After shielding himself with Aegis of Flame, Ignacious begins to channel Rising Flames, inflicting 0 Fire damage to all players in the room every 2 sec. Each time Rising Flames pulses, Ignacious increases his damage dealt by 3% for 15 sec. This effect stacks at an increasing rate."
+									}
+								]
+							},
+							{
+								"id": 3120,
+								"title": "Inferno Rush",
+								"body_text": "Ignacious leaps to a distant target, knocking away all enemies within 10 yards of the point of impact and inflicting 0 Fire damage. Ignacious then rushes back to his last target, leaving a trail of fire in his wake. Standing within this fire inflicts 0 Fire damage every 0.5 sec."
+							},
+							{
+								"id": 3121,
+								"title": "Flame Torrent",
+								"body_text": "Ignacious unleashes plumes of fire from his hands, inflicting 0 Fire damage every 1 sec for 3 sec in a 18 yard 30 degree cone in front of him."
+							},
+							{
+								"id": 3122,
+								"title": "Burning Blood",
+								"body_text": "Ignacious boils the blood of a random player, inflicting increasing Fire damage every 2 sec, but also causing nearby players within 0 yards to become Flame Imbued.",
+								"sections": [
+									{
+										"id": 3151,
+										"title": "Flame Imbued",
+										"body_text": "Burning Blood empowers nearby players with Fire energy for 30 sec., causing their attacks to inflict additional damage to Feludius."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3123,
+						"title": "Arion",
+						"sections": [
+							{
+								"id": 3124,
+								"title": "Static Overload",
+								"body_text": "Arion charges a player with energy that electrifies nearby allies, causing them to suffer 626 Nature damage every 2 sec for 10 sec.  Powerful gravitational fields cause this energy to dissipate harmlessly."
+							}
+						]
+					},
+					{
+						"id": 3125,
+						"title": "Terrastra",
+						"sections": [
+							{
+								"id": 3126,
+								"title": "Gravity Core",
+								"body_text": "Terrastra crushes a random player with intense gravitational force, inflicting 0 Physical damage every 2 sec. While the Gravity Core crushes a player, the gravitational field pulses on nearby players within 10 yards. This field reduces a player's movement speed by 50% and haste by 100% for 10 sec."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3127,
+				"title": "Stage Two: We Will Handle Them!",
+				"body_text": "Once either Feludius or Ignacious reaches 25% health, both Councillors retreat. Arion and Terrastra then descend from above to carry on the fight.",
+				"sections": [
+					{
+						"id": 3128,
+						"title": "Arion",
+						"body_text": "Ascendant Councillor of Air",
+						"sections": [
+							{
+								"id": 3129,
+								"title": "Call Winds",
+								"body_text": "Arion focuses and agitates the nearby air into a violent cyclone. This cyclone wanders randomly around the room for 50 sec before dissipating.  The cyclones knock upwards any player who touches them and inflict the Swirling Winds effect on that player.",
+								"sections": [
+									{
+										"id": 3152,
+										"title": "Swirling Winds",
+										"body_text": "After contact with one of Arion's cyclones, a cloud of swirling air coalesces beneath the feet of a player and lifts them off the ground for 2 min. The Grounded effect cancels the Swirling Winds effect."
+									}
+								]
+							},
+							{
+								"id": 3130,
+								"title": "Thundershock",
+								"body_text": "Arion unleashes a massive electrical storm that fills the room with crackling lightning, inflicting 0 Nature damage to all players. Players with the Grounded effect take greatly reduced damage."
+							},
+							{
+								"id": 3131,
+								"title": "Lightning Rod",
+								"body_text": "Arion marks a random player as a target for a forthcoming Chain Lightning attack.",
+								"sections": [
+									{
+										"id": 3132,
+										"title": "Chain Lightning",
+										"body_text": "Arion fires an arcing pulse of lightning at all players marked as Lightning Rods, inflicting 0 Nature damage and bouncing to additional nearby players within 15 yards. The damage inflicted by Chain Lightning increases as the pulse bounces to additional players."
+									}
+								]
+							},
+							{
+								"id": 3133,
+								"title": "Disperse",
+								"body_text": "Arion dissolves into swirling wind and materializes elsewhere in the room, then casts Lightning Blast.",
+								"sections": [
+									{
+										"id": 3134,
+										"title": "Lightning Blast",
+										"body_text": "Arion blasts his primary target with concentrated lightning, inflicting 0 Nature damage."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3135,
+						"title": "Terrastra",
+						"body_text": "Ascendant Councillor of Earth",
+						"sections": [
+							{
+								"id": 3136,
+								"title": "Gravity Well",
+								"body_text": "Terrastra creates a pocket of intense gravity near a random player. The Gravity Well periodically inflicts 380 Nature damage to players within 0 yards and draws them into its pull for 30 sec. Players pulled into Gravity Wells gain the Grounded effect.",
+								"sections": [
+									{
+										"id": 3153,
+										"title": "Grounded",
+										"body_text": "After contact with one of Terrastra's gravity wells, the player gains the Grounded effect. This lasts for 2 min., but Swirling Winds lift the player from the ground and removes this effect."
+									}
+								]
+							},
+							{
+								"id": 3137,
+								"title": "Harden Skin",
+								"body_text": "Terrastra's skin hardens into solid rock, increasing his Physical damage dealt by 20% and absorbing 50% of all damage taken, up to 0 for 30 sec. If Terrastra reaches this threshold before the effect ends, Terrastra's rocky skin shatters, causing him to suffer all the damage that Harden Skin absorbed."
+							},
+							{
+								"id": 3139,
+								"title": "Quake",
+								"body_text": "Terrastra sends massive shockwaves through the earth, inflicting 0 Physical damage to all players. Players with the Swirliing Winds effect take no damage."
+							},
+							{
+								"id": 3138,
+								"title": "Eruption",
+								"body_text": "Terrastra causes rocky spikes to emerge from the ground around his feet. Each spike impales players within 0 yards of it, inflicting 0 Physical damage and knocking them up in the air."
+							}
+						]
+					},
+					{
+						"id": 3140,
+						"title": "Feludius",
+						"sections": [
+							{
+								"id": 3141,
+								"title": "Frozen Orb",
+								"body_text": "Feludius summons a sphere of pure Frost energy to relentlessly pursue a random player. The sphere gains speed over time. If the Frozen Orb reaches its target, it explodes and inflicts 0 Frost damage on all players."
+							}
+						]
+					},
+					{
+						"id": 3142,
+						"title": "Ignacious",
+						"sections": [
+							{
+								"id": 3143,
+								"title": "Flame Strike",
+								"body_text": "Ignacious targets the location of a random player, then launches a massive fireball towards that location. The Flame Strike deals 0 Fire damage on impact and leaves a lingering patch of fire. This fire inflicts 0 Fire damage every 1 sec. to players within 7 yards."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3144,
+				"title": "Stage Three: BEHOLD YOUR DOOM!",
+				"body_text": "Once either Arion or Terrastra reaches 25% health, the Councillors grow impatient and place all combatants in a stasis field. All four Councillors combine to form the Elementium Monstrosity, beginning the final phase of the encounter.",
+				"sections": [
+					{
+						"id": 3145,
+						"title": "Elementium Monstrosity",
+						"body_text": "The initial health of the Elementium Monstrosity equals the combined remaining health of each of the four Councillors.",
+						"sections": [
+							{
+								"id": 3146,
+								"title": "Electric Instability",
+								"body_text": "Every 1 sec. the Monstrosity zaps nearby players with electrical bolts for 0 Nature damage. The electrical bolt chains to nearby players. The Elementium Monstrosity is an unstable creature and emanates increasing amounts of electrical energy over time. The increased energy causes the electrical bolts to strike an increasing number of targets."
+							},
+							{
+								"id": 3147,
+								"title": "Gravity Crush",
+								"body_text": "The Elementium Monstrosity traps a player in a gravity bubble, lifting them off the ground and crushing them for 6% of their maximum health every 0.5 sec for 6.5 sec. When the effect ends, the player falls to the ground."
+							},
+							{
+								"id": 3148,
+								"title": "Lava Seed",
+								"body_text": "The Elementium Monstrosity showers the surrounding area with kernels of pure Flame energy. Each Lava Seed erupts and inflicts 0 Fire damage to any player within 4 yards."
+							},
+							{
+								"id": 3149,
+								"title": "Cryogenic Aura",
+								"body_text": "The preternaturally cold Monstrosity reduces all damage taken by 25% and freezes the ground beneath it.  The Monstrosity continually forms pools of Liquid Ice beneath its feet. These pools inflict 0 Frost damage every 1 sec to players that stand within them. Pools of Liquid Ice expand while they remain in contact with the Monstrosity."
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "The Bastion of Twilight",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

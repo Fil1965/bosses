@@ -1,0 +1,561 @@
+{
+	"id": 698,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/698?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 698,
+		"name": "Xin, el Maestro de armas",
+		"description": "El título de maestro de armas tiene muchas definiciones entre los habitantes de Azeroth. Para Xin, significa que el armamento mogu obedece hasta su última orden. El rey está más que dispuesto a hacer una demostración de sus mortales facultades a todo aquel que cuestione su derecho a dominar Pandaria.",
+		"creatures": [
+			{
+				"id": 1435,
+				"name": "Xin, el Maestro de armas",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41987?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41987
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de rompehachas",
+					"id": 144151
+				}
+			},
+			{
+				"id": 33478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144154?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Daga de escriba de fuego",
+					"id": 144154
+				}
+			},
+			{
+				"id": 33479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de Trampa de espadas",
+					"id": 144152
+				}
+			},
+			{
+				"id": 33480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de captura mental",
+					"id": 144155
+				}
+			},
+			{
+				"id": 33481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de terremoto",
+					"id": 144153
+				}
+			},
+			{
+				"id": 33482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón de fantasma",
+					"id": 144150
+				}
+			},
+			{
+				"id": 33483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mogu'Dar, Espada de los mil esclavos",
+					"id": 144214
+				}
+			},
+			{
+				"id": 33339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de vinculador de almas",
+					"id": 143994
+				}
+			},
+			{
+				"id": 33340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de seda regias",
+					"id": 143995
+				}
+			},
+			{
+				"id": 33341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de muerte fulminante",
+					"id": 143993
+				}
+			},
+			{
+				"id": 33342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza del ojo de la mente",
+					"id": 143956
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5970,
+				"title": "Embate en el suelo",
+				"body_text": "Xin golpea el suelo que tiene enfrente, lo que inflige 0 p. de daño físico y reduce la armadura de sus enemigos en un cono de 30 m frente a él un 25% durante 20 s. Este efecto se acumula."
+			},
+			{
+				"id": 5973,
+				"title": "Círculo de la llama",
+				"body_text": "Xin da vida a un bastón de su arsenal. El bastón rodea de llamas a un enemigo aleatorio y explota tras completar el círculo. La explosión inflige 0 p. de daño de Fuego y lanza a los enemigos por los aires."
+			},
+			{
+				"id": 6236,
+				"title": "Rugido incitante",
+				"body_text": "Xin lanza un rugido estremecedor, lo que activa el arsenal de su elección e inflige 0 p. de daño a todos los enemigos."
+			},
+			{
+				"id": 5971,
+				"title": "Torbellino de hachas",
+				"body_text": "Xin anima las hachas de su arsenal. Estas hachas infligen 0 p. de daño físico a los enemigos en un radio de 6 m y los repele."
+			},
+			{
+				"id": 5972,
+				"title": "Trampa de espadas",
+				"body_text": "Cuando la salud restante de Xin es de un 66%, Xin activa su Trampa de espadas. La ráfaga de hojas inflige 0 p. de daño físico cada 0,5 s a aquellos a los que encuentra a su paso."
+			},
+			{
+				"id": 5974,
+				"title": "¡La muerte cae desde el cielo!",
+				"body_text": "Cuando su salud llega al 33%, Xin activa hasta la última arma de su arsenal. Las ballestas montadas en la pared infligen 0 p. de daño físico a un jugador aleatorio cada 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/321?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Palacio Mogu'shan",
+			"id": 321
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/698?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 698,
+		"name": "Xin le Maître d’armes",
+		"description": "Le titre de maître d'armes a diverses définitions pour les habitants d'Azeroth. Dans le cas de Xin, il signifie que l'armement mogu obéit directement à chacun de ses ordres. Le roi est toujours ravi de faire une démonstration de son meurtrier talent à quiconque met en cause son droit à régner sur la Pandarie.",
+		"creatures": [
+			{
+				"id": 1435,
+				"name": "Xin le Maître d’armes",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41987?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41987
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets brise-hache",
+					"id": 144151
+				}
+			},
+			{
+				"id": 33478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144154?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dague gravefeu",
+					"id": 144154
+				}
+			},
+			{
+				"id": 33479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière du piège de lames",
+					"id": 144152
+				}
+			},
+			{
+				"id": 33480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de conquête d'esprit",
+					"id": 144155
+				}
+			},
+			{
+				"id": 33481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards tremble-terre",
+					"id": 144153
+				}
+			},
+			{
+				"id": 33482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur-fantôme",
+					"id": 144150
+				}
+			},
+			{
+				"id": 33483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mogu'Dar, la lame des mille esclaves",
+					"id": 144214
+				}
+			},
+			{
+				"id": 33339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines lieuses d'âme",
+					"id": 143994
+				}
+			},
+			{
+				"id": 33340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules en soie régaliens",
+					"id": 143995
+				}
+			},
+			{
+				"id": 33341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de mort plongeante",
+					"id": 143993
+				}
+			},
+			{
+				"id": 33342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de vue de l'esprit",
+					"id": 143956
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5970,
+				"title": "Heurt terrestre",
+				"body_text": "Xin frappe le sol, ce qui inflige 0 points de dégâts physiques et réduit de 25% pendant 20 s l’armure de ses ennemis situés dans un cône de 30 mètres devant lui. Cet effet est cumulable."
+			},
+			{
+				"id": 5973,
+				"title": "Cercle de flammes",
+				"body_text": "Xin anime un bâton de son arsenal. Ce bâton dessine un cercle de flammes autour d’un ennemi au hasard, explosant lorsque le cercle est achevé. L’explosion inflige 0 points de dégâts de Feu et projette les ennemis en l’air."
+			},
+			{
+				"id": 6236,
+				"title": "Rugissement attisant",
+				"body_text": "Xin pousse un rugissement qui active l’arsenal de son choix et inflige 0 points de dégâts à tous les ennemis."
+			},
+			{
+				"id": 5971,
+				"title": "Haches tourbillonnantes",
+				"body_text": "Xin anime les haches de son arsenal. Celles-ci infligent 0 points de dégâts physiques à tous les ennemis se trouvant à moins de 6 mètres et les font tomber à la renverse."
+			},
+			{
+				"id": 5972,
+				"title": "Piège de lames",
+				"body_text": "Quand il ne lui reste plus que 66% de ses points de vie, Xin active son piège de lames. En se déplaçant, ce dernier inflige à ceux qui se trouvent pris dans sa zone d’effet 0 points de dégâts physiques toutes les 0,5 s."
+			},
+			{
+				"id": 5974,
+				"title": "La mort tombée du ciel !",
+				"body_text": "Quand il ne lui reste plus que 33% de ses points de vie, Xin active les dernières armes de son arsenal. Les arbalètes accrochées au mur infligent à un personnage-joueur au hasard 0 points de dégâts physiques toutes les 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/321?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Palais Mogu’shan",
+			"id": 321
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/698?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 698,
+		"name": "Xin the Weaponmaster",
+		"description": "The title of weaponmaster has many definitions among Azeroth's inhabitants. To Xin, it means that mogu weaponry obeys his every command. The king is more than willing to demonstrate his deadly skills to anyone who questions his right to rule Pandaria.",
+		"creatures": [
+			{
+				"id": 1435,
+				"name": "Xin the Weaponmaster",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41987?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41987
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Axebreaker Gauntlets",
+					"id": 144151
+				}
+			},
+			{
+				"id": 33478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144154?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firescribe Dagger",
+					"id": 144154
+				}
+			},
+			{
+				"id": 33479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blade Trap Signet",
+					"id": 144152
+				}
+			},
+			{
+				"id": 33480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144155?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mindcapture Pendant",
+					"id": 144155
+				}
+			},
+			{
+				"id": 33481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Groundshaker Bracers",
+					"id": 144153
+				}
+			},
+			{
+				"id": 33482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ghostheart",
+					"id": 144150
+				}
+			},
+			{
+				"id": 33483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mogu'Dar, Blade of the Thousand Slaves",
+					"id": 144214
+				}
+			},
+			{
+				"id": 33339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soulbinder Treads",
+					"id": 143994
+				}
+			},
+			{
+				"id": 33340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regal Silk Shoulderpads",
+					"id": 143995
+				}
+			},
+			{
+				"id": 33341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boots of Plummeting Death",
+					"id": 143993
+				}
+			},
+			{
+				"id": 33342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143956?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mind's Eye Breastplate",
+					"id": 143956
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5970,
+				"title": "Ground Slam",
+				"body_text": "Xin slams the ground in front of him, inflicting 0 Physical damage and decreasing the armor of enemies in a 30 yard cone in front of him by 25% for 20 sec. This effect stacks."
+			},
+			{
+				"id": 5973,
+				"title": "Circle of Flame",
+				"body_text": "Xin animates a staff from his arsenal. The staff circles a random enemy in flame, detonating once the circle completes. The explosion inflicts 0 Fire damage and knocks enemies into the air."
+			},
+			{
+				"id": 6236,
+				"title": "Inciting Roar",
+				"body_text": "Xin cries out a bellowing roar, activating the arsenal of his choice and inflicting 0 damage to all enemies."
+			},
+			{
+				"id": 5971,
+				"title": "Whirlwinding Axes",
+				"body_text": "Xin animates the axes in his arsenal. These axes inflict 0 Physical damage to enemies within 6 yards, knocking them back."
+			},
+			{
+				"id": 5972,
+				"title": "Blade Trap",
+				"body_text": "At 66% remaining health, Xin activates his sword traps. The stream of blades inflict 0 Physical damage every 0.5 sec. to those caught in the path."
+			},
+			{
+				"id": 5974,
+				"title": "Death From Above!",
+				"body_text": "At 33% remaining health, Xin activates every last weapon in his arsenal. The mounted crossbows on the wall inflict 0 Physical damage on a random player every 1 sec."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/321?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Mogu'shan Palace",
+			"id": 321
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

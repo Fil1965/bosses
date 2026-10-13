@@ -1,0 +1,948 @@
+{
+	"id": 674,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/674?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 674,
+		"name": "Melenablanca",
+		"description": "Cuando era muy joven, Sally Melenablanca vio cómo su familia sucumbía a la terrible peste de los no-muertos mientras viajaban por el norte de Lordaeron. Se vio obligada a acabar con sus padres y hermanos cuando se alzaron como esbirros de la Plaga, lo que la dejó asolada por la culpa y la rabia. Desde entonces, esta temible sacerdotisa solo encuentra placer y satisfacción en una cosa: destruir no-muertos.",
+		"creatures": [
+			{
+				"id": 1277,
+				"name": "Alta inquisidora Melenablanca",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/2043?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 2043
+				}
+			},
+			{
+				"id": 1276,
+				"name": "Comandante Durand",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41220?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41220
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dije de acero ostentoso",
+					"id": 144158
+				}
+			},
+			{
+				"id": 33507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas escarlata encarnadas",
+					"id": 144005
+				}
+			},
+			{
+				"id": 33508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sombrero bordado de Melenablanca",
+					"id": 144028
+				}
+			},
+			{
+				"id": 33509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helios, el Alma pura de Durand",
+					"id": 144221
+				}
+			},
+			{
+				"id": 33510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de la llama sagrada",
+					"id": 144027
+				}
+			},
+			{
+				"id": 33511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de Golpe arrasador",
+					"id": 144003
+				}
+			},
+			{
+				"id": 33512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de resurrección inminente",
+					"id": 144188
+				}
+			},
+			{
+				"id": 33513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna de enemigo de la luz",
+					"id": 144187
+				}
+			},
+			{
+				"id": 33514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran bastón de rectitud",
+					"id": 144189
+				}
+			},
+			{
+				"id": 33515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello Triune",
+					"id": 144176
+				}
+			},
+			{
+				"id": 33516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuego sacralizado",
+					"id": 144004
+				}
+			},
+			{
+				"id": 13916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dije de acero ostentoso",
+					"id": 88294
+				}
+			},
+			{
+				"id": 13917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de Golpe arrasador",
+					"id": 88295
+				}
+			},
+			{
+				"id": 13918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de resurrección inminente",
+					"id": 88296
+				}
+			},
+			{
+				"id": 13919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna de enemigo de la luz",
+					"id": 88297
+				}
+			},
+			{
+				"id": 13920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88298?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de fuego sacralizado",
+					"id": 88298
+				}
+			},
+			{
+				"id": 13921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sombrero bordado de Melenablanca",
+					"id": 88299
+				}
+			},
+			{
+				"id": 13922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello Triune",
+					"id": 88300
+				}
+			},
+			{
+				"id": 13923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran bastón de rectitud",
+					"id": 88301
+				}
+			},
+			{
+				"id": 13924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas escarlata encarnadas",
+					"id": 88302
+				}
+			},
+			{
+				"id": 13925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de la llama sagrada",
+					"id": 88303
+				}
+			},
+			{
+				"id": 30266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/132549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de golpe diestro",
+					"id": 132549
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5635,
+				"title": "Comandante Durand",
+				"body_text": "El nuevo comandante militar de la Cruzada Escarlata ataca a los jugadores con una serie de golpes rápidos como el rayo.",
+				"sections": [
+					{
+						"id": 5636,
+						"title": "Destello de acero",
+						"body_text": "Mientras el comandante Durand se mueve rápidamente por el campo de batalla, ataca a jugadores aleatorios e inflige 0 p. de daño físico cada vez que golpea."
+					},
+					{
+						"id": 5637,
+						"title": "Golpe arrasador",
+						"body_text": "El comandante Durand atraviesa rápidamente a sus enemigos hasta llegar a una ubicación e inflige 839 p. de daño físico a todos los enemigos que encuentra a su paso."
+					}
+				]
+			},
+			{
+				"id": 5638,
+				"title": "Alta inquisidora Melenablanca",
+				"body_text": "La alta inquisidora de la Cruzada Escarlata viene en ayuda del comandante Durand cuando este cae y lo resucita para que luche a su lado.",
+				"sections": [
+					{
+						"id": 5639,
+						"title": "Palabra de poder: escudo",
+						"body_text": "La alta inquisidora Melenablanca rodea a un aliado con un escudo mágico que absorbe 0 p. de daño."
+					},
+					{
+						"id": 5640,
+						"title": "Punición Sagrada",
+						"body_text": "La alta inquisidora Melenablanca pune a su objetivo actual, lo que inflige 360 p. de daño Sagrado."
+					},
+					{
+						"id": 5641,
+						"title": "Resurrección en masa",
+						"body_text": "La alta inquisidora Melenablanca resucita a todos los enjuiciadores Escarlata caídos en un radio de 100 m para que acudan en su ayuda."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monasterio Escarlata",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/674?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 674,
+		"name": "Grande inquisitrice Blanchetête",
+		"description": "Quand elle était jeune, Sally Blanchetête a vu sa famille succomber aux horreurs de la peste morte-vivante lors d'un voyage au nord de Lordaeron. Elle a été forcée d'anéantir ses parents et ses frères et sœurs quand ils se sont relevés en serviteurs du Fléau, et la rage et la culpabilité ont fait vaciller sa raison. Depuis, elle est devenue une impitoyable prêtresse et le seul plaisir qui illumine encore sa vie est de détruire les Morts-vivants.",
+		"creatures": [
+			{
+				"id": 1277,
+				"name": "Grande inquisitrice Blanchetête",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/2043?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 2043
+				}
+			},
+			{
+				"id": 1276,
+				"name": "Commandant Durand",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41220?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41220
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talisman d'acier miroitant",
+					"id": 144158
+				}
+			},
+			{
+				"id": 33507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières écarlates incarnadines",
+					"id": 144005
+				}
+			},
+			{
+				"id": 33508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chapeau brodé de Blanchetête",
+					"id": 144028
+				}
+			},
+			{
+				"id": 33509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hélios, âme de pureté de Durand",
+					"id": 144221
+				}
+			},
+			{
+				"id": 33510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne de flammes sacrées",
+					"id": 144027
+				}
+			},
+			{
+				"id": 33511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de frappe audacieuse",
+					"id": 144003
+				}
+			},
+			{
+				"id": 33512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plates de taille de résurrection imminente",
+					"id": 144188
+				}
+			},
+			{
+				"id": 33513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon brise-lumière",
+					"id": 144187
+				}
+			},
+			{
+				"id": 33514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand bâton de piété",
+					"id": 144189
+				}
+			},
+			{
+				"id": 33515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de Triune",
+					"id": 144176
+				}
+			},
+			{
+				"id": 33516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de feu béni",
+					"id": 144004
+				}
+			},
+			{
+				"id": 13916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talisman d'acier miroitant",
+					"id": 88294
+				}
+			},
+			{
+				"id": 13917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de frappe audacieuse",
+					"id": 88295
+				}
+			},
+			{
+				"id": 13918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plates de taille de résurrection imminente",
+					"id": 88296
+				}
+			},
+			{
+				"id": 13919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon brise-lumière",
+					"id": 88297
+				}
+			},
+			{
+				"id": 13920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88298?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de feu béni",
+					"id": 88298
+				}
+			},
+			{
+				"id": 13921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chapeau brodé de Blanchetête",
+					"id": 88299
+				}
+			},
+			{
+				"id": 13922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de Triune",
+					"id": 88300
+				}
+			},
+			{
+				"id": 13923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand bâton de piété",
+					"id": 88301
+				}
+			},
+			{
+				"id": 13924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières écarlates incarnadines",
+					"id": 88302
+				}
+			},
+			{
+				"id": 13925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne de flammes sacrées",
+					"id": 88303
+				}
+			},
+			{
+				"id": 30266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/132549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de frappe habile",
+					"id": 132549
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5635,
+				"title": "Commandant Durand",
+				"body_text": "Le nouveau commandant de la Croisade écarlate attaque les personnages-joueurs avec une série de frappes fulgurantes.",
+				"sections": [
+					{
+						"id": 5636,
+						"title": "L’éclat de l’acier",
+						"body_text": "Le commandant Durand parcourt rapidement le champ de bataille, attaquant des personnages-joueurs au hasard et infligeant 0 points de dégâts physiques à chaque coup."
+					},
+					{
+						"id": 5637,
+						"title": "Frappe audacieuse",
+						"body_text": "Le commandant Durand traverse rapidement les rangs ennemis, infligeant 839 points de dégâts physiques à chaque ennemi sur son chemin."
+					}
+				]
+			},
+			{
+				"id": 5638,
+				"title": "Grande inquisitrice Blanchetête",
+				"body_text": "La grande inquisitrice de la Croisade écarlate aide le commandant Durand quand il tombe et le ranime pour l’aider au combat.",
+				"sections": [
+					{
+						"id": 5639,
+						"title": "Mot de pouvoir : Bouclier",
+						"body_text": "La grande inquisitrice Blanchetête enveloppe un allié dans un bouclier magique qui absorbe 0 points de dégâts."
+					},
+					{
+						"id": 5640,
+						"title": "Châtiment sacré",
+						"body_text": "La grande inquisitrice Blanchetête châtie sa cible actuelle, infligeant 384 points de dégâts du Sacré."
+					},
+					{
+						"id": 5641,
+						"title": "Résurrection de masse",
+						"body_text": "La grande inquisitrice Blanchetête ranime tous les Judicateurs écarlates tombés au combat dans un rayon de 100 mètres pour qu’ils viennent l’aider."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Monastère Écarlate",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/674?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 674,
+		"name": "High Inquisitor Whitemane",
+		"description": "At a young age, Sally Whitemane witnessed her family succumb to the horrific plague of undeath as they were traveling through northern Lordaeron. She was then forced to destroy her parents and siblings when they rose as mindless Scourge minions, leaving her racked by guilt and rage. Ever since that day, the fearsome priestess has found fulfillment and pleasure in only one thing: the destruction of undead.",
+		"creatures": [
+			{
+				"id": 1277,
+				"name": "High Inquisitor Whitemane",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/2043?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 2043
+				}
+			},
+			{
+				"id": 1276,
+				"name": "Commander Durand",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41220?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 41220
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144158?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flashing Steel Talisman",
+					"id": 144158
+				}
+			},
+			{
+				"id": 33507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incarnadine Scarlet Spaulders",
+					"id": 144005
+				}
+			},
+			{
+				"id": 33508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144028?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Whitemane's Embroidered Chapeau",
+					"id": 144028
+				}
+			},
+			{
+				"id": 33509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144221?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helios, Durand's Soul of Purity",
+					"id": 144221
+				}
+			},
+			{
+				"id": 33510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144027?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Holy Flame",
+					"id": 144027
+				}
+			},
+			{
+				"id": 33511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dashing Strike Treads",
+					"id": 144003
+				}
+			},
+			{
+				"id": 33512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Waistplate of Imminent Resurrection",
+					"id": 144188
+				}
+			},
+			{
+				"id": 33513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightbreaker Greatsword",
+					"id": 144187
+				}
+			},
+			{
+				"id": 33514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greatstaff of Righteousness",
+					"id": 144189
+				}
+			},
+			{
+				"id": 33515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144176?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Triune Signet",
+					"id": 144176
+				}
+			},
+			{
+				"id": 33516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Hallowed Fire",
+					"id": 144004
+				}
+			},
+			{
+				"id": 13916,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flashing Steel Talisman",
+					"id": 88294
+				}
+			},
+			{
+				"id": 13917,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88295?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dashing Strike Treads",
+					"id": 88295
+				}
+			},
+			{
+				"id": 13918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88296?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Waistplate of Imminent Resurrection",
+					"id": 88296
+				}
+			},
+			{
+				"id": 13919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88297?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightbreaker Greatsword",
+					"id": 88297
+				}
+			},
+			{
+				"id": 13920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88298?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Hallowed Fire",
+					"id": 88298
+				}
+			},
+			{
+				"id": 13921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88299?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Whitemane's Embroidered Chapeau",
+					"id": 88299
+				}
+			},
+			{
+				"id": 13922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88300?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Triune Signet",
+					"id": 88300
+				}
+			},
+			{
+				"id": 13923,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88301?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greatstaff of Righteousness",
+					"id": 88301
+				}
+			},
+			{
+				"id": 13924,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88302?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incarnadine Scarlet Spaulders",
+					"id": 88302
+				}
+			},
+			{
+				"id": 13925,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88303?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Holy Flame",
+					"id": 88303
+				}
+			},
+			{
+				"id": 30266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/132549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deft Strike Treads",
+					"id": 132549
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5635,
+				"title": "Commander Durand",
+				"body_text": "The new military commander of the Scarlet Crusade attacks the players with a series of lightning quick strikes.",
+				"sections": [
+					{
+						"id": 5636,
+						"title": "Flash of Steel",
+						"body_text": "Commander Durand rapidly shifts around the battlefield, attacking random players and inflicting 0 Physical damage every time he strikes."
+					},
+					{
+						"id": 5637,
+						"title": "Dashing Strike",
+						"body_text": "Commander Durand quickly dashes through his enemies to a location, inflicting 839 Physical damage to every enemy in his path."
+					}
+				]
+			},
+			{
+				"id": 5638,
+				"title": "High Inquisitor Whitemane",
+				"body_text": "The High Inquisitor of the Scarlet Crusade comes to the aid of Commander Durand when he falls, resurrecting him to fight at her side.",
+				"sections": [
+					{
+						"id": 5639,
+						"title": "Power Word: Shield",
+						"body_text": "High Inquisitor Whitemane wraps an ally in a magical shield that absorbs 0 damage."
+					},
+					{
+						"id": 5640,
+						"title": "Holy Smite",
+						"body_text": "High Inquisitor Whitemane smites her current target, inflicting 389 Holy damage."
+					},
+					{
+						"id": 5641,
+						"title": "Mass Resurrection",
+						"body_text": "High Inquisitor Whitemane resurrects all fallen Scarlet Judicators within 100 yards to come to her aid."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/316?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Scarlet Monastery",
+			"id": 316
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

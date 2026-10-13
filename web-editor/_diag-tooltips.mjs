@@ -1,22 +1,22 @@
-// Sonda 2: ¿está 466556 en las 95? ¿y por su nombre es "Corriente ascendente flameante"?
+// Sonda: estructura cruda de una página de spell de Wowhead — ¿dónde está el icono?
 import process from "node:process";
-import { blizzEnv, createBlizzardClient } from "../scripts/_blizzard-api.mjs";
 
-const env = blizzEnv();
-const blizz = createBlizzardClient({ clientId: env.clientId, clientSecret: env.clientSecret, region: "eu", locale: "es_ES" });
+const UA = { "User-Agent": "Bosses-addon-editor/1.0 (contacto: pming@gmail.com)", "Accept-Language": "es-ES,es;q=0.9,en;q=0.8" };
 
-async function busca(campo, term, idObjetivo) {
-	const r = await blizz.api(`/data/wow/search/spell?namespace=static-eu&locale=es_ES&_page=1&${campo}=${encodeURIComponent(term)}`);
-	const hits = (r.json?.results ?? []).map((h) => h.data ?? h);
-	const pos = (function () { for (let i = 0; i < hits.length; i++) if (String(hits[i].id) === idObjetivo) return i; return -1; })();
-	console.log(`[${campo}=${term}] ${r.status} hits=${hits.length} — ¿${idObjetivo}? ${pos >= 0 ? `SÍ en pos ${pos}` : "NO"}`);
-	if (pos >= 0) console.log(`   es=${hits[pos].name?.es_ES} en=${hits[pos].name?.en_US} fr=${hits[pos].name?.fr_FR} de=${hits[pos].name?.de_DE}`);
-	return { hits, pos };
+for (const id of ["1251386", "438025"]) {
+	const res = await fetch(`https://www.wowhead.com/spell=${id}`, { headers: UA, signal: AbortSignal.timeout(15000) });
+	const html = res.ok ? await res.text() : "";
+	console.log(`spell=${id} → HTTP ${res.status}, ${html.length} bytes`);
+	const patrones = [
+		[/images\/wow\/icons\/large\/([a-z0-9_]+)\.jpg/gi, "zamimg large"],
+		[/images\/wow\/icons\/56\/([a-z0-9_]+)\.jpg/gi, "zamimg 56"],
+		[/"icon"\s*:\s*"([a-z0-9_]+)"/gi, "json icon"],
+		[/data-icon="([a-z0-9_]+)"/gi, "data-icon"],
+	];
+	for (const [re, etiqueta] of patrones) {
+		const m = [...html.matchAll(re)].slice(0, 3).map((x) => x[1]);
+		if (m.length) console.log(`   ${etiqueta}: ${m.join(", ")}`);
+	}
+	await new Promise((r) => setTimeout(r, 400));
 }
-
-const en = await busca("name.en_US", "Flaming Updraft", "466556");
-// ¿algún hit con 'updraft' en el nombre EN (no solo el exacto)?
-const updrafts = en.hits.filter((d) => String(d.name?.en_US ?? "").toLowerCase().includes("updraft"));
-console.log(`hits con 'updraft' en EN: ${updrafts.length}`, updrafts.slice(0, 5).map((d) => `${d.id}=${d.name?.en_US}`).join(" | "));
-await busca("name.es_ES", "Corriente ascendente flameante", "466556");
 process.exit(0);

@@ -1,0 +1,645 @@
+{
+	"id": 2827,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2827?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2827,
+		"name": "Lu'ashal",
+		"description": "A pesar de que la flor de Luz ha arrasado con gran parte de la fauna de Canción Eterna, algunas criaturas se han fortalecido con su poder. Lu'ashal ha crecido hasta alcanzar un tamaño gigantesco debido a la energía Sagrada, y ahora su belleza está al mismo nivel que su peligrosidad.",
+		"creatures": [
+			{
+				"id": 6084,
+				"name": "Lu'ashal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/129638?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 129638
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de errante olvidado",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga dorada de erudito infeliz",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de escolta devorador",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de plumas de acechazarzas",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de comandante de hueste",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuchilla de bestia enloquecida por el alba",
+					"id": 250451
+				}
+			},
+			{
+				"id": 45758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cetro de la Luz liberada",
+					"id": 250453
+				}
+			},
+			{
+				"id": 45759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cetro de Canción Eterna radiante",
+					"id": 250447
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34883,
+				"title": "Resumen",
+				"body_text": "Sumida en un frenesí sagrado, Lu'ashal ataca a los enemigos y hace que caiga energía del cielo con [Hendimiento radiante] para destrozar el suelo y dejar tras de sí [Fisuras cegadoras]. Durante [Llamarada radiante], lanza oleadas de [Ascuas radiantes] que recorren el campo de batalla.",
+				"sections": [
+					{
+						"id": 34884,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Halo enloquecido por el alba] inflige un daño moderado en un área alrededor de los jugadores afectados.\r\n$bullet;[Llamarada radiante] inflige un daño considerable y hace que [Ascua radiantes] estallen de las [Fisuras cegadoras]."
+					},
+					{
+						"id": 34885,
+						"title": "Tanques",
+						"body_text": "$bullet;[Aliento de albafuego] inflige mucho daño Radiante en un cono contra el objetivo principal.\r\n$bullet;[Llamarada radiante] inflige un daño considerable y hace que broten varios efectos de [Ascua radiante] de las [Fisuras cegadoras]."
+					},
+					{
+						"id": 34886,
+						"title": "DPS",
+						"body_text": "$bullet;[Halo enloquecido por el alba] inflige un daño moderado en un área alrededor de los jugadores afectados.\r\n$bullet;[Llamarada radiante] inflige un daño considerable y hace que [Ascua radiantes] estallen de las [Fisuras cegadoras]."
+					}
+				]
+			},
+			{
+				"id": 34891,
+				"title": "Llamarada radiante",
+				"sections": [
+					{
+						"id": 34894,
+						"title": "Ascua radiante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1258426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Ascua radiante",
+							"id": 1258426
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Llamarada radiante",
+					"id": 1258427
+				}
+			},
+			{
+				"id": 34889,
+				"title": "Hendimiento radiante",
+				"sections": [
+					{
+						"id": 34890,
+						"title": "Fisura cegadora",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1243988?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fisura cegadora",
+							"id": 1243988
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1243963?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hendimiento radiante",
+					"id": 1243963
+				}
+			},
+			{
+				"id": 34887,
+				"title": "Halo enloquecido por el alba",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Halo enloquecido por el alba",
+					"id": 1276436
+				}
+			},
+			{
+				"id": 34888,
+				"title": "Aliento de albafuego",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aliento de albafuego",
+					"id": 1276247
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2827?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2827,
+		"name": "Lu’ashal",
+		"description": "Bien que le luméclat des Chants éternels ait détruit une grande partie de la faune locale, quelques créatures ont au contraire puisé leur force dans son pouvoir. Lu’ashal a atteint une taille colossale grâce à l’afflux d’énergie sacrée et il est désormais aussi dangereux que magnifique.",
+		"creatures": [
+			{
+				"id": 6084,
+				"name": "Lu’ashal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/129638?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 129638
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne pérégrin perdu",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe dorée d’étude abjecte",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hauts-de-chausses de voltige dévorants",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche à plumes de traque-ronces",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de commandement de l’ost",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fendoir de bête d’aube agitée",
+					"id": 250451
+				}
+			},
+			{
+				"id": 45758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceptre de la Lumière déliée",
+					"id": 250453
+				}
+			},
+			{
+				"id": 45759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceptre des Chants éternels rayonnant",
+					"id": 250447
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34883,
+				"title": "Vue d’ensemble",
+				"body_text": "Lu’ashal attaque ses adversaires avec une sainte frénésie, faisant tomber des cieux une pluie d’énergie avec [Bris radieux] afin de fracasser le sol en créant des [Fissures aveuglantes]. Pendant [Fusée irradiante], elle libère des vagues de [Braises irradiantes] qui balaient le champ de bataille.",
+				"sections": [
+					{
+						"id": 34884,
+						"title": "Soins",
+						"body_text": "$bullet; [Halo d’aube agitée] inflige des dégâts modérés dans une zone autour des personnages-joueurs affectés.\r\n$bullet; [Fusée irradiante] inflige d’importants dégâts et fait jaillir des [Braises irradiantes] des [Fissures aveuglantes]."
+					},
+					{
+						"id": 34885,
+						"title": "Tank",
+						"body_text": "$bullet; [Souffle de feu auroral] inflige de lourds dégâts de rayonnement dans un cône sur la cible principale.\r\n$bullet; [Fusée irradiante] inflige d’importants dégâts et fait jaillir des [Braises irradiantes] des [Fissures aveuglantes]."
+					},
+					{
+						"id": 34886,
+						"title": "DPS",
+						"body_text": "$bullet; [Halo d’aube agitée] inflige des dégâts modérés dans une zone autour des personnages-joueurs affectés.\r\n$bullet; [Fusée irradiante] inflige d’importants dégâts et fait jaillir des [Braises irradiantes] des [Fissures aveuglantes]."
+					}
+				]
+			},
+			{
+				"id": 34891,
+				"title": "Fusée irradiante",
+				"sections": [
+					{
+						"id": 34894,
+						"title": "Braise irradiante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1258426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Braise irradiante",
+							"id": 1258426
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fusée irradiante",
+					"id": 1258427
+				}
+			},
+			{
+				"id": 34889,
+				"title": "Bris radieux",
+				"sections": [
+					{
+						"id": 34890,
+						"title": "Fissure aveuglante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1243988?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fissure aveuglante",
+							"id": 1243988
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1243963?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bris radieux",
+					"id": 1243963
+				}
+			},
+			{
+				"id": 34887,
+				"title": "Halo d’aube agitée",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Halo d’aube agitée",
+					"id": 1276436
+				}
+			},
+			{
+				"id": 34888,
+				"title": "Souffle de feu auroral",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Souffle de feu auroral",
+					"id": 1276247
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2827?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2827,
+		"name": "Lu'ashal",
+		"description": "While the Lightbloom in Eversong has devastated much of the native wildlife, a few creatures have instead been strengthened by its power. Lu'ashal has grown to gargantuan size from the surging Holy energy and is now as dangerous as it is beautiful.",
+		"creatures": [
+			{
+				"id": 6084,
+				"name": "Lu'ashal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/129638?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 129638
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45752,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgotten Farstrider's Insignia",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45753,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wretched Scholar's Gilded Robe",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45754,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Devouring Outrider's Chausses",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45755,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bramblestalker's Feathered Cowl",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45756,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Host Commander's Casque",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45757,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250451?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dawncrazed Beast Cleaver",
+					"id": 250451
+				}
+			},
+			{
+				"id": 45758,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250453?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scepter of the Unbound Light",
+					"id": 250453
+				}
+			},
+			{
+				"id": 45759,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250447?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiant Eversong Scepter",
+					"id": 250447
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34883,
+				"title": "Overview",
+				"body_text": "Lu'ashal assails foes in a holy frenzy, raining energy from the skies with [Radiant Sunder]  to shatter the ground that leave [Blinding Fissures] behind. During [Radiant Flare], she unleashes waves of [Radiant Embers] that travel across the battlefield.",
+				"sections": [
+					{
+						"id": 34884,
+						"title": "Healers",
+						"body_text": "$bullet; [Dawncrazed Halo] inflicts moderate damage in an area around afflicted players.\r\n$bullet; [Radiant Flare] inflicts substantial damage and casues [Radiant Embers] to erupt from [Blinding Fissures] ."
+					},
+					{
+						"id": 34885,
+						"title": "Tanks",
+						"body_text": "$bullet; [Dawnfire Breath] inflicts heavy Radiant damage in a cone at the primary target.\r\n$bullet; [Radiant Flare] inflicts substantial damage and casues [Radiant Embers] to erupt from [Blinding Fissures] ."
+					},
+					{
+						"id": 34886,
+						"title": "Damage Dealers",
+						"body_text": "$bullet; [Dawncrazed Halo] inflicts moderate damage in an area around afflicted players.\r\n$bullet; [Radiant Flare] inflicts substantial damage and casues [Radiant Embers] to erupt from [Blinding Fissures] ."
+					}
+				]
+			},
+			{
+				"id": 34891,
+				"title": "Radiant Flare",
+				"sections": [
+					{
+						"id": 34894,
+						"title": "Radiant Ember",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1258426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Radiant Ember",
+							"id": 1258426
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258427?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiant Flare",
+					"id": 1258427
+				}
+			},
+			{
+				"id": 34889,
+				"title": "Radiant Sunder",
+				"sections": [
+					{
+						"id": 34890,
+						"title": "Blinding Fissure",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1243988?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Blinding Fissure",
+							"id": 1243988
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1243963?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiant Sunder",
+					"id": 1243963
+				}
+			},
+			{
+				"id": 34887,
+				"title": "Dawncrazed Halo",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276436?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dawncrazed Halo",
+					"id": 1276436
+				}
+			},
+			{
+				"id": 34888,
+				"title": "Dawnfire Breath",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1276247?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dawnfire Breath",
+					"id": 1276247
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

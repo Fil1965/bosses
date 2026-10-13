@@ -1,0 +1,1341 @@
+{
+	"id": 826,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/826?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 826,
+		"name": "Oondasta",
+		"description": "Cuando la guerra contra la ciudadela estalló, hubo exploradores que se dedicaron a interceptar misivas entre los campamentos Zandalari. Una de ellas contenía una palabra Zandalari desconocida y siempre rodeada de términos de conquista y poder: Oondasta. En algún lugar de Pandaria, la Guardia de las Bestias Zandalari entrena a sus criaturas para convertirlas en armas de guerra, y ahora está dando el toque final a este monstruo imbuido de los loa. Sin embargo, la ubicación exacta sigue siendo un misterio...",
+		"creatures": [
+			{
+				"id": 1566,
+				"name": "Oondasta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47257?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47257
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95179?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar del hacilosaurio",
+					"id": 95179
+				}
+			},
+			{
+				"id": 16175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de estigimoloquía",
+					"id": 95177
+				}
+			},
+			{
+				"id": 16176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95178?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto del botirraptor",
+					"id": 95178
+				}
+			},
+			{
+				"id": 16178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena de extracompensación del macho alfa",
+					"id": 95180
+				}
+			},
+			{
+				"id": 16179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amuleto del titanorrex",
+					"id": 95181
+				}
+			},
+			{
+				"id": 16180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de Zalmoxes",
+					"id": 95182
+				}
+			},
+			{
+				"id": 16181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de falcarius antiguo",
+					"id": 95183
+				}
+			},
+			{
+				"id": 16182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de dimorfodóntica",
+					"id": 95184
+				}
+			},
+			{
+				"id": 16183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tejido aterrador",
+					"id": 95185
+				}
+			},
+			{
+				"id": 16184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de sueños destrozados",
+					"id": 95186
+				}
+			},
+			{
+				"id": 16185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del derródoco",
+					"id": 95187
+				}
+			},
+			{
+				"id": 16186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón del avimimus corvo",
+					"id": 95188
+				}
+			},
+			{
+				"id": 16187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Riendas del cuernoatroz primario de cobalto",
+					"id": 94228
+				}
+			},
+			{
+				"id": 16188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón del diemetradón moribundo",
+					"id": 95189
+				}
+			},
+			{
+				"id": 16189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de pisotón furioso",
+					"id": 95190
+				}
+			},
+			{
+				"id": 16190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón sangriento de Voolar",
+					"id": 95191
+				}
+			},
+			{
+				"id": 16191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón del tiranotitanus",
+					"id": 95192
+				}
+			},
+			{
+				"id": 16192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de Varsoon el Grande",
+					"id": 95193
+				}
+			},
+			{
+				"id": 16193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95194?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tiranomancia",
+					"id": 95194
+				}
+			},
+			{
+				"id": 16194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fósil sin vida",
+					"id": 95195
+				}
+			},
+			{
+				"id": 16195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95196?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de ruido gástrico",
+					"id": 95196
+				}
+			},
+			{
+				"id": 16196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de escamas de terápsido",
+					"id": 95197
+				}
+			},
+			{
+				"id": 16197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de Vulcanodonte",
+					"id": 95198
+				}
+			},
+			{
+				"id": 16198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de batalla de carnotaurio",
+					"id": 95199
+				}
+			},
+			{
+				"id": 16199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95200?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de Orndo Mando",
+					"id": 95200
+				}
+			},
+			{
+				"id": 16200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95201?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes trituracalaveras",
+					"id": 95201
+				}
+			},
+			{
+				"id": 16201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guerrera de adornos fascinantes",
+					"id": 95147
+				}
+			},
+			{
+				"id": 16202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jubón del Bordomorono",
+					"id": 95148
+				}
+			},
+			{
+				"id": 16203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pechera de escamas de gorgorraptor",
+					"id": 95149
+				}
+			},
+			{
+				"id": 16204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malla del cortamusgo",
+					"id": 95150
+				}
+			},
+			{
+				"id": 16205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de espíritu de fuego agostado",
+					"id": 95151
+				}
+			},
+			{
+				"id": 16206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de la iguana coloso",
+					"id": 95152
+				}
+			},
+			{
+				"id": 16207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla de rey tirano",
+					"id": 95153
+				}
+			},
+			{
+				"id": 16208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de Shamuru",
+					"id": 95163
+				}
+			},
+			{
+				"id": 16209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95164?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de Oondasta",
+					"id": 95164
+				}
+			},
+			{
+				"id": 16210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo aquilobador",
+					"id": 95165
+				}
+			},
+			{
+				"id": 16211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95166?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Último manjar de Forzarra",
+					"id": 95166
+				}
+			},
+			{
+				"id": 16212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo del Rey Kangrom",
+					"id": 95167
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7146,
+				"title": "Machaque",
+				"body_text": "Oondasta machaca a su objetivo actual, lo que inflige 0 p. de daño físico y reduce la armadura un 25% durante 1 min. Este efecto se acumula."
+			},
+			{
+				"id": 7723,
+				"title": "Macho alfa",
+				"body_text": "Oondasta solo admite a los desafiantes más decididos. Esto lo vuelve inmune a la provocación, pero también aumenta la amenaza que generan los jugadores con especialización de tanque un 100%."
+			},
+			{
+				"id": 7147,
+				"title": "Explosión de gola",
+				"body_text": "La armadura de Oondasta no está solo de adorno: puede cargar una poderosa explosión que inflige 0 p. de daño de Fuego a todos los jugadores en un hemisferio de 60 m frente a Oondasta."
+			},
+			{
+				"id": 7148,
+				"title": "Furia creciente",
+				"body_text": "La ira de Oondasta crece a medida que avanza el encuentro, lo que aumenta todo el daño un 10%. Este efecto se acumula."
+			},
+			{
+				"id": 7149,
+				"title": "Rugido penetrante",
+				"body_text": "Oondasta emite un Rugido penetrante que inflige 0 p. de daño físico a todos los jugadores e interrumpe el lanzamiento de hechizos, lo que impide lanzar hechizos de esa escuela durante 10 s."
+			},
+			{
+				"id": 7150,
+				"title": "Haz de espíritu de fuego",
+				"body_text": "Oondasta dispara un haz de energía de espíritu de fuego a un jugador, lo que inflige 0 p. de daño de Fuego y salta a un aliado cercano. Puede afectar hasta a 99 jugadores."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/826?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 826,
+		"name": "Oondasta",
+		"description": "Quand l’assaut fut lancé contre la citadelle de Lei Shen, l’Alliance et de la Horde tentèrent à tout prix d’intercepter les missives entre les camps zandalari. L’une de ces communications tournait autour d’un mot inconnu, toujours entouré des termes « conquête » et « puissance » : Oondasta. Quelque part en Pandarie, la garde animale zandalari dresse ses machines de guerre, et met la touche finale à cette monstruosité investie par les loa. Mais personne ne sait où exactement...",
+		"creatures": [
+			{
+				"id": 1566,
+				"name": "Oondasta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47257?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47257
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95179?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier du hazillosaure",
+					"id": 95179
+				}
+			},
+			{
+				"id": 16175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de stygimolochie",
+					"id": 95177
+				}
+			},
+			{
+				"id": 16176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95178?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette de butinodon",
+					"id": 95178
+				}
+			},
+			{
+				"id": 16178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de surcompensation du mâle alpha",
+					"id": 95180
+				}
+			},
+			{
+				"id": 16179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulette du titanorex",
+					"id": 95181
+				}
+			},
+			{
+				"id": 16180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de Zalmoxès",
+					"id": 95182
+				}
+			},
+			{
+				"id": 16181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de l'ancien Falcarius",
+					"id": 95183
+				}
+			},
+			{
+				"id": 16182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de dimorphodontique",
+					"id": 95184
+				}
+			},
+			{
+				"id": 16183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toile terrorisante",
+					"id": 95185
+				}
+			},
+			{
+				"id": 16184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture des rêves brisés",
+					"id": 95186
+				}
+			},
+			{
+				"id": 16185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon du derrodocus",
+					"id": 95187
+				}
+			},
+			{
+				"id": 16186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de l'avimimus téméraire",
+					"id": 95188
+				}
+			},
+			{
+				"id": 16187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rênes de navrecorne primordial cobalt",
+					"id": 94228
+				}
+			},
+			{
+				"id": 16188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du dimeurtrodon à l'agonie",
+					"id": 95189
+				}
+			},
+			{
+				"id": 16189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier du piétinement furieux",
+					"id": 95190
+				}
+			},
+			{
+				"id": 16190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture ensanglantée de Voolar",
+					"id": 95191
+				}
+			},
+			{
+				"id": 16191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du tyrannotitan",
+					"id": 95192
+				}
+			},
+			{
+				"id": 16192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de Varsoon le Plus grand",
+					"id": 95193
+				}
+			},
+			{
+				"id": 16193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95194?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de tyranomancie",
+					"id": 95194
+				}
+			},
+			{
+				"id": 16194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du fossile non-vivant",
+					"id": 95195
+				}
+			},
+			{
+				"id": 16195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95196?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants des grondements gastriques",
+					"id": 95196
+				}
+			},
+			{
+				"id": 16196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants en écaille de thérapside",
+					"id": 95197
+				}
+			},
+			{
+				"id": 16197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de vulcanodon",
+					"id": 95198
+				}
+			},
+			{
+				"id": 16198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de bataille du carnosaure",
+					"id": 95199
+				}
+			},
+			{
+				"id": 16199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95200?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d'Orndo Mando",
+					"id": 95200
+				}
+			},
+			{
+				"id": 16200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95201?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de bris de crâne",
+					"id": 95201
+				}
+			},
+			{
+				"id": 16201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tunique à volants affriolante",
+					"id": 95147
+				}
+			},
+			{
+				"id": 16202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gilet du Bordomorono",
+					"id": 95148
+				}
+			},
+			{
+				"id": 16203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pansière en écailles de gorgoraptor",
+					"id": 95149
+				}
+			},
+			{
+				"id": 16204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cotte de mailles du hache-mousse",
+					"id": 95150
+				}
+			},
+			{
+				"id": 16205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé du feu de l'esprit roussi",
+					"id": 95151
+				}
+			},
+			{
+				"id": 16206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l'iguanocolosse",
+					"id": 95152
+				}
+			},
+			{
+				"id": 16207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille du roi tyrannique",
+					"id": 95153
+				}
+			},
+			{
+				"id": 16208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de Shamuru",
+					"id": 95163
+				}
+			},
+			{
+				"id": 16209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95164?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil d'Oondasta",
+					"id": 95164
+				}
+			},
+			{
+				"id": 16210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau d'Achillobator",
+					"id": 95165
+				}
+			},
+			{
+				"id": 16211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95166?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dernier repas de Forzarra",
+					"id": 95166
+				}
+			},
+			{
+				"id": 16212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau du roi Kangrom",
+					"id": 95167
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7146,
+				"title": "Écraser",
+				"body_text": "Oondasta écrase sa cible actuelle, lui infligeant 0 points de dégâts physiques et réduisant son armure de 25% pendant 1 min. Cet effet peut se cumuler."
+			},
+			{
+				"id": 7723,
+				"title": "Mâle alpha",
+				"body_text": "Oondasta se concentre uniquement sur les héros les plus courageux, ce qui l’immunise contre les provocations, mais augmente de 100% la menace des personnages-joueurs ayant un rôle de tank."
+			},
+			{
+				"id": 7147,
+				"title": "Armure explosive",
+				"body_text": "L’armure d’Oondasta n’est pas uniquement décorative, elle peut charger cette puissante explosion qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs dans une demi-sphère de 60 mètres en face d’Oondasta."
+			},
+			{
+				"id": 7148,
+				"title": "Fureur grandissante",
+				"body_text": "La rage d’Oondasta grandit tout au long du combat, ce qui augmente tous ses dégâts de 10%. Cet effet peut se cumuler."
+			},
+			{
+				"id": 7149,
+				"title": "Rugissement perçant",
+				"body_text": "Oondasta lance un rugissement perçant qui inflige 0 points de dégâts physiques à tous les personnages-joueurs et interrompt tous les sorts en cours d’incantation, empêchant tout sort de la même école d’être lancé pendant 10 s."
+			},
+			{
+				"id": 7150,
+				"title": "Rayon de feu spirituel",
+				"body_text": "Oondasta lance sur un personnage-joueur un rayon de feu spirituel, infligeant 0 points de dégâts de Feu et bondissant sur un allié proche. Le rayon peut affecter jusqu’à 99 personnages-joueurs."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandarie",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/826?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 826,
+		"name": "Oondasta",
+		"description": "As the war against Lei Shen's island citadel began, Alliance and Horde scouts made an effort to intercept missives between the major Zandalari camps. One such exchange seemed to revolve around an unfamiliar Zandalari word, always surrounded by terms of conquest and power: Oondasta. Somewhere in Pandaria, the Zandalari Beast Ward raises their mighty beasts as engines of war, and is putting the finishing touches on this Loa-infused monstrosity. The exact location, however, remains unknown...",
+		"creatures": [
+			{
+				"id": 1566,
+				"name": "Oondasta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/47257?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 47257
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 16177,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95179?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necklace of the Hazillosaurus",
+					"id": 95179
+				}
+			},
+			{
+				"id": 16175,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of Stygimolochy",
+					"id": 95177
+				}
+			},
+			{
+				"id": 16176,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95178?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lootraptor's Amulet",
+					"id": 95178
+				}
+			},
+			{
+				"id": 16178,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95180?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Overcompensating Chain of the Alpha Male",
+					"id": 95180
+				}
+			},
+			{
+				"id": 16179,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95181?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amulet of the Titanorex",
+					"id": 95181
+				}
+			},
+			{
+				"id": 16180,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95182?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of Zalmoxes",
+					"id": 95182
+				}
+			},
+			{
+				"id": 16181,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95183?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Waistband of Elder Falcarius",
+					"id": 95183
+				}
+			},
+			{
+				"id": 16182,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95184?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of Dimorphodontics",
+					"id": 95184
+				}
+			},
+			{
+				"id": 16183,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95185?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Terrorful Weave",
+					"id": 95185
+				}
+			},
+			{
+				"id": 16184,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95186?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Crushed Dreams",
+					"id": 95186
+				}
+			},
+			{
+				"id": 16185,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95187?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Derrodoccus",
+					"id": 95187
+				}
+			},
+			{
+				"id": 16186,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95188?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Arch Avimimus",
+					"id": 95188
+				}
+			},
+			{
+				"id": 16187,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/94228?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Reins of the Cobalt Primordial Direhorn",
+					"id": 94228
+				}
+			},
+			{
+				"id": 16188,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95189?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Dying Diemetradon",
+					"id": 95189
+				}
+			},
+			{
+				"id": 16189,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Waistband of Furious Stomping",
+					"id": 95190
+				}
+			},
+			{
+				"id": 16190,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voolar's Bloodied Belt",
+					"id": 95191
+				}
+			},
+			{
+				"id": 16191,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Tyrannotitan",
+					"id": 95192
+				}
+			},
+			{
+				"id": 16192,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95193?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Varsoon the Greater",
+					"id": 95193
+				}
+			},
+			{
+				"id": 16193,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95194?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Tyranomancy",
+					"id": 95194
+				}
+			},
+			{
+				"id": 16194,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95195?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Unliving Fossil",
+					"id": 95195
+				}
+			},
+			{
+				"id": 16195,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95196?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Gastric Rumbling",
+					"id": 95196
+				}
+			},
+			{
+				"id": 16196,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95197?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Therapsid Scale Gloves",
+					"id": 95197
+				}
+			},
+			{
+				"id": 16197,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95198?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vulcanodon Gauntlets",
+					"id": 95198
+				}
+			},
+			{
+				"id": 16198,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95199?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carnotaur Battlegloves",
+					"id": 95199
+				}
+			},
+			{
+				"id": 16199,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95200?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Orndo Mando's Gloves",
+					"id": 95200
+				}
+			},
+			{
+				"id": 16200,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95201?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skullsmashing Gauntlets",
+					"id": 95201
+				}
+			},
+			{
+				"id": 16201,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95147?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fancifully Frilled Tunic",
+					"id": 95147
+				}
+			},
+			{
+				"id": 16202,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vest of the Bordomorono",
+					"id": 95148
+				}
+			},
+			{
+				"id": 16203,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95149?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gorgoraptor Scale Chest",
+					"id": 95149
+				}
+			},
+			{
+				"id": 16204,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mail of the Mosschopper",
+					"id": 95150
+				}
+			},
+			{
+				"id": 16205,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95151?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scorched Spiritfire Drape",
+					"id": 95151
+				}
+			},
+			{
+				"id": 16206,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95152?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Iguanocolossus",
+					"id": 95152
+				}
+			},
+			{
+				"id": 16207,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95153?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tyrant King Battleplate",
+					"id": 95153
+				}
+			},
+			{
+				"id": 16208,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95163?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of Shamuru",
+					"id": 95163
+				}
+			},
+			{
+				"id": 16209,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95164?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Oondasta",
+					"id": 95164
+				}
+			},
+			{
+				"id": 16210,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95165?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Achillobator Ring",
+					"id": 95165
+				}
+			},
+			{
+				"id": 16211,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95166?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forzarra's Last Meal",
+					"id": 95166
+				}
+			},
+			{
+				"id": 16212,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/95167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of King Kangrom",
+					"id": 95167
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 7146,
+				"title": "Crush",
+				"body_text": "Oondasta crushes his current target, inflicting 0 Physical damage and reducing armor by 25% for 1 min. This effect stacks."
+			},
+			{
+				"id": 7723,
+				"title": "Alpha Male",
+				"body_text": "Oondasta seeks only the most hearty challengers, making him immune to taunts, but also increasing tank-specced players' threat against him by 100%."
+			},
+			{
+				"id": 7147,
+				"title": "Frill Blast",
+				"body_text": "Oondasta's armor is more than just for decoration, and can charge up this powerful blast that inflicts 0 Fire damage to all players in a 60-yard hemisphere in front of Oondasta."
+			},
+			{
+				"id": 7148,
+				"title": "Growing Fury",
+				"body_text": "Oondasta's rage grows as the fight progresses, increasing all damage by 10%. This effect stacks."
+			},
+			{
+				"id": 7149,
+				"title": "Piercing Roar",
+				"body_text": "Oondasta unleashes a piercing roar, inflicting 0 Physical damage to all players and interrupting spell-casting, preventing spells of that school from being cast for 10 sec."
+			},
+			{
+				"id": 7150,
+				"title": "Spiritfire Beam",
+				"body_text": "Oondasta fires a beam of spiritfire energy at a player, inflicting 0 Fire damage and jumping to a nearby ally. Up to 99 players can be affected."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

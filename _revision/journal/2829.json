@@ -1,0 +1,645 @@
+{
+	"id": 2829,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2829,
+		"name": "Thorm'belan",
+		"description": "Thorm'belan, una criatura dócil que merodeaba por los territorios al sur de Harandar, cambió para siempre al verse afectado por la flor de Luz. Ahora habrá que acabar con esta bestia enfurecida antes de que arrase los humedales cercanos.",
+		"creatures": [
+			{
+				"id": 6076,
+				"name": "Thorm'belan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/136062?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 136062
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puntillortiga merodeadora",
+					"id": 250449
+				}
+			},
+			{
+				"id": 45737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hojaespina floreciente",
+					"id": 250452
+				}
+			},
+			{
+				"id": 45738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puaflor bestial",
+					"id": 250455
+				}
+			},
+			{
+				"id": 45739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de errante olvidado",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga dorada de erudito infeliz",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de escolta devorador",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de plumas de acechazarzas",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de comandante de hueste",
+					"id": 250458
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34055,
+				"title": "Resumen",
+				"body_text": "Thorm'belan desata el poder de la Luz para atacar a los jugadores. Lanza [Esquirlas centelleantes] de manera periódica mientras acerca a los jugadores hacia él con [Zarcillos trituradores].",
+				"sections": [
+					{
+						"id": 34056,
+						"title": "Tanques",
+						"body_text": "$bullet;Si nadie la intercepta, la [Esquirla centelleante] aturde a todos los jugadores.\r\n$bullet;[Zarcillos trituradores] empuja a los jugadores hacia Thorm'belan y les inflige daño hasta que se alejan lo suficiente de él.\r\n$bullet;[Mota radiante] inflige daño y desorienta a los jugadores cercanos cuando se agota."
+					},
+					{
+						"id": 34057,
+						"title": "Sanadores",
+						"body_text": "$bullet;Si nadie la intercepta, la [Esquirla centelleante] aturde a todos los jugadores.\r\n$bullet;[Zarcillos trituradores] empuja a los jugadores hacia Thorm'belan y les inflige daño hasta que se alejan lo suficiente de él.\r\n$bullet;[Mota radiante] inflige daño y desorienta a los jugadores cercanos cuando se agota."
+					},
+					{
+						"id": 34058,
+						"title": "DPS",
+						"body_text": "$bullet;Si nadie la intercepta, la [Esquirla centelleante] aturde a todos los jugadores.\r\n$bullet;[Zarcillos trituradores] empuja a los jugadores hacia Thorm'belan y les inflige daño hasta que se alejan lo suficiente de él.\r\n$bullet;[Mota radiante] inflige daño y desorienta a los jugadores cercanos cuando se agota."
+					}
+				]
+			},
+			{
+				"id": 34059,
+				"title": "Esquirla centelleante",
+				"sections": [
+					{
+						"id": 34062,
+						"title": "Erupción de fragmento",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257737?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Erupción de fragmento",
+							"id": 1257737
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esquirla centelleante",
+					"id": 1257825
+				}
+			},
+			{
+				"id": 34198,
+				"title": "Zarcillos trituradores",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zarcillos trituradores",
+					"id": 1258639
+				}
+			},
+			{
+				"id": 34060,
+				"title": "Mota radiante",
+				"sections": [
+					{
+						"id": 34064,
+						"title": "Radiancia deslumbrante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257618?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Radiancia deslumbrante",
+							"id": 1257618
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mota radiante",
+					"id": 1257320
+				}
+			},
+			{
+				"id": 34063,
+				"title": "Garra sajadora",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garra sajadora",
+					"id": 1258136
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2829,
+		"name": "Thorm’belan",
+		"description": "Autrefois une créature docile qui arpentait la nature sauvage australe d’Harandar, Thorm’belan fut profondément changé lorsqu’il fut touché par le luméclat. Désormais, cette bête sauvage enragée doit être abattue avant qu’elle ne sévisse dans les marais alentour.",
+		"creatures": [
+			{
+				"id": 6076,
+				"name": "Thorm’belan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/136062?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 136062
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Daguortie boudeuse",
+					"id": 250449
+				}
+			},
+			{
+				"id": 45737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lame-épine florissante",
+					"id": 250452
+				}
+			},
+			{
+				"id": 45738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Florapointe bestiale",
+					"id": 250455
+				}
+			},
+			{
+				"id": 45739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne pérégrin perdu",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe dorée d’étude abjecte",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hauts-de-chausses de voltige dévorants",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche à plumes de traque-ronces",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de commandement de l’ost",
+					"id": 250458
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34055,
+				"title": "Vue d’ensemble",
+				"body_text": "Thorm’belan déchaîne le pouvoir de la Lumière pour attaquer les personnages-joueurs, lançant périodiquement des [Fragments scintillants] tout en attirant les personnages-joueurs dans sa direction avec des [Vrilles déchiqueteuses].",
+				"sections": [
+					{
+						"id": 34056,
+						"title": "Tank",
+						"body_text": "$bullet; [Fragment scintillant] étourdit tous les personnages-joueurs s’il n’est pas intercepté.\r\n$bullet; Des [Vrilles déchiqueteuses] attirent les personnages-joueurs en direction de Thorm’belan et infligent des dégâts tant que les personnages-joueurs ne parviennent pas à s’éloigner suffisamment de Thorm’belan.\r\n$bullet; [Granule radieux] inflige des dégâts et désoriente les personnages-joueurs proches à son expiration."
+					},
+					{
+						"id": 34057,
+						"title": "Soins",
+						"body_text": "$bullet; [Fragment scintillant] étourdit tous les personnages-joueurs s’il n’est pas intercepté.\r\n$bullet; Des [Vrilles déchiqueteuses] attirent les personnages-joueurs en direction de Thorm’belan et infligent des dégâts tant que les personnages-joueurs ne parviennent pas à s’éloigner suffisamment de Thorm’belan.\r\n$bullet; [Granule radieux] inflige des dégâts et désoriente les personnages-joueurs proches à son expiration."
+					},
+					{
+						"id": 34058,
+						"title": "DPS",
+						"body_text": "$bullet; [Fragment scintillant] étourdit tous les personnages-joueurs s’il n’est pas intercepté.\r\n$bullet; Des [Vrilles déchiqueteuses] attirent les personnages-joueurs en direction de Thorm’belan et infligent des dégâts tant que les personnages-joueurs ne parviennent pas à s’éloigner suffisamment de Thorm’belan.\r\n$bullet; [Granule radieux] inflige des dégâts et désoriente les personnages-joueurs proches à son expiration."
+					}
+				]
+			},
+			{
+				"id": 34059,
+				"title": "Fragment scintillant",
+				"sections": [
+					{
+						"id": 34062,
+						"title": "Éruption d’éclat",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257737?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Éruption d’éclat",
+							"id": 1257737
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment scintillant",
+					"id": 1257825
+				}
+			},
+			{
+				"id": 34198,
+				"title": "Vrilles déchiqueteuses",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vrilles déchiqueteuses",
+					"id": 1258639
+				}
+			},
+			{
+				"id": 34060,
+				"title": "Granule radieux",
+				"sections": [
+					{
+						"id": 34064,
+						"title": "Radiance éblouissante",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257618?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Radiance éblouissante",
+							"id": 1257618
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Granule radieux",
+					"id": 1257320
+				}
+			},
+			{
+				"id": 34063,
+				"title": "Griffe étripeuse",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Griffe étripeuse",
+					"id": 1258136
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2829?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2829,
+		"name": "Thorm'belan",
+		"description": "Once a docile creature known to roam Harandar's southern wilds, Thorm'belan was forever changed when it became afflicted by The Lightbloom. The enraged beast must now be killed before it runs rampant across the surrounding wetlands.",
+		"creatures": [
+			{
+				"id": 6076,
+				"name": "Thorm'belan",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/136062?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 136062
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45736,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250449?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Skulking Nettledirk",
+					"id": 250449
+				}
+			},
+			{
+				"id": 45737,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blooming Thornblade",
+					"id": 250452
+				}
+			},
+			{
+				"id": 45738,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beastly Blossombarb",
+					"id": 250455
+				}
+			},
+			{
+				"id": 45739,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgotten Farstrider's Insignia",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45740,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wretched Scholar's Gilded Robe",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45741,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Devouring Outrider's Chausses",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45742,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bramblestalker's Feathered Cowl",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45743,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Host Commander's Casque",
+					"id": 250458
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 34055,
+				"title": "Overview",
+				"body_text": "Thorm'belan unleashes the power of the Light to assault the players. Periodically lobbing [Scintillating Shards] while also pulling players in towards itself with [Shredding Tendrils].",
+				"sections": [
+					{
+						"id": 34056,
+						"title": "Tanks",
+						"body_text": "$bullet; [Scintillating Shard] causes all players to become stunned if it is not intercepted.\r\n$bullet; [Shredding Tendrils] pulls players towards Thorm'belan and inflicts damage until players move far enough away from Thorm'belan.\r\n$bullet; [Radiant Mote] damages and disorients nearby players when it expires."
+					},
+					{
+						"id": 34057,
+						"title": "Healers",
+						"body_text": "$bullet; [Scintillating Shard] causes all players to become stunned if it is not intercepted.\r\n$bullet; [Shredding Tendrils] pulls players towards Thorm'belan and inflicts damage until players move far enough away from Thorm'belan.\r\n$bullet; [Radiant Mote] damages and disorients nearby players when it expires."
+					},
+					{
+						"id": 34058,
+						"title": "Damage Dealers",
+						"body_text": "$bullet; [Scintillating Shard] causes all players to become stunned if it is not intercepted.\r\n$bullet; [Shredding Tendrils] pulls players towards Thorm'belan and inflicts damage until players move far enough away from Thorm'belan.\r\n$bullet; [Radiant Mote] damages and disorients nearby players when it expires."
+					}
+				]
+			},
+			{
+				"id": 34059,
+				"title": "Scintillating Shard",
+				"sections": [
+					{
+						"id": 34062,
+						"title": "Shard Eruption",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257737?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Shard Eruption",
+							"id": 1257737
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Scintillating Shard",
+					"id": 1257825
+				}
+			},
+			{
+				"id": 34198,
+				"title": "Shredding Tendrils",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shredding Tendrils",
+					"id": 1258639
+				}
+			},
+			{
+				"id": 34060,
+				"title": "Radiant Mote",
+				"sections": [
+					{
+						"id": 34064,
+						"title": "Dazzling Radiance",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1257618?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Dazzling Radiance",
+							"id": 1257618
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257320?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiant Mote",
+					"id": 1257320
+				}
+			},
+			{
+				"id": 34063,
+				"title": "Rending Claw",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1258136?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rending Claw",
+					"id": 1258136
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

@@ -1,0 +1,699 @@
+{
+	"id": 2635,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2635?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2635,
+		"name": "Agregación de horrores",
+		"description": "La agregación de horrores, una abominación nacida a partir de los vestigios de skardyn contaminados del Vacío, se alza como una monstruosidad unificada. Esta pavorosa entidad está decidida a liberar su aterradora plaga en las Cavernas Resonantes.",
+		"creatures": [
+			{
+				"id": 5732,
+				"name": "Agregación de horrores",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119659?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119659
+				}
+			},
+			{
+				"id": 5731,
+				"name": "Skardyn fracturado",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 117974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zancos quitinosos resistentes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abrigo de celador de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mallas de zarcillos abisales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de buscador de la Luz",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de cristal estelar",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de habitante de las zonas profundas",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del amanecer radiante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de la tocada por el Vacío",
+					"id": 225749
+				}
+			},
+			{
+				"id": 44586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cincho de mirada pétrea",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29927,
+				"title": "Resumen",
+				"body_text": "La agregación de horrores expulsa fragmentos de roca durante [Tromba cristalina]. Estos fragmentos crean skardyn fracturados durante [Despertar oscuro].",
+				"sections": [
+					{
+						"id": 29928,
+						"title": "Tanques",
+						"body_text": "$bullet;[Golpe de cristal] inflige mucho daño de las Sombras al impactar y en el tiempo.\r\n$bullet;[Sismo del Vacío] inflige daño de las Sombras a los jugadores alcanzados en un radio de 150 m."
+					},
+					{
+						"id": 29929,
+						"title": "Sanador",
+						"body_text": "$bullet;[Sismo del Vacío] inflige daño de las Sombras a los jugadores alcanzados en un radio de 150 m.\r\n$bullet;[Tromba cristalina] inflige una gran cantidad de daño a los jugadores golpeados por sus fragmentos."
+					},
+					{
+						"id": 29930,
+						"title": "DPS",
+						"body_text": "$bullet;[Sismo del Vacío] inflige daño de las Sombras a los jugadores alcanzados en un radio de 150 m.\r\n$bullet;La agregación de horrores lanza [Tromba de aniquilación] cuando no hay jugadores en combate cuerpo a cuerpo.\r\n$bullet;[Despertar oscuro] crea skardyn fracturados que atacan a los jugadores cercanos."
+					}
+				]
+			},
+			{
+				"id": 29932,
+				"title": "Tromba cristalina",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452210?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tromba cristalina",
+					"id": 452210
+				}
+			},
+			{
+				"id": 29933,
+				"title": "Despertar oscuro",
+				"sections": [
+					{
+						"id": 29959,
+						"title": "Skardyn fracturados",
+						"body_text": "Skardyn fracturados del cuerpo de la agregación de horrores.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 117974
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Despertar oscuro",
+					"id": 453271
+				}
+			},
+			{
+				"id": 29931,
+				"title": "Sismo del Vacío",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sismo del Vacío",
+					"id": 452981
+				}
+			},
+			{
+				"id": 29934,
+				"title": "Ataque de cristal",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataque de cristal",
+					"id": 453294
+				}
+			},
+			{
+				"id": 29935,
+				"title": "Tromba de aniquilación",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/456148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tromba de aniquilación",
+					"id": 456148
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2635?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2635,
+		"name": "Agrégation d’horreurs",
+		"description": "Abomination née de restes de Skardyns corrompus par le Vide, l’agrégation d’horreurs se pose comme une monstruosité unifiée. Cette entité redoutée s’apprête à répandre son fléau terrifiant sur les abîmes Retentissants.",
+		"creatures": [
+			{
+				"id": 5732,
+				"name": "Agrégation d’horreurs",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119659?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119659
+				}
+			},
+			{
+				"id": 5731,
+				"name": "Skardyn fracturé",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 117974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissardes chitineuses robustes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteau de gardienne de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collants en vrilles abyssales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de cherche-lumière",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissières d’étoile cristalline",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de rôdeur des profondeurs",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de l’Aube éclatante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau des êtres touchés par le Vide",
+					"id": 225749
+				}
+			},
+			{
+				"id": 44586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du regard de pierre",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29927,
+				"title": "Vue d’ensemble",
+				"body_text": "L’agrégation d’horreurs projette des éclats de roches pendant [Barrage cristallin]. Ces éclats émergent lors d’[Éveil sombre] sous la forme du Skardyn fracturé.",
+				"sections": [
+					{
+						"id": 29928,
+						"title": "Tanks",
+						"body_text": "$bullet;[Frappe de cristal] inflige de lourds dégâts d’ombre à l’impact et sur la durée.\r\n$bullet;[Tremblement de Vide] inflige des dégâts d’ombre aux personnages-joueurs pris dans un rayon de 150 mètres."
+					},
+					{
+						"id": 29929,
+						"title": "Soigneur",
+						"body_text": "$bullet;[Tremblement du Vide] inflige des dégâts d’ombre aux personnages-joueurs pris dans un rayon de 150 mètres.\r\n$bullet;[Barrage cristallin] inflige des dégâts élevés aux personnages-joueurs touchés par les éclats."
+					},
+					{
+						"id": 29930,
+						"title": "DPS",
+						"body_text": "$bullet;[Tremblement de Vide] inflige des dégâts d’ombre aux personnages-joueurs pris dans un rayon de 150 mètres.\r\n$bullet;L’agrégation d’horreurs lance [Barrage d’annihilation] quand aucun personnage-joueur ne se trouve en mêlée.\r\n$bullet;[Éveil sombre] crée un Skardyn fracturé qui attaque les personnages-joueurs proches."
+					}
+				]
+			},
+			{
+				"id": 29932,
+				"title": "Barrage cristallin",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452210?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrage cristallin",
+					"id": 452210
+				}
+			},
+			{
+				"id": 29933,
+				"title": "Éveil sombre",
+				"sections": [
+					{
+						"id": 29959,
+						"title": "Skardyn fracturé",
+						"body_text": "Skardyn fracturé issu du corps de l’agrégation d’horreurs.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 117974
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Éveil sombre",
+					"id": 453271
+				}
+			},
+			{
+				"id": 29931,
+				"title": "Tremblement de Vide",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tremblement de Vide",
+					"id": 452981
+				}
+			},
+			{
+				"id": 29934,
+				"title": "Frappe de cristal",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Frappe de cristal",
+					"id": 453294
+				}
+			},
+			{
+				"id": 29935,
+				"title": "Barrage d’annihilation",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/456148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrage d’annihilation",
+					"id": 456148
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2635?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2635,
+		"name": "Aggregation of Horrors",
+		"description": "An abomination birthed from void-tainted remnants of Skardyn, the Aggregation of Horrors stands as a unified monstrosity. This dread entity is poised to unleash its terrifying plague upon The Ringing Deeps.",
+		"creatures": [
+			{
+				"id": 5732,
+				"name": "Aggregation of Horrors",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119659?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119659
+				}
+			},
+			{
+				"id": 5731,
+				"name": "Fractured Skardyn",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 117974
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44578,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sturdy Chitinous Striders",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44579,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dornish Warden's Coat",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44580,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abyssal Tendril Tights",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44581,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightseeker's Robes",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44582,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Star Cuisses",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44583,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Dweller's Tabi",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44584,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Gleaming Dawn",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44585,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of the Void-Touched",
+					"id": 225749
+				}
+			},
+			{
+				"id": 44586,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stone Gaze Ceinture",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29927,
+				"title": "Overview",
+				"body_text": "The Aggregation of Horrors expels shards of rock during [Crystalline Barrage]. These shards arise Fractured Skardyn during[Dark Awakening].",
+				"sections": [
+					{
+						"id": 29928,
+						"title": "Tanks",
+						"body_text": "$bullet;[Crystal Strike] inflicts heavy Shadow damage on impact and over time.\r\n$bullet;[Voidquake] inflicts Shadow damage to players caught within 150 yards."
+					},
+					{
+						"id": 29929,
+						"title": "Healer",
+						"body_text": "$bullet;[Voidquake] inflicts Shadow damage to players caught within 150 yards.\r\n$bullet;[Crystalline Barrage] inflicts a large amount of damage to players hit by shards."
+					},
+					{
+						"id": 29930,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Voidquake] inflicts Shadow damage to players caught within 150 yards.\r\n$bullet;The Aggregation of Horrors cast [Annihilation Barrage] when no players are in melee combat.\r\n$bullet;[Dark Awakening] creates Fractured Skardyn that attack nearby players."
+					}
+				]
+			},
+			{
+				"id": 29932,
+				"title": "Crystalline Barrage",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452210?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystalline Barrage",
+					"id": 452210
+				}
+			},
+			{
+				"id": 29933,
+				"title": "Dark Awakening",
+				"sections": [
+					{
+						"id": 29959,
+						"title": "Fractured Skardyn",
+						"body_text": "Skardyn fractured from the Aggregation of Horrors' body.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/117974?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 117974
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453271?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Awakening",
+					"id": 453271
+				}
+			},
+			{
+				"id": 29931,
+				"title": "Voidquake",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/452981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Voidquake",
+					"id": 452981
+				}
+			},
+			{
+				"id": 29934,
+				"title": "Crystal Strike",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/453294?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Strike",
+					"id": 453294
+				}
+			},
+			{
+				"id": 29935,
+				"title": "Annihilation Barrage",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/456148?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Annihilation Barrage",
+					"id": 456148
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

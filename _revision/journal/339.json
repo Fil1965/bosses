@@ -1,0 +1,4731 @@
+{
+	"id": 339,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/339?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 339,
+		"name": "Alizabal, Señora del odio",
+		"description": "Los Kirin Tor encerraron a Alizabal en su formidable Bastión Violeta poco después de que los magi corruptos invocaran a la shivarra a Azeroth. A pesar de los resguardos arcanos que restringían su poder, la maliciosa influencia de la demonio provocó que sus carceleros se masacraran unos a otros movidos por ataques de ira. Su traslado al Bastión de Baradin antes del Cataclismo no ha hecho más que empeorar las condiciones ya ruinosas de esta prisión.",
+		"creatures": [
+			{
+				"id": 896,
+				"name": "Alizabal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21252?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21252
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 11245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de victoria de Gladiador cataclísmico",
+					"id": 73491
+				}
+			},
+			{
+				"id": 11247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de competencia de Gladiador cataclísmico",
+					"id": 73493
+				}
+			},
+			{
+				"id": 11248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de destreza de Gladiador cataclísmico",
+					"id": 73494
+				}
+			},
+			{
+				"id": 11249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de prontitud de Gladiador cataclísmico",
+					"id": 73495
+				}
+			},
+			{
+				"id": 11250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de victoria de Gladiador cataclísmico",
+					"id": 73496
+				}
+			},
+			{
+				"id": 11251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de dominancia de Gladiador cataclísmico",
+					"id": 73497
+				}
+			},
+			{
+				"id": 11252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de dominancia de Gladiador cataclísmico",
+					"id": 73498
+				}
+			},
+			{
+				"id": 11253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de malla de Gladiador cataclísmico",
+					"id": 73503
+				}
+			},
+			{
+				"id": 11254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de malla de Gladiador cataclísmico",
+					"id": 73505
+				}
+			},
+			{
+				"id": 11255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de crueldad de Gladiador cataclísmico",
+					"id": 73507
+				}
+			},
+			{
+				"id": 11256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos eslabonados de Gladiador cataclísmico",
+					"id": 73509
+				}
+			},
+			{
+				"id": 11257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes eslabonados de Gladiador cataclísmico",
+					"id": 73511
+				}
+			},
+			{
+				"id": 11258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de cota guarnecida de Gladiador cataclísmico",
+					"id": 73514
+				}
+			},
+			{
+				"id": 11259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73516?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de cota guarnecida de Gladiador cataclísmico",
+					"id": 73516
+				}
+			},
+			{
+				"id": 11260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de meditación de Gladiador cataclísmico",
+					"id": 73518
+				}
+			},
+			{
+				"id": 11261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de destreza de Gladiador cataclísmico",
+					"id": 73519
+				}
+			},
+			{
+				"id": 11262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de meditación de Gladiador cataclísmico",
+					"id": 73520
+				}
+			},
+			{
+				"id": 11263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73521?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador cataclísmico",
+					"id": 73521
+				}
+			},
+			{
+				"id": 11264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes de meditación de Gladiador cataclísmico",
+					"id": 73522
+				}
+			},
+			{
+				"id": 11265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73524?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de cuero de Gladiador cataclísmico",
+					"id": 73524
+				}
+			},
+			{
+				"id": 11266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del embozo ignoto",
+					"id": 76341
+				}
+			},
+			{
+				"id": 11267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de cuero de Gladiador cataclísmico",
+					"id": 73526
+				}
+			},
+			{
+				"id": 11268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del embozo ignoto",
+					"id": 76343
+				}
+			},
+			{
+				"id": 11239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de Gladiador cataclísmico",
+					"id": 73479
+				}
+			},
+			{
+				"id": 11240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de Gladiador cataclísmico",
+					"id": 73481
+				}
+			},
+			{
+				"id": 11241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de tejido vil de Gladiador cataclísmico",
+					"id": 73485
+				}
+			},
+			{
+				"id": 11242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de tejido vil de Gladiador cataclísmico",
+					"id": 73487
+				}
+			},
+			{
+				"id": 11243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de precisión de Gladiador cataclísmico",
+					"id": 73488
+				}
+			},
+			{
+				"id": 11244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de crueldad de Gladiador cataclísmico",
+					"id": 73489
+				}
+			},
+			{
+				"id": 11246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla de destreza de Gladiador cataclísmico",
+					"id": 73492
+				}
+			},
+			{
+				"id": 11269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de precisión de Gladiador cataclísmico",
+					"id": 73528
+				}
+			},
+			{
+				"id": 11270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazaletes de prontitud de Gladiador cataclísmico",
+					"id": 73529
+				}
+			},
+			{
+				"id": 11271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de luz moribunda",
+					"id": 76346
+				}
+			},
+			{
+				"id": 11272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de prontitud de Gladiador cataclísmico",
+					"id": 73530
+				}
+			},
+			{
+				"id": 11273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de crueldad de Gladiador cataclísmico",
+					"id": 73531
+				}
+			},
+			{
+				"id": 11274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de precisión de Gladiador cataclísmico",
+					"id": 73532
+				}
+			},
+			{
+				"id": 11275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de luz moribunda",
+					"id": 76348
+				}
+			},
+			{
+				"id": 11276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pretina de crueldad de Gladiador cataclísmico",
+					"id": 73533
+				}
+			},
+			{
+				"id": 11277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73534?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de meditación de Gladiador cataclísmico",
+					"id": 73534
+				}
+			},
+			{
+				"id": 11278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de meditación de Gladiador cataclísmico",
+					"id": 73535
+				}
+			},
+			{
+				"id": 11279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de tenacidad de Gladiador cataclísmico",
+					"id": 73536
+				}
+			},
+			{
+				"id": 11280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de tenacidad de Gladiador cataclísmico",
+					"id": 73537
+				}
+			},
+			{
+				"id": 11281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de crueldad de Gladiador cataclísmico",
+					"id": 73538
+				}
+			},
+			{
+				"id": 11282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Medallón de crueldad de Gladiador cataclísmico",
+					"id": 73539
+				}
+			},
+			{
+				"id": 11283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de luz moribunda",
+					"id": 76357
+				}
+			},
+			{
+				"id": 11284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de satén de Gladiador cataclísmico",
+					"id": 73542
+				}
+			},
+			{
+				"id": 11285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de luz moribunda",
+					"id": 76359
+				}
+			},
+			{
+				"id": 11286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de satén de Gladiador cataclísmico",
+					"id": 73544
+				}
+			},
+			{
+				"id": 11287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de tela lunar de Gladiador cataclísmico",
+					"id": 73547
+				}
+			},
+			{
+				"id": 11288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de gloria radiante",
+					"id": 76875
+				}
+			},
+			{
+				"id": 11289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76877?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de gloria radiante",
+					"id": 76877
+				}
+			},
+			{
+				"id": 11290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de tela lunar de Gladiador cataclísmico",
+					"id": 73549
+				}
+			},
+			{
+				"id": 11291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de prontitud de Gladiador cataclísmico",
+					"id": 73550
+				}
+			},
+			{
+				"id": 11292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avambrazos de competencia de Gladiador cataclísmico",
+					"id": 73551
+				}
+			},
+			{
+				"id": 11293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de prontitud de Gladiador cataclísmico",
+					"id": 73552
+				}
+			},
+			{
+				"id": 11294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas de guerra de crueldad de Gladiador cataclísmico",
+					"id": 73553
+				}
+			},
+			{
+				"id": 11295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de destreza de Gladiador cataclísmico",
+					"id": 73554
+				}
+			},
+			{
+				"id": 11296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de crueldad de Gladiador cataclísmico",
+					"id": 73555
+				}
+			},
+			{
+				"id": 11297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes ornamentados de Gladiador cataclísmico",
+					"id": 73557
+				}
+			},
+			{
+				"id": 11298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes ornamentados de Gladiador cataclísmico",
+					"id": 73559
+				}
+			},
+			{
+				"id": 11299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de meditación de Gladiador cataclísmico",
+					"id": 73561
+				}
+			},
+			{
+				"id": 11300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de destreza de Gladiador cataclísmico",
+					"id": 73562
+				}
+			},
+			{
+				"id": 11301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de meditación de Gladiador cataclísmico",
+					"id": 73563
+				}
+			},
+			{
+				"id": 11302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de prontitud de Gladiador cataclísmico",
+					"id": 73564
+				}
+			},
+			{
+				"id": 11303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de meditación de Gladiador cataclísmico",
+					"id": 73565
+				}
+			},
+			{
+				"id": 11304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73566?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinto de crueldad de Gladiador cataclísmico",
+					"id": 73566
+				}
+			},
+			{
+				"id": 11305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras escamadas de Gladiador cataclísmico",
+					"id": 73568
+				}
+			},
+			{
+				"id": 11306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes escamados de Gladiador cataclísmico",
+					"id": 73570
+				}
+			},
+			{
+				"id": 11307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de seda de Gladiador cataclísmico",
+					"id": 73574
+				}
+			},
+			{
+				"id": 11308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73576?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de seda de Gladiador cataclísmico",
+					"id": 73576
+				}
+			},
+			{
+				"id": 11309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73581?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de anillas de Gladiador cataclísmico",
+					"id": 73581
+				}
+			},
+			{
+				"id": 11310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de anillas de Gladiador cataclísmico",
+					"id": 73583
+				}
+			},
+			{
+				"id": 11311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de precisión de Gladiador cataclísmico",
+					"id": 73585
+				}
+			},
+			{
+				"id": 11312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73586?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de prontitud de Gladiador cataclísmico",
+					"id": 73586
+				}
+			},
+			{
+				"id": 11313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73587?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de prontitud de Gladiador cataclísmico",
+					"id": 73587
+				}
+			},
+			{
+				"id": 11314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpes de crueldad de Gladiador cataclísmico",
+					"id": 73588
+				}
+			},
+			{
+				"id": 11315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de precisión de Gladiador cataclísmico",
+					"id": 73589
+				}
+			},
+			{
+				"id": 11316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ligas de crueldad de Gladiador cataclísmico",
+					"id": 73590
+				}
+			},
+			{
+				"id": 11317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de meditación de Gladiador cataclísmico",
+					"id": 73591
+				}
+			},
+			{
+				"id": 11318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de tenacidad de Gladiador cataclísmico",
+					"id": 73592
+				}
+			},
+			{
+				"id": 11319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblema de crueldad de Gladiador cataclísmico",
+					"id": 73593
+				}
+			},
+			{
+				"id": 11320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de vermis de Gladiador cataclísmico",
+					"id": 73597
+				}
+			},
+			{
+				"id": 11321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73599?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de vermis de Gladiador cataclísmico",
+					"id": 73599
+				}
+			},
+			{
+				"id": 11322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de destreza de Gladiador cataclísmico",
+					"id": 73600
+				}
+			},
+			{
+				"id": 11323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de prontitud de Gladiador cataclísmico",
+					"id": 73601
+				}
+			},
+			{
+				"id": 11324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de crueldad de Gladiador cataclísmico",
+					"id": 73602
+				}
+			},
+			{
+				"id": 11325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de kodo de Gladiador cataclísmico",
+					"id": 73605
+				}
+			},
+			{
+				"id": 11326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de kodo de Gladiador cataclísmico",
+					"id": 73607
+				}
+			},
+			{
+				"id": 11327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73608?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras de meditación de Gladiador cataclísmico",
+					"id": 73608
+				}
+			},
+			{
+				"id": 11328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardapiés de meditación de Gladiador cataclísmico",
+					"id": 73609
+				}
+			},
+			{
+				"id": 11329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de meditación de Gladiador cataclísmico",
+					"id": 73610
+				}
+			},
+			{
+				"id": 11330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de pellejo de dragón de Gladiador cataclísmico",
+					"id": 73613
+				}
+			},
+			{
+				"id": 11331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de pellejo de dragón de Gladiador cataclísmico",
+					"id": 73615
+				}
+			},
+			{
+				"id": 11332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de tinieblas de Gladiador cataclísmico",
+					"id": 73617
+				}
+			},
+			{
+				"id": 11333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73619?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de tinieblas de Gladiador cataclísmico",
+					"id": 73619
+				}
+			},
+			{
+				"id": 11334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de meditación de Gladiador cataclísmico",
+					"id": 73621
+				}
+			},
+			{
+				"id": 11335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de precisión de Gladiador cataclísmico",
+					"id": 73622
+				}
+			},
+			{
+				"id": 11336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sortija de crueldad de Gladiador cataclísmico",
+					"id": 73623
+				}
+			},
+			{
+				"id": 11337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de meditación de Gladiador cataclísmico",
+					"id": 73625
+				}
+			},
+			{
+				"id": 11338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de difusión de Gladiador cataclísmico",
+					"id": 73626
+				}
+			},
+			{
+				"id": 11339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de prontitud de Gladiador cataclísmico",
+					"id": 73627
+				}
+			},
+			{
+				"id": 11340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73628?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de meditación de Gladiador cataclísmico",
+					"id": 73628
+				}
+			},
+			{
+				"id": 11341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de difusión de Gladiador cataclísmico",
+					"id": 73629
+				}
+			},
+			{
+				"id": 11342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de destreza de Gladiador cataclísmico",
+					"id": 73630
+				}
+			},
+			{
+				"id": 11343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de meditación de Gladiador cataclísmico",
+					"id": 73631
+				}
+			},
+			{
+				"id": 11344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de destreza de Gladiador cataclísmico",
+					"id": 73632
+				}
+			},
+			{
+				"id": 11345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Esposas de precisión de Gladiador cataclísmico",
+					"id": 73633
+				}
+			},
+			{
+				"id": 11346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de meditación de Gladiador cataclísmico",
+					"id": 73634
+				}
+			},
+			{
+				"id": 11347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73635?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de prontitud de Gladiador cataclísmico",
+					"id": 73635
+				}
+			},
+			{
+				"id": 11348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de crueldad de Gladiador cataclísmico",
+					"id": 73636
+				}
+			},
+			{
+				"id": 11349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73637?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de meditación de Gladiador cataclísmico",
+					"id": 73637
+				}
+			},
+			{
+				"id": 11350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de precisión de Gladiador cataclísmico",
+					"id": 73638
+				}
+			},
+			{
+				"id": 11351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón de crueldad de Gladiador cataclísmico",
+					"id": 73639
+				}
+			},
+			{
+				"id": 11352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de precisión de Gladiador cataclísmico",
+					"id": 73640
+				}
+			},
+			{
+				"id": 11353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de crueldad de Gladiador cataclísmico",
+					"id": 73641
+				}
+			},
+			{
+				"id": 11354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de conquista de Gladiador cataclísmico",
+					"id": 73643
+				}
+			},
+			{
+				"id": 11355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de destreza de Gladiador cataclísmico",
+					"id": 73644
+				}
+			},
+			{
+				"id": 11356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de competencia de Gladiador cataclísmico",
+					"id": 73645
+				}
+			},
+			{
+				"id": 11357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de destreza de Gladiador cataclísmico",
+					"id": 73646
+				}
+			},
+			{
+				"id": 11358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas óseas necróticas",
+					"id": 76975
+				}
+			},
+			{
+				"id": 11359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteo de crueldad de Gladiador cataclísmico",
+					"id": 73647
+				}
+			},
+			{
+				"id": 11360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Distintivo de conquista de Gladiador cataclísmico",
+					"id": 73648
+				}
+			},
+			{
+				"id": 11361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de placas óseas necróticas",
+					"id": 76977
+				}
+			},
+			{
+				"id": 11362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de señor del tiempo",
+					"id": 76212
+				}
+			},
+			{
+				"id": 11363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de señor del tiempo",
+					"id": 76214
+				}
+			},
+			{
+				"id": 11364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placas de dragón colosal",
+					"id": 76985
+				}
+			},
+			{
+				"id": 11365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de placas de dragón colosal",
+					"id": 76986
+				}
+			},
+			{
+				"id": 11366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de placas de dragón colosal",
+					"id": 76989
+				}
+			},
+			{
+				"id": 11367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas de dragón colosal",
+					"id": 76991
+				}
+			},
+			{
+				"id": 11368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de gloria radiante",
+					"id": 77004
+				}
+			},
+			{
+				"id": 11369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del interior de la tierra",
+					"id": 76749
+				}
+			},
+			{
+				"id": 11370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de gloria radiante",
+					"id": 77006
+				}
+			},
+			{
+				"id": 11371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del interior de la tierra",
+					"id": 76751
+				}
+			},
+			{
+				"id": 11372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de placas óseas necróticas",
+					"id": 77009
+				}
+			},
+			{
+				"id": 11373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de placas óseas necróticas",
+					"id": 77011
+				}
+			},
+			{
+				"id": 11374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas del caminaespíritus",
+					"id": 76757
+				}
+			},
+			{
+				"id": 11375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del interior de la tierra",
+					"id": 77014
+				}
+			},
+			{
+				"id": 11376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras del caminaespíritus",
+					"id": 76759
+				}
+			},
+			{
+				"id": 11377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del interior de la tierra",
+					"id": 77016
+				}
+			},
+			{
+				"id": 11378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del interior de la tierra",
+					"id": 77018
+				}
+			},
+			{
+				"id": 11379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos del interior de la tierra",
+					"id": 77020
+				}
+			},
+			{
+				"id": 11380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de gloria radiante",
+					"id": 76766
+				}
+			},
+			{
+				"id": 11381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grebas de gloria radiante",
+					"id": 76768
+				}
+			},
+			{
+				"id": 11382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de malla de batalla de Colmillo Negro",
+					"id": 77024
+				}
+			},
+			{
+				"id": 11383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de malla de batalla de Colmillo Negro",
+					"id": 77026
+				}
+			},
+			{
+				"id": 11384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de acechavermis",
+					"id": 77029
+				}
+			},
+			{
+				"id": 11385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de acechavermis",
+					"id": 77031
+				}
+			},
+			{
+				"id": 11386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda del caminaespíritus",
+					"id": 77036
+				}
+			},
+			{
+				"id": 11387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes del caminaespíritus",
+					"id": 77038
+				}
+			},
+			{
+				"id": 11388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del caminaespíritus",
+					"id": 77041
+				}
+			},
+			{
+				"id": 11389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras del caminaespíritus",
+					"id": 77043
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 4120,
+				"title": "Ensartar",
+				"body_text": "Alizabal ensarta a su objetivo actual y lo aturde durante 8 s. Además, Ensartar inflige 0 p. de daño físico cada 2 s y aumenta un 150% el daño que recibe el objetivo."
+			},
+			{
+				"id": 4121,
+				"title": "Odio hirviente",
+				"body_text": "Alizabal incita al Odio hirviente a un jugador aleatorio, lo que inflige 12034 p. de daño de Fuego total a todos los jugadores en un radio de 6 m cada 3s. El daño se divide entre todos los jugadores cercanos."
+			},
+			{
+				"id": 4122,
+				"title": "Danza de hojas",
+				"body_text": "Alizabal inicia una Danza de hojas que inflige 0 p. de daño físico cada segundo, y que aumenta con el tiempo, a todos los jugadores en un radio de 13 m. Además, la Danza de hojas desvía todos los ataques."
+			},
+			{
+				"id": 18668,
+				"title": "Solo en dificultad normal",
+				"body_text": "Bastión de Baradin solo está disponible en dificultad normal."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Bastión de Baradin",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/339?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 339,
+		"name": "Alizabal, maîtresse de la haine",
+		"description": "Le Kirin Tor emprisonna Alizabal dans le redoutable fort Pourpre, peu après que des magi corrompus eurent invoqué cette shivarra en Azeroth. Malgré les défenses arcaniques visant à restreindre ses pouvoirs, l’influence néfaste du démon lui permit d’inciter ses deux gardiens à s’entretuer dans un soudain accès de rage. Son transfert au bastion de Baradin peu avant le Cataclysme n’a fait qu’aggraver la condition de plus en plus précaire de la prison en ruines.",
+		"creatures": [
+			{
+				"id": 896,
+				"name": "Alizabal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21252?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21252
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 11245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de victoire de gladiateur cataclysmique",
+					"id": 73491
+				}
+			},
+			{
+				"id": 11247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir d'expertise du gladiateur cataclysmique",
+					"id": 73493
+				}
+			},
+			{
+				"id": 11248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de la prouesse du gladiateur cataclysmique",
+					"id": 73494
+				}
+			},
+			{
+				"id": 11249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape d'empressement du gladiateur cataclysmique",
+					"id": 73495
+				}
+			},
+			{
+				"id": 11250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de victoire du gladiateur cataclysmique",
+					"id": 73496
+				}
+			},
+			{
+				"id": 11251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de domination de gladiateur cataclysmique",
+					"id": 73497
+				}
+			},
+			{
+				"id": 11252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de domination du gladiateur cataclysmique",
+					"id": 73498
+				}
+			},
+			{
+				"id": 11253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur cataclysmique en mailles",
+					"id": 73503
+				}
+			},
+			{
+				"id": 11254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en mailles",
+					"id": 73505
+				}
+			},
+			{
+				"id": 11255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de cruauté du gladiateur cataclysmique",
+					"id": 73507
+				}
+			},
+			{
+				"id": 11256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières rivetées du gladiateur cataclysmique",
+					"id": 73509
+				}
+			},
+			{
+				"id": 11257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets rivetés du gladiateur cataclysmique",
+					"id": 73511
+				}
+			},
+			{
+				"id": 11258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur cataclysmique en mailles annelées",
+					"id": 73514
+				}
+			},
+			{
+				"id": 11259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73516?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en mailles annelées",
+					"id": 73516
+				}
+			},
+			{
+				"id": 11260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de méditation du gladiateur cataclysmique",
+					"id": 73518
+				}
+			},
+			{
+				"id": 11261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de prouesse du gladiateur cataclysmique",
+					"id": 73519
+				}
+			},
+			{
+				"id": 11262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de méditation du gladiateur cataclysmique",
+					"id": 73520
+				}
+			},
+			{
+				"id": 11263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73521?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur cataclysmique",
+					"id": 73521
+				}
+			},
+			{
+				"id": 11264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle de méditation du gladiateur cataclysmique",
+					"id": 73522
+				}
+			},
+			{
+				"id": 11265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73524?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en cuir",
+					"id": 73524
+				}
+			},
+			{
+				"id": 11266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du voile sans visage",
+					"id": 76341
+				}
+			},
+			{
+				"id": 11267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en cuir",
+					"id": 73526
+				}
+			},
+			{
+				"id": 11268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du voile sans visage",
+					"id": 76343
+				}
+			},
+			{
+				"id": 11239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en plaques",
+					"id": 73479
+				}
+			},
+			{
+				"id": 11240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en plaques",
+					"id": 73481
+				}
+			},
+			{
+				"id": 11241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur cataclysmique en tisse-gangrène",
+					"id": 73485
+				}
+			},
+			{
+				"id": 11242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur cataclysmique en tisse-gangrène",
+					"id": 73487
+				}
+			},
+			{
+				"id": 11243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de précision du gladiateur cataclysmique",
+					"id": 73488
+				}
+			},
+			{
+				"id": 11244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière de cruauté du gladiateur cataclysmique",
+					"id": 73489
+				}
+			},
+			{
+				"id": 11246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de prouesse du gladiateur cataclysmique",
+					"id": 73492
+				}
+			},
+			{
+				"id": 11269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras de précision du gladiateur cataclysmique",
+					"id": 73528
+				}
+			},
+			{
+				"id": 11270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras d'empressement du gladiateur cataclysmique",
+					"id": 73529
+				}
+			},
+			{
+				"id": 11271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la lumière mourante",
+					"id": 76346
+				}
+			},
+			{
+				"id": 11272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'empressement du gladiateur cataclysmique",
+					"id": 73530
+				}
+			},
+			{
+				"id": 11273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de cruauté du gladiateur cataclysmique",
+					"id": 73531
+				}
+			},
+			{
+				"id": 11274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de précision du gladiateur cataclysmique",
+					"id": 73532
+				}
+			},
+			{
+				"id": 11275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la lumière mourante",
+					"id": 76348
+				}
+			},
+			{
+				"id": 11276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baudrier de cruauté du gladiateur cataclysmique",
+					"id": 73533
+				}
+			},
+			{
+				"id": 11277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73534?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de méditation du gladiateur cataclysmique",
+					"id": 73534
+				}
+			},
+			{
+				"id": 11278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de méditation du gladiateur cataclysmique",
+					"id": 73535
+				}
+			},
+			{
+				"id": 11279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de ténacité du gladiateur cataclysmique",
+					"id": 73536
+				}
+			},
+			{
+				"id": 11280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de ténacité du gladiateur cataclysmique",
+					"id": 73537
+				}
+			},
+			{
+				"id": 11281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de cruauté du gladiateur cataclysmique",
+					"id": 73538
+				}
+			},
+			{
+				"id": 11282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Médaillon de cruauté du gladiateur cataclysmique",
+					"id": 73539
+				}
+			},
+			{
+				"id": 11283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la lumière mourante",
+					"id": 76357
+				}
+			},
+			{
+				"id": 11284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur cataclysmique en satin",
+					"id": 73542
+				}
+			},
+			{
+				"id": 11285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la lumière mourante",
+					"id": 76359
+				}
+			},
+			{
+				"id": 11286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en satin",
+					"id": 73544
+				}
+			},
+			{
+				"id": 11287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur cataclysmique en étoffe lunaire",
+					"id": 73547
+				}
+			},
+			{
+				"id": 11288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la gloire radieuse",
+					"id": 76875
+				}
+			},
+			{
+				"id": 11289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76877?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de la gloire radieuse",
+					"id": 76877
+				}
+			},
+			{
+				"id": 11290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en étoffe lunaire",
+					"id": 73549
+				}
+			},
+			{
+				"id": 11291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'empressement du gladiateur cataclysmique",
+					"id": 73550
+				}
+			},
+			{
+				"id": 11292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques de bras d'expertise du gladiateur cataclysmique",
+					"id": 73551
+				}
+			},
+			{
+				"id": 11293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre d'empressement du gladiateur cataclysmique",
+					"id": 73552
+				}
+			},
+			{
+				"id": 11294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes de guerre de cruauté du gladiateur cataclysmique",
+					"id": 73553
+				}
+			},
+			{
+				"id": 11295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de prouesse du gladiateur cataclysmique",
+					"id": 73554
+				}
+			},
+			{
+				"id": 11296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de cruauté du gladiateur cataclysmique",
+					"id": 73555
+				}
+			},
+			{
+				"id": 11297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards ornementés du gladiateur cataclysmique",
+					"id": 73557
+				}
+			},
+			{
+				"id": 11298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants ornementés du gladiateur cataclysmique",
+					"id": 73559
+				}
+			},
+			{
+				"id": 11299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de méditation du gladiateur cataclysmique",
+					"id": 73561
+				}
+			},
+			{
+				"id": 11300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de prouesse du gladiateur cataclysmique",
+					"id": 73562
+				}
+			},
+			{
+				"id": 11301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de méditation du gladiateur cataclysmique",
+					"id": 73563
+				}
+			},
+			{
+				"id": 11302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves d'empressement du gladiateur cataclysmique",
+					"id": 73564
+				}
+			},
+			{
+				"id": 11303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de méditation du gladiateur cataclysmique",
+					"id": 73565
+				}
+			},
+			{
+				"id": 11304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73566?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de cruauté du gladiateur cataclysmique",
+					"id": 73566
+				}
+			},
+			{
+				"id": 11305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en écailles",
+					"id": 73568
+				}
+			},
+			{
+				"id": 11306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en écailles",
+					"id": 73570
+				}
+			},
+			{
+				"id": 11307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chausses du gladiateur cataclysmique en soie",
+					"id": 73574
+				}
+			},
+			{
+				"id": 11308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73576?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du gladiateur cataclysmique en soie",
+					"id": 73576
+				}
+			},
+			{
+				"id": 11309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73581?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du gladiateur cataclysmique en anneaux",
+					"id": 73581
+				}
+			},
+			{
+				"id": 11310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en anneaux",
+					"id": 73583
+				}
+			},
+			{
+				"id": 11311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets de précision du gladiateur cataclysmique",
+					"id": 73585
+				}
+			},
+			{
+				"id": 11312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73586?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'empressement du gladiateur cataclysmique",
+					"id": 73586
+				}
+			},
+			{
+				"id": 11313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73587?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets d'empressement du gladiateur cataclysmique",
+					"id": 73587
+				}
+			},
+			{
+				"id": 11314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Solerets de cruauté du gladiateur cataclysmique",
+					"id": 73588
+				}
+			},
+			{
+				"id": 11315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de précision du gladiateur cataclysmique",
+					"id": 73589
+				}
+			},
+			{
+				"id": 11316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liens de cruauté du gladiateur cataclysmique",
+					"id": 73590
+				}
+			},
+			{
+				"id": 11317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de méditation du gladiateur cataclysmique",
+					"id": 73591
+				}
+			},
+			{
+				"id": 11318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de ténacité du gladiateur cataclysmique",
+					"id": 73592
+				}
+			},
+			{
+				"id": 11319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emblème de cruauté du gladiateur cataclysmique",
+					"id": 73593
+				}
+			},
+			{
+				"id": 11320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en peau de wyrm",
+					"id": 73597
+				}
+			},
+			{
+				"id": 11321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73599?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en peau de wyrm",
+					"id": 73599
+				}
+			},
+			{
+				"id": 11322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de prouesse du gladiateur cataclysmique",
+					"id": 73600
+				}
+			},
+			{
+				"id": 11323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias d'empressement du gladiateur cataclysmique",
+					"id": 73601
+				}
+			},
+			{
+				"id": 11324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de cruauté du gladiateur cataclysmique",
+					"id": 73602
+				}
+			},
+			{
+				"id": 11325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en cuir de kodo",
+					"id": 73605
+				}
+			},
+			{
+				"id": 11326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en cuir de kodo",
+					"id": 73607
+				}
+			},
+			{
+				"id": 11327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73608?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manchettes de méditation du gladiateur cataclysmique",
+					"id": 73608
+				}
+			},
+			{
+				"id": 11328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-tibias de méditation du gladiateur cataclysmique",
+					"id": 73609
+				}
+			},
+			{
+				"id": 11329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de méditation du gladiateur cataclysmique",
+					"id": 73610
+				}
+			},
+			{
+				"id": 11330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en peau de dragon",
+					"id": 73613
+				}
+			},
+			{
+				"id": 11331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du gladiateur cataclysmique en peau de dragon",
+					"id": 73615
+				}
+			},
+			{
+				"id": 11332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes du gladiateur cataclysmique en plaques d'effroi",
+					"id": 73617
+				}
+			},
+			{
+				"id": 11333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73619?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du gladiateur cataclysmique en plaques d'effroi",
+					"id": 73619
+				}
+			},
+			{
+				"id": 11334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de méditation du gladiateur cataclysmique",
+					"id": 73621
+				}
+			},
+			{
+				"id": 11335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de précision du gladiateur cataclysmique",
+					"id": 73622
+				}
+			},
+			{
+				"id": 11336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bague de cruauté du gladiateur cataclysmique",
+					"id": 73623
+				}
+			},
+			{
+				"id": 11337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de méditation du gladiateur cataclysmique",
+					"id": 73625
+				}
+			},
+			{
+				"id": 11338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif de diffusion du gladiateur cataclysmique",
+					"id": 73626
+				}
+			},
+			{
+				"id": 11339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif d'empressement du gladiateur cataclysmique",
+					"id": 73627
+				}
+			},
+			{
+				"id": 11340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73628?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de méditation du gladiateur cataclysmique",
+					"id": 73628
+				}
+			},
+			{
+				"id": 11341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de diffusion du gladiateur cataclysmique",
+					"id": 73629
+				}
+			},
+			{
+				"id": 11342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé de prouesse du gladiateur cataclysmique",
+					"id": 73630
+				}
+			},
+			{
+				"id": 11343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de méditation du gladiateur cataclysmique",
+					"id": 73631
+				}
+			},
+			{
+				"id": 11344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de prouesse du gladiateur cataclysmique",
+					"id": 73632
+				}
+			},
+			{
+				"id": 11345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de précision du gladiateur cataclysmique",
+					"id": 73633
+				}
+			},
+			{
+				"id": 11346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de méditation du gladiateur cataclysmique",
+					"id": 73634
+				}
+			},
+			{
+				"id": 11347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73635?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'empressement du gladiateur cataclysmique",
+					"id": 73635
+				}
+			},
+			{
+				"id": 11348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de cruauté du gladiateur cataclysmique",
+					"id": 73636
+				}
+			},
+			{
+				"id": 11349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73637?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de méditation du gladiateur cataclysmique",
+					"id": 73637
+				}
+			},
+			{
+				"id": 11350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de précision du gladiateur cataclysmique",
+					"id": 73638
+				}
+			},
+			{
+				"id": 11351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde de cruauté du gladiateur cataclysmique",
+					"id": 73639
+				}
+			},
+			{
+				"id": 11352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de précision du gladiateur cataclysmique",
+					"id": 73640
+				}
+			},
+			{
+				"id": 11353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de cruauté du gladiateur cataclysmique",
+					"id": 73641
+				}
+			},
+			{
+				"id": 11354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne de conquête de gladiateur cataclysmique",
+					"id": 73643
+				}
+			},
+			{
+				"id": 11355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de prouesse du gladiateur cataclysmique",
+					"id": 73644
+				}
+			},
+			{
+				"id": 11356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier d'expertise du gladiateur cataclysmique",
+					"id": 73645
+				}
+			},
+			{
+				"id": 11357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pèlerine de prouesse du gladiateur cataclysmique",
+					"id": 73646
+				}
+			},
+			{
+				"id": 11358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets nécrotiques en plaques d'os",
+					"id": 76975
+				}
+			},
+			{
+				"id": 11359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de cruauté du gladiateur cataclysmique",
+					"id": 73647
+				}
+			},
+			{
+				"id": 11360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ecusson de conquête du gladiateur cataclysmique",
+					"id": 73648
+				}
+			},
+			{
+				"id": 11361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves nécrotiques en plaques d'os",
+					"id": 76977
+				}
+			},
+			{
+				"id": 11362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du seigneur du temps",
+					"id": 76212
+				}
+			},
+			{
+				"id": 11363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières du seigneur du temps",
+					"id": 76214
+				}
+			},
+			{
+				"id": 11364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets colossaux en plaques de dragon",
+					"id": 76985
+				}
+			},
+			{
+				"id": 11365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards colossaux en plaques de dragon",
+					"id": 76986
+				}
+			},
+			{
+				"id": 11366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains colossaux en plaques de Dragon ardoise",
+					"id": 76989
+				}
+			},
+			{
+				"id": 11367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes colossaux en plaques de dragon",
+					"id": 76991
+				}
+			},
+			{
+				"id": 11368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de la gloire radieuse",
+					"id": 77004
+				}
+			},
+			{
+				"id": 11369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la terre profonde",
+					"id": 76749
+				}
+			},
+			{
+				"id": 11370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la gloire radieuse",
+					"id": 77006
+				}
+			},
+			{
+				"id": 11371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de la terre profonde",
+					"id": 76751
+				}
+			},
+			{
+				"id": 11372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains nécrotiques en plaques d'os",
+					"id": 77009
+				}
+			},
+			{
+				"id": 11373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes nécrotiques en plaques d'os",
+					"id": 77011
+				}
+			},
+			{
+				"id": 11374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de marcheur des esprits",
+					"id": 76757
+				}
+			},
+			{
+				"id": 11375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de la terre profonde",
+					"id": 77014
+				}
+			},
+			{
+				"id": 11376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards de marcheur des esprits",
+					"id": 76759
+				}
+			},
+			{
+				"id": 11377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de la terre profonde",
+					"id": 77016
+				}
+			},
+			{
+				"id": 11378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la terre profonde",
+					"id": 77018
+				}
+			},
+			{
+				"id": 11379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de la terre profonde",
+					"id": 77020
+				}
+			},
+			{
+				"id": 11380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la gloire radieuse",
+					"id": 76766
+				}
+			},
+			{
+				"id": 11381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grèves de la gloire radieuse",
+					"id": 76768
+				}
+			},
+			{
+				"id": 11382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de Croc-Noir en tisse-meurtre",
+					"id": 77024
+				}
+			},
+			{
+				"id": 11383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de Croc-Noir en tisse-meurtre",
+					"id": 77026
+				}
+			},
+			{
+				"id": 11384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de traqueur de wyrm",
+					"id": 77029
+				}
+			},
+			{
+				"id": 11385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de traqueur de wyrm",
+					"id": 77031
+				}
+			},
+			{
+				"id": 11386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de marcheur des esprits",
+					"id": 77036
+				}
+			},
+			{
+				"id": 11387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de marcheur des esprits",
+					"id": 77038
+				}
+			},
+			{
+				"id": 11388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de marcheur des esprits",
+					"id": 77041
+				}
+			},
+			{
+				"id": 11389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de marcheur des esprits",
+					"id": 77043
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 4120,
+				"title": "Embrocher",
+				"body_text": "Alizabal embroche sa cible actuelle, qui est étourdie pendant 8 s. De plus, Embrocher inflige 0 points de dégâts physiques toutes les 2 s et augmente les dégâts subis par la cible de 150%."
+			},
+			{
+				"id": 4121,
+				"title": "Haine vengeresse",
+				"body_text": "Alizabal fait monter une Haine vengeresse en une cible aléatoire, infligeant un total de 12034 points de dégâts de Feu toutes les 3 s à tous les personnages-joueurs à moins de 6 mètres d’elle. Les dégâts sont partagés entre tous les personnages-joueurs proches."
+			},
+			{
+				"id": 4122,
+				"title": "Danse des lames",
+				"body_text": "Alizabal entame une Danse des lames qui inflige 0 points de dégâts physiques toutes les secondes à tous les personnages-joueurs à moins de 13 mètres. De plus, ces dégâts physiques augmentent avec le temps et toutes les attaques entrantes sont déviées par la Danse des lames."
+			},
+			{
+				"id": 18668,
+				"title": "Mode normal uniquement",
+				"body_text": "Le bastion de Baradin n’est disponible qu’en mode normal."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Bastion de Baradin",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/339?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 339,
+		"name": "Alizabal, Mistress of Hate",
+		"description": "The Kirin Tor imprisoned Alizabal in their formidable Violet Hold not long after corrupt magi summoned the shivarra into Azeroth. Despite arcane wards restricting her powers, the demon's malicious influence alone caused her guards to murder one another in sudden fits of rage. Her transfer to Baradin Hold prior to the Cataclysm has only aggravated the ruined prison's increasingly dire conditions.",
+		"creatures": [
+			{
+				"id": 896,
+				"name": "Alizabal",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21252?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21252
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 11245,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73491?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Insignia of Victory",
+					"id": 73491
+				}
+			},
+			{
+				"id": 11247,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73493?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Choker of Proficiency",
+					"id": 73493
+				}
+			},
+			{
+				"id": 11248,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cloak of Prowess",
+					"id": 73494
+				}
+			},
+			{
+				"id": 11249,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cloak of Alacrity",
+					"id": 73495
+				}
+			},
+			{
+				"id": 11250,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73496?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Badge of Victory",
+					"id": 73496
+				}
+			},
+			{
+				"id": 11251,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Insignia of Dominance",
+					"id": 73497
+				}
+			},
+			{
+				"id": 11252,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Badge of Dominance",
+					"id": 73498
+				}
+			},
+			{
+				"id": 11253,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Mail Leggings",
+					"id": 73503
+				}
+			},
+			{
+				"id": 11254,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Mail Gauntlets",
+					"id": 73505
+				}
+			},
+			{
+				"id": 11255,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73507?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Waistguard of Cruelty",
+					"id": 73507
+				}
+			},
+			{
+				"id": 11256,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Linked Leggings",
+					"id": 73509
+				}
+			},
+			{
+				"id": 11257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73511?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Linked Gauntlets",
+					"id": 73511
+				}
+			},
+			{
+				"id": 11258,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73514?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ringmail Leggings",
+					"id": 73514
+				}
+			},
+			{
+				"id": 11259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73516?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ringmail Gauntlets",
+					"id": 73516
+				}
+			},
+			{
+				"id": 11260,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73518?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armbands of Meditation",
+					"id": 73518
+				}
+			},
+			{
+				"id": 11261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armbands of Prowess",
+					"id": 73519
+				}
+			},
+			{
+				"id": 11262,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73520?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Sabatons of Meditation",
+					"id": 73520
+				}
+			},
+			{
+				"id": 11263,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73521?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Sabatons of Alacrity",
+					"id": 73521
+				}
+			},
+			{
+				"id": 11264,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73522?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Waistguard of Meditation",
+					"id": 73522
+				}
+			},
+			{
+				"id": 11265,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73524?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Leather Legguards",
+					"id": 73524
+				}
+			},
+			{
+				"id": 11266,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of the Faceless Shroud",
+					"id": 76341
+				}
+			},
+			{
+				"id": 11267,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73526?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Leather Gloves",
+					"id": 73526
+				}
+			},
+			{
+				"id": 11268,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Faceless Shroud",
+					"id": 76343
+				}
+			},
+			{
+				"id": 11239,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Plate Legguards",
+					"id": 73479
+				}
+			},
+			{
+				"id": 11240,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73481?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Plate Gauntlets",
+					"id": 73481
+				}
+			},
+			{
+				"id": 11241,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Felweave Trousers",
+					"id": 73485
+				}
+			},
+			{
+				"id": 11242,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Felweave Handguards",
+					"id": 73487
+				}
+			},
+			{
+				"id": 11243,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73488?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Signet of Accuracy",
+					"id": 73488
+				}
+			},
+			{
+				"id": 11244,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73489?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Signet of Cruelty",
+					"id": 73489
+				}
+			},
+			{
+				"id": 11246,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73492?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Choker of Prowess",
+					"id": 73492
+				}
+			},
+			{
+				"id": 11269,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73528?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armwraps of Accuracy",
+					"id": 73528
+				}
+			},
+			{
+				"id": 11270,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73529?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armwraps of Alacrity",
+					"id": 73529
+				}
+			},
+			{
+				"id": 11271,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Dying Light",
+					"id": 76346
+				}
+			},
+			{
+				"id": 11272,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73530?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Boots of Alacrity",
+					"id": 73530
+				}
+			},
+			{
+				"id": 11273,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Boots of Cruelty",
+					"id": 73531
+				}
+			},
+			{
+				"id": 11274,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73532?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Waistband of Accuracy",
+					"id": 73532
+				}
+			},
+			{
+				"id": 11275,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76348?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Dying Light",
+					"id": 76348
+				}
+			},
+			{
+				"id": 11276,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73533?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Waistband of Cruelty",
+					"id": 73533
+				}
+			},
+			{
+				"id": 11277,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73534?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Meditation",
+					"id": 73534
+				}
+			},
+			{
+				"id": 11278,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73535?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Meditation",
+					"id": 73535
+				}
+			},
+			{
+				"id": 11279,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73536?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Tenacity",
+					"id": 73536
+				}
+			},
+			{
+				"id": 11280,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73537?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Tenacity",
+					"id": 73537
+				}
+			},
+			{
+				"id": 11281,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73538?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Cruelty",
+					"id": 73538
+				}
+			},
+			{
+				"id": 11282,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73539?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Medallion of Cruelty",
+					"id": 73539
+				}
+			},
+			{
+				"id": 11283,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of Dying Light",
+					"id": 76357
+				}
+			},
+			{
+				"id": 11284,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73542?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Satin Leggings",
+					"id": 73542
+				}
+			},
+			{
+				"id": 11285,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76359?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legwraps of Dying Light",
+					"id": 76359
+				}
+			},
+			{
+				"id": 11286,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73544?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Satin Gloves",
+					"id": 73544
+				}
+			},
+			{
+				"id": 11287,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73547?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Mooncloth Leggings",
+					"id": 73547
+				}
+			},
+			{
+				"id": 11288,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76875?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Radiant Glory",
+					"id": 76875
+				}
+			},
+			{
+				"id": 11289,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76877?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of Radiant Glory",
+					"id": 76877
+				}
+			},
+			{
+				"id": 11290,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73549?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Mooncloth Gloves",
+					"id": 73549
+				}
+			},
+			{
+				"id": 11291,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armplates of Alacrity",
+					"id": 73550
+				}
+			},
+			{
+				"id": 11292,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73551?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Armplates of Proficiency",
+					"id": 73551
+				}
+			},
+			{
+				"id": 11293,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73552?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Warboots of Alacrity",
+					"id": 73552
+				}
+			},
+			{
+				"id": 11294,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73553?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Warboots of Cruelty",
+					"id": 73553
+				}
+			},
+			{
+				"id": 11295,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73554?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Girdle of Prowess",
+					"id": 73554
+				}
+			},
+			{
+				"id": 11296,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73555?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Girdle of Cruelty",
+					"id": 73555
+				}
+			},
+			{
+				"id": 11297,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73557?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ornamented Legplates",
+					"id": 73557
+				}
+			},
+			{
+				"id": 11298,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73559?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ornamented Gloves",
+					"id": 73559
+				}
+			},
+			{
+				"id": 11299,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73561?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Bracers of Meditation",
+					"id": 73561
+				}
+			},
+			{
+				"id": 11300,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73562?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Bracers of Prowess",
+					"id": 73562
+				}
+			},
+			{
+				"id": 11301,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73563?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Greaves of Meditation",
+					"id": 73563
+				}
+			},
+			{
+				"id": 11302,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73564?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Greaves of Alacrity",
+					"id": 73564
+				}
+			},
+			{
+				"id": 11303,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73565?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Clasp of Meditation",
+					"id": 73565
+				}
+			},
+			{
+				"id": 11304,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73566?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Clasp of Cruelty",
+					"id": 73566
+				}
+			},
+			{
+				"id": 11305,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Scaled Legguards",
+					"id": 73568
+				}
+			},
+			{
+				"id": 11306,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73570?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Scaled Gauntlets",
+					"id": 73570
+				}
+			},
+			{
+				"id": 11307,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73574?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Silk Trousers",
+					"id": 73574
+				}
+			},
+			{
+				"id": 11308,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73576?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Silk Handguards",
+					"id": 73576
+				}
+			},
+			{
+				"id": 11309,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73581?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Chain Leggings",
+					"id": 73581
+				}
+			},
+			{
+				"id": 11310,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73583?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Chain Gauntlets",
+					"id": 73583
+				}
+			},
+			{
+				"id": 11311,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73585?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Wristguards of Accuracy",
+					"id": 73585
+				}
+			},
+			{
+				"id": 11312,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73586?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Wristguards of Alacrity",
+					"id": 73586
+				}
+			},
+			{
+				"id": 11313,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73587?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Sabatons of Alacrity",
+					"id": 73587
+				}
+			},
+			{
+				"id": 11314,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73588?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Sabatons of Cruelty",
+					"id": 73588
+				}
+			},
+			{
+				"id": 11315,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73589?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Links of Accuracy",
+					"id": 73589
+				}
+			},
+			{
+				"id": 11316,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73590?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Links of Cruelty",
+					"id": 73590
+				}
+			},
+			{
+				"id": 11317,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73591?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Emblem of Meditation",
+					"id": 73591
+				}
+			},
+			{
+				"id": 11318,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73592?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Emblem of Tenacity",
+					"id": 73592
+				}
+			},
+			{
+				"id": 11319,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73593?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Emblem of Cruelty",
+					"id": 73593
+				}
+			},
+			{
+				"id": 11320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73597?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Wyrmhide Legguards",
+					"id": 73597
+				}
+			},
+			{
+				"id": 11321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73599?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Wyrmhide Gloves",
+					"id": 73599
+				}
+			},
+			{
+				"id": 11322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Bindings of Prowess",
+					"id": 73600
+				}
+			},
+			{
+				"id": 11323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73601?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Footguards of Alacrity",
+					"id": 73601
+				}
+			},
+			{
+				"id": 11324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73602?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Belt of Cruelty",
+					"id": 73602
+				}
+			},
+			{
+				"id": 11325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73605?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Kodohide Legguards",
+					"id": 73605
+				}
+			},
+			{
+				"id": 11326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73607?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Kodohide Gloves",
+					"id": 73607
+				}
+			},
+			{
+				"id": 11327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73608?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Bindings of Meditation",
+					"id": 73608
+				}
+			},
+			{
+				"id": 11328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73609?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Footguards of Meditation",
+					"id": 73609
+				}
+			},
+			{
+				"id": 11329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Belt of Meditation",
+					"id": 73610
+				}
+			},
+			{
+				"id": 11330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Dragonhide Legguards",
+					"id": 73613
+				}
+			},
+			{
+				"id": 11331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Dragonhide Gloves",
+					"id": 73615
+				}
+			},
+			{
+				"id": 11332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Dreadplate Legguards",
+					"id": 73617
+				}
+			},
+			{
+				"id": 11333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73619?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Dreadplate Gauntlets",
+					"id": 73619
+				}
+			},
+			{
+				"id": 11334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73621?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Band of Meditation",
+					"id": 73621
+				}
+			},
+			{
+				"id": 11335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Band of Accuracy",
+					"id": 73622
+				}
+			},
+			{
+				"id": 11336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73623?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Band of Cruelty",
+					"id": 73623
+				}
+			},
+			{
+				"id": 11337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73625?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Pendant of Meditation",
+					"id": 73625
+				}
+			},
+			{
+				"id": 11338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73626?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Pendant of Diffusion",
+					"id": 73626
+				}
+			},
+			{
+				"id": 11339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73627?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Pendant of Alacrity",
+					"id": 73627
+				}
+			},
+			{
+				"id": 11340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73628?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Drape of Meditation",
+					"id": 73628
+				}
+			},
+			{
+				"id": 11341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73629?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Drape of Diffusion",
+					"id": 73629
+				}
+			},
+			{
+				"id": 11342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73630?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Drape of Prowess",
+					"id": 73630
+				}
+			},
+			{
+				"id": 11343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73631?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cuffs of Meditation",
+					"id": 73631
+				}
+			},
+			{
+				"id": 11344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73632?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cuffs of Prowess",
+					"id": 73632
+				}
+			},
+			{
+				"id": 11345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73633?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cuffs of Accuracy",
+					"id": 73633
+				}
+			},
+			{
+				"id": 11346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73634?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Treads of Meditation",
+					"id": 73634
+				}
+			},
+			{
+				"id": 11347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73635?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Treads of Alacrity",
+					"id": 73635
+				}
+			},
+			{
+				"id": 11348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73636?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Treads of Cruelty",
+					"id": 73636
+				}
+			},
+			{
+				"id": 11349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73637?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cord of Meditation",
+					"id": 73637
+				}
+			},
+			{
+				"id": 11350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73638?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cord of Accuracy",
+					"id": 73638
+				}
+			},
+			{
+				"id": 11351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73639?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cord of Cruelty",
+					"id": 73639
+				}
+			},
+			{
+				"id": 11352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ring of Accuracy",
+					"id": 73640
+				}
+			},
+			{
+				"id": 11353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73641?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Ring of Cruelty",
+					"id": 73641
+				}
+			},
+			{
+				"id": 11354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Insignia of Conquest",
+					"id": 73643
+				}
+			},
+			{
+				"id": 11355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Necklace of Prowess",
+					"id": 73644
+				}
+			},
+			{
+				"id": 11356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73645?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Necklace of Proficiency",
+					"id": 73645
+				}
+			},
+			{
+				"id": 11357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cape of Prowess",
+					"id": 73646
+				}
+			},
+			{
+				"id": 11358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76975?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necrotic Boneplate Gauntlets",
+					"id": 76975
+				}
+			},
+			{
+				"id": 11359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Cape of Cruelty",
+					"id": 73647
+				}
+			},
+			{
+				"id": 11360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/73648?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cataclysmic Gladiator's Badge of Conquest",
+					"id": 73648
+				}
+			},
+			{
+				"id": 11361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necrotic Boneplate Greaves",
+					"id": 76977
+				}
+			},
+			{
+				"id": 11362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76212?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Time Lord's Gloves",
+					"id": 76212
+				}
+			},
+			{
+				"id": 11363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76214?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Time Lord's Leggings",
+					"id": 76214
+				}
+			},
+			{
+				"id": 11364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76985?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colossal Dragonplate Gauntlets",
+					"id": 76985
+				}
+			},
+			{
+				"id": 11365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76986?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colossal Dragonplate Legplates",
+					"id": 76986
+				}
+			},
+			{
+				"id": 11366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76989?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colossal Dragonplate Handguards",
+					"id": 76989
+				}
+			},
+			{
+				"id": 11367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colossal Dragonplate Legguards",
+					"id": 76991
+				}
+			},
+			{
+				"id": 11368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of Radiant Glory",
+					"id": 77004
+				}
+			},
+			{
+				"id": 11369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Handwraps",
+					"id": 76749
+				}
+			},
+			{
+				"id": 11370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Radiant Glory",
+					"id": 77006
+				}
+			},
+			{
+				"id": 11371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Legwraps",
+					"id": 76751
+				}
+			},
+			{
+				"id": 11372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necrotic Boneplate Handguards",
+					"id": 77009
+				}
+			},
+			{
+				"id": 11373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necrotic Boneplate Legguards",
+					"id": 77011
+				}
+			},
+			{
+				"id": 11374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Handwraps",
+					"id": 76757
+				}
+			},
+			{
+				"id": 11375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77014?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Grips",
+					"id": 77014
+				}
+			},
+			{
+				"id": 11376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Legwraps",
+					"id": 76759
+				}
+			},
+			{
+				"id": 11377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77016?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Legguards",
+					"id": 77016
+				}
+			},
+			{
+				"id": 11378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77018?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Gloves",
+					"id": 77018
+				}
+			},
+			{
+				"id": 11379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77020?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Earth Leggings",
+					"id": 77020
+				}
+			},
+			{
+				"id": 11380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Radiant Glory",
+					"id": 76766
+				}
+			},
+			{
+				"id": 11381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/76768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greaves of Radiant Glory",
+					"id": 76768
+				}
+			},
+			{
+				"id": 11382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77024?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blackfang Battleweave Gloves",
+					"id": 77024
+				}
+			},
+			{
+				"id": 11383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77026?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blackfang Battleweave Legguards",
+					"id": 77026
+				}
+			},
+			{
+				"id": 11384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wyrmstalker's Gloves",
+					"id": 77029
+				}
+			},
+			{
+				"id": 11385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wyrmstalker's Legguards",
+					"id": 77031
+				}
+			},
+			{
+				"id": 11386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77036?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Kilt",
+					"id": 77036
+				}
+			},
+			{
+				"id": 11387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Gloves",
+					"id": 77038
+				}
+			},
+			{
+				"id": 11388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Grips",
+					"id": 77041
+				}
+			},
+			{
+				"id": 11389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/77043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spiritwalker's Legguards",
+					"id": 77043
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 4120,
+				"title": "Skewer",
+				"body_text": "Alizabal skewers and stuns her current target for 8 sec. Skewer also inflicts 0 Physical damage every 2 sec. and increases the target's damage taken by 150%."
+			},
+			{
+				"id": 4121,
+				"title": "Seething Hate",
+				"body_text": "Alizabal incites Seething Hate in a random player, inflicting 12,034 total Fire damage to all players within 6 yards of the target every 3 sec. The damage is split amongst all of the nearby players."
+			},
+			{
+				"id": 4122,
+				"title": "Blade Dance",
+				"body_text": "Alizabal enters a Blade Dance and inflicts 0 Physical damage every sec. increasing over time, to every player within 13 yards. The Blade Dance also deflects all incoming attacks."
+			},
+			{
+				"id": 18668,
+				"title": "Normal Difficulty Only",
+				"body_text": "Baradin Hold is only available on Normal Difficulty."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/75?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Baradin Hold",
+			"id": 75
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			}
+		]
+	}
+}

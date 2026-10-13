@@ -1,0 +1,546 @@
+{
+	"id": 1883,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1883?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1883,
+		"name": "Brutallus",
+		"description": "El señor del foso Brutallus es un veterano que ha librado numerosas batallas, entre ellas la que tuvo lugar hace poco en La Fuente del Sol. Sus tácticas no son muy sofisticadas y suele confiar en la fuerza bruta para subyugar a los ejércitos enemigos.",
+		"creatures": [
+			{
+				"id": 4340,
+				"name": "Brutallus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/66677?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 66677
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33976,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes rígidos de guardameteoros",
+					"id": 147739
+				}
+			},
+			{
+				"id": 33977,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corazón miserable de Brutallus",
+					"id": 147755
+				}
+			},
+			{
+				"id": 33978,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de calamidad resonante",
+					"id": 147732
+				}
+			},
+			{
+				"id": 33979,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bandas de estrategia cruda",
+					"id": 147747
+				}
+			},
+			{
+				"id": 33980,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ascua aplastante",
+					"id": 147756
+				}
+			},
+			{
+				"id": 33981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de tenacidad infame",
+					"id": 147748
+				}
+			},
+			{
+				"id": 33982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de zelote violento",
+					"id": 147742
+				}
+			},
+			{
+				"id": 33983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de deceso ardiente",
+					"id": 147765
+				}
+			},
+			{
+				"id": 33984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de furia vil pulido",
+					"id": 147749
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14791,
+				"title": "Resumen",
+				"body_text": "El [Tajo meteórico] de Brutallus es devastador a no ser que su daño se reparta entre muchos enemigos.\r\n\r\nEvita recibir daño de [Ascuas aplastantes], sobre todo cuando estés bajo el efecto de [Tajo meteórico].",
+				"sections": [
+					{
+						"id": 14794,
+						"title": "DPS",
+						"body_text": "$bullet;Mantente cerca de tus aliados cuando Brutallus lance [Tajo meteórico].\r\n$bullet;Evita recibir daño de [Ascuas aplastantes], sobre todo cuando estés bajo el efecto de [Tajo meteórico]."
+					},
+					{
+						"id": 14795,
+						"title": "Tanques",
+						"body_text": "$bullet;Sitúa a Brutallus de cara a un gran grupo de aliados cuando lance [Tajo meteórico]."
+					},
+					{
+						"id": 14792,
+						"title": "Sanadores",
+						"body_text": "$bullet;Mantente cerca de tus aliados cuando Brutallus lance [Tajo meteórico].\r\n$bullet;Asegúrate de sanar primero a los aliados afectados por [Tajo meteórico] de forma abundante si sufren el efecto de [Ascuas aplastantes]."
+					}
+				]
+			},
+			{
+				"id": 14796,
+				"title": "Tajo meteórico",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tajo meteórico",
+					"id": 233484
+				}
+			},
+			{
+				"id": 14797,
+				"title": "Ascuas aplastantes",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ascuas aplastantes",
+					"id": 233519
+				}
+			},
+			{
+				"id": 14793,
+				"title": "Ruptura",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruptura",
+					"id": 234394
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Islas Abruptas",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1883?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1883,
+		"name": "Brutallus",
+		"description": "Vétéran aguerri, le seigneur des abîmes Brutallus a participé à maintes batailles, y compris au dernier combat au Puits de soleil. Ses tactiques rudimentaires font la part belle à la force brute pour soumettre les armées adverses.",
+		"creatures": [
+			{
+				"id": 4340,
+				"name": "Brutallus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/66677?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 66677
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33976,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de paramétéore rigides",
+					"id": 147739
+				}
+			},
+			{
+				"id": 33977,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cœur meurtri de Brutallus",
+					"id": 147755
+				}
+			},
+			{
+				"id": 33978,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières de calamité résonnante",
+					"id": 147732
+				}
+			},
+			{
+				"id": 33979,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracières de stratégie grossière",
+					"id": 147747
+				}
+			},
+			{
+				"id": 33980,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise percutante",
+					"id": 147756
+				}
+			},
+			{
+				"id": 33981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de ténacité effroyable",
+					"id": 147748
+				}
+			},
+			{
+				"id": 33982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules du zélote violent",
+					"id": 147742
+				}
+			},
+			{
+				"id": 33983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fermoir de la mort ardente",
+					"id": 147765
+				}
+			},
+			{
+				"id": 33984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque gangrefurie poli",
+					"id": 147749
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14791,
+				"title": "Vue d’ensemble",
+				"body_text": "L’[Attaque météorique] de Brutallus est dévastatrice à moins que ses dégâts soient répartis entre de nombreux ennemis.\r\n\r\nÉvitez les dégâts infligés par [Braises percutantes], en particulier lorsque vous subissez les effets d’[Attaque météorique].",
+				"sections": [
+					{
+						"id": 14794,
+						"title": "DPS",
+						"body_text": "$bullet;Restez près de vos alliés lorsque Brutallus lance [Attaque météorique].\r\n$bullet;Évitez les dégâts infligés par [Braises percutantes], en particulier lorsque vous subissez les effets d’[Attaque météorique]."
+					},
+					{
+						"id": 14795,
+						"title": "Tanks",
+						"body_text": "$bullet;Orientez Brutallus vers un grand groupe d’alliés lorsqu’il lance [Attaque météorique]."
+					},
+					{
+						"id": 14792,
+						"title": "Soigneurs",
+						"body_text": "ullet; Restez près de vos alliés lorsque Brutallus lance [Attaque météorique].\r\n$bullet; Prodiguez des soins importants en priorité aux alliés touchés par [Attaque météorique] s’ils subissent les effets de [Braises percutantes]."
+					}
+				]
+			},
+			{
+				"id": 14796,
+				"title": "Attaque météorique",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Attaque météorique",
+					"id": 233484
+				}
+			},
+			{
+				"id": 14797,
+				"title": "Braises percutantes",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braises percutantes",
+					"id": 233519
+				}
+			},
+			{
+				"id": 14793,
+				"title": "Rupture",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rupture",
+					"id": 234394
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Îles Brisées",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1883?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1883,
+		"name": "Brutallus",
+		"description": "The pit lord Brutallus is a veteran of many battles, including the most recent battle at the Sunwell. His tactics are rarely sophisticated, often relying on pure force to dominate enemy armies.",
+		"creatures": [
+			{
+				"id": 4340,
+				"name": "Brutallus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/66677?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 66677
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33976,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rigid Meteorguard Gauntlets",
+					"id": 147739
+				}
+			},
+			{
+				"id": 33977,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brutallus's Wretched Heart",
+					"id": 147755
+				}
+			},
+			{
+				"id": 33978,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leggings of Echoing Calamity",
+					"id": 147732
+				}
+			},
+			{
+				"id": 33979,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147747?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Armbands of Crude Strategy",
+					"id": 147747
+				}
+			},
+			{
+				"id": 33980,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crashing Ember",
+					"id": 147756
+				}
+			},
+			{
+				"id": 33981,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of Dreadful Tenacity",
+					"id": 147748
+				}
+			},
+			{
+				"id": 33982,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Violent Zealot's Shoulderpads",
+					"id": 147742
+				}
+			},
+			{
+				"id": 33983,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clasp of Burning Demise",
+					"id": 147765
+				}
+			},
+			{
+				"id": 33984,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Polished Felfury Helmet",
+					"id": 147749
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14791,
+				"title": "Overview",
+				"body_text": "Brutallus' [Meteor Slash] is devastating unless its damage is shared between many enemies.\r\n\r\nAvoid taking damage from [Crashing Embers], especially when affected by [Meteor Slash].",
+				"sections": [
+					{
+						"id": 14794,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Stand near your allies when Brutallus casts [Meteor Slash].\r\n$bullet;Avoid taking damage from [Crashing Embers], especially when affected by [Meteor Slash]."
+					},
+					{
+						"id": 14795,
+						"title": "Tanks",
+						"body_text": "$bullet;Face Brutallus toward a large group of allies when he casts [Meteor Slash]."
+					},
+					{
+						"id": 14792,
+						"title": "Healers",
+						"body_text": "$bullet;Stand near your allies when Brutallus casts [Meteor Slash].\r\n$bullet;Prioritize allies affected by [Meteor Slash] for heavy healing if they are affected by [Crashing Embers]."
+					}
+				]
+			},
+			{
+				"id": 14796,
+				"title": "Meteor Slash",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Meteor Slash",
+					"id": 233484
+				}
+			},
+			{
+				"id": 14797,
+				"title": "Crashing Embers",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233519?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crashing Embers",
+					"id": 233519
+				}
+			},
+			{
+				"id": 14793,
+				"title": "Rupture",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234394?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rupture",
+					"id": 234394
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Broken Isles",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

@@ -3,11 +3,12 @@
 ## Notes: Boss explanations for Midnight raids, dungeons and world bosses (ES/EN)
 ## Notes-esES: Explicaciones de las bandas, mazmorras y jefes de mundo de Midnight (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.7
+## Version: 1.0.10
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_Midnight_es.lua
 Bosses_Midnight_en.lua
+Bosses_Midnight_fr.lua
 Bosses_Midnight_enc.lua
 Bosses_Midnight_zonas.lua
 Bosses_Midnight.lua

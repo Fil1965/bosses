@@ -1,0 +1,567 @@
+{
+	"id": 660,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/660?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 660,
+		"name": "Maestro de canes Braun",
+		"description": "La forma más rápida y más segura de detectar a los no-muertos es mediante el hedor que desprenden, pero ni el más veterano de los soldados supera a un can en lo que respecta al sentido del olfato. El maestro de canes Braun ha criado y entrenado a una camada salvaje de canes para ayudar a los cruzados a cazar a sus enemigos, tanto vivos como no-muertos.",
+		"creatures": [
+			{
+				"id": 1326,
+				"name": "Maestro de canes Braun",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42264?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 42264
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de instructor de canes",
+					"id": 144192
+				}
+			},
+			{
+				"id": 33485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ballesta de poleas del maestro de canes",
+					"id": 144190
+				}
+			},
+			{
+				"id": 33486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de vinculador de bestias",
+					"id": 144177
+				}
+			},
+			{
+				"id": 33487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de mando",
+					"id": 144191
+				}
+			},
+			{
+				"id": 13886,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88264?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ballesta de poleas del maestro de canes",
+					"id": 88264
+				}
+			},
+			{
+				"id": 13887,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de vinculador de bestias",
+					"id": 88265
+				}
+			},
+			{
+				"id": 13888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de instructor de canes",
+					"id": 88266
+				}
+			},
+			{
+				"id": 13889,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de mando",
+					"id": 88267
+				}
+			},
+			{
+				"id": 13890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de comandante canino",
+					"id": 88268
+				}
+			},
+			{
+				"id": 33343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de Comandante canino",
+					"id": 143966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5606,
+				"title": "Lanzamiento perforador",
+				"body_text": "El maestro de canes Braun lanza uno de sus cuchillos hacia un enemigo aleatorio, lo que inflige 0 p. de daño físico y aplica Carnicería sangrienta a todos los enemigos en el camino del cuchillo."
+			},
+			{
+				"id": 5607,
+				"title": "Estrella mortal",
+				"body_text": "El maestro de canes Braun salta sobre un enemigo aleatorio y comienza a girar lanzando cuchillos a todos los objetivos en un radio de 5 m, lo que inflige 0 p. de daño físico y aplica Carnicería sangrienta al objetivo y a cualquiera de sus aliados cercanos."
+			},
+			{
+				"id": 6262,
+				"title": "Carnicería sangrienta",
+				"body_text": "El ataque con cuchillos del maestro de canes Braun inflige 461 p. de daño a un enemigo cada 2 s durante 10 s. Este efecto se acumula.\r\n\r\nBraun activa este efecto en cualquier objetivo que haya recibido un impacto de Lanzamiento perforador o Estrella mortal."
+			},
+			{
+				"id": 5608,
+				"title": "Llamar a perro",
+				"body_text": "El maestro de canes Braun invoca un can obediente para que entre en la pelea cuando su salud llegue al 90%, 80%, 70% y 60%.",
+				"sections": [
+					{
+						"id": 5609,
+						"title": "Can obediente",
+						"body_text": "Entrenado por el maestro de canes Braun, este gran mastín obedece todas las órdenes que le da su amo.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41324?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 41324
+						}
+					}
+				]
+			},
+			{
+				"id": 5611,
+				"title": "Rabia sangrienta",
+				"body_text": "Al llegar al 50% de su salud restante el maestro de canes Braun ya no puede controlar a sus perros, comienza a atacar un 50% más rápido e inflige un 0% más de daño."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/311?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Cámaras Escarlata",
+			"id": 311
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mazmorras míticas+"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/660?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 660,
+		"name": "Maître-chien Braun",
+		"description": "Le moyen le plus rapide et le plus sûr de débusquer les Morts-vivants est l'odeur de pourriture qui les caractérise, et même le plus grand vétéran ne peut rivaliser avec l'odorat d'un chien. Le maître-chien Braun a élevé et entraîné une féroce meute de molosses pour aider les croisés à chasser leurs ennemis, qu'ils soient vivants ou morts.",
+		"creatures": [
+			{
+				"id": 1326,
+				"name": "Maître-chien Braun",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42264?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 42264
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de maître-chien",
+					"id": 144192
+				}
+			},
+			{
+				"id": 33485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalète à levier de maître-chien",
+					"id": 144190
+				}
+			},
+			{
+				"id": 33486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de lieur de bêtes",
+					"id": 144177
+				}
+			},
+			{
+				"id": 33487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de commandement",
+					"id": 144191
+				}
+			},
+			{
+				"id": 13886,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88264?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalète à levier de maître-chien",
+					"id": 88264
+				}
+			},
+			{
+				"id": 13887,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de lieur de bêtes",
+					"id": 88265
+				}
+			},
+			{
+				"id": 13888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de maître-chien",
+					"id": 88266
+				}
+			},
+			{
+				"id": 13889,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de commandement",
+					"id": 88267
+				}
+			},
+			{
+				"id": 13890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de commandant des chiens",
+					"id": 88268
+				}
+			},
+			{
+				"id": 33343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de commandant des chiens",
+					"id": 143966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5606,
+				"title": "Lancer perforant",
+				"body_text": "Le maître-chien Braun lance l’un de ses couteaux sur un ennemi au hasard, infligeant 0 points de dégâts physiques et Carnage sanglant à tous les ennemis sur la trajectoire du couteau."
+			},
+			{
+				"id": 5607,
+				"title": "Floraison de la mort",
+				"body_text": "Le maître-chien Braun saute sur un ennemi au hasard et tournoie, lançant des couteaux sur toutes les cibles à moins de 5 mètres, infligeant 0 points de dégâts physiques et appliquant Carnage sanglant à sa cible et à ses alliés à proximité."
+			},
+			{
+				"id": 6262,
+				"title": "Carnage sanglant",
+				"body_text": "Les attaques au couteau du maître-chien Braun infligent 461 points de dégâts à un ennemi toutes les 2 s pendant 10 s. Cet effet est cumulable.\r\n\r\nBraun inflige cet effet à toute cible atteinte par Lancer perforant ou Floraison de la mort."
+			},
+			{
+				"id": 5608,
+				"title": "Appel de chien",
+				"body_text": "Le maître-chien Braun appelle un molosse obéissant à son secours lorsqu’il ne lui reste plus que 90%, 80%, 70% et 60% de ses points de vie.",
+				"sections": [
+					{
+						"id": 5609,
+						"title": "Molosse obéissant",
+						"body_text": "Dressé par le maître-chien Braun, cet imposant molosse suit tous les ordres de son maître.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41324?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 41324
+						}
+					}
+				]
+			},
+			{
+				"id": 5611,
+				"title": "Rage sanglante",
+				"body_text": "Lorsqu’il ne lui reste plus que 50% de ses points de vie, le maître-chien Braun, alors incapable de maîtriser ses animaux, commence à attaquer 50% plus vite et inflige 0% de dégâts supplémentaires."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/311?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Salles Écarlates",
+			"id": 311
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Donjons mythiques +"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/660?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 660,
+		"name": "Houndmaster Braun",
+		"description": "The quickest and surest way to detect the undead is by the scent of rot they carry, and even the most veteran soldier cannot match the olfactory sense of a hound. Houndmaster Braun has bred and trained a savage pack of canines to aid the crusaders in hunting down their foes--living and undead.",
+		"creatures": [
+			{
+				"id": 1326,
+				"name": "Houndmaster Braun",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/42264?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 42264
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144192?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hound Trainer's Gloves",
+					"id": 144192
+				}
+			},
+			{
+				"id": 33485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144190?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Houndmaster's Compound Crossbow",
+					"id": 144190
+				}
+			},
+			{
+				"id": 33486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144177?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beastbinder Ring",
+					"id": 144177
+				}
+			},
+			{
+				"id": 33487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/144191?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Commanding Bracers",
+					"id": 144191
+				}
+			},
+			{
+				"id": 13886,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88264?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Houndmaster's Compound Crossbow",
+					"id": 88264
+				}
+			},
+			{
+				"id": 13887,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88265?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beastbinder Ring",
+					"id": 88265
+				}
+			},
+			{
+				"id": 13888,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88266?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hound Trainer's Gloves",
+					"id": 88266
+				}
+			},
+			{
+				"id": 13889,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88267?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Commanding Bracers",
+					"id": 88267
+				}
+			},
+			{
+				"id": 13890,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/88268?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Canine Commander's Breastplate",
+					"id": 88268
+				}
+			},
+			{
+				"id": 33343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/143966?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Canine Commander's Breastplate",
+					"id": 143966
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 5606,
+				"title": "Piercing Throw",
+				"body_text": "Houndmaster Braun throws one of his knives at a random enemy, inflicting 0 Physical damage and applying Bloody Mess to all enemies in the knife's path."
+			},
+			{
+				"id": 5607,
+				"title": "Death Blossom",
+				"body_text": "Houndmaster Braun leaps onto a random enemy and whirls around, releasing a spray of knives at all targets within 5 yards, inflicting 0 Physical damage and applying Bloody Mess to the target and any of its nearby allies."
+			},
+			{
+				"id": 6262,
+				"title": "Bloody Mess",
+				"body_text": "Houndmaster Braun's knife attacks inflict 461 damage to an enemy every 2 sec. for 10 sec. This effect stacks.\r\n\r\nBraun applies this effect to any target hit by Piercing Throw or Death Blossom."
+			},
+			{
+				"id": 5608,
+				"title": "Call Dog",
+				"body_text": "Houndmaster Braun calls for an Obedient Hound to enter the fight at 90%, 80%, 70%, and 60% remaining health.",
+				"sections": [
+					{
+						"id": 5609,
+						"title": "Obedient Hound",
+						"body_text": "Trained by Houndmaster Braun, this large mastiff follows any order given to it by his master.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/41324?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 41324
+						}
+					}
+				]
+			},
+			{
+				"id": 5611,
+				"title": "Bloody Rage",
+				"body_text": "At 50% remaining health and unable to control his dogs, Houndmaster Braun begins to attack 50% faster and inflicts 0% more damage."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/311?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Scarlet Halls",
+			"id": 311
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC_KEYSTONE",
+				"name": "Mythic+ Dungeons"
+			}
+		]
+	}
+}

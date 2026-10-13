@@ -1,0 +1,1698 @@
+{
+	"id": 167,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/167?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 167,
+		"name": "Cho'gall",
+		"description": "Bajo el control de Cho'gall, el clan orco del Martillo Crepuscular se transformó en un culto de asesinos obsesionados con los dioses antiguos y con su heraldo, Alamuerte. El contacto prolongado con su oscuro maestro ha deformado tanto la mente como el cuerpo de Cho'gall.",
+		"creatures": [
+			{
+				"id": 587,
+				"name": "Cho'gall",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34576?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34576
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Martillo Crepuscular",
+					"id": 63680
+				}
+			},
+			{
+				"id": 10028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del conquistador desolado",
+					"id": 65088
+				}
+			},
+			{
+				"id": 10029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas del vencedor desolado",
+					"id": 65089
+				}
+			},
+			{
+				"id": 10030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'doom, el hacha de la disolución",
+					"id": 59330
+				}
+			},
+			{
+				"id": 10031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrana de C'Thun",
+					"id": 59490
+				}
+			},
+			{
+				"id": 10032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65090?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Martillo Crepuscular",
+					"id": 65090
+				}
+			},
+			{
+				"id": 10033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello del quinto círculo",
+					"id": 65123
+				}
+			},
+			{
+				"id": 10034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caída de mortalidad",
+					"id": 65124
+				}
+			},
+			{
+				"id": 10035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de la batalla olvidada",
+					"id": 65125
+				}
+			},
+			{
+				"id": 10036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manos del Consejo Crepuscular",
+					"id": 65126
+				}
+			},
+			{
+				"id": 10037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn'agh Fash, la Más Oscura Traición",
+					"id": 59494
+				}
+			},
+			{
+				"id": 10038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grilletes del fin de los días",
+					"id": 65127
+				}
+			},
+			{
+				"id": 10039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de transformación hórrida",
+					"id": 59495
+				}
+			},
+			{
+				"id": 10040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de transformación hórrida",
+					"id": 65128
+				}
+			},
+			{
+				"id": 10041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrana de C'Thun",
+					"id": 65129
+				}
+			},
+			{
+				"id": 10042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grilletes del fin de los días",
+					"id": 59497
+				}
+			},
+			{
+				"id": 10043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manos del Consejo Crepuscular",
+					"id": 59498
+				}
+			},
+			{
+				"id": 10044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de susurros enloquecedores",
+					"id": 65130
+				}
+			},
+			{
+				"id": 10045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de la batalla olvidada",
+					"id": 59499
+				}
+			},
+			{
+				"id": 10046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla del Apocalipsis",
+					"id": 65131
+				}
+			},
+			{
+				"id": 10047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caída de mortalidad",
+					"id": 59500
+				}
+			},
+			{
+				"id": 10048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espiral de diez mil gritos",
+					"id": 65132
+				}
+			},
+			{
+				"id": 10049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello del quinto círculo",
+					"id": 59501
+				}
+			},
+			{
+				"id": 10050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn'agh Fash, la Más Oscura Traición",
+					"id": 68600
+				}
+			},
+			{
+				"id": 10051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'doom, el hacha de la disolución",
+					"id": 65145
+				}
+			},
+			{
+				"id": 10052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del vencedor desolado",
+					"id": 64314
+				}
+			},
+			{
+				"id": 10053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del conquistador desolado",
+					"id": 64315
+				}
+			},
+			{
+				"id": 10054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del protector desolado",
+					"id": 64316
+				}
+			},
+			{
+				"id": 10055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espiral de diez mil gritos",
+					"id": 59485
+				}
+			},
+			{
+				"id": 10056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de batalla del Apocalipsis",
+					"id": 59486
+				}
+			},
+			{
+				"id": 10057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de susurros enloquecedores",
+					"id": 59487
+				}
+			},
+			{
+				"id": 10058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros del protector desolado",
+					"id": 65087
+				}
+			},
+			{
+				"id": 35261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Portal de invocación Crepuscular",
+					"id": 152972
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3165,
+				"title": "Sangre corrupta",
+				"body_text": "Exponerse a alguna de las facultades de Cho'gall aumenta el nivel de Corrupción del jugador. Por cada punto de Corrupción que tengan, los jugadores recibirán un 2% de daño extra de la facultad Corrupción del dios antiguo de Cho'gall.",
+				"sections": [
+					{
+						"id": 3222,
+						"title": "Corrupción: acelerada",
+						"body_text": "Cuando Sangre corrupta alcanza el 25%, un jugador obtiene Corrupción: acelerada, lo que aumenta rápidamente el nivel de Corrupción."
+					},
+					{
+						"id": 3223,
+						"title": "Corrupción: dolencia",
+						"body_text": "Cuando Sangre corrupta alcanza el 50%, los jugadores caerán gravemente enfermos, lo que hará que vomiten e inflijan 1925 p. de daño de las Sombras a los aliados en un cono de 20 grados de un radio de 5 m frente a ellos. Si este vómito repugnante golpea a los aliados, también aumentará su Corrupción."
+					},
+					{
+						"id": 3224,
+						"title": "Corrupción: malformación",
+						"body_text": "Cuando Sangre corrupta alcanza el 75%, la corrupción es tan sólida que al jugador le sale una malformación en forma de tentáculo de la espalda que lanza periódicamente Descargas de las Sombras a los aliados del jugador, lo que inflige 0 p. de daño de las Sombras."
+					},
+					{
+						"id": 3225,
+						"title": "Corrupción: absoluta",
+						"body_text": "Cuando Sangre corrupta alcanza el 100%, los jugadores se transforman por completo en horrores ignotos. Mientras permanecen en este estado, los jugadores no pueden recibir sanaciones, pero infligen un 100% de daño extra y lanzan los hechizos de forma instantánea."
+					}
+				]
+			},
+			{
+				"id": 3154,
+				"title": "Fase 1: ¡Se acerca el caos!",
+				"sections": [
+					{
+						"id": 3155,
+						"title": "Conversión",
+						"body_text": "Cho'gall llama a los débiles de mente, lo que hace que jugadores aleatorios abandonen su lealtad y empiecen a Alabar a Cho'gall. Alabar a Cho'gall hace que obtenga una aplicación de Devoción retorcida cada 3 s.",
+						"sections": [
+							{
+								"id": 3209,
+								"title": "Devoción retorcida",
+								"body_text": "Cho'gall obtiene fuerza de sus seguidores convertidos, lo que aumenta un 10% el daño que inflige durante 15 s. Este efecto se acumula."
+							}
+						]
+					},
+					{
+						"id": 3210,
+						"title": "Furia de Cho'gall",
+						"body_text": "Cho'gall golpea a su objetivo actual, lo que inflige 0 p. de daño de las Sombras, 0 p. de daño físico y aumenta un 20% el daño de las Sombras y físico recibido durante 1 min."
+					},
+					{
+						"id": 3156,
+						"title": "Órdenes a la llama",
+						"body_text": "Cho'gall invoca a un elemental de Fuego y lo absorbe dentro de su Martillo del Crepúsculo, lo que lo potencia con Destrucción flameante.",
+						"sections": [
+							{
+								"id": 3157,
+								"title": "Destrucción flameante",
+								"body_text": "Mientras Órdenes a la llama potencia el martillo de Cho'gall, sus ataques cuerpo a cuerpo infligen 0 p. extra de daño de Fuego a su objetivo y salpican fuego de arrabio, que deja cerca una llamarada ardiente.",
+								"sections": [
+									{
+										"id": 3211,
+										"title": "Llamarada",
+										"body_text": "Un charco de llamas ardientes de un radio de 5 m inflige 0 p. de daño de Fuego cada 1 s a los jugadores que permanecen en la zona. La Llamarada dura 25 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3158,
+						"title": "Órdenes a las Sombras",
+						"body_text": "Cho'gall invoca a un elemental de las Sombras y lo absorbe dentro de su Martillo del Crepúsculo, lo que lo potencia con Sombras potenciadas.",
+						"sections": [
+							{
+								"id": 3212,
+								"title": "Sombras potenciadas",
+								"body_text": "Mientras Órdenes a las Sombras potencia el martillo de Cho'gall, este emite explosiones de Poder abisal cada 3 s. El martillo inflige 0 p. de daño de las Sombras a los jugadores en un radio de 50000 m."
+							}
+						]
+					},
+					{
+						"id": 3160,
+						"title": "Invocar partidario en corrupción",
+						"body_text": "Cho'gall invoca a un partidario en corrupción de uno de los portales Crepusculares de los lados de la sala.",
+						"sections": [
+							{
+								"id": 3161,
+								"title": "Partidario en corrupción",
+								"body_text": "Cho'gall invoca a estos esbirros ignotos de los dioses antiguos para acelerar la derrota de sus enemigos.",
+								"sections": [
+									{
+										"id": 3162,
+										"title": "Depravación",
+										"body_text": "El partidario en corrupción inflige 0 p. de daño de las Sombras a los jugadores en un radio de 20 m, lo que aumenta de forma considerable sus niveles de Corrupción."
+									},
+									{
+										"id": 3213,
+										"title": "Colisión en corrupción",
+										"body_text": "El partidario en corrupción dispara un misil de las Sombras al suelo bajo un jugador aleatorio, lo que inflige 0 p. de daño de las Sombras a todos los jugadores en un radio de 8 m del impacto. Los objetivos golpeados por Colisión en corrupción obtendrán Corrupción."
+									},
+									{
+										"id": 3214,
+										"title": "Sangre del dios antiguo derramada",
+										"body_text": "Cuando Cho'gall lanza Infestar sangre, los cadáveres de los partidarios en corrupción se disuelven en charcos de bilis negra. Los jugadores que entran en contacto con estos charcos reciben 0 p. de daño de las Sombras cada 1 s y obtienen Corrupción."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33565?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33565
+								}
+							}
+						]
+					},
+					{
+						"id": 3163,
+						"title": "Infestar sangre",
+						"body_text": "Cho'gall infesta la sangre de todos los partidarios en corrupción, lo que crea charcos de Sangre del dios antiguo derramada para transformarlos en mocos animados. Infestar sangre también hace que hierva la sangre oscura de los partidarios en corrupción que vivan, lo que causa el efecto de Sangre purulenta.",
+						"sections": [
+							{
+								"id": 3215,
+								"title": "Sangre purulenta",
+								"body_text": "Cuando Cho'gall usa Infestar sangre, los partidarios en corrupción con vida rocían la sangre oscura que sale de sus cuerpos, lo que inflige 0 p. de daño de las Sombras cada 2 s a todos los jugadores en un radio de 20 m. Los jugadores que reciban daño de esta facultad obtendrán Corrupción."
+							},
+							{
+								"id": 3216,
+								"title": "Sangre del dios antiguo",
+								"body_text": "La sangre de los partidarios en corrupción se coagula para formar varios mocos malvados, cada uno de los cuales se fija en un jugador aleatorio y se mueve hacia ese objetivo. La sangre del dios antiguo animada eleva el nivel de Corrupción de cualquier objetivo al que pueda atacar cuerpo a cuerpo.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3164,
+				"title": "Fase 2: ¡Ven, noche infinita!",
+				"body_text": "Cuando la salud de Cho'gall está al 25%, invoca los poderes plenos de los dioses antiguos, absorbe las energías oscuras de los partidarios en corrupción restantes y los charcos de Sangre del dios antiguo derramada, y se transforma en una criatura retorcida.",
+				"sections": [
+					{
+						"id": 3217,
+						"title": "Furia de Cho'gall",
+						"body_text": "Cho'gall golpea a su objetivo actual, lo que inflige 0 p. de daño de las Sombras, 0 p. de daño físico y aumenta un 20% el daño de las Sombras y físico recibido durante 1 min."
+					},
+					{
+						"id": 3218,
+						"title": "Corrupción del dios antiguo",
+						"body_text": "Cho'gall llena la sala de tentáculos de Corrupción sombría, lo que inflige 0 p. de daño de las Sombras cada 2 s a todos los jugadores y aumenta gradualmente su nivel de Corrupción. Los jugadores reciben un 2% de daño extra de Corrupción del dios antiguo por cada punto de Corrupción que tengan."
+					},
+					{
+						"id": 3219,
+						"title": "Creaciones oscurecidas",
+						"body_text": "Cho'gall hace que salgan tentáculos de nubes oscuras del suelo.",
+						"sections": [
+							{
+								"id": 3220,
+								"title": "Creación oscurecida",
+								"body_text": "Las creaciones oscurecidas intentan canalizar continuamente Haz debilitador en un jugador aleatorio.",
+								"sections": [
+									{
+										"id": 3221,
+										"title": "Haz debilitador",
+										"body_text": "Haz debilitador reduce un 75% el daño infligido y la sanación recibida de un objetivo e inflige 0 p. de daño de las Sombras cada 1 s durante 10 s."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33547?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33547
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "El Bastión del Crepúsculo",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 jugadores"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 jugadores (heroica)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 jugadores (heroica)"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/167?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 167,
+		"name": "Cho’gall",
+		"description": "Sous le contrôle de Cho’gall, le clan orc du Marteau du crépuscule a été transformé en un culte meurtrier obsédé par les Dieux très anciens et leur héraut, Aile de mort. Un contact prolongé avec son sinistre maître a déformé de façon horrible l’esprit et le corps de Cho’gall.",
+		"creatures": [
+			{
+				"id": 587,
+				"name": "Cho’gall",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34576?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34576
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marteau du crépuscule",
+					"id": 63680
+				}
+			},
+			{
+				"id": 10028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du conquérant lugubre",
+					"id": 65088
+				}
+			},
+			{
+				"id": 10029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du vainqueur lugubre",
+					"id": 65089
+				}
+			},
+			{
+				"id": 10030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'ugre, la hache de la déconstruction",
+					"id": 59330
+				}
+			},
+			{
+				"id": 10031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrane de C'Thun",
+					"id": 59490
+				}
+			},
+			{
+				"id": 10032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65090?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marteau du crépuscule",
+					"id": 65090
+				}
+			},
+			{
+				"id": 10033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière du cinquième cercle",
+					"id": 65123
+				}
+			},
+			{
+				"id": 10034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baisse de la mortalité",
+					"id": 65124
+				}
+			},
+			{
+				"id": 10035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de la bataille oubliée",
+					"id": 65125
+				}
+			},
+			{
+				"id": 10036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mains du conseil du Crépuscule",
+					"id": 65126
+				}
+			},
+			{
+				"id": 10037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn’agh Fash, la plus sombre trahison",
+					"id": 59494
+				}
+			},
+			{
+				"id": 10038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Menottes de la fin des temps",
+					"id": 65127
+				}
+			},
+			{
+				"id": 10039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de transformation hideuse",
+					"id": 59495
+				}
+			},
+			{
+				"id": 10040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de transformation hideuse",
+					"id": 65128
+				}
+			},
+			{
+				"id": 10041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrane de C'Thun",
+					"id": 65129
+				}
+			},
+			{
+				"id": 10042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Menottes de la fin des temps",
+					"id": 59497
+				}
+			},
+			{
+				"id": 10043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mains du conseil du Crépuscule",
+					"id": 59498
+				}
+			},
+			{
+				"id": 10044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de murmures exaspérants",
+					"id": 65130
+				}
+			},
+			{
+				"id": 10045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de la bataille oubliée",
+					"id": 59499
+				}
+			},
+			{
+				"id": 10046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille de l'Apocalypse",
+					"id": 65131
+				}
+			},
+			{
+				"id": 10047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baisse de la mortalité",
+					"id": 59500
+				}
+			},
+			{
+				"id": 10048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torsade des dix mille cris",
+					"id": 65132
+				}
+			},
+			{
+				"id": 10049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chevalière du cinquième cercle",
+					"id": 59501
+				}
+			},
+			{
+				"id": 10050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn'agh Fash, la plus sombre trahison",
+					"id": 68600
+				}
+			},
+			{
+				"id": 10051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'ugre, la hache de la déconstruction",
+					"id": 65145
+				}
+			},
+			{
+				"id": 10052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du vainqueur lugubre",
+					"id": 64314
+				}
+			},
+			{
+				"id": 10053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du conquérant lugubre",
+					"id": 64315
+				}
+			},
+			{
+				"id": 10054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet du protecteur lugubre",
+					"id": 64316
+				}
+			},
+			{
+				"id": 10055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torsade des dix mille cris",
+					"id": 59485
+				}
+			},
+			{
+				"id": 10056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Harnois de bataille de l'Apocalypse",
+					"id": 59486
+				}
+			},
+			{
+				"id": 10057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de murmures exaspérants",
+					"id": 59487
+				}
+			},
+			{
+				"id": 10058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières du protecteur lugubre",
+					"id": 65087
+				}
+			},
+			{
+				"id": 35261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Portail d'invocation du Crépuscule",
+					"id": 152972
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3165,
+				"title": "Sang vicié",
+				"body_text": "L’exposition à plusieurs techniques de Cho’gall augmente le niveau de corruption des membres du raid. Pour chaque point de corruption accumulé, les dégâts de la Corruption du Dieu très ancien de Cho'gall subis par les personnages-joueurs sont augmentés de 2%.",
+				"sections": [
+					{
+						"id": 3222,
+						"title": "Corruption : accélérée",
+						"body_text": "Quand le Sang vicié atteint 25%, le personnage-joueur gagne Corruption : accélérée, qui augmente rapidement le niveau de corruption."
+					},
+					{
+						"id": 3223,
+						"title": "Corruption : maladie",
+						"body_text": "Quand le Sang vicié atteint 50%, les personnages-joueurs deviennent régulièrement très malades. Ils vomissent et infligent 1925 points de dégâts d’Ombre aux personnages-joueurs dans un cône de 20 degrés et 5 mètres de long devant eux. Les personnages-joueurs touchés par ce vil crachat voient également leur Corruption augmenter."
+					},
+					{
+						"id": 3224,
+						"title": "Corruption : malformation",
+						"body_text": "Quand le Sang vicié atteint 75%, le niveau de corruption est tel qu’une malformation pousse dans le dos du personnage. Ce tentacule lance régulièrement des traits de l’ombre sur les alliés du personnage, leur infligeant 0 points de dégâts d’Ombre."
+					},
+					{
+						"id": 3225,
+						"title": "Corruption : absolue",
+						"body_text": "Quand le Sang vicié atteint 100%, le personnage-joueur se transforme complètement en horreur sans-visage. Sous cette forme, il ne peut pas être soigné, mais il bénéficie d’un bonus de 100% aux dégâts infligés et lance ses sorts instantanément."
+					}
+				]
+			},
+			{
+				"id": 3154,
+				"title": "Phase 1 : Le chaos tombe !",
+				"sections": [
+					{
+						"id": 3155,
+						"title": "Conversion",
+						"body_text": "Cho’gall attire les faibles d’esprit, forçant des membres du raid choisis au hasard à abandonner leur allégeance et à adorer Cho’gall. Vénérer Cho’gall lui octroie une charge de Dévotion tordue toutes les 3 s.",
+						"sections": [
+							{
+								"id": 3209,
+								"title": "Dévotion tordue",
+								"body_text": "Cho’gall est renforcé par ses séides convertis, ce qui augmente les points de dégâts qu’il inflige de 10% pendant 15 s. Cet effet est cumulable."
+							}
+						]
+					},
+					{
+						"id": 3210,
+						"title": "Fureur de Cho'gall",
+						"body_text": "Cho’gall frappe sa cible actuelle et lui inflige 0 points de dégâts d’Ombre et 0 points de dégâts physiques, en plus d’augmenter les dégâts physiques et d’Ombre subis de 20% pendant 1 min."
+					},
+					{
+						"id": 3156,
+						"title": "Ordres de la flamme",
+						"body_text": "Cho’gall fait appel à un élémentaire de feu et l'absorbe dans son marteau du Crépuscule, renforçant son arme avec Destruction enflammée.",
+						"sections": [
+							{
+								"id": 3157,
+								"title": "Destruction enflammée",
+								"body_text": "Lorsque le marteau de Cho’gall est renforcé par les Ordres de l'ombre, ses attaques en mêlée infligent 0 points de dégâts de Feu supplémentaires à sa cible et éclaboussent le sol de lave, qui laisse un brasier brûlant.",
+								"sections": [
+									{
+										"id": 3211,
+										"title": "Brasier",
+										"body_text": "Une flaque de flammes ardentes d’un rayon de 5 mètres inflige 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs qui s’attardent dans cette zone. Le Brasier dure 25 s."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3158,
+						"title": "Ordres de l'ombre",
+						"body_text": "Cho’gall fait apparaître un élémentaire d’ombre et l’incorpore à son marteau du Crépuscule, lui conférant Ombres surpuissantes.",
+						"sections": [
+							{
+								"id": 3212,
+								"title": "Ombres surpuissantes",
+								"body_text": "Lorsque le marteau de Cho’gall est renforcé par les Ordres de l'ombre, il émet une déflagration d’énergie du Néant toutes les 3 s, infligeant 0 points de dégâts d’Ombre à tous les personnages-joueurs dans un rayon de 50000 mètres."
+							}
+						]
+					},
+					{
+						"id": 3160,
+						"title": "Invocation d'un corrupteur adhérent",
+						"body_text": "Cho’gall invoque un corrupteur adhérent à l’aide de l’un des portails du Crépuscule sur les côtés de la salle.",
+						"sections": [
+							{
+								"id": 3161,
+								"title": "Corrupteur adhérent",
+								"body_text": "Cho’gall invoque ces serviteurs sans-visage des Dieux très anciens pour hâter la perte de ses ennemis.",
+								"sections": [
+									{
+										"id": 3162,
+										"title": "Dépravation",
+										"body_text": "Le corrupteur adhérent inflige 0 points de dégâts d’Ombre aux personnages-joueurs à moins de 20 mètres, augmentant grandement leur niveau de corruption par la même occasion."
+									},
+									{
+										"id": 3213,
+										"title": "Déferlante corruptrice",
+										"body_text": "Le corrupteur adhérent lance un projectile d’ombre sous un personnage-joueur aléatoire et inflige 0 points de dégâts d’Ombre à tous les ennemis dans un rayon de 8 mètres de l’impact. Les personnages touchés par la Déferlante corruptrice gagnent des points de corruption."
+									},
+									{
+										"id": 3214,
+										"title": "Sang renversé du Dieu très ancien",
+										"body_text": "Quand Cho’gall incante Suppuration du sang, les corps des adhérents corrupteurs se dissolvent en formant des mares de bile noire. Tout personnage-joueur en contact avec ces mares subit 0 points de dégâts d’Ombre toutes les 1 s et subit l’effet Corruption."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33565?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33565
+								}
+							}
+						]
+					},
+					{
+						"id": 3163,
+						"title": "Suppuration du sang",
+						"body_text": "Cho’gall fait s’écouler le sang de tous les corrupteurs adhérents, ce qui forme des flaques de Sang versé du Dieu très ancien qui s’agglomèrent en limons animés. Suppuration du sang fait également bouillir le sang noir de tout corrupteur adhérent vivant, déclenchant l'effet Sang suppurant.",
+						"sections": [
+							{
+								"id": 3215,
+								"title": "Sang suppurant",
+								"body_text": "Lorsque Cho’gall utilise Suppuration du sang, le sang noir de tout corrupteur adhérent vivant se met à jaillir du corps du corrupteur, infligeant 0 points de dégâts d’Ombre toutes les 2 s à tous les membres du raid dans un rayon de 20 mètres. Les personnages-joueurs touchés par cette compétence voient leur niveau de corruption augmenter."
+							},
+							{
+								"id": 3216,
+								"title": "Sang du Dieu très ancien",
+								"body_text": "Le sang des corrupteurs adhérents coagule en de nombreux vils limons qui se focalisent chacun sur un personnage-joueur aléatoire et se déplacent vers leur cible. Le sang du Dieu très ancien animé augmente le niveau de corruption de n’importe quelle cible qu’ils atteignent.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3164,
+				"title": "Phase 2 : Et c'est enfin la nuit !",
+				"body_text": "Quand les points de vie de Cho’gall atteignent 25% de leur maximum, il en appelle à toute la puissance des Dieux très anciens. Il absorbe les énergies de tous les adhérents corrupteurs et toutes les mares de sang versé du Dieu très ancien encore présents, puis se transforme en une ignoble créature.",
+				"sections": [
+					{
+						"id": 3217,
+						"title": "Fureur de Cho'gall",
+						"body_text": "Cho’gall frappe sa cible actuelle et lui inflige 0 points de dégâts d’Ombre et 0 points de dégâts physiques, en plus d’augmenter les dégâts physiques et d’Ombre subis de 20% pendant 1 min."
+					},
+					{
+						"id": 3218,
+						"title": "Corruption du Dieu très ancien",
+						"body_text": "Cho’gall remplit la pièce de vrilles de corruption d’ombre qui infligent 0 points de dégâts d’Ombre toutes les 2 s à tous les personnages-joueurs, augmentant graduellement leur niveau de corruption. Chaque point de corruption accumulé augmente les dégâts de la Corruption du Dieu très ancien subis par les personnages-joueurs de 2%."
+					},
+					{
+						"id": 3219,
+						"title": "Créations assombries",
+						"body_text": "Cho'gall fait apparaître des tentacules dans les nuages d’encre.",
+						"sections": [
+							{
+								"id": 3220,
+								"title": "Création assombrie",
+								"body_text": "Les Créations assombries tentent continuellement de canaliser un Rayon débilitant sur un personnage-joueur aléatoire.",
+								"sections": [
+									{
+										"id": 3221,
+										"title": "Rayon débilitant",
+										"body_text": "Le Rayon débilitant réduit les soins prodigués et les dégâts infligés par la cible de 75% et inflige 0 points de dégâts d’Ombre toutes les 1 s pendant 10 s."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33547?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33547
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Le bastion du Crépuscule",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 joueurs"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 joueurs (héroïque)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 joueurs (héroïque)"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/167?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 167,
+		"name": "Cho'gall",
+		"description": "Under Cho'gall's control, the orcish Twilight's Hammer clan was transformed into a murderous cult obsessed with the Old Gods and their herald, Deathwing. Extended contact with his dark master has hideously warped both Cho'gall's mind and body.",
+		"creatures": [
+			{
+				"id": 587,
+				"name": "Cho'gall",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/34576?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 34576
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/63680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Twilight's Hammer",
+					"id": 63680
+				}
+			},
+			{
+				"id": 10028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65088?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Conqueror",
+					"id": 65088
+				}
+			},
+			{
+				"id": 10029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65089?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Vanquisher",
+					"id": 65089
+				}
+			},
+			{
+				"id": 10030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59330?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'doom, the Axe of Unmaking",
+					"id": 59330
+				}
+			},
+			{
+				"id": 10031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrane of C'Thun",
+					"id": 59490
+				}
+			},
+			{
+				"id": 10032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65090?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Twilight's Hammer",
+					"id": 65090
+				}
+			},
+			{
+				"id": 10033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65123?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of the Fifth Circle",
+					"id": 65123
+				}
+			},
+			{
+				"id": 10034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65124?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fall of Mortality",
+					"id": 65124
+				}
+			},
+			{
+				"id": 10035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65125?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt of the Forgotten Battle",
+					"id": 65125
+				}
+			},
+			{
+				"id": 10036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hands of the Twilight Council",
+					"id": 65126
+				}
+			},
+			{
+				"id": 10037,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59494?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn'agh Fash, the Darkest Betrayal",
+					"id": 59494
+				}
+			},
+			{
+				"id": 10038,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65127?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shackles of the End of Days",
+					"id": 65127
+				}
+			},
+			{
+				"id": 10039,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59495?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Hideous Transformation",
+					"id": 59495
+				}
+			},
+			{
+				"id": 10040,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65128?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Hideous Transformation",
+					"id": 65128
+				}
+			},
+			{
+				"id": 10041,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65129?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Membrane of C'Thun",
+					"id": 65129
+				}
+			},
+			{
+				"id": 10042,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shackles of the End of Days",
+					"id": 59497
+				}
+			},
+			{
+				"id": 10043,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hands of the Twilight Council",
+					"id": 59498
+				}
+			},
+			{
+				"id": 10044,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65130?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Maddening Whispers",
+					"id": 65130
+				}
+			},
+			{
+				"id": 10045,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt of the Forgotten Battle",
+					"id": 59499
+				}
+			},
+			{
+				"id": 10046,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battleplate of the Apocalypse",
+					"id": 65131
+				}
+			},
+			{
+				"id": 10047,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59500?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fall of Mortality",
+					"id": 59500
+				}
+			},
+			{
+				"id": 10048,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65132?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coil of Ten-Thousand Screams",
+					"id": 65132
+				}
+			},
+			{
+				"id": 10049,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59501?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Signet of the Fifth Circle",
+					"id": 59501
+				}
+			},
+			{
+				"id": 10050,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68600?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Uhn'agh Fash, the Darkest Betrayal",
+					"id": 68600
+				}
+			},
+			{
+				"id": 10051,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65145?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shalug'doom, the Axe of Unmaking",
+					"id": 65145
+				}
+			},
+			{
+				"id": 10052,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Vanquisher",
+					"id": 64314
+				}
+			},
+			{
+				"id": 10053,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Conqueror",
+					"id": 64315
+				}
+			},
+			{
+				"id": 10054,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/64316?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of the Forlorn Protector",
+					"id": 64316
+				}
+			},
+			{
+				"id": 10055,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coil of Ten-Thousand Screams",
+					"id": 59485
+				}
+			},
+			{
+				"id": 10056,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59486?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Battleplate of the Apocalypse",
+					"id": 59486
+				}
+			},
+			{
+				"id": 10057,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/59487?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Maddening Whispers",
+					"id": 59487
+				}
+			},
+			{
+				"id": 10058,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/65087?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulders of the Forlorn Protector",
+					"id": 65087
+				}
+			},
+			{
+				"id": 35261,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152972?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Twilight Summoning Portal",
+					"id": 152972
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 3165,
+				"title": "Corrupted Blood",
+				"body_text": "Exposure to several of Cho'gall's abilities increases a player's Corruption level. For each point of Corruption they have, players suffer 2% additional damage from Cho'gall's Corruption of the Old God ability.",
+				"sections": [
+					{
+						"id": 3222,
+						"title": "Corruption: Accelerated",
+						"body_text": "When Corrupted Blood reaches 25%, a player gains Corruption: Accelerated, which rapidly increases their Corruption level."
+					},
+					{
+						"id": 3223,
+						"title": "Corruption: Sickness",
+						"body_text": "When Corrupted Blood reaches 50%, players periodically become violently ill. They vomit and inflict 1,925 Shadow damage to players within a 5 yard long 20 degree cone in front of them. Players hit by this vile spew suffer increased Corruption."
+					},
+					{
+						"id": 3224,
+						"title": "Corruption: Malformation",
+						"body_text": "When Corrupted Blood reaches 75%, the corruption is so thorough that a tentacle Malformation erupts from a player's back. The tentacle periodically casts Shadow Bolts at the player's allies, inflicting 0 Shadow damage."
+					},
+					{
+						"id": 3225,
+						"title": "Corruption: Absolute",
+						"body_text": "When Corrupted Blood reaches 100%, players fully transform into faceless horrors. While in this state players cannot be healed, but inflict 100% additional damage and cast spells instantly."
+					}
+				]
+			},
+			{
+				"id": 3154,
+				"title": "Stage One: Chaos Comes!",
+				"sections": [
+					{
+						"id": 3155,
+						"title": "Conversion",
+						"body_text": "Cho'gall beckons to the weak of mind, causing random players to abandon their loyalties and begin to Worship Cho'gall. Worshipping Cho'gall grants him one application of Twisted Devotion every 3 sec.",
+						"sections": [
+							{
+								"id": 3209,
+								"title": "Twisted Devotion",
+								"body_text": "Cho'gall gains strength from his converted followers, increasing his damage dealt by 10% for 15 sec.  This effect stacks."
+							}
+						]
+					},
+					{
+						"id": 3210,
+						"title": "Fury of Cho'gall",
+						"body_text": "Cho'gall blasts his current target, inflicting 0 Shadow and 0 Physical damage, and increasing Physical and Shadow damage taken by 20% for 1 min."
+					},
+					{
+						"id": 3156,
+						"title": "Flame's Orders",
+						"body_text": "Cho'gall calls forth a Fire elemental and absorbs the elemental into his Twilight Hammer, empowering it with Flaming Destruction.",
+						"sections": [
+							{
+								"id": 3157,
+								"title": "Flaming Destruction",
+								"body_text": "While Flame's Orders empowers Cho'gall's hammer, his melee attacks inflict 0 additional Fire damage to his current target and splashes molten fire that creates a burning Blaze nearby.",
+								"sections": [
+									{
+										"id": 3211,
+										"title": "Blaze",
+										"body_text": "A 5 yard radius pool of burning flames inflicts 0 Fire damage every 1 sec on players standing within the fire. The Blaze lasts 25 sec."
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": 3158,
+						"title": "Shadow's Orders",
+						"body_text": "Cho'gall calls forth a Shadow elemental and absorbs the elemental into his Twilight Hammer, imbuing it with Empowered Shadows.",
+						"sections": [
+							{
+								"id": 3212,
+								"title": "Empowered Shadows",
+								"body_text": "While Shadow's Orders empowers Cho'gall's hammer, it emits bursts of nether power every 3 sec. The hammer deals 0 Shadow damage to players within 50000 yards."
+							}
+						]
+					},
+					{
+						"id": 3160,
+						"title": "Summon Corrupting Adherent",
+						"body_text": "Cho'gall summons a Corrupting Adherent from one of twilight portals at the sides of the room.",
+						"sections": [
+							{
+								"id": 3161,
+								"title": "Corrupting Adherent",
+								"body_text": "Cho'gall summons these faceless minions of the Old Gods to hasten the doom of his foes.",
+								"sections": [
+									{
+										"id": 3162,
+										"title": "Depravity",
+										"body_text": "The Corrupting Adherent inflicts 0 Shadow damage to players within 20 yards, raising their Corruption levels significantly."
+									},
+									{
+										"id": 3213,
+										"title": "Corrupting Crash",
+										"body_text": "The Corrupting Adherent lobs a shadow missile at the ground beneath a random player, inflicting 0 Shadow damage to all players within 8 yards of the impact. Players hit by the Corrupting Crash gain Corruption."
+									},
+									{
+										"id": 3214,
+										"title": "Spilled Blood of the Old God",
+										"body_text": "When Cho'gall casts Fester Blood, corpses of Corrupting Adherents dissolve into pools of black bile. Any players in contact with these pools suffer 0 Shadow damage per 1 sec. and gain Corruption."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33565?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33565
+								}
+							}
+						]
+					},
+					{
+						"id": 3163,
+						"title": "Fester Blood",
+						"body_text": "Cho'gall festers the blood of all Corrupting Adherents, causing pools of Spilled Blood of the Old God to form into animated oozes.  Fester Blood also causes the dark blood of any living Corrupting Adherents to boil, causing the Festering Blood effect.",
+						"sections": [
+							{
+								"id": 3215,
+								"title": "Festering Blood",
+								"body_text": "When Cho'gall uses Fester Blood, the dark blood of any living Corrupting Adherents sprays out from their bodies, inflicting 0 Shadow damage every 2 sec to all players within 20 yards.  Players damaged by this ability will gain Corruption."
+							},
+							{
+								"id": 3216,
+								"title": "Blood of the Old God",
+								"body_text": "The Corrupting Adherents' blood congeals into numerous vile oozes, each of which fixates on a random player and moves towards them. The animated Blood of the Old God raises the Corruption level of any target they melee.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33476?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33476
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3164,
+				"title": "Stage Two: Come, Infinite Night!",
+				"body_text": "When Cho'gall reaches 25% health, he calls upon the full powers of the Old Gods. He absorbs the dark energies of any remaining Corrupting Adherents and pools of Spilled Blood of the Old God, then transforms himself into a twisted creature.",
+				"sections": [
+					{
+						"id": 3217,
+						"title": "Fury of Cho'gall",
+						"body_text": "Cho'gall blasts his current target, inflicting 0 Shadow and 0 Physical damage, and increasing Physical and Shadow damage taken by 20% for 1 min."
+					},
+					{
+						"id": 3218,
+						"title": "Corruption of the Old God",
+						"body_text": "Cho'gall fills the room with tendrils of shadowy corruption, inflicting 0 Shadow damage every 2 sec to all players and gradually increasing their Corruption level. Players suffer 2% additional damage from Corruption of the Old God for each point of their Corruption."
+					},
+					{
+						"id": 3219,
+						"title": "Darkened Creations",
+						"body_text": "Cho'gall causes tentacles to erupt from inky clouds on the ground.",
+						"sections": [
+							{
+								"id": 3220,
+								"title": "Darkened Creation",
+								"body_text": "Darkened Creations continually try to channel Debilitating Beam on a random player.",
+								"sections": [
+									{
+										"id": 3221,
+										"title": "Debilitating Beam",
+										"body_text": "Debilitating Beam reduces a target's healing and damage done by 75% and inflicts 0 Shadow damage every 1 sec for 10 sec."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33547?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33547
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/72?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "The Bastion of Twilight",
+			"id": 72
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			},
+			{
+				"type": "LEGACY_25_MAN",
+				"name": "25 Player"
+			},
+			{
+				"type": "LEGACY_10_MAN_HEROIC",
+				"name": "10 Player (Heroic)"
+			},
+			{
+				"type": "LEGACY_25_MAN_HEROIC",
+				"name": "25 Player (Heroic)"
+			}
+		]
+	}
+}

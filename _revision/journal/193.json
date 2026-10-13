@@ -1,0 +1,2418 @@
+{
+	"id": 193,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/193?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 193,
+		"name": "Lord Piroclasto",
+		"description": "Piroclasto es uno de los elementales más antiguos que existen, nació de los fuegos primigenios que forjaron la propia Azeroth. Es el responsable de la creación de nuevos elementales en las Tierras de Fuego y todavía profesa un odio acérrimo a los titanes por trasladarlo, lo que él considera una arrogancia monumental.",
+		"creatures": [
+			{
+				"id": 625,
+				"name": "Lord Piroclasto",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38414?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38414
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete incendiario",
+					"id": 71424
+				}
+			},
+			{
+				"id": 10365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70912?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Apisonadoras de obsidiana rajada",
+					"id": 70912
+				}
+			},
+			{
+				"id": 10366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles Línea de lava",
+					"id": 71425
+				}
+			},
+			{
+				"id": 10368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del gigante enfurecido",
+					"id": 71426
+				}
+			},
+			{
+				"id": 10369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalesta de furia en erupción",
+					"id": 70991
+				}
+			},
+			{
+				"id": 10370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70992?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de fuego aterrador",
+					"id": 70992
+				}
+			},
+			{
+				"id": 10371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes piel de fuego",
+					"id": 70993
+				}
+			},
+			{
+				"id": 10372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de desdén rampante",
+					"id": 71003
+				}
+			},
+			{
+				"id": 10373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales hiendetierra",
+					"id": 71004
+				}
+			},
+			{
+				"id": 10374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de núcleo llameante",
+					"id": 71005
+				}
+			},
+			{
+				"id": 10375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puntavolcán",
+					"id": 71006
+				}
+			},
+			{
+				"id": 10377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del gigante enfurecido",
+					"id": 71007
+				}
+			},
+			{
+				"id": 10379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles Línea de lava",
+					"id": 71009
+				}
+			},
+			{
+				"id": 10382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete incendiario",
+					"id": 71010
+				}
+			},
+			{
+				"id": 10384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha chisporroteante",
+					"id": 71011
+				}
+			},
+			{
+				"id": 10386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71012?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra corazón de Piroclasto",
+					"id": 71012
+				}
+			},
+			{
+				"id": 10387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalesta de furia en erupción",
+					"id": 71414
+				}
+			},
+			{
+				"id": 10397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de fuego aterrador",
+					"id": 71415
+				}
+			},
+			{
+				"id": 10398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de desdén rampante",
+					"id": 71416
+				}
+			},
+			{
+				"id": 10399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de núcleo llameante",
+					"id": 71417
+				}
+			},
+			{
+				"id": 10400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales hiendetierra",
+					"id": 71418
+				}
+			},
+			{
+				"id": 10401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes piel de fuego",
+					"id": 71419
+				}
+			},
+			{
+				"id": 10402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Apisonadoras de obsidiana rajada",
+					"id": 71420
+				}
+			},
+			{
+				"id": 10403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha chisporroteante",
+					"id": 71421
+				}
+			},
+			{
+				"id": 10404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puntavolcán",
+					"id": 71422
+				}
+			},
+			{
+				"id": 10405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra corazón de Piroclasto",
+					"id": 71423
+				}
+			},
+			{
+				"id": 40423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes del gigante enfurecido",
+					"id": 171678
+				}
+			},
+			{
+				"id": 40424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de desdén rampante",
+					"id": 171674
+				}
+			},
+			{
+				"id": 40425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de núcleo llameante",
+					"id": 171676
+				}
+			},
+			{
+				"id": 40426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha chisporroteante",
+					"id": 171681
+				}
+			},
+			{
+				"id": 40427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra corazón de Piroclasto",
+					"id": 171682
+				}
+			},
+			{
+				"id": 40428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braciles Línea de lava",
+					"id": 171679
+				}
+			},
+			{
+				"id": 40429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes piel de fuego",
+					"id": 171673
+				}
+			},
+			{
+				"id": 40430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puntavolcán",
+					"id": 171677
+				}
+			},
+			{
+				"id": 40431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete incendiario",
+					"id": 171680
+				}
+			},
+			{
+				"id": 40432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón de fuego aterrador",
+					"id": 171672
+				}
+			},
+			{
+				"id": 40433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Apisonadoras de obsidiana rajada",
+					"id": 171656
+				}
+			},
+			{
+				"id": 40434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalesta de furia en erupción",
+					"id": 171671
+				}
+			},
+			{
+				"id": 40435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales hiendetierra",
+					"id": 171675
+				}
+			},
+			{
+				"id": 40501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20812,
+				"title": "Resumen",
+				"body_text": "El encuentro se divide en dos fases. En la primera fase, los jugadores deben golpearle los pies a Piroclasto para obligarlo a situarse sobre los volcanes que aparecen de forma aleatoria. Infligirle más daño en un pie que en el otro lo obliga a andar en esa dirección. Repartir el daño entre los dos pies a partes iguales obligará a Piroclasto a caminar en línea recta. La fase dos es una carrera para derrotar a Piroclasto antes de que su facultad Inmolación queme a la banda.",
+				"sections": [
+					{
+						"id": 20813,
+						"title": "Tanques",
+						"body_text": "$bullet;Durante la primera fase, tendrás que tanquear a los enemigos que aparezcan por toda la zona de juego. En la segunda fase, tendrás que tanquear a Piroclasto.\r\n$bullet;Las chispas de Piroclasto infligen daño de Fuego a todos los jugadores cercanos."
+					},
+					{
+						"id": 20814,
+						"title": "Sanadores",
+						"body_text": "$bullet;Al aumentar el número de volcanes, aumenta la frecuencia de [Erupción].\r\n$bullet;En la segunda fase, [Inmolación] quemará a la banda de forma continua."
+					},
+					{
+						"id": 20815,
+						"title": "DPS",
+						"body_text": "$bullet;Los movimientos de Piroclasto se controlan mediante el índice de daño que se le inflige en los pies. Infligir más daño al pie derecho hará que gire a la derecha e infligir más daño al pie izquierdo hará que gire a la izquierda. Repartir el daño de forma equitativa provocará que se mueva en línea recta.\r\n$bullet;Infligir daño al cuerpo de Piroclasto durante la primera fase distribuirá el daño de forma equitativa entre sus dos pies.\r\n$bullet;No permitáis que Piroclasto llegue a la lava que rodea la plataforma o podrá [Beber magma].\r\n$bullet;Si Piroclasto pisa un volcán activo, perderá armadura. Si pisa un volcán inactivo, obtendrá armadura."
+					}
+				]
+			},
+			{
+				"id": 2526,
+				"title": "Fase 1: ¡Molestias, molestias!",
+				"body_text": "Lord Piroclasto ignora a los jugadores mientras su armadura permanezca intacta pero pueden atacar a los pies para controlar su movimiento.",
+				"sections": [
+					{
+						"id": 2527,
+						"title": "Armadura de obsidiana",
+						"body_text": "Lord Piroclasto se despierta encajonado en una gruesa capa de Armadura de obsidiana, que reduce un 80% todo el daño recibido. La Armadura de obsidiana de lord Piroclasto se reduce un 10% cada vez que pisa un volcán activo. ",
+						"sections": [
+							{
+								"id": 2549,
+								"title": "Obsidiana líquida",
+								"body_text": "La obsidiana líquida se mueve hacia lord Piroclasto y lanza Unión al alcanzarle.",
+								"sections": [
+									{
+										"id": 2550,
+										"title": "Unión",
+										"body_text": "La obsidiana líquida se une a lord Piroclasto, que obtiene un 1% extra de reducción de daño."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					},
+					{
+						"id": 2528,
+						"title": "Pisotón de conmoción",
+						"body_text": "Lord Piroclasto golpea el suelo e inflige 0 p. de daño de Fuego a todos los jugadores. Cada pisotón crea 2 o 3 volcanes."
+					},
+					{
+						"id": 2534,
+						"title": "Volcán",
+						"body_text": "Lord Piroclasto activa un volcán, lo que hace que inflija 0 p. de daño de Fuego a jugadores aleatorios cada 2 s. Al ser golpeados, los jugadores reciben un 5% de daño de Fuego extra durante 15 s. Este efecto se acumula hasta 20 veces.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38054?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38054
+						}
+					},
+					{
+						"id": 2535,
+						"title": "Cráter",
+						"body_text": "Lord Piroclasto crea un cráter cuando pisa un volcán activo. A veces, lord Piroclasto hace que corrientes de lava fluyan del cráter. Las corrientes de lava infligen 0 p. de daño de Fuego a todos los jugadores en su camino.\r\n\r\n10 s después la corriente de lava entra en erupción e inflige 0 p. de daño de Fuego a todos los jugadores que permanezcan en una corriente de lava.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38063?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38063
+						}
+					},
+					{
+						"id": 2529,
+						"title": "Ignición térmica",
+						"body_text": "Lord Piroclasto lanza un chorro de cenizas, lo que inflige 0 p. de daño de Fuego a los jugadores en un radio de 7 m y crea o bien 5 fragmentos de Piroclasto o bien 1 chispa de Piroclasto.",
+						"sections": [
+							{
+								"id": 2531,
+								"title": "Fragmento de Piroclasto",
+								"body_text": "Los fragmentos de Piroclasto tienen poca salud. Si no se eliminan en 30 s, infligen daño igual a su salud actual a un jugador aleatorio.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35201?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 35201
+								}
+							},
+							{
+								"id": 2532,
+								"title": "Chispa de Piroclasto",
+								"body_text": "Las chispas de Piroclasto infligen 8 p. de daño de Fuego a todos los jugadores en un radio de 12 m.",
+								"sections": [
+									{
+										"id": 2533,
+										"title": "Rabia infernal",
+										"body_text": "Las chispas de Piroclasto aumentan un 10% el daño que infligen y un 10% su daño recibido cada 5 s. Este efecto se acumula hasta 20 veces."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38225?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38225
+								}
+							}
+						]
+					},
+					{
+						"id": 2530,
+						"title": "Beber magma",
+						"body_text": "Si lord Piroclasto logra alcanzar el límite de su plataforma, bebe del magma líquido e inflige 0 p. de daño de Fuego por segundo a todos los jugadores durante 4 s."
+					}
+				]
+			},
+			{
+				"id": 2537,
+				"title": "Fase 2: Y ahora... ¡ARDERÉIS!",
+				"body_text": "Cuando la salud restante de lord Piroclasto está al 25%, su armadura de obsidiana se triza. Se le puede atacar y ya no ignora a los jugadores.",
+				"sections": [
+					{
+						"id": 2538,
+						"title": "Inmolación",
+						"body_text": "La presencia ardiente de lord Piroclasto inflige 9 p. de daño de Fuego a todos los jugadores cada segundo."
+					},
+					{
+						"id": 2539,
+						"title": "Llama desatada",
+						"body_text": "Lord Piroclasto libera haces de fuego que persiguen a jugadores aleatorios, lo que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 5 m del punto de impacto del haz."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/193?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 193,
+		"name": "Seigneur Rhyolith",
+		"description": "Rhyolith est l'un des plus anciens élémentaires encore en vie, né des flammes élémentaires qui ont créé Azeroth. Il est responsable de la création des nouveaux élémentaires dans les terres de Feu et ressent toujours une haine brûlante contre les Titans : il considère qu'ils ont été d'une arrogance monumentale en le déplaçant.",
+		"creatures": [
+			{
+				"id": 625,
+				"name": "Seigneur Rhyolith",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38414?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38414
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet incendique",
+					"id": 71424
+				}
+			},
+			{
+				"id": 10365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70912?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Croquenots d'obsidienne craquelés",
+					"id": 70912
+				}
+			},
+			{
+				"id": 10366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets de ligne de lave",
+					"id": 71425
+				}
+			},
+			{
+				"id": 10368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du géant enragé",
+					"id": 71426
+				}
+			},
+			{
+				"id": 10369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalestre de la fureur éruptive",
+					"id": 70991
+				}
+			},
+			{
+				"id": 10370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70992?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé du feu d'effroi",
+					"id": 70992
+				}
+			},
+			{
+				"id": 10371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la peau de feu",
+					"id": 70993
+				}
+			},
+			{
+				"id": 10372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de dédain rampant",
+					"id": 71003
+				}
+			},
+			{
+				"id": 10373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la fissure terrestre",
+					"id": 71004
+				}
+			},
+			{
+				"id": 10374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet au cœur enflammé",
+					"id": 71005
+				}
+			},
+			{
+				"id": 10375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pointe du volcan",
+					"id": 71006
+				}
+			},
+			{
+				"id": 10377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du géant enragé",
+					"id": 71007
+				}
+			},
+			{
+				"id": 10379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets de ligne de lave",
+					"id": 71009
+				}
+			},
+			{
+				"id": 10382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet incendique",
+					"id": 71010
+				}
+			},
+			{
+				"id": 10384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche vacillante",
+					"id": 71011
+				}
+			},
+			{
+				"id": 10386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71012?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de cœur de Rhyolith",
+					"id": 71012
+				}
+			},
+			{
+				"id": 10387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalestre de la fureur éruptive",
+					"id": 71414
+				}
+			},
+			{
+				"id": 10397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé du feu d'effroi",
+					"id": 71415
+				}
+			},
+			{
+				"id": 10398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de dédain rampant",
+					"id": 71416
+				}
+			},
+			{
+				"id": 10399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet au cœur enflammé",
+					"id": 71417
+				}
+			},
+			{
+				"id": 10400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la fissure terrestre",
+					"id": 71418
+				}
+			},
+			{
+				"id": 10401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la peau de feu",
+					"id": 71419
+				}
+			},
+			{
+				"id": 10402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Croquenots d'obsidienne craquelés",
+					"id": 71420
+				}
+			},
+			{
+				"id": 10403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche vacillante",
+					"id": 71421
+				}
+			},
+			{
+				"id": 10404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pointe du volcan",
+					"id": 71422
+				}
+			},
+			{
+				"id": 10405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de cœur de Rhyolith",
+					"id": 71423
+				}
+			},
+			{
+				"id": 40423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes du géant enragé",
+					"id": 171678
+				}
+			},
+			{
+				"id": 40424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de dédain rampant",
+					"id": 171674
+				}
+			},
+			{
+				"id": 40425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet au cœur enflammé",
+					"id": 171676
+				}
+			},
+			{
+				"id": 40426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche vacillante",
+					"id": 171681
+				}
+			},
+			{
+				"id": 40427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de cœur de Rhyolith",
+					"id": 171682
+				}
+			},
+			{
+				"id": 40428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-poignets de ligne de lave",
+					"id": 171679
+				}
+			},
+			{
+				"id": 40429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de la peau de feu",
+					"id": 171673
+				}
+			},
+			{
+				"id": 40430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pointe du volcan",
+					"id": 171677
+				}
+			},
+			{
+				"id": 40431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet incendique",
+					"id": 171680
+				}
+			},
+			{
+				"id": 40432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé du feu d’effroi",
+					"id": 171672
+				}
+			},
+			{
+				"id": 40433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Croquenots d’obsidienne craquelés",
+					"id": 171656
+				}
+			},
+			{
+				"id": 40434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalestre de la fureur éruptive",
+					"id": 171671
+				}
+			},
+			{
+				"id": 40435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de la fissure terrestre",
+					"id": 171675
+				}
+			},
+			{
+				"id": 40501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20812,
+				"title": "Vue d’ensemble",
+				"body_text": "La rencontre est divisée en deux phases. Pendant la phase 1, les personnages-joueurs doivent frapper l’un des pieds de Rhyolith pour le forcer à marcher sur des volcans apparaissant de manière aléatoire. Infliger plus de dégâts à un pied qu’à l’autre dirige Rhyolith dans la direction de ce pied. Infliger des dégâts équivalents aux deux pieds le fait avancer en ligne droite.\r\nLa phase 2 consiste à vaincre Rhyolith avant qu’il éradique le raid avec sa technique Immoler.",
+				"sections": [
+					{
+						"id": 20813,
+						"title": "Tanks",
+						"body_text": "$bullet;Pendant la phase 1, vous devez attirer l’attention des serviteurs qui apparaissent sur le champ de bataille. Pendant la phase 2, Rhyolith doit concentrer ses attaques sur vous.\r\n$bullet;Les étincelles de Rhyolith infligent des dégâts de Feu à tous les personnages-joueurs proches."
+					},
+					{
+						"id": 20814,
+						"title": "Soigneurs",
+						"body_text": "$bullet;À mesure que le nombre de volcans augmente, la fréquence d’[Éruption] augmente aussi.\r\n$bullet;Pendant la phase 2, [Immoler] brûle tous les membres du raid de manière continue."
+					},
+					{
+						"id": 20815,
+						"title": "DPS",
+						"body_text": "$bullet;Les déplacements de Rhyolith sont contrôlés par le ratio de dégâts infligés à chacun de ses deux pieds. Plus de dégâts infligés au pied droit le feront tourner à droite, de même pour le pied gauche. Infliger un montant de dégâts équivalent à ses deux pieds le fera avancer droit devant lui.\r\n$bullet;Infliger des dégâts au corps de Rhyolith lors de la phase 1 répartit les dégâts équitablement entre ses deux pieds.\r\n$bullet;Ne laissez pas Rhyolith atteindre la lave autour de sa plateforme ou il se mettra à [Boire du magma].\r\n$bullet;Si Rhyolith marche sur un volcan actif, il perd de l’armure. S’il marche sur un volcan éteint, il en gagne."
+					}
+				]
+			},
+			{
+				"id": 2526,
+				"title": "Phase 1 : Quel embarras !",
+				"body_text": "Le seigneur Rhyolith ignore les personnages-joueurs tant que son armure est intacte, mais ceux-ci peuvent contrôler ses déplacements en attaquant ses pieds.",
+				"sections": [
+					{
+						"id": 2527,
+						"title": "Armure en obsidienne",
+						"body_text": "Lorsque le seigneur Rhyolith s’éveille, il est recouvert d’une épaisse couche d’armure en obsidienne qui réduit les dégâts qu’il subit de 80%. L’armure en obsidienne du seigneur Rhyolith est réduite de 10% chaque fois qu’il marche sur un Volcan actif.",
+						"sections": [
+							{
+								"id": 2549,
+								"title": "Obsidienne liquide",
+								"body_text": "L’obsidienne liquide se dirige vers le seigneur Rhyolith, et lance Fusion lorsqu’elle l’atteint.",
+								"sections": [
+									{
+										"id": 2550,
+										"title": "Fusion",
+										"body_text": "L’obsidienne liquide fusionne avec le seigneur Rhyolith, ce qui réduit les dégâts qu’il subit de 1%."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					},
+					{
+						"id": 2528,
+						"title": "Piétinement commotionnant",
+						"body_text": "Le seigneur Rhyolith frappe le sol, infligeant 0 points de dégâts de feu à tous les personnages-joueurs. Chaque piétinement crée deux à trois volcans."
+					},
+					{
+						"id": 2534,
+						"title": "Volcan",
+						"body_text": "Le seigneur Rhyolith fait entrer un volcan en éruption, ce qui inflige 0 points de dégâts de Feu à des personnages-joueurs aléatoires toutes les 2 s. Quand ils sont touchés, les personnages-joueurs subissent 5% de points de dégâts de Feu supplémentaires pendant 15 s. Cet effet est cumulable jusqu’à 20 fois.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38054?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38054
+						}
+					},
+					{
+						"id": 2535,
+						"title": "Cratère",
+						"body_text": "Le seigneur Rhyolith crée un cratère lorsqu’il marche sur un volcan actif. De temps en temps, il provoque l'écoulement d'un flot de lave depuis un de ces cratères. Ce flot de magma mouvant inflige 0 points de dégâts de Feu à tout personnage sur son passage.\r\n\r\nAu bout de 10 s, le flot de lave entre en éruption, infligeant 0 points de dégâts de Feu à tout personnage-joueur qui se tient dedans.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38063?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38063
+						}
+					},
+					{
+						"id": 2529,
+						"title": "Embrasement thermique",
+						"body_text": "Le seigneur Rhyolith émet un jet de braises qui inflige 0 points de dégâts de Feu aux personnages-joueurs à moins de 7 mètres, et crée soit 5 fragments de Rhyolith, soit une étincelle de Rhyolith.",
+						"sections": [
+							{
+								"id": 2531,
+								"title": "Fragment de Rhyolith",
+								"body_text": "Les fragments de Rhyolith ont peu de points de vie. S’ils ne sont pas détruits dans les 30 s, ils infligent un montant de dégâts égal à leurs points de vie actuels à un personnage-joueur aléatoire.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35201?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 35201
+								}
+							},
+							{
+								"id": 2532,
+								"title": "Étincelle de Rhyolith",
+								"body_text": "Les étincelles de Rhyolith infligent 8 points de dégâts de Feu à tous les personnages-joueurs dans un rayon de 12 mètres.",
+								"sections": [
+									{
+										"id": 2533,
+										"title": "Rage infernale",
+										"body_text": "Les étincelles de Rhyolith augmentent les dégâts qu’elles infligent de 10% et ceux qu’elles subissent de 10% toutes les 5 s. Cet effet est cumulable jusqu’à un maximum de 20 fois."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38225?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38225
+								}
+							}
+						]
+					},
+					{
+						"id": 2530,
+						"title": "Boire du magma",
+						"body_text": "Si jamais le seigneur Rhyolith arrive à atteindre l’extrémité de son plateau, il se met à boire le magma liquide puis inflige 0 points de dégâts de Feu toutes les secondes pendant 4 s. à tous les membres du raid."
+					}
+				]
+			},
+			{
+				"id": 2537,
+				"title": "Phase 2 : Vous allez BRÛLER !",
+				"body_text": "Quand les points de vie du seigneur Rhyolith atteignent 25%, son armure en obsidienne vole en éclats. Il devient possible de l’attaquer et il n’ignore plus les personnages-joueurs.",
+				"sections": [
+					{
+						"id": 2538,
+						"title": "Immoler",
+						"body_text": "La présence enflammée du seigneur Rhyolith inflige 8 points de dégâts de Feu par seconde à tous les personnages-joueurs."
+					},
+					{
+						"id": 2539,
+						"title": "Flamme déchaînée",
+						"body_text": "Le seigneur Rhyolith déchaîne des langues de feu qui pourchassent des personnages-joueurs au hasard en infligeant 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant à moins de 5 mètres du point d’impact de la flamme."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/193?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 193,
+		"name": "Lord Rhyolith",
+		"description": "Rhyolith is one of the most ancient elementals in existence, born from the primordial fires that forged Azeroth itself. He is responsible for the creation of new elementals in the Firelands and still possesses a searing hatred of the titans for what he considers monumental arrogance in relocating him.",
+		"creatures": [
+			{
+				"id": 625,
+				"name": "Lord Rhyolith",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38414?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38414
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10364,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incendic Chestguard",
+					"id": 71424
+				}
+			},
+			{
+				"id": 10365,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70912?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cracked Obsidian Stompers",
+					"id": 70912
+				}
+			},
+			{
+				"id": 10366,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10367,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lava Line Wristbands",
+					"id": 71425
+				}
+			},
+			{
+				"id": 10368,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Raging Giant",
+					"id": 71426
+				}
+			},
+			{
+				"id": 10369,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70991?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalest of Erupting Fury",
+					"id": 70991
+				}
+			},
+			{
+				"id": 10370,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70992?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadfire Drape",
+					"id": 70992
+				}
+			},
+			{
+				"id": 10371,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70993?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fireskin Gauntlets",
+					"id": 70993
+				}
+			},
+			{
+				"id": 10372,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71003?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hood of Rampant Disdain",
+					"id": 71003
+				}
+			},
+			{
+				"id": 10373,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71004?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Earthcrack Bracers",
+					"id": 71004
+				}
+			},
+			{
+				"id": 10374,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71005?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flaming Core Chestguard",
+					"id": 71005
+				}
+			},
+			{
+				"id": 10375,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10376,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71006?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Volcanospike",
+					"id": 71006
+				}
+			},
+			{
+				"id": 10377,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10378,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71007?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Raging Giant",
+					"id": 71007
+				}
+			},
+			{
+				"id": 10379,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10380,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10381,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71009?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lava Line Wristbands",
+					"id": 71009
+				}
+			},
+			{
+				"id": 10382,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10383,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71010?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incendic Chestguard",
+					"id": 71010
+				}
+			},
+			{
+				"id": 10384,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10385,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71011?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Cowl",
+					"id": 71011
+				}
+			},
+			{
+				"id": 10386,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71012?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heartstone of Rhyolith",
+					"id": 71012
+				}
+			},
+			{
+				"id": 10387,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10388,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10389,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10390,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10391,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10392,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10394,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10395,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10396,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71414?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalest of Erupting Fury",
+					"id": 71414
+				}
+			},
+			{
+				"id": 10397,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71415?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadfire Drape",
+					"id": 71415
+				}
+			},
+			{
+				"id": 10398,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71416?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hood of Rampant Disdain",
+					"id": 71416
+				}
+			},
+			{
+				"id": 10399,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71417?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flaming Core Chestguard",
+					"id": 71417
+				}
+			},
+			{
+				"id": 10400,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71418?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Earthcrack Bracers",
+					"id": 71418
+				}
+			},
+			{
+				"id": 10401,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71419?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fireskin Gauntlets",
+					"id": 71419
+				}
+			},
+			{
+				"id": 10402,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71420?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cracked Obsidian Stompers",
+					"id": 71420
+				}
+			},
+			{
+				"id": 10403,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71421?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Cowl",
+					"id": 71421
+				}
+			},
+			{
+				"id": 10404,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Volcanospike",
+					"id": 71422
+				}
+			},
+			{
+				"id": 10405,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heartstone of Rhyolith",
+					"id": 71423
+				}
+			},
+			{
+				"id": 40423,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171678?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of the Raging Giant",
+					"id": 171678
+				}
+			},
+			{
+				"id": 40424,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171674?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hood of Rampant Disdain",
+					"id": 171674
+				}
+			},
+			{
+				"id": 40425,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flaming Core Chestguard",
+					"id": 171676
+				}
+			},
+			{
+				"id": 40426,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171681?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Cowl",
+					"id": 171681
+				}
+			},
+			{
+				"id": 40427,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heartstone of Rhyolith",
+					"id": 171682
+				}
+			},
+			{
+				"id": 40428,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171679?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lava Line Wristbands",
+					"id": 171679
+				}
+			},
+			{
+				"id": 40429,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171673?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fireskin Gauntlets",
+					"id": 171673
+				}
+			},
+			{
+				"id": 40430,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Volcanospike",
+					"id": 171677
+				}
+			},
+			{
+				"id": 40431,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171680?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incendic Chestguard",
+					"id": 171680
+				}
+			},
+			{
+				"id": 40432,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171672?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadfire Drape",
+					"id": 171672
+				}
+			},
+			{
+				"id": 40433,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171656?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cracked Obsidian Stompers",
+					"id": 171656
+				}
+			},
+			{
+				"id": 40434,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171671?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arbalest of Erupting Fury",
+					"id": 171671
+				}
+			},
+			{
+				"id": 40435,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Earthcrack Bracers",
+					"id": 171675
+				}
+			},
+			{
+				"id": 40501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20812,
+				"title": "Overview",
+				"body_text": "The encounter consists of two stages. In Stage One, players must force Rhyolith to step on randomly spawned volcanoes by hitting either of his feet.  Damaging one foot more than the other causes Rhyolith to walk in that direction.  Evenly damaging the two feet will force Rhyolith to walk in a straight line.\r\nStage Two is a race to defeat Rhyolith before his Immolation ability burns the raid down.",
+				"sections": [
+					{
+						"id": 20813,
+						"title": "Tanks",
+						"body_text": "$bullet;During Stage One, you will tank adds that spawn throughout the playspace. In Stage Two, you will need to tank Rhyolith.\r\n$bullet;Sparks of Rhyolith inflict Fire damage to all nearby players."
+					},
+					{
+						"id": 20814,
+						"title": "Healers",
+						"body_text": "$bullet;As the number of Volcanoes increases, the frequency of [Eruption] increases.\r\n$bullet;In Phase Two, [Immolation] will continually burn your raid."
+					},
+					{
+						"id": 20815,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Rhyolith's movements are controlled by the ratio of damage being done to his two feet.  More damage on the right foot will make him turn right; and more damage on the left foot will make him turn left.  Damaging both equally will cause him to move in a straight line.\r\n$bullet;Damaging Rhyolith's body in Stage One will equally distribute the damage between both of Rhyolith's feet.\r\n$bullet;Don't let Rhyolith reach the lava around hit platform or else he will [Drink the Magma].\r\n$bullet;If Rhyolith steps on an active volcano, he will lose armor.  If he steps on a dormant volcano, he will gain armor."
+					}
+				]
+			},
+			{
+				"id": 2526,
+				"title": "Stage One: Nuisances, Nuisances!",
+				"body_text": "Lord Rhyolith ignores players while his armor is intact, but they can attack his feet to control his movement.",
+				"sections": [
+					{
+						"id": 2527,
+						"title": "Obsidian Armor",
+						"body_text": "Lord Rhyolith awakens encrusted in a thick coat of Obsidian Armor, which reduces all damage he takes by 80%. Lord Rhyolith's Obsidian Armor is reduced by 10% every time he steps on an active volcano. ",
+						"sections": [
+							{
+								"id": 2549,
+								"title": "Liquid Obsidian",
+								"body_text": "The Liquid Obsidian moves towards Lord Rhyolith, and casts Fuse when it reaches him.",
+								"sections": [
+									{
+										"id": 2550,
+										"title": "Fuse",
+										"body_text": "The Liquid Obsidian fuses with Lord Rhyolith, increasing his damage reduction by 1%."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/33006?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 33006
+								}
+							}
+						]
+					},
+					{
+						"id": 2528,
+						"title": "Concussive Stomp",
+						"body_text": "Lord Rhyolith smashes the ground, inflicting 0 Fire damage to all players. Each stomp creates two to three volcanoes."
+					},
+					{
+						"id": 2534,
+						"title": "Volcano",
+						"body_text": "Lord Rhyolith ignites a Volcano, causing it to inflict 0 Fire damage to random players every 2 sec. When struck, the player takes 5% additional Fire damage for 15 sec. This effect stacks up to 20 times.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38054?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38054
+						}
+					},
+					{
+						"id": 2535,
+						"title": "Crater",
+						"body_text": "Lord Rhyolith creates a crater when he steps on an active volcano. Occasionally, Lord Rhyolith causes streams of lava to flow from a crater. The moving stream of lava inflicts 0 Fire damage to any player in its path. \r\n\r\nAfter 10 sec. the stream of lava erupts, inflicting 0 Fire damage to any player standing within a lava stream.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38063?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38063
+						}
+					},
+					{
+						"id": 2529,
+						"title": "Thermal Ignition",
+						"body_text": "Lord Rhyolith releases a jet of cinders, inflicting 0 Fire damage to players within 7 yards and creates either 5 Fragments of Rhyolith or 1 Spark of Rhyolith.",
+						"sections": [
+							{
+								"id": 2531,
+								"title": "Fragment of Rhyolith",
+								"body_text": "Fragments of Rhyolith have low health. If not slain within 30 sec, they inflict damage equal to their current health to a random player.",
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35201?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 35201
+								}
+							},
+							{
+								"id": 2532,
+								"title": "Spark of Rhyolith",
+								"body_text": "Sparks of Rhyolith inflicts 8 Fire damage to all players within 12 yards.",
+								"sections": [
+									{
+										"id": 2533,
+										"title": "Infernal Rage",
+										"body_text": "Sparks of Rhyolith increase their damage dealt by 10% and damage taken by 10% every 5 seconds. This effect stacks up to 20 times."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38225?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38225
+								}
+							}
+						]
+					},
+					{
+						"id": 2530,
+						"title": "Drink Magma",
+						"body_text": "If Lord Rhyolith reaches the edge of his plateau, he drinks from the liquid magma and inflicts 0 Fire damage every second on all players for 4 sec."
+					}
+				]
+			},
+			{
+				"id": 2537,
+				"title": "Stage Two: Now you will BURN!",
+				"body_text": "When Lord Rhyolith reaches 25% remaining health, his Obsidian armor shatters. He becomes attackable and no longer ignores players.",
+				"sections": [
+					{
+						"id": 2538,
+						"title": "Immolation",
+						"body_text": "Lord Rhyolith's fiery presence inflicts 8 Fire damage to all players every second."
+					},
+					{
+						"id": 2539,
+						"title": "Unleashed Flame",
+						"body_text": "Lord Rhyolith unleashes beams of fire which pursue random players, inflicting 0 Fire damage to all players within 5 yards of the beam's impact location."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

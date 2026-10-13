@@ -145,6 +145,38 @@ async function iconoSpell(mediaId) {
 	return asset?.value ?? null;
 }
 
+// icono por spell id VÍA WOWHEAD (permiso explícito del propietario,
+// 2026-10-10): la búsqueda de Blizzard no indexa los spells de mazmorra,
+// pero su página de Wowhead siempre trae el nombre del icono (el hotlink
+// zamimg images/wow/icons/large/{nombre}.jpg fue verificado y aprobado
+// hace tiempo). Una consulta por spell, cacheada en spell-names.json.
+async function iconoWowhead(spellId) {
+	try {
+		const res = await fetch(`https://www.wowhead.com/spell=${spellId}`, {
+			headers: { "User-Agent": "Bosses-addon-editor/1.0", "Accept-Language": "es-ES,es;q=0.9,en;q=0.8" },
+			signal: AbortSignal.timeout(15000),
+		});
+		if (!res.ok) return null;
+		const html = await res.text();
+		const m = /images\/wow\/icons\/large\/([a-z0-9_]+)\.jpg/i.exec(html);
+		return m ? `https://wow.zamimg.com/images/wow/icons/large/${m[1]}.jpg` : null;
+	} catch {
+		return null;
+	}
+}
+
+// asegura el icono de un spell ya conocido (sin icono de Blizzard): Wowhead
+// con ritmo educado; los fallos se marcan (iconVacio) para no repetirlos
+async function asegurarIcono(id) {
+	const k = String(id);
+	const e = spellNames[k];
+	if (!e || e.miss || e.icon || e.iconVacio) return;
+	const url = await iconoWowhead(k);
+	if (url) e.icon = url;
+	else e.iconVacio = true;
+	saveSpellNames();
+}
+
 async function buscarNombresDeSpell(id, nombreStored) {
 	if (!blizz || !/^\d+$/.test(String(id)) || !nombreStored) return null;
 	const term = String(nombreStored).trim();
@@ -320,6 +352,9 @@ function primeraPalabra(s) {
 	return claveTokens(s).find((w) => w.length >= 6) ?? "";
 }
 
+// splash de instancia por id (una imagen por mazmorra; evita una llamada por jefe)
+const splashCache = new Map();
+
 async function mediaDeEntrada(packName, npcId, locale) {
 	const key = `${packName}:${locale}:${npcId}`;
 	const hit = mediaMap.byKey[key];
@@ -396,11 +431,14 @@ async function mediaDeEntrada(packName, npcId, locale) {
 		const m = await blizz.media(criatura.creature_display.key.href);
 		portrait = m.json?.assets?.find((a) => a.key.endsWith("zoom"))?.value ?? m.json?.assets?.[0]?.value ?? null;
 	}
-	// splash de la instancia (imagen de la zona para la cabecera)
+	// splash de la instancia (imagen de la zona para la cabecera; por instancia)
 	let splash = null;
 	if (instancia.id) {
-		const sm = await blizz.api(`/data/wow/media/journal-instance/${instancia.id}`, { locale: "es_ES" });
-		splash = sm.json?.assets?.[0]?.value ?? null;
+		if (!splashCache.has(instancia.id)) {
+			const sm = await blizz.api(`/data/wow/media/journal-instance/${instancia.id}`, { locale: "es_ES" });
+			splashCache.set(instancia.id, sm.json?.assets?.[0]?.value ?? null);
+		}
+		splash = splashCache.get(instancia.id);
 	}
 	// texto: body_text en el diario moderno (bullet era el campo del formato
 	// viejo). Secciones PLANCHAS (todos los niveles): las habilidades viven
@@ -419,15 +457,18 @@ async function mediaDeEntrada(packName, npcId, locale) {
 	// Barón Filargenta arrastra a Odo, Rethilgore, Nandos…). Dos cortes:
 	// al primer título que sea otro ENCUENTRO de la instancia, y al primero
 	// que sea otro JEFE DEL PROPIO PACK en la misma zona (cubre el caso del
-	// diario heroico que mezcla el flujo clásico, donde esos nombres no
-	// figuran como encuentros).
-	const { encounters: hermanos } = await encuentrosDe(instancia.id, "es_ES");
+	// diario heroico que mezcla el flujo clásico). LOCALE-CONSCIENTE: los
+	// cortes se calculan con los nombres del locale pedido para que el
+	// aplanado quede IDÉNTICO entre locales (aprenderDelDiario los alinea).
+	const { encounters: hermanos } = await encuentrosDe(instancia.id, locale);
 	const clavesHermanos = new Set(hermanos
 		.filter((e) => e.id !== encuentro.id)
 		.map((e) => nombreClave(e.name))
 		.filter(Boolean));
+	const langDoc = { es_ES: "es", en_US: "en", fr_FR: "fr", de_DE: "de" }[locale] ?? "es";
+	const docCorte = getDoc(packName, langDoc) ?? docES;
 	const otrosNombresPack = [];
-	for (const t of docEntries(docES)) if (t.id !== npcId && t.zone === zona) otrosNombresPack.push(t.name);
+	for (const t of docEntries(docCorte)) if (t.id !== npcId && t.zone === zona) otrosNombresPack.push(t.name);
 	const corte = sections.findIndex((s) =>
 		clavesHermanos.has(nombreClave(s.title))
 		|| otrosNombresPack.some((n) => casaNombre(n, s.title)));
@@ -452,6 +493,75 @@ async function mediaDeEntrada(packName, npcId, locale) {
 	mediaMap.byKey[key] = data;
 	saveMediaMap();
 	return data;
+}
+
+// aprende nombres localizados de spells DESDE EL DIARIO DEL PROPIO ENCUENTRO:
+// los títulos de las secciones vienen traducidos en cada locale y el
+// emparejamiento es por contexto (mismo jefe, mismo orden tras el aplanado
+// idéntico), sin el riesgo de homónimos de la búsqueda global. ES LA FUENTE
+// que cubre los spells de mazmorra que Blizzard NO indexa en search (visto:
+// "Snack Time" 438025, "Flaming Updraft" 466556) y que el addon sí traduce
+// in-game con la base del cliente. Aprendidos → spell-names.json (deshacen
+// marcas de fallo); los usan picker, preview y cobertura como los de API.
+// localesBase: los que se traen para alinear con el EN (por omisión los 4).
+async function aprenderDelDiario(packName, npcId, localesBase = ["es_ES", "en_US", "fr_FR", "de_DE"]) {
+	if (!blizz) return {};
+	// enlaces de spell de ESTA entrada (tabla es y en: los corchetes guardados)
+	const enlaces = [];
+	for (const lang of ["es", "en"]) {
+		const doc = getDoc(packName, lang);
+		const det = doc ? entryDetail(doc, npcId) : null;
+		for (const l of det?.lines ?? []) {
+			for (const m of String(l).matchAll(/\|Hspell:(\d+)\|h\[([^\]]+)\]/g)) enlaces.push({ id: m[1], nombre: m[2] });
+		}
+	}
+	if (!enlaces.length) return {};
+	let medios = {};
+	try {
+		for (const loc of new Set([...localesBase, "en_US"])) medios[loc] = await mediaDeEntrada(packName, npcId, loc);
+	} catch { return {}; }
+	const secsEN = medios["en_US"]?.sections ?? [];
+	if (!secsEN.length) return {};
+	const nuevos = {};
+	// solo se alinea por índice cuando el aplanado tiene la MISMA longitud en
+	// ambos locales (estructura idéntica); si difiere, se salta por prudencia
+	for (const loc of localesBase) {
+		if (loc === "en_US") continue;
+		const secsLoc = medios[loc]?.sections ?? [];
+		if (secsLoc.length !== secsEN.length) continue;
+		const campo = { es_ES: "es", fr_FR: "fr", de_DE: "de" }[loc];
+		for (let i = 0; i < secsEN.length; i++) {
+			const tEN = String(secsEN[i]?.title ?? "").trim();
+			const tLoc = String(secsLoc[i]?.title ?? "").trim();
+			if (!tEN || !tLoc || tEN === tLoc) continue;
+			for (const e of enlaces) {
+				if (nombreClave(e.nombre) !== nombreClave(tEN) || !nombreClave(e.nombre)) continue;
+				const previo = spellNames[e.id];
+				if (!previo || previo.miss || !previo[campo]) {
+					const entrada = previo && !previo.miss ? previo : {};
+					delete entrada.miss;
+					entrada[campo] = tLoc;
+					entrada.diario = true;
+					spellNames[e.id] = entrada;
+					nuevos[e.id] = entrada;
+				}
+				break;
+			}
+		}
+	}
+	if (Object.keys(nuevos).length) saveSpellNames();
+	// iconos de los spells de la entrada (Wowhead, permiso del propietario):
+	// uno por id nuevo, con pausa educada; los ya resueltos por la búsqueda
+	// de Blizzard (que trae los suyos) y los vacíos no se reintentan
+	const idsUnicos = [...new Set(enlaces.map((e) => e.id))];
+	for (const id of idsUnicos) {
+		const e = spellNames[id];
+		if (e && !e.miss && !e.icon && !e.iconVacio) {
+			await asegurarIcono(id);
+			await new Promise((r) => setTimeout(r, 250));
+		}
+	}
+	return nuevos;
 }
 
 // ------------------------------------------------------------- Fastify ----
@@ -593,7 +703,7 @@ fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 
 // --- spells ----------------------------------------------------------------
 // resultado del buscador: nombre observado por idioma ENRUTADO con el mapa
-// resuelto (spell-names.json) + icono cuando se conoce
+// resuelto (spell-names.json: API de Blizzard o enseñado a mano) + icono
 fastify.get("/api/spells", async (req) => {
 	const q = String(req.query.q ?? "").trim();
 	if (!q) return { ok: true, spells: [] };
@@ -601,14 +711,50 @@ fastify.get("/api/spells", async (req) => {
 	const out = [];
 	for (const [id, s] of spells) {
 		const names = Object.entries(s.name); // [lang, nombre]
-		if (id.startsWith(q) || names.some(([, n]) => norm(n).includes(qn))) {
-			const res = spellNames[id];
-			if (res && !res.miss) for (const l of IDIOMAS) if (!s.name[l] && res[l]) s.name[l] = res[l]; // enriquece el índice en vivo
-			out.push({ id, name: s.name, refs: s.refs, icon: spellNames[id]?.icon ?? null });
+		const res = spellNames[id];
+		const resuelto = res && !res.miss ? IDIOMAS.map((l) => res[l]).filter(Boolean) : [];
+		// la búsqueda casa por los nombres GUARDADOS y también por los
+		// RESUELTOS (diario/API/Wowhead): "astillaestrellas" encuentra al
+		// spell cuyo pack guarda "Starsplinter"
+		if (id.startsWith(q) || names.some(([, n]) => norm(n).includes(qn)) || resuelto.some((n) => norm(n).includes(qn))) {
+			if (res && !res.miss) {
+				for (const l of IDIOMAS) {
+					// cubre el idioma FALTANTE y el SOSPECHOSO (tabla ES que
+					// guarda el nombre EN: Midnight/TWW con la esES pendiente)
+					if (res[l] && (!s.name[l] || s.name[l] === s.name.en)) {
+						s.name[l] = res[l];
+						s.apiOverlay = true;
+					}
+				}
+			}
+			out.push({ id, name: s.name, refs: s.refs, icon: res && !res.miss ? (res.icon ?? null) : null, api: s.apiOverlay ?? false });
 			if (out.length >= 30) break;
 		}
 	}
 	return { ok: true, spells: out.sort((a, b) => Number(a.id) - Number(b.id)) };
+});
+
+// nombre ENSEÑADO a mano: las habilidades de jefes de mazmorra de Midnight
+// (p. ej. 466556 "Flaming Updraft" / "Corriente ascendente flameante") no
+// están en el índice de búsqueda de Blizzard — solo en la base del cliente.
+// El propietario lo enseña UNA vez, queda en spell-names.json (deshace la
+// marca de fallo) y lo usan picker, preview y cobertura igual que los
+// resueltos por API. No sustituye corregir el corchete en el pack: lo
+// adelanta para las entradas aún pendientes.
+fastify.post("/api/spells/nombre-manual", async (req) => {
+	const { id, lang, nombre } = req.body ?? {};
+	if (!/^\d+$/.test(String(id ?? ""))) return { ok: false, error: "id de spell no válido" };
+	if (!IDIOMAS.includes(lang)) return { ok: false, error: `idioma ${lang} desconocido` };
+	const texto = String(nombre ?? "").trim();
+	if (!texto) return { ok: false, error: "nombre vacío" };
+	const previo = spellNames[String(id)] ?? {};
+	delete previo.miss; // una lección deshace la marca de fallo de la API
+	previo[lang] = texto;
+	previo.manual = true;
+	spellNames[String(id)] = previo;
+	saveSpellNames();
+	await asegurarIcono(id); // icono vía Wowhead si Blizzard no lo trae
+	return { ok: true, nombres: spellNames[String(id)] };
 });
 
 // lote de nombres localizados para la vista previa (traducción al vuelo como
@@ -640,7 +786,10 @@ fastify.get("/api/media/:pack/:id", async (req, reply) => {
 	const locale = String(req.query.locale ?? "es_ES");
 	try {
 		const data = await mediaDeEntrada(pack, id, locale);
-		return { ok: true, media: data };
+		// el diario del jefe ENSEÑA los nombres localizados de sus spells
+		// (fuente para los que la búsqueda global no indexa)
+		const spellnames = await aprenderDelDiario(pack, id);
+		return { ok: true, media: data, spellnames };
 	} catch (err) {
 		return reply.code(404).send({ ok: false, error: err.message });
 	}
@@ -679,6 +828,9 @@ fastify.get("/api/cobertura/:pack", async (req, reply) => {
 		}
 		try {
 			const media = await mediaDeEntrada(pack, ent.id, "es_ES");
+			// de paso, el barrido enseña al caché los nombres ES de los spells
+			// del jefe desde su propio diario (búsqueda global no los indexa)
+			await aprenderDelDiario(pack, ent.id, ["es_ES", "en_US"]);
 			// solo habilidades de verdad: fuera grupos "Fase N", avisos de
 			// dificultad y encabezados de rol; sin duplicados por rol
 			const secciones = (media.sections ?? []).filter((s) => String(s.title ?? "").trim() && !TITULO_ESTRUCTURAL.test(s.title));

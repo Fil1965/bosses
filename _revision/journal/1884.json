@@ -1,0 +1,615 @@
+{
+	"id": 1884,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1884?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1884,
+		"name": "Malificus",
+		"description": "Malificus, una criatura hecha de pura maldad, infunde el miedo en los corazones de sus enemigos. Los episodios de histeria colectiva entre los ciudadanos y los cultos de la muerte que celebran el fin de los días auguran su llegada.",
+		"creatures": [
+			{
+				"id": 4341,
+				"name": "Malificus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/63619?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 63619
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa de desconfianza creciente",
+					"id": 147764
+				}
+			},
+			{
+				"id": 33986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cimera resistente a la peste",
+					"id": 147740
+				}
+			},
+			{
+				"id": 33987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños de servicio temeroso",
+					"id": 147735
+				}
+			},
+			{
+				"id": 33988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rascacerebros con garras",
+					"id": 147745
+				}
+			},
+			{
+				"id": 33989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de zelote malicioso",
+					"id": 147750
+				}
+			},
+			{
+				"id": 33990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuerno sangriento del Señor del Terror",
+					"id": 147754
+				}
+			},
+			{
+				"id": 33991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Revelación encantadora",
+					"id": 147758
+				}
+			},
+			{
+				"id": 33992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vestimentas rituales de orador del sino",
+					"id": 147733
+				}
+			},
+			{
+				"id": 33993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Musleras de desdén profano",
+					"id": 147741
+				}
+			},
+			{
+				"id": 33994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines de retirada confusa",
+					"id": 147744
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14802,
+				"title": "Resumen",
+				"body_text": "Los jugadores afectados por [Incitar pánico] contagiarán [Incitar pánico] a los aliados cercanos.",
+				"sections": [
+					{
+						"id": 14803,
+						"title": "DPS",
+						"body_text": "$bullet;Evita los charcos de [Infección virulenta].\r\n$bullet;Evita a los enemigos que huyen a causa de [Incitar pánico]."
+					},
+					{
+						"id": 14804,
+						"title": "Tanques",
+						"body_text": "$bullet;Evita a los enemigos que huyen a causa de [Incitar pánico]."
+					},
+					{
+						"id": 14798,
+						"title": "Sanadores",
+						"body_text": "$bullet;Evita los charcos de [Infección virulenta].\r\n$bullet;Evita a los enemigos que huyen a causa de [Incitar pánico]."
+					}
+				]
+			},
+			{
+				"id": 14799,
+				"title": "Tromba de las Sombras",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tromba de las Sombras",
+					"id": 234452
+				}
+			},
+			{
+				"id": 14800,
+				"title": "Incitar pánico",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incitar pánico",
+					"id": 233568
+				}
+			},
+			{
+				"id": 15320,
+				"title": "Pestilencia",
+				"sections": [
+					{
+						"id": 14801,
+						"title": "Infección virulenta",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/233850?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Infección virulenta",
+							"id": 233850
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pestilencia",
+					"id": 233614
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Islas Abruptas",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1884?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1884,
+		"name": "Malificus",
+		"description": "Incarnation du mal à l’état pur, Malificus insuffle la terreur dans le cœur de tous ceux qui osent se dresser contre lui. Les sinistres présages préludant à son arrivée affolent la population et sont accueillis par des sectes de la mort à grand renfort de cérémonies apocalyptiques.",
+		"creatures": [
+			{
+				"id": 4341,
+				"name": "Malificus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/63619?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 63619
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape de méfiance croissante",
+					"id": 147764
+				}
+			},
+			{
+				"id": 33986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bassinet résistant à la peste",
+					"id": 147740
+				}
+			},
+			{
+				"id": 33987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins de service craintif",
+					"id": 147735
+				}
+			},
+			{
+				"id": 33988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gratte-cervelle à serres",
+					"id": 147745
+				}
+			},
+			{
+				"id": 33989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de zélote malveillant",
+					"id": 147750
+				}
+			},
+			{
+				"id": 33990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corne de seigneur de l'effroi sanglante",
+					"id": 147754
+				}
+			},
+			{
+				"id": 33991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Révélation captivante",
+					"id": 147758
+				}
+			},
+			{
+				"id": 33992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Habit ritualiste d'auspice funeste",
+					"id": 147733
+				}
+			},
+			{
+				"id": 33993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-jambes de dédain impie",
+					"id": 147741
+				}
+			},
+			{
+				"id": 33994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de retraite désordonnée",
+					"id": 147744
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14802,
+				"title": "Vue d’ensemble",
+				"body_text": "Les personnages-joueurs affectés par [Incitation à la panique] transmettent [Incitation à la panique] aux alliés proches.",
+				"sections": [
+					{
+						"id": 14803,
+						"title": "DPS",
+						"body_text": "$bullet;Évitez tout contact avec les flaques d’[Infection virulente].\r\n$bullet;Évitez les ennemis qui prennent la fuite sous l’effet d’[Incitation à la panique]."
+					},
+					{
+						"id": 14804,
+						"title": "Tanks",
+						"body_text": "$bullet;Évitez les ennemis qui prennent la fuite sous l’effet d’[Incitation à la panique]."
+					},
+					{
+						"id": 14798,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Évitez tout contact avec les flaques d’[Infection virulente].\r\n$bullet;Évitez les ennemis qui prennent la fuite sous l’effet d’[Incitation à la panique]."
+					}
+				]
+			},
+			{
+				"id": 14799,
+				"title": "Barrage d’ombre",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Barrage d’ombre",
+					"id": 234452
+				}
+			},
+			{
+				"id": 14800,
+				"title": "Incitation à la panique",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incitation à la panique",
+					"id": 233568
+				}
+			},
+			{
+				"id": 15320,
+				"title": "Pestilence",
+				"sections": [
+					{
+						"id": 14801,
+						"title": "Infection virulente",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/233850?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Infection virulente",
+							"id": 233850
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pestilence",
+					"id": 233614
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Îles Brisées",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1884?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1884,
+		"name": "Malificus",
+		"description": "A creature of pure malice, Malificus incites terror in the hearts of all those who oppose him. Portents of his arrival come in the form of mass panics among citizens, and death cults celebrating the end of days.",
+		"creatures": [
+			{
+				"id": 4341,
+				"name": "Malificus",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/63619?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 63619
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 33985,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cloak of Growing Mistrust",
+					"id": 147764
+				}
+			},
+			{
+				"id": 33986,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plague-Resistant Headcover",
+					"id": 147740
+				}
+			},
+			{
+				"id": 33987,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuffs of Fearful Service",
+					"id": 147735
+				}
+			},
+			{
+				"id": 33988,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Taloned Brain-Scrapers",
+					"id": 147745
+				}
+			},
+			{
+				"id": 33989,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147750?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malicious Zealot's Legplates",
+					"id": 147750
+				}
+			},
+			{
+				"id": 33990,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gory Dreadlord Horn",
+					"id": 147754
+				}
+			},
+			{
+				"id": 33991,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beguiling Revelation",
+					"id": 147758
+				}
+			},
+			{
+				"id": 33992,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Doomsayer's Ritualistic Vestment",
+					"id": 147733
+				}
+			},
+			{
+				"id": 33993,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147741?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legguards of Unholy Disdain",
+					"id": 147741
+				}
+			},
+			{
+				"id": 33994,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/147744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Treads of Disorderly Retreat",
+					"id": 147744
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 14802,
+				"title": "Overview",
+				"body_text": "Players affected by [Incite Panic] will spread [Incite Panic] to nearby allies.",
+				"sections": [
+					{
+						"id": 14803,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Avoid standing in pools of [Virulent Infection].\r\n$bullet;Avoid enemies who are fleeing due to [Incite Panic]."
+					},
+					{
+						"id": 14804,
+						"title": "Tanks",
+						"body_text": "$bullet;Avoid enemies who are fleeing due to [Incite Panic]."
+					},
+					{
+						"id": 14798,
+						"title": "Healers",
+						"body_text": "$bullet;Avoid standing in pools of [Virulent Infection].\r\n$bullet;Avoid enemies who are fleeing due to [Incite Panic]."
+					}
+				]
+			},
+			{
+				"id": 14799,
+				"title": "Shadow Barrage",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/234452?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shadow Barrage",
+					"id": 234452
+				}
+			},
+			{
+				"id": 14800,
+				"title": "Incite Panic",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233568?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incite Panic",
+					"id": 233568
+				}
+			},
+			{
+				"id": 15320,
+				"title": "Pestilence",
+				"sections": [
+					{
+						"id": 14801,
+						"title": "Virulent Infection",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/233850?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Virulent Infection",
+							"id": 233850
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/233614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pestilence",
+					"id": 233614
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/822?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Broken Isles",
+			"id": 822
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

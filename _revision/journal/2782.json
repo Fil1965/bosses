@@ -1,0 +1,636 @@
+{
+	"id": 2782,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2782?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2782,
+		"name": "Pinorrisco",
+		"description": "Tan anciano como los propios acantilados, Pinorrisco ha dormido durante siglos bajo la fronda de los altos pinos. Ahora, la descuidada intrusión de los mortales lo ha despertado y se alza para defender su bosque, manejándolo a su voluntad.",
+		"creatures": [
+			{
+				"id": 5940,
+				"name": "Pinorrisco",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/125365?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 125365
+				}
+			},
+			{
+				"id": 6145,
+				"name": "Antárbol enfadado",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 864
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insignia de errante olvidado",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga dorada de erudito infeliz",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calzas de escolta devorador",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de plumas de acechazarzas",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de comandante de hueste",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena del vigía anciano",
+					"id": 250461
+				}
+			},
+			{
+				"id": 45731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arco largo salvaje de centinela del bosque",
+					"id": 250450
+				}
+			},
+			{
+				"id": 45732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baluarte cuidarriscos",
+					"id": 250446
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 32613,
+				"title": "Resumen",
+				"body_text": "Pinorrisco llama a los antárboles de Zul'Aman con [Tremorraíz] mientras hace temblar el suelo que tiene bajo los pies.\r\n\r\nEl bosque responde la llamada mientras él despierta las [Semillas antiguas] que reposan en el suelo.",
+				"sections": [
+					{
+						"id": 32614,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Tremorraíz] inflige mucho daño a todos los jugadores.\r\n$bullet;Las [Semillas antiguas] flotantes infligen daño a los jugadores cercanos."
+					},
+					{
+						"id": 32615,
+						"title": "Tanques",
+						"body_text": "$bullet;Pinorrisco inflige mucho daño cuerpo a cuerpo mientras blande un [Garrote de guerra].\r\n$bullet;Unos antárboles enfadados persiguen a los jugadores sin cesar hasta que son destruidos."
+					},
+					{
+						"id": 32616,
+						"title": "DPS",
+						"body_text": "$bullet;Unos antárboles enfadados persiguen a los jugadores sin cesar hasta que son destruidos.\r\n$bullet;Las [Semillas antiguas] flotantes infligen daño a los jugadores cercanos."
+					}
+				]
+			},
+			{
+				"id": 34051,
+				"title": "Tremorraíz",
+				"sections": [
+					{
+						"id": 34052,
+						"title": "Raíces emergentes",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1235134?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Raíces emergentes",
+							"id": 1235134
+						}
+					},
+					{
+						"id": 34053,
+						"title": "Antárbol enfadado",
+						"body_text": "Después de su violento despertar, este antárbol se fija en un jugador cercano.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 864
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tremorraíz",
+					"id": 1235131
+				}
+			},
+			{
+				"id": 32618,
+				"title": "Garrote de guerra",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235144?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garrote de guerra",
+					"id": 1235144
+				}
+			},
+			{
+				"id": 32650,
+				"title": "Semillas antiguas",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257906?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Semillas antiguas",
+					"id": 1257906
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2782?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2782,
+		"name": "Pincombe",
+		"description": "Aussi ancien que les falaises elles-mêmes, Pincombe sommeille depuis des siècles sous une voûte de pins majestueux. Réveillé par l’intrusion de créatures mortelles imprudentes, il se dresse pour défendre sa clairière, pliant la forêt tout entière à sa volonté.",
+		"creatures": [
+			{
+				"id": 5940,
+				"name": "Pincombe",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/125365?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 125365
+				}
+			},
+			{
+				"id": 6145,
+				"name": "Tréant en colère",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 864
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Insigne pérégrin perdu",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe dorée d’étude abjecte",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hauts-de-chausses de voltige dévorants",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche à plumes de traque-ronces",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de commandement de l’ost",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne d’observation ancienne",
+					"id": 250461
+				}
+			},
+			{
+				"id": 45731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arc long brutal de sentinelle forestière",
+					"id": 250450
+				}
+			},
+			{
+				"id": 45732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rempart garde-combe",
+					"id": 250446
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 32613,
+				"title": "Vue d’ensemble",
+				"body_text": "Grâce au [Séisme racinaire], Pincombe appelle les tréants de Zul’Aman en faisant trembler le sol sous ses pieds.\r\n\r\nLa forêt répond à son appel alors qu’il réveille les [Graines antiques] sommeillant sous terre.",
+				"sections": [
+					{
+						"id": 32614,
+						"title": "Soins",
+						"body_text": "$bullet;[Séisme racinaire] inflige de lourds dégâts à tous les personnages-joueurs.\r\n$bullet;Des [Graines antiques] flottantes infligent des dégâts aux personnages-joueurs proches."
+					},
+					{
+						"id": 32615,
+						"title": "Tank",
+						"body_text": "$bullet;Pincombe inflige de lourds dégâts de mêlée en agitant une [Massue de guerre].\r\n$bullet;Des tréants en colère poursuivent inlassablement les personnages-joueurs jusqu’à leur destruction."
+					},
+					{
+						"id": 32616,
+						"title": "DPS",
+						"body_text": "$bullet;Des tréants en colère poursuivent inlassablement les personnages-joueurs jusqu’à leur destruction.\r\n$bullet;Des [Graines antiques] flottantes infligent des dégâts aux personnages-joueurs proches."
+					}
+				]
+			},
+			{
+				"id": 34051,
+				"title": "Séisme racinaire",
+				"sections": [
+					{
+						"id": 34052,
+						"title": "Éruption de racines",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1235134?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Éruption de racines",
+							"id": 1235134
+						}
+					},
+					{
+						"id": 34053,
+						"title": "Tréant en colère",
+						"body_text": "Après avoir été brutalement réveillé, ce tréant se concentre sur un personnage-joueur proche.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 864
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Séisme racinaire",
+					"id": 1235131
+				}
+			},
+			{
+				"id": 32618,
+				"title": "Massue de guerre",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235144?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Massue de guerre",
+					"id": 1235144
+				}
+			},
+			{
+				"id": 32650,
+				"title": "Graines antiques",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257906?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Graines antiques",
+					"id": 1257906
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2782?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2782,
+		"name": "Cragpine",
+		"description": "Ancient as the cliffs themselves, Cragpine has slumbered for centuries beneath a canopy of towering pines. Now stirred by the careless intrusion of mortals, he rises to defend his glade, bending the forest itself to his will.",
+		"creatures": [
+			{
+				"id": 5940,
+				"name": "Cragpine",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/125365?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 125365
+				}
+			},
+			{
+				"id": 6145,
+				"name": "Angry Treant",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 864
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 45725,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forgotten Farstrider's Insignia",
+					"id": 250462
+				}
+			},
+			{
+				"id": 45726,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Wretched Scholar's Gilded Robe",
+					"id": 250456
+				}
+			},
+			{
+				"id": 45727,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Devouring Outrider's Chausses",
+					"id": 250457
+				}
+			},
+			{
+				"id": 45728,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bramblestalker's Feathered Cowl",
+					"id": 250459
+				}
+			},
+			{
+				"id": 45729,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Host Commander's Casque",
+					"id": 250458
+				}
+			},
+			{
+				"id": 45730,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chain of the Ancient Watcher",
+					"id": 250461
+				}
+			},
+			{
+				"id": 45731,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250450?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Forest Sentinel's Savage Longbow",
+					"id": 250450
+				}
+			},
+			{
+				"id": 45732,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/250446?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cragtender Bulwark",
+					"id": 250446
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 32613,
+				"title": "Overview",
+				"body_text": "Cragpine calls upon the treants of Zul'Aman with [Rootquake] as he shakes the earth beneath his feet.\r\n\r\nThe forest itself answers his call as he awakens [Ancient Seeds] slumbering in the soil.",
+				"sections": [
+					{
+						"id": 32614,
+						"title": "Healers",
+						"body_text": "$bullet;[Rootquake] inflicts heavy damage to all players.\r\n$bullet;Floating [Ancient Seeds] inflict damage to nearby players."
+					},
+					{
+						"id": 32615,
+						"title": "Tanks",
+						"body_text": "$bullet;Cragpine inflicts heavy melee damage while wielding a [War Club].\r\n$bullet;Angry treants pursue players endlessly until destroyed."
+					},
+					{
+						"id": 32616,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Angry treants pursue players endlessly until destroyed.\r\n$bullet;Floating [Ancient Seeds] inflict damage to nearby players."
+					}
+				]
+			},
+			{
+				"id": 34051,
+				"title": "Rootquake",
+				"sections": [
+					{
+						"id": 34052,
+						"title": "Erupting Roots",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/1235134?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Erupting Roots",
+							"id": 1235134
+						}
+					},
+					{
+						"id": 34053,
+						"title": "Angry Treant",
+						"body_text": "This treant fixates on a nearby player after being rudely awakened.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/864?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 864
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235131?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rootquake",
+					"id": 1235131
+				}
+			},
+			{
+				"id": 32618,
+				"title": "War Club",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1235144?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "War Club",
+					"id": 1235144
+				}
+			},
+			{
+				"id": 32650,
+				"title": "Ancient Seeds",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/1257906?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ancient Seeds",
+					"id": 1257906
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1312?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Midnight",
+			"id": 1312
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

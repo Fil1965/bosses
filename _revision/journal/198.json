@@ -1,0 +1,3225 @@
+{
+	"id": 198,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/198?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 198,
+		"name": "Ragnaros",
+		"description": "Ragnaros, señor de las Tierras de Fuego, representa la furia y la destructividad del infierno primigenio que forjó la propia Azeroth. Ante la promesa de poder incendiar Azeroth sin que interfieran Neptulon ni Therazane, Ragnaros quiere apaciguar a los dioses antiguos quemando Nordrassil, el Árbol del Mundo.",
+		"creatures": [
+			{
+				"id": 629,
+				"name": "Ragnaros",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37875?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37875
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71616?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de llamas",
+					"id": 71616
+				}
+			},
+			{
+				"id": 10592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del protector ígneo",
+					"id": 71682
+				}
+			},
+			{
+				"id": 10594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estabilizador de matriz",
+					"id": 68994
+				}
+			},
+			{
+				"id": 10595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vasija de aceleración",
+					"id": 68995
+				}
+			},
+			{
+				"id": 10596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Mano Extinta",
+					"id": 70723
+				}
+			},
+			{
+				"id": 10597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del protector ígneo",
+					"id": 71684
+				}
+			},
+			{
+				"id": 10598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70921?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de llama rugidora",
+					"id": 70921
+				}
+			},
+			{
+				"id": 10600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estabilizador de matriz",
+					"id": 69150
+				}
+			},
+			{
+				"id": 10610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Huevo humeante de Millagazor",
+					"id": 69224
+				}
+			},
+			{
+				"id": 10615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vasija de aceleración",
+					"id": 69167
+				}
+			},
+			{
+				"id": 10616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del vencedor ígneo",
+					"id": 71668
+				}
+			},
+			{
+				"id": 10617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, gran báculo de aniquilación",
+					"id": 71797
+				}
+			},
+			{
+				"id": 10618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, gran báculo de aniquilación",
+					"id": 71798
+				}
+			},
+			{
+				"id": 10620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensador de relámpagos de pulso variable",
+					"id": 69110
+				}
+			},
+			{
+				"id": 10621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del vencedor ígneo",
+					"id": 71670
+				}
+			},
+			{
+				"id": 10622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Mano Extinta",
+					"id": 71352
+				}
+			},
+			{
+				"id": 10623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, el Ojo de la Llama",
+					"id": 71353
+				}
+			},
+			{
+				"id": 10624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del señor vencido",
+					"id": 71610
+				}
+			},
+			{
+				"id": 10625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del señor vencido",
+					"id": 71354
+				}
+			},
+			{
+				"id": 10626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, el Ojo de la Llama",
+					"id": 71611
+				}
+			},
+			{
+				"id": 10627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Martillo del Señor del Fuego",
+					"id": 71355
+				}
+			},
+			{
+				"id": 10628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del conquistador ígneo",
+					"id": 71675
+				}
+			},
+			{
+				"id": 10629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de llama rugidora",
+					"id": 71612
+				}
+			},
+			{
+				"id": 10630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de llamas",
+					"id": 71356
+				}
+			},
+			{
+				"id": 10631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena de oficio de mayordomo",
+					"id": 71613
+				}
+			},
+			{
+				"id": 10632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensador de relámpagos de pulso variable",
+					"id": 68925
+				}
+			},
+			{
+				"id": 10633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena de oficio de mayordomo",
+					"id": 71357
+				}
+			},
+			{
+				"id": 10634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del conquistador ígneo",
+					"id": 71677
+				}
+			},
+			{
+				"id": 10635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de incineración",
+					"id": 71614
+				}
+			},
+			{
+				"id": 10636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de incineración",
+					"id": 71358
+				}
+			},
+			{
+				"id": 10637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Martillo del Señor del Fuego",
+					"id": 71615
+				}
+			},
+			{
+				"id": 40489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estabilizador de matriz",
+					"id": 171646
+				}
+			},
+			{
+				"id": 40490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espaldares de llama rugidora",
+					"id": 171663
+				}
+			},
+			{
+				"id": 40491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171727?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Martillo del Señor del Fuego",
+					"id": 171727
+				}
+			},
+			{
+				"id": 40492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Mano Extinta",
+					"id": 171724
+				}
+			},
+			{
+				"id": 40493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171728?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona de llamas",
+					"id": 171728
+				}
+			},
+			{
+				"id": 40494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vasija de aceleración",
+					"id": 171647
+				}
+			},
+			{
+				"id": 40495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cadena de oficio de mayordomo",
+					"id": 171729
+				}
+			},
+			{
+				"id": 40496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, gran báculo de aniquilación",
+					"id": 171731
+				}
+			},
+			{
+				"id": 40497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dedos de incineración",
+					"id": 171730
+				}
+			},
+			{
+				"id": 40498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensador de relámpagos de pulso variable",
+					"id": 171640
+				}
+			},
+			{
+				"id": 40499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171726?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla del señor vencido",
+					"id": 171726
+				}
+			},
+			{
+				"id": 40500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, el Ojo de la Llama",
+					"id": 171725
+				}
+			},
+			{
+				"id": 40619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de la llama purificadora",
+					"id": 171799
+				}
+			},
+			{
+				"id": 40620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Celada de enramada obsidiana",
+					"id": 171744
+				}
+			},
+			{
+				"id": 40621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de halcón de fuego",
+					"id": 171809
+				}
+			},
+			{
+				"id": 40622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Visera de placamuerte de elementium",
+					"id": 171736
+				}
+			},
+			{
+				"id": 40623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casco volcánico en erupción",
+					"id": 171825
+				}
+			},
+			{
+				"id": 40624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Visera volcánica en erupción",
+					"id": 171820
+				}
+			},
+			{
+				"id": 40625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Celada volcánica en erupción",
+					"id": 171815
+				}
+			},
+			{
+				"id": 40626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de araña corpulenta",
+					"id": 171804
+				}
+			},
+			{
+				"id": 40627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de enramada obsidiana",
+					"id": 171749
+				}
+			},
+			{
+				"id": 40628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de fénix oscuro",
+					"id": 171770
+				}
+			},
+			{
+				"id": 40629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Visera de inmolación",
+					"id": 171765
+				}
+			},
+			{
+				"id": 40630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casco del gigante fundido",
+					"id": 171785
+				}
+			},
+			{
+				"id": 40631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Visera del gigante fundido",
+					"id": 171761
+				}
+			},
+			{
+				"id": 40632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protegecabezas de inmolación",
+					"id": 171790
+				}
+			},
+			{
+				"id": 40633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de la llama purificadora",
+					"id": 171794
+				}
+			},
+			{
+				"id": 40634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casquete de enramada obsidiana",
+					"id": 171754
+				}
+			},
+			{
+				"id": 40635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de inmolación",
+					"id": 171780
+				}
+			},
+			{
+				"id": 40636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protegecabezas de despiertallamas",
+					"id": 171774
+				}
+			},
+			{
+				"id": 40637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de placamuerte de elementium",
+					"id": 171740
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20834,
+				"title": "Resumen",
+				"body_text": "Este encuentro se divide en tres fases, separadas por dos intermedios. Ragnaros atacará a los jugadores desde su charco de lava durante cada fase y se sumergirá en él durante los intermedios.",
+				"sections": [
+					{
+						"id": 20835,
+						"title": "Tanques",
+						"body_text": "$bullet;Ragnaros usará [Explosión de magma] si su objetivo tanque no está a distancia cuerpo a cuerpo.\r\n$bullet;Gestiona tus aplicaciones de [Herida ardiente] para que [Explosión ardiente] no resulte letal.\r\n$bullet;Hace falta tanquear a los sucesores de lava que aparezcan durante el segundo intermedio.\r\n$bullet;Cuando seas el objetivo de [Semilla de magma], aleja la semilla de la banda para minimizar el daño del [Infierno de arrabio] resultante.\r\n$bullet;Los elementales de magma toman como objetivo a miembros aleatorios de la banda y no se les puede tanquear."
+					},
+					{
+						"id": 20836,
+						"title": "Sanadores",
+						"body_text": "$bullet;Los tanques recibirán grandes cantidades de daño de [Herida ardiente] y [Explosión ardiente].\r\n$bullet;[Trampa de magma] es la mayor fuente de daño para la banda.\r\n$bullet;Los jugadores que no logren evitar [Olas de lava] necesitarán atención inmediata para sobrevivir.\r\n$bullet;[Mano de Ragnaros] infligirá daño a todos los DPS cuerpo a cuerpo. El efecto de repulsión cancelará tu lanzamiento de hechizos si estás demasiado cerca de Ragnaros.\r\n$bullet;Sepárate de los miembros de la banda para minimizar el efecto de repulsión de [Cólera de Ragnaros].\r\n$bullet;Cuando seas el objetivo de [Semilla de magma], aleja la semilla de la banda para minimizar el daño del [Infierno de arrabio] resultante."
+					},
+					{
+						"id": 20837,
+						"title": "DPS",
+						"body_text": "$bullet;Evita activar [Trampa de magma] como consecuencia del efecto de repulsión de [Mano de Ragnaros].\r\n$bullet;Separaos para evitar golpear a varios jugadores con [Cólera de Ragnaros].\r\n$bullet;Matad a los hijos de la llama antes de que lleguen a Sulfuras o usarán [Supernova].\r\n$bullet;[Trampa de magma] te lanzará lo bastante alto para hacer que la caída resulte letal.\r\n$bullet;Cuando seas el objetivo de [Semilla de magma], aleja la semilla de la banda para minimizar el daño del [Infierno de arrabio] resultante.\r\n$bullet;Sepárate de los miembros de la banda para minimizar el efecto de repulsión de [Cólera de Ragnaros].\r\n$bullet;Se puede obligar a cambiar de objetivo a los meteoritos candentes infligiéndoles daño mientras tengan [Combustible]."
+					}
+				]
+			},
+			{
+				"id": 2629,
+				"title": "Fase 1: ¡Que el fuego te purifique!",
+				"sections": [
+					{
+						"id": 2630,
+						"title": "Machaque de Sulfuras",
+						"body_text": "Ragnaros hace frente a la ubicación de un jugador aleatorio y se prepara para golpear a Sulfuras contra la plataforma. El impacto de Sulfuras inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 5 m del impacto y crea varias olas de lava que se mueven en varias direcciones desde el punto del impacto.",
+						"sections": [
+							{
+								"id": 2631,
+								"title": "Ola de lava",
+								"body_text": "Si un jugador toca una ola de lava en movimiento, esta inflige 0 p. de daño de Fuego, 0 p. de daño de Fuego cada 1 s durante 5 s y repele al jugador."
+							}
+						]
+					},
+					{
+						"id": 2632,
+						"title": "Cólera de Ragnaros",
+						"body_text": "Ragnaros ataca la ubicación de un jugador aleatorio, lo que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 6 m y los repele."
+					},
+					{
+						"id": 2633,
+						"title": "Mano de Ragnaros",
+						"body_text": "Ragnaros inflige 0 p. de daño de Fuego a todos los enemigos en un radio de 55 m, lo que los repele."
+					},
+					{
+						"id": 2634,
+						"title": "Trampa de magma",
+						"body_text": "Ragnaros lanza una trampa de magma en la ubicación de un jugador aleatorio. Cuando la trampa de magma alcanza la plataforma, inflige 0 p. de daño de Fuego y repele a los jugadores en un radio de 8 m. La trampa de magma activo dura toda la batalla y se acciona al pisarla, lo que provoca una Erupción de trampa de magma.",
+						"sections": [
+							{
+								"id": 2635,
+								"title": "Erupción de trampa de magma",
+								"body_text": "Al activarse, una trampa de magma entra en erupción, inflige 0 p. de daño de Fuego a todos los jugadores y lanza violentamente por los aires al jugador que la haya activado."
+							}
+						]
+					},
+					{
+						"id": 3535,
+						"title": "Explosión de magma",
+						"body_text": "Si su objetivo actual no está a distancia cuerpo a cuerpo, Ragnaros le dispara una explosión de magma que inflige 0 p. de daño de Fuego y aumenta el daño de Fuego recibido un 50% durante 6 s."
+					}
+				]
+			},
+			{
+				"id": 2636,
+				"title": "Intermedio: ¡Esbirros del fuego!",
+				"body_text": "Cuando su salud está al 70%, Ragnaros lanzará Arremetida atizadora, lo que deja a Sulfuras en la plataforma y crea hijos de la llama en toda la plataforma. Ragnaros permanecerá sumergido durante 45 s o hasta que se destruya a todos los hijos de la llama, lo que suceda primero.",
+				"sections": [
+					{
+						"id": 2678,
+						"title": "Arremetida atizadora",
+						"body_text": "Ragnaros entierra a Sulfuras en el interior de la plataforma, inflige 0 p. de daño de Fuego cada 1 s a los jugadores en un radio de 6 m y crea 8 hijos de la llama que intentan alcanzar el poderoso martillo."
+					},
+					{
+						"id": 2637,
+						"title": "Hijo de la llama",
+						"body_text": "Los hijos de la llama cruzan la plataforma e intentan volver a ser uno con Sulfuras. Si un hijo de la llama alcanza a Sulfuras provoca una Supernova.",
+						"sections": [
+							{
+								"id": 2638,
+								"title": "Velocidad ardiente",
+								"body_text": "Por cada 5% de su salud restante por encima del 50%, los hijos de la llama se mueven un 75% más rápido. Cuando los jugadores consiguen que un hijo de la llama baje del 50% de salud restante, este pierde el efecto Velocidad ardiente."
+							},
+							{
+								"id": 2639,
+								"title": "Supernova",
+								"body_text": "Cuando un hijo de la llama alcanza a Sulfuras explota en una Supernova, lo que inflige 0 p. de daño de Fuego a todos los jugadores."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 3534,
+						"title": "Descarga de lava",
+						"body_text": "Mientras Ragnaros yace sumergido en la lava, descargas de magma caliente caen sobre varios jugadores aleatorios cada 4 s. Una Descarga de lava inflige 0 p. de daño de Fuego."
+					}
+				]
+			},
+			{
+				"id": 2640,
+				"title": "Fase 2: ¡Sulfuras será tu final!",
+				"sections": [
+					{
+						"id": 2641,
+						"title": "Machaque de Sulfuras",
+						"body_text": "Ragnaros hace frente a la ubicación de un jugador aleatorio y se prepara para golpear a Sulfuras contra la plataforma. El impacto de Sulfuras inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 5 m del impacto y crea varias olas de lava que se mueven en varias direcciones desde el punto del impacto.",
+						"sections": [
+							{
+								"id": 2642,
+								"title": "Ola de lava",
+								"body_text": "Si un jugador toca una ola de lava en movimiento, esta inflige 0 p. de daño de Fuego, 0 p. de daño de Fuego cada 1 s durante 5 s y repele al jugador."
+							}
+						]
+					},
+					{
+						"id": 2643,
+						"title": "Llama engullidora",
+						"body_text": "Ragnaros sumerge periódicamente un tercio de la plataforma en llamas, lo que inflige 0 p. de daño de Fuego a los jugadores atrapados en la conflagración y otros 0 p. de daño de Fuego un segundo después."
+					},
+					{
+						"id": 2644,
+						"title": "Mundo en llamas",
+						"body_text": "Ragnaros lanza periódicamente Llamas engullidoras a una parte aleatoria de la plataforma cada 3 s durante 9 s."
+					},
+					{
+						"id": 2645,
+						"title": "Semilla de magma",
+						"body_text": "Ragnaros forma una semilla de magma en la ubicación de varios jugadores aleatorios, lo que inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 6 m de la semilla. Tras 10 s, la semilla de magma explota para formar un infierno de arrabio.",
+						"sections": [
+							{
+								"id": 2646,
+								"title": "Infierno de arrabio",
+								"body_text": "Cuando las Semillas de magma explotan, provocan un Infierno de arrabio que inflige 0 p. de daño de Fuego a todos los jugadores y crea un elemental de magma. El daño infligido se reduce cuanto más lejos esté el jugador de la semilla."
+							},
+							{
+								"id": 2647,
+								"title": "Elemental de magma",
+								"body_text": "Un infierno de arrabio crea un elemental de magma, que ataca y se fija en un jugador aleatorio.",
+								"sections": [
+									{
+										"id": 2648,
+										"title": "Poder de arrabio",
+										"body_text": "Los elementales de magma en un radio de 6 m potencian a otros elementales de magma, lo que aumenta el daño que infligen un 25% y hace que sean inmunes a los efectos de frenado y aturdimiento."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38520?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38520
+								}
+							}
+						]
+					},
+					{
+						"id": 3536,
+						"title": "Explosión de magma",
+						"body_text": "Si su objetivo actual no está a distancia cuerpo a cuerpo, Ragnaros le dispara una explosión de magma que inflige 0 p. de daño de Fuego y aumenta el daño de Fuego recibido un 50% durante 6 s."
+					}
+				]
+			},
+			{
+				"id": 2649,
+				"title": "Intermedio: ¡Moradores de las llamas!",
+				"body_text": "Cuando su salud está al 40%, Ragnaros lanzará Arremetida atizadora, lo que deja a Sulfuras en la plataforma y crea hijos de la llama. Ragnaros permanecerá sumergido durante 45 s o hasta que se destruya a todos los hijos de la llama, lo que suceda primero.\r\n\r\nRagnaros también crea dos sucesores de lava que atacan a los jugadores.",
+				"sections": [
+					{
+						"id": 2679,
+						"title": "Arremetida atizadora",
+						"body_text": "Ragnaros entierra a Sulfuras en el interior de la plataforma, inflige 0 p. de daño de Fuego cada 1 s a los jugadores en un radio de 6 m y crea 8 hijos de la llama que intentan alcanzar el poderoso martillo."
+					},
+					{
+						"id": 2650,
+						"title": "Hijo de la llama",
+						"body_text": "Los hijos de la llama cruzan la plataforma e intentan volver a ser uno con Sulfuras. Si un hijo de la llama alcanza a Sulfuras provoca una Supernova.",
+						"sections": [
+							{
+								"id": 2651,
+								"title": "Velocidad ardiente",
+								"body_text": "Por cada 5% de su salud restante por encima del 50%, los hijos de la llama se mueven un 75% más rápido. Cuando los jugadores consiguen que un hijo de la llama baje del 50% de salud restante, este pierde el efecto Velocidad ardiente."
+							},
+							{
+								"id": 2652,
+								"title": "Supernova",
+								"body_text": "Cuando un hijo de la llama alcanza a Sulfuras explota en una Supernova, lo que inflige 0 p. de daño de Fuego a todos los jugadores."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 2653,
+						"title": "Sucesor de lava",
+						"body_text": "Un sucesor de lava se forma a cada lado de la plataforma.",
+						"sections": [
+							{
+								"id": 2654,
+								"title": "Calor llameante",
+								"body_text": "Un sucesor de lava inflige Calor llameante a un jugador aleatorio, lo que hace que cree un rastro de Calor llameante a su paso. Calor llameante inflige 0 p. de daño de Fuego cada 1 s a los jugadores que permanezcan en el rastro y sana un 10% cada 1 s a los hijos de la llama que estén en el rastro."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38019?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38019
+						}
+					}
+				]
+			},
+			{
+				"id": 2655,
+				"title": "Fase 3: ¡Fuera de mi reino!",
+				"sections": [
+					{
+						"id": 2656,
+						"title": "Machaque de Sulfuras",
+						"body_text": "Ragnaros hace frente a la ubicación de un jugador aleatorio y se prepara para golpear a Sulfuras contra la plataforma. El impacto de Sulfuras inflige 0 p. de daño de Fuego a todos los jugadores en un radio de 5 m del impacto y crea varias olas de lava que se mueven en varias direcciones desde el punto del impacto.",
+						"sections": [
+							{
+								"id": 2657,
+								"title": "Ola de lava",
+								"body_text": "Si un jugador toca una ola de lava en movimiento, esta inflige 0 p. de daño de Fuego, 0 p. de daño de Fuego cada 1 s durante 5 s y repele al jugador."
+							}
+						]
+					},
+					{
+						"id": 2658,
+						"title": "Llama engullidora",
+						"body_text": "Ragnaros sumerge periódicamente un tercio de la plataforma en llamas, lo que inflige 0 p. de daño de Fuego a los jugadores atrapados en la conflagración y otros 0 p. de daño de Fuego un segundo después."
+					},
+					{
+						"id": 2659,
+						"title": "Mundo en llamas",
+						"body_text": "Ragnaros lanza periódicamente Llamas engullidoras a una parte aleatoria de la plataforma cada 3 s durante 9 s."
+					},
+					{
+						"id": 2660,
+						"title": "Invocar meteorito candente",
+						"body_text": "Ragnaros invoca una cantidad creciente de meteoritos candentes cuyo impacto inflige 0 p. de daño de Fuego a los jugadores en un radio de 5 m de la ubicación.",
+						"sections": [
+							{
+								"id": 2661,
+								"title": "Meteorito candente",
+								"body_text": "El meteorito candente seleccionará un objetivo aleatorio y lo perseguirá.",
+								"sections": [
+									{
+										"id": 2662,
+										"title": "Impacto de meteorito",
+										"body_text": "El jugador que entre en un radio de 4 m del meteorito candente activará un Impacto de meteorito, lo que inflige 0 p. de daño de Fuego a los jugadores en un radio de 8 m."
+									},
+									{
+										"id": 2663,
+										"title": "Combustible",
+										"body_text": "Atacar un meteorito candente provoca Combustión, lo que provoca que el meteorito salga despedido a varios metros del jugador atacante. Activar Combustión elimina el efecto Combustible durante 5 s.",
+										"sections": [
+											{
+												"id": 2664,
+												"title": "Combustión",
+												"body_text": "Atacar un meteorito candente provoca Combustión, lo que hace que el meteorito salga despedido a varios metros del jugador atacante."
+											}
+										]
+									},
+									{
+										"id": 3528,
+										"title": "Capa de lava",
+										"body_text": "Si un meteorito candente toca una ola de lava, el meteorito obtiene el efecto Capa de lava durante 1 min."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38677?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38677
+								}
+							}
+						]
+					},
+					{
+						"id": 3537,
+						"title": "Explosión de magma",
+						"body_text": "Si su objetivo actual no está a distancia cuerpo a cuerpo, Ragnaros le dispara una explosión de magma que inflige 0 p. de daño de Fuego y aumenta el daño de Fuego recibido un 50% durante 6 s."
+					}
+				]
+			},
+			{
+				"id": 2665,
+				"title": "Fase 4: ¡El verdadero poder del Señor del Fuego!",
+				"body_text": "El Señor del Fuego desata todo su poder y puede moverse con libertad por la plataforma. Los jugadores cuentan con la ayuda de poderosos héroes de Azeroth como apoyo.",
+				"sections": [
+					{
+						"id": 2680,
+						"title": "Sobrecalentado",
+						"body_text": "Ragnaros desata todo su poder y queda Sobrecalentado, lo que inflige 0 p. de daño de Fuego cada 1 s a todos los jugadores y aumenta un 10% el daño recibido de Sobrecalentado. Este efecto se acumula."
+					},
+					{
+						"id": 2681,
+						"title": "Potenciar a Sulfuras",
+						"body_text": "Ragnaros canaliza sus llamas hacia Sulfuras. Tras 5 s, Sulfuras se vuelve potenciado y los ataques de Ragnaros provocan Llamas de Sulfuras, lo que inflige 0 p. de daño de Fuego a todos los jugadores.",
+						"sections": [
+							{
+								"id": 2682,
+								"title": "Llamas de Sulfuras",
+								"body_text": "Con Sulfuras potenciado, los ataques cuerpo a cuerpo de Ragnaros provocan Llamas de Sulfuras, lo que inflige 0 p. de daño de Fuego a todos los jugadores."
+							}
+						]
+					},
+					{
+						"id": 2683,
+						"title": "Llama aterradora",
+						"body_text": "Ragnaros da un pisotón y crea una llama aterradora en ubicaciones cercanas. La llama aterradora se multiplica rápidamente y se extiende por la plataforma. Inflige 0 p. de daño de Fuego y 0 p. de daño de Fuego extras cada 1 s durante 30 s si algún jugador toca el fuego."
+					},
+					{
+						"id": 2685,
+						"title": "Cenarius",
+						"body_text": "A pesar de ser el hijo de Malorne y Elune, el poderoso semidiós y patrón de los druidas, Cenarius, recibió los cuidados del dragón Aspecto Ysera en su juventud.\r\n\r\nCenarius ayuda a la banda con sus poderes de la Naturaleza. Congela los meteoritos candentes y reduce el daño infligido cuando Ragnaros está Sobrecalentado.",
+						"sections": [
+							{
+								"id": 2686,
+								"title": "Extensión de Escarcha",
+								"body_text": "Cenarius forma una Extensión de Escarcha en una ubicación aleatoria cercana. Los meteoritos candentes que entren en la Extensión de Escarcha se congelan y reciben un 50% de daño extra de los jugadores. Además, los jugadores que permanezcan dentro de la Extensión de Escarcha se vuelven inmunes al daño de Sobrecalentado y pierden el perjuicio Sobrecalentado."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38532?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38532
+						}
+					},
+					{
+						"id": 2687,
+						"title": "Archidruida Hamuul Tótem de Runa",
+						"body_text": "Además de ser venerado por sus fieles tauren, el bondadoso archidruida Hamuul Tótem de Runa también es el célebre líder del Círculo Cenarion.\r\n\r\nEl sabio tauren ayuda a la banda manejando la furia de la naturaleza y haciendo emerger raíces del suelo para inmovilizar a Ragnaros.",
+						"sections": [
+							{
+								"id": 2688,
+								"title": "Raíces atrapadoras",
+								"body_text": "El archidruida Hamuul Tótem de Runa forma Raíces atrapadoras en una ubicación cercana aleatoria. Si Ragnaros entra en la zona de las Raíces atrapadoras, queda aturdido durante 10 s y recibe un 50% de daño extra mientras esté aturdido."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38534?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38534
+						}
+					},
+					{
+						"id": 2689,
+						"title": "Malfurion Tempestira",
+						"body_text": "Uno de los druidas más poderosos de todos los tiempos, el archidruida Malfurion Tempestira, ha desempeñado un papel decisivo al proteger el Monte Hyjal de las abrasadoras fuerzas elementales de Ragnaros.\r\n\r\nEl legendario archidruida ayuda a la banda protegiendo a los héroes de los ataques de las llamas aterradoras.",
+						"sections": [
+							{
+								"id": 2690,
+								"title": "Ráfaga de nubes",
+								"body_text": "Malfurion forma una Ráfaga de nubes. El jugador que interactúa con la Ráfaga de nubes queda rodeado por una Inundación. Inundación vuelve al jugador inmune al daño de las llamas aterradoras y, también, permite al jugador extinguir cualquier llama aterradora cercana.",
+								"sections": [
+									{
+										"id": 2691,
+										"title": "Inundación",
+										"body_text": "Inundación vuelve al jugador inmune al daño de las llamas aterradoras y también le permite extinguir cualquier llama aterradora cercana."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38533?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38533
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/198?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 198,
+		"name": "Ragnaros",
+		"description": "Ragnaros, le seigneur des terres de Feu, incarne la fureur et la destruction des brasiers primordiaux qui ont créé Azeroth. Comme on lui a promis l’occasion de noyer Azeroth sous les flammes sans que Neptulon et Therazane interviennent, Ragnaros cherche à apaiser les Dieux très anciens en incinérant l'Arbre-Monde de Nordrassil.",
+		"creatures": [
+			{
+				"id": 629,
+				"name": "Ragnaros",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37875?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37875
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71616?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne des flammes",
+					"id": 71616
+				}
+			},
+			{
+				"id": 10592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du protecteur embrasé",
+					"id": 71682
+				}
+			},
+			{
+				"id": 10594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Restabilisateur de matrice",
+					"id": 68994
+				}
+			},
+			{
+				"id": 10595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calice d'accélération",
+					"id": 68995
+				}
+			},
+			{
+				"id": 10596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Main éteinte",
+					"id": 70723
+				}
+			},
+			{
+				"id": 10597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du protecteur embrasé",
+					"id": 71684
+				}
+			},
+			{
+				"id": 10598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70921?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de la flamme ronflante",
+					"id": 70921
+				}
+			},
+			{
+				"id": 10600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Restabilisateur de matrice",
+					"id": 69150
+				}
+			},
+			{
+				"id": 10610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Œuf fumant de Millagazor",
+					"id": 69224
+				}
+			},
+			{
+				"id": 10615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calice d'accélération",
+					"id": 69167
+				}
+			},
+			{
+				"id": 10616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du vainqueur embrasé",
+					"id": 71668
+				}
+			},
+			{
+				"id": 10617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, grand bâton d'annihilation",
+					"id": 71797
+				}
+			},
+			{
+				"id": 10618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, grand bâton d'annihilation",
+					"id": 71798
+				}
+			},
+			{
+				"id": 10620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensateur de foudre à pulsation variable",
+					"id": 69110
+				}
+			},
+			{
+				"id": 10621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du vainqueur embrasé",
+					"id": 71670
+				}
+			},
+			{
+				"id": 10622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Main éteinte",
+					"id": 71352
+				}
+			},
+			{
+				"id": 10623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, l'œil de la Flamme",
+					"id": 71353
+				}
+			},
+			{
+				"id": 10624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de seigneur vaincu",
+					"id": 71610
+				}
+			},
+			{
+				"id": 10625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de seigneur vaincu",
+					"id": 71354
+				}
+			},
+			{
+				"id": 10626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, l'œil de la Flamme",
+					"id": 71611
+				}
+			},
+			{
+				"id": 10627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, marteau du seigneur du Feu",
+					"id": 71355
+				}
+			},
+			{
+				"id": 10628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du conquérant embrasé",
+					"id": 71675
+				}
+			},
+			{
+				"id": 10629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de la flamme ronflante",
+					"id": 71612
+				}
+			},
+			{
+				"id": 10630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne des flammes",
+					"id": 71356
+				}
+			},
+			{
+				"id": 10631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de fonction du chambellan",
+					"id": 71613
+				}
+			},
+			{
+				"id": 10632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensateur de foudre à pulsation variable",
+					"id": 68925
+				}
+			},
+			{
+				"id": 10633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de fonction du chambellan",
+					"id": 71357
+				}
+			},
+			{
+				"id": 10634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du conquérant embrasé",
+					"id": 71677
+				}
+			},
+			{
+				"id": 10635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Doigts d'incinération",
+					"id": 71614
+				}
+			},
+			{
+				"id": 10636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Doigts d'incinération",
+					"id": 71358
+				}
+			},
+			{
+				"id": 10637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, marteau du seigneur du Feu",
+					"id": 71615
+				}
+			},
+			{
+				"id": 40489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Restabilisateur de matrice",
+					"id": 171646
+				}
+			},
+			{
+				"id": 40490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espauliers de la flamme ronflante",
+					"id": 171663
+				}
+			},
+			{
+				"id": 40491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171727?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko’gun, marteau du seigneur du Feu",
+					"id": 171727
+				}
+			},
+			{
+				"id": 40492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, la Main éteinte",
+					"id": 171724
+				}
+			},
+			{
+				"id": 40493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171728?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne des flammes",
+					"id": 171728
+				}
+			},
+			{
+				"id": 40494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Calice d’accélération",
+					"id": 171647
+				}
+			},
+			{
+				"id": 40495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaîne de fonction du chambellan",
+					"id": 171729
+				}
+			},
+			{
+				"id": 40496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho’ravon, grand bâton d’annihilation",
+					"id": 171731
+				}
+			},
+			{
+				"id": 40497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Doigts d’incinération",
+					"id": 171730
+				}
+			},
+			{
+				"id": 40498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Condensateur de foudre à pulsation variable",
+					"id": 171640
+				}
+			},
+			{
+				"id": 40499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171726?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir de seigneur vaincu",
+					"id": 171726
+				}
+			},
+			{
+				"id": 40500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, l’œil de la Flamme",
+					"id": 171725
+				}
+			},
+			{
+				"id": 40619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de la flamme purificatrice",
+					"id": 171799
+				}
+			},
+			{
+				"id": 40620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chapel tisse-feuillage en obsidienne",
+					"id": 171744
+				}
+			},
+			{
+				"id": 40621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon faucon-de-feu",
+					"id": 171809
+				}
+			},
+			{
+				"id": 40622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ventaille de plates mortelles en élémentium",
+					"id": 171736
+				}
+			},
+			{
+				"id": 40623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque de l’éruption volcanique",
+					"id": 171825
+				}
+			},
+			{
+				"id": 40624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ventaille de l’éruption volcanique",
+					"id": 171820
+				}
+			},
+			{
+				"id": 40625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chapel de l’éruption volcanique",
+					"id": 171815
+				}
+			},
+			{
+				"id": 40626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon de l’araignée torve",
+					"id": 171804
+				}
+			},
+			{
+				"id": 40627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume tisse-feuillage en obsidienne",
+					"id": 171749
+				}
+			},
+			{
+				"id": 40628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque du phénix sombre",
+					"id": 171770
+				}
+			},
+			{
+				"id": 40629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ventaille de l’immolation",
+					"id": 171765
+				}
+			},
+			{
+				"id": 40630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque du géant de lave",
+					"id": 171785
+				}
+			},
+			{
+				"id": 40631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ventaille du géant de lave",
+					"id": 171761
+				}
+			},
+			{
+				"id": 40632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-front de l’immolation",
+					"id": 171790
+				}
+			},
+			{
+				"id": 40633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche de la flamme purificatrice",
+					"id": 171794
+				}
+			},
+			{
+				"id": 40634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-chef tisse-feuillage en obsidienne",
+					"id": 171754
+				}
+			},
+			{
+				"id": 40635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque de l’immolation",
+					"id": 171780
+				}
+			},
+			{
+				"id": 40636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-front d’attise-flammes",
+					"id": 171774
+				}
+			},
+			{
+				"id": 40637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque de plates mortelles en élémentium",
+					"id": 171740
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20834,
+				"title": "Vue d’ensemble",
+				"body_text": "Ce combat se déroule en trois phases, séparées par deux intervalles. Ragnaros attaque les personnages-joueurs depuis son bassin de lave pendant chaque phase, et disparaît sous la surface pendant les intervalles.",
+				"sections": [
+					{
+						"id": 20835,
+						"title": "Tanks",
+						"body_text": "$bullet;Ragnaros utilise [Trait de magma] si le tank ciblé n’est pas à portée de mêlée.\r\n$bullet;Gérez les applications de [Blessure brûlante] de sorte qu’[Explosion brûlante] ne devienne pas mortelle.\r\n$bullet;Les scions de lave qui se forment pendant l’intervalle 2 doivent être pris en charge par des tanks.\r\n$bullet;Lorsqu’on vous cible pour [Graine en fusion], placez la graine loin du raid pour minimiser les dégâts de l’[Inferno de la fournaise] qui en résulte.\r\n$bullet;Les élémentaires de magma se focalisent sur des membres aléatoires du raid et ignorent les efforts des tanks."
+					},
+					{
+						"id": 20836,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Les tanks subissent des montants de dégâts élevés de [Blessure brûlante] et [Explosion brûlante].\r\n$bullet;[Piège de magma] est la plus importante source de dégâts infligés au raid.\r\n$bullet;Les personnages-joueurs qui ne parviennent pas à éviter les [Vagues de lave] auront besoin d’attention immédiate pour survivre.\r\n$bullet;[Main de Ragnaros] inflige des dégâts à tous les DPS de mêlée. Si vous êtes trop proche de Ragnaros, vous tombez à la renverse et votre incantation est interrompue.\r\n$bullet;Restez à distance des membres de votre raid pour réduire le risque que [Colère de Ragnaros] vous fasse tomber à la renverse.\r\n$bullet;Lorsqu’on vous cible pour [Graine en fusion], placez la graine loin du raid pour minimiser les dégâts de l’[Inferno de la fournaise] qui en résulte."
+					},
+					{
+						"id": 20837,
+						"title": "DPS",
+						"body_text": "$bullet;Évitez de déclencher [Piège de magma] en tombant à la renverse à cause de [Main de Ragnaros].\r\n$bullet;Dispersez-vous pour éviter que plusieurs personnages-joueurs soient touchés par [Colère de Ragnaros].\r\n$bullet;Tuez les Fils de la Flamme avant qu’ils atteignent Sulfuras et entraînent une [Supernova].\r\n$bullet;[Piège de magma] peut vous projeter assez haut pour rendre la chute fatale.\r\n$bullet;Lorsqu’on vous cible pour [Graine en fusion], placez la graine loin du raid pour minimiser les dégâts de l’ [Inferno de la fournaise] qui en résulte.\r\n$bullet;Restez à distance des membres de votre raid pour réduire le risque que [Colère de Ragnaros] vous fasse tomber à la renverse.\r\n$bullet;On peut faire changer de cible aux Météores vivants en leur infligeant des dégâts pendant qu’ils sont [Combustibles]."
+					}
+				]
+			},
+			{
+				"id": 2629,
+				"title": "Phase 1 : Par le feu, soyez purifiés !",
+				"sections": [
+					{
+						"id": 2630,
+						"title": "Frappe de Sulfuras",
+						"body_text": "Ragnaros se tourne vers un personnage-joueur au hasard et s’apprête à asséner un coup de Sulfuras sur la plateforme. Sulfuras inflige 0 points de dégâts de Feu à tout personnage-joueur se trouvant à moins de 5 mètres du point d’impact, à partir duquel des vagues de lave se propagent.",
+						"sections": [
+							{
+								"id": 2631,
+								"title": "Vague de lave",
+								"body_text": "Si un personnage-joueur entre en contact avec une Vague de lave en mouvement, la lave lui inflige 0 points de dégâts de Feu, puis 0 points de dégâts de Feu toutes les 1 s pendant 5 s, et le repousse au loin."
+							}
+						]
+					},
+					{
+						"id": 2632,
+						"title": "Colère de Ragnaros",
+						"body_text": "Ragnaros crée une explosion à l’emplacement d’un personnage-joueur au hasard et inflige 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant dans un rayon de 6 mètres de la cible, tout en les faisant tomber à la renverse."
+					},
+					{
+						"id": 2633,
+						"title": "Main de Ragnaros",
+						"body_text": "Ragnaros inflige 0 points de dégâts de Feu à tous les ennemis dans un rayon de 55 mètres et les renverse."
+					},
+					{
+						"id": 2634,
+						"title": "Piège de magma",
+						"body_text": "Ragnaros lance un Piège de magma à l’emplacement d’un personnage-joueur aléatoire. Lorsque le Piège de magma atteint la plateforme, il inflige 0 points de dégâts de Feu et fait tomber à la renverse les personnages-joueurs se trouvant à moins de 8 mètres. Le Piège de magma reste actif pendant toute la durée du combat et se déclenche lorsqu’un personnage-joueur marche dessus.",
+						"sections": [
+							{
+								"id": 2635,
+								"title": "Éruption du piège de magma",
+								"body_text": "Lorsqu’un Piège de magma se déclenche, son éruption inflige 0 points de dégâts de Feu à tous les personnages-joueurs, et projette en l’air celui qui l’a déclenché."
+							}
+						]
+					},
+					{
+						"id": 3535,
+						"title": "Trait de magma",
+						"body_text": "Ragnaros projette du magma sur sa cible actuelle s’il ne peut pas l’atteindre en mêlée, lui infligeant 0 points de dégâts de Feu et augmentant les dégâts de Feu subis de 50% pendant 6 s."
+					}
+				]
+			},
+			{
+				"id": 2636,
+				"title": "Intervalle : Créatures du feu !",
+				"body_text": "À 70% de points de vie, Ragnaros lance un Coup brisant, plante Sulfuras dans la plateforme et crée des Fils de la Flamme sur l’ensemble de cette dernière. Ragnaros reste submergé pendant 45 s ou jusqu’à ce que tous les Fils de la Flamme soient détruits, selon ce qui arrive en premier.",
+				"sections": [
+					{
+						"id": 2678,
+						"title": "Coup brisant",
+						"body_text": "Ragnaros enfonce Sulfuras dans la plateforme en infligeant 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs se trouvant à moins de 6 mètres et en créant 8 Fils de la Flamme qui essaient d’atteindre le puissant marteau."
+					},
+					{
+						"id": 2637,
+						"title": "Fils des flammes",
+						"body_text": "Les Fils de la Flamme traversent la plateforme et tentent de se recombiner à Sulfuras. Un Fils de la Flamme qui atteint Sulfuras entraîne une supernova.",
+						"sections": [
+							{
+								"id": 2638,
+								"title": "Vitesse ardente",
+								"body_text": "Pour chaque tranche de 5% de points de vie au-dessus de 50%, les Fils de la Flamme se déplacent 75% plus vite. Lorsque les membres du raid font passer un Fils de la Flamme sous la barre des 50%, ce dernier perd l’effet Vitesse ardente."
+							},
+							{
+								"id": 2639,
+								"title": "Supernova",
+								"body_text": "Quand un fils des Flammes atteint Sulfuras, il explose en une supernova qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 3534,
+						"title": "Trait de lave",
+						"body_text": "Alors que Ragnaros est submergé de lave, des éclairs de magma brûlant s’abattent sur plusieurs personnages-joueurs aléatoires toutes les 4 s. Un Trait de lave inflige 0 points de dégâts de Feu."
+					}
+				]
+			},
+			{
+				"id": 2640,
+				"title": "Phase 2 : Sulfuras sera votre fin.",
+				"sections": [
+					{
+						"id": 2641,
+						"title": "Frappe de Sulfuras",
+						"body_text": "Ragnaros se tourne vers un personnage-joueur au hasard et s’apprête à asséner un coup de Sulfuras sur la plateforme. Sulfuras inflige 0 points de dégâts de Feu à tout personnage-joueur se trouvant à moins de 5 mètres du point d’impact, à partir duquel des vagues de lave se propagent.",
+						"sections": [
+							{
+								"id": 2642,
+								"title": "Vague de lave",
+								"body_text": "Si un personnage-joueur entre en contact avec une Vague de lave en mouvement, la lave lui inflige 0 points de dégâts de Feu, puis 0 points de dégâts de Feu toutes les 1 s pendant 5 s, et le repousse au loin."
+							}
+						]
+					},
+					{
+						"id": 2643,
+						"title": "Linceul de flamme",
+						"body_text": "Ragnaros engloutit régulièrement un tiers aléatoire de la plateforme dans les flammes, infligeant immédiatement 0 points de dégâts de Feu aux personnages-joueurs pris dans la déflagration, et à nouveau 0 points de dégâts de Feu une seconde plus tard."
+					},
+					{
+						"id": 2644,
+						"title": "Monde en flammes",
+						"body_text": "Ragnaros incante périodiquement Linceul de flammes sur une section aléatoire de la plateforme toutes les 3 s pendant 9 s."
+					},
+					{
+						"id": 2645,
+						"title": "Graine en fusion",
+						"body_text": "À partir de la lave à proximité, Ragnaros crée une Graine en fusion à l’emplacement de plusieurs personnages-joueurs aléatoires, infligeant 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant à moins de 6 mètres de la graine. Au bout de 10 s, la Graine en fusion explose et crée un inferno de la fournaise.",
+						"sections": [
+							{
+								"id": 2646,
+								"title": "Inferno de la fournaise",
+								"body_text": "Lorsque les Graines en fusion explosent, elles créent un inferno de la fournaise, infligeant 0 points de dégâts de Feu à tous les personnages-joueurs et créant un élémentaire du magma. Plus le personnage-joueur se trouve loin de la graine, plus les dégâts qu’il subit diminuent."
+							},
+							{
+								"id": 2647,
+								"title": "Élémentaire du magma",
+								"body_text": "Un inferno de la fournaise crée un élémentaire du magma qui attaque et se focalise sur un personnage-joueur aléatoire.",
+								"sections": [
+									{
+										"id": 2648,
+										"title": "Puissance du magma",
+										"body_text": "Les élémentaires du magma se trouvant à moins de 6 mètres d’autres élémentaires du magma les rendent plus puissants, augmentant les dégâts qu’ils infligent de 25% et leur conférant une immunité aux effets de ralentissement et d’étourdissement."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38520?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38520
+								}
+							}
+						]
+					},
+					{
+						"id": 3536,
+						"title": "Trait de magma",
+						"body_text": "Ragnaros projette du magma sur sa cible actuelle s’il ne peut pas l’atteindre en mêlée, lui infligeant 0 points de dégâts de Feu et augmentant les dégâts de Feu subis de 50% pendant 6 s."
+					}
+				]
+			},
+			{
+				"id": 2649,
+				"title": "Intervalle : Habitants des flammes !",
+				"body_text": "À 40% de points de vie, Ragnaros lance un Coup brisant, plante Sulfuras dans la plateforme et crée des Fils de la Flamme sur l’ensemble de cette dernière. Ragnaros reste submergé pendant 45 s ou jusqu’à ce que tous les Fils de la Flamme soient détruits, selon ce qui arrive en premier.\r\n\r\nRagnaros crée aussi deux Scions de lave qui attaquent les personnages-joueurs.",
+				"sections": [
+					{
+						"id": 2679,
+						"title": "Coup brisant",
+						"body_text": "Ragnaros enfonce Sulfuras dans la plateforme en infligeant 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs se trouvant à moins de 6 mètres et en créant 8 Fils de la Flamme qui essaient d’atteindre le puissant marteau."
+					},
+					{
+						"id": 2650,
+						"title": "Fils des flammes",
+						"body_text": "Les Fils de la Flamme traversent la plateforme et tentent de se recombiner à Sulfuras. Un Fils de la Flamme qui atteint Sulfuras entraîne une supernova.",
+						"sections": [
+							{
+								"id": 2651,
+								"title": "Vitesse ardente",
+								"body_text": "Pour chaque tranche de 5% de points de vie au-dessus de 50%, les Fils de la Flamme se déplacent 75% plus vite. Lorsque les membres du raid font passer un Fils de la Flamme sous la barre des 50%, ce dernier perd l’effet Vitesse ardente."
+							},
+							{
+								"id": 2652,
+								"title": "Supernova",
+								"body_text": "Quand un fils des Flammes atteint Sulfuras, il explose en une supernova qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 2653,
+						"title": "Scion de lave",
+						"body_text": "Un scion de lave se forme de chaque côté de la plateforme.",
+						"sections": [
+							{
+								"id": 2654,
+								"title": "Chaleur flamboyante",
+								"body_text": "Un scion de lave affecte un personnage-joueur avec Chaleur flamboyante, qui dessine alors une traînée de Chaleur flamboyante dans son sillage. Chaleur flamboyante inflige 0 points de dégâts de Feu toutes les 1 s aux personnages-joueurs qui restent dans la traînée de flammes, et soigne les Fils de la Flamme et les scions de lave qui se trouvent dans la traînée en leur rendant 10% de leurs points de vie toutes les 1 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38019?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38019
+						}
+					}
+				]
+			},
+			{
+				"id": 2655,
+				"title": "Phase 3 : Disparaissez de mon royaume !",
+				"sections": [
+					{
+						"id": 2656,
+						"title": "Frappe de Sulfuras",
+						"body_text": "Ragnaros se tourne vers un personnage-joueur au hasard et s’apprête à asséner un coup de Sulfuras sur la plateforme. Sulfuras inflige 0 points de dégâts de Feu à tout personnage-joueur se trouvant à moins de 5 mètres du point d’impact, à partir duquel des vagues de lave se propagent.",
+						"sections": [
+							{
+								"id": 2657,
+								"title": "Vague de lave",
+								"body_text": "Si un personnage-joueur entre en contact avec une Vague de lave en mouvement, la lave lui inflige 0 points de dégâts de Feu, puis 0 points de dégâts de Feu toutes les 1 s pendant 5 s, et le repousse au loin."
+							}
+						]
+					},
+					{
+						"id": 2658,
+						"title": "Linceul de flamme",
+						"body_text": "Ragnaros engloutit régulièrement un tiers aléatoire de la plateforme dans les flammes, infligeant immédiatement 0 points de dégâts de Feu aux personnages-joueurs pris dans la déflagration, et à nouveau 0 points de dégâts de Feu une seconde plus tard."
+					},
+					{
+						"id": 2659,
+						"title": "Monde en flammes",
+						"body_text": "Ragnaros incante périodiquement Linceul de flammes sur une section aléatoire de la plateforme toutes les 3 s pendant 9 s."
+					},
+					{
+						"id": 2660,
+						"title": "Invocation de météore vivant",
+						"body_text": "Ragnaros fait appel à un nombre toujours plus grand de météores vivants qui infligent 0 points de dégâts de Feu aux personnages-joueurs à moins de 5 mètres de leur point d’impact.",
+						"sections": [
+							{
+								"id": 2661,
+								"title": "Météore vivant",
+								"body_text": "Le Météore vivant se focalise sur un personnage-joueur et le poursuit.",
+								"sections": [
+									{
+										"id": 2662,
+										"title": "Impact de météore",
+										"body_text": "Si un personnage-joueur se trouve à moins de 4 mètres d’un Météore vivant, il déclenche un Impact de météore qui inflige 0 points de dégâts de Feu aux personnages-joueurs à moins de 8 mètres."
+									},
+									{
+										"id": 2663,
+										"title": "Combustible",
+										"body_text": "Attaquer un météore vivant provoque une Combustion, qui projette sur plusieurs mètres en arrière les attaquants. Déclencher la Combustion supprime l’effet Combustible pendant 5 s.",
+										"sections": [
+											{
+												"id": 2664,
+												"title": "Combustion",
+												"body_text": "Attaquer un Météore vivant provoque une Combustion, qui projette sur plusieurs mètres en arrière les attaquants."
+											}
+										]
+									},
+									{
+										"id": 3528,
+										"title": "Trempé de lave",
+										"body_text": "Si un Météore vivant entre en contact avec une Vague de lave, le météore gagne l’effet Trempé de lave pendant 1 min."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38677?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38677
+								}
+							}
+						]
+					},
+					{
+						"id": 3537,
+						"title": "Trait de magma",
+						"body_text": "Ragnaros projette du magma sur sa cible actuelle s’il ne peut pas l’atteindre en mêlée, lui infligeant 0 points de dégâts de Feu et augmentant les dégâts de Feu subis de 50% pendant 6 s."
+					}
+				]
+			},
+			{
+				"id": 2665,
+				"title": "Phase 4 : La vraie puissance du seigneur du Feu !",
+				"body_text": "Le seigneur du Feu déchaîne toute sa puissance et devient capable de se déplacer librement sur toute la plateforme. Les personnages-joueurs sont aidés dans leur combat par de puissants héros d’Azeroth.",
+				"sections": [
+					{
+						"id": 2680,
+						"title": "Chaleur extrême",
+						"body_text": "Ragnaros déchaîne toute sa puissance et se met à dégager une Chaleur extrême, ce qui inflige 0 points de dégâts de Feu toutes les 1 s à tous les personnages-joueurs et augmente les dégâts infligés par Chaleur extrême de 10%. Cet effet est cumulable."
+					},
+					{
+						"id": 2681,
+						"title": "Renforcer Sulfuras",
+						"body_text": "Ragnaros canalise ses flammes sur Sulfuras. Au bout de 5 s, Sulfuras est Surpuissante et les attaques en mêlée de Ragnaros libèrent les Flammes de Sulfuras, qui infligent 0 points de dégâts de Feu à tous les personnages-joueurs.",
+						"sections": [
+							{
+								"id": 2682,
+								"title": "Flammes de Sulfuras",
+								"body_text": "Lorsque Sulfuras est surpuissante, les attaques en mêlée de Ragnaros déclenchent les Flammes de Sulfuras, qui infligent 0 points de dégâts de Feu à tous les personnages-joueurs."
+							}
+						]
+					},
+					{
+						"id": 2683,
+						"title": "Flammeffroi",
+						"body_text": "Ragnaros bondit et crée une flammeffroi à des endroits proches. La flammeffroi se multiplie rapidement et se répand sur la plateforme. Elle inflige 0 points de dégâts de Feu et 0 points de dégâts de Feu supplémentaires toutes les 1 s pendant 30 s si un personnage-joueur touche le feu."
+					},
+					{
+						"id": 2685,
+						"title": "Cénarius",
+						"body_text": "Bien que fils de Malorne et d’Élune, le puissant demi-dieu et patron des druides Cénarius fut élevé et protégé par l’aspect dragon Ysera.\r\n\r\nCénarius aide le raid en utilisant ses pouvoirs sur la Nature pour geler les météores vivants et pour réduire les dégâts infligés par Ragnaros lorsqu'il bénéficie de Chaleur extrême.",
+						"sections": [
+							{
+								"id": 2686,
+								"title": "Étendue de givre",
+								"body_text": "Cénarius invoque une Étendue de givre à un emplacement aléatoire proche. Tout météore vivant qui traverse cette étendue est gelé et subit 50% de dégâts supplémentaires par les personnages-joueurs. De plus, l’Étendue de givre rend insensible aux dégâts de Chaleur extrême et dissipe cet affaiblissement sur les personnages-joueurs qui se tiennent dans la zone."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38532?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38532
+						}
+					},
+					{
+						"id": 2687,
+						"title": "Archidruide Hamuul Totem-Runique",
+						"body_text": "En plus d’être révéré par son peuple tauren, l’archidruide au grand cœur Hamuul Totem-Runique est également un chef respecté du Cercle cénarien.\r\n\r\nLe sage Tauren aide le raid en s’attachant la fureur de la Nature et fait apparaître des racines pour piéger Ragnaros.",
+						"sections": [
+							{
+								"id": 2688,
+								"title": "Racines piégeuses",
+								"body_text": "L’archidruide Hamuul Totem-Runique invoque des Racines piégeuses dans une zone proche. Si Ragnaros entre dans l’aire d’effet des Racines piégeuses, il est étourdi pendant 10 s et subit 50% de dégâts supplémentaires tant que dure l’étourdissement."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38534?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38534
+						}
+					},
+					{
+						"id": 2689,
+						"title": "Malfurion Hurlorage",
+						"body_text": "L’archidruide Malfurion Hurlorage, l’un des druides les plus puissants de tous les temps, a joué un grand rôle dans la protection d’Hyjal contre l’armée d'élémentaires ardents de Ragnaros. \r\n\r\nLe légendaire archidruide assiste le raid en protégeant les héros de toutes les attaques consumantes de Flammeffroi.",
+						"sections": [
+							{
+								"id": 2690,
+								"title": "Explosion nuageuse",
+								"body_text": "Malfurion crée une Explosion nuageuse. Les personnages-joueurs qui interagissent avec l’Explosion nuageuse sont entourés d’un Déluge. Le Déluge rend le personnage insensible aux dégâts de Flammeffroi et lui permet d’éteindre toute Flammeffroi proche.",
+								"sections": [
+									{
+										"id": 2691,
+										"title": "Déluge",
+										"body_text": "Le Déluge rend le personnage-joueur insensible aux dégâts des Flammeffrois et lui permet d’éteindre toute Flammeffroi proche."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38533?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38533
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/198?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 198,
+		"name": "Ragnaros",
+		"description": "Ragnaros, lord of the Firelands, embodies the fury and destruction of the primordial infernos that forged Azeroth itself. Promised the chance to set Azeroth aflame without interference from Neptulon and Therazane, Ragnaros seeks to appease the Old Gods by incinerating the World Tree of Nordrassil.",
+		"creatures": [
+			{
+				"id": 629,
+				"name": "Ragnaros",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37875?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 37875
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10591,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71616?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Flame",
+					"id": 71616
+				}
+			},
+			{
+				"id": 10592,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10593,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71682?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fiery Protector",
+					"id": 71682
+				}
+			},
+			{
+				"id": 10594,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68994?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Matrix Restabilizer",
+					"id": 68994
+				}
+			},
+			{
+				"id": 10595,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68995?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vessel of Acceleration",
+					"id": 68995
+				}
+			},
+			{
+				"id": 10596,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70723?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, the Extinguished Hand",
+					"id": 70723
+				}
+			},
+			{
+				"id": 10597,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71684?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Fiery Protector",
+					"id": 71684
+				}
+			},
+			{
+				"id": 10598,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70921?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of Roaring Flame",
+					"id": 70921
+				}
+			},
+			{
+				"id": 10600,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69150?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Matrix Restabilizer",
+					"id": 69150
+				}
+			},
+			{
+				"id": 10610,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69224?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Egg of Millagazor",
+					"id": 69224
+				}
+			},
+			{
+				"id": 10615,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69167?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vessel of Acceleration",
+					"id": 69167
+				}
+			},
+			{
+				"id": 10616,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71668?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fiery Vanquisher",
+					"id": 71668
+				}
+			},
+			{
+				"id": 10617,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, Greatstaff of Annihilation",
+					"id": 71797
+				}
+			},
+			{
+				"id": 10618,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, Greatstaff of Annihilation",
+					"id": 71798
+				}
+			},
+			{
+				"id": 10620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69110?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Variable Pulse Lightning Capacitor",
+					"id": 69110
+				}
+			},
+			{
+				"id": 10621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71670?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Fiery Vanquisher",
+					"id": 71670
+				}
+			},
+			{
+				"id": 10622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, the Extinguished Hand",
+					"id": 71352
+				}
+			},
+			{
+				"id": 10623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, the Eye of Flame",
+					"id": 71353
+				}
+			},
+			{
+				"id": 10624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71610?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of the Vanquished Lord",
+					"id": 71610
+				}
+			},
+			{
+				"id": 10625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of the Vanquished Lord",
+					"id": 71354
+				}
+			},
+			{
+				"id": 10626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71611?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, the Eye of Flame",
+					"id": 71611
+				}
+			},
+			{
+				"id": 10627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71355?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Hammer of the Firelord",
+					"id": 71355
+				}
+			},
+			{
+				"id": 10628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71675?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fiery Conqueror",
+					"id": 71675
+				}
+			},
+			{
+				"id": 10629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71612?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of Roaring Flame",
+					"id": 71612
+				}
+			},
+			{
+				"id": 10630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71356?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Flame",
+					"id": 71356
+				}
+			},
+			{
+				"id": 10631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71613?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Majordomo's Chain of Office",
+					"id": 71613
+				}
+			},
+			{
+				"id": 10632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68925?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Variable Pulse Lightning Capacitor",
+					"id": 68925
+				}
+			},
+			{
+				"id": 10633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71357?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Majordomo's Chain of Office",
+					"id": 71357
+				}
+			},
+			{
+				"id": 10634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of the Fiery Conqueror",
+					"id": 71677
+				}
+			},
+			{
+				"id": 10635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71614?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of Incineration",
+					"id": 71614
+				}
+			},
+			{
+				"id": 10636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71358?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of Incineration",
+					"id": 71358
+				}
+			},
+			{
+				"id": 10637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71615?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Hammer of the Firelord",
+					"id": 71615
+				}
+			},
+			{
+				"id": 40489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171646?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Matrix Restabilizer",
+					"id": 171646
+				}
+			},
+			{
+				"id": 40490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171663?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pauldrons of Roaring Flame",
+					"id": 171663
+				}
+			},
+			{
+				"id": 40491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171727?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ko'gun, Hammer of the Firelord",
+					"id": 171727
+				}
+			},
+			{
+				"id": 40492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171724?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sulfuras, the Extinguished Hand",
+					"id": 171724
+				}
+			},
+			{
+				"id": 40493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171728?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Flame",
+					"id": 171728
+				}
+			},
+			{
+				"id": 40494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171647?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vessel of Acceleration",
+					"id": 171647
+				}
+			},
+			{
+				"id": 40495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171729?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Majordomo's Chain of Office",
+					"id": 171729
+				}
+			},
+			{
+				"id": 40496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sho'ravon, Greatstaff of Annihilation",
+					"id": 171731
+				}
+			},
+			{
+				"id": 40497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fingers of Incineration",
+					"id": 171730
+				}
+			},
+			{
+				"id": 40498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171640?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Variable Pulse Lightning Capacitor",
+					"id": 171640
+				}
+			},
+			{
+				"id": 40499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171726?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Choker of the Vanquished Lord",
+					"id": 171726
+				}
+			},
+			{
+				"id": 40500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171725?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arathar, the Eye of Flame",
+					"id": 171725
+				}
+			},
+			{
+				"id": 40619,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hood of the Cleansing Flame",
+					"id": 171799
+				}
+			},
+			{
+				"id": 40620,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171744?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Headpiece",
+					"id": 171744
+				}
+			},
+			{
+				"id": 40621,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Hood",
+					"id": 171809
+				}
+			},
+			{
+				"id": 40622,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Faceguard",
+					"id": 171736
+				}
+			},
+			{
+				"id": 40623,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171825?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Helmet",
+					"id": 171825
+				}
+			},
+			{
+				"id": 40624,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171820?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Faceguard",
+					"id": 171820
+				}
+			},
+			{
+				"id": 40625,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171815?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Headpiece",
+					"id": 171815
+				}
+			},
+			{
+				"id": 40626,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Hood",
+					"id": 171804
+				}
+			},
+			{
+				"id": 40627,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171749?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Helm",
+					"id": 171749
+				}
+			},
+			{
+				"id": 40628,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Helmet",
+					"id": 171770
+				}
+			},
+			{
+				"id": 40629,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Faceguard",
+					"id": 171765
+				}
+			},
+			{
+				"id": 40630,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helmet of the Molten Giant",
+					"id": 171785
+				}
+			},
+			{
+				"id": 40631,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faceguard of the Molten Giant",
+					"id": 171761
+				}
+			},
+			{
+				"id": 40632,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Headguard",
+					"id": 171790
+				}
+			},
+			{
+				"id": 40633,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cowl of the Cleansing Flame",
+					"id": 171794
+				}
+			},
+			{
+				"id": 40634,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Cover",
+					"id": 171754
+				}
+			},
+			{
+				"id": 40635,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Helmet",
+					"id": 171780
+				}
+			},
+			{
+				"id": 40636,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Headguard",
+					"id": 171774
+				}
+			},
+			{
+				"id": 40637,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171740?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Helmet",
+					"id": 171740
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20834,
+				"title": "Overview",
+				"body_text": "This encounter spans three stages, separated by two intermissions. Ragnaros will attack players from his lava pool during each stage, and will submerge below during the intermissions.",
+				"sections": [
+					{
+						"id": 20835,
+						"title": "Tanks",
+						"body_text": "$bullet;Ragnaros will use [Magma Blast] if his tank target isn't in melee range.\r\n$bullet;Manage your applications of [Burning Wound] so that [Burning Blast] doesn't become lethal.\r\n$bullet;Lava Scions that spawn during intermission two need to be tanked.\r\n$bullet;When targeted for [Molten Seed] place the seed away from the raid to minimize the damage of the resultant [Molten Inferno].\r\n$bullet;Molten Elementals fixate on random raid members and cannot be tanked."
+					},
+					{
+						"id": 20836,
+						"title": "Healers",
+						"body_text": "$bullet;Tanks will take high amounts of damage from [Burning Wound] and [Burning Blast].\r\n$bullet;[Magma Trap] is the largest source of raid damage.\r\n$bullet;Any players who fail to avoid [Lava Waves] will need immediate attention to survive.\r\n$bullet;[Hand of Ragnaros] will damage all melee damage dealers.  The knockback will cancel your casting if you are too close to Ragnaros.\r\n$bullet;Stand apart from your raid members to minimize [Wrath of Ragnaros] knocking you back.\r\n$bullet;When targeted for [Molten Seed] place the seed away from the raid to minimize the damage of the resultant [Molten Inferno]."
+					},
+					{
+						"id": 20837,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Avoid triggering [Magma Trap] due to the knockback of [Hand of Ragnaros].\r\n$bullet;Spread out to avoid hitting multiple players with [Wrath of Ragnaros].\r\n$bullet;Kill Sons of Flame before they reach Sulfuras or they will [Supernova].\r\n$bullet;[Magma Trap] will launch you high enough to make the fall fatal.\r\n$bullet;When targeted for [Molten Seed] place the seed away from the raid to minimize the damage of the resultant [Molten Inferno].\r\n$bullet;Stand apart from your raid members to minimize [Wrath of Ragnaros] knocking you back.\r\n$bullet;Living Meteors can be forced to change target by damaging them while they are [Combustible]."
+					}
+				]
+			},
+			{
+				"id": 2629,
+				"title": "Stage One: By Fire Be Purged!",
+				"sections": [
+					{
+						"id": 2630,
+						"title": "Sulfuras Smash",
+						"body_text": "Ragnaros faces the location of a random player and prepares to smash Sulfuras on the platform. The impact of Sulfuras inflicts 0 Fire damage to any player within 5 yards of the impact, and creates several Lava Waves which move out from the point of impact.",
+						"sections": [
+							{
+								"id": 2631,
+								"title": "Lava Wave",
+								"body_text": "If a player touches a moving Lava Wave, the lava inflicts 0 Fire damage, 0 Fire damage every 1 sec. for 5 sec., and knocks the player back."
+							}
+						]
+					},
+					{
+						"id": 2632,
+						"title": "Wrath of Ragnaros",
+						"body_text": "Ragnaros blasts the location of a random player, inflicting 0 Fire damage to all players within 6 yards and knocking them back."
+					},
+					{
+						"id": 2633,
+						"title": "Hand of Ragnaros",
+						"body_text": "Ragnaros inflicts 0 Fire damage to all enemies within 55 yards, knocking them back."
+					},
+					{
+						"id": 2634,
+						"title": "Magma Trap",
+						"body_text": "Ragnaros launches a Magma Trap at a random player's location. When the Magma Trap reaches the platform, it inflicts 0 Fire damage and knocks back players within 8 yards. The active Magma Trap persists for the duration of the encounter and triggers when stepped on, causing a Magma Trap Eruption.",
+						"sections": [
+							{
+								"id": 2635,
+								"title": "Magma Trap Eruption",
+								"body_text": "A triggered Magma Trap erupts for 0 Fire damage to all players, and violently knocks the triggering player into the air."
+							}
+						]
+					},
+					{
+						"id": 3535,
+						"title": "Magma Blast",
+						"body_text": "Ragnaros blasts magma at his current target if he cannot reach and melee them, inflicting 0 Fire damage and increasing Fire damage taken by 50% for 6 sec."
+					}
+				]
+			},
+			{
+				"id": 2636,
+				"title": "Intermission: Minions of Fire!",
+				"body_text": "At 70% health Ragnaros casts Splitting Blow, burying Sulfuras into the platform and creating Sons of Flame across the platform.  Ragnaros submerges for 45 seconds or until the players destroy all the Sons of Flame, whichever comes first.",
+				"sections": [
+					{
+						"id": 2678,
+						"title": "Splitting Blow",
+						"body_text": "Ragnaros buries Sulfuras within the platform, inflicting 0 Fire damage every 1 second to players within 6 yards and creating eight Sons of Flame that attempt to reach the mighty hammer."
+					},
+					{
+						"id": 2637,
+						"title": "Son of Flame",
+						"body_text": "Sons of Flame cross the platform and attempt to reform with Sulfuras. A Son of Flame that reaches Sulfuras causes a Supernova.",
+						"sections": [
+							{
+								"id": 2638,
+								"title": "Burning Speed",
+								"body_text": "For every 5% of their remaining health above 50%, Sons of Flame move 75% faster. When players reduce a Son of Flame to below 50% remaining health, the Son of Flame loses the Burning Speed effect."
+							},
+							{
+								"id": 2639,
+								"title": "Supernova",
+								"body_text": "When a Son of Flame reaches Sulfuras it explodes in a Supernova, inflicting 0 Fire damage to all players."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 3534,
+						"title": "Lava Bolt",
+						"body_text": "While Ragnaros lies submerged underneath the lava, bolts of hot magma fall on several random players every 4 seconds. A Lava Bolt inflicts 0 Fire Damage."
+					}
+				]
+			},
+			{
+				"id": 2640,
+				"title": "Stage Two: Sulfuras Will Be Your End!",
+				"sections": [
+					{
+						"id": 2641,
+						"title": "Sulfuras Smash",
+						"body_text": "Ragnaros faces the location of a random player and prepares to smash Sulfuras on the platform. The impact of Sulfuras inflicts 0 Fire damage to any player within 5 yards of the impact, and creates several Lava Waves which move out from the point of impact.",
+						"sections": [
+							{
+								"id": 2642,
+								"title": "Lava Wave",
+								"body_text": "If a player touches a moving Lava Wave, the lava inflicts 0 Fire damage, 0 Fire damage every 1 sec. for 5 sec., and knocks the player back."
+							}
+						]
+					},
+					{
+						"id": 2643,
+						"title": "Engulfing Flame",
+						"body_text": "Ragnaros periodically engulfs a random third of the platform in flames, immediately inflicting 0 Fire damage to players caught in the conflagration then again inflicting 0 Fire damage one second later."
+					},
+					{
+						"id": 2644,
+						"title": "World in Flames",
+						"body_text": "Ragnaros periodically casts Engulfing Flames on a random section of the platform every 3 sec for 9 sec."
+					},
+					{
+						"id": 2645,
+						"title": "Molten Seed",
+						"body_text": "Ragnaros creates Molten Seed at the location of several random players from the nearby lava, inflicting 0 Fire damage to all players within 6 yards of a seed. After 10 sec the Molten Seed bursts into a Molten Inferno.",
+						"sections": [
+							{
+								"id": 2646,
+								"title": "Molten Inferno",
+								"body_text": "When Molten Seeds burst they create a Molten Inferno, inflicting 0 Fire damage to all players and creating a Molten Elemental. The damage inflicted decreases the farther away the player stands from the seed."
+							},
+							{
+								"id": 2647,
+								"title": "Molten Elemental",
+								"body_text": "A Molten Inferno creates a Molten Elemental, which attacks and fixates on a random player.",
+								"sections": [
+									{
+										"id": 2648,
+										"title": "Molten Power",
+										"body_text": "Molten Elementals within 6 yards empower other Molten Elementals, increasing their damage dealt by 25% and granting immunity to snare and stun effects."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38520?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38520
+								}
+							}
+						]
+					},
+					{
+						"id": 3536,
+						"title": "Magma Blast",
+						"body_text": "Ragnaros blasts magma at his current target if he cannot reach and melee them, inflicting 0 Fire damage and increasing Fire damage taken by 50% for 6 sec."
+					}
+				]
+			},
+			{
+				"id": 2649,
+				"title": "Intermission: Denizens of Flame!",
+				"body_text": "At 40% health Ragnaros casts Splitting Blow, burying Sulfuras into the platform and creating Sons of Flame across the platform.  Ragnaros submerges for 45 seconds or until the players destroy all the Sons of Flame, whichever comes first.\r\n\r\nRagnaros also creates two Lava Scions that attack the players.",
+				"sections": [
+					{
+						"id": 2679,
+						"title": "Splitting Blow",
+						"body_text": "Ragnaros buries Sulfuras within the platform, inflicting 0 Fire damage every 1 second to players within 6 yards and creating eight Sons of Flame that attempt to reach the mighty hammer."
+					},
+					{
+						"id": 2650,
+						"title": "Son of Flame",
+						"body_text": "Sons of Flame cross the platform and attempt to reform with Sulfuras. A Son of Flame that reaches Sulfuras causes a Supernova.",
+						"sections": [
+							{
+								"id": 2651,
+								"title": "Burning Speed",
+								"body_text": "For every 5% of their remaining health above 50%, Sons of Flame move 75% faster. When players reduce a Son of Flame to below 50% remaining health, the Son of Flame loses the Burning Speed effect."
+							},
+							{
+								"id": 2652,
+								"title": "Supernova",
+								"body_text": "When a Son of Flame reaches Sulfuras it explodes in a Supernova, inflicting 0 Fire damage to all players."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/1070?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 1070
+						}
+					},
+					{
+						"id": 2653,
+						"title": "Lava Scion",
+						"body_text": "One Lava Scion forms on each side of the platform.",
+						"sections": [
+							{
+								"id": 2654,
+								"title": "Blazing Heat",
+								"body_text": "A Lava Scion inflicts a random player with Blazing Heat, causing the player to create a trail of Blazing Heat in their wake. Blazing Heat inflicts 0 Fire damage every 1 sec on players standing within the trail, and heals Sons of Flame within the trail for 10% every 1 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38019?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38019
+						}
+					}
+				]
+			},
+			{
+				"id": 2655,
+				"title": "Stage Three: Begone From My Realm!",
+				"sections": [
+					{
+						"id": 2656,
+						"title": "Sulfuras Smash",
+						"body_text": "Ragnaros faces the location of a random player and prepares to smash Sulfuras on the platform. The impact of Sulfuras inflicts 0 Fire damage to any player within 5 yards of the impact, and creates several Lava Waves which move out from the point of impact.",
+						"sections": [
+							{
+								"id": 2657,
+								"title": "Lava Wave",
+								"body_text": "If a player touches a moving Lava Wave, the lava inflicts 0 Fire damage, 0 Fire damage every 1 sec. for 5 sec., and knocks the player back."
+							}
+						]
+					},
+					{
+						"id": 2658,
+						"title": "Engulfing Flame",
+						"body_text": "Ragnaros periodically engulfs a random third of the platform in flames, immediately inflicting 0 Fire damage to players caught in the conflagration then again inflicting 0 Fire damage one second later."
+					},
+					{
+						"id": 2659,
+						"title": "World in Flames",
+						"body_text": "Ragnaros periodically casts Engulfing Flames on a random section of the platform every 3 sec for 9 sec."
+					},
+					{
+						"id": 2660,
+						"title": "Summon Living Meteor",
+						"body_text": "Ragnaros calls down an increasing number of Living Meteors. The Living Meteor's impact inflicts 0 Fire damage to players within 5 yards of the location.",
+						"sections": [
+							{
+								"id": 2661,
+								"title": "Living Meteor",
+								"body_text": "The Living Meteor fixates on a random player and chases them.",
+								"sections": [
+									{
+										"id": 2662,
+										"title": "Meteor Impact",
+										"body_text": "Any player within 4 yards of a Living Meteor triggers a Meteor Impact, inflicting 0 Fire damage to players within 8 yards."
+									},
+									{
+										"id": 2663,
+										"title": "Combustible",
+										"body_text": "Attacking a Living Meteor causes Combustion, knocking it back several yards from the attacking player. Triggering Combustion removes the Combustible effect for 5 seconds.",
+										"sections": [
+											{
+												"id": 2664,
+												"title": "Combustion",
+												"body_text": "Attacking a Living Meteor causes Combustion, knocking it back several yards from the attacking player."
+											}
+										]
+									},
+									{
+										"id": 3528,
+										"title": "Lavalogged",
+										"body_text": "If a Living Meteor touches a Lava Wave, the meteor gains the Lavalogged effect for 1 min."
+									}
+								],
+								"creature_display": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38677?namespace=static-12.1.0_68914-eu"
+									},
+									"id": 38677
+								}
+							}
+						]
+					},
+					{
+						"id": 3537,
+						"title": "Magma Blast",
+						"body_text": "Ragnaros blasts magma at his current target if he cannot reach and melee them, inflicting 0 Fire damage and increasing Fire damage taken by 50% for 6 sec."
+					}
+				]
+			},
+			{
+				"id": 2665,
+				"title": "Stage Four: The True Power of the Firelord!",
+				"body_text": "The Firelord unleashes his full power and is able to move freely around the platform. Players have the aid of powerful heroes of Azeroth to support them.",
+				"sections": [
+					{
+						"id": 2680,
+						"title": "Superheated",
+						"body_text": "Ragnaros unleashes his full power and becomes Superheated, inflicting 0 Fire damage every 1 sec. on all players and increasing the damage dealt by Superheated by 10%. This effect stacks."
+					},
+					{
+						"id": 2681,
+						"title": "Empower Sulfuras",
+						"body_text": "Ragnaros channels his flames upon Sulfuras. After 5 sec. of channeling, Sulfuras becomes Empowered and Ragnaros' melee attacks unleash the Flames of Sulfuras, inflicting 0 Fire damage to all players.",
+						"sections": [
+							{
+								"id": 2682,
+								"title": "Flames of Sulfuras",
+								"body_text": "With Sulfuras empowered, Ragnaros' melee attacks unleash the Flames of Sulfuras, inflicting 0 Fire damage to all players."
+							}
+						]
+					},
+					{
+						"id": 2683,
+						"title": "Dreadflame",
+						"body_text": "Ragnaros stomps and creates a Dreadflame at nearby locations. The Dreadflame multiplies rapidly and spreads across the platform. Dreadflame inflicts 0 Fire damage and 0 Fire damage every 1 sec for 30 sec if a player touches the fire."
+					},
+					{
+						"id": 2685,
+						"title": "Cenarius",
+						"body_text": "Although the son of Malorne and Elune, the mighty demigod and druid patron Cenarius was cared for in his youth by the Dragon Aspect Ysera. \r\n\r\nCenarius supports the raid by using his powers over nature to freeze Living Meteors and reduce the damage caused when Ragnaros is Superheated.",
+						"sections": [
+							{
+								"id": 2686,
+								"title": "Breadth of Frost",
+								"body_text": "Cenarius forms a Breadth of Frost at a nearby random location. Any Living Meteors that enter the Breadth of Frost freeze and take 50% additional damage from players. Breadth of Frost grants immunity to Superheated damage and removes the Superheated debuff from players standing within the area."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38532?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38532
+						}
+					},
+					{
+						"id": 2687,
+						"title": "Arch Druid Hamuul Runetotem",
+						"body_text": "Apart from being revered by his fellow tauren, the greathearted archdruid Hamuul Runetotem is also a celebrated leader of the Cenarion Circle. \r\n\r\nThe wise tauren assists the raid by harnessing nature's fury and causes roots to erupt from the ground to entrap Ragnaros.",
+						"sections": [
+							{
+								"id": 2688,
+								"title": "Entrapping Roots",
+								"body_text": "Arch Druid Hamuul Runetotem forms Entrapping Roots at a nearby random location. If Ragnaros enters the area of the Entrapping Roots, he becomes stunned for 10 sec and takes 50% additional damage while stunned."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38534?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38534
+						}
+					},
+					{
+						"id": 2689,
+						"title": "Malfurion Stormrage",
+						"body_text": "One of the most powerful druids ever, Archdruid Malfurion Stormrage has been instrumental in protecting Mount Hyjal from Ragnaros's fiery elemental forces. \r\n\r\nThe legendary archdruid helps the raid by protecting heroes from the all-consuming Dreadflame attacks.",
+						"sections": [
+							{
+								"id": 2690,
+								"title": "Cloudburst",
+								"body_text": "Malfurion forms a Cloudburst. The player who interacts with a Cloudburst becomes surrounded with a Deluge.  Deluge grants the player immunity to Dreadflame damage, and allows the player to extinguish any nearby Dreadflame.",
+								"sections": [
+									{
+										"id": 2691,
+										"title": "Deluge",
+										"body_text": "The Deluge grants immunity to Dreadflame damage, and allows the player to extinguish any nearby Dreadflame."
+									}
+								]
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38533?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38533
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

@@ -1,0 +1,2673 @@
+{
+	"id": 192,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/192?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 192,
+		"name": "Beth'tilac",
+		"description": "La matriarca del linaje Telaceniza, Beth'tilac, y su despiadada descendencia sacian su apetito chupando el magma y el fuego de los cadáveres de elementales. Para proporcionarle mayor sustento a sus crías, Beth'tilac ha tejido una serie de telarañas incendiarias por toda su guarida para atrapar presas desprevenidas.",
+		"creatures": [
+			{
+				"id": 624,
+				"name": "Beth'tilac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de la amenaza apremiante",
+					"id": 71040
+				}
+			},
+			{
+				"id": 10321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de devastación humeante",
+					"id": 71041
+				}
+			},
+			{
+				"id": 10323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de llama torácica",
+					"id": 71042
+				}
+			},
+			{
+				"id": 10324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70914?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caparazón de llamas embebidas",
+					"id": 70914
+				}
+			},
+			{
+				"id": 10325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de los ojos múltiples",
+					"id": 71043
+				}
+			},
+			{
+				"id": 10326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de seda ceniza",
+					"id": 71044
+				}
+			},
+			{
+				"id": 10327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70922?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbula de Beth'tilac",
+					"id": 70922
+				}
+			},
+			{
+				"id": 10328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Huso de seda de araña",
+					"id": 69138
+				}
+			},
+			{
+				"id": 10329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beso de viuda",
+					"id": 71401
+				}
+			},
+			{
+				"id": 10341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos Telaceniza",
+					"id": 71402
+				}
+			},
+			{
+				"id": 10343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros chisporroteantes",
+					"id": 71403
+				}
+			},
+			{
+				"id": 10345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines Flamaraña",
+					"id": 71404
+				}
+			},
+			{
+				"id": 10347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71405?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caparazón de llamas embebidas",
+					"id": 71405
+				}
+			},
+			{
+				"id": 10348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71406?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbula de Beth'tilac",
+					"id": 71406
+				}
+			},
+			{
+				"id": 10349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de devastación humeante",
+					"id": 71407
+				}
+			},
+			{
+				"id": 10350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resguardo de la Viuda Roja",
+					"id": 71408
+				}
+			},
+			{
+				"id": 10351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71409?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pira funeraria",
+					"id": 71409
+				}
+			},
+			{
+				"id": 10352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de seda ceniza",
+					"id": 71410
+				}
+			},
+			{
+				"id": 10353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de la amenaza apremiante",
+					"id": 71411
+				}
+			},
+			{
+				"id": 10354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de llama torácica",
+					"id": 71412
+				}
+			},
+			{
+				"id": 10355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de los ojos múltiples",
+					"id": 71413
+				}
+			},
+			{
+				"id": 10356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines Flamaraña",
+					"id": 71029
+				}
+			},
+			{
+				"id": 10357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Huso de seda de araña",
+					"id": 68981
+				}
+			},
+			{
+				"id": 10358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros chisporroteantes",
+					"id": 71030
+				}
+			},
+			{
+				"id": 10360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos Telaceniza",
+					"id": 71031
+				}
+			},
+			{
+				"id": 10361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beso de viuda",
+					"id": 71032
+				}
+			},
+			{
+				"id": 10362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resguardo de la Viuda Roja",
+					"id": 71038
+				}
+			},
+			{
+				"id": 10363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pira funeraria",
+					"id": 71039
+				}
+			},
+			{
+				"id": 35257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Saco de huevos de Telaceniza",
+					"id": 152976
+				}
+			},
+			{
+				"id": 40409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171700?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resguardo de la Viuda Roja",
+					"id": 171700
+				}
+			},
+			{
+				"id": 40410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caparazón de llamas embebidas",
+					"id": 171658
+				}
+			},
+			{
+				"id": 40411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171706?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de seda ceniza",
+					"id": 171706
+				}
+			},
+			{
+				"id": 40412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda de llama torácica",
+					"id": 171704
+				}
+			},
+			{
+				"id": 40413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos Telaceniza",
+					"id": 171698
+				}
+			},
+			{
+				"id": 40414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Huso de seda de araña",
+					"id": 171643
+				}
+			},
+			{
+				"id": 40415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandíbula de Beth'tilac",
+					"id": 171664
+				}
+			},
+			{
+				"id": 40416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171699?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Beso de viuda",
+					"id": 171699
+				}
+			},
+			{
+				"id": 40417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines Flamaraña",
+					"id": 171696
+				}
+			},
+			{
+				"id": 40418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capucha de la amenaza apremiante",
+					"id": 171702
+				}
+			},
+			{
+				"id": 40419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171697?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros chisporroteantes",
+					"id": 171697
+				}
+			},
+			{
+				"id": 40420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de los ojos múltiples",
+					"id": 171705
+				}
+			},
+			{
+				"id": 40421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pira funeraria",
+					"id": 171701
+				}
+			},
+			{
+				"id": 40422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171703?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de devastación humeante",
+					"id": 171703
+				}
+			},
+			{
+				"id": 40508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20826,
+				"title": "Resumen",
+				"body_text": "Beth'tilac comienza el encuentro por encima del espacio de juego y bajará después de haber lanzado [Devastación humeante] tres veces. Los jugadores pueden acceder a esa zona interactuando con el hilo de una hiladora Telaceniza para infligirle algo de daño a Beth'tilac antes de que baje para la segunda fase.\r\nCuando Beth'tilac baje, los jugadores deberán derrotarla antes de que su nivel de [Frenesí] sea demasiado alto para sobrevivir.",
+				"sections": [
+					{
+						"id": 20827,
+						"title": "Tanques",
+						"body_text": "$bullet;Se puede obligar a las hiladoras Telaceniza a bajar de su hilo usando efectos de provocación contra ellas.\r\n$bullet;Si no hay nadie en el nivel de Beth'tilac durante la primera fase, lanzará [Lluvia de tósigo] de forma constante.\r\n$bullet;Desviad la [Salpicadura hirviente] de los zánganos Telaceniza lejos de vuestros aliados.\r\n$bullet;Una vez que Beth'tilac haya bajado, coordínate con el otro tanque para gestionar la reducción de sanación de [El beso de la viuda].\r\n$bullet;En la segunda fase, mantened a Beth'tilac alejada de las arañitas Telaceniza o las usará como objetivo de [Consumir].\r\n$bullet;Si estás arriba en la primera fase, salta antes de que Beth'tilac lance [Devastación humeante]."
+					},
+					{
+						"id": 20828,
+						"title": "Sanadores",
+						"body_text": "$bullet;Si no hay nadie en el nivel de Beth'tilac durante la primera fase, lanzará [Lluvia de tósigo] de forma constante.\r\n$bullet;Todos los que estén en el mismo nivel que Beth'tilac recibirán daño de su [Bengala de brasas].\r\n$bullet;Al agotarse la energía de Beth'tilac, lanzará [Devastación humeante].\r\n$bullet;Si estás arriba en la primera fase, salta antes de que Beth'tilac lance [Devastación humeante]."
+					},
+					{
+						"id": 20829,
+						"title": "DPS",
+						"body_text": "$bullet;Si no se derrota a los zánganos Telaceniza antes de que su energía llegue a cero, ascenderán para drenar la energía de Beth'tilac, lo que acelerará el siguiente lanzamiento de [Devastación humeante].\r\n$bullet;Beth'tilac inflige daño de forma constante a los jugadores que están en el mismo nivel que ella mediante [Bengala de brasas]. Aseguraos de que haya un tanque y un sanador en la parte alta antes de usar uno de los hilos de las hiladoras Telaceniza.\r\n$bullet;Si estás arriba en la primera fase, salta antes de que Beth'tilac lance [Devastación humeante]."
+					}
+				]
+			},
+			{
+				"id": 2764,
+				"title": "Fase 1: Telaceniza",
+				"body_text": "Beth'tilac se retira a la parte superior de su telaraña al comienzo de la batalla.",
+				"sections": [
+					{
+						"id": 2765,
+						"title": "Energía de Fuego",
+						"body_text": "Beth'tilac pierde lentamente su energía de Fuego con el tiempo. Además, los zánganos Telaceniza succionarán algo de su energía cuando se agoten. Cuando a Beth'tilac se le acabe la energía de Fuego, se prenderá fuego a sí misma, lo que activará Devastación humeante."
+					},
+					{
+						"id": 2766,
+						"title": "Bengala de brasas",
+						"body_text": "Un calor intenso quema a los enemigos cercanos a Beth'tilac, lo que inflige 0 p. de daño de Fuego a los jugadores en el mismo nivel que ella."
+					},
+					{
+						"id": 2767,
+						"title": "Quemadura de meteorito",
+						"body_text": "Unos meteoritos caen sobre la telaraña, lo que inflige 0 p. de daño de Fuego a los jugadores en un radio de 7 m del punto de impacto. Además, abren un agujero en la telaraña por el que se pueden caer los jugadores."
+					},
+					{
+						"id": 2768,
+						"title": "Consumir",
+						"body_text": "Beth'tilac consume arañitas Telaceniza, lo que sana un 10% de su salud máxima."
+					},
+					{
+						"id": 2769,
+						"title": "Devastación humeante",
+						"body_text": "Cuando la energía de Fuego de Beth'tilac se agota, se prende fuego a sí misma e inflige 0 p. de daño de Fuego a todos los jugadores ubicados a su mismo nivel."
+					},
+					{
+						"id": 20816,
+						"title": "Lluvia de tósigo",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/99333?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Lluvia de tósigo",
+							"id": 99333
+						}
+					},
+					{
+						"id": 2770,
+						"title": "Hiladora Telaceniza",
+						"body_text": "Las hiladoras Telaceniza penden de un filamento de una telaraña superior. Al lanzar Provocar u otras facultades similares sobre una hiladora, caerán al suelo. Una vez muertas, los filamentos de la telaraña no desaparecen. Los jugadores pueden utilizarlos para trepar hasta lo alto de la telaraña.",
+						"sections": [
+							{
+								"id": 2771,
+								"title": "Ácido ardiente",
+								"body_text": "La hiladora Telaceniza escupe tósigo ardiente a un jugador aleatorio, lo que inflige 380 p. de daño de Fuego."
+							},
+							{
+								"id": 2772,
+								"title": "Remolino de telaraña ígneo",
+								"body_text": "La hiladora Telaceniza canaliza una telaraña en un jugador aleatorio, lo que lo aturde durante 25 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38257?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38257
+						}
+					},
+					{
+						"id": 2773,
+						"title": "Zángano Telaceniza",
+						"body_text": "Estas grandes arañas escalan las cuevas bajo la Telaceniza. Cuando se quedan sin energía de Fuego, el zángano Telaceniza escala hasta Beth'tilac y succiona energía de ella.",
+						"sections": [
+							{
+								"id": 2774,
+								"title": "Consumir",
+								"body_text": "Los zánganos Telaceniza consumen una arañita Telaceniza para sanarse un 20% de su vida máxima, aumentar el daño infligido un 20% y aumentar la velocidad de movimiento un 20%."
+							},
+							{
+								"id": 2775,
+								"title": "Salpique hirviente",
+								"body_text": "El zángano Telaceniza escupe tósigo ardiente a los enemigos en un cono de 60 grados de 20 m de largo, lo que inflige 0 p. de daño de Fuego a todos los enemigos en la zona."
+							},
+							{
+								"id": 2776,
+								"title": "Ácido ardiente",
+								"body_text": "El zángano Telaceniza escupe Ácido ardiente a un jugador aleatorio, lo que inflige 373 p. de daño de Fuego."
+							},
+							{
+								"id": 2777,
+								"title": "Fijar",
+								"body_text": "El zángano Telaceniza se fija en un jugador aleatorio e ignora a todos los demás objetivos, pero reduce el daño que inflige un 75% durante 10 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38256?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38256
+						}
+					},
+					{
+						"id": 2778,
+						"title": "Arañita Telaceniza",
+						"body_text": "Estas pequeñas arañas escalan las cuevas bajo la Telaceniza. Por instinto se mueven hacia los zánganos Telaceniza.",
+						"sections": [
+							{
+								"id": 2779,
+								"title": "Tósigo acuoso",
+								"body_text": "La arañita Telaceniza salta a un jugador aleatorio en un radio de 5 m y le inyecta veneno, lo que le inflige 0 p. de daño de Fuego cada 2 s durante 10 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37932?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37932
+						}
+					},
+					{
+						"id": 2780,
+						"title": "Estirpe atiborrada",
+						"body_text": "Estas arañas inestables seleccionan un jugador aleatorio y lanzan Ráfaga volátil al alcanzar su objetivo.",
+						"sections": [
+							{
+								"id": 2781,
+								"title": "Ráfaga volátil",
+								"body_text": "Las estirpes atiborradas explotarán al entrar en contacto con un jugador, lo que inflige 0 p. de daño de Fuego a todos los enemigos en un radio de 8 m."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38366?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38366
+						}
+					}
+				]
+			},
+			{
+				"id": 2782,
+				"title": "Fase 2: ¡Frenesí!",
+				"body_text": "Tras lanzar 3 veces Devastación humeante, Beth'tilac entra en frenesí. Desciende de la seguridad de su nido de Telaceniza y ya no llama a sus vástagos para que la ayuden.",
+				"sections": [
+					{
+						"id": 2786,
+						"title": "Frenesí",
+						"body_text": "Beth'tilac lanza de forma periódica Frenesí, lo que aumenta un 5% el daño que inflige hasta el final del encuentro. Este efecto se acumula."
+					},
+					{
+						"id": 2783,
+						"title": "El beso de la viuda",
+						"body_text": "El beso mortal de Beth'tilac hacer hervir la sangre de su objetivo actual, lo que reduce un 2% la sanación realizada al objetivo cada 2 s durante 20 s. El beso también hace que el objetivo inflija daño de Fuego creciente a sus aliados en un radio de 10 m."
+					},
+					{
+						"id": 2784,
+						"title": "Bengala de brasas",
+						"body_text": "Beth'tilac emite un calor intenso que inflige 0 p. de daño de Fuego a los enemigos que permanezcan en el mismo nivel que ella."
+					},
+					{
+						"id": 2785,
+						"title": "Consumir",
+						"body_text": "Beth'tilac consume arañitas Telaceniza, lo que sana un 10% de su salud máxima."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/192?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 192,
+		"name": "Beth’tilac",
+		"description": "Beth’tilac, matriarche des rejetons braisetoiles, et sa progéniture sans pitié rassasient leur appétit en absorbant le magma et le feu des cadavres d’élémentaires. Pour fournir à ses petits plus de nourriture, Beth’tilac a tissé un réseau de toiles incendiaires dans tout son repaire pour piéger des proies sans méfiance.",
+		"creatures": [
+			{
+				"id": 624,
+				"name": "Beth’tilac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche de la menace cliquetante",
+					"id": 71040
+				}
+			},
+			{
+				"id": 10321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de dévastation fumante",
+					"id": 71041
+				}
+			},
+			{
+				"id": 10323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de la flamme thoracique",
+					"id": 71042
+				}
+			},
+			{
+				"id": 10324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70914?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace imbibée de flammes",
+					"id": 70914
+				}
+			},
+			{
+				"id": 10325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des yeux multiples",
+					"id": 71043
+				}
+			},
+			{
+				"id": 10326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de cendre-soie",
+					"id": 71044
+				}
+			},
+			{
+				"id": 10327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70922?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandibule de Beth'tilac",
+					"id": 70922
+				}
+			},
+			{
+				"id": 10328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fuseau à soie d'araignée",
+					"id": 69138
+				}
+			},
+			{
+				"id": 10329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baiser de la veuve",
+					"id": 71401
+				}
+			},
+			{
+				"id": 10341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières braisetoile",
+					"id": 71402
+				}
+			},
+			{
+				"id": 10343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières vacillantes",
+					"id": 71403
+				}
+			},
+			{
+				"id": 10345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'araignée embrasée",
+					"id": 71404
+				}
+			},
+			{
+				"id": 10347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71405?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace imbibée de flammes",
+					"id": 71405
+				}
+			},
+			{
+				"id": 10348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71406?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandibule de Beth'tilac",
+					"id": 71406
+				}
+			},
+			{
+				"id": 10349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de dévastation fumante",
+					"id": 71407
+				}
+			},
+			{
+				"id": 10350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier de la veuve rouge",
+					"id": 71408
+				}
+			},
+			{
+				"id": 10351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71409?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bûcher funéraire",
+					"id": 71409
+				}
+			},
+			{
+				"id": 10352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de cendre-soie",
+					"id": 71410
+				}
+			},
+			{
+				"id": 10353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche de la menace cliquetante",
+					"id": 71411
+				}
+			},
+			{
+				"id": 10354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de la flamme thoracique",
+					"id": 71412
+				}
+			},
+			{
+				"id": 10355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des yeux multiples",
+					"id": 71413
+				}
+			},
+			{
+				"id": 10356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d'araignée embrasée",
+					"id": 71029
+				}
+			},
+			{
+				"id": 10357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fuseau à soie d'araignée",
+					"id": 68981
+				}
+			},
+			{
+				"id": 10358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières vacillantes",
+					"id": 71030
+				}
+			},
+			{
+				"id": 10360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières braisetoile",
+					"id": 71031
+				}
+			},
+			{
+				"id": 10361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baiser de la veuve",
+					"id": 71032
+				}
+			},
+			{
+				"id": 10362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier de la veuve rouge",
+					"id": 71038
+				}
+			},
+			{
+				"id": 10363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bûcher funéraire",
+					"id": 71039
+				}
+			},
+			{
+				"id": 35257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Œuf de braisetoile",
+					"id": 152976
+				}
+			},
+			{
+				"id": 40409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171700?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bouclier de la veuve rouge",
+					"id": 171700
+				}
+			},
+			{
+				"id": 40410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace imbibée de flammes",
+					"id": 171658
+				}
+			},
+			{
+				"id": 40411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171706?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de cendre-soie",
+					"id": 171706
+				}
+			},
+			{
+				"id": 40412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt de la flamme thoracique",
+					"id": 171704
+				}
+			},
+			{
+				"id": 40413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières braisetoile",
+					"id": 171698
+				}
+			},
+			{
+				"id": 40414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fuseau à soie d’araignée",
+					"id": 171643
+				}
+			},
+			{
+				"id": 40415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandibule de Beth’tilac",
+					"id": 171664
+				}
+			},
+			{
+				"id": 40416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171699?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Le baiser de la veuve",
+					"id": 171699
+				}
+			},
+			{
+				"id": 40417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines d’araignée embrasée",
+					"id": 171696
+				}
+			},
+			{
+				"id": 40418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche de la menace cliquetante",
+					"id": 171702
+				}
+			},
+			{
+				"id": 40419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171697?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières vacillantes",
+					"id": 171697
+				}
+			},
+			{
+				"id": 40420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des yeux multiples",
+					"id": 171705
+				}
+			},
+			{
+				"id": 40421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bûcher funéraire",
+					"id": 171701
+				}
+			},
+			{
+				"id": 40422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171703?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de dévastation fumante",
+					"id": 171703
+				}
+			},
+			{
+				"id": 40508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20826,
+				"title": "Vue d’ensemble",
+				"body_text": "Beth’tilac commence la rencontre au-dessus du champ de bataille et n’y descend qu’après avoir lancé [Dévastation ardente] à trois reprises. Les membres du raid peuvent accéder à sa toile en utilisant le filament d’une tisseuse braisetoile, et lui infliger des dégâts avant qu’elle descende pour la phase 2.\r\nUne fois Beth’tilac au sol, les personnages-joueurs doivent la vaincre avant que son niveau de [Frénésie] atteigne un niveau fatal pour le raid.",
+				"sections": [
+					{
+						"id": 20827,
+						"title": "Tanks",
+						"body_text": "$bullet;Utiliser un effet de provocation sur les tisseuses braisetoile les force à descendre de leur filament.\r\n$bullet;Si personne ne se trouve au niveau de Beth’tilac lors de la phase 1, elle lancera constamment [Pluie venimeuse].\r\n$bullet;Attirez l’[Éclaboussure bouillante] des ouvrières braisetoile ailleurs que sur vos alliés.\r\n$bullet;Une fois que Beth’tilac descend de sa toile, coordonnez-vous avec l’autre tank pour gérer la diminution des soins causée par le [Baiser de la veuve].\r\n$bullet;Pendant la phase 2, tenez Beth’tilac à l’écart des jeune araignées braisetoile, sinon elle les [Consumera].\r\n$bullet;Si vous vous trouvez au niveau supérieur lors de la phase 1, descendez avant que Beth’tilac lance [Dévastation ardente]."
+					},
+					{
+						"id": 20828,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Si personne ne se trouve au niveau de Beth’tilac lors de la phase 1, elle lancera constamment [Pluie venimeuse].\r\n$bullet;Quiconque se trouve au même niveau que Beth’tilac subira des dégâts de ses [Braises incandescentes].\r\n$bullet;Quand Beth’tilac a épuisé toute son énergie, elle lance [Dévastation ardente].  \r\n$bullet;Si vous vous trouvez au niveau supérieur lors de la phase 1, descendez avant que Beth’tilac lance [Dévastation ardente]."
+					},
+					{
+						"id": 20829,
+						"title": "DPS",
+						"body_text": "$bullet;Si les ouvrières braisetoile ne sont pas détruites avant que leur énergie atteigne zéro, elles grimperont jusqu’à Beth’tilac pour lui siphonner son énergie, accélérant ainsi le prochain lancement de [Dévastation ardente].\r\n$bullet;Beth’tilac inflige constamment des dégâts aux personnages-joueurs se trouvant au même niveau qu’elle avec [Braises incandescentes], donc veillez à ce qu’un soigneur et un tank soient déjà au niveau supérieur avant d’utiliser le filament d’une tisseuse braisetoile.\r\n$bullet;Si vous vous trouvez au niveau supérieur lors de la phase 1, descendez avant que Beth’tilac lance [Dévastation ardente]."
+					}
+				]
+			},
+			{
+				"id": 2764,
+				"title": "Phase 1 : La braisetoile",
+				"body_text": "Beth’tilac se retire au sommet de sa toile au début de la rencontre.",
+				"sections": [
+					{
+						"id": 2765,
+						"title": "Énergie de Feu",
+						"body_text": "Beth'tilac perd lentement son énergie de Feu au fil du temps. De plus, les ouvrières braisetoiles aspirent une partie de son énergie lorsque la leur est épuisée. Si jamais Beth'tilac est vidée de toute son énergie de Feu, elle s’enflamme et provoque une Dévastation ardente."
+					},
+					{
+						"id": 2766,
+						"title": "Braises incandescentes",
+						"body_text": "Une chaleur intense brûle les ennemis proches de Beth'tilac et inflige 0 points de dégâts de Feu à tous les ennemis se trouvant au même niveau qu’elle."
+					},
+					{
+						"id": 2767,
+						"title": "Brûlure météorique",
+						"body_text": "Des météores s’écrasent sur la toile, infligeant 0 points de dégâts de Feu aux personnages-joueurs se trouvant à moins de 7 mètres du point d’impact. De plus, les météores créent un trou dans la toile dans lequel les personnages-joueurs peuvent tomber."
+					},
+					{
+						"id": 2768,
+						"title": "Consumer",
+						"body_text": "Beth'tilac absorbe les jeunes araignées braisetoiles, ce qui lui rend 10% de son maximum de points de vie."
+					},
+					{
+						"id": 2769,
+						"title": "Dévastation ardente",
+						"body_text": "Quand l’énergie de Feu de Beth’tilac tombe à zéro, elle s’immole par le feu et inflige 0 points de dégâts de Feu à tous les personnages-joueurs se trouvant sur le même niveau qu’elle."
+					},
+					{
+						"id": 20816,
+						"title": "Pluie venimeuse",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/99333?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Pluie venimeuse",
+							"id": 99333
+						}
+					},
+					{
+						"id": 2770,
+						"title": "Tisseuse braisetoile",
+						"body_text": "Les tisseuses braisetoiles se balancent au bout d'un filin accroché à la toile du dessus. Utiliser Provocation ou toute autre technique similaire sur elles les force à descendre et se poser au sol. Une fois les tisseuses mortes, leurs filaments persistent. Les personnages-joueurs peuvent alors interagir avec le filament pour grimper au sommet de la toile.",
+						"sections": [
+							{
+								"id": 2771,
+								"title": "Acide brûlant",
+								"body_text": "La tisseuse braisetoile crache un venin brûlant sur un personnage-joueur aléatoire et lui inflige 382 points de dégâts de Feu."
+							},
+							{
+								"id": 2772,
+								"title": "Tissage de toile ardente",
+								"body_text": "La tisseuse braisetoile canalise une toile embrasée sur un personnage-joueur aléatoire, étourdissant sa victime pendant 25 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38257?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38257
+						}
+					},
+					{
+						"id": 2773,
+						"title": "Ouvrière braisetoile",
+						"body_text": "Ces grandes araignées grimpent des grottes sous la braisetoile. Lorsque leur énergie de Feu est complètement vide, elles grimpent vers Beth'tilac et aspirent son énergie de Feu.",
+						"sections": [
+							{
+								"id": 2774,
+								"title": "Consumer",
+								"body_text": "Les ouvrières braisetoiles absorbent les jeunes araignées braisetoiles, ce qui leur rend 20% de leur maximum de points de vie. Les ouvrières voient leurs dégâts augmentés de 20% et leur vitesse d’attaque de 20%."
+							},
+							{
+								"id": 2775,
+								"title": "Éclaboussure bouillante",
+								"body_text": "L’ouvrière braisetoile crache un venin brûlant dans un cône de 60 degrés et 20 mètres de long, infligeant 0 points de dégâts de Feu à tous ses ennemis se trouvant dans cette zone."
+							},
+							{
+								"id": 2776,
+								"title": "Acide brûlant",
+								"body_text": "L’ouvrière braisetoile crache un Acide brûlant sur un personnage-joueur aléatoire et lui inflige 389 points de dégâts de Feu."
+							},
+							{
+								"id": 2777,
+								"title": "Fixer",
+								"body_text": "L’ouvrière braisetoile fixe une cible aléatoire, ignorant tous les autres personnages-joueurs, mais réduisant tous ses dégâts infligés de 75% pendant 10 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38256?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38256
+						}
+					},
+					{
+						"id": 2778,
+						"title": "Jeune araignée braisetoile",
+						"body_text": "Ces minuscules araignées grimpent des grottes sous la braisetoile. Elles se dirigent instinctivement vers les ouvrières braisetoiles.",
+						"sections": [
+							{
+								"id": 2779,
+								"title": "Venin suintant",
+								"body_text": "La jeune araignée braisetoile saute sur un personnage-joueur s’il est à moins de 5 mètres d’elle, et lui injecte du venin qui lui inflige 0 points de dégâts de Feu toutes les 2 s pendant 10 s."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37932?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37932
+						}
+					},
+					{
+						"id": 2780,
+						"title": "Rejeton congestionné",
+						"body_text": "Ces araignées instables se concentrent sur un personnage-joueur aléatoire et lancent Jaillissement volatil lorsqu’elles atteignent leur cible.",
+						"sections": [
+							{
+								"id": 2781,
+								"title": "Jaillissement volatil",
+								"body_text": "Les rejetons congestionnés explosent quand ils touchent un personnage-joueur en infligeant 0 points de dégâts de Feu à tous les ennemis dans un rayon de 8 mètres."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38366?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38366
+						}
+					}
+				]
+			},
+			{
+				"id": 2782,
+				"title": "Phase 2 : La frénésie !",
+				"body_text": "Après avoir effectué trois fois Dévastation ardente, Beth’tilac devient frénétique. Elle quitte la sécurité du sommet de sa braisetoile et n’appelle plus ses rejetons à l’aide.",
+				"sections": [
+					{
+						"id": 2786,
+						"title": "Frénésie",
+						"body_text": "Beth’tilac lance régulièrement Frénésie, qui augmente les dégâts qu’elle inflige de 5% jusqu’à la fin de la rencontre. Cet effet est cumulable."
+					},
+					{
+						"id": 2783,
+						"title": "Le baiser de la veuve",
+						"body_text": "Le baiser mortel de Beth’tilac fait bouillir le sang de sa cible, réduisant la quantité de soins dont elle peut bénéficier de 2% toutes les 2 s pendant 20 s. Un autre effet de ce baiser est que sa cible inflige des dégâts de Feu croissants à ses alliés dans un rayon de 10 mètres."
+					},
+					{
+						"id": 2784,
+						"title": "Braises incandescentes",
+						"body_text": "Une chaleur intense émane de Beth’tilac et inflige 0 points de dégâts de Feu à tous les ennemis se trouvant au même niveau que Beth’tilac."
+					},
+					{
+						"id": 2785,
+						"title": "Consumer",
+						"body_text": "Beth'tilac absorbe les jeunes araignées braisetoiles, ce qui lui rend 10% de son maximum de points de vie."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/192?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 192,
+		"name": "Beth'tilac",
+		"description": "Matriarch of the Cinderweb Brood, Beth'tilac and her merciless offspring sate their appetites by sucking the magma and fire from the corpses of elementals. To provide her broodlings with added sustenance, Beth'tilac has woven a network of incendiary webs throughout her lair to trap unsuspecting prey.",
+		"creatures": [
+			{
+				"id": 624,
+				"name": "Beth'tilac",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38227?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38227
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10320,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71040?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cowl of the Clicking Menace",
+					"id": 71040
+				}
+			},
+			{
+				"id": 10321,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10322,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71041?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of Smoldering Devastation",
+					"id": 71041
+				}
+			},
+			{
+				"id": 10323,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71042?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thoracic Flame Kilt",
+					"id": 71042
+				}
+			},
+			{
+				"id": 10324,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70914?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace of Imbibed Flame",
+					"id": 70914
+				}
+			},
+			{
+				"id": 10325,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71043?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Manifold Eyes",
+					"id": 71043
+				}
+			},
+			{
+				"id": 10326,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71044?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cindersilk Gloves",
+					"id": 71044
+				}
+			},
+			{
+				"id": 10327,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70922?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandible of Beth'tilac",
+					"id": 70922
+				}
+			},
+			{
+				"id": 10328,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69138?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spidersilk Spindle",
+					"id": 69138
+				}
+			},
+			{
+				"id": 10329,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10330,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10331,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10332,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10333,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10334,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10335,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71401?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Widow's Kiss",
+					"id": 71401
+				}
+			},
+			{
+				"id": 10341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinderweb Leggings",
+					"id": 71402
+				}
+			},
+			{
+				"id": 10343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71403?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulders",
+					"id": 71403
+				}
+			},
+			{
+				"id": 10345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71404?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arachnaflame Treads",
+					"id": 71404
+				}
+			},
+			{
+				"id": 10347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71405?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace of Imbibed Flame",
+					"id": 71405
+				}
+			},
+			{
+				"id": 10348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71406?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandible of Beth'tilac",
+					"id": 71406
+				}
+			},
+			{
+				"id": 10349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of Smoldering Devastation",
+					"id": 71407
+				}
+			},
+			{
+				"id": 10350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71408?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ward of the Red Widow",
+					"id": 71408
+				}
+			},
+			{
+				"id": 10351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71409?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Funeral Pyre",
+					"id": 71409
+				}
+			},
+			{
+				"id": 10352,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71410?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cindersilk Gloves",
+					"id": 71410
+				}
+			},
+			{
+				"id": 10353,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71411?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cowl of the Clicking Menace",
+					"id": 71411
+				}
+			},
+			{
+				"id": 10354,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71412?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thoracic Flame Kilt",
+					"id": 71412
+				}
+			},
+			{
+				"id": 10355,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71413?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Manifold Eyes",
+					"id": 71413
+				}
+			},
+			{
+				"id": 10356,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71029?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arachnaflame Treads",
+					"id": 71029
+				}
+			},
+			{
+				"id": 10357,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68981?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spidersilk Spindle",
+					"id": 68981
+				}
+			},
+			{
+				"id": 10358,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10359,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71030?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulders",
+					"id": 71030
+				}
+			},
+			{
+				"id": 10360,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71031?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinderweb Leggings",
+					"id": 71031
+				}
+			},
+			{
+				"id": 10361,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71032?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Widow's Kiss",
+					"id": 71032
+				}
+			},
+			{
+				"id": 10362,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71038?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ward of the Red Widow",
+					"id": 71038
+				}
+			},
+			{
+				"id": 10363,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71039?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Funeral Pyre",
+					"id": 71039
+				}
+			},
+			{
+				"id": 35257,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152976?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinderweb Egg",
+					"id": 152976
+				}
+			},
+			{
+				"id": 40409,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171700?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ward of the Red Widow",
+					"id": 171700
+				}
+			},
+			{
+				"id": 40410,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171658?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace of Imbibed Flame",
+					"id": 171658
+				}
+			},
+			{
+				"id": 40411,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171706?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cindersilk Gloves",
+					"id": 171706
+				}
+			},
+			{
+				"id": 40412,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171704?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Thoracic Flame Kilt",
+					"id": 171704
+				}
+			},
+			{
+				"id": 40413,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171698?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinderweb Leggings",
+					"id": 171698
+				}
+			},
+			{
+				"id": 40414,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171643?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spidersilk Spindle",
+					"id": 171643
+				}
+			},
+			{
+				"id": 40415,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171664?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandible of Beth'tilac",
+					"id": 171664
+				}
+			},
+			{
+				"id": 40416,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171699?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Widow's Kiss",
+					"id": 171699
+				}
+			},
+			{
+				"id": 40417,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171696?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arachnaflame Treads",
+					"id": 171696
+				}
+			},
+			{
+				"id": 40418,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171702?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cowl of the Clicking Menace",
+					"id": 171702
+				}
+			},
+			{
+				"id": 40419,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171697?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Shoulders",
+					"id": 171697
+				}
+			},
+			{
+				"id": 40420,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171705?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Manifold Eyes",
+					"id": 171705
+				}
+			},
+			{
+				"id": 40421,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171701?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Funeral Pyre",
+					"id": 171701
+				}
+			},
+			{
+				"id": 40422,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171703?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robes of Smoldering Devastation",
+					"id": 171703
+				}
+			},
+			{
+				"id": 40508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20826,
+				"title": "Overview",
+				"body_text": "Beth'tilac begins the encounter above the playspace and will come down after she has cast [Smoldering Devastation] three times. Players can access this area by interacting with a Cinderweb Spinner's webstring and deal some damage Beth'tilac before she descends for Stage Two.\r\nOnce Beth'tilac descends players must defeat Beth'tilac before her [Frenzy] level becomes too much to survive.",
+				"sections": [
+					{
+						"id": 20827,
+						"title": "Tanks",
+						"body_text": "$bullet;Cinderweb Spinners can be forced to drop off of their webstring by using a taunt effect on them.\r\n$bullet;If no one is at Beth'tilac's level during Stage One, she will constantly cast [Venom Rain].\r\n$bullet;Point Cinderweb Drones' [Boiling Spatter] away from your allies.\r\n$bullet;Once Beth'tilac descends, coordinate with your other tank to manage the decreased healing from [Widow's Kiss].\r\n$bullet;In Stage Two, keep Beth'tilac away from any Cinderweb Spiderlings or she will [Consume] them.\r\n$bullet;If up above in Stage One, jump down before Beth'tilac casts [Smoldering Devastation]."
+					},
+					{
+						"id": 20828,
+						"title": "Healers",
+						"body_text": "$bullet;If no one is at Beth'tilac's level during Stage One, she will constantly cast [Venom Rain].\r\n$bullet;Anyone at the same level as Beth'tilac will take damage from her [Ember Flare].\r\n$bullet;When Beth'tilac's energy is depleted she will cast [Smoldering Devastation].\r\n$bullet;If up above in Stage One, jump down before Beth'tilac casts [Smoldering Devastation]."
+					},
+					{
+						"id": 20829,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Cinderweb Drones are not defeated before their energy reaches zero they will ascend to drain Beth'tilac of her energy, hastening the next cast of [Smoldering Devastation].\r\n$bullet;Beth'tilac constantly damages players at the same level she is with [Ember Flare], make sure you have a healer and tank up above before you take one of Cinderweb Spinners' web strings.\r\n$bullet;If up above in Stage One, jump down before Beth'tilac casts [Smoldering Devastation]."
+					}
+				]
+			},
+			{
+				"id": 2764,
+				"title": "Stage One: The Cinderweb",
+				"body_text": "Beth'tilac retreats to the top of her web at the beginning of the encounter.",
+				"sections": [
+					{
+						"id": 2765,
+						"title": "Fire Energy",
+						"body_text": "Beth'tilac slowly loses Fire Energy over time. Cinderweb Drones also siphon some of her energy when their own energy is depleted. Whenever Beth'tilac runs out of Fire Energy, she will set herself ablaze, causing Smoldering Devastation."
+					},
+					{
+						"id": 2766,
+						"title": "Ember Flare",
+						"body_text": "Intense heat burns enemies near Beth'tilac, inflicting 0 Fire damage to players at the same level as Beth'tilac."
+					},
+					{
+						"id": 2767,
+						"title": "Meteor Burn",
+						"body_text": "Meteors crash down onto the web, inflicting 0 Fire damage to players within 7 yards of the impact. The meteor also burns a hole in the web through which players may fall."
+					},
+					{
+						"id": 2768,
+						"title": "Consume",
+						"body_text": "Beth'tilac consumes Cinderweb Spiderlings, healing Beth'tilac for 10% of her maximum health."
+					},
+					{
+						"id": 2769,
+						"title": "Smoldering Devastation",
+						"body_text": "When Beth'tilac's Fire Energy fully depletes, she will set herself ablaze and inflict 0 Fire damage on all players located at her same level."
+					},
+					{
+						"id": 20816,
+						"title": "Venom Rain",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/99333?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Venom Rain",
+							"id": 99333
+						}
+					},
+					{
+						"id": 2770,
+						"title": "Cinderweb Spinner",
+						"body_text": "Cinderweb Spinners dangle from the web above on a filament strand. Using Taunt or a similar ability on a Spinner will cause them to drop to the ground. Once killed, their web filament remains. Players may then interact with the filament and move to the top of the web.",
+						"sections": [
+							{
+								"id": 2771,
+								"title": "Burning Acid",
+								"body_text": "The Cinderweb Spinner spits burning venom at a random player, inflicting 393 Fire damage."
+							},
+							{
+								"id": 2772,
+								"title": "Fiery Web Spin",
+								"body_text": "The Cinderweb Spinner channels a fiery web onto a random player, stunning them for 25 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38257?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38257
+						}
+					},
+					{
+						"id": 2773,
+						"title": "Cinderweb Drone",
+						"body_text": "These large spiders climb out of caves below the Cinderweb. When their Fire Energy fully depletes, the Cinderweb Drone climbs up to Beth'tilac and siphons Fire Energy from her.",
+						"sections": [
+							{
+								"id": 2774,
+								"title": "Consume",
+								"body_text": "Cinderweb Drones consume a Cinderweb Spiderling, healing itself for 20% of its maximum life, increasing damage dealt by 20%, and increasing movement speed by 20%."
+							},
+							{
+								"id": 2775,
+								"title": "Boiling Splatter",
+								"body_text": "The Cinderwb Drone spits burning venom in a 20 yard long 60 degree forward cone, inflicting 0 Fire damage on any enemy within the area."
+							},
+							{
+								"id": 2776,
+								"title": "Burning Acid",
+								"body_text": "The Cinderweb Drone spits Burning Acid at a random player, inflicting 385 Fire damage."
+							},
+							{
+								"id": 2777,
+								"title": "Fixate",
+								"body_text": "The Cinderweb Drone fixates on a random player, ignoring all other targets but decreasing its damage dealt by 75% for 10 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38256?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38256
+						}
+					},
+					{
+						"id": 2778,
+						"title": "Cinderweb Spiderling",
+						"body_text": "These tiny spiders climb out of caves below the Cinderweb. They instinctively move towards Cinderweb Drones.",
+						"sections": [
+							{
+								"id": 2779,
+								"title": "Seeping Venom",
+								"body_text": "The Cinderweb Spiderling leaps onto a random player within 5 yards, injecting them with venom and inflicting 0 Fire damage every 2 seconds for 10 sec."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/37932?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 37932
+						}
+					},
+					{
+						"id": 2780,
+						"title": "Engorged Broodling",
+						"body_text": "These unstable spiders fixate on a random player and cast Volatile Burst when they reach their target.",
+						"sections": [
+							{
+								"id": 2781,
+								"title": "Volatile Burst",
+								"body_text": "Engorged Broodlings explode when they reach a player, inflicting 0 Fire damage to all enemies within 8 yards."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38366?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 38366
+						}
+					}
+				]
+			},
+			{
+				"id": 2782,
+				"title": "Stage Two: The Frenzy!",
+				"body_text": "After she has performed Smoldering Devastation three times, Beth'tilac enters a frenzy. She lowers herself from the safety of the top of her Cinderweb and no longer calls for aid from her brood.",
+				"sections": [
+					{
+						"id": 2786,
+						"title": "Frenzy",
+						"body_text": "Beth'tilac periodically casts Frenzy, increasing her damage dealt by 5% until the end of the encounter. This effect stacks."
+					},
+					{
+						"id": 2783,
+						"title": "The Widow's Kiss",
+						"body_text": "Beth'tilac's deadly kiss boils the blood of her current target, reducing the healing dealt to the target by 2% every 2 seconds for 20 sec. The kiss also causes the target to inflict increasing Fire damage to their surrounding allies within 10 yards."
+					},
+					{
+						"id": 2784,
+						"title": "Ember Flare",
+						"body_text": "Beth'tilac emits a blazing heat, inflicting 0 Fire damage to enemies on the same level as Beth'tilac."
+					},
+					{
+						"id": 2785,
+						"title": "Consume",
+						"body_text": "Beth'tilac consumes Cinderweb Spiderlings, healing Beth'tilac for 10% of her maximum health."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

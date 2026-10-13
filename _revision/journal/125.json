@@ -1,0 +1,474 @@
+{
+	"id": 125,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/125?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 125,
+		"name": "Terracundo Ptah",
+		"description": "Alrededor de la tumba del Terracundo Ptah, la arena está sembrada de huesos de criaturas purificadas por Anhuur. Se dice que Ptah puede manipular esos restos a voluntad y enviarlos contra los seres que logran superar la primera línea de defensa del complejo.",
+		"creatures": [
+			{
+				"id": 425,
+				"name": "Terracundo Ptah",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 31450
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 36918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Liberador de almas",
+					"id": 56424
+				}
+			},
+			{
+				"id": 36919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cordón del submundo",
+					"id": 56423
+				}
+			},
+			{
+				"id": 36920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza de la tierra resucitada",
+					"id": 56425
+				}
+			},
+			{
+				"id": 36921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boca de la Tierra",
+					"id": 56422
+				}
+			},
+			{
+				"id": 36922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Baluarte del montículo primordial",
+					"id": 56426
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2540,
+				"title": "Descarga de llamas",
+				"body_text": "El terracundo Ptah empieza a canalizar y a lanzar Descargas de llamas al aire durante 5 s, lo que inflige 0 p. de daño de Fuego por segundo a 2 jugadores aleatorios."
+			},
+			{
+				"id": 2541,
+				"title": "Púa terrestre",
+				"body_text": "El terracundo Ptah hace temblar el suelo que hay bajo la ubicación de un jugador aleatorio y, 4 s después, surge una Púa terrestre del temblor. La púa inflige 0 p. de daño de Naturaleza y lanza por los aires a todos los enemigos en un radio de 4 m."
+			},
+			{
+				"id": 2542,
+				"title": "Machaque enfurecido",
+				"body_text": "El terracundo Ptah inflige un 150% del daño cuerpo a cuerpo normal a su objetivo actual y a 2 enemigos extra al alcance de un ataque cuerpo a cuerpo de Ptah."
+			},
+			{
+				"id": 2543,
+				"title": "Tormenta de tierra tumultuosa",
+				"body_text": "Cuando la salud restante del terracundo Ptah alcanza el 50%, genera un violento terremoto y se dispersa. Horrores Huesopolvo y escarabajos con joyas surgen de las arenas, y se forman círculos de arenas movedizas. La tormenta de tierra termina cuando mueren todos los horrores Huesopolvo y los escarabajos con joyas. Después, Ptah emergerá de la arena una vez más para seguir luchando contra los jugadores.",
+				"sections": [
+					{
+						"id": 2544,
+						"title": "Horror Huesopolvo",
+						"body_text": "Dos horrores Huesopolvo se levantan de la arena y atacan a los jugadores.",
+						"sections": [
+							{
+								"id": 2545,
+								"title": "Machaque",
+								"body_text": "El horror Huesopolvo golpea a su objetivo actual y le inflige un 125% del daño cuerpo a cuerpo normal."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32951?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32951
+						}
+					},
+					{
+						"id": 2546,
+						"title": "Escarabajo con joyas",
+						"body_text": "8 escarabajos con joyas emergen de la arena y atacan a los jugadores. Los escarabajos tienen poca salud.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35109?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35109
+						}
+					},
+					{
+						"id": 2547,
+						"title": "Arenas movedizas",
+						"body_text": "Durante la tormenta de tierra tumultuosa, se forman aleatoriamente unos círculos de arenas movedizas de un radio de 7 m cerca de los jugadores. Las arenas movedizas infligen 0 p. de daño de Naturaleza cada 2 s y reducen un 50% la velocidad de movimiento de los jugadores que permanezcan en ellas."
+					},
+					{
+						"id": 2548,
+						"title": "Vórtice de arena",
+						"body_text": "Se forma un gran tornado durante la Tormenta de tierra tumultuosa que después ronda tranquilamente por la arena. El vórtice de arena absorberá al jugador que pase cerca de él, lo que inflige 0 p. de daño físico cada 2 s durante 8 s. Después, el vórtice de arena expulsará al jugador. Mientras los jugadores permanezcan atrapados por el vórtice de arena, no podrán atacar o lanzar hechizos."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/70?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Cámaras de los Orígenes",
+			"id": 70
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/125?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 125,
+		"name": "Enrageterre Ptah",
+		"description": "À l’extérieur de la tombe de l’enrageterre Ptah, le sable est couvert d'os de créatures purifiés par Anhuur. On dit que Ptah peut plier ces restes à sa volonté et les lancer contre les êtres qui réussissent à passer la première ligne de défense de l’installation.",
+		"creatures": [
+			{
+				"id": 425,
+				"name": "Enrageterre Ptah",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 31450
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 36918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Libérateur d'âme",
+					"id": 56424
+				}
+			},
+			{
+				"id": 36919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corde du monde souterrain",
+					"id": 56423
+				}
+			},
+			{
+				"id": 36920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de la terre levée",
+					"id": 56425
+				}
+			},
+			{
+				"id": 36921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gueule de la terre",
+					"id": 56422
+				}
+			},
+			{
+				"id": 36922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rempart du monticule primordial",
+					"id": 56426
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2540,
+				"title": "Trait de flamme",
+				"body_text": "L’enrageterre Ptah commence à incanter et à lancer des traits de flamme en l’air pendant 5 s, infligeant 0 points de dégâts de Feu par seconde à deux personnages-joueurs aléatoires."
+			},
+			{
+				"id": 2541,
+				"title": "Pointe de terre",
+				"body_text": "L’enrageterre Ptah fait gronder la terre sous les pieds d’un membre du groupe. 4 s plus tard, une Pointe de terre émerge du sol grondant. Elle inflige 0 points de dégâts de Nature et projette dans les airs tous les personnages à moins de 4 mètres."
+			},
+			{
+				"id": 2542,
+				"title": "Choc enragé",
+				"body_text": "L’enrageterre Ptah inflige 150% des points de dégâts d’une attaque en mêlée normale à sa cible actuelle ainsi qu’à deux autres cibles à portée d’attaque en mêlée."
+			},
+			{
+				"id": 2543,
+				"title": "Tonneterre tumultueux",
+				"body_text": "Quand les points de vie de l’enrageterre Ptah atteignent 50% de leur total, il provoque un énorme tremblement de terre et se disperse dans l’air. Des horreurs os-poussière et des scarabées ornés de joyaux émergent du sable, et des zones de sables mouvants se forment. Le Tonneterre se retire quand toutes les horreurs et tous les scarabées sont détruits. Ptah ressurgit alors du sable et reprend le combat contre les personnages-joueurs.",
+				"sections": [
+					{
+						"id": 2544,
+						"title": "Horreur os-poussière",
+						"body_text": "Deux horreurs os-poussière émergent du sable et attaquent les membres du groupe.",
+						"sections": [
+							{
+								"id": 2545,
+								"title": "Choc",
+								"body_text": "L’horreur os-poussière frappe sa cible en lui infligeant 125% des points de dégâts de mêlée normaux."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32951?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32951
+						}
+					},
+					{
+						"id": 2546,
+						"title": "Scarabée orné de joyaux",
+						"body_text": "Huit scarabées ornés de joyaux émergent du sol et attaquent les personnages-joueurs. Les scarabées ont peu de points de vie.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35109?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35109
+						}
+					},
+					{
+						"id": 2547,
+						"title": "Sables mouvants",
+						"body_text": "Pendant le Tonneterre tumultueux, des nappes de sables mouvants d’un rayon de 7 mètres se forment près de personnages-joueurs au hasard. Les sables mouvants infligent 0 points de dégâts de Nature toutes les 2 s à tout personnage-joueur qui s’y trouve et réduisent sa vitesse de déplacement de 50%."
+					},
+					{
+						"id": 2548,
+						"title": "Vortex de sable",
+						"body_text": "Une énorme tornade se forme pendant le Tonneterre tumultueux, puis elle se déplace lentement sur le sable. Le vortex de sable happe tout personnage-joueur qui s’en approche et lui inflige 0 points de dégâts physiques toutes les 2 s pendant 8 s, au bout desquelles le vortex recrache les personnages-joueurs. Tant que ceux-ci sont prisonniers de la tornade, ils ne peuvent ni attaquer, ni incanter de sorts."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/70?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Salles de l’Origine",
+			"id": 70
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/125?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 125,
+		"name": "Earthrager Ptah",
+		"description": "Outside Earthrager Ptah's tomb, the sand is littered with the bones of creatures purified by Anhuur. It is said that Ptah can bend these remains to his will and send them against beings who manage to elude the facility's first line of defense.",
+		"creatures": [
+			{
+				"id": 425,
+				"name": "Earthrager Ptah",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/31450?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 31450
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 36918,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56424?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Soul Releaser",
+					"id": 56424
+				}
+			},
+			{
+				"id": 36919,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56423?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Underworld Cord",
+					"id": 56423
+				}
+			},
+			{
+				"id": 36920,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56425?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Risen Land",
+					"id": 56425
+				}
+			},
+			{
+				"id": 36921,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56422?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mouth of the Earth",
+					"id": 56422
+				}
+			},
+			{
+				"id": 36922,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/56426?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bulwark of the Primordial Mound",
+					"id": 56426
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 2540,
+				"title": "Flame Bolt",
+				"body_text": "Earthrager Ptah begins to channel and launch flame bolts into the air for 5 sec., inflicting 0 Fire damage every second to two random players."
+			},
+			{
+				"id": 2541,
+				"title": "Earth Spike",
+				"body_text": "Earthrager Ptah causes the ground under a random player's location to rumble, and 4 seconds later an Earth Spike erupts from the rumbling ground. The spike inflicts 0 Nature damage and knocks up every player within 4 yards."
+			},
+			{
+				"id": 2542,
+				"title": "Raging Smash",
+				"body_text": "Earthrager Ptah inflicts 150% of normal melee damage to his current target and two additional enemies in Ptah's melee range."
+			},
+			{
+				"id": 2543,
+				"title": "Tumultuous Earthstorm",
+				"body_text": "When Earthrager Ptah's remaining health reaches 50%, he generates a massive earthquake and disperses. Dustbone Horrors and Jeweled Scarabs rise from the sands, and pools of quicksand form. The Earthstorm will end when all the Dustbone Horrors and Jeweled Scarabs die. Ptah will then erupt from the sand once again to continue fighting the players.",
+				"sections": [
+					{
+						"id": 2544,
+						"title": "Dustbone Horror",
+						"body_text": "Two Dustbone Horrors rise from the sand and attack the players.",
+						"sections": [
+							{
+								"id": 2545,
+								"title": "Smash",
+								"body_text": "The Dustbone Horror strikes its current target for 125% of normal melee damage."
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/32951?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 32951
+						}
+					},
+					{
+						"id": 2546,
+						"title": "Jeweled Scarab",
+						"body_text": "Eight Jeweled Scarbs rise from the sand and attack the players. The scarabs have low health.",
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/35109?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 35109
+						}
+					},
+					{
+						"id": 2547,
+						"title": "Quicksand",
+						"body_text": "During the Tumultuous Earthstorm, 7 yard radius pools of quicksand form randomly near players. The quicksand inflicts 0 Nature damage every 2 seconds and reduces the movement speed by 50% of any player standing within the quicksand."
+					},
+					{
+						"id": 2548,
+						"title": "Sand Vortex",
+						"body_text": "A large tornado forms during the Tumultuous Earthstorm, and then slowly wanders around the sand. The sand vortex grabs any player that moves nearby, inflicting 0 Physical damage every 2 seconds for 8 sec. The sand vortex then ejects the player out. While the sand vortex traps players, they may not attack or cast spells."
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/70?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Halls of Origination",
+			"id": 70
+		},
+		"category": {
+			"type": "DUNGEON"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

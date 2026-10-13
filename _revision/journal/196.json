@@ -1,0 +1,2961 @@
+{
+	"id": 196,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/196?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 196,
+		"name": "Baleroc, el Guardián de la Puerta",
+		"description": "Baleroc se ganó su reputación de combatiente despiadado durante las guerras elementales del antiguo Azeroth. Ahora que está confinado en las Tierras de Fuego, la cordura de Baleroc se ha resentido. Pocos elementales se atreven a molestarlo porque temen ser las víctimas de su sed de batalla.",
+		"creatures": [
+			{
+				"id": 770,
+				"name": "Baleroc",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38621?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38621
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra de fuego cristalizada",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del protector ígneo",
+					"id": 71683
+				}
+			},
+			{
+				"id": 10502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70915?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de tormento",
+					"id": 70915
+				}
+			},
+			{
+				"id": 10503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70916?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de gloria llameante",
+					"id": 70916
+				}
+			},
+			{
+				"id": 10504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70917?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas chisporroteantes",
+					"id": 70917
+				}
+			},
+			{
+				"id": 10505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rompepuertas",
+					"id": 71312
+				}
+			},
+			{
+				"id": 10506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza del alma incendiaria",
+					"id": 71314
+				}
+			},
+			{
+				"id": 10507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Foco nigromántico",
+					"id": 69139
+				}
+			},
+			{
+				"id": 10508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines exterminadores",
+					"id": 71315
+				}
+			},
+			{
+				"id": 10509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grito de magma",
+					"id": 71323
+				}
+			},
+			{
+				"id": 10510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rompepuertas",
+					"id": 71454
+				}
+			},
+			{
+				"id": 10512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza del alma incendiaria",
+					"id": 71455
+				}
+			},
+			{
+				"id": 10514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de la puerta olvidada",
+					"id": 71456
+				}
+			},
+			{
+				"id": 10516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines exterminadores",
+					"id": 71457
+				}
+			},
+			{
+				"id": 10518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas chisporroteantes",
+					"id": 71458
+				}
+			},
+			{
+				"id": 10520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de gloria llameante",
+					"id": 71459
+				}
+			},
+			{
+				"id": 10521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de tormento",
+					"id": 71460
+				}
+			},
+			{
+				"id": 10523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de puertas cerradas",
+					"id": 71461
+				}
+			},
+			{
+				"id": 10525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grito de magma",
+					"id": 71462
+				}
+			},
+			{
+				"id": 10527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de alas resplandecientes",
+					"id": 71463
+				}
+			},
+			{
+				"id": 10529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El abrazo del Guardián de la Puerta",
+					"id": 71464
+				}
+			},
+			{
+				"id": 10531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de llama",
+					"id": 71465
+				}
+			},
+			{
+				"id": 10533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El abrazo del Guardián de la Puerta",
+					"id": 71340
+				}
+			},
+			{
+				"id": 10537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de alas resplandecientes",
+					"id": 71341
+				}
+			},
+			{
+				"id": 10538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de llama",
+					"id": 71342
+				}
+			},
+			{
+				"id": 10539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de puertas cerradas",
+					"id": 71343
+				}
+			},
+			{
+				"id": 10540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de la puerta olvidada",
+					"id": 71345
+				}
+			},
+			{
+				"id": 10541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brasal viviente",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del vencedor ígneo",
+					"id": 71669
+				}
+			},
+			{
+				"id": 10543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Foco nigromántico",
+					"id": 68982
+				}
+			},
+			{
+				"id": 10544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del conquistador ígneo",
+					"id": 71676
+				}
+			},
+			{
+				"id": 35259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra vibrante",
+					"id": 152977
+				}
+			},
+			{
+				"id": 40464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas chisporroteantes",
+					"id": 171661
+				}
+			},
+			{
+				"id": 40465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Foco nigromántico",
+					"id": 171644
+				}
+			},
+			{
+				"id": 40466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171713?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de alas resplandecientes",
+					"id": 171713
+				}
+			},
+			{
+				"id": 40467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de tormento",
+					"id": 171659
+				}
+			},
+			{
+				"id": 40468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grito de magma",
+					"id": 171711
+				}
+			},
+			{
+				"id": 40469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171710?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botines exterminadores",
+					"id": 171710
+				}
+			},
+			{
+				"id": 40470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171717?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de la puerta olvidada",
+					"id": 171717
+				}
+			},
+			{
+				"id": 40471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171715?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de puertas cerradas",
+					"id": 171715
+				}
+			},
+			{
+				"id": 40472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171714?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de llama",
+					"id": 171714
+				}
+			},
+			{
+				"id": 40473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rompepuertas",
+					"id": 171707
+				}
+			},
+			{
+				"id": 40474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171712?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "El abrazo del Guardián de la Puerta",
+					"id": 171712
+				}
+			},
+			{
+				"id": 40475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coraza del alma incendiaria",
+					"id": 171709
+				}
+			},
+			{
+				"id": 40476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de gloria llameante",
+					"id": 171660
+				}
+			},
+			{
+				"id": 40529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo de purificación",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cercenamentes espino de fuego",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Incensario humeante de pureza",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Machacahuesos Trizacráneo",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sacaentrañas",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Espada magna rusiente de Zoid",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faca incendiaria de Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas del gigante fundido",
+					"id": 171760
+				}
+			},
+			{
+				"id": 40544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes volcánicos en erupción",
+					"id": 171814
+				}
+			},
+			{
+				"id": 40545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de halcón de fuego",
+					"id": 171808
+				}
+			},
+			{
+				"id": 40546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de inmolación",
+					"id": 171766
+				}
+			},
+			{
+				"id": 40547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes del gigante fundido",
+					"id": 171784
+				}
+			},
+			{
+				"id": 40548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de enramada obsidiana",
+					"id": 171753
+				}
+			},
+			{
+				"id": 40549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de placamuerte de elementium",
+					"id": 171739
+				}
+			},
+			{
+				"id": 40550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de inmolación",
+					"id": 171789
+				}
+			},
+			{
+				"id": 40551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas volcánicas en erupción",
+					"id": 171819
+				}
+			},
+			{
+				"id": 40552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171743?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de enramada obsidiana",
+					"id": 171743
+				}
+			},
+			{
+				"id": 40553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fénix oscuro",
+					"id": 171769
+				}
+			},
+			{
+				"id": 40554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de la llama purificadora",
+					"id": 171798
+				}
+			},
+			{
+				"id": 40555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de la llama purificadora",
+					"id": 171793
+				}
+			},
+			{
+				"id": 40556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guanteletes de inmolación",
+					"id": 171779
+				}
+			},
+			{
+				"id": 40557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de enramada obsidiana",
+					"id": 171748
+				}
+			},
+			{
+				"id": 40558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manijas de araña corpulenta",
+					"id": 171803
+				}
+			},
+			{
+				"id": 40559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes volcánicos en erupción",
+					"id": 171824
+				}
+			},
+			{
+				"id": 40560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de despiertallamas",
+					"id": 171773
+				}
+			},
+			{
+				"id": 40561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manoplas de placamuerte de elementium",
+					"id": 171735
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20822,
+				"title": "Resumen",
+				"body_text": "La banda tendrá que aprovechar [Fulgor de gloria] en los tanques y [Chispa vital] en los sanadores para mantener a los tanques con vida mientras Baleroc alterna entre [Hoja de inferno] y [Hoja exterminadora]. \r\nPara dar más acumulaciones de [Chispa vital] a los sanadores, los DPS tendrán que coordinarse para estar cerca de los fragmentos de tormento por turnos.",
+				"sections": [
+					{
+						"id": 20823,
+						"title": "Tanques",
+						"body_text": "$bullet;[Fulgor de gloria] aumenta tu salud máxima, pero también aumenta el daño físico que recibes.\r\n$bullet;Con cada lanzamiento de [Fulgor de gloria], Baleroc obtiene una acumulación de [Alma incendiaria].\r\n$bullet;[Golpe exterminador] infligirá un 20% de tu salud máxima como daño de las Sombras. Este ataque ignora las defensas y la armadura."
+					},
+					{
+						"id": 20824,
+						"title": "Sanadores",
+						"body_text": "$bullet;Sanar a las víctimas del [Tormento] de un fragmento de tormento te otorgará una acumulación de [Chispa vital].\r\n$bullet;Cuando hayas sanado a un objetivo de [Fulgor de gloria], tus [Chispas vitales] se transformarán en [Llama vital].\r\n$bullet;Si un fragmento de tormento te provoca el efecto [Atormentado], la sanación que realizas se reducirá mucho."
+					},
+					{
+						"id": 20825,
+						"title": "DPS",
+						"body_text": "$bullet;Al sanar a objetivos afectados por el efecto [Atormentado] de un fragmento de tormento, el sanador obtendrá acumulaciones de [Chispa vital]. \r\n$bullet;Cuanto más tiempo permanezcas cerca de un fragmento de tormento, más daño te infligirá [Tormento]. Alejarte transforma [Tormento] en [Atormentado].\r\n$bullet;Evita los fragmentos de tormento mientras estés [Atormentado].\r\n$bullet;Si un fragmento de tormento no tiene a ningún jugador cerca, desatará una [Ola de tormento]."
+					}
+				]
+			},
+			{
+				"id": 2590,
+				"title": "Fulgor de gloria",
+				"body_text": "El asalto de Baleroc despierta periódicamente una chispa ardiente en su objetivo actual lo que aumenta un 20% el daño físico que recibe el objetivo pero que, a la vez, aumenta un 20% su salud máxima.\r\n\r\nCada vez que Baleroc aplique Fulgor de gloria, obtiene una aplicación de Alma incendiaria.",
+				"sections": [
+					{
+						"id": 2591,
+						"title": "Alma incendiaria",
+						"body_text": "Cada vez que Baleroc aplica Fulgor de gloria obtiene una aplicación de Alma incendiaria, lo que aumenta un 20% el daño de Fuego que inflige."
+					}
+				]
+			},
+			{
+				"id": 2592,
+				"title": "Fragmentos de tormento",
+				"body_text": "Baleroc invoca un cristal entre sus enemigos, que canaliza continuamente un haz sombrío en el jugador más cercano.",
+				"sections": [
+					{
+						"id": 2593,
+						"title": "Tormento",
+						"body_text": "El fragmento de tormento inflige 0 p. de daño de las Sombras por aplicación al jugador más cercano y se acumula una vez por segundo."
+					},
+					{
+						"id": 2594,
+						"title": "Atormentado",
+						"body_text": "Cuando Tormento desaparece de un jugador, queda afligido con el efecto Atormentado, que aumenta un 250% el daño mágico que recibe y reduce un 50% la sanación realizada por el jugador durante 20 s."
+					},
+					{
+						"id": 2595,
+						"title": "Ola de tormento",
+						"body_text": "Si no hay jugadores en un radio de 15 m de un fragmento de tormento, el fragmento libera este efecto, que inflige 0 p. de daño de las Sombras por segundo a todos los jugadores."
+					},
+					{
+						"id": 2596,
+						"title": "Chispa vital",
+						"body_text": "Si un jugador lanza una sanación directa a alguien que está recibiendo daño de Tormento, el sanador obtiene una aplicación de Chispa vital por cada 3 acumulaciones de Tormento en el objetivo. Lanzar una sanación directa sobre un solo objetivo afectado por Fulgor de gloria activará Llama vital.",
+						"sections": [
+							{
+								"id": 2597,
+								"title": "Llama vital",
+								"body_text": "Llama vital aumenta un 5% la sanación que reciben los objetivos afectados por Llamarada de gloria por acumulación de Chispa vital que se consuma, lo que dura 15 s. Cuando expira Llama vital, restaura las acumulaciones de Chispa vital que se hayan consumido para crear el efecto."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2598,
+				"title": "Hojas de Baleroc",
+				"body_text": "Baleroc potencia periódicamente una de sus hojas con energía de las Sombras o de Fuego y la blande individualmente durante 15 s.",
+				"sections": [
+					{
+						"id": 2599,
+						"title": "Hoja exterminadora",
+						"body_text": "Los golpes cuerpo a cuerpo de Baleroc infligen un daño de las Sombras igual a un 90% de la salud máxima del objetivo, en vez de su daño físico normal. Siempre inflige un mínimo de 90 p. de daño. Este daño no se puede resistir ni mitigar. El tiempo entre los ataques de Baleroc aumenta un 150% cuando este efecto está activo."
+					},
+					{
+						"id": 2600,
+						"title": "Hoja de inferno",
+						"body_text": "Los golpes cuerpo a cuerpo de Baleroc no infligen daño físico, sino 0 p. de daño de Fuego."
+					}
+				]
+			},
+			{
+				"id": 2601,
+				"title": "Cuenta atrás",
+				"body_text": "Baleroc vincula a dos jugadores durante 8 s. Si los jugadores elegidos se acercan a menos de 4 m el uno del otro, el efecto se disipará sin infligir daño. Sin embargo, si el efecto completa su curso, los dos jugadores explotarán, lo que inflige 0 p. de daño de Fuego a todos los aliados en un radio de 100 m."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Tierras de Fuego",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/196?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 196,
+		"name": "Baleroc, le Gardien de la porte",
+		"description": "Baleroc a gagné une réputation de combattant sans pitié pendant la guerre élémentaire de l’ancien Azeroth. Depuis qu’il est confiné dans les terres de Feu, sa santé mentale a décliné. Peu d’élémentaires osent le déranger, de peur d’être victimes de sa soif de bataille.",
+		"creatures": [
+			{
+				"id": 770,
+				"name": "Baleroc",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38621?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38621
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre de feu cristallisée",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du protecteur embrasé",
+					"id": 71683
+				}
+			},
+			{
+				"id": 10502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70915?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Éclat de tourment",
+					"id": 70915
+				}
+			},
+			{
+				"id": 10503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70916?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de gloire flamboyante",
+					"id": 70916
+				}
+			},
+			{
+				"id": 10504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70917?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains aux flammes vacillantes",
+					"id": 70917
+				}
+			},
+			{
+				"id": 10505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Enfonce-porte",
+					"id": 71312
+				}
+			},
+			{
+				"id": 10506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l'âme incendiaire",
+					"id": 71314
+				}
+			},
+			{
+				"id": 10507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Focalisation nécromantique",
+					"id": 69139
+				}
+			},
+			{
+				"id": 10508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de décimation",
+					"id": 71315
+				}
+			},
+			{
+				"id": 10509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cri de la fournaise",
+					"id": 71323
+				}
+			},
+			{
+				"id": 10510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Enfonce-porte",
+					"id": 71454
+				}
+			},
+			{
+				"id": 10512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l'âme incendiaire",
+					"id": 71455
+				}
+			},
+			{
+				"id": 10514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules de la porte oubliée",
+					"id": 71456
+				}
+			},
+			{
+				"id": 10516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de décimation",
+					"id": 71457
+				}
+			},
+			{
+				"id": 10518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains aux flammes vacillantes",
+					"id": 71458
+				}
+			},
+			{
+				"id": 10520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de gloire flamboyante",
+					"id": 71459
+				}
+			},
+			{
+				"id": 10521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d'Avool",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Éclat de tourment",
+					"id": 71460
+				}
+			},
+			{
+				"id": 10523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des portes fermées",
+					"id": 71461
+				}
+			},
+			{
+				"id": 10525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cri de la fournaise",
+					"id": 71462
+				}
+			},
+			{
+				"id": 10527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l'aile luminescente",
+					"id": 71463
+				}
+			},
+			{
+				"id": 10529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d'os fracasse-crâne",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte du gardien de la porte",
+					"id": 71464
+				}
+			},
+			{
+				"id": 10531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de flammes",
+					"id": 71465
+				}
+			},
+			{
+				"id": 10533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte du gardien de la porte",
+					"id": 71340
+				}
+			},
+			{
+				"id": 10537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l'aile luminescente",
+					"id": 71341
+				}
+			},
+			{
+				"id": 10538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de flammes",
+					"id": 71342
+				}
+			},
+			{
+				"id": 10539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des portes fermées",
+					"id": 71343
+				}
+			},
+			{
+				"id": 10540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules de la porte oubliée",
+					"id": 71345
+				}
+			},
+			{
+				"id": 10541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Braise vivante",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du vainqueur embrasé",
+					"id": 71669
+				}
+			},
+			{
+				"id": 10543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Focalisation nécromantique",
+					"id": 68982
+				}
+			},
+			{
+				"id": 10544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du conquérant embrasé",
+					"id": 71676
+				}
+			},
+			{
+				"id": 35259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre vibrante",
+					"id": 152977
+				}
+			},
+			{
+				"id": 40464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains aux flammes vacillantes",
+					"id": 171661
+				}
+			},
+			{
+				"id": 40465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Focalisation nécromantique",
+					"id": 171644
+				}
+			},
+			{
+				"id": 40466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171713?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de l’aile luminescente",
+					"id": 171713
+				}
+			},
+			{
+				"id": 40467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Éclat de tourment",
+					"id": 171659
+				}
+			},
+			{
+				"id": 40468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cri de la fournaise",
+					"id": 171711
+				}
+			},
+			{
+				"id": 40469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171710?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de décimation",
+					"id": 171710
+				}
+			},
+			{
+				"id": 40470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171717?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules de la porte oubliée",
+					"id": 171717
+				}
+			},
+			{
+				"id": 40471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171715?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet des portes fermées",
+					"id": 171715
+				}
+			},
+			{
+				"id": 40472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171714?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de flammes",
+					"id": 171714
+				}
+			},
+			{
+				"id": 40473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Enfonce-porte",
+					"id": 171707
+				}
+			},
+			{
+				"id": 40474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171712?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Étreinte du gardien de la porte",
+					"id": 171712
+				}
+			},
+			{
+				"id": 40475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuirasse de l’âme incendiaire",
+					"id": 171709
+				}
+			},
+			{
+				"id": 40476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de gloire flamboyante",
+					"id": 171660
+				}
+			},
+			{
+				"id": 40529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil de purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tranche-cerveau épine-de-feu",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Encensoir de pureté fumant",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Écraseur d’os fracasse-crâne",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crochet à entrailles",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Estramaçon illuminé par les flammes de Zoïd",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Perforeuse incendiaire d’Avool",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains du géant de lave",
+					"id": 171760
+				}
+			},
+			{
+				"id": 40544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l’éruption volcanique",
+					"id": 171814
+				}
+			},
+			{
+				"id": 40545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants faucon-de-feu",
+					"id": 171808
+				}
+			},
+			{
+				"id": 40546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de l’immolation",
+					"id": 171766
+				}
+			},
+			{
+				"id": 40547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets du géant de lave",
+					"id": 171784
+				}
+			},
+			{
+				"id": 40548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants tisse-feuillage en obsidienne",
+					"id": 171753
+				}
+			},
+			{
+				"id": 40549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de plates mortelles en élémentium",
+					"id": 171739
+				}
+			},
+			{
+				"id": 40550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de l’immolation",
+					"id": 171789
+				}
+			},
+			{
+				"id": 40551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l’éruption volcanique",
+					"id": 171819
+				}
+			},
+			{
+				"id": 40552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171743?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes tisse-feuillage en obsidienne",
+					"id": 171743
+				}
+			},
+			{
+				"id": 40553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants du phénix sombre",
+					"id": 171769
+				}
+			},
+			{
+				"id": 40554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la flamme purificatrice",
+					"id": 171798
+				}
+			},
+			{
+				"id": 40555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de la flamme purificatrice",
+					"id": 171793
+				}
+			},
+			{
+				"id": 40556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gantelets de l’immolation",
+					"id": 171779
+				}
+			},
+			{
+				"id": 40557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains tisse-feuillage en obsidienne",
+					"id": 171748
+				}
+			},
+			{
+				"id": 40558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-mains de l’araignée torve",
+					"id": 171803
+				}
+			},
+			{
+				"id": 40559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de l’éruption volcanique",
+					"id": 171824
+				}
+			},
+			{
+				"id": 40560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants d’attise-flammes",
+					"id": 171773
+				}
+			},
+			{
+				"id": 40561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-mains de plates mortelles en élémentium",
+					"id": 171735
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20822,
+				"title": "Vue d’ensemble",
+				"body_text": "Les membres du raid devront optimiser la présence de [Brasier de gloire] sur les tanks et d’[Étincelle vitale] sur les soigneurs afin de maintenir les tanks en vie quand Baleroc alterne entre ses techniques [Lame infernale] et [Lame de décimation].\r\nPour donner plus de charges d’[Étincelle vitale] aux soigneurs, les personnages-joueurs spécialisés dans les dégâts devront se coordonner pour se tenir près des éclats de tourment à tour de rôle.",
+				"sections": [
+					{
+						"id": 20823,
+						"title": "Tanks",
+						"body_text": "$bullet;[Brasier de gloire] augmente vos points de vie maximum, mais aussi les dégâts physiques que vous subissez.\r\n$bullet;À chaque lancement de [Brasier de gloire], Baleroc obtient une charge d’[Âme incendiaire].\r\n$bullet;[Frappe de décimation] inflige un montant de dégâts d’Ombre égal à 20% des points de vie maximum de la cible. Cette attaque ignore les défenses et l’armure."
+					},
+					{
+						"id": 20824,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Soigner les victimes du [Tourment] infligé par les éclats de tourment confère une charge d’[Étincelle vitale].\r\n$bullet;Soigner un membre du raid ciblé par [Brasier de gloire] convertit vos charges d’[Étincelle vitale] en une [Flamme vitale].\r\n$bullet;Si un éclat de tourment vous rend [Tourmenté], les soins que vous prodiguez seront fortement réduits."
+					},
+					{
+						"id": 20825,
+						"title": "DPS",
+						"body_text": "$bullet;En recevant des soins alors qu’il est [Tourmenté] par un éclat de tourment, le soigneur obtient une charge d’[Étincelle vitale].\r\n$bullet;Plus longtemps vous vous tenez près d’un éclat de tourment, plus les dégâts que [Tourment] vous inflige seront élevés. S’éloigner de l’éclat transforme le [Tourment] en état [Tourmenté].\r\n$bullet;Évitez les éclats de tourment quand vous êtes [Tourmenté].\r\n$bullet;Dès le moment où un éclat de tourment n’a aucun personnage-joueur proche de lui, il déclenche une [Vague de tourment]."
+					}
+				]
+			},
+			{
+				"id": 2590,
+				"title": "Brasier de gloire",
+				"body_text": "Les assauts de Baleroc ravivent de temps en temps l’étincelle ardente sur sa cible actuelle, augmentant les dégâts physiques subis par la cible de 20%, mais aussi le maximum de ses points de vie de 20%.\r\n\r\nÀ chaque fois que Baleroc applique Brasier de gloire, il gagne une charge d'Âme incendiaire.",
+				"sections": [
+					{
+						"id": 2591,
+						"title": "Âme incendiaire",
+						"body_text": "À chaque fois que Baleroc applique Brasier de gloire, il gagne une charge d’Âme incendiaire, qui augmente les dégâts de Feu infligés de 20%."
+					}
+				]
+			},
+			{
+				"id": 2592,
+				"title": "Éclats de tourment",
+				"body_text": "Baleroc fait apparaître parmi ses adversaires des cristaux qui canalisent continuellement un rayon ténébreux sur le personnage-joueur le plus proche.",
+				"sections": [
+					{
+						"id": 2593,
+						"title": "Tourment",
+						"body_text": "L’Éclat de tourment inflige 0 points de dégâts d’Ombre par charge au personnage-joueur le plus proche, une nouvelle charge s’accumulant toutes les secondes."
+					},
+					{
+						"id": 2594,
+						"title": "Tourmenté",
+						"body_text": "Quand l’effet de Tourment se dissipe sur un personnage-joueur, celui-ci est frappé par l’effet Tourmenté, qui augmente les dégâts magiques qu'il subit de 250% et réduit la quantité de soins qu'il prodigue de 50% pendant 20 s."
+					},
+					{
+						"id": 2595,
+						"title": "Vague de tourment",
+						"body_text": "Si aucun personnage-joueur ne se trouve à moins de 15 mètres d’un éclat de tourment, l’éclat émet cette vague qui inflige à tous les personnages-joueurs 0 points de dégâts d’Ombre toutes les secondes."
+					},
+					{
+						"id": 2596,
+						"title": "Etincelle vitale",
+						"body_text": "Si un personnage-joueur incante un sort de soins directs sur une cible qui subit des dégâts de Tourment, le soigneur gagne une charge d’Étincelle vitale pour chaque groupe de trois charges de Tourment présente sur sa cible. Incanter un sort de soins directs sur une seule cible affectée par Brasier de gloire déclenche Flamme vitale.",
+						"sections": [
+							{
+								"id": 2597,
+								"title": "Flamme vitale",
+								"body_text": "Flamme vitale augmente pendant 15 s la quantité de soins reçue par les cibles bénéficiant de Brasier de gloire de 5% par charge d’Étincelle vitale consommée. Lorsque Flamme vitale expire, les charges d’Étincelle vitale converties sont récupérées."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2598,
+				"title": "Lames de Baleroc",
+				"body_text": "Baleroc renforce régulièrement l’une de ses lames avec de l’énergie d’Ombre ou de Feu et la manie seule pendant 15 s.",
+				"sections": [
+					{
+						"id": 2599,
+						"title": "Lame de décimation",
+						"body_text": "Les frappes de mêlée de Baleroc n'infligent pas de dégâts physiques, mais des dégâts d’Ombre d'un montant égal à 90% des points de vie maximum de la cible ne pouvant être inférieurs à 90 points de dégâts. Il est impossible d'atténuer ces dégâts ou d'y résister. Le temps entre les attaques de Baleroc est augmenté de 150% tant que cet effet est actif."
+					},
+					{
+						"id": 2600,
+						"title": "Lame infernale",
+						"body_text": "Les frappes de mêlée de Baleroc n'infligent pas de dégâts physiques, mais 0 points de dégâts de Feu."
+					}
+				]
+			},
+			{
+				"id": 2601,
+				"title": "Compte à rebours",
+				"body_text": "Baleroc lie deux membres du raid l’un à l’autre pendant 8 s. Si les deux personnages se rapprochent à moins de 4 mètres l’un de l’autre, cet effet est dissipé sans dégâts. Si l’effet se poursuit jusqu’à la fin, les deux personnages explosent, infligeant 0 points de dégâts de Feu à tous les personnages-joueurs dans un rayon de 100 mètres."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Terres de Feu",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/196?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 196,
+		"name": "Baleroc, the Gatekeeper",
+		"description": "Baleroc earned a reputation as a merciless combatant during the elemental wars of ancient Azeroth. Now that he is confined to the Firelands, Baleroc's sanity has dwindled. Few elementals dare disturb him, fearful that they will become victim to his battle lust.",
+		"creatures": [
+			{
+				"id": 770,
+				"name": "Baleroc",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/38621?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 38621
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 10500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71617?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystallized Firestone",
+					"id": 71617
+				}
+			},
+			{
+				"id": 10501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71683?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Fiery Protector",
+					"id": 71683
+				}
+			},
+			{
+				"id": 10502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70915?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shard of Torment",
+					"id": 70915
+				}
+			},
+			{
+				"id": 10503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70916?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Blazing Glory",
+					"id": 70916
+				}
+			},
+			{
+				"id": 10504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/70917?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Handguards",
+					"id": 70917
+				}
+			},
+			{
+				"id": 10505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71312?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatecrasher",
+					"id": 71312
+				}
+			},
+			{
+				"id": 10506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71314?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Incendiary Soul",
+					"id": 71314
+				}
+			},
+			{
+				"id": 10507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69139?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necromantic Focus",
+					"id": 69139
+				}
+			},
+			{
+				"id": 10508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71315?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Decimation Treads",
+					"id": 71315
+				}
+			},
+			{
+				"id": 10509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71323?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Molten Scream",
+					"id": 71323
+				}
+			},
+			{
+				"id": 10510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71774
+				}
+			},
+			{
+				"id": 10511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatecrasher",
+					"id": 71454
+				}
+			},
+			{
+				"id": 10512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 71775
+				}
+			},
+			{
+				"id": 10513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71455?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Incendiary Soul",
+					"id": 71455
+				}
+			},
+			{
+				"id": 10514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71776
+				}
+			},
+			{
+				"id": 10515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71456?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulderpads of the Forgotten Gate",
+					"id": 71456
+				}
+			},
+			{
+				"id": 10516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 71777
+				}
+			},
+			{
+				"id": 10517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71457?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Decimation Treads",
+					"id": 71457
+				}
+			},
+			{
+				"id": 10518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71778
+				}
+			},
+			{
+				"id": 10519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71458?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Handguards",
+					"id": 71458
+				}
+			},
+			{
+				"id": 10520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71459?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Blazing Glory",
+					"id": 71459
+				}
+			},
+			{
+				"id": 10521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 71779
+				}
+			},
+			{
+				"id": 10522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71460?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shard of Torment",
+					"id": 71460
+				}
+			},
+			{
+				"id": 10523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71780
+				}
+			},
+			{
+				"id": 10524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71461?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Closed Doors",
+					"id": 71461
+				}
+			},
+			{
+				"id": 10525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 71781
+				}
+			},
+			{
+				"id": 10526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71462?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Molten Scream",
+					"id": 71462
+				}
+			},
+			{
+				"id": 10527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71782
+				}
+			},
+			{
+				"id": 10528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71463?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glowing Wing Bracers",
+					"id": 71463
+				}
+			},
+			{
+				"id": 10529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 71783
+				}
+			},
+			{
+				"id": 10530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71464?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatekeeper's Embrace",
+					"id": 71464
+				}
+			},
+			{
+				"id": 10531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71784
+				}
+			},
+			{
+				"id": 10532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71465?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque of Flame",
+					"id": 71465
+				}
+			},
+			{
+				"id": 10533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 71785
+				}
+			},
+			{
+				"id": 10534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71786
+				}
+			},
+			{
+				"id": 10535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 71787
+				}
+			},
+			{
+				"id": 10536,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71340?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatekeeper's Embrace",
+					"id": 71340
+				}
+			},
+			{
+				"id": 10537,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71341?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glowing Wing Bracers",
+					"id": 71341
+				}
+			},
+			{
+				"id": 10538,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71342?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque of Flame",
+					"id": 71342
+				}
+			},
+			{
+				"id": 10539,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71343?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Closed Doors",
+					"id": 71343
+				}
+			},
+			{
+				"id": 10540,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulderpads of the Forgotten Gate",
+					"id": 71345
+				}
+			},
+			{
+				"id": 10541,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/69237?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Living Ember",
+					"id": 69237
+				}
+			},
+			{
+				"id": 10542,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71669?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Fiery Vanquisher",
+					"id": 71669
+				}
+			},
+			{
+				"id": 10543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/68982?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necromantic Focus",
+					"id": 68982
+				}
+			},
+			{
+				"id": 10544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/71676?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Fiery Conqueror",
+					"id": 71676
+				}
+			},
+			{
+				"id": 35259,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/152977?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vibrating Stone",
+					"id": 152977
+				}
+			},
+			{
+				"id": 40464,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171661?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flickering Handguards",
+					"id": 171661
+				}
+			},
+			{
+				"id": 40465,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171644?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Necromantic Focus",
+					"id": 171644
+				}
+			},
+			{
+				"id": 40466,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171713?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Glowing Wing Bracers",
+					"id": 171713
+				}
+			},
+			{
+				"id": 40467,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171659?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shard of Torment",
+					"id": 171659
+				}
+			},
+			{
+				"id": 40468,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171711?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Molten Scream",
+					"id": 171711
+				}
+			},
+			{
+				"id": 40469,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171710?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Decimation Treads",
+					"id": 171710
+				}
+			},
+			{
+				"id": 40470,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171717?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shoulderpads of the Forgotten Gate",
+					"id": 171717
+				}
+			},
+			{
+				"id": 40471,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171715?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantle of Closed Doors",
+					"id": 171715
+				}
+			},
+			{
+				"id": 40472,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171714?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Casque of Flame",
+					"id": 171714
+				}
+			},
+			{
+				"id": 40473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171707?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatecrasher",
+					"id": 171707
+				}
+			},
+			{
+				"id": 40474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171712?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gatekeeper's Embrace",
+					"id": 171712
+				}
+			},
+			{
+				"id": 40475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171709?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Breastplate of the Incendiary Soul",
+					"id": 171709
+				}
+			},
+			{
+				"id": 40476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171660?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Blazing Glory",
+					"id": 171660
+				}
+			},
+			{
+				"id": 40529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173274?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Eye of Purification",
+					"id": 173274
+				}
+			},
+			{
+				"id": 40530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173275?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firethorn Mindslicer",
+					"id": 173275
+				}
+			},
+			{
+				"id": 40531,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Censer of Purity",
+					"id": 173273
+				}
+			},
+			{
+				"id": 40532,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173278?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shatterskull Bonecrusher",
+					"id": 173278
+				}
+			},
+			{
+				"id": 40533,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173276?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Entrail Disgorger",
+					"id": 173276
+				}
+			},
+			{
+				"id": 40534,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173272?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoid's Firelit Greatsword",
+					"id": 173272
+				}
+			},
+			{
+				"id": 40535,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/173277?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Avool's Incendiary Shanker",
+					"id": 173277
+				}
+			},
+			{
+				"id": 40543,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handguards of the Molten Giant",
+					"id": 171760
+				}
+			},
+			{
+				"id": 40544,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171814?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Gloves",
+					"id": 171814
+				}
+			},
+			{
+				"id": 40545,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firehawk Gloves",
+					"id": 171808
+				}
+			},
+			{
+				"id": 40546,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Handguards",
+					"id": 171766
+				}
+			},
+			{
+				"id": 40547,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gauntlets of the Molten Giant",
+					"id": 171784
+				}
+			},
+			{
+				"id": 40548,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171753?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Gloves",
+					"id": 171753
+				}
+			},
+			{
+				"id": 40549,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171739?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Gauntlets",
+					"id": 171739
+				}
+			},
+			{
+				"id": 40550,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Gloves",
+					"id": 171789
+				}
+			},
+			{
+				"id": 40551,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171819?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Handwraps",
+					"id": 171819
+				}
+			},
+			{
+				"id": 40552,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171743?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Grips",
+					"id": 171743
+				}
+			},
+			{
+				"id": 40553,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dark Phoenix Gloves",
+					"id": 171769
+				}
+			},
+			{
+				"id": 40554,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of the Cleansing Flame",
+					"id": 171798
+				}
+			},
+			{
+				"id": 40555,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Handwraps of the Cleansing Flame",
+					"id": 171793
+				}
+			},
+			{
+				"id": 40556,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Immolation Gauntlets",
+					"id": 171779
+				}
+			},
+			{
+				"id": 40557,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171748?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Obsidian Arborweave Handwraps",
+					"id": 171748
+				}
+			},
+			{
+				"id": 40558,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Balespider's Handwraps",
+					"id": 171803
+				}
+			},
+			{
+				"id": 40559,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171824?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Erupting Volcanic Grips",
+					"id": 171824
+				}
+			},
+			{
+				"id": 40560,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flamewaker's Gloves",
+					"id": 171773
+				}
+			},
+			{
+				"id": 40561,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/171735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elementium Deathplate Handguards",
+					"id": 171735
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 20822,
+				"title": "Overview",
+				"body_text": "The raid will need to take advantage of [Blaze of Glory] on tanks and [Vital Spark] on healers in order to keep the tanks alive as Baleroc alternates between using his [Inferno Blade] and [Decimation Blade] abilities. \r\nTo give healers more stacks of [Vital Spark], the damage dealers will need to coordinate standing near Shards of Torment in turn.",
+				"sections": [
+					{
+						"id": 20823,
+						"title": "Tanks",
+						"body_text": "$bullet;[Blaze of Glory] increases your maximum health; but it also increases your Physical damage taken.\r\n$bullet;With each cast of [Blaze of Glory], Baleroc gains a stack of [Incendiary Soul].\r\n$bullet;[Decimating Strike] will inflict 20% of your maximum health in Shadow damage.  This attack ignores defenses and armor."
+					},
+					{
+						"id": 20824,
+						"title": "Healers",
+						"body_text": "$bullet;Healing victims of a Shard of Torment's [Torment] will grant you a stack of [Vital Spark].\r\n$bullet;Once you heal a target of [Blaze of Glory], your [Vital Sparks] become a [Vital Flame].\r\n$bullet;If a Shard of Torment ever causes you to become [Tormented] your healing done will be greatly reduced."
+					},
+					{
+						"id": 20825,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;By getting heals while [Tormented] by a Shard of Torment, the healer will gain stacks of [Vital Spark]. \r\n$bullet;The longer you stand near a Shard of Torment, the more damage [Torment] will do to you.  Walking away changes the [Torment] to [Tormented].\r\n$bullet;Avoid Shards of Torment while you are [Tormented].\r\n$bullet;If a Shard of Torment ever has no players nearby, it will unleash a [Wave of Torment]."
+					}
+				]
+			},
+			{
+				"id": 2590,
+				"title": "Blaze of Glory",
+				"body_text": "Baleroc's assault periodically awakens a burning spark within his current target, increasing the target's physical damage taken by 20%, but also raising their maximum health by 20%.\r\n\r\nEvery time Baleroc applies Blaze of Glory, he gains an application of Incendiary Soul.",
+				"sections": [
+					{
+						"id": 2591,
+						"title": "Incendiary Soul",
+						"body_text": "Every time Baleroc applies Blaze of Glory, he gains an application of Incendiary Soul, increasing his Fire damage dealt by 20%."
+					}
+				]
+			},
+			{
+				"id": 2592,
+				"title": "Shards of Torment",
+				"body_text": "Baleroc summons crystals amongst his foes, which continually channels a shadowy beam on the nearest player.",
+				"sections": [
+					{
+						"id": 2593,
+						"title": "Torment",
+						"body_text": "The Shard of Torment inflicts 0 Shadow damage per application to the nearest player, stacking once per second."
+					},
+					{
+						"id": 2594,
+						"title": "Tormented",
+						"body_text": "When Torment fades from a player, they are afflicted by the Tormented effect, which increases their magical damage taken by 250% and reduces the player's healing done by 50% for 20 sec."
+					},
+					{
+						"id": 2595,
+						"title": "Wave of Torment",
+						"body_text": "If no player stands within 15 yards of a Shard of Torment, the Shard pulses this effect, inflicting 0 Shadow damage each second to all players."
+					},
+					{
+						"id": 2596,
+						"title": "Vital Spark",
+						"body_text": "If a player casts a direct heal on someone being damaged by Torment, the healer gains an application of Vital Spark for every three stacks of Torment on the target. Casting a single-target direct heal on a target affected by Blaze of Glory will trigger Vital Flame.",
+						"sections": [
+							{
+								"id": 2597,
+								"title": "Vital Flame",
+								"body_text": "Vital Flame increases healing done to targets affected by Blaze of Glory by 5% per stack of Vital Spark consumed, lasting for 15 sec.  When Vital Flame expires, it restores the Vital Spark stacks consumed to create the effect."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2598,
+				"title": "Blades of Baleroc",
+				"body_text": "Baleroc periodically empowers one of his blades with Shadow or Fire energy, and wields it alone for 15 sec.",
+				"sections": [
+					{
+						"id": 2599,
+						"title": "Decimation Blade",
+						"body_text": "Baleroc's melee strikes do no Physical damage but instead inflict Shadow damage equal to 90% of the target's maximum health, but always at least 90 damage. This damage cannot be resisted or mitigated. Baleroc's time between attacks increases by 150% while this effect is active."
+					},
+					{
+						"id": 2600,
+						"title": "Inferno Blade",
+						"body_text": "Baleroc's melee strikes do no Physical damage but instead inflict 0 Fire damage."
+					}
+				]
+			},
+			{
+				"id": 2601,
+				"title": "Countdown",
+				"body_text": "Baleroc links two players to each other for 8 sec.  If the chosen players move within 4 yards of each other, the effect dissipates harmlessly. If the effect runs its full course, then both players explode, inflicting 0 Fire damage to all players within 100 yards."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/78?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Firelands",
+			"id": 78
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			}
+		]
+	}
+}

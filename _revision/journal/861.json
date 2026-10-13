@@ -1,0 +1,1926 @@
+{
+	"id": 861,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/861?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 861,
+		"name": "Ordos, Dios de fuego de los yaungol",
+		"description": "Ordos fue una vez un chamán de los yaungol que se sacrificó a las llamas porque los señores del fuego le prometieron que se convertiría en un semidiós. Su carne está eternamente abrasada por el fuego, lo que le provoca una agonía sin límites. Los celadores de llamas yaungol se prenden fuego en rituales que simulan la ascensión de Ordos y utilizan encantamientos y rezos para aliviar el dolor.",
+		"creatures": [
+			{
+				"id": 1623,
+				"name": "Ordos",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49285?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49285
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 18474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de furia eruptiva",
+					"id": 105793
+				}
+			},
+			{
+				"id": 18475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas estrelladas de durabilidad",
+					"id": 105794
+				}
+			},
+			{
+				"id": 18476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto de viento mortal de Bo He Me",
+					"id": 105795
+				}
+			},
+			{
+				"id": 18477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras de placas impregnadas de colofonia de Rossi",
+					"id": 105796
+				}
+			},
+			{
+				"id": 18478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras explosivas de Shay-Nii",
+					"id": 105797
+				}
+			},
+			{
+				"id": 18479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de sanador de las llamas",
+					"id": 105798
+				}
+			},
+			{
+				"id": 18480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrehombros de anillas ahumacarnes",
+					"id": 105799
+				}
+			},
+			{
+				"id": 18481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras flecha de fuego",
+					"id": 105800
+				}
+			},
+			{
+				"id": 18482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bufas de sueños dominantes",
+					"id": 105801
+				}
+			},
+			{
+				"id": 18483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardahombros de culto a la muerte yaungol",
+					"id": 105802
+				}
+			},
+			{
+				"id": 18484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza de sombras grises de Stickney",
+					"id": 105803
+				}
+			},
+			{
+				"id": 18485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran yelmo de espíritu de fuego de Aladya",
+					"id": 105804
+				}
+			},
+			{
+				"id": 18486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Borgoñota de llama enfurecida de Dominik",
+					"id": 105805
+				}
+			},
+			{
+				"id": 18487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aro de Panser",
+					"id": 105806
+				}
+			},
+			{
+				"id": 18488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona asesina de Magdalena",
+					"id": 105807
+				}
+			},
+			{
+				"id": 18489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Máscara de venas heladas de Damien",
+					"id": 105808
+				}
+			},
+			{
+				"id": 18490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blasón de hazañas ardientes",
+					"id": 105809
+				}
+			},
+			{
+				"id": 18491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caperuza ardiente Buc-Zakai",
+					"id": 105810
+				}
+			},
+			{
+				"id": 18492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mirada grácil de Olivia",
+					"id": 105811
+				}
+			},
+			{
+				"id": 18493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos atrevidos de Desirae",
+					"id": 105754
+				}
+			},
+			{
+				"id": 18494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Falda cortante de Moshne",
+					"id": 105755
+				}
+			},
+			{
+				"id": 18495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos de luces de Poxleitner",
+					"id": 105756
+				}
+			},
+			{
+				"id": 18496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sedas tenues de Shipley",
+					"id": 105757
+				}
+			},
+			{
+				"id": 18497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ataduras antiguas de Arielle",
+					"id": 105758
+				}
+			},
+			{
+				"id": 18498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de magma de Jian Wu Xi Feng",
+					"id": 105759
+				}
+			},
+			{
+				"id": 18499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Leotardos fustigados por el viento de Hamlet",
+					"id": 105760
+				}
+			},
+			{
+				"id": 18500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes purificados de Partik",
+					"id": 105761
+				}
+			},
+			{
+				"id": 18501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ojo humeante",
+					"id": 105762
+				}
+			},
+			{
+				"id": 18502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante azaroso del valedor",
+					"id": 105763
+				}
+			},
+			{
+				"id": 18503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dije de luna nueva naciente",
+					"id": 105764
+				}
+			},
+			{
+				"id": 18504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar de forjador de hojas",
+					"id": 105765
+				}
+			},
+			{
+				"id": 18505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gargantilla con pinchos de Anafielle",
+					"id": 105766
+				}
+			},
+			{
+				"id": 18506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Peto ensangrentado de Hoodrych",
+					"id": 105767
+				}
+			},
+			{
+				"id": 18473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardamuñecas de vuelo arqueado",
+					"id": 105792
+				}
+			},
+			{
+				"id": 18507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sobrevesta de Muuscat de Pamela",
+					"id": 105768
+				}
+			},
+			{
+				"id": 18508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caparazón aplastante de Omegal",
+					"id": 105769
+				}
+			},
+			{
+				"id": 18509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete excelente de Zoo-Per",
+					"id": 105770
+				}
+			},
+			{
+				"id": 18510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Coselete de inmolación pírrica",
+					"id": 105771
+				}
+			},
+			{
+				"id": 18511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jubón malvado de Moonhee",
+					"id": 105772
+				}
+			},
+			{
+				"id": 18512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas de magma aplastante de Ulmaas",
+					"id": 105773
+				}
+			},
+			{
+				"id": 18513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Togas sueltas de Catia",
+					"id": 105774
+				}
+			},
+			{
+				"id": 18514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Placa de hechizos del ojo reluciente",
+					"id": 105775
+				}
+			},
+			{
+				"id": 18515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón del pacto roto",
+					"id": 105776
+				}
+			},
+			{
+				"id": 18516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja ruinosa de Remnar",
+					"id": 105777
+				}
+			},
+			{
+				"id": 18517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja reluciente de Derevka",
+					"id": 105778
+				}
+			},
+			{
+				"id": 18518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guardarrenes calcinantes ligeros",
+					"id": 105779
+				}
+			},
+			{
+				"id": 18519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de llamas del viento",
+					"id": 105780
+				}
+			},
+			{
+				"id": 18520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fajín venerable de Venruki",
+					"id": 105781
+				}
+			},
+			{
+				"id": 18521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón de ascuas resplandecientes",
+					"id": 105782
+				}
+			},
+			{
+				"id": 18522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gran cinturón de Crendor",
+					"id": 105783
+				}
+			},
+			{
+				"id": 18523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cinturón bruñido de Binkenstein",
+					"id": 105784
+				}
+			},
+			{
+				"id": 18524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales fornidos de caballería",
+					"id": 105785
+				}
+			},
+			{
+				"id": 18525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de cultista de Ordos",
+					"id": 105786
+				}
+			},
+			{
+				"id": 18526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de sello quemado",
+					"id": 105787
+				}
+			},
+			{
+				"id": 18527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Envoltura pintarrajeada de Paululum",
+					"id": 105788
+				}
+			},
+			{
+				"id": 18528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales explosivos de Bjam",
+					"id": 105789
+				}
+			},
+			{
+				"id": 18529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de tótem de fuego",
+					"id": 105790
+				}
+			},
+			{
+				"id": 18530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de creencia incondicional",
+					"id": 105791
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8171,
+				"title": "Machaque de magma",
+				"body_text": "Inflige 0 p. de daño de Fuego que se divide a partes iguales entre los jugadores en un radio de 20 m del objetivo."
+			},
+			{
+				"id": 8172,
+				"title": "Alma ardiente",
+				"body_text": "Inflige 0 p. de daño de Fuego cada 1 s durante 10 s. Al expirar, el jugador explota e inflige 3669 p. de daño de Fuego a los jugadores en un radio de 8 m y los lanza por los aires."
+			},
+			{
+				"id": 8173,
+				"title": "Charco de fuego",
+				"body_text": "Crea un charco de fuego que inflige 931 p. de daño de Fuego cada 1 s."
+			},
+			{
+				"id": 8174,
+				"title": "Llama ancestral",
+				"body_text": "Invoca un orbe que inflige 0 p. de daño de Fuego al jugador más cercano cada 2 s y aumenta el daño de Fuego recibido un 5% durante 10 s."
+			},
+			{
+				"id": 8175,
+				"title": "Agonía eterna",
+				"body_text": "Después de 5 min, Ordos canaliza todo su poder hacia una gigantesca bola de magma, lo que inflige 0 p. de daño de Fuego a todos los jugadores cada 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/861?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 861,
+		"name": "Ordos, dieu du feu des yaungols",
+		"description": "Ordos fut autrefois chaman des yaungols et s’immola par le feu, conformément aux promesses des seigneurs du Feu, pour devenir un demi-dieu. Sa chair éternellement consumée par les flammes le plonge dans une agonie perpétuelle. Les garde-feu yaungols s’embrasent rituellement pour reproduire l’ascension d’Ordos, et formulent des enchantements et des prières pour apaiser ses souffrances.",
+		"creatures": [
+			{
+				"id": 1623,
+				"name": "Ordos",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49285?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49285
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 18474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de fureur bouillonnante",
+					"id": 105793
+				}
+			},
+			{
+				"id": 18475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières étoilées de durabilité",
+					"id": 105794
+				}
+			},
+			{
+				"id": 18476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantelet de vent mortel de Bo He Me",
+					"id": 105795
+				}
+			},
+			{
+				"id": 18477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques d'épaules trempées de rosée de Rossi",
+					"id": 105796
+				}
+			},
+			{
+				"id": 18478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules éclatants de Shay Nii",
+					"id": 105797
+				}
+			},
+			{
+				"id": 18479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de soigneur des flammes",
+					"id": 105798
+				}
+			},
+			{
+				"id": 18480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Epaulières en mailles de fumet de carne",
+					"id": 105799
+				}
+			},
+			{
+				"id": 18481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules de la flèche de feu",
+					"id": 105800
+				}
+			},
+			{
+				"id": 18482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spallières des rêves dominants",
+					"id": 105801
+				}
+			},
+			{
+				"id": 18483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-épaules de culte à la mort yaungol",
+					"id": 105802
+				}
+			},
+			{
+				"id": 18484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chaperon d'ombre grise de Stickney",
+					"id": 105803
+				}
+			},
+			{
+				"id": 18485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grand heaume de feu spirituel d'Aladya",
+					"id": 105804
+				}
+			},
+			{
+				"id": 18486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cabasset de flamme déchaînée de Dominik",
+					"id": 105805
+				}
+			},
+			{
+				"id": 18487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Diadème de Panser",
+					"id": 105806
+				}
+			},
+			{
+				"id": 18488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne meurtrière de Madeleine",
+					"id": 105807
+				}
+			},
+			{
+				"id": 18489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Masque des veines glaciales de Damien",
+					"id": 105808
+				}
+			},
+			{
+				"id": 18490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cimier des actes ardents",
+					"id": 105809
+				}
+			},
+			{
+				"id": 18491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capuche ardente buc-zakai",
+					"id": 105810
+				}
+			},
+			{
+				"id": 18492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Regard gracieux d'Olivia",
+					"id": 105811
+				}
+			},
+			{
+				"id": 18493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières audacieuses de Desirae",
+					"id": 105754
+				}
+			},
+			{
+				"id": 18494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Kilt vif de Moshne",
+					"id": 105755
+				}
+			},
+			{
+				"id": 18495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières des Lumières de Poxleitner",
+					"id": 105756
+				}
+			},
+			{
+				"id": 18496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pantalon en soie chamarée de Shipley",
+					"id": 105757
+				}
+			},
+			{
+				"id": 18497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambards antiques d'Arielle",
+					"id": 105758
+				}
+			},
+			{
+				"id": 18498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de magma de Jian Wu Xi Feng",
+					"id": 105759
+				}
+			},
+			{
+				"id": 18499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jambières fouettées par le vent de Hamlet",
+					"id": 105760
+				}
+			},
+			{
+				"id": 18500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards purifiés de Partik",
+					"id": 105761
+				}
+			},
+			{
+				"id": 18501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Oeil fumant",
+					"id": 105762
+				}
+			},
+			{
+				"id": 18502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif périlleux de Penate",
+					"id": 105763
+				}
+			},
+			{
+				"id": 18503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Talisman de la nouvelle lune montante",
+					"id": 105764
+				}
+			},
+			{
+				"id": 18504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier de forgelame",
+					"id": 105765
+				}
+			},
+			{
+				"id": 18505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sautoir épineux d'Anafielle",
+					"id": 105766
+				}
+			},
+			{
+				"id": 18506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pansière ensanglantée de Hoodrych",
+					"id": 105767
+				}
+			},
+			{
+				"id": 18473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Garde-poignets d'arc volant",
+					"id": 105792
+				}
+			},
+			{
+				"id": 18507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vareuse de Muuscat de Pamela",
+					"id": 105768
+				}
+			},
+			{
+				"id": 18508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carapace de lave broyeuse d'Omegal",
+					"id": 105769
+				}
+			},
+			{
+				"id": 18509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet supérieur de Zou Per",
+					"id": 105770
+				}
+			},
+			{
+				"id": 18510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corselet d'immolation pyrrhique",
+					"id": 105771
+				}
+			},
+			{
+				"id": 18511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gilet misérable de Lunhee",
+					"id": 105772
+				}
+			},
+			{
+				"id": 18512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de magma broyeur d'Ulmaas",
+					"id": 105773
+				}
+			},
+			{
+				"id": 18513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe flottante de Catia",
+					"id": 105774
+				}
+			},
+			{
+				"id": 18514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Plaques ensorcelées de l'œil luisant",
+					"id": 105775
+				}
+			},
+			{
+				"id": 18515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture de l'âme ardente",
+					"id": 105776
+				}
+			},
+			{
+				"id": 18516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon ruineux de Remnar",
+					"id": 105777
+				}
+			},
+			{
+				"id": 18517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon resplendissant de Derevka",
+					"id": 105778
+				}
+			},
+			{
+				"id": 18518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sangle d'allumeur",
+					"id": 105779
+				}
+			},
+			{
+				"id": 18519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon flamme-vent",
+					"id": 105780
+				}
+			},
+			{
+				"id": 18520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Echarpe vénérable de Venruki",
+					"id": 105781
+				}
+			},
+			{
+				"id": 18521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture des braises rougeoyantes",
+					"id": 105782
+				}
+			},
+			{
+				"id": 18522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grande ceinture de Crendor",
+					"id": 105783
+				}
+			},
+			{
+				"id": 18523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture brunie de Binkenstein",
+					"id": 105784
+				}
+			},
+			{
+				"id": 18524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards mastoc de l'avant-garde",
+					"id": 105785
+				}
+			},
+			{
+				"id": 18525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards du sectateur ordosien",
+					"id": 105786
+				}
+			},
+			{
+				"id": 18526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards brûle-sceau",
+					"id": 105787
+				}
+			},
+			{
+				"id": 18527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couvre-bras griffonnés de Paululum",
+					"id": 105788
+				}
+			},
+			{
+				"id": 18528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards bouillants de Bjam",
+					"id": 105789
+				}
+			},
+			{
+				"id": 18529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de totem de feu",
+					"id": 105790
+				}
+			},
+			{
+				"id": 18530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards de croyance absolue",
+					"id": 105791
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8171,
+				"title": "Écrasement de magma",
+				"body_text": "Inflige 0 points de dégâts de Feu répartis de façon égale entre tous les personnages-joueurs situés à moins de 20 mètres de la cible."
+			},
+			{
+				"id": 8172,
+				"title": "Ame ardente",
+				"body_text": "Inflige 0 points de dégâts de Feu toutes les 1 s pendant 10 s. Lorsque l’effet expire, la victime explose, infligeant 3669 points de dégâts de Feu aux personnages-joueurs à moins de 8 mètres et les projetant en l’air."
+			},
+			{
+				"id": 8173,
+				"title": "Flaque de feu",
+				"body_text": "Crée une flaque de feu qui inflige 931 points de dégâts de Feu toutes les 1 s."
+			},
+			{
+				"id": 8174,
+				"title": "Flamme antique",
+				"body_text": "Invoque un orbe qui inflige 0 points de dégâts de Feu au personnage-joueur le plus proche toutes les 2 s et augmente les dégâts de Feu subis de 5% pendant 10 s."
+			},
+			{
+				"id": 8175,
+				"title": "Agonie éternelle",
+				"body_text": "Au bout de 5 minutes, Ordos canalise toute sa puissance en une énorme boule de magma qui inflige 0 points de dégâts de Feu à tous les personnages-joueurs toutes les 1 s."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandarie",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/861?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 861,
+		"name": "Ordos, Fire-God of the Yaungol",
+		"description": "Ordos was once a shaman of the Yaungol who sacrificed himself to the flame, following the promises of the Fire Lords, in order to become a demigod. His flesh is eternally seared with fires, putting him in endless agony. Yaungol Fire-Keepers ritualistically set themselves ablaze to emulate the ascension of Ordos, and cast enchantments and prayers to ease his pain.",
+		"creatures": [
+			{
+				"id": 1623,
+				"name": "Ordos",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/49285?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 49285
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 18474,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105793?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of Simmering Fury",
+					"id": 105793
+				}
+			},
+			{
+				"id": 18475,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105794?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Starry Spaulders of Durability",
+					"id": 105794
+				}
+			},
+			{
+				"id": 18476,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105795?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bo He Me's Deathwind Mantle",
+					"id": 105795
+				}
+			},
+			{
+				"id": 18477,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105796?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rossi's Rosin-Soaked Shoulderplates",
+					"id": 105796
+				}
+			},
+			{
+				"id": 18478,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105797?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shay-Nii's Popping Shoulderpads",
+					"id": 105797
+				}
+			},
+			{
+				"id": 18479,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105798?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flame Healer's Shoulderguards",
+					"id": 105798
+				}
+			},
+			{
+				"id": 18480,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105799?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fleshsmoke Chain Shoulders",
+					"id": 105799
+				}
+			},
+			{
+				"id": 18481,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105800?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firearrow Shoulderpads",
+					"id": 105800
+				}
+			},
+			{
+				"id": 18482,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105801?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Spaulders of Dominating Dreams",
+					"id": 105801
+				}
+			},
+			{
+				"id": 18483,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105802?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yaungol Deathcult Shoulderguards",
+					"id": 105802
+				}
+			},
+			{
+				"id": 18484,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105803?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stickney's Grey-Shade Hood",
+					"id": 105803
+				}
+			},
+			{
+				"id": 18485,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105804?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aladya's Spiritfire Greathelm",
+					"id": 105804
+				}
+			},
+			{
+				"id": 18486,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105805?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dominik's Casque of Raging Flame",
+					"id": 105805
+				}
+			},
+			{
+				"id": 18487,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105806?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Circlet of the Panser",
+					"id": 105806
+				}
+			},
+			{
+				"id": 18488,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105807?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Magdalena's Murderous Crown",
+					"id": 105807
+				}
+			},
+			{
+				"id": 18489,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105808?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Damien's Ice-Vein Mask",
+					"id": 105808
+				}
+			},
+			{
+				"id": 18490,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105809?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crest of Burning Deeds",
+					"id": 105809
+				}
+			},
+			{
+				"id": 18491,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105810?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Buc-Zakai Burning Hood",
+					"id": 105810
+				}
+			},
+			{
+				"id": 18492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105811?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Olivia's Graceful Gaze",
+					"id": 105811
+				}
+			},
+			{
+				"id": 18493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105754?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Desirae's Dashing Leggings",
+					"id": 105754
+				}
+			},
+			{
+				"id": 18494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105755?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moshne's Keen Kilt",
+					"id": 105755
+				}
+			},
+			{
+				"id": 18495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105756?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poxleitner's Leggings of Lights",
+					"id": 105756
+				}
+			},
+			{
+				"id": 18496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shipley's Shady Silks",
+					"id": 105757
+				}
+			},
+			{
+				"id": 18497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105758?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arielle's Ancient Legwraps",
+					"id": 105758
+				}
+			},
+			{
+				"id": 18498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Magmaplates of Jian Wu Xi Feng",
+					"id": 105759
+				}
+			},
+			{
+				"id": 18499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hamlet's Wind-Whipped Leggings",
+					"id": 105760
+				}
+			},
+			{
+				"id": 18500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Partik's Purified Legplates",
+					"id": 105761
+				}
+			},
+			{
+				"id": 18501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Smoldering Eye",
+					"id": 105762
+				}
+			},
+			{
+				"id": 18502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Penate's Perilous Pendant",
+					"id": 105763
+				}
+			},
+			{
+				"id": 18503,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rising New Moon Talisman",
+					"id": 105764
+				}
+			},
+			{
+				"id": 18504,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bladeforger Necklace",
+					"id": 105765
+				}
+			},
+			{
+				"id": 18505,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anafielle's Spiked Choker",
+					"id": 105766
+				}
+			},
+			{
+				"id": 18506,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hoodrych's Bloodied Chestplate",
+					"id": 105767
+				}
+			},
+			{
+				"id": 18473,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105792?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bowflight Wristguard",
+					"id": 105792
+				}
+			},
+			{
+				"id": 18507,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pamela's Muuscat Wrap",
+					"id": 105768
+				}
+			},
+			{
+				"id": 18508,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105769?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Omegal's Crushing Carapace",
+					"id": 105769
+				}
+			},
+			{
+				"id": 18509,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zoo-Per's Superior Chestguard",
+					"id": 105770
+				}
+			},
+			{
+				"id": 18510,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Chestguard of Pyrrhic Immolation",
+					"id": 105771
+				}
+			},
+			{
+				"id": 18511,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Moonhee's Mean Vest",
+					"id": 105772
+				}
+			},
+			{
+				"id": 18512,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ulmaas' Robes of Crushing Magma",
+					"id": 105773
+				}
+			},
+			{
+				"id": 18513,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Catia's Flowing Robes",
+					"id": 105774
+				}
+			},
+			{
+				"id": 18514,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gleaming Eye Spellplate",
+					"id": 105775
+				}
+			},
+			{
+				"id": 18515,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of the Burning Soul",
+					"id": 105776
+				}
+			},
+			{
+				"id": 18516,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Remnar's Ruinous Girdle",
+					"id": 105777
+				}
+			},
+			{
+				"id": 18517,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Derevka's Gleaming Girdle",
+					"id": 105778
+				}
+			},
+			{
+				"id": 18518,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Light Kindler Waistguard",
+					"id": 105779
+				}
+			},
+			{
+				"id": 18519,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105780?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Windflame Girdle",
+					"id": 105780
+				}
+			},
+			{
+				"id": 18520,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105781?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Venruki's Venerable Sash",
+					"id": 105781
+				}
+			},
+			{
+				"id": 18521,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105782?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Belt of Glowing Embers",
+					"id": 105782
+				}
+			},
+			{
+				"id": 18522,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105783?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Greatbelt of the Crendor",
+					"id": 105783
+				}
+			},
+			{
+				"id": 18523,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105784?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Binkenstein's Burnished Belt",
+					"id": 105784
+				}
+			},
+			{
+				"id": 18524,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105785?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vanguard's Burly Bracers",
+					"id": 105785
+				}
+			},
+			{
+				"id": 18525,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105786?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ordosian Cultist's Bracers",
+					"id": 105786
+				}
+			},
+			{
+				"id": 18526,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105787?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Burnseal Bracers",
+					"id": 105787
+				}
+			},
+			{
+				"id": 18527,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105788?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Paululum's Doodled Wraps",
+					"id": 105788
+				}
+			},
+			{
+				"id": 18528,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105789?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bjam's Blasting Bracers",
+					"id": 105789
+				}
+			},
+			{
+				"id": 18529,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105790?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Firetotem Bracers",
+					"id": 105790
+				}
+			},
+			{
+				"id": 18530,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/105791?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bracers of Unquestioning Belief",
+					"id": 105791
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 8171,
+				"title": "Magma Crush",
+				"body_text": "Inflicts 0 Fire damage, split evenly amongst all players within 20 yards of the target."
+			},
+			{
+				"id": 8172,
+				"title": "Burning Soul",
+				"body_text": "Inflicts 0 Fire damage every 1 sec. for 10 sec. On expiration, the player explodes, inflicting 3,669 Fire damage to players within 8 yards and knocking them up."
+			},
+			{
+				"id": 8173,
+				"title": "Pool of Fire",
+				"body_text": "Creates a pool of fire that inflicts 931 Fire damage every 1 sec."
+			},
+			{
+				"id": 8174,
+				"title": "Ancient Flame",
+				"body_text": "Summons an orb that inflicts 0 Fire damage to the nearest player every 2 sec. and increases Fire damage taken by 5% for 10 sec."
+			},
+			{
+				"id": 8175,
+				"title": "Eternal Agony",
+				"body_text": "After 5 minutes, Ordos channels all of his power into a massive ball of magma, inflicting 0 Fire damage to all players every 1 sec."
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/322?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Pandaria",
+			"id": 322
+		},
+		"category": {
+			"type": "WORLD_BOSS"
+		}
+	}
+}

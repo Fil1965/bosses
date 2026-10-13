@@ -1,0 +1,600 @@
+{
+	"id": 1563,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1563?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1563,
+		"name": "Príncipe Malchezaar",
+		"creatures": [
+			{
+				"id": 3793,
+				"name": "Príncipe Malchezaar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19274?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 19274
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de un millar de marcas",
+					"id": 28757
+				}
+			},
+			{
+				"id": 26022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mantón rubí del misticante",
+					"id": 28766
+				}
+			},
+			{
+				"id": 26023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del campeón caído",
+					"id": 29760
+				}
+			},
+			{
+				"id": 26024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del héroe caído",
+					"id": 29759
+				}
+			},
+			{
+				"id": 26025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "La decapitadora",
+					"id": 28767
+				}
+			},
+			{
+				"id": 26026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Justicia de la Luz",
+					"id": 28771
+				}
+			},
+			{
+				"id": 26027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Piedra portal de Espacio Abisal",
+					"id": 97550
+				}
+			},
+			{
+				"id": 26028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anillo de jade del siemprevivo",
+					"id": 28763
+				}
+			},
+			{
+				"id": 26029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Aullavísceras",
+					"id": 28773
+				}
+			},
+			{
+				"id": 26030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo del defensor caído",
+					"id": 29761
+				}
+			},
+			{
+				"id": 26031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa sin manchas de los puros de corazón",
+					"id": 28765
+				}
+			},
+			{
+				"id": 26032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Capa salvaje de errante",
+					"id": 28764
+				}
+			},
+			{
+				"id": 26033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Adorno de almas robadas",
+					"id": 28762
+				}
+			},
+			{
+				"id": 26034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hoja mental Nathrezim",
+					"id": 28770
+				}
+			},
+			{
+				"id": 26035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arco del fénix de Furia del Sol",
+					"id": 28772
+				}
+			},
+			{
+				"id": 26036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malchazeen",
+					"id": 28768
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 jugadores"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1563?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1563,
+		"name": "Prince Malchezaar",
+		"creatures": [
+			{
+				"id": 3793,
+				"name": "Prince Malchezaar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19274?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 19274
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau d'un millier de marques",
+					"id": 28757
+				}
+			},
+			{
+				"id": 26022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Drapé rubis du mystosophe",
+					"id": 28766
+				}
+			},
+			{
+				"id": 26023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du champion déchu",
+					"id": 29760
+				}
+			},
+			{
+				"id": 26024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du héros déchu",
+					"id": 29759
+				}
+			},
+			{
+				"id": 26025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Le Décapiteur",
+					"id": 28767
+				}
+			},
+			{
+				"id": 26026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Justice de la Lumière",
+					"id": 28771
+				}
+			},
+			{
+				"id": 26027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pierre du portal du Néantespace",
+					"id": 97550
+				}
+			},
+			{
+				"id": 26028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Anneau de jade de l'immortel",
+					"id": 28763
+				}
+			},
+			{
+				"id": 26029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hurlesang",
+					"id": 28773
+				}
+			},
+			{
+				"id": 26030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume du défenseur déchu",
+					"id": 29761
+				}
+			},
+			{
+				"id": 26031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape immaculée des cœurs purs",
+					"id": 28765
+				}
+			},
+			{
+				"id": 26032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cape sauvage de pérégrin",
+					"id": 28764
+				}
+			},
+			{
+				"id": 26033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Parure des âmes volées",
+					"id": 28762
+				}
+			},
+			{
+				"id": 26034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lame-esprit nathrezim",
+					"id": 28770
+				}
+			},
+			{
+				"id": 26035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Arc du phénix solfurie",
+					"id": 28772
+				}
+			},
+			{
+				"id": 26036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malchazine",
+					"id": 28768
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 joueurs"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1563?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1563,
+		"name": "Prince Malchezaar",
+		"creatures": [
+			{
+				"id": 3793,
+				"name": "Prince Malchezaar",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/19274?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 19274
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 26021,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28757?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ring of a Thousand Marks",
+					"id": 28757
+				}
+			},
+			{
+				"id": 26022,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28766?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ruby Drape of the Mysticant",
+					"id": 28766
+				}
+			},
+			{
+				"id": 26023,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29760?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fallen Champion",
+					"id": 29760
+				}
+			},
+			{
+				"id": 26024,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29759?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fallen Hero",
+					"id": 29759
+				}
+			},
+			{
+				"id": 26025,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28767?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Decapitator",
+					"id": 28767
+				}
+			},
+			{
+				"id": 26026,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Light's Justice",
+					"id": 28771
+				}
+			},
+			{
+				"id": 26027,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/97550?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Netherspace Portal-Stone",
+					"id": 97550
+				}
+			},
+			{
+				"id": 26028,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28763?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Jade Ring of the Everliving",
+					"id": 28763
+				}
+			},
+			{
+				"id": 26029,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28773?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gorehowl",
+					"id": 28773
+				}
+			},
+			{
+				"id": 26030,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/29761?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of the Fallen Defender",
+					"id": 29761
+				}
+			},
+			{
+				"id": 26031,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28765?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stainless Cloak of the Pure Hearted",
+					"id": 28765
+				}
+			},
+			{
+				"id": 26032,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28764?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Farstrider Wildercloak",
+					"id": 28764
+				}
+			},
+			{
+				"id": 26033,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28762?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Adornment of Stolen Souls",
+					"id": 28762
+				}
+			},
+			{
+				"id": 26034,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Nathrezim Mindblade",
+					"id": 28770
+				}
+			},
+			{
+				"id": 26035,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sunfury Bow of the Phoenix",
+					"id": 28772
+				}
+			},
+			{
+				"id": 26036,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/28768?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Malchazeen",
+					"id": 28768
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/745?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Karazhan",
+			"id": 745
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LEGACY_10_MAN",
+				"name": "10 Player"
+			}
+		]
+	}
+}

@@ -188,6 +188,12 @@ pack["252959"] = { "Nymrissa Clamaolas",
 	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: cuidado con la burbuja.",
 };
 
+pack["238015"] = { "Predaxas",
+	"* El marcado por el |cff71d5ff|Hspell:34994|h[Devorar]|h|r corre lejos del grupo (kite) hasta que termine.",
+	"* El |cff71d5ff|Hspell:34929|h[Reflujo gástico]|h|r trae los adds (Tique del Vacío, Gavodon tragado y Griffe Sang rabioso): tanque al lado del boss y matarlos.",
+	"* El |cff71d5ff|Hspell:34933|h[Golpe sísmico]|h|r golpea: cuidado con el piso."
+};
+
 pack["267861"] = { "Kith'ix",
 	"* |cff71d5ff|Hspell:1304930|h[Dark Devastation]|h|r: frontal del tanque, defensivas.",
 	"* |cff71d5ff|Hspell:1301511|h[Voidswarm]|h|r: esbirros del Vacío, prioridad.",
@@ -283,7 +289,7 @@ pack["247570"] = { "Muro'jin y Nekraxx",
 	"* |cff71d5ff|Hspell:1243900|h[Fetid Quillstorm]|h|r y |cff71d5ff|Hspell:1246666|h[Infected Pinions]|h|r: esquiva las plumas.",
 };
 
-pack["248605"] = { "Rak'tul",
+pack["248605"] = { "Rak'tul, receptáculo de almas",
 	"* El marcado por |cff71d5ff|Hspell:1252676|h[Crush Souls]|h|r muere sin curas: aléjate.",
 	"* |cff71d5ff|Hspell:1251023|h[Spiritbreaker]|h|r: daño fuerte, curas.",
 	"* |cff71d5ff|Hspell:1253788|h[Soulrending Roar]|h|r: daño de banda.",

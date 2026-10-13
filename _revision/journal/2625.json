@@ -1,0 +1,636 @@
+{
+	"id": 2625,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2625?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2625,
+		"name": "Orta, la Montaña Quebrada",
+		"description": "Este caminante de las profundidades lleva mucho tiempo recorriendo los abismos y protagonizando las leyendas de Azj-Kahet. Su voz es un terremoto; su voluntad, un diamante; su fuerza, inexorable. Sin embargo, ahora se presenta ante Azj-Kahet contaminado por las pústulas oscuras de la sangre negra, necesitado de una buena muerte. ¿Quién se alzará para hacerle frente?",
+		"creatures": [
+			{
+				"id": 5702,
+				"name": "Orta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119835?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119835
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Zancos quitinosos resistentes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abrigo de celador de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sello de la Montaña Quebrada",
+					"id": 225751
+				}
+			},
+			{
+				"id": 44572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mallas de zarcillos abisales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toga de buscador de la Luz",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes de cristal estelar",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de habitante de las zonas profundas",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja del amanecer radiante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cincho de mirada pétrea",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29746,
+				"title": "Resumen",
+				"body_text": "Orta se debate contra los grilletes de su infección, destroza el suelo con [Embate colosal] e invoca [Runas desintegradoras].\r\n\r\nAl llegar a 100 p. de energía, Orta lanza [Rugido tectónico] para repeler a todos los jugadores.",
+				"sections": [
+					{
+						"id": 29747,
+						"title": "Tanques",
+						"body_text": "$bullet;[Runas desintegradoras] aturde a los jugadores cuando se activa.\r\n\r\n$bullet;[Rugido tectónico] repele a los jugadores y los empuja una distancia considerable.\r\n\r\n$bullet;El impacto de [Agarre de la montaña] hará que [Desechar enclenques] lance a los jugadores por los aires."
+					},
+					{
+						"id": 29749,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Runas desintegradoras] aturde a los jugadores cuando se activa.\r\n\r\n$bullet;[Rugido tectónico] repele a los jugadores y los empuja una distancia considerable.\r\n\r\n$bullet;El impacto de [Agarre de la montaña] hará que [Desechar enclenques] lance a los jugadores por los aires."
+					},
+					{
+						"id": 29748,
+						"title": "DPS",
+						"body_text": "$bullet;[Runas desintegradoras] aturde a los jugadores cuando se activa.\r\n\r\n$bullet;[Rugido tectónico] repele a los jugadores y los empuja una distancia considerable.\r\n\r\n$bullet;El impacto de [Agarre de la montaña] hará que [Desechar enclenques] lance a los jugadores por los aires."
+					}
+				]
+			},
+			{
+				"id": 29750,
+				"title": "Rugido tectónico",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rugido tectónico",
+					"id": 450454
+				}
+			},
+			{
+				"id": 29752,
+				"title": "Embate colosal",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Embate colosal",
+					"id": 450407
+				}
+			},
+			{
+				"id": 29753,
+				"title": "Runas desintegradoras",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Runas desintegradoras",
+					"id": 450677
+				}
+			},
+			{
+				"id": 29754,
+				"title": "Agarre de la montaña",
+				"sections": [
+					{
+						"id": 29755,
+						"title": "Desechar enclenques",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/451702?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Desechar enclenques",
+							"id": 451702
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450929?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agarre de la montaña",
+					"id": 450929
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2625?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2625,
+		"name": "Orta, la montagne brisée",
+		"description": "Pendant longtemps, ce marche-fonds a arpenté les gouffres et les lieux légendaires d’Azj-Kahet. Il avait une voix tonitruante, une volonté de fer et une pugnacité inflexible. Pourtant, aujourd’hui, il se présente devant Azj-Kahet, contaminé par les pustules sombres du Sang noir, attendant que la mort le délivre. Qui osera l’affronter ?",
+		"creatures": [
+			{
+				"id": 5702,
+				"name": "Orta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119835?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119835
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissardes chitineuses robustes",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manteau de gardienne de Dorn",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sceau de la montagne brisée",
+					"id": 225751
+				}
+			},
+			{
+				"id": 44572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collants en vrilles abyssales",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Robe de cherche-lumière",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissières d’étoile cristalline",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tabi de rôdeur des profondeurs",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de l’Aube éclatante",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinture du regard de pierre",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29746,
+				"title": "Vue d’ensemble",
+				"body_text": "Orta fait vibrer les entraves de son infection et fracasse le sol avec [Heurt colossal] tout en invoquant des [Runes de rupture].\r\n\r\nÀ 100 points d’énergie, Orta lance [Rugissement tectonique], ce qui repousse tous les personnages-joueurs.",
+				"sections": [
+					{
+						"id": 29747,
+						"title": "Tanks",
+						"body_text": "$bullet;Les [Runes de rupture] étourdissent les personnages-joueurs au déclenchement.\r\n\r\n$bullet;[Rugissement tectonique] repousse les personnages-joueurs à une certaine distance.\r\n\r\n$bullet;Les personnages-joueurs coincés par [Emprise de la montagne] seront éjectés par [Évacuation des faibles]."
+					},
+					{
+						"id": 29749,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Les [Runes de rupture] étourdissent les personnages-joueurs au déclenchement.\r\n\r\n$bullet;[Rugissement tectonique] repousse les personnages-joueurs à une certaine distance.\r\n\r\n$bullet;Les personnages-joueurs coincés par [Emprise de la montagne] seront éjectés par [Évacuation des faibles]."
+					},
+					{
+						"id": 29748,
+						"title": "DPS",
+						"body_text": "$bullet;Les [Runes de rupture] étourdissent les personnages-joueurs au déclenchement.\r\n\r\n$bullet;[Rugissement tectonique] repousse les personnages-joueurs à une certaine distance.\r\n\r\n$bullet;Les personnages-joueurs coincés par [Emprise de la montagne] seront éjectés par [Évacuation des faibles]."
+					}
+				]
+			},
+			{
+				"id": 29750,
+				"title": "Rugissement tectonique",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rugissement tectonique",
+					"id": 450454
+				}
+			},
+			{
+				"id": 29752,
+				"title": "Heurt colossal",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heurt colossal",
+					"id": 450407
+				}
+			},
+			{
+				"id": 29753,
+				"title": "Runes de rupture",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Runes de rupture",
+					"id": 450677
+				}
+			},
+			{
+				"id": 29754,
+				"title": "Emprise de la montagne",
+				"sections": [
+					{
+						"id": 29755,
+						"title": "Évacuation des faibles",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/451702?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Évacuation des faibles",
+							"id": 451702
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450929?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Emprise de la montagne",
+					"id": 450929
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2625?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2625,
+		"name": "Orta, the Broken Mountain",
+		"description": "Long has this deepwalker strode through the chasms and legends of Azj-Kahet. His voice an earthquake, his will diamond, his strength adamant. Yet now he comes before Azj-Kahet, contaminated by the dark pustules of the black blood, in need of a good death. Who will rise to face him?",
+		"creatures": [
+			{
+				"id": 5702,
+				"name": "Orta",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/119835?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 119835
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 44569,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sturdy Chitinous Striders",
+					"id": 225734
+				}
+			},
+			{
+				"id": 44570,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225735?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dornish Warden's Coat",
+					"id": 225735
+				}
+			},
+			{
+				"id": 44571,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225751?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Seal of the Broken Mountain",
+					"id": 225751
+				}
+			},
+			{
+				"id": 44572,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225733?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Abyssal Tendril Tights",
+					"id": 225733
+				}
+			},
+			{
+				"id": 44573,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225731?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lightseeker's Robes",
+					"id": 225731
+				}
+			},
+			{
+				"id": 44574,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225745?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crystal Star Cuisses",
+					"id": 225745
+				}
+			},
+			{
+				"id": 44575,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225732?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Deep Dweller's Tabi",
+					"id": 225732
+				}
+			},
+			{
+				"id": 44576,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225746?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the Gleaming Dawn",
+					"id": 225746
+				}
+			},
+			{
+				"id": 44577,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/225730?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Stone Gaze Ceinture",
+					"id": 225730
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 29746,
+				"title": "Overview",
+				"body_text": "Orta rattles against the shackles of his infection, shattering the ground with [Colossal Slam] and invoking [Rupturing Runes].\r\n\r\nAt 100 energy, Orta will cast [Tectonic Roar], knocking all players away with his bellow.",
+				"sections": [
+					{
+						"id": 29747,
+						"title": "Tanks",
+						"body_text": "$bullet;[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in [Mountain's Grasp] will be thrown by [Discard Weaklings]."
+					},
+					{
+						"id": 29749,
+						"title": "Healers",
+						"body_text": "$bullet;[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in [Mountain's Grasp] will be thrown by [Discard Weaklings]."
+					},
+					{
+						"id": 29748,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Rupturing Runes] stun players when triggered.\r\n\r\n$bullet;[Tectonic Roar] knocks players back a significant distance.\r\n\r\n$bullet;Players caught in [Mountain's Grasp] will be thrown by [Discard Weaklings]."
+					}
+				]
+			},
+			{
+				"id": 29750,
+				"title": "Tectonic Roar",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450454?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tectonic Roar",
+					"id": 450454
+				}
+			},
+			{
+				"id": 29752,
+				"title": "Colossal Slam",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450407?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colossal Slam",
+					"id": 450407
+				}
+			},
+			{
+				"id": 29753,
+				"title": "Rupturing Runes",
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450677?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rupturing Runes",
+					"id": 450677
+				}
+			},
+			{
+				"id": 29754,
+				"title": "Mountain's Grasp",
+				"sections": [
+					{
+						"id": 29755,
+						"title": "Discard Weaklings",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/451702?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Discard Weaklings",
+							"id": 451702
+						}
+					}
+				],
+				"spell": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/spell/450929?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mountain's Grasp",
+					"id": 450929
+				}
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1278?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Khaz Algar",
+			"id": 1278
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

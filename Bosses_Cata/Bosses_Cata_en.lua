@@ -159,7 +159,7 @@ pack["39700"] = { "Beauty",
 };
 
 pack["39705"] = { "Ascendant Lord Obsidius",
-	"* Ideally have one DPS kite the shadows (using slows); they have no aggro and hit whatever they hit last.",
+	"* Ideally have one DPS kite the shadows (using slows); they have no aggro and hit whatever hit them last.",
 	"* Meanwhile the tank and the rest of the group focus the boss.",
 	"* Every so often the boss will swap with a shadow, and the kiting DPS and the tank will swap mobs."
 };
@@ -311,7 +311,7 @@ pack["43875"] = { "Asaad <Caliph of Zephyrs>",
 pack["23574"] = { "Akil'zon <Eagle Avatar>",
 	"* All apart from +6 yards. |cff71d5ff|Hspell:61911|h[Static Disruption]|h|r increases the damage if there are players around.",
 	"* Full DPS to the white eagle that lifts a player.",
-	"* When |cff71d5ff|Hspell:45336|h[Electrical Overload]|h|r lifts a player all under to avoid damage."
+	"* A player gets lifted for |cff71d5ff|Hspell:45336|h[Electrical Storm]|h|r: everyone stacks under them to avoid the damage."
 };
 
 pack["23576"] = { "Nalorakk <Bear Avatar>",
@@ -344,7 +344,7 @@ pack["24239"] = { "Hex Lord Malacrass",
 };
 
 pack["23863"] = { "Daakara <The Invincible>",
-	"* He will randomly turn into 2 of the previous forms:",
+	"* He will randomly turn into 2 of the 4 forms:",
 	"  - Eagle. Break the lightning totem and avoid the cyclones.",
 	"  - Bear. The healer has to dispel the paralysis and remember the charges.",
 	"  - Lynx. Hard for the healer; kill the 2 small cats as soon as possible. The boss applies random bleeds.",
@@ -433,6 +433,69 @@ pack["47120"] = { "Argaloth",
 	"* At the end of the storm each group returns to its position and the above repeats."
 };
 
+pack["52363"] = { "Occu'thar",
+	"* Nobody crosses his front: the |cff71d5ff|Hspell:-2606|h[Searing Shadows]|h|r is a cone in front of him (melee go behind).",
+	"* The |cff71d5ff|Hspell:-2607|h[Eyes of Occu'thar]|h|r mark every player: after 10s each eye passes through its host (|cff71d5ff|Hspell:-2609|h[Occu'thar's Destruction]|h|r) and kills, so the eyes get burned down fast and the |cff71d5ff|Hspell:-2608|h[Gaze of Occu'thar]|h|r is dodged.",
+	"* The |cff71d5ff|Hspell:-2605|h[Focused Fire]|h|r is a fire pool on the ground under a player: that player moves."
+};
+
+pack["55869"] = { "Alizabal, Mistress of Hate",
+	"* Her |cff71d5ff|Hspell:-4120|h[Skewer]|h|r stuns the tank for 8s: the OT picks up instantly.",
+	"* The |cff71d5ff|Hspell:-4121|h[Seething Hate]|h|r pins a player: the marked one moves away from the rest.",
+	"* The |cff71d5ff|Hspell:-4122|h[Blade Dance]|h|r is growing physical damage every second: full DPS with the healers kept on their toes, finish it fast."
+};
+
+-- -------------------------------------- --
+-- Blackwing Descent : Zone 5094 --
+
+pack["41570"] = { "Magmaw",
+	"* He bites the tank with |cff71d5ff|Hspell:-3314|h[Mangle]|h|r (its |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r melt the armor) and at that moment two chained players ride the pincers: they hook the spike with the |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r and impale him, opening the |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r which takes growing damage.",
+	"* The tank cannot leave him with no melee target: if he cannot reach anyone he goes into |cff71d5ff|Hspell:-3317|h[Molten Tantrum]|h|r.",
+	"* The |cff71d5ff|Hspell:-3312|h[Lava Parasites]|h|r jump on players and keep draining them (|cff71d5ff|Hspell:-3313|h[Parasitic Infection]|h|r): the raid AoEs them down while spreading.",
+	"* The |cff71d5ff|Hspell:-3310|h[Magma Spit]|h|r targets 3 players and the |cff71d5ff|Hspell:-3311|h[Pillar of Flame]|h|r falls at the target's feet, which has to move away.",
+	"* Heroic: lord Nefarius adds the |cff71d5ff|Hspell:-3323|h[Blazing Inferno]|h|r (ground on fire), the |cff71d5ff|Hspell:-3325|h[Blazing Bone Constructs]|h|r of |cff71d5ff|Hspell:-3327|h[Armageddon]|h|r (full damage before they blow) and his |cff71d5ff|Hspell:-3328|h[Shadow Breath]|h|r at 30%."
+};
+
+bos = { "Omnotron Defense System",
+	"* The four golems alternate two at a time: only the ACTIVE one is attacked while the other one recharges.",
+	"* Magmatron: the |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r hits the whole room (constant heals); the |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r marked player runs from the |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r cone and, on heroic, withstands the |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r with heals; his |cff71d5ff|Hspell:-3268|h[Barrier]|h|r is broken down with damage.",
+	"* Arcanotron: the |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffs whoever stands on it (and the golems), so the marked player drags it out of the group; the |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r is interrupted when possible and while the |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r is up NOBODY attacks the shield.",
+	"* Electron: the |cff71d5ff|Hspell:-3202|h[Lightning Conductor]|h|r marked player moves away (damages the nearby ones); keep spread for the |cff71d5ff|Hspell:-3203|h[Electrical Discharge]|h|r and do not attack his |cff71d5ff|Hspell:-3204|h[Unstable Shield]|h|r (heroic: it triggers the |cff71d5ff|Hspell:-3205|h[Shadow Infusion]|h|r).",
+	"* Toxitron: the |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r and their |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% damage taken inside: nobody) and his |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r drops chasing bombs that leave |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r; his |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r is also left alone (it soaks the attacker in poison)."
+};
+pack["42179"] = bos; pack["42178"] = bos; pack["42166"] = bos; pack["42180"] = bos;
+
+pack["41442"] = { "Atramedes",
+	"* The whole fight plays around |cff71d5ff|Hspell:-3072|h[Sound]|h|r: the raid starts at 0 and every sonic effect fills the bar; at 100 he channels |cff71d5ff|Hspell:-3455|h[Devastation]|h|r that kills the raid, so avoiding sound sources is the key.",
+	"* The |cff71d5ff|Hspell:-3073|h[Ancient Dwarven Shields]|h|r (10 scattered) are used at key moments: the |cff71d5ff|Hspell:-3074|h[Resonating Clash]|h|r interrupts him and applies |cff71d5ff|Hspell:-3075|h[Vertigo]|h|r with +50% damage taken.",
+	"* Grounded: the |cff71d5ff|Hspell:-3076|h[Sonar Pulse]|h|r discs chase the target, the |cff71d5ff|Hspell:-3077|h[Modulation]|h|r hits everyone (heals on reserve), the |cff71d5ff|Hspell:-3078|h[Sonic Breath]|h|r chases a player and the |cff71d5ff|Hspell:-3079|h[Searing Flames]|h|r burn the floor.",
+	"* Airborne: his |cff71d5ff|Hspell:-3086|h[Roaring Flame Breath]|h|r and the |cff71d5ff|Hspell:-3087|h[Roaring Flames]|h|r scorch the floor, the |cff71d5ff|Hspell:-3085|h[Sonar Bomb]|h|r lands near a player and the |cff71d5ff|Hspell:-3088|h[Sonic Fireball]|h|r chases the marked one (nobody else in line).",
+	"* Heroic: the |cff71d5ff|Hspell:-3082|h[Obnoxious Fiend]|h|r pesters the raid by buffing Atramedes (burn it down as soon as the raid can)."
+};
+
+pack["43296"] = { "Chimaeron",
+	"* The |cff71d5ff|Hspell:-3009|h[Bile-O-Tron]|h|r (Pip Quickwit's robot) keeps the raid above 10,000 HP: below that the |cff71d5ff|Hspell:-3012|h[Caustic Slime]|h|r straight-up kills, so the healer focuses on keeping everyone's HP topped.",
+	"* The |cff71d5ff|Hspell:-3013|h[Massacre]|h|r leaves everyone at 1% HP (the |cff71d5ff|Hspell:-3010|h[Pip's Mixture]|h|r saves them) and must be healed right after.",
+	"* His |cff71d5ff|Hspell:-3015|h[Break]|h|r stacks +25% physical damage on the tank and the |cff71d5ff|Hspell:-3016|h[Double Attack]|h|r hits twice: the tanks swap every 2 stacks.",
+	"* At 20% he channels |cff71d5ff|Hspell:-3018|h[Mortality]|h|r (taunt-immune and nearly unhealable): full burn with Pip's Mixture carrying the 1%.",
+	"* Heroic: Nefarius fires periodic |cff71d5ff|Hspell:-3020|h[Mocking Shadows]|h|r that damage everyone (area heals ready)."
+};
+
+pack["41378"] = { "Maloriak",
+	"* He pours vials into the cauldron and the color rules: with the |cff71d5ff|Hspell:-2935|h[Red Vial]|h|r he casts |cff71d5ff|Hspell:-2936|h[Consuming Flames]|h|r on a target and the |cff71d5ff|Hspell:-2937|h[Scorching Blast]|h|r splits among whoever is nearby (raid stacked); with the |cff71d5ff|Hspell:-2938|h[Blue Vial]|h|r the |cff71d5ff|Hspell:-2939|h[Biting Chill]|h|r hits whoever is close (raid stacked) and the |cff71d5ff|Hspell:-2940|h[Flash Freeze]|h|r traps players; with the |cff71d5ff|Hspell:-2941|h[Green Vial]|h|r the |cff71d5ff|Hspell:-2942|h[Debilitating Slime]|h|r makes everything take more damage (use it: full DPS).",
+	"* With every vial he frees |cff71d5ff|Hspell:-2931|h[Aberrations]|h|r: they are killed apart, because they buff each other with the |cff71d5ff|Hspell:-2933|h[Growth Catalyst]|h|r.",
+	"* With the |cff71d5ff|Hspell:-2943|h[Dark Magic flask]|h|r (heroic) the |cff71d5ff|Hspell:-2946|h[Vile Swills]|h|r come out puddling with their |cff71d5ff|Hspell:-2947|h[Dark Sludge]|h|r and channeling the |cff71d5ff|Hspell:-2945|h[Engulfing Darkness]|h|r: interrupt it.",
+	"* STAGE 2 (25%): |cff71d5ff|Hspell:-2949|h[Release All]|h|r (aberrations + the 2 |cff71d5ff|Hspell:-2953|h[Prime Subjects]|h|r, kill priority) while dodging the |cff71d5ff|Hspell:-2950|h[Magma Jets]|h|r, the |cff71d5ff|Hspell:-2951|h[Absolute Zero]|h|r detonates far away and the |cff71d5ff|Hspell:-2952|h[Acid Nova]|h|r is a growing dot: heals and final damage."
+};
+
+bos = { "Nefarian",
+	"* Nefarian revives Onyxia (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): if they stay less than 50m apart the |cff71d5ff|Hspell:-3278|h[Children of Deathwing]|h|r doubles their attack speed, so the two dragons are tanked at separate ends.",
+	"* STAGE 1: kill Onyxia first; her |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r builds over time and with every |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r from Nefarian, and a full |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r blasts the room; Nefarian summons |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r before landing and applies |cff71d5ff|Hspell:-3295|h[Dominion]|h|r on a player (heal their |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, do not damage them).",
+	"* STAGE 2 (Onyxia dead): the floor fills with lava and 3 platforms remain, one |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r each: kill the 3 fast because their |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r damage everyone, dodging the |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r and the |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r while he flies.",
+	"* STAGE 3: Nefarian lands and full DPS with lust/heroism, do not drag it out (his |cff71d5ff|Hspell:-3305|h[Shadowflame Spark]|h|r grows and the |cff71d5ff|Hspell:-3306|h[Bone Warriors]|h|r revive with |cff71d5ff|Hspell:-3307|h[Empowered Strikes]|h|r)."
+};
+pack["41376"] = bos; pack["41270"] = bos;
+
 -- -------------------------------------- --
 -- Bastion of Twilight : Zone 5094/5334 --
 -- -------------------------------------- --
@@ -447,7 +510,7 @@ pack["44600"] = { "Halfus Wyrmbreaker",
 pack["45992"] = { "Valiona",
 	"* Theralion will cast |cff71d5ff|Hspell:92909|h[Fabulous Flames]|h|r, so stay spread out until Valiona's first attack.",
 	"* When a player receives |cff71d5ff|Hspell:92878|h[Blackout]|h|r they and the whole party (except the tank) stand at the boss's tail; once everyone is there it gets dispelled to spread the damage.",
-	"* When he casts |cff71d5ff|Hspell:92873|h[Devouring Flames]|h|r everyone stands behind the boss to avoid the damage.",
+	"* When she casts |cff71d5ff|Hspell:92873|h[Devouring Flames]|h|r everyone stands behind the boss to avoid the damage.",
 	"* When he casts |cff71d5ff|Hspell:93063|h[Dazzling Destruction]|h|r circles will appear under 3 players that you must leave;",
 	"  5 seconds later a missile will pull those in the Twilight Realm, which you leave by going to the pink portal without touching the pink balls on the floor."
 };
@@ -479,21 +542,43 @@ pack["43687"] = { "Feludius",
 
 pack["43688"] = { "Arion",
 	"STAGE 2",
+	"* |cff71d5ff|Hspell:-3131|h[Lightning Rod]|h|r marks several players: spread out so the |cff71d5ff|Hspell:-3132|h[Chain Lightning]|h|r does not bounce across the raid.",
+	"* |cff71d5ff|Hspell:-3133|h[Disperse]|h|r teleports him: the |cff71d5ff|Hspell:-3134|h[Lightning Explosion]|h|r lands on his target when he reappears and kills anyone nearby (only the marked player, everyone else out).",
+	"* Before his |cff71d5ff|Hspell:-3130|h[Thunder Shock]|h|r, touch one of the |cff71d5ff|Hspell:-3129|h[Summon Cyclone]|h|r cyclones: the |cff71d5ff|Hspell:-3152|h[Swirling Winds]|h|r (levitation) avoids the electric damage.",
+	"* At 25% he fuses with Terrastra into the Elementium Monstrosity: burn it down fast (see its entry).",
 };
 
 pack["43689"] = { "Terrastra",
 	"STAGE 2",
+	"* |cff71d5ff|Hspell:-3138|h[Eruption]|h|r: rocks come up around her, the tank moves her and nobody stands on them.",
+	"* Levitated players (from the cyclones) must touch a |cff71d5ff|Hspell:-3136|h[Gravity Well]|h|r to land before the |cff71d5ff|Hspell:-3139|h[Quake]|h|r: those in the air take the worst hit.",
+	"* |cff71d5ff|Hspell:-3137|h[Harden Skin]|h|r buffs her and absorbs damage: the DPS burn it off.",
 };
 
 pack["43735"] = { "Elementium Monstrosity",
 	"STAGE 3",
-	"* Hero, lust, etc... must be saved for this phase, which is a DPS race",
+	"* Hero, lust, etc... must be saved for this phase, which is a DPS race.",
+	"* |cff71d5ff|Hspell:-3146|h[Electric Instability]|h|r: growing nature damage every 1s, spread the raid a bit and melee do not stack on the tank.",
+	"* |cff71d5ff|Hspell:-3147|h[Gravity Crush]|h|r traps a player in a bubble that lifts them: the rest break the bubble out.",
+	"* |cff71d5ff|Hspell:-3148|h[Lava Seed]|h|r seeds the ground with bursting seeds: dodge them, do not step on them.",
+	"* |cff71d5ff|Hspell:-3149|h[Cryogenic Aura]|h|r freezes the floor (hard to move) and reduces the damage she takes by 25%.",
 };
 
 pack["43324"] = { "Cho'gall",
+	"* The |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r fills the Corruption bar with every ability: at 25% it speeds up, at 50% continuous daze, at 75% a tentacular malformation and at 100% you lose control of your character — keeping it low takes turns, that is the key to the fight.",
+	"* The |cff71d5ff|Hspell:-3161|h[Twilight Zealot]|h|r come out of the side portals: DPS/CC and kill them fast, their |cff71d5ff|Hspell:-3162|h[Depravity]|h|r is area damage.",
+	"* The mace alternates |cff71d5ff|Hspell:-3156|h[Order of the Flame]|h|r and |cff71d5ff|Hspell:-3158|h[Order of Shadow]|h|r: with flame, the tank keeps the boss away from the raid because of the |cff71d5ff|Hspell:-3211|h[Flare]|h|r; with shadow, spread out a little.",
+	"* The |cff71d5ff|Hspell:-3155|h[Conversion]|h|r enslaves players: break the worship out with stuns/interrupts (every cheer buffs Cho'gall with |cff71d5ff|Hspell:-3209|h[Perverted Devotion]|h|r).",
+	"* Cho'gall's |cff71d5ff|Hspell:-3160|h[Summonings]|h|r leave corpses from which |cff71d5ff|Hspell:-3216|h[Old God Blood]|h|r is born — kill them away from the raid's path.",
+	"* STAGE 2 at 25%: the |cff71d5ff|Hspell:-3218|h[Old God Corruption]|h|r fills the room with tentacles — full DPS with Hero/lust, watch the |cff71d5ff|Hspell:-3220|h[Darkened Creations]|h|r: their |cff71d5ff|Hspell:-3221|h[Debilitating Beam]|h|r cuts healing by 75%, the marked player separates.",
 };
 
 pack["45213"] = { "Sinestra",
+	"* 25 heroic only. STAGE 1 (until 30%): she flies and has to be burned from below; the |cff71d5ff|Hspell:-3229|h[Twilight Slicers]|h|r orbs chase a player from the air: the marked one runs far away and, when an orb dies, nobody stands in front of it (the |cff71d5ff|Hspell:-3230|h[Twilight Blast]|h|r).",
+	"* The |cff71d5ff|Hspell:-3227|h[Wrack]|h|r lands on a player with growing damage and will JUMP to another nearby player when its time runs out: the marked one separates from the raid and the healers carry it to the limit.",
+	"* The |cff71d5ff|Hspell:-3231|h[Twilight Whelps]|h|r drop with their |cff71d5ff|Hspell:-3232|h[Twilight Spit]|h|r on a player: one group kites them to the back and kills them fast, without stepping on the |cff71d5ff|Hspell:-3233|h[Twilight Essence]|h|r pools.",
+	"* STAGE 2 (at 30%): Calen starts his duel and the |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r are exposed after each |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r full damage on the eggs in every window; the |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r arrive and their |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r is interrupted (the |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r punishes long CC), and the |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r sweep in with their |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r.",
+	"* STAGE 3 (eggs dead): the |cff71d5ff|Hspell:-3246|h[Essence of the Red]|h|r buffs the raid and full DPS to finish."
 };
 
 -- ------------------------------------------------- --
@@ -502,31 +587,89 @@ pack["45213"] = { "Sinestra",
 
 pack["45870"] = { "Anshal",
 	"GENERAL NOTES",
-	"This encounter consists of 3 elemental lords, Anshal, Nezir and Rohash, with an 8 minute enrage",
-	"All three must be killed with a maximum difference of one minute or they resurrect",
-	"The bosses have an energy bar that, when it fills up (at 90), makes them use their special abilities; platform movements must be made when their bar reaches 80 at the latest",
+	"* This encounter consists of 3 elemental lords, Anshal, Nezir and Rohash, with an 8 minute enrage",
+	"All three must be killed with a maximum difference of one minute or they resurrect.",
+	"* The bosses have an energy bar that, when it fills up (at 90), makes them use their special abilities; platform movements must be made when their bar reaches 80 at the latest",
 	"Strategy:",
-	"4 Groups: 1st: 1 Tank, 1 Healer, 1 Dps[Anshal]; 2nd: 1 Tank and 1 Healer (preferably holy paladin because they can remove their own debuffs); 3rd: 1 Dps and 1 Healer [Rohash]; 4th: Mobile group with 3 Dps",
-	"Optimize the dps on all three so they go down similarly",
-	" ",
-	"Anshal platform: periodically casts |cff71d5ff|Hspell:86205|h[Soothing Breeze]|h|r, healing Anshal and his allies (creepers) while silencing the raid",
-	"He casts |cff71d5ff|Hspell:85422|h[Nurture]|h|r which summons creepers that in turn use |cff71d5ff|Hspell:93121|h[Toxic Spores]|h|r",
-	"Special: |cff71d5ff|Hspell:84638|h[Zephyr]|h|r - make sure there are no creepers before the special ability",
+	"* 4 groups: 1st: 1 tank, 1 healer and 1 dps [Anshal]; 2nd: 1 tank and 1 healer (preferably holy paladin, because they can remove their own debuffs); 3rd: 1 dps and 1 healer [Rohash]; 4th: mobile group with 3 dps",
+	"* Optimize the dps on all three so they go down similarly",
+
+	"* Anshal platform: periodically casts |cff71d5ff|Hspell:86205|h[Soothing Breeze]|h|r, healing Anshal and his allies (creepers) while silencing the raid.",
+	"* He casts |cff71d5ff|Hspell:85422|h[Nurture]|h|r which summons creepers that in turn use |cff71d5ff|Hspell:93121|h[Toxic Spores]|h|r",
+	"* Special: |cff71d5ff|Hspell:84638|h[Zephyr]|h|r - make sure there are no creepers before the special ability",
 };
 
 pack["45872"] = { "Rohash",
 	"Abilities:",
-	"|cff71d5ff|Hspell:86193|h[Wind Blast]|h|r, his most dangerous ability; whoever is in front of him when he uses it will be pushed back 200 meters",
-	"|cff71d5ff|Hspell:86182|h[Slicing Gale]|h|r, ranged attack",
-	"Special: |cff71d5ff|Hspell:86481|h[Hurricane]|h|r - the biggest damage is from the fall (about 70Ks), so everyone who can should use cat form, slow fall, etc"
+	"* |cff71d5ff|Hspell:86193|h[Wind Blast]|h|r, his most dangerous ability; whoever is in front of him when he uses it will be pushed back 200 meters.",
+	"* |cff71d5ff|Hspell:86182|h[Slicing Gale]|h|r, ranged attack.",
+	"* Special: |cff71d5ff|Hspell:86481|h[Hurricane]|h|r - the biggest damage is from the fall (about 70k), so everyone who can should use cat form, slow fall, etc."
 };
 
 pack["45871"] = { "Nezir",
 	"Abilities:",
-	"|cff71d5ff|Hspell:86082|h[Permafrost]|h|r, which forces you to stay spread out",
-	"|cff71d5ff|Hspell:93130|h[Ice Patch]|h|r, leave its area of effect IMMEDIATELY",
-	"|cff71d5ff|Hspell:84645|h[Chilling Winds]|h|r, the most dangerous ability; it forces tanks/healers to swap platforms when they can't heal the damage (stacks) (Anshal-Nezir)",
-	"Special: |cff71d5ff|Hspell:84644|h[Hailstorm]|h|r",
+	"* |cff71d5ff|Hspell:86082|h[Permafrost]|h|r, which forces you to stay spread out.",
+	"* |cff71d5ff|Hspell:93130|h[Ice Patch]|h|r, leave its area of effect IMMEDIATELY.",
+	"* |cff71d5ff|Hspell:84645|h[Chilling Winds]|h|r, the most dangerous ability; it forces tanks/healers to swap platforms when they can't heal the damage (stacks) (Anshal-Nezir).",
+	"* Special: |cff71d5ff|Hspell:84644|h[Hailstorm]|h|r",
+};
+
+pack["46753"] = { "Al'Akir",
+	"* STAGE 1 (until 80%): the |cff71d5ff|Hspell:-3022|h[Wind Burst]|h|r and the |cff71d5ff|Hspell:-3023|h[Squall Line]|h|r hit with spread (separate), the |cff71d5ff|Hspell:-3024|h[Ice Storms]|h|r crawl the floor (dodge) and the |cff71d5ff|Hspell:-3025|h[Lightning Strike]|h|r punishes the marked one.",
+	"* STAGE 2: the |cff71d5ff|Hspell:-3032|h[Acid Rain]|h|r keeps growing over time (full DPS to not drag it out) and the |cff71d5ff|Hspell:-3033|h[Stormlings]|h|r are left alive: if anyone kills one, its |cff71d5ff|Hspell:-3034|h[Feedback]|h|r buffs Al'Akir.",
+	"* STAGE 3 (at 25%): the platform shatters and everyone flies with the |cff71d5ff|Hspell:-3037|h[Eye of the Storm]|h|r: full DPS; the |cff71d5ff|Hspell:-3039|h[Lightning Rod]|h|r marked one moves away and the |cff71d5ff|Hspell:-3040|h[Lightning Clouds]|h|r are dodged."
+};
+
+-- ------------------------------- --
+-- Firelands : Zone 5043 --
+
+pack["52498"] = { "Beth'tilac",
+	"* STAGE 1: she is up on her web, the raid fights below, and the |cff71d5ff|Hspell:-2773|h[Cinderweb Drones]|h|r are killed before they fill up with fire (they eat the |cff71d5ff|Hspell:-2778|h[Cinderweb Broodlings]|h|r to heal: kill the broodlings first).",
+	"* The tank taunts a |cff71d5ff|Hspell:-2770|h[Cinderweb Spinner]|h|r down, with the group stacked (its |cff71d5ff|Hspell:-2772|h[Igneous Web Spin]|h|r stuns the marked one for 25s): full DPS.",
+	"* The team up top watches her |cff71d5ff|Hspell:-2765|h[Fire Energy]|h|r: when it depletes she casts |cff71d5ff|Hspell:-2769|h[Smoldering Devastation]|h|r that razes her level, so the top team must drop BEFORE (it happens 3 times and then she enters the |cff71d5ff|Hspell:-2782|h[STAGE 2]|h|r frenzy).",
+	"* STAGE 2: she comes down and burns to the end; the tank eats the |cff71d5ff|Hspell:-2783|h[Widow's Kiss]|h|r (drains healing: heals to the max) and the |cff71d5ff|Hspell:-2784|h[Ember Flares]|h|r punish the close ones."
+};
+
+pack["52558"] = { "Lord Rhyolith",
+	"* STAGE 1 (until 25%): he is not tanked, he is STEERED: the raid hits his left or right foot to turn him, and he must be steered away from the |cff71d5ff|Hspell:-2530|h[magma]|h|r and the big |cff71d5ff|Hspell:-2534|h[volcanoes]|h|r (the small |cff71d5ff|Hspell:-2535|h[craters]|h|r are extinguished by DPS).",
+	"* His |cff71d5ff|Hspell:-2527|h[Obsidian Armor]|h|r piles layers that reduce the damage he takes: grind it down with damage; with every volcano |cff71d5ff|Hspell:-2531|h[fragments]|h|r and |cff71d5ff|Hspell:-2532|h[sparks]|h|r of Rhyolith spawn and gain |cff71d5ff|Hspell:-2533|h[Infernal Rage]|h|r, so they are killed fast.",
+	"* His |cff71d5ff|Hspell:-2528|h[Concussive Stomp]|h|r hits everyone now and then: periodic heals.",
+	"* STAGE 2 (at 25%): steering ends and the |cff71d5ff|Hspell:-2538|h[Immolation]|h|r damages everyone in a growing way: full DPS with lust/heroism, dodging the |cff71d5ff|Hspell:-2539|h[Unleashed Flame]|h|r."
+};
+
+pack["52530"] = { "Alysrazor",
+	"* STAGE 1: she flies, the raid fights below: two players collect |cff71d5ff|Hspell:-2828|h[Molten Feathers]|h|r (three give |cff71d5ff|Hspell:-2829|h[Wings of Flame]|h|r to fly and help up top), the |cff71d5ff|Hspell:-2836|h[Voracious Hatchlings]|h|r are tanked apart (fed with the |cff71d5ff|Hspell:-2843|h[Plump Lava Worms]|h|r) and the two |cff71d5ff|Hspell:-2834|h[Blazing Talon Initiates]|h|r die fast (with the |cff71d5ff|Hspell:-3335|h[Blazing Shield]|h|r: full DPS).",
+	"* The |cff71d5ff|Hspell:-2845|h[Herald of the Burning End]|h|r comes at the end of the stage: his |cff71d5ff|Hspell:-2846|h[Cataclysm]|h|r summons the |cff71d5ff|Hspell:-2847|h[Molten Meteor]|h|r (full DPS before it lands).",
+	"* STAGE 2: she enters the |cff71d5ff|Hspell:-2849|h[Fiery Vortex]|h|r (immobilized): full DPS with lust/heroism; the fliers dodge the |cff71d5ff|Hspell:-2850|h[Fiery Tornadoes]|h|r and those below the |cff71d5ff|Hspell:-3332|h[Harsh Winds]|h|r.",
+	"* STAGE 3 (as her power runs out): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r with the |cff71d5ff|Hspell:-2853|h[Essence of the Green]|h|r (flight for everyone) and full DPS before she recovers; if the fight reaches STAGE 4 she is reborn at full power (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) and the cycle repeats: the fewer cycles the better."
+};
+
+pack["53691"] = { "Shannox",
+	"* Two-tank job: one holds |cff71d5ff|Hspell:-2581|h[Riplimb]|h|r and the other |cff71d5ff|Hspell:-2583|h[Rageface]|h|r, far from Shannox, because killing the first dog grants him the |cff71d5ff|Hspell:-2580|h[Frenzy]|h|r.",
+	"* Rageface dies first: his |cff71d5ff|Hspell:-2584|h[Face Rage]|h|r devours the marked one (full DPS to finish him before); then Riplimb, and Shannox last.",
+	"* Shannox's |cff71d5ff|Hspell:-2577|h[Arcing Slash]|h|r leaves the |cff71d5ff|Hspell:-2578|h[Jagged Tear]|h|r (heavy bleed on the tank): the healer covers it; with the |cff71d5ff|Hspell:-2579|h[Hurl Spear]|h|r Riplimb runs to fetch it (the tanks use it to reposition).",
+	"* His |cff71d5ff|Hspell:-2575|h[Immolation Traps]|h|r and |cff71d5ff|Hspell:-2576|h[Crystal Prison Traps]|h|r land near the dogs: whoever is close moves aside (got caught is fatal, above all on heroic), and the ground's |cff71d5ff|Hspell:-2928|h[Magma Ruptures]|h|r are dodged."
+};
+
+pack["53494"] = { "Baleroc, the Gatekeeper",
+	"* The |cff71d5ff|Hspell:-2592|h[Shard of Torment]|h|r channels the |cff71d5ff|Hspell:-2593|h[Torment]|h|r on a player, who takes growing damage: move away from the shard when the damage bites; if it is not interrupted in time the |cff71d5ff|Hspell:-2595|h[Wave of Torment]|h|r comes out.",
+	"* The healers split up: two or three stand by the shard collecting |cff71d5ff|Hspell:-2596|h[Vital Sparks]|h|r (each one strengthens their heals with the |cff71d5ff|Hspell:-2597|h[Vital Flame]|h|r) and the rest heal the Torment target.",
+	"* With the |cff71d5ff|Hspell:-2599|h[Decimation Blade]|h|r his swings hit with shadow and with the |cff71d5ff|Hspell:-2600|h[Inferno Blade]|h|r with fire: the tanks swap while the |cff71d5ff|Hspell:-2590|h[Blaze of Glory]|h|r (his buff) stacks up.",
+	"* Heroic: the |cff71d5ff|Hspell:-2601|h[Countdown]|h|r pairs players: the pairs stay close to each other and away from the rest when it blows."
+};
+
+pack["52571"] = { "Majordomo Staghelm",
+	"* Every |cff71d5ff|Hspell:-2912|h[Shapeshift]|h|r rules: in |cff71d5ff|Hspell:-2913|h[cat form]|h|r he leaps |cff71d5ff|Hspell:-2914|h[Leaping Flames]|h|r after the target (leaving fire trails on the floor) and in |cff71d5ff|Hspell:-2918|h[scorpion form]|h|r the |cff71d5ff|Hspell:-2919|h[Flame Scythe]|h|r punishes whoever is hitting him (the melee eats it with heals).",
+	"* The |cff71d5ff|Hspell:-2916|h[Adrenaline]|h|r builds with every repeated cast: the longer the fight drags the more it hurts, so full DPS.",
+	"* In |cff71d5ff|Hspell:-2922|h[night elf form]|h|r (mid-fight) he grabs the close ones with the |cff71d5ff|Hspell:-2923|h[Fiery Cyclone]|h|r (spread), drops |cff71d5ff|Hspell:-2924|h[Searing Seeds]|h|r under the marked one (move far before they explode) and throws the chasing |cff71d5ff|Hspell:-2925|h[Burning Orbs]|h|r (dodge them away from the raid)."
+};
+
+pack["52409"] = { "Ragnaros",
+	"* STAGE 1: the |cff71d5ff|Hspell:-2631|h[Lava Wave]|h|r born from each |cff71d5ff|Hspell:-2630|h[Sulfuras Smash]|h|r is dodged to a side, and the |cff71d5ff|Hspell:-2634|h[Magma Traps]|h|r are blown ONE AT A TIME with everyone at full HP (the |cff71d5ff|Hspell:-2635|h[Magma Trap Eruption]|h|r damages everyone).",
+	"* In the INTERMISSION the |cff71d5ff|Hspell:-2637|h[Sons of Flame]|h|r chase the marked one, who runs far from the raid while they take full DPS; nobody crosses their path because of the final |cff71d5ff|Hspell:-2639|h[Supernova]|h|r.",
+	"* STAGE 2: the |cff71d5ff|Hspell:-2643|h[Engulfing Flame]|h|r is the front cone (out), the |cff71d5ff|Hspell:-2644|h[World in Flames]|h|r burns whole sectors (nobody inside) and the |cff71d5ff|Hspell:-2645|h[Molten Seeds]|h|r blow up under the marked one (move far; the leftover |cff71d5ff|Hspell:-2647|h[Molten Elementals]|h|r get AoE'd down).",
+	"* STAGE 3 (at 40%): the |cff71d5ff|Hspell:-2661|h[Living Meteor]|h|r chases a player (run far from the raid; whoever crosses it gives it |cff71d5ff|Hspell:-2663|h[Fuel]|h|r) and the |cff71d5ff|Hspell:-2658|h[Engulfing Flame]|h|r and the |cff71d5ff|Hspell:-2659|h[World in Flames]|h|r keep going.",
+	"* Heroic (STAGE 4): with the allies (Cenarius, Hamuul and Malfurion) backing them up, full DPS; his |cff71d5ff|Hspell:-2680|h[Superheated]|h|r, the |cff71d5ff|Hspell:-2681|h[Empower Sulfuras]|h|r (|cff71d5ff|Hspell:-2682|h[Flames of Sulfuras]|h|r) and the |cff71d5ff|Hspell:-2683|h[Dreadflame]|h|r punish the room."
 };
 
 -- ============================================= --

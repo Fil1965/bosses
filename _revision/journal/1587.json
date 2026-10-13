@@ -1,0 +1,1755 @@
+{
+	"id": 1587,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1587?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1587,
+		"name": "Relicario de Almas",
+		"creatures": [
+			{
+				"id": 3832,
+				"name": "Esencia de sufrimiento",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21483?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21483
+				}
+			},
+			{
+				"id": 3831,
+				"name": "Esencia de deseo",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21485?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21485
+				}
+			},
+			{
+				"id": 3830,
+				"name": "Esencia de inquina",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21484?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21484
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 34393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de la estabilidad",
+					"id": 150485
+				}
+			},
+			{
+				"id": 26336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vara de vida bendecida por los naaru",
+					"id": 32363
+				}
+			},
+			{
+				"id": 26337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del destino potenciado",
+					"id": 32354
+				}
+			},
+			{
+				"id": 26338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de elunita potenciados",
+					"id": 32351
+				}
+			},
+			{
+				"id": 26339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Toque de inspiración",
+					"id": 32350
+				}
+			},
+			{
+				"id": 26340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del Remiendaolas",
+					"id": 32517
+				}
+			},
+			{
+				"id": 26341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collar translúcido de hilo mágico",
+					"id": 32349
+				}
+			},
+			{
+				"id": 26342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Colgante de los titanes",
+					"id": 32362
+				}
+			},
+			{
+				"id": 26343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de ira",
+					"id": 122107
+				}
+			},
+			{
+				"id": 26344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fe indefectible",
+					"id": 32353
+				}
+			},
+			{
+				"id": 26345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Antorcha de los Malditos",
+					"id": 32332
+				}
+			},
+			{
+				"id": 26346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de deseo",
+					"id": 122109
+				}
+			},
+			{
+				"id": 26347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pisadas del celador de la naturaleza",
+					"id": 32352
+				}
+			},
+			{
+				"id": 26348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragmento de sufrimiento",
+					"id": 122108
+				}
+			},
+			{
+				"id": 26349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de tejido de hueso",
+					"id": 32346
+				}
+			},
+			{
+				"id": 26350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de condenación",
+					"id": 32347
+				}
+			},
+			{
+				"id": 26351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas pavorosas de la Legión",
+					"id": 32345
+				}
+			},
+			{
+				"id": 34143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brazales de elunita potenciados",
+					"id": 150503
+				}
+			},
+			{
+				"id": 34144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Corona del destino potenciado",
+					"id": 150506
+				}
+			},
+			{
+				"id": 34145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de tejido de hueso",
+					"id": 150498
+				}
+			},
+			{
+				"id": 34146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Manto del Remiendaolas",
+					"id": 150531
+				}
+			},
+			{
+				"id": 34147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Antorcha de los Malditos",
+					"id": 150484
+				}
+			},
+			{
+				"id": 34148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Guantes de fe indefectible",
+					"id": 150505
+				}
+			},
+			{
+				"id": 34149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pisadas del celador de la naturaleza",
+					"id": 150504
+				}
+			},
+			{
+				"id": 34150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mandiletes de condenación",
+					"id": 150499
+				}
+			},
+			{
+				"id": 34151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Botas pavorosas de la Legión",
+					"id": 150497
+				}
+			},
+			{
+				"id": 34152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Vara de vida bendecida por los naaru",
+					"id": 150509
+				}
+			},
+			{
+				"id": 34153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Hombreras maldición de sangre",
+					"id": 150490
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 15661,
+				"title": "Resumen",
+				"body_text": "El Relicario de Almas emplea tres esencias distintas durante el transcurso del encuentro. Cada una conlleva efectos únicos con los que hay que lidiar de forma distinta.\r\n\r\nEn primer lugar, la esencia de sufrimiento siempre golpea al jugador más cercano y aflige a la banda con [Aura de sufrimiento].\r\n\r\nEn segundo lugar, la esencia de deseo aflige a la banda con [Aura de deseo].\r\n\r\nPor último, los jugadores deben derrotar a la esencia de inquina, que aflige a la banda con [Aura de inquina].",
+				"sections": [
+					{
+						"id": 15662,
+						"title": "DPS",
+						"body_text": "$bullet;Evita hacerte mucho daño durante la [Aura de deseo].\r\n$bullet;Controla tu nivel de amenaza cuando [Hervor] esté activo."
+					},
+					{
+						"id": 15663,
+						"title": "Sanadores",
+						"body_text": "$bullet;Vigila tu maná durante la [Aura de sufrimiento].\r\n$bullet;Disipa [Drenaje de alma] rápidamente.\r\n$bullet;Regenera maná gracias a las almas esclavizadas durante la fase intermedia."
+					},
+					{
+						"id": 15664,
+						"title": "Tanques",
+						"body_text": "$bullet;Mientras la esencia de deseo esté activa, ten cuidado con [Embotado].\r\n$bullet;Si utilizas algún efecto de provocación mientras está activa la esencia de inquina, causarás [Hervor].\r\n$bullet;Coloca a la esencia de inquina de espaldas a tus aliados para evitar que reciban daño de [Alarido del alma]."
+					}
+				]
+			},
+			{
+				"id": 15665,
+				"title": "Fase 1: Esencia de Sufrimiento",
+				"sections": [
+					{
+						"id": 15666,
+						"title": "Aura de Sufrimiento",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41292?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura de Sufrimiento",
+							"id": 41292
+						}
+					},
+					{
+						"id": 15667,
+						"title": "Fijar",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41294?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fijar",
+							"id": 41294
+						}
+					},
+					{
+						"id": 15668,
+						"title": "Frenesí",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41305?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Frenesí",
+							"id": 41305
+						}
+					},
+					{
+						"id": 15669,
+						"title": "Drenaje de alma",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41303?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Drenaje de alma",
+							"id": 41303
+						}
+					}
+				]
+			},
+			{
+				"id": 15670,
+				"title": "Intermedio: Liberar almas esclavizadas",
+				"sections": [
+					{
+						"id": 15671,
+						"title": "Alma esclavizada",
+						"sections": [
+							{
+								"id": 15672,
+								"title": "Liberación de alma",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Liberación de alma",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15673,
+				"title": "Fase 2: Esencia de deseo",
+				"sections": [
+					{
+						"id": 15674,
+						"title": "Aura de Deseo",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41350?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura de Deseo",
+							"id": 41350
+						}
+					},
+					{
+						"id": 15675,
+						"title": "Embotado",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Embotado",
+							"id": 41410
+						}
+					},
+					{
+						"id": 15676,
+						"title": "Choque de espíritu",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Choque de espíritu",
+							"id": 41426
+						}
+					},
+					{
+						"id": 15677,
+						"title": "Escudo de runa",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41431?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Escudo de runa",
+							"id": 41431
+						}
+					}
+				]
+			},
+			{
+				"id": 15678,
+				"title": "Intermedio: Liberar almas esclavizadas",
+				"sections": [
+					{
+						"id": 15679,
+						"title": "Alma esclavizada",
+						"sections": [
+							{
+								"id": 15680,
+								"title": "Liberación de alma",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Liberación de alma",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15681,
+				"title": "Fase 3: Esencia de inquina",
+				"sections": [
+					{
+						"id": 15682,
+						"title": "Aura de inquina",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura de inquina",
+							"id": 41337
+						}
+					},
+					{
+						"id": 15683,
+						"title": "Hervir de furia",
+						"sections": [
+							{
+								"id": 15684,
+								"title": "Hervir de furia",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41520?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Hervir de furia",
+									"id": 41520
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41364?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Hervir de furia",
+							"id": 41364
+						}
+					},
+					{
+						"id": 15685,
+						"title": "Alarido del alma",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41545?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Alarido del alma",
+							"id": 41545
+						}
+					},
+					{
+						"id": 15686,
+						"title": "Maldad",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41376?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Maldad",
+							"id": 41376
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/751?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Templo Oscuro",
+			"id": 751
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1587?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1587,
+		"name": "Reliquaire des âmes",
+		"creatures": [
+			{
+				"id": 3832,
+				"name": "Essence de souffrance",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21483?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21483
+				}
+			},
+			{
+				"id": 3831,
+				"name": "Essence de désir",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21485?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21485
+				}
+			},
+			{
+				"id": 3830,
+				"name": "Essence de colère",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21484?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21484
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 34393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de la stabilité",
+					"id": 150485
+				}
+			},
+			{
+				"id": 26336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâtonnet de vie béni par les Naaru",
+					"id": 32363
+				}
+			},
+			{
+				"id": 26337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du destin investi",
+					"id": 32354
+				}
+			},
+			{
+				"id": 26338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards investis en élunite",
+					"id": 32351
+				}
+			},
+			{
+				"id": 26339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pointe d'inspiration",
+					"id": 32350
+				}
+			},
+			{
+				"id": 26340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Le mantelet du soigne-vague",
+					"id": 32517
+				}
+			},
+			{
+				"id": 26341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Collier en fil ensorcelé translucide",
+					"id": 32349
+				}
+			},
+			{
+				"id": 26342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendentif du Titan",
+					"id": 32362
+				}
+			},
+			{
+				"id": 26343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment de colère",
+					"id": 122107
+				}
+			},
+			{
+				"id": 26344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la foi indéfectible",
+					"id": 32353
+				}
+			},
+			{
+				"id": 26345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torche des damnés",
+					"id": 32332
+				}
+			},
+			{
+				"id": 26346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment de désir",
+					"id": 122109
+				}
+			},
+			{
+				"id": 26347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de gardien de la nature",
+					"id": 32352
+				}
+			},
+			{
+				"id": 26348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment de souffrance",
+					"id": 122108
+				}
+			},
+			{
+				"id": 26349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon en tisse-os",
+					"id": 32346
+				}
+			},
+			{
+				"id": 26350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de damnation",
+					"id": 32347
+				}
+			},
+			{
+				"id": 26351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'effroi de la Légion",
+					"id": 32345
+				}
+			},
+			{
+				"id": 34143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Brassards investis en élunite",
+					"id": 150503
+				}
+			},
+			{
+				"id": 34144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Couronne du destin investi",
+					"id": 150506
+				}
+			},
+			{
+				"id": 34145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon en tisse-os",
+					"id": 150498
+				}
+			},
+			{
+				"id": 34146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Le mantelet du soigne-vague",
+					"id": 150531
+				}
+			},
+			{
+				"id": 34147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torche des damnés",
+					"id": 150484
+				}
+			},
+			{
+				"id": 34148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gants de la foi indéfectible",
+					"id": 150505
+				}
+			},
+			{
+				"id": 34149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottines de gardien de la nature",
+					"id": 150504
+				}
+			},
+			{
+				"id": 34150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Poignes de damnation",
+					"id": 150499
+				}
+			},
+			{
+				"id": 34151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bottes d'effroi de la Légion",
+					"id": 150497
+				}
+			},
+			{
+				"id": 34152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bâtonnet de vie béni par les Naaru",
+					"id": 150509
+				}
+			},
+			{
+				"id": 34153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Protège-épaules au sang maudit",
+					"id": 150490
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 15661,
+				"title": "Vue d’ensemble",
+				"body_text": "Le Reliquaire des âmes fait apparaître 3 essences différentes au cours de l’affrontement, chacune ayant des effets uniques qui doivent être gérés différemment.\r\n\r\nTout d’abord, l’essence de la souffrance frappe toujours le personnage-joueur le plus proche et inflige [Aura de la souffrance] au raid.\r\n\r\nEnsuite, l’essence du désir frappe le raid avec [Aura du désir].\r\n\r\nPour finir, les personnages-joueurs doivent vaincre l’essence de la colère qui inflige [Aura de la colère] au raid.",
+				"sections": [
+					{
+						"id": 15662,
+						"title": "DPS",
+						"body_text": "$bullet; Évitez de subir d’importants dégâts pendant [Aura du désir].\r\n$bullet; Surveillez votre menace lorsque [Bouillant de rage] est actif."
+					},
+					{
+						"id": 15663,
+						"title": "Soigneurs",
+						"body_text": "$bullet; Gardez un œil sur votre mana pendant [Aura de la souffrance].\r\n$bullet; Dissipez rapidement [Drain d’âme].\r\n$bullet; Régénérez votre mana grâce aux âmes asservies pendant la phase d’intervalle."
+					},
+					{
+						"id": 15664,
+						"title": "Tanks",
+						"body_text": "$bullet; Lorsque l’essence du désir est active, prenez garde à [Émousser].\r\n$bullet; Utiliser un effet de provocation lorsque l’essence de la colère est active entraîne [Bouillant de rage].\r\n$bullet; Détournez l’essence de la colère de vos alliés afin d’éviter les dégâts de [Cri de l’âme]."
+					}
+				]
+			},
+			{
+				"id": 15665,
+				"title": "Phase 1 : Essence de la souffrance",
+				"sections": [
+					{
+						"id": 15666,
+						"title": "Aura de la souffrance",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41292?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura de la souffrance",
+							"id": 41292
+						}
+					},
+					{
+						"id": 15667,
+						"title": "Fixer",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41294?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fixer",
+							"id": 41294
+						}
+					},
+					{
+						"id": 15668,
+						"title": "Frénésie",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41305?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Frénésie",
+							"id": 41305
+						}
+					},
+					{
+						"id": 15669,
+						"title": "Drain d'âme",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41303?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Drain d'âme",
+							"id": 41303
+						}
+					}
+				]
+			},
+			{
+				"id": 15670,
+				"title": "Intervalle : Libération des âmes asservies",
+				"sections": [
+					{
+						"id": 15671,
+						"title": "Âme asservie",
+						"sections": [
+							{
+								"id": 15672,
+								"title": "Libération de l'âme",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Libération de l'âme",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15673,
+				"title": "Phase 2 : Essence du désir",
+				"sections": [
+					{
+						"id": 15674,
+						"title": "Aura du désir",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41350?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura du désir",
+							"id": 41350
+						}
+					},
+					{
+						"id": 15675,
+						"title": "Emousser",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Emousser",
+							"id": 41410
+						}
+					},
+					{
+						"id": 15676,
+						"title": "Choc spirituel",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Choc spirituel",
+							"id": 41426
+						}
+					},
+					{
+						"id": 15677,
+						"title": "Bouclier runique",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41431?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Bouclier runique",
+							"id": 41431
+						}
+					}
+				]
+			},
+			{
+				"id": 15678,
+				"title": "Intervalle : Libération des âmes asservies",
+				"sections": [
+					{
+						"id": 15679,
+						"title": "Âme asservie",
+						"sections": [
+							{
+								"id": 15680,
+								"title": "Libération de l'âme",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Libération de l'âme",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15681,
+				"title": "Phase 3 : Essence de la colère",
+				"sections": [
+					{
+						"id": 15682,
+						"title": "Aura de la colère",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura de la colère",
+							"id": 41337
+						}
+					},
+					{
+						"id": 15683,
+						"title": "Bouillant de rage",
+						"sections": [
+							{
+								"id": 15684,
+								"title": "Bouillant de rage",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41520?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Bouillant de rage",
+									"id": 41520
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41364?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Bouillant de rage",
+							"id": 41364
+						}
+					},
+					{
+						"id": 15685,
+						"title": "Cri de l'âme",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41545?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Cri de l'âme",
+							"id": 41545
+						}
+					},
+					{
+						"id": 15686,
+						"title": "Dépit",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41376?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Dépit",
+							"id": 41376
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/751?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Le Temple noir",
+			"id": 751
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/1587?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 1587,
+		"name": "Reliquary of Souls",
+		"creatures": [
+			{
+				"id": 3832,
+				"name": "Essence of Suffering",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21483?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21483
+				}
+			},
+			{
+				"id": 3831,
+				"name": "Essence of Desire",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21485?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21485
+				}
+			},
+			{
+				"id": 3830,
+				"name": "Essence of Anger",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/21484?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 21484
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 34393,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150485?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of Stability",
+					"id": 150485
+				}
+			},
+			{
+				"id": 26336,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32363?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Naaru-Blessed Life Rod",
+					"id": 32363
+				}
+			},
+			{
+				"id": 26337,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32354?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Empowered Fate",
+					"id": 32354
+				}
+			},
+			{
+				"id": 26338,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32351?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elunite Empowered Bracers",
+					"id": 32351
+				}
+			},
+			{
+				"id": 26339,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32350?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Touch of Inspiration",
+					"id": 32350
+				}
+			},
+			{
+				"id": 26340,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32517?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Wavemender's Mantle",
+					"id": 32517
+				}
+			},
+			{
+				"id": 26341,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32349?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Translucent Spellthread Necklace",
+					"id": 32349
+				}
+			},
+			{
+				"id": 26342,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32362?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pendant of Titans",
+					"id": 32362
+				}
+			},
+			{
+				"id": 26343,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122107?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment of Anger",
+					"id": 122107
+				}
+			},
+			{
+				"id": 26344,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32353?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Unfailing Faith",
+					"id": 32353
+				}
+			},
+			{
+				"id": 26345,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32332?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torch of the Damned",
+					"id": 32332
+				}
+			},
+			{
+				"id": 26346,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122109?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment of Desire",
+					"id": 122109
+				}
+			},
+			{
+				"id": 26347,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32352?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Naturewarden's Treads",
+					"id": 32352
+				}
+			},
+			{
+				"id": 26348,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/122108?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fragment of Suffering",
+					"id": 122108
+				}
+			},
+			{
+				"id": 26349,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32346?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boneweave Girdle",
+					"id": 32346
+				}
+			},
+			{
+				"id": 26350,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32347?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Damnation",
+					"id": 32347
+				}
+			},
+			{
+				"id": 26351,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/32345?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadboots of the Legion",
+					"id": 32345
+				}
+			},
+			{
+				"id": 34143,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150503?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Elunite Empowered Bracers",
+					"id": 150503
+				}
+			},
+			{
+				"id": 34144,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150506?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crown of Empowered Fate",
+					"id": 150506
+				}
+			},
+			{
+				"id": 34145,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150498?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Boneweave Girdle",
+					"id": 150498
+				}
+			},
+			{
+				"id": 34146,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150531?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "The Wavemender's Mantle",
+					"id": 150531
+				}
+			},
+			{
+				"id": 34147,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150484?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Torch of the Damned",
+					"id": 150484
+				}
+			},
+			{
+				"id": 34148,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Gloves of Unfailing Faith",
+					"id": 150505
+				}
+			},
+			{
+				"id": 34149,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150504?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Naturewarden's Treads",
+					"id": 150504
+				}
+			},
+			{
+				"id": 34150,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150499?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grips of Damnation",
+					"id": 150499
+				}
+			},
+			{
+				"id": 34151,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150497?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Dreadboots of the Legion",
+					"id": 150497
+				}
+			},
+			{
+				"id": 34152,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150509?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Naaru-Blessed Life Rod",
+					"id": 150509
+				}
+			},
+			{
+				"id": 34153,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/150490?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Blood-Cursed Shoulderpads",
+					"id": 150490
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 15661,
+				"title": "Overview",
+				"body_text": "The Reliquary of Souls manifests three different Essences over the course of the encounter, each of which applies unique effects that must be handled differently. \r\n\r\nFirst, the Essence of Suffering always strikes the nearest player and afflicts the raid with [Aura of Suffering].\r\n\r\nSecond, the Essence of Desire afflicts the raid with [Aura of Desire].\r\n\r\nFinally, players must defeat the Essence of Anger which afflicts the raid with [Aura of Anger].",
+				"sections": [
+					{
+						"id": 15662,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;Avoid heavily damaging yourself during [Aura of Desire].\r\n$bullet;Be aware of your threat while[Seethe] is active."
+					},
+					{
+						"id": 15663,
+						"title": "Healers",
+						"body_text": "$bullet;Watch your mana during [Aura of Suffering].\r\n$bullet;Quickly dispel [Soul Drain].\r\n$bullet;Regenerate Mana from the Enslaved Souls during the Intermission stage."
+					},
+					{
+						"id": 15664,
+						"title": "Tanks",
+						"body_text": "$bullet;While the Essence of Desire is active, be careful of [Deaden].\r\n$bullet;Using a Taunt effect while the Essence of Anger is active will cause [Seethe].\r\n$bullet;Face the Essence of Anger away from allies to avoid damage from [Soul Scream]."
+					}
+				]
+			},
+			{
+				"id": 15665,
+				"title": "Stage One: Essence of Suffering",
+				"sections": [
+					{
+						"id": 15666,
+						"title": "Aura of Suffering",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41292?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura of Suffering",
+							"id": 41292
+						}
+					},
+					{
+						"id": 15667,
+						"title": "Fixate",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41294?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fixate",
+							"id": 41294
+						}
+					},
+					{
+						"id": 15668,
+						"title": "Frenzy",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41305?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Frenzy",
+							"id": 41305
+						}
+					},
+					{
+						"id": 15669,
+						"title": "Soul Drain",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41303?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Soul Drain",
+							"id": 41303
+						}
+					}
+				]
+			},
+			{
+				"id": 15670,
+				"title": "Intermission: Release Enslaved Souls",
+				"sections": [
+					{
+						"id": 15671,
+						"title": "Enslaved Soul",
+						"sections": [
+							{
+								"id": 15672,
+								"title": "Soul Release",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Soul Release",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15673,
+				"title": "Stage Two: Essence of Desire",
+				"sections": [
+					{
+						"id": 15674,
+						"title": "Aura of Desire",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41350?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura of Desire",
+							"id": 41350
+						}
+					},
+					{
+						"id": 15675,
+						"title": "Deaden",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41410?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Deaden",
+							"id": 41410
+						}
+					},
+					{
+						"id": 15676,
+						"title": "Spirit Shock",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41426?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Spirit Shock",
+							"id": 41426
+						}
+					},
+					{
+						"id": 15677,
+						"title": "Rune Shield",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41431?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Rune Shield",
+							"id": 41431
+						}
+					}
+				]
+			},
+			{
+				"id": 15678,
+				"title": "Intermission: Release Enslaved Souls",
+				"sections": [
+					{
+						"id": 15679,
+						"title": "Enslaved Soul",
+						"sections": [
+							{
+								"id": 15680,
+								"title": "Soul Release",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41542?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Soul Release",
+									"id": 41542
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/10771?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 10771
+						}
+					}
+				]
+			},
+			{
+				"id": 15681,
+				"title": "Stage Three: Essence of Anger",
+				"sections": [
+					{
+						"id": 15682,
+						"title": "Aura of Anger",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41337?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Aura of Anger",
+							"id": 41337
+						}
+					},
+					{
+						"id": 15683,
+						"title": "Seethe",
+						"sections": [
+							{
+								"id": 15684,
+								"title": "Seethe",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/41520?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Seethe",
+									"id": 41520
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41364?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Seethe",
+							"id": 41364
+						}
+					},
+					{
+						"id": 15685,
+						"title": "Soul Scream",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41545?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Soul Scream",
+							"id": 41545
+						}
+					},
+					{
+						"id": 15686,
+						"title": "Spite",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/41376?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Spite",
+							"id": 41376
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/751?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Black Temple",
+			"id": 751
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			}
+		]
+	}
+}

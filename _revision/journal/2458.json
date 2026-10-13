@@ -1,0 +1,2145 @@
+{
+	"id": 2458,
+	"es": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2458?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2458,
+		"name": "Guardián vigilante",
+		"description": "Este guardián eterno aguarda al acecho mientras vigila sin descanso la entrada del Sepulcro de los Primeros.",
+		"creatures": [
+			{
+				"id": 5299,
+				"name": "Guardián vigilante",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102474?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102474
+				}
+			},
+			{
+				"id": 5319,
+				"name": "Matriz de defensa automatizada",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 104830
+				}
+			},
+			{
+				"id": 5300,
+				"name": "Centinela prefabricado",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103101
+				}
+			},
+			{
+				"id": 5302,
+				"name": "Dron de punto defensivo",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103105
+				}
+			},
+			{
+				"id": 5301,
+				"name": "Materium volátil",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/98789?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 98789
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 42492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarcelas de materium antiguas",
+					"id": 189771
+				}
+			},
+			{
+				"id": 42493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Faja de la primera puerta",
+					"id": 189776
+				}
+			},
+			{
+				"id": 42494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Escarpines prefabricados",
+					"id": 189770
+				}
+			},
+			{
+				"id": 42495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189584?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Salvador del Sepulcro",
+					"id": 189584
+				}
+			},
+			{
+				"id": 42496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Núcleo de coloso fracturado",
+					"id": 189774
+				}
+			},
+			{
+				"id": 42497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Puños de gigante inestable",
+					"id": 189777
+				}
+			},
+			{
+				"id": 42498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Llave del Hogar Inmortal",
+					"id": 189779
+				}
+			},
+			{
+				"id": 42499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/188273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Campanilla de auxiliar complementaria",
+					"id": 188273
+				}
+			},
+			{
+				"id": 42500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Quijotes del centinela durmiente",
+					"id": 189778
+				}
+			},
+			{
+				"id": 42501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Yelmo de vigilia solemne",
+					"id": 189775
+				}
+			},
+			{
+				"id": 42502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Red de defensa modificada",
+					"id": 189772
+				}
+			},
+			{
+				"id": 42826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Luz rutilante",
+					"id": 182622
+				}
+			},
+			{
+				"id": 42827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/180944?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crujehuesos despiadado",
+					"id": 180944
+				}
+			},
+			{
+				"id": 42828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agonía duradera",
+					"id": 182736
+				}
+			},
+			{
+				"id": 42829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Caminar con el buey",
+					"id": 181742
+				}
+			},
+			{
+				"id": 42830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Flebotomía",
+					"id": 183402
+				}
+			},
+			{
+				"id": 42831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiancia brillante",
+					"id": 181843
+				}
+			},
+			{
+				"id": 42832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marca de magi",
+					"id": 181734
+				}
+			},
+			{
+				"id": 42833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Amputar y destrozar",
+					"id": 183505
+				}
+			},
+			{
+				"id": 42834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Alto voltaje",
+					"id": 182126
+				}
+			},
+			{
+				"id": 42835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Intensidad umbría",
+					"id": 183479
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 23871,
+				"title": "Resumen",
+				"body_text": "El guardián vigilante activará centinelas prefabricados para que ataquen a los jugadores periódicamente mientras emplea sus propias rutinas de defensa. A lo largo del encuentro, el guardián vigilante empezará a [Exponer] su núcleo, lo que infligirá daño letal a todos los jugadores que no estén protegidos por una matriz de defensa automatizada.\r\n\r\nCuando se derrota a los Automa, su energía se redistribuye automáticamente al siguiente Automa más grande que esté [Desactivado]. Los Automa que recuperen así toda su energía se reactivarán.",
+				"sections": [
+					{
+						"id": 23872,
+						"title": "Tanques",
+						"body_text": "$bullet;El custodio vigilante y los centinelas prefabricados usan [Disonancia] para infligir mucho daño a su objetivo actual.\r\n$bullet;El guardián vigilante solo puede recibir daño de la [Detonación] del [Núcleo inestable] que sueltan las matrices de defensa automatizadas.\r\n$bullet;[Campo de fuerza] reduce mucho el daño recibido de [Núcleo expuesto]."
+					},
+					{
+						"id": 23874,
+						"title": "Sanadores",
+						"body_text": "$bullet;El guardián vigilante solo puede recibir daño de la [Detonación] del [Núcleo inestable] que sueltan las matrices de defensa automatizadas.\r\n$bullet;[Campo de fuerza] reduce mucho el daño recibido de [Núcleo expuesto]."
+					},
+					{
+						"id": 24580,
+						"title": "DPS",
+						"body_text": "$bullet;El guardián vigilante solo puede recibir daño de la [Detonación] del [Núcleo inestable] que sueltan las matrices de defensa automatizadas.\r\n$bullet;[Campo de fuerza] reduce mucho el daño recibido de [Núcleo expuesto]."
+					},
+					{
+						"id": 24579,
+						"title": "Sanadores",
+						"body_text": "$bullet;[Desresolución] activará cada [Púa de creación] que encuentre a su paso.\r\n$bullet;El guardián vigilante solo puede recibir daño de la [Detonación] de un [Núcleo inestable] que sueltan las matrices de defensa automatizadas.\r\n$bullet;[Campo de fuerza] reduce mucho el daño recibido de [Núcleo expuesto]."
+					},
+					{
+						"id": 23873,
+						"title": "DPS",
+						"body_text": "$bullet;[Desresolución] activará cada [Púa de creación] que encuentre a su paso.\r\n$bullet;El guardián vigilante solo puede recibir daño de la [Detonación] de un [Núcleo inestable] que sueltan las matrices de defensa automatizadas.\r\n$bullet;[Campo de fuerza] reduce mucho el daño recibido de [Núcleo expuesto]."
+					}
+				]
+			},
+			{
+				"id": 24374,
+				"title": "Automa",
+				"body_text": "El guardián vigilante recibe ayuda de varios Automa. Los Automa permanecen en estado [Desactivado] hasta que recuperan toda la energía. Cuando uno de ellos cae derrotado, su poder se redistribuye al siguiente Automa de mayor tamaño cercano que siga [Desactivado].",
+				"sections": [
+					{
+						"id": 24375,
+						"title": "Desactivado",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/363447?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Desactivado",
+							"id": 363447
+						}
+					},
+					{
+						"id": 24357,
+						"title": "Matriz de defensa automatizada",
+						"body_text": "La matriz de defensa automatizada crea un campo de fuerza cuando se activa.\r\n\r\nSuelta núcleos inestables al morir.",
+						"sections": [
+							{
+								"id": 23996,
+								"title": "Campo de fuerza",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360403?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Campo de fuerza",
+									"id": 360403
+								}
+							},
+							{
+								"id": 24581,
+								"title": "Campo de fuerza",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367354?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Campo de fuerza",
+									"id": 367354
+								}
+							},
+							{
+								"id": 24602,
+								"title": "Abrasamiento",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367571?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Abrasamiento",
+									"id": 367571
+								}
+							},
+							{
+								"id": 23992,
+								"title": "Núcleo inestable",
+								"sections": [
+									{
+										"id": 23993,
+										"title": "Detonar",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/360528?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Detonar",
+											"id": 360528
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360458?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Núcleo inestable",
+									"id": 360458
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 104830
+						}
+					},
+					{
+						"id": 24365,
+						"title": "Dron de punto defensivo",
+						"body_text": "Una vez activado, selecciona enemigos aleatorios con su facultad Acribillar.",
+						"sections": [
+							{
+								"id": 24366,
+								"title": "Devastar",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360176?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Devastar",
+									"id": 360176
+								}
+							},
+							{
+								"id": 24659,
+								"title": "Mutilación abrasadora",
+								"sections": [
+									{
+										"id": 24578,
+										"title": "Mutilación abrasadora",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/366393?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Mutilación abrasadora",
+											"id": 366393
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/366394?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Mutilación abrasadora",
+									"id": 366394
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103105
+						}
+					},
+					{
+						"id": 24361,
+						"title": "Centinela prefabricado",
+						"body_text": "El guardián vigilante anima centinelas prefabricados de forma periódica para que lo ayuden.",
+						"sections": [
+							{
+								"id": 24362,
+								"title": "Oleada de desintegración",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/361001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Oleada de desintegración",
+									"id": 361001
+								}
+							},
+							{
+								"id": 24363,
+								"title": "Disonancia",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364447?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Disonancia",
+									"id": 364447
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103101
+						}
+					},
+					{
+						"id": 24358,
+						"title": "Materium volátil",
+						"body_text": "El guardián vigilante anima materium volátil de forma periódica para que lo ayude.",
+						"sections": [
+							{
+								"id": 24582,
+								"title": "Subrutinas adaptables",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367342?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Subrutinas adaptables",
+									"id": 367342
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102595?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 102595
+						}
+					}
+				]
+			},
+			{
+				"id": 23875,
+				"title": "Fase 1: ¡Sistemas activados!",
+				"body_text": "El guardián vigilante comienza el encuentro protegido por el portal que lleva al Sepulcro de los Primeros. Al [Detonar] un [Núcleo inestable] cercano, se infligirá daño al guardián vigilante.\r\n",
+				"sections": [
+					{
+						"id": 23995,
+						"title": "Núcleo expuesto",
+						"sections": [
+							{
+								"id": 24600,
+								"title": "Temperatura óptima del núcleo",
+								"sections": [
+									{
+										"id": 24601,
+										"title": "Revolucionar",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/367561?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Revolucionar",
+											"id": 367561
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367555?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Temperatura óptima del núcleo",
+									"id": 367555
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360412?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Núcleo expuesto",
+							"id": 360412
+						}
+					},
+					{
+						"id": 24647,
+						"title": "Núcleo radioactivo",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366822?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Núcleo radioactivo",
+							"id": 366822
+						}
+					},
+					{
+						"id": 24369,
+						"title": "Explosión refractada",
+						"sections": [
+							{
+								"id": 24566,
+								"title": "Púa de creación",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360202?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Púa de creación",
+									"id": 360202
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Explosión refractada",
+							"id": 366692
+						}
+					},
+					{
+						"id": 23994,
+						"title": "Desresolución",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/359608?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Desresolución",
+							"id": 359608
+						}
+					}
+				]
+			},
+			{
+				"id": 23877,
+				"title": "Fase 2: Despliegue y transformación",
+				"body_text": "Cuando la salud del guardián vigilante llega al 40%, rueda hacia delante, se transforma y activa su modo de batalla.",
+				"sections": [
+					{
+						"id": 23876,
+						"title": "Explosión refractada",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Explosión refractada",
+							"id": 366692
+						}
+					},
+					{
+						"id": 24373,
+						"title": "Disolución de materia",
+						"sections": [
+							{
+								"id": 24583,
+								"title": "Antimateria",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364904?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Antimateria",
+									"id": 364904
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364881?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Disolución de materia",
+							"id": 364881
+						}
+					},
+					{
+						"id": 24371,
+						"title": "Resolución dividida",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360162?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Resolución dividida",
+							"id": 360162
+						}
+					},
+					{
+						"id": 24372,
+						"title": "Núcleo fracturado",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364843?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Núcleo fracturado",
+							"id": 364843
+						}
+					},
+					{
+						"id": 24584,
+						"title": "Impacto neumático",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360414?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Impacto neumático",
+							"id": 360414
+						}
+					}
+				]
+			},
+			{
+				"id": 24376,
+				"title": "Fase 3: Secuencia de autodestrucción",
+				"body_text": "Al llegar al 15% de salud, el guardián vigilante activa su secuencia de autodestrucción.",
+				"sections": [
+					{
+						"id": 24377,
+						"title": "Sobrecarga del núcleo",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364962?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Sobrecarga del núcleo",
+							"id": 364962
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1195?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Sepulcro de los Primeros",
+			"id": 1195
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Buscador de bandas"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroica"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mítica"
+			}
+		]
+	},
+	"fr": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2458?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2458,
+		"name": "Gardien vigilant",
+		"description": "Ce gardien éternel reste à l’affût et veille de toute éternité sur l’entrée du sépulcre des Fondateurs.",
+		"creatures": [
+			{
+				"id": 5299,
+				"name": "Gardien vigilant",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102474?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102474
+				}
+			},
+			{
+				"id": 5319,
+				"name": "Matrice de défense automatisée",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 104830
+				}
+			},
+			{
+				"id": 5300,
+				"name": "Sentinelle préfabriquée",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103101
+				}
+			},
+			{
+				"id": 5302,
+				"name": "Drone de défense rapprochée",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103105
+				}
+			},
+			{
+				"id": 5301,
+				"name": "Matérium instable",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/98789?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 98789
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 42492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Tassette en matérium antique",
+					"id": 189771
+				}
+			},
+			{
+				"id": 42493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ceinturon de la première porte",
+					"id": 189776
+				}
+			},
+			{
+				"id": 42494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Souliers préfabriqués",
+					"id": 189770
+				}
+			},
+			{
+				"id": 42495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189584?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sauveur du sépulcre",
+					"id": 189584
+				}
+			},
+			{
+				"id": 42496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Noyau de colosse fracturé",
+					"id": 189774
+				}
+			},
+			{
+				"id": 42497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Crispins du géant instable",
+					"id": 189777
+				}
+			},
+			{
+				"id": 42498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Clé du foyer immortel",
+					"id": 189779
+				}
+			},
+			{
+				"id": 42499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/188273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carillon de servant auxiliaire",
+					"id": 188273
+				}
+			},
+			{
+				"id": 42500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Cuissards de la sentinelle dormante",
+					"id": 189778
+				}
+			},
+			{
+				"id": 42501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Heaume de veille solennelle",
+					"id": 189775
+				}
+			},
+			{
+				"id": 42502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Grille de défense modifiée",
+					"id": 189772
+				}
+			},
+			{
+				"id": 42826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Lumière resplendissante",
+					"id": 182622
+				}
+			},
+			{
+				"id": 42827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/180944?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Broyeur d’os impitoyable",
+					"id": 180944
+				}
+			},
+			{
+				"id": 42828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Agonie continue",
+					"id": 182736
+				}
+			},
+			{
+				"id": 42829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marche du Buffle",
+					"id": 181742
+				}
+			},
+			{
+				"id": 42830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Carnage",
+					"id": 183402
+				}
+			},
+			{
+				"id": 42831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Radiance éclatante",
+					"id": 181843
+				}
+			},
+			{
+				"id": 42832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Marque des magi",
+					"id": 181734
+				}
+			},
+			{
+				"id": 42833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Mutilation estropiante",
+					"id": 183505
+				}
+			},
+			{
+				"id": 42834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Haute tension",
+					"id": 182126
+				}
+			},
+			{
+				"id": 42835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Intensité ombreuse",
+					"id": 183479
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 23871,
+				"title": "Vue d’ensemble",
+				"body_text": "Le gardien vigilant active des sentinelles préfabriquées qui attaquent périodiquement les personnages-joueurs tout en employant ses propres protocoles défensifs. Pendant toute la durée du combat, il [expose] régulièrement son noyau, ce qui inflige des dégâts mortels aux cibles non protégées par une matrice de défense automatisée.\r\n\r\nUne fois un Automa vaincu, son énergie est automatiquement redistribuée à l’Automa [éteint] le plus imposant afin de lui rendre sa pleine puissance et de le réactiver.",
+				"sections": [
+					{
+						"id": 23872,
+						"title": "Tanks",
+						"body_text": "$bullet;Le gardien vigilant et les sentinelles préfabriquées utilisent [Dissonance] pour infliger des dégâts très importants à leur cible actuelle.\r\n$bullet;Seule l’[Explosion] d’un [Noyau instable] lâché par une matrice de défense automatisée peut infliger des dégâts au gardien vigilant.\r\n$bullet;Le déploiement d’un [Champ de force] permet de réduire considérablement les dégâts subis d’un [Noyau exposé]."
+					},
+					{
+						"id": 23874,
+						"title": "Soigneurs",
+						"body_text": "$bullet;Seule l’[Explosion] d’un [Noyau instable] lâché par une matrice de défense automatisée peut infliger des dégâts au gardien vigilant.\r\n$bullet;Le déploiement d’un [Champ de force] permet de réduire considérablement les dégâts subis d’un [Noyau exposé]."
+					},
+					{
+						"id": 24580,
+						"title": "DPS",
+						"body_text": "$bullet;Seule l’[Explosion] d’un [Noyau instable] lâché par une matrice de défense automatisée peut infliger des dégâts au gardien vigilant.\r\n$bullet;Le déploiement d’un [Champ de force] permet de réduire considérablement les dégâts subis d’un [Noyau exposé]."
+					},
+					{
+						"id": 24579,
+						"title": "Soigneurs",
+						"body_text": "$bullet;[Dérésolution] déclenche les [Pics de création] se trouvant sur sa trajectoire.\r\n$bullet;Seule l’[Explosion] d’un [Noyau instable] lâché par une matrice de défense automatisée peut infliger des dégâts au gardien vigilant.\r\n$bullet;Le déploiement d’un [Champ de force] permet de réduire considérablement les dégâts subis d’un [Noyau exposé]."
+					},
+					{
+						"id": 23873,
+						"title": "DPS",
+						"body_text": "$bullet;[Dérésolution] déclenche les [Pics de création] se trouvant sur sa trajectoire.\r\n$bullet;Seule l’[Explosion] d’un [Noyau instable] lâché par une matrice de défense automatisée peut infliger des dégâts au gardien vigilant.\r\n$bullet;Le déploiement d’un [Champ de force] permet de réduire considérablement les dégâts subis d’un [Noyau exposé]."
+					}
+				]
+			},
+			{
+				"id": 24374,
+				"title": "Automas",
+				"body_text": "Le gardien vigilant bénéficie du renfort de divers Automas. Ces derniers sont [éteints] tant qu’ils n’ont pas recouvré leur pleine puissance. Une fois un Automa vaincu, son énergie est automatiquement redistribuée à l’Automa le plus imposant encore [éteint].",
+				"sections": [
+					{
+						"id": 24375,
+						"title": "Éteint",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/363447?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Éteint",
+							"id": 363447
+						}
+					},
+					{
+						"id": 24357,
+						"title": "Matrice de défense automatisée",
+						"body_text": "La matrice de défense automatisée crée un champ de force une fois alimentée.\r\n\r\nLâche des noyaux instables en mourant.",
+						"sections": [
+							{
+								"id": 23996,
+								"title": "Champ de force",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360403?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Champ de force",
+									"id": 360403
+								}
+							},
+							{
+								"id": 24581,
+								"title": "Champ de force",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367354?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Champ de force",
+									"id": 367354
+								}
+							},
+							{
+								"id": 24602,
+								"title": "Incandescence",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367571?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Incandescence",
+									"id": 367571
+								}
+							},
+							{
+								"id": 23992,
+								"title": "Noyau instable",
+								"sections": [
+									{
+										"id": 23993,
+										"title": "Explosion",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/360528?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Explosion",
+											"id": 360528
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360458?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Noyau instable",
+									"id": 360458
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 104830
+						}
+					},
+					{
+						"id": 24365,
+						"title": "Drone de défense rapprochée",
+						"body_text": "Cible des ennemis aléatoires avec sa technique Explosion une fois alimenté.",
+						"sections": [
+							{
+								"id": 24366,
+								"title": "Explosion",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360176?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Explosion",
+									"id": 360176
+								}
+							},
+							{
+								"id": 24659,
+								"title": "Ablation douloureuse",
+								"sections": [
+									{
+										"id": 24578,
+										"title": "Ablation douloureuse",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/366393?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Ablation douloureuse",
+											"id": 366393
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/366394?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Ablation douloureuse",
+									"id": 366394
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103105
+						}
+					},
+					{
+						"id": 24361,
+						"title": "Sentinelle préfabriquée",
+						"body_text": "Le gardien vigilant active périodiquement des sentinelles préfabriquées pour lui prêter main-forte.",
+						"sections": [
+							{
+								"id": 24362,
+								"title": "Vague de désintégration",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/361001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Vague de désintégration",
+									"id": 361001
+								}
+							},
+							{
+								"id": 24363,
+								"title": "Dissonance",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364447?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dissonance",
+									"id": 364447
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103101
+						}
+					},
+					{
+						"id": 24358,
+						"title": "Matérium instable",
+						"body_text": "Le gardien vigilant active périodiquement des matériums instables pour lui prêter main-forte.",
+						"sections": [
+							{
+								"id": 24582,
+								"title": "Routines adaptatives",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367342?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Routines adaptatives",
+									"id": 367342
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102595?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 102595
+						}
+					}
+				]
+			},
+			{
+				"id": 23875,
+				"title": "Phase 1 : systèmes opérationnels !",
+				"body_text": "Le gardien vigilant commence le combat protégé par le portail du sépulcre des Fondateurs. Seule l’[Explosion] d’un [Noyau instable] proche peut lui infliger des dégâts.\r\n",
+				"sections": [
+					{
+						"id": 23995,
+						"title": "Noyau exposé",
+						"sections": [
+							{
+								"id": 24600,
+								"title": "Température du noyau optimale",
+								"sections": [
+									{
+										"id": 24601,
+										"title": "Suralimenter",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/367561?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Suralimenter",
+											"id": 367561
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367555?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Température du noyau optimale",
+									"id": 367555
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360412?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Noyau exposé",
+							"id": 360412
+						}
+					},
+					{
+						"id": 24647,
+						"title": "Noyau radioactif",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366822?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Noyau radioactif",
+							"id": 366822
+						}
+					},
+					{
+						"id": 24369,
+						"title": "Rafale réfractée",
+						"sections": [
+							{
+								"id": 24566,
+								"title": "Pic de création",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360202?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Pic de création",
+									"id": 360202
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Rafale réfractée",
+							"id": 366692
+						}
+					},
+					{
+						"id": 23994,
+						"title": "Dérésolution",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/359608?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Dérésolution",
+							"id": 359608
+						}
+					}
+				]
+			},
+			{
+				"id": 23877,
+				"title": "Phase 2 : déploiement et transformation",
+				"body_text": "Quand le gardien vigilant atteint 40% de ses points de vie, il roule vers l’avant puis adopte sa forme de bataille.",
+				"sections": [
+					{
+						"id": 23876,
+						"title": "Rafale réfractée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Rafale réfractée",
+							"id": 366692
+						}
+					},
+					{
+						"id": 24373,
+						"title": "Désintégration de la matière",
+						"sections": [
+							{
+								"id": 24583,
+								"title": "Anti-matière",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364904?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Anti-matière",
+									"id": 364904
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364881?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Désintégration de la matière",
+							"id": 364881
+						}
+					},
+					{
+						"id": 24371,
+						"title": "Résolution fragmentée",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360162?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Résolution fragmentée",
+							"id": 360162
+						}
+					},
+					{
+						"id": 24372,
+						"title": "Noyau fracturé",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364843?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Noyau fracturé",
+							"id": 364843
+						}
+					},
+					{
+						"id": 24584,
+						"title": "Impact pneumatique",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360414?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Impact pneumatique",
+							"id": 360414
+						}
+					}
+				]
+			},
+			{
+				"id": 24376,
+				"title": "Phase 3 : protocole d’autodestruction",
+				"body_text": "À 15% de points de vie, le gardien vigilant active son protocole d’autodestruction.",
+				"sections": [
+					{
+						"id": 24377,
+						"title": "Surcharge de noyau",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364962?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Surcharge de noyau",
+							"id": 364962
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1195?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Sépulcre des Fondateurs",
+			"id": 1195
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raids"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Héroïque"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythique"
+			}
+		]
+	},
+	"en": {
+		"_links": {
+			"self": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-encounter/2458?namespace=static-12.1.0_68914-eu"
+			}
+		},
+		"id": 2458,
+		"name": "Vigilant Guardian",
+		"description": "This eternal guardian lies in wait, keeping a timeless vigil over the entrance to the Sepulcher of the First Ones.",
+		"creatures": [
+			{
+				"id": 5299,
+				"name": "Vigilant Guardian",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102474?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 102474
+				}
+			},
+			{
+				"id": 5319,
+				"name": "Automated Defense Matrix",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 104830
+				}
+			},
+			{
+				"id": 5300,
+				"name": "Pre-Fabricated Sentry",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103101
+				}
+			},
+			{
+				"id": 5302,
+				"name": "Point Defense Drone",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 103105
+				}
+			},
+			{
+				"id": 5301,
+				"name": "Volatile Materium",
+				"creature_display": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/98789?namespace=static-12.1.0_68914-eu"
+					},
+					"id": 98789
+				}
+			}
+		],
+		"items": [
+			{
+				"id": 42492,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189771?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Ancient Materium Tassets",
+					"id": 189771
+				}
+			},
+			{
+				"id": 42493,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189776?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Girdle of the First Gate",
+					"id": 189776
+				}
+			},
+			{
+				"id": 42494,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189770?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Pre-Fabricated Footpads",
+					"id": 189770
+				}
+			},
+			{
+				"id": 42495,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189584?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Sepulcher's Savior",
+					"id": 189584
+				}
+			},
+			{
+				"id": 42496,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189774?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Fractured Colossus Core",
+					"id": 189774
+				}
+			},
+			{
+				"id": 42497,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189777?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Unstable Giant's Cuffs",
+					"id": 189777
+				}
+			},
+			{
+				"id": 42498,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189779?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Key to the Immortal Hearth",
+					"id": 189779
+				}
+			},
+			{
+				"id": 42499,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/188273?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Auxiliary Attendant Chime",
+					"id": 188273
+				}
+			},
+			{
+				"id": 42500,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189778?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Legplates of the Slumbering Sentinel",
+					"id": 189778
+				}
+			},
+			{
+				"id": 42501,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189775?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Helm of Solemn Vigil",
+					"id": 189775
+				}
+			},
+			{
+				"id": 42502,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/189772?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Modified Defense Grid",
+					"id": 189772
+				}
+			},
+			{
+				"id": 42826,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182622?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Resplendent Light",
+					"id": 182622
+				}
+			},
+			{
+				"id": 42827,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/180944?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Merciless Bonegrinder",
+					"id": 180944
+				}
+			},
+			{
+				"id": 42828,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182736?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Rolling Agony",
+					"id": 182736
+				}
+			},
+			{
+				"id": 42829,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181742?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Walk with the Ox",
+					"id": 181742
+				}
+			},
+			{
+				"id": 42830,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183402?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Bloodletting",
+					"id": 183402
+				}
+			},
+			{
+				"id": 42831,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181843?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Shining Radiance",
+					"id": 181843
+				}
+			},
+			{
+				"id": 42832,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/181734?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Magi's Brand",
+					"id": 181734
+				}
+			},
+			{
+				"id": 42833,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183505?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Maim, Mangle",
+					"id": 183505
+				}
+			},
+			{
+				"id": 42834,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/182126?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "High Voltage",
+					"id": 182126
+				}
+			},
+			{
+				"id": 42835,
+				"item": {
+					"key": {
+						"href": "https://eu.api.blizzard.com/data/wow/item/183479?namespace=static-12.1.0_68914-eu"
+					},
+					"name": "Umbral Intensity",
+					"id": 183479
+				}
+			}
+		],
+		"sections": [
+			{
+				"id": 23871,
+				"title": "Overview",
+				"body_text": "The Vigilant Guardian will activate Pre-Fabricated Sentries to attack players periodically while employing its own defense routines. Throughout the encounter the Vigilant Guardian will [Expose] its core, inflicting lethal damage to all players not shielded by an Automated Defense Matrix.\r\n\r\nWhen automa are defeated, their energy is automatically redistributed to the next largest [Powered Down] automa.  Automa restored to full power in this way reactivate.",
+				"sections": [
+					{
+						"id": 23872,
+						"title": "Tanks",
+						"body_text": "$bullet;The Vigilant Custodian and the Pre-Fabricated Sentries use [Dissonance] to inflict very high damage to their current target.\r\n$bullet;The Vigilant Guardian can only be damaged by the [Detonation] of an [Unstable Core] dropped by Automated Defense Matrixes.\r\n$bullet;[Force Field] greatly reduces the damage taken from [Exposed Core]."
+					},
+					{
+						"id": 23874,
+						"title": "Healers",
+						"body_text": "$bullet;The Vigilant Guardian can only be damaged by the [Detonation] of an [Unstable Core] dropped by Automated Defense Matrixes.\r\n$bullet;[Force Field] greatly reduces the damage taken from [Exposed Core]."
+					},
+					{
+						"id": 24580,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;The Vigilant Guardian can only be damaged by the [Detonation] of an [Unstable Core] dropped by Automated Defense Matrixes.\r\n$bullet;[Force Field] greatly reduces the damage taken from [Exposed Core]."
+					},
+					{
+						"id": 24579,
+						"title": "Healers",
+						"body_text": "$bullet;[Deresolution] will trigger [Spikes of Creation] caught in its path.\r\n$bullet;The Vigilant Guardian can only be damaged by the [Detonation] of an [Unstable Core] dropped by Automated Defense Matrixes.\r\n$bullet;[Force Field] greatly reduces the damage taken from [Exposed Core]."
+					},
+					{
+						"id": 23873,
+						"title": "Damage Dealers",
+						"body_text": "$bullet;[Deresolution] will trigger [Spikes of Creation] caught in its path.\r\n$bullet;The Vigilant Guardian can only be damaged by the [Detonation] of an [Unstable Core] dropped by Automated Defense Matrixes.\r\n$bullet;[Force Field] greatly reduces the damage taken from [Exposed Core]."
+					}
+				]
+			},
+			{
+				"id": 24374,
+				"title": "Automa",
+				"body_text": "The Vigilant Guardian is aided by various automa.  Automa are [Powered Down] until restored to full power.  When Automa are defeated their power is redistributed to the next largest automa nearby that is still [Powered Down].",
+				"sections": [
+					{
+						"id": 24375,
+						"title": "Powered Down",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/363447?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Powered Down",
+							"id": 363447
+						}
+					},
+					{
+						"id": 24357,
+						"title": "Automated Defense Matrix",
+						"body_text": "The Automated Defense Matrix creates a Force Field when powered up.\r\n\r\nDrops Unstable Cores on death.",
+						"sections": [
+							{
+								"id": 23996,
+								"title": "Force Field",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360403?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Force Field",
+									"id": 360403
+								}
+							},
+							{
+								"id": 24581,
+								"title": "Force Field",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367354?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Force Field",
+									"id": 367354
+								}
+							},
+							{
+								"id": 24602,
+								"title": "Sear",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367571?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Sear",
+									"id": 367571
+								}
+							},
+							{
+								"id": 23992,
+								"title": "Unstable Core",
+								"sections": [
+									{
+										"id": 23993,
+										"title": "Detonate",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/360528?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Detonate",
+											"id": 360528
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360458?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Unstable Core",
+									"id": 360458
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/104830?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 104830
+						}
+					},
+					{
+						"id": 24365,
+						"title": "Point Defense Drone",
+						"body_text": "Targets enemies at random with its Blast ability once powered up.",
+						"sections": [
+							{
+								"id": 24366,
+								"title": "Blast",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360176?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Blast",
+									"id": 360176
+								}
+							},
+							{
+								"id": 24659,
+								"title": "Searing Ablation",
+								"sections": [
+									{
+										"id": 24578,
+										"title": "Searing Ablation",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/366393?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Searing Ablation",
+											"id": 366393
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/366394?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Searing Ablation",
+									"id": 366394
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103105?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103105
+						}
+					},
+					{
+						"id": 24361,
+						"title": "Pre-Fabricated Sentry",
+						"body_text": "The Vigilant Guardian periodically awakens Pre-Fabricated Sentries to assist itself.",
+						"sections": [
+							{
+								"id": 24362,
+								"title": "Wave of Disintegration",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/361001?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Wave of Disintegration",
+									"id": 361001
+								}
+							},
+							{
+								"id": 24363,
+								"title": "Dissonance",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364447?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Dissonance",
+									"id": 364447
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/103101?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 103101
+						}
+					},
+					{
+						"id": 24358,
+						"title": "Volatile Materium",
+						"body_text": "The Vigilant Guardian periodically awakens Volatile Materium to assist itself.",
+						"sections": [
+							{
+								"id": 24582,
+								"title": "Adaptive Subroutines",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367342?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Adaptive Subroutines",
+									"id": 367342
+								}
+							}
+						],
+						"creature_display": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/media/creature-display/102595?namespace=static-12.1.0_68914-eu"
+							},
+							"id": 102595
+						}
+					}
+				]
+			},
+			{
+				"id": 23875,
+				"title": "Stage One: Systems Online!",
+				"body_text": "The Vigilant Guardian begins the encounter protected by the gateway to the Sepulcher of the First Ones.  [Detonating] an [Unstable Core] nearby will damage the Vigilant Guardian.\r\n",
+				"sections": [
+					{
+						"id": 23995,
+						"title": "Exposed Core",
+						"sections": [
+							{
+								"id": 24600,
+								"title": "Optimal Core Temperature",
+								"sections": [
+									{
+										"id": 24601,
+										"title": "Overclock",
+										"spell": {
+											"key": {
+												"href": "https://eu.api.blizzard.com/data/wow/spell/367561?namespace=static-12.1.0_68914-eu"
+											},
+											"name": "Overclock",
+											"id": 367561
+										}
+									}
+								],
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/367555?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Optimal Core Temperature",
+									"id": 367555
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360412?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Exposed Core",
+							"id": 360412
+						}
+					},
+					{
+						"id": 24647,
+						"title": "Radioactive Core",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366822?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Radioactive Core",
+							"id": 366822
+						}
+					},
+					{
+						"id": 24369,
+						"title": "Refracted Blast",
+						"sections": [
+							{
+								"id": 24566,
+								"title": "Spike of Creation",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/360202?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Spike of Creation",
+									"id": 360202
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Refracted Blast",
+							"id": 366692
+						}
+					},
+					{
+						"id": 23994,
+						"title": "Deresolution",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/359608?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Deresolution",
+							"id": 359608
+						}
+					}
+				]
+			},
+			{
+				"id": 23877,
+				"title": "Stage Two: Roll Out, then Transform",
+				"body_text": "Once the Vigilant Guardian reaches 40% health remaining it rolls forward and then transforms into its battle mode.",
+				"sections": [
+					{
+						"id": 23876,
+						"title": "Refracted Blast",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/366692?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Refracted Blast",
+							"id": 366692
+						}
+					},
+					{
+						"id": 24373,
+						"title": "Matter Dissolution",
+						"sections": [
+							{
+								"id": 24583,
+								"title": "Anti-Matter",
+								"spell": {
+									"key": {
+										"href": "https://eu.api.blizzard.com/data/wow/spell/364904?namespace=static-12.1.0_68914-eu"
+									},
+									"name": "Anti-Matter",
+									"id": 364904
+								}
+							}
+						],
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364881?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Matter Dissolution",
+							"id": 364881
+						}
+					},
+					{
+						"id": 24371,
+						"title": "Split Resolution",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360162?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Split Resolution",
+							"id": 360162
+						}
+					},
+					{
+						"id": 24372,
+						"title": "Fractured Core",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364843?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Fractured Core",
+							"id": 364843
+						}
+					},
+					{
+						"id": 24584,
+						"title": "Pneumatic Impact",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/360414?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Pneumatic Impact",
+							"id": 360414
+						}
+					}
+				]
+			},
+			{
+				"id": 24376,
+				"title": "Stage Three: Self-Destruct Sequence",
+				"body_text": "At 15% health remaining, the Vigilant Guardian activates its self-destruct sequence.",
+				"sections": [
+					{
+						"id": 24377,
+						"title": "Core Overload",
+						"spell": {
+							"key": {
+								"href": "https://eu.api.blizzard.com/data/wow/spell/364962?namespace=static-12.1.0_68914-eu"
+							},
+							"name": "Core Overload",
+							"id": 364962
+						}
+					}
+				]
+			}
+		],
+		"instance": {
+			"key": {
+				"href": "https://eu.api.blizzard.com/data/wow/journal-instance/1195?namespace=static-12.1.0_68914-eu"
+			},
+			"name": "Sepulcher of the First Ones",
+			"id": 1195
+		},
+		"category": {
+			"type": "RAID"
+		},
+		"modes": [
+			{
+				"type": "LFR",
+				"name": "Raid Finder"
+			},
+			{
+				"type": "NORMAL",
+				"name": "Normal"
+			},
+			{
+				"type": "HEROIC",
+				"name": "Heroic"
+			},
+			{
+				"type": "MYTHIC",
+				"name": "Mythic"
+			}
+		]
+	}
+}
