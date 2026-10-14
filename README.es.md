@@ -1,4 +1,4 @@
-[English](README.md) · **Español**
+[English](README.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md)
 
 **Conoce el combate antes de tirar. Sobrevive en él.**
 

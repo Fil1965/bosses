@@ -1,4 +1,4 @@
-**English** · [Español](README.es.md)
+**English** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md)
 
 **Know the fight before the pull. Survive it during.**
 
