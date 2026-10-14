@@ -1,3 +1,5 @@
+**English** · [Español](README.es.md)
+
 **Know the fight before the pull. Survive it during.**
 
 Bosses tells you how a boss fight works — in a few sharp lines, at the right moment, on the right channel. Mark the boss (or let the addon spot the encounter starting) and get the tactical gist: what the tank must watch, who needs to dodge what, what to interrupt, what to never stand in. It is human-written, battle-tested knowledge, not a wiki dump: every raid, dungeon and world boss carries hand-curated tactics.
