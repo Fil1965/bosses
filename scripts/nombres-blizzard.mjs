@@ -31,7 +31,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC = path.resolve(__dirname, "..");
 const DIR = path.join(SRC, "_nombres");
 
-const PACKS = ["Bosses_Cata", "Bosses_Midnight", "Bosses_MoP", "Bosses_TWW"];
+const PACKS = [
+	"Bosses_Vanilla", "Bosses_TBC", "Bosses_WotLK", "Bosses_Cata", "Bosses_MoP",
+	"Bosses_WoD", "Bosses_Legion", "Bosses_BfA", "Bosses_Shadowlands",
+	"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight",
+];
 const CONCURRENCIA = 6;
 
 const argv = process.argv.slice(2);

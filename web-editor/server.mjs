@@ -23,13 +23,16 @@ import {
 	docEntries,
 	entryDetail,
 	entryText,
+	gemelaTraducida,
 	listPacks,
 	loadLangFile,
 	langFileSkeleton,
+	parseDoc,
 	registradorAddLangs,
 	tocAddLang,
 	validateText,
 } from "./_packs.mjs";
+import { iaDisponible, traducirTextoIA, traducirBloqueIA, traducirNombreIA, PROVEEDOR_IA, MODELO_IA } from "./_ia.mjs";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const CACHE = join(ROOT, "web-editor", "_cache");
@@ -352,6 +355,29 @@ function primeraPalabra(s) {
 	return claveTokens(s).find((w) => w.length >= 6) ?? "";
 }
 
+// instancia del diario por zona/etiqueta de cabecera del pack. PRIORIDAD al
+// NOMBRE de la cabecera (exacto, sin artículos), porque los ids "Zona NNNN"
+// de 2011 pueden chocar con el map/area de OTRA instancia (visto: zona 209 y
+// 1581 casaban con instancias ajenas). Después map (era actual), area y por
+// último el prefijo del nombre (Zul'Aman 3805 en el pack, 568 en el diario).
+// Lo usan mediaDeEntrada y la importación EN → idioma (donde la entrada aún
+// no existe en la tabla destino).
+function instanciaDeZona(inst, zona, zonaLabel) {
+	const candidatos = Object.values(inst.byId);
+	let instancia = null;
+	if (zonaLabel) {
+		const nl = normArt(zonaLabel);
+		instancia = candidatos.find((i) => normArt(i.name) === nl && nl !== "");
+	}
+	if (!instancia) instancia = candidatos.find((i) => String(i.map) === String(zona));
+	if (!instancia) instancia = candidatos.find((i) => String(i.area) === String(zona));
+	if (!instancia && zonaLabel) {
+		const nl = normArt(zonaLabel);
+		instancia = candidatos.find((i) => normArt(i.name).startsWith(nl) || nl.startsWith(normArt(i.name)));
+	}
+	return instancia;
+}
+
 // splash de instancia por id (una imagen por mazmorra; evita una llamada por jefe)
 const splashCache = new Map();
 
@@ -377,23 +403,8 @@ async function mediaDeEntrada(packName, npcId, locale) {
 	}
 	if (!zona) throw new Error(`entrada ${npcId} sin zona en las cabeceras del pack`);
 
-	// zona → instancia del diario: PRIORIDAD al NOMBRE de la cabecera del pack
-	// (exacto, sin artículos), porque los ids "Zona NNNN" de 2011 pueden chocar
-	// con el map/area de OTRA instancia (visto: zona 209 y 1581 casaban con
-	// instancias ajenas). Después map (era actual), area y por último el
-	// prefijo del nombre (Zul'Aman 3805 en el pack, 568 en el diario).
-	const candidatos = Object.values(inst.byId);
-	let instancia = null;
-	if (zonaLabel) {
-		const nl = normArt(zonaLabel);
-		instancia = candidatos.find((i) => normArt(i.name) === nl && nl !== "");
-	}
-	if (!instancia) instancia = candidatos.find((i) => String(i.map) === String(zona));
-	if (!instancia) instancia = candidatos.find((i) => String(i.area) === String(zona));
-	if (!instancia && zonaLabel) {
-		const nl = normArt(zonaLabel);
-		instancia = candidatos.find((i) => normArt(i.name).startsWith(nl) || nl.startsWith(normArt(i.name)));
-	}
+	// zona → instancia del diario (ver instanciaDeZona: orden y motivos)
+	const instancia = instanciaDeZona(inst, zona, zonaLabel);
 	if (!instancia) throw new Error(`zona ${zona} (${zonaLabel ?? "sin etiqueta"}) sin instancia en el diario (${packName})`);
 
 	// encuentro por nombre en VARIOS locales del diario: los packs Midnight/TWW
@@ -569,7 +580,7 @@ async function aprenderDelDiario(packName, npcId, localesBase = ["es_ES", "en_US
 const fastify = Fastify({ logger: false });
 
 // estáticos mínimos (dos ficheros, mime manual, nada de plugins)
-const MIME = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json" };
+const MIME = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json", ".ico": "image/x-icon", ".svg": "image/svg+xml" };
 function serveStatic(reply, file) {
 	const full = join(ROOT, "web-editor", "public", file);
 	try {
@@ -584,13 +595,17 @@ function serveStatic(reply, file) {
 }
 fastify.get("/", (req, reply) => serveStatic(reply, "index.html"));
 fastify.get("/app.js", (req, reply) => serveStatic(reply, "app.js"));
-fastify.get("/favicon.ico", (req, reply) => reply.code(204).send());
+fastify.get("/favicon.ico", (req, reply) => serveStatic(reply, "favicon.ico"));
+fastify.get("/favicon.svg", (req, reply) => serveStatic(reply, "favicon.svg"));
 
 // --- meta -----------------------------------------------------------------
 fastify.get("/api/meta", async () => ({
 	ok: true,
 	version: process.env.npm_package_version ?? null,
 	blizz: blizz !== null,
+	ia: iaDisponible(),
+	iaProvider: PROVEEDOR_IA,
+	iaModel: MODELO_IA || null,
 	sandbox: root !== ROOT,
 	spells: spells.size,
 	packs: packs.map((p) => p.name),
@@ -667,38 +682,430 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 	return { ok: true, id, created: !existe, entry: entryDetail(getDoc(packName, lang), id) };
 });
 
-// --- alta de idioma (es/en/fr/de) con .toc y registrador -------------------
+// --- nombre oficial (API de Blizzard) para el idioma destino ---------------
+// El elemento 1 debe ser el nombre con el que el CLIENTE muestra al NPC
+// (regla de la casa). Orden de confianza al traducir:
+//   (1) corpus de nombres en disco: _nombres/jefes-<pack>.json (4 locales,
+//       salida de npm run nombres-jefe, con los nombres de la ERA del pack
+//       verificados) y, para fr/de, <lang>-<pack>.json,
+//   (2) diario de Blizzard (nombre del encuentro o de la criatura en el
+//       locale destino, casado con el nombre fuente) — ojo: trae los nombres
+//       del juego ACTUAL, en los clásicos pueden diferir de la era,
+//   (3) la IA, que solo entra si aquí no hubo fuente oficial.
+const LOCALES_IDIOMA = { es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE" };
+
+// corpus de nombres en disco, carga perezosa y cacheada (null = sin corpus)
+const corpusNombres = new Map(); // pack → { npcId: { es,en,fr,de } } | null
+function corpusJefesDe(packName) {
+	if (!corpusNombres.has(packName)) {
+		try {
+			corpusNombres.set(packName, JSON.parse(readFileSync(join(ROOT, "_nombres", `jefes-${packName}.json`), "utf8")));
+		} catch {
+			corpusNombres.set(packName, null);
+		}
+	}
+	return corpusNombres.get(packName);
+}
+
+// placeholders de los ficheros de nombres (UNKNOWN/IDENTICAL no son nombres)
+function nombreEsValido(s) {
+	return typeof s === "string" && s.trim() !== "" && !/^(UNKNOWN|IDENTICAL)$/i.test(s.trim());
+}
+
+// los ficheros fr-/de-<pack>.json (pasada antigua) guardan { <lang>: "..." }
+// por id o marcan el valor con UNKNOWN; para es/en no hay fichero viejo
+function nombreDeCorpusViejo(packName, lang) {
+	if (lang !== "fr" && lang !== "de") return null;
+	try {
+		const viejo = JSON.parse(readFileSync(join(ROOT, "_nombres", `${lang}-${packName}.json`), "utf8"));
+		return (id) => {
+			const v = viejo[String(id)];
+			return v && typeof v === "object" ? v[lang] : null;
+		};
+	} catch {
+		return null;
+	}
+}
+
+// nombre oficial del jefe en el idioma destino (o null si no hay fuente
+// oficial y el llamador decidirá: IA o dejar el original). nombreFuente casa
+// el encuentro/criatura correcta en encuentros multi-jefe; los nombres con
+// título "<...>" no pasan por aquí (el diario no trae títulos de NPC y se
+// perdería el sufijo: esos van directos a la IA, que lo conserva).
+async function nombreOficialDeEntrada(packName, id, from, to, nombreFuente) {
+	const src = String(nombreFuente ?? "").trim();
+	if (/<[^>]+>\s*$/.test(src)) return null;
+	// (1) corpus de nombres en disco (nombres de la ERA del pack)
+	const fila = corpusJefesDe(packName)?.[String(id)];
+	if (nombreEsValido(fila?.[to])) return String(fila[to]).trim();
+	const viejo = nombreDeCorpusViejo(packName, to);
+	const v = viejo ? viejo(id) : null;
+	if (nombreEsValido(v)) return String(v).trim();
+	// (2) diario de Blizzard (nombres del juego ACTUAL)
+	if (blizz) {
+		try {
+			const media = await mediaDeEntrada(packName, id, LOCALES_IDIOMA[to] ?? "en_US");
+			const encName = String(media.encounter?.name ?? "").trim();
+			if (src && encName && casaNombre(src, encName)) return encName;
+			const criaturas = (media.creatures ?? []).filter((c) => nombreEsValido(c?.name));
+			if (criaturas.length === 1) return criaturas[0].name;
+			if (src && criaturas.length > 1) {
+				// multi-criatura: localiza la del nombre fuente en su locale y
+				// usa la MISMA posición en el locale destino
+				try {
+					const mediaSrc = await mediaDeEntrada(packName, id, LOCALES_IDIOMA[from] ?? "es_ES");
+					const cSrc = (mediaSrc.creatures ?? []).filter((c) => nombreEsValido(c?.name));
+					const idx = cSrc.findIndex((c) => casaNombre(src, c.name));
+					if (idx >= 0 && criaturas[idx]) return criaturas[idx].name;
+				} catch { /* sin locale origen: seguimos */ }
+			}
+		} catch { /* sin diario: sin fuente oficial */ }
+	}
+	return null;
+}
+
+// --- traducción IA (proveedor por IA_PROVIDER: NVIDIA NIM u Ollama; _ia.mjs) --
+// Trae la explicación del idioma FUENTE elegido en el panel y la traduce al
+// idioma que se está editando: POST { pack, id, from, to } → { ok, name, lines }.
+// NO escribe nada en disco: el resultado entra en el editor como texto
+// provisional (dirty) para revisión y guardado manual.
+fastify.post("/api/traducir", async (req, reply) => {
+	const { pack: packName, id, from, to } = req.body ?? {};
+	if (!IDIOMAS.includes(from) || !IDIOMAS.includes(to)) {
+		return reply.code(400).send({ ok: false, error: "idiomas válidos: es|en|fr|de" });
+	}
+	if (from === to) return reply.code(400).send({ ok: false, error: "el idioma fuente y el de destino coinciden" });
+	const srcDoc = getDoc(packName, from);
+	if (!srcDoc) return reply.code(400).send({ ok: false, error: `pack o idioma fuente no disponible (${from})` });
+	const det = entryDetail(srcDoc, id);
+	if (!det) return reply.code(400).send({ ok: false, error: `entrada ${id} no encontrada en ${packName}/${from}` });
+	// telemetría: cada /api/traducir imprime inicio y fin con reparto por
+	// etapas (nombre oficial API / nombre IA / líneas IA) — si la tanda parece
+	// colgada, la consola del servidor dice en QUÉ entrada y etapa estaba
+	const iniTrad = Date.now();
+	console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — inicio (${det.lines.length} línea(s))`);
+	try {
+		// NOMBRE: oficial por encima de IA (elemento 1 = nombre del CLIENTE):
+		// (1) diario → (2) corpus → (3) IA (solo si hay nombre fuente y sin
+		// título <...>) → (4) nombre fuente tal cual. nameSource lo reporta
+		// el UI para que el traductor sepa qué revisar.
+		const nombreFuente = String(det.name ?? "").trim();
+		let name;
+		let nameSource;
+		const oficial = await nombreOficialDeEntrada(packName, id, from, to, nombreFuente);
+		if (oficial) {
+			name = oficial;
+			nameSource = "api";
+		} else if (nombreFuente && nombreFuente !== "?") {
+			// IA solo con la ruta de NOMBRES (prompt de una intención + validador
+			// duro): el prompt de consejos hacía que el modelo se inventara una
+			// guía entera (Fases, [Tank]…) y esa basura multilínea partía el Lua.
+			// Salida inválida → nombre original tal cual (nameSource = "original").
+			const iaNombre = await traducirNombreIA(nombreFuente, from, to);
+			if (iaNombre) {
+				name = iaNombre;
+				nameSource = "ia";
+			} else {
+				name = nombreFuente;
+				nameSource = "original";
+			}
+		} else {
+			name = nombreFuente;
+			nameSource = "original";
+		}
+		// líneas: gemela ya traducida si la hay (reuse; _packs.mjs); si no,
+		// el jefe entero en UNA llamada IA (4-5× menos viajes) cayendo al
+		// clásico línea a línea cuando el bloque no verifica limpio
+		console.log(`[editor] IA: ${packName} ${id} — nombre resuelto (${nameSource}, ${((Date.now() - iniTrad) / 1000).toFixed(1)}s)`);
+		const gemela = gemelaTraducida(srcDoc, getDoc(packName, to), id);
+		const lines = [];
+		if (gemela) lines.push(...gemela.lines);
+		else {
+			const t0 = Date.now();
+			const bloque = det.lines.length > 1 ? await traducirBloqueIA(det.lines, from, to) : null;
+			if (bloque) {
+				lines.push(...bloque);
+				console.log(`[editor] IA: ${packName} ${id} — bloque OK (${det.lines.length} líneas en ${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+			} else {
+				console.log(`[editor] IA: ${packName} ${id} — bloque no verificó; línea a línea (${det.lines.length})`);
+				for (const l of det.lines) lines.push(await traducirTextoIA(l, from, to));
+			}
+		}
+		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — listo en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s (nombre=${nameSource}, ${lines.length} línea(s))`);
+		return { ok: true, from, to, name, nameSource, lines, reusedFrom: gemela ? String(gemela.id) : null };
+	} catch (err) {
+		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — FALLO en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${err.message}`);
+		return reply.code(502).send({ ok: false, error: `traducción IA: ${err.message}` });
+	}
+});
+
+// --- importación de nombres desde EN (API de Blizzard) ----------------------
+// EN es el idioma de referencia de la casa: cuando el módulo EN de la
+// expansión describe más jefes que el idioma que se está editando, el UI
+// ofrece traerlos. Crea en el destino las entradas que faltan con el nombre
+// oficial (corpus de era → diario → EN provisional) y SIN tácticas: el
+// traductor las rellena a mano o las trae traducidas con el panel FUENTE,
+// entrada a entrada. Cada entrada se inserta bajo la cabecera de su zona si
+// el fichero destino la tiene; si no, se copia la cabecera (de EN o, si EN no
+// trae cabeceras — Midnight —, de ES).
+function indiceCabeceraZona(doc, zoneId) {
+	for (let i = 0; i < doc.lines.length; i++) {
+		const m = /^--\s*[^:\d][^-]*?:\s*Zona\s+(\d+)/.exec(doc.lines[i]);
+		if (m && m[1] === String(zoneId)) return i;
+	}
+	return -1;
+}
+function lineaCabeceraZona(doc, zoneId) {
+	for (const l of doc.lines) {
+		const m = /^--\s*[^:\d][^-]*?:\s*Zona\s+(\d+)/.exec(l);
+		if (m && m[1] === String(zoneId)) return l;
+	}
+	return null;
+}
+
+// nombre del DIARIO para una entrada que quizá no está en la tabla destino:
+// resuelve zona+nombre desde la tabla EN y, si EN no trae cabeceras de zona
+// (Midnight las lleva solo en ES), desde la tabla ES. Devuelve el nombre del
+// encuentro en el locale destino (o null si no casa)
+async function nombreDiarioDeEntradaEN(packName, npcId, to) {
+	const docEN = getDoc(packName, "en");
+	const det = entryDetail(docEN, npcId);
+	if (!det) return null;
+	const docES = getDoc(packName, "es");
+	const detES = docES ? entryDetail(docES, npcId) : null;
+	const zona = det.zone ?? detES?.zone ?? null;
+	const zonaLabel = det.zoneLabel ?? detES?.zoneLabel ?? null;
+	if (!zona && !zonaLabel) return null;
+	const inst = await ensureInstances();
+	const instancia = instanciaDeZona(inst, zona, zonaLabel);
+	if (!instancia) return null;
+	const { encounters: encsEN } = await encuentrosDe(instancia.id, "en_US");
+	const en = encsEN.find((e) => casaNombre(det.name, e.name)
+		|| (nombreClave(det.name) !== "" && nombreClave(det.name) === nombreClave(e.name)));
+	if (!en) return null;
+	const { encounters: encsTo } = await encuentrosDe(instancia.id, LOCALES_IDIOMA[to] ?? "en_US");
+	return encsTo.find((e) => e.id === en.id)?.name ?? null;
+}
+
+fastify.post("/api/packs/:pack/:lang/importar", async (req, reply) => {
+	const { pack: packName, lang } = req.params;
+	if (!IDIOMAS.includes(lang)) return reply.code(400).send({ ok: false, error: `idioma ${lang} no soportado` });
+	if (lang === "en") return reply.code(400).send({ ok: false, error: "EN es el idioma de referencia: nada que importar hacia EN" });
+	const p = packs.find((x) => x.name === packName);
+	if (!p || !p.langs.en || !p.langs[lang]) {
+		return reply.code(400).send({ ok: false, error: "el pack necesita ficheros EN y del idioma destino (crea el idioma desde su pestaña)" });
+	}
+
+	const docEN = getDoc(packName, "en");
+	const docES = getDoc(packName, "es"); // la tabla ES suele traer las cabeceras de zona que EN puede no tener (Midnight)
+	const docL = getDoc(packName, lang);
+	const faltan = docEntries(docEN).filter((e) => !docL.byId.has(e.id));
+	if (!faltan.length) return { ok: true, importados: [], total: 0, mensaje: "no falta ninguna entrada" };
+
+	// nombre oficial por orden de confianza (corpus de era → diario → EN);
+	// /data/wow/creature/{id} está MUERTA (404, verificado en _blizzard-api)
+	const importados = [];
+	for (const e of faltan) {
+		const det = entryDetail(docEN, e.id);
+		const detES = docES ? entryDetail(docES, e.id) : null;
+		let nombre = null;
+		let fuente = null;
+		const fila = corpusJefesDe(packName)?.[String(e.id)];
+		if (nombreEsValido(fila?.[lang])) { nombre = String(fila[lang]).trim(); fuente = "corpus"; }
+		if (!nombre) {
+			const viejo = nombreDeCorpusViejo(packName, lang);
+			const v = viejo ? viejo(e.id) : null;
+			if (nombreEsValido(v)) { nombre = String(v).trim(); fuente = "corpus"; }
+		}
+		if (!nombre && blizz) {
+			try {
+				nombre = await nombreDiarioDeEntradaEN(packName, e.id, lang);
+				if (nombre) fuente = "diario";
+			} catch { /* sin diario: seguimos */ }
+		}
+		if (!nombre) { nombre = det?.name ?? ""; fuente = "en"; }
+		importados.push({ id: e.id, nombre, fuente, zone: det?.zone ?? detES?.zone ?? null });
+	}
+
+	// escritura con backup + validación (mismo patrón que el guardado)
+	const file = p.langs[lang];
+	const full = join(p.folder, file);
+	const oldCount = docEntries(docL).length;
+	mkdirSync(backupsDir(packName), { recursive: true });
+	const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+	copyFileSync(full, join(backupsDir(packName), `${file}.${stamp}.bak`));
+
+	const FUENTES_NOTA = {
+		corpus: "nombre del corpus",
+		diario: "nombre del diario de Blizzard",
+		en: "SIN nombre oficial: EN provisional",
+	};
+	let texto = readFileSync(full, "utf8");
+	const insertadasPorZona = new Map(); // zoneId → nº insertadas bajo su cabecera
+	try {
+		for (const imp of importados) {
+			const doc = parseDoc(texto); // re-parseo tras cada inserción
+			let insertAt;
+			let cabeceraZona = null;
+			if (imp.zone) {
+				const idx = indiceCabeceraZona(doc, imp.zone);
+				// desplazamiento en LÍNEAS (cada bloque importado añade 4:
+				// "", comentario, apertura, "};" — igual en ambos caminos)
+				const lineasPrevias = insertadasPorZona.get(imp.zone) ?? 0;
+				if (idx >= 0) {
+					// tras la cabecera, DETRÁS de las importadas de esta zona
+					insertAt = idx + 1 + lineasPrevias;
+				} else {
+					// el destino no conoce la zona: copia la cabecera (EN y, si
+					// no la trae, ES; la etiqueta la resuelven el parser y el
+					// pareo por nombre igual que una etiqueta del destino)
+					cabeceraZona = lineaCabeceraZona(docEN, imp.zone)
+						?? (docES ? lineaCabeceraZona(docES, imp.zone) : null);
+					insertAt = doc.exportLineIndex >= 0 ? doc.exportLineIndex : doc.lines.length;
+				}
+				insertadasPorZona.set(imp.zone, lineasPrevias + 4);
+			} else {
+				insertAt = doc.exportLineIndex >= 0 ? doc.exportLineIndex : doc.lines.length;
+			}
+			texto = entryText(doc, imp.id, { name: imp.nombre, lines: [] }, {
+				create: true,
+				zoneId: imp.zone ?? null,
+				insertAt,
+				cabeceraZona,
+				nota: `Importada de EN (${FUENTES_NOTA[imp.fuente] ?? "nombre provisional"}); tácticas pendientes`,
+			});
+		}
+		validateText(texto, { oldCount, deltaEntries: importados.length });
+	} catch (err) {
+		return reply.code(400).send({ ok: false, error: err.message, problems: err.problems ?? null });
+	}
+	writeFileSync(full, texto, "utf8");
+	setDoc(packName, lang, loadLangFile(p.folder, file));
+	buildSpellIndex();
+	return { ok: true, importados, total: importados.length };
+});
+
+// --- alta de idioma (es/en/fr/de) -------------------------------------------
+// es/en: fichero + .toc + registrador (idiomas de la casa, seguros en la
+// cascada del core). fr/de: SOLO el fichero — queda como STUB del editor SIN
+// listar en .toc ni registrador hasta que el idioma esté completo: la cascada
+// (tablaIdiomaDePack) elige FR/DE por tabla y una tabla vacía o a medio
+// rellenar dejaría sin entradas a esos clientes; el fallback EN los cubre
+// hasta entonces (regla de idioma incompleto, patrón stub de BfA).
+// Resumible: si el fichero ya existe (alta interrumpida a medias — el
+// esqueleto se escribe antes que el .toc) NO se reescribe y se continúa.
 fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 	const { pack: packName, lang } = req.params;
 	if (!IDIOMAS.includes(lang)) return reply.code(400).send({ ok: false, error: `idioma ${lang} no soportado` });
 	const p = packs.find((x) => x.name === packName);
 	if (!p) return reply.code(404).send({ ok: false, error: "pack no encontrado" });
-	if (p.langs[lang]) return reply.code(400).send({ ok: false, error: `${lang} ya existe en ${packName}` });
 
-	const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-	// 1) fichero de idioma nuevo
-	const skeleton = langFileSkeleton(packName, lang);
-	const file = `${packName}_${lang}.lua`;
-	writeFileSync(join(p.folder, file), skeleton, "utf8");
+	try {
+		const file = `${packName}_${lang}.lua`;
+		const full = join(p.folder, file);
+		const yaEstaba = Boolean(p.langs[lang]);
+		if (!yaEstaba) {
+			// fichero de idioma nuevo (si existía de una alta a medias, se respeta)
+			writeFileSync(full, langFileSkeleton(packName, lang), "utf8");
+		}
 
-	// 2) .toc: lista el fichero tras el _en (solo ahora que el fichero existe)
-	const tocFull = join(p.folder, p.tocFile);
-	copyFileSync(tocFull, join(backupsDir(packName), `${p.tocFile}.${stamp}.bak`));
-	writeFileSync(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang), "utf8");
+		// .toc y registrador SOLO para es/en; fr/de quedan como stub
+		const listable = lang === "es" || lang === "en";
+		if (listable) {
+			mkdirSync(backupsDir(packName), { recursive: true });
+			const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+			// .toc: lista el fichero tras el _en (solo ahora que el fichero existe)
+			const tocFull = join(p.folder, p.tocFile);
+			copyFileSync(tocFull, join(backupsDir(packName), `${p.tocFile}.${stamp}.bak`));
+			writeFileSync(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang), "utf8");
 
-	// 3) registrador: FR = P.fr / DE = P.de inofensivos si aún no hay fichero
-	if (p.registrador) {
-		const regFull = join(p.folder, p.registrador);
-		copyFileSync(regFull, join(backupsDir(packName), `${p.registrador}.${stamp}.bak`));
-		writeFileSync(regFull, registradorAddLangs(readFileSync(regFull, "utf8")), "utf8");
+			// registrador: ES/EN ya vienen del generador; se asegura FR/DE por
+			// compatibilidad con altas antiguas (inofensivo si ya están)
+			if (p.registrador) {
+				const regFull = join(p.folder, p.registrador);
+				copyFileSync(regFull, join(backupsDir(packName), `${p.registrador}.${stamp}.bak`));
+				writeFileSync(regFull, registradorAddLangs(readFileSync(regFull, "utf8")), "utf8");
+			}
+		}
+
+		// re-carga del inventario del pack
+		const fresh = listPacks(root).find((x) => x.name === packName);
+		const idx = packs.findIndex((x) => x.name === packName);
+		packs[idx] = fresh;
+		setDoc(packName, lang, loadLangFile(fresh.folder, file));
+		return {
+			ok: true,
+			file,
+			stub: !listable,
+			toc: listable ? fresh.tocFile : null,
+			registrador: listable ? fresh.registrador : null,
+		};
+	} catch (err) {
+		// errores concretos (backups, permisos, .toc raro) al UI como 400 con
+		// mensaje, nunca un 500 desnudo
+		return reply.code(400).send({ ok: false, error: err.message });
 	}
+});
 
-	// re-carga del inventario del pack
-	const fresh = listPacks(root).find((x) => x.name === packName);
-	const idx = packs.findIndex((x) => x.name === packName);
-	packs[idx] = fresh;
-	setDoc(packName, lang, loadLangFile(fresh.folder, file));
-	return { ok: true, file, toc: fresh.tocFile, registrador: fresh.registrador };
+// --- limpieza de tácticas del idioma activo --------------------------------
+// Deja cada bloque del fichero del idioma activo con SOLO el nombre (las
+// viñetas de táctica enteras fuera): todas las entradas vuelven a contar como
+// «sin tácticas» para re-traducir el idioma entero de una vez con ✨ (lote
+// sobre /api/traducir + PUT normal, con su backup). ES se vacía a voluntad
+// del dueño; EN queda bloqueado: es el idioma de referencia de la casa.
+fastify.post("/api/packs/:pack/:lang/limpiar", async (req, reply) => {
+	const { pack: packName, lang } = req.params;
+	if (!IDIOMAS.includes(lang)) return reply.code(400).send({ ok: false, error: `idioma ${lang} no soportado` });
+	if (lang === "en") {
+		return reply.code(400).send({ ok: false, error: "EN es el idioma de referencia de la casa: no se vacía desde el editor" });
+	}
+	const p = packs.find((x) => x.name === packName);
+	if (!p || !p.langs[lang]) return reply.code(404).send({ ok: false, error: "pack o idioma no disponible" });
+
+	const file = p.langs[lang];
+	const full = join(p.folder, file);
+	try {
+		const text = readFileSync(full, "utf8");
+		const doc = parseDoc(text);
+		const antes = docEntries(doc).length;
+		if (antes === 0) return { ok: true, file, entradas: 0, vaciadas: 0, vinetas: 0 };
+
+		// por bloque: apertura + (nombre en línea propia si lo lleva) + cierre;
+		// todo lo demás (las tácticas) fuera
+		const out = [];
+		let cortadas = 0;
+		let i = 0;
+		while (i < doc.lines.length) {
+			const b = doc.blocks.find((x) => x.start === i);
+			if (!b) { out.push(doc.lines[i]); i++; continue; }
+			out.push(doc.lines[b.start]); // apertura pack["n"] = { / bos = {
+			if (!b.nameOnOpening) out.push(doc.lines[b.start + 1] ?? ""); // nombre propio
+			cortadas += b.end - b.start - 1 - (b.nameOnOpening ? 0 : 1);
+			out.push(doc.lines[b.end]); // cierre };
+			i = b.end + 1;
+		}
+		const nuevo = out.join(doc.eol);
+
+		// validaciones: mismas entradas, todas ya sin tácticas, parser estable
+		validateText(nuevo, { oldCount: antes, deltaEntries: 0 });
+		const docNuevo = parseDoc(nuevo);
+		const des = docEntries(docNuevo);
+		if (des.some((e) => !e.vacia)) throw new Error("quedaron entradas con tácticas tras la limpieza");
+		if (parseDoc(nuevo).text !== nuevo) throw new Error("round-trip del parser inestable");
+
+		// backup del fichero entero ANTES de vaciar (recuperable a mano)
+		mkdirSync(backupsDir(packName), { recursive: true });
+		const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+		const bak = join(backupsDir(packName), `${file}.${stamp}.prelimpiar.bak`);
+		copyFileSync(full, bak);
+
+		writeFileSync(full, nuevo, "utf8");
+		setDoc(packName, lang, loadLangFile(p.folder, file));
+		buildSpellIndex();
+		return { ok: true, file, entradas: antes, vinetas: cortadas, backup: bak };
+	} catch (err) {
+		return reply.code(400).send({ ok: false, error: err.message, problems: err.problems ?? null });
+	}
 });
 
 // --- spells ----------------------------------------------------------------

@@ -28,11 +28,20 @@ const ADDON_FILES = [
 ];
 
 // Packs de datos que se copian como carpetas independientes a AddOns
+// (en orden cronológico de expansión, como los esqueletos de la casa)
 const ADDON_FOLDERS = [
-  "Bosses_Midnight",
+  "Bosses_Vanilla",
+  "Bosses_TBC",
+  "Bosses_WotLK",
   "Bosses_Cata",
-  "Bosses_TWW",
   "Bosses_MoP",
+  "Bosses_WoD",
+  "Bosses_Legion",
+  "Bosses_BfA",
+  "Bosses_Shadowlands",
+  "Bosses_Dragonflight",
+  "Bosses_TWW",
+  "Bosses_Midnight",
 ];
 
 async function readPackageVersion() {

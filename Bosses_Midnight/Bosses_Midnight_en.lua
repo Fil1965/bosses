@@ -187,10 +187,12 @@ pack["252959"] = { "Nymrissa Wavecaller",
 	"* Mind the |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r.",
 };
 
+-- Predaxas rewritten with the owner's fetched info (Wowhead via chat)
 pack["238015"] = { "Predaxas",
-	"* The player marked by |cff71d5ff|Hspell:34994|h[Devour]|h|r kites it away from the group until it ends.",
-	"* |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r spawns the adds (Radiant Void Tick, Swallowed Gavodon and enraged Griffesang): tank them by the boss and kill them.",
-	"* The |cff71d5ff|Hspell:34933|h[Seismic Strike]|h|r slams: mind the floor."
+	"* His |cff71d5ff|Hspell:34994|h[Devour]|h|r charges to a spot: Nature damage plus a 3s stun to anyone close; the marked target kites away while it runs.",
+	"* |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r vomits a frontal cone (burst plus a 12s lingering DoT) and add crawl out of the vomit: nobody stands in front and the burn-down is quick.",
+	"* Mind the vomit add types: the bloodstompers hit Bestial Rage (doubling their damage for 18s, purge or kill them first), the ingested ones spray poison in an area and the voidticks scatter cosmic hail when Seismic Slam shakes them up.",
+	"* The |cff71d5ff|Hspell:34933|h[Seismic Strike]|h|r deals area damage and knocks back: stay clear of the impact and mind where the adds get displaced."
 };
 
 pack["267861"] = { "Kith'ix",

@@ -1,0 +1,15 @@
+## Interface: 120105, 50504, 20506, 11509
+## Title: Bosses - The Burning Crusade
+## Notes: Boss explanations for The Burning Crusade dungeons and raids (ES/EN)
+## Notes-esES: Explicaciones de los jefes de The Burning Crusade (mazmorras y bandas) (ES/EN)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 1.0.11
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Bosses
+Bosses_TBC_es.lua
+Bosses_TBC_en.lua
+Bosses_TBC_de.lua
+Bosses_TBC_fr.lua
+Bosses_TBC_enc.lua
+Bosses_TBC_zonas.lua
+Bosses_TBC.lua

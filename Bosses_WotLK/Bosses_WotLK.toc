@@ -1,0 +1,13 @@
+## Interface: 120105, 50504, 20506, 11509
+## Title: Bosses - Wrath of the Lich King
+## Notes: Boss explanations for Wrath of the Lich King dungeons and raids (ES/EN)
+## Notes-esES: Explicaciones de los jefes de Wrath of the Lich King (mazmorras y bandas) (ES/EN)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 1.0.11
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Bosses
+Bosses_WotLK_es.lua
+Bosses_WotLK_en.lua
+Bosses_WotLK_enc.lua
+Bosses_WotLK_zonas.lua
+Bosses_WotLK.lua

@@ -1,3 +1,5 @@
+.env
+packages/
 _backups/
 _doc/
 node_modules/

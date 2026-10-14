@@ -33,12 +33,20 @@ const ADDON_FILES = [
 ];
 
 // Packs de datos incluidos en el mismo zip (cada uno es una carpeta
-// top-level del zip con su propio .toc)
+// top-level del zip con su propio .toc), en orden cronológico de expansión
 const ADDON_FOLDERS = [
-  "Bosses_Midnight",
+  "Bosses_Vanilla",
+  "Bosses_TBC",
+  "Bosses_WotLK",
   "Bosses_Cata",
-  "Bosses_TWW",
   "Bosses_MoP",
+  "Bosses_WoD",
+  "Bosses_Legion",
+  "Bosses_BfA",
+  "Bosses_Shadowlands",
+  "Bosses_Dragonflight",
+  "Bosses_TWW",
+  "Bosses_Midnight",
 ];
 
 async function readPackageVersion() {

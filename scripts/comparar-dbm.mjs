@@ -4,9 +4,10 @@
 // con las que el core resuelve ENCOUNTER_START sin depender del diario (EJ),
 // igual que hace DBM con SetEncounterID/SetCreatureID.
 //
-// Mapeo carpeta → pack por nombre (midnight / warwithin / cataclysm); las
-// carpetas sin pack (WorldEvents, Brawlers, Party-* de otras expansiones...)
-// forman un pool global que se contrasta con todos los packs por CID.
+// Mapeo carpeta → pack por nombre (una expansión → su pack, en orden
+// cronológico); las carpetas sin pack (WorldEvents, Brawlers, Party-Forever,
+// Challenges...) forman un pool global que se contrasta con todos los packs
+// por CID.
 //
 // Uso: npm run comparar-dbm
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -22,10 +23,18 @@ const DBM = path.join(SRC, "_doc", "DBM");
 const EXCLUIDAS = new Set(["DBM-Core", "DBM-GUI", "DBM-StatusBarTimers", "DBM-VPVEM", "DBM-Test", "DBM-Test-Dungeons"]);
 
 const PACKS = [
-	{ nombre: "Bosses_Cata", patron: /cataclysm/i },
-	{ nombre: "Bosses_Midnight", patron: /midnight/i },
+	{ nombre: "Bosses_Vanilla", patron: /vanilla|azeroth/i },
+	{ nombre: "Bosses_TBC", patron: /\bbc\b|burningcrusade|tbc|outlands/i },
+	{ nombre: "Bosses_WotLK", patron: /wotlk|wrath/i },
+	{ nombre: "Bosses_Cata", patron: /\bcata\b|cataclysm/i },
 	{ nombre: "Bosses_MoP", patron: /pandaria|mop(?![a-z])/i },
-	{ nombre: "Bosses_TWW", patron: /warwithin/i },
+	{ nombre: "Bosses_WoD", patron: /\bwod\b|warlords|draenor/i },
+	{ nombre: "Bosses_Legion", patron: /legion|brokenisles/i },
+	{ nombre: "Bosses_BfA", patron: /bfa|battleforazeroth/i },
+	{ nombre: "Bosses_Shadowlands", patron: /shadowlands/i },
+	{ nombre: "Bosses_Dragonflight", patron: /dragonflight|dragonisles/i },
+	{ nombre: "Bosses_TWW", patron: /warwithin|khazalgar/i },
+	{ nombre: "Bosses_Midnight", patron: /midnight/i },
 ];
 
 // Recorre los .lua de un árbol de módulos DBM (ignora .toc y localizations)

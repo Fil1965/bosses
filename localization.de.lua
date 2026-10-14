@@ -24,7 +24,7 @@ if GetLocale() == "deDE" then
     L["MenuConfig"] = "Einstellungen";
     L["BotonAlChat"] = "Zum Chat";
     L["FirmaCortesia"] = "Höflichkeitssignatur in gemeinsamen Kanälen";
-    L["Cortesia"] = "Boss-Erklärung offered vom Addon Bosses";
+    L["Cortesia"] = "Boss-Erklärung angeboten vom Addon Bosses";
     L["Encuentros"] = "Automatische Erklärung";
     L["AutoEnc"] = "Automatisch: beim Begegnungsstart";
     L["Depuracion"] = "Fehlersuche";

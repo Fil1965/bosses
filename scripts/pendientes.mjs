@@ -15,7 +15,11 @@ import { parseEntries } from "./_parser-pack.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC = path.resolve(__dirname, "..");
-const PACKS = ["Bosses_Cata", "Bosses_Midnight", "Bosses_MoP", "Bosses_TWW"];
+const PACKS = [
+	"Bosses_Vanilla", "Bosses_TBC", "Bosses_WotLK", "Bosses_Cata", "Bosses_MoP",
+	"Bosses_WoD", "Bosses_Legion", "Bosses_BfA", "Bosses_Shadowlands",
+	"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight",
+];
 const strict = process.argv.includes("--estricto");
 
 let totalPend = 0;

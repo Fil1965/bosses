@@ -1,0 +1,13 @@
+## Interface: 120105, 50504, 20506, 11509
+## Title: Bosses - Legion
+## Notes: Boss explanations for Legion dungeons and raids (ES/EN)
+## Notes-esES: Explicaciones de los jefes de Legion (mazmorras y bandas) (ES/EN)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 1.0.11
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Bosses
+Bosses_Legion_es.lua
+Bosses_Legion_en.lua
+Bosses_Legion_enc.lua
+Bosses_Legion_zonas.lua
+Bosses_Legion.lua

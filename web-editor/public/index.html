@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bosses · Editor de packs</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/favicon.ico" sizes="48x48 32x32 16x16">
+<meta name="theme-color" content="#0d0d11">
 <!-- Tailwind por CDN: sin build. Tema oscuro con dorados según el frame de alerta del addon -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
@@ -25,6 +28,10 @@
 	textarea, input, select { background: #101015; }
 	label.tab { cursor: pointer; }
 	.spellchip { border-bottom: 1px dotted #7cb3ff; color: #7cb3ff; }
+	.loteBarraAnim { background: linear-gradient(90deg, #8a6d20, #d1a345, #f3e29b, #d1a345, #8a6d20); background-size: 200% 100%; animation: loteShimmer 1.4s linear infinite; }
+	@keyframes loteShimmer { from { background-position: 0% 0; } to { background-position: 200% 0; } }
+	.loteSpin { width: 14px; height: 14px; border: 2px solid #d1a34555; border-top-color: #d1a345; border-radius: 9999px; animation: spin 0.8s linear infinite; }
+	@keyframes spin { to { transform: rotate(360deg); } }
 	::-webkit-scrollbar { width: 10px; height: 10px; }
 	::-webkit-scrollbar-thumb { background: #2b2b35; border-radius: 5px; }
 	::-webkit-scrollbar-track { background: #0d0d11; }
@@ -56,6 +63,9 @@
 		<div class="p-3 border-t border-wow-edge flex flex-wrap gap-2 items-center">
 			<button id="btnNueva" class="text-sm px-3 py-1.5 rounded bg-wow-gold/90 text-black font-medium hover:bg-wow-gold">＋ nueva entrada</button>
 			<button id="btnCobertura" class="text-xs px-2 py-1.5 rounded border border-wow-edge hover:border-wow-gold text-slate-300" title="coteja las tácticas del pack contra las habilidades del diario (heurístico por nombre)">📋 cobertura</button>
+			<button id="btnLimpiar" class="hidden text-xs px-2 py-1.5 rounded border border-red-400/50 text-red-300 hover:bg-red-400/15" title="vacía TODAS las tácticas del idioma activo (solo fr/de): los nombres se quedan y cada entrada vuelve a contar como sin tácticas para el lote de IA">🧹 quitar tácticas</button>
+			<button id="btnTraducirLotes" class="hidden text-xs px-2 py-1.5 rounded border border-fuchsia-400/50 text-fuchsia-300 hover:bg-fuchsia-400/15" title="rellena con IA las entradas de este idioma que están sin tácticas, a partir del idioma FUENTE (select del panel)">✨ traducir con IA</button>
+			<button id="btnImportar" class="hidden text-xs px-2 py-1.5 rounded border border-wow-gold/60 text-wow-gold hover:bg-wow-gold/20" title="crea en este idioma las entradas que están en EN y faltan aquí: nombre oficial de la API de Blizzard y tácticas vacías">⬇ importar de EN</button>
 			<span id="cuentaLista" class="text-xs text-slate-500 ml-auto"></span>
 		</div>
 	</aside>
@@ -128,6 +138,49 @@
 		<div class="text-xs text-slate-400 mb-2">Coteja las habilidades del diario contra el texto y los spells enlazados de cada entrada. Heurístico por nombre: señala dónde mirar, no sustituye tu criterio — un "falta" puede ser una habilidad menor o algo ya cubierto con otras palabras.</div>
 		<div id="coberturaRes" class="overflow-y-auto space-y-1 text-sm pr-1"></div>
 		<button id="coberturaClose" class="mt-3 text-xs text-slate-500 hover:text-slate-300 self-start">cerrar (Esc)</button>
+	</div>
+</div>
+
+<!-- Modal "traducción IA en lote": rellena con IA las entradas sin tácticas -->
+<div id="traducirModal" class="fixed inset-0 hidden bg-black/75 backdrop-blur-sm z-50">
+	<div class="mx-auto mt-20 w-[580px] max-h-[80vh] frame bg-wow-panel p-5 flex flex-col">
+		<div class="flex items-center gap-2">
+			<div class="font-ui text-lg text-wow-gold">✨ Traducción IA en lote</div>
+			<div class="flex-1"></div>
+			<span id="loteRuta" class="text-xs px-2 py-0.5 rounded border border-fuchsia-400/40 bg-fuchsia-400/10 text-fuchsia-200 tabular-nums"></span>
+		</div>
+		<div class="text-xs text-slate-400 leading-5 mt-1">
+			Cada entrada de <span id="loteDstTxt" class="text-slate-200 font-medium"></span> que está <span class="text-slate-200">sin tácticas</span> se trae del idioma
+			<span id="loteSrcTxt" class="text-slate-200 font-medium"></span> (el que marca el select FUENTE del panel), se traduce con la IA
+			<span id="loteNombreTxt">y se le pone el nombre oficial del diario/API cuando existe</span>, y <span class="text-slate-200">se guarda</span> en disco con backup automático en <code>_cache/backups</code>. Al terminar queda el resumen: revisa lo traducido y afina lo que quieras.
+		</div>
+		<div class="golddiv my-3"></div>
+
+		<!-- progreso -->
+		<div class="flex items-center gap-3">
+			<div id="loteActual" class="flex items-center gap-2 flex-1 min-w-0 text-sm">
+				<span id="loteSpin" class="loteSpin shrink-0"></span>
+				<span id="loteBoss" class="truncate text-slate-300">esperando…</span>
+			</div>
+			<div class="text-sm tabular-nums text-slate-400 shrink-0"><span id="loteNum" class="text-wow-gold">0</span> / <span id="loteTot">0</span></div>
+		</div>
+		<div class="mt-2 h-2 rounded-full bg-wow-edge overflow-hidden">
+			<div id="lotePct" class="h-full rounded-full transition-all duration-300 loteBarraAnim" style="width: 0%"></div>
+		</div>
+		<div id="loteStats" class="mt-1.5 flex gap-4 text-xs tabular-nums">
+			<span class="text-emerald-300">✓ ok <span id="loteOk">0</span></span>
+			<span class="text-red-300">✖ fallos <span id="loteErr">0</span></span>
+			<span class="text-slate-400">⏭ saltados <span id="loteSkip">0</span></span>
+		</div>
+
+		<!-- registro -->
+		<div id="loteLog" class="mt-3 flex-1 min-h-0 overflow-y-auto space-y-1 text-xs pr-1"></div>
+
+		<div class="mt-3 flex items-center gap-2">
+			<div id="loteNota" class="text-xs text-slate-500 flex-1">cada jefe: traer → IA traduce → guardar; se detiene limpio entre jefes.</div>
+			<button id="loteCancelar" class="text-xs px-3 py-1.5 rounded border border-red-400/40 text-red-300 hover:bg-red-400/10">detener</button>
+			<button id="loteCerrar" class="hidden text-xs px-3 py-1.5 rounded bg-wow-gold/90 text-black font-medium hover:bg-wow-gold">cerrar</button>
+		</div>
 	</div>
 </div>
 

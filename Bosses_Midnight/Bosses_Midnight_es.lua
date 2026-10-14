@@ -188,10 +188,12 @@ pack["252959"] = { "Nymrissa Clamaolas",
 	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: cuidado con la burbuja.",
 };
 
+-- Predaxas reescrito con la info facilitada por el dueño (Wowhead vía chat)
 pack["238015"] = { "Predaxas",
-	"* El marcado por el |cff71d5ff|Hspell:34994|h[Devorar]|h|r corre lejos del grupo (kite) hasta que termine.",
-	"* El |cff71d5ff|Hspell:34929|h[Reflujo gástico]|h|r trae los adds (Tique del Vacío, Gavodon tragado y Griffe Sang rabioso): tanque al lado del boss y matarlos.",
-	"* El |cff71d5ff|Hspell:34933|h[Golpe sísmico]|h|r golpea: cuidado con el piso."
+	"* Su carga del |cff71d5ff|Hspell:34994|h[Devorar]|h|r apunta a una zona: daño de la Naturaleza y aturde 3 s a lo cercano; el marcado corre lejos del grupo (kite) mientras dura.",
+	"* La |cff71d5ff|Hspell:34929|h[Regurgitación]|h|r vomita en cono frontal (golpe más daño en el tiempo de 12 s) y del vómito salen esbirros: nadie se pone delante y el daño los barre rápido.",
+	"* Cuidado con los tipos de esbirro del vómito: los sangrientos entran en Ira bestial (doblan su daño 18 s, se disipa o se mata primero), los ingeridos rocían veneno en área y los tiques del Vacío sueltan lluvia cósmica cuando el golpe sísmico los remueve.",
+	"* El |cff71d5ff|Hspell:34933|h[Golpe sísmico]|h|r daña en área y repele: lejos del área de impacto y pendiente de que mueva los esbirros."
 };
 
 pack["267861"] = { "Kith'ix",
@@ -408,7 +410,7 @@ pack["238887"] = { "Taz'Rah",
 -- --------------------------------- --
 
 pack["231606"] = { "Brasalbor",
-	"* El marcado por |cff71d5ff|Hspell:466556|h[Corriente ascendente flameante]|h|r sale volando: cuidado con la posición.",
+	"* El jugador marcado por |cff71d5ff|Hspell:466556|h[Corriente ascendente flameante]|h|r sale volando: cuidado con la posición.",
 	"* |cff71d5ff|Hspell:466064|h[Pico abrasador]|h|r es del tanque.",
 	"* |cff71d5ff|Hspell:465904|h[Vendaval abrasador]|h|r: casteo largo, protegeos.",
 };

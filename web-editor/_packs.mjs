@@ -53,7 +53,11 @@ export function parseDoc(text) {
 			const cut = i === open.start ? l.slice(l.indexOf("= {") + 3) : l;
 			const mN = /"((?:[^"\\]|\\.)*)"/.exec(cut);
 			if (mN) {
-				name = mN[1];
+				// el name llega con los escapes Lua del fichero (\" por las dobles
+				// del propio nombre, p. ej. los apodos); el editor lo trata
+				// LITERAL (los demás lugares también: entryText re-escapa con
+				// luaStr al escribir) — sin esto, cada guardado añade barras
+				name = desescapaInterior(mN[1]);
 				nameLine = i;
 				break;
 			}
@@ -137,16 +141,21 @@ export function parseDoc(text) {
 	return doc;
 }
 
-// Resumen de entradas para la lista de la UI (sin líneas)
+// Resumen de entradas para la lista de la UI (sin líneas). `lines` cuenta SOLO
+// consejos: si el nombre va en su propia línea (bloques sin nombre en la
+// apertura) se descuenta; `vacia` marca las entradas SIN tácticas (las crea
+// "importar de EN") para el botón de traducción IA en lote del editor.
 export function docEntries(doc) {
 	const out = [];
 	for (const block of doc.blocks) {
 		for (const id of block.ids) {
+			const consejos = block.end - block.start - 1 - (block.nameOnOpening ? 0 : 1);
 			out.push({
 				id,
 				name: block.name,
 				zone: doc.zones.get(id) ?? null,
-				lines: block.end - block.start - 1, // consejos (sin apertura ni cierre)
+				lines: consejos, // consejos (sin apertura, cierre ni la línea del nombre)
+				vacia: consejos <= 0,
 				shared: block.kind === "shared" ? block.ids : null,
 			});
 		}
@@ -178,6 +187,36 @@ export function entryDetail(doc, id) {
 		kind: block.kind,
 		lines: payloads,
 	};
+}
+
+// Des-escape de un interior de string Lua capturado con regex: la barra
+// LITERAL va primero (con placeholder) para que el des-escape genérico de
+// \X no se la coma (caso raro en nombres de WoW, pero el des-escape genérico
+// debe quedarse bien para el round-trip).
+function desescapaInterior(s) {
+	return String(s).replace(/\\\\/g, "\u0000").replace(/\\(.)/g, "$1").replace(/\u0000/g, "\\");
+}
+
+// Entrada GEMELA ya traducida en el DESTINO: OTRA entrada del docFuente con el
+// MISMO contenido de consejo (byte a byte, sin el nombre) cuyo bloque en
+// docDst ya lleva contenido (a mano, en tanda previa o guardado segundos
+// antes). Devuelve SU detalle del destino para reusar LÍNEAS; el NOMBRE no
+// va con ella (es por-CID y difiere entre gemelas: cada llamada lo resuelve
+// aparte, por corpus/API/IA). Las gemelas de la casa: bestias de kit
+// idéntico, warders gemelos, planos con la misma línea.
+export function gemelaTraducida(docSrc, docDst, id) {
+	if (!docSrc || !docDst) return null;
+	const det = entryDetail(docSrc, id);
+	if (!det || !det.lines.length) return null;
+	const clave = det.lines.join("\u0001");
+	for (const e of docEntries(docDst)) {
+		if (String(e.id) === String(id)) continue;
+		const dst = entryDetail(docDst, e.id);
+		if (!dst || !dst.lines.length) continue;
+		const src = entryDetail(docSrc, e.id);
+		if (src && src.lines.join("\u0001") === clave) return dst;
+	}
+	return null;
 }
 
 // El elemento 1 va escapado en el fichero; aquí lo devolvemos sin escapar
@@ -261,17 +300,22 @@ export function entryText(doc, id, { name, lines: payloadsIn }, opts = {}) {
 		lines = [...antes];
 		lines.splice(block.start, block.end - block.start + 1, ...nuevos.map((n) => n.text));
 	} else {
-		// Creación: antes de la export final, con cabecera de zona o nota del editor
-		const insertAt = doc.exportLineIndex >= 0 ? doc.exportLineIndex : doc.lines.length;
+		// Creación: en el punto pedido (opts.insertAt: tras la cabecera de su
+		// zona) o antes de la export final, con nota del editor y — en las
+		// importaciones — la cabecera de zona copiada de EN si el fichero
+		// destino aún no la tenía (la etiqueta EN la resuelven el parser y el
+		// pareo por nombre igual que una etiqueta ES).
+		const insertAt = opts.insertAt ?? (doc.exportLineIndex >= 0 ? doc.exportLineIndex : doc.lines.length);
 		const fecha = opts.author ?? new Date().toISOString().slice(0, 10);
 		const zona = doc.zones.get(id) ?? opts.zoneId ?? null;
+		const nota = opts.nota ?? (zona ? "Entrada añadida (zona heredada del bloque anterior)" : "Entrada añadida sin zona conocida");
 		const inserto = [];
-		inserto.push("");
-		if (zona) {
-			inserto.push(`-- [editor web ${fecha}] Entrada añadida (zona heredada del bloque anterior) --`);
-		} else {
-			inserto.push(`-- [editor web ${fecha}] Entrada añadida sin zona conocida --`);
+		if (opts.cabeceraZona) {
+			inserto.push("");
+			inserto.push(opts.cabeceraZona);
 		}
+		inserto.push("");
+		inserto.push(`-- [editor web ${fecha}] ${nota} --`);
 		for (const n of nuevos) inserto.push(n.text);
 		lines = [...antes.slice(0, insertAt), ...inserto, ...antes.slice(insertAt)];
 	}
@@ -304,6 +348,38 @@ export function validateText(text, { deltaEntries = 0, oldCount = null } = {}) {
 		const cerradas = (line.match(/\|Hspell:-?\d+\|h\[[^\]]*\]\|h\|r/g) ?? []).length; // -? para los spell ids negativos del diario (verificados en End Time)
 		if (abiertas !== cerradas) {
 			problems.push(`línea ${i + 1}: ${abiertas - cerradas} enlace(s) de spell sin cierre |h|r`);
+		}
+	}
+	// Guardia anti-basura IA (2026-10-14): el modelo a veces estampa guías de
+	// estrategia markdown (Fases con **, viñetas anidadas, roles [Tank]/[Healers])
+	// en el nombre —partiendo el Lua del pack— o en las líneas. Nada de eso es
+	// contenido legítimo de los packs: el guardado se RECHAZA con aviso. OJO:
+	// [Heal] es además el nombre legítimo del hechizo de sacerdote — roles sin
+	// envoltorio y para bare se excluye "heal".
+	for (const e of docEntries(doc)) {
+		const n = String(entryDetail(doc, e.id)?.name ?? "");
+		if (n.length > 90 || /[*•▪‣]|\[(?:tank|healers?|dps|cc)\]/i.test(n)) {
+			problems.push(`entrada ${e.id}: nombre con adorno de guía IA`);
+		}
+	}
+	for (const b of doc.blocks) {
+		const vistas = new Map();
+		for (let j = b.start + 1; j < b.end; j++) {
+			const l = doc.lines[j];
+			if (/\*\*/.test(l) || /^\s*\*[ \t]{2,}\S/.test(l) || /\[(?:tank|healers?|dps|cc)\]/i.test(l)) {
+				problems.push(`línea ${j + 1}: guía IA en el contenido (markdown o roles)`);
+			}
+			// repeticiones del modelo (una línea n veces, 2026-10-14): tanda
+			// consecutiva ≥2 o línea repetida ≥3 veces dentro del bloque
+			const s = l.trim();
+			if (s) {
+				const c = (vistas.get(s) ?? 0) + 1;
+				vistas.set(s, c);
+				const laPrevia = doc.lines[j - 1]?.trim();
+				if (laPrevia === s || c >= 3) {
+					problems.push(`línea ${j + 1}: línea repetida en el bloque`);
+				}
+			}
 		}
 	}
 	if (problems.length) {

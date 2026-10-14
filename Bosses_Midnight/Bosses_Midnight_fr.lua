@@ -189,10 +189,12 @@ pack["252959"] = { "Nymrissa Mande-vagues",
 	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r : attention à la bulle.",
 };
 
+-- Prédaxas réécrit avec les infos du propriétaire (Wowhead via le chat)
 pack["238015"] = { "Prédaxas",
-	"* Le marqué par |cff71d5ff|Hspell:34994|h[Dévorer]|h|r court loin du groupe et l'épie jusqu'à la fin.",
-	"* Le |cff71d5ff|Hspell:34929|h[Reflux gastrique]|h|r amène les adds (Tique du Vide rayonnante, Gavodon ingéré et Griffesang enragé): tank à côté du boss et les tuer.",
-	"* Le |cff71d5ff|Hspell:34933|h[Heurt sismique]|h|r frappe: attention au sol."
+	"* Sa charge de |cff71d5ff|Hspell:34994|h[Dévorer]|h|r vise une zone : dégâts de Nature et étourdit 3 s tout ce qui est proche ; la cible court loin du groupe pendant la durée.",
+	"* La |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r vomit en cône frontal (coup plus dégâts sur la durée de 12 s) et des sbires sortent du vomi : personne ne se place devant et on les balaye vite.",
+	"* Attention aux types de sbires du vomi : les porteurs de sang passent en Rage bestiale (dégâts doublés 18 s, à dissiper ou tuer en premier), ceux ingérés crachent du venin en zone et les tiques du Vide éparpillent une pluie cosmique quand le coup sismique les secoue.",
+	"* Le |cff71d5ff|Hspell:34933|h[Heurt sismique]|h|r frappe en zone et repousse : loin de l'impact et attentif à où il déplace les sbires."
 };
 
 pack["267861"] = { "Kith'ix",
@@ -408,10 +410,10 @@ pack["238887"] = { "Taz’Rah",
 -- Windrunner Spire : Zona 2805 --
 -- --------------------------------- --
 
-pack["231606"] = { "Aube-de-Braise",
-	"* Le joueur marqué par |cff71d5ff|Hspell:466556|h[Corriente ascendente flameante]|h|r s'envole : attention à la position.",
-	"* |cff71d5ff|Hspell:466064|h[Pico abrasador]|h|r est pour le tank.",
-	"* |cff71d5ff|Hspell:465904|h[Vendaval abrasador]|h|r : incantation longue, protégez-vous.",
+pack["231606"] = { "Emberdawn",
+	"* Le joueur marqué par |cff71d5ff|Hspell:466556|h[Courant ascendant enflammé]|h|r est projeté en l'air : faites attention à votre position.",
+	"* |cff71d5ff|Hspell:466064|h[Bec incendiaire]|h|r est une mécanique de tank.",
+	"* |cff71d5ff|Hspell:465904|h[Rafale ardente]|h|r: incantation longue, préparez vos protections.",
 };
 
 pack["231626"] = { "Duo abandonné",

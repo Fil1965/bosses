@@ -1,6 +1,6 @@
 {
   "name": "bosses",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Describes Boss Encounters",
   "license": "BSD-3-Clause",
   "author": "Philippe Mingo <pmingo@gmail.com>",
@@ -29,11 +29,16 @@
     "release": "node scripts/release.mjs",
     "pendientes": "node scripts/pendientes.mjs",
     "comparar-dbm": "node scripts/comparar-dbm.mjs",
+    "generar-zonas": "node scripts/generar-zonas.mjs",
+    "instancias-en": "node --env-file=.env scripts/instancias-en.mjs",
+    "nombres-jefe": "node --env-file=.env scripts/nombres-jefe.mjs",
     "blizztest": "node --env-file=.env scripts/test-blizz.mjs",
     "blizzard-nombres": "node --env-file=.env scripts/nombres-blizzard.mjs",
     "editor": "node --env-file=.env web-editor/server.mjs"
   },
   "dependencies": {
-    "fastify": "^5.12.5"
+    "axios": "^1.20.0",
+    "fastify": "^5.12.7",
+    "openai": "^7.32.0"
   }
 }

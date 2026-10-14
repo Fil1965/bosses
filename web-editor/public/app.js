@@ -7,6 +7,11 @@ const state = {
 	packs: [],
 	pack: null,
 	lang: "es",
+	srcLang: null,     // idioma FUENTE elegido en el panel (traer y traducir con IA)
+	faltanEN: 0,       // nº de entradas de EN ausentes en el idioma activo (botón importar)
+	loteVacias: 0,     // nº de entradas SIN tácticas en el idioma activo (botón IA)
+	loteRun: false,    // hay una traducción IA en lote corriendo
+	loteCancel: false, // petición de detener la tanda (surte efecto entre jefes)
 	entries: [],
 	filtro: "",
 	entryId: null,     // id seleccionado (o null = sin selección)
@@ -35,6 +40,9 @@ async function api(path, opts) {
 	const o = { headers: { "Content-Type": "application/json" }, ...opts };
 	// sin cuerpo en POST/PUT, Fastify rechaza con FST_ERR_CTP_EMPTY_JSON_BODY
 	if ((o.method === "POST" || o.method === "PUT") && !o.body) o.body = "{}";
+	// techo de espera (4 min): sin esto, un fetch que nunca responde (IA
+	// colgada en el servidor) congela la tanda sin ningún mensaje en pantalla
+	o.signal ??= AbortSignal.timeout(240000);
 	const res = await fetch(path, o);
 	const body = await res.json().catch(() => ({ ok: false, error: "respuesta no JSON" }));
 	if (!res.ok && body.ok === undefined) body.ok = false;
@@ -89,6 +97,9 @@ async function loadMeta() {
 	badges.push(state.meta.blizz
 		? `<span class="text-emerald-400">Blizzard API ✓</span>`
 		: `<span class="text-amber-500">sin .env → sin retratos</span>`);
+	badges.push(state.meta.ia
+		? `<span class="text-emerald-400" title="proveedor de traducción: ${state.meta.iaProvider ?? "nvidia"}${state.meta.iaModel ? " · modelo: " + state.meta.iaModel : ""}">IA ✓ (${state.meta.iaProvider ?? "nvidia"})</span>`
+		: `<span class="text-amber-500">IA off → sin traducción (revisa .env)</span>`);
 	$("meta").innerHTML = badges.join("");
 }
 
@@ -127,12 +138,20 @@ function renderLangTabs() {
 			const lang = b.dataset.lang;
 			const pack = state.packs.find((p) => p.name === state.pack);
 			if (!pack.langs[lang]) {
-				// alta del idioma: fichero + .toc + registrador (con backups)
-				if (!confirm(`Crear ${pack.name}_${lang}.lua y registrar ${lang.toUpperCase()} en .toc/registrador?`)) return;
+				// alta del idioma: es/en → fichero + .toc + registrador;
+				// fr/de → solo fichero (stub sin listar: regla de idioma
+				// incompleto — la cascada del core no debe ver tablas vacías)
+				const stub = lang === "fr" || lang === "de";
+				const texto = stub
+					? `Crear ${pack.name}_${lang}.lua como stub del editor (SIN .toc ni registrador hasta que el idioma esté completo)?`
+					: `Crear ${pack.name}_${lang}.lua y registrar ${lang.toUpperCase()} en .toc/registrador?`;
+				if (!confirm(texto)) return;
 				const r = await api(`/api/packs/${pack.name}/langs/${lang}`, { method: "POST" });
 				if (!r.ok) return toast(`Falta crear idioma: ${r.error}`, false);
 				await loadPacks();
-				toast(`Idioma ${lang.toUpperCase()} creado en ${pack.name} (fichero + .toc + registrador)`);
+				toast(r.stub
+					? `Idioma ${lang.toUpperCase()} creado como stub (sin listar hasta completarlo; luego añade la línea al .toc y DE = P.de al registrador)`
+					: `Idioma ${lang.toUpperCase()} creado en ${pack.name} (fichero + .toc + registrador)`);
 			}
 			state.lang = lang;
 			state.entryId = null;
@@ -149,7 +168,120 @@ async function loadEntries() {
 	const r = await api(`/api/packs/${state.pack}/${state.lang}`);
 	state.entries = r.entries ?? [];
 	renderLista();
+	actualizarImportar(); // visibilidad y contador del botón EN → idioma activo
+	actualizarLote(); // visibilidad y contador del botón IA (entradas sin tácticas)
 }
+
+// ------------------------------------------------- importar nombres de EN --
+// EN es el idioma de referencia: si describe más jefes que el idioma activo,
+// el botón (junto a "cobertura") crea las que faltan con el nombre oficial
+// (API de Blizzard: corpus de era → diario) y tácticas vacías.
+async function actualizarImportar() {
+	const btn = $("btnImportar");
+	btn.classList.add("hidden");
+	state.faltanEN = 0;
+	if (state.lang === "en" || !state.pack) return;
+	const pack = state.packs.find((p) => p.name === state.pack);
+	if (!pack?.langs[state.lang]) return; // idioma sin fichero: primero se crea
+	const r = await api(`/api/packs/${state.pack}/en`);
+	if (!r.ok) return; // pack sin módulo EN: nada que importar
+	const idsActuales = new Set(state.entries.map((e) => e.id));
+	const faltan = (r.entries ?? []).filter((e) => !idsActuales.has(e.id));
+	if (!faltan.length) return;
+	state.faltanEN = faltan.length;
+	btn.textContent = `⬇ importar de EN (${faltan.length})`;
+	btn.title = `Crea en ${state.lang.toUpperCase()} ${faltan.length} entrada(s) que están en EN y faltan aquí: nombre oficial de la API de Blizzard y tácticas vacías`;
+	btn.classList.remove("hidden");
+}
+
+// ------------------------------------------------ traducción IA en lote ----
+// Entradas a traducir en una tanda: las SIN tácticas del idioma activo, y las
+// COMPARTIDAS (un `bos` con varias CIDs) solo UNA vez — la de id menor: el
+// guardado escribe el bloque entero, así que las demás CIDs del mismo bos
+// quedan cubiertas y no merecen llamadas IA repetidas.
+function pendientesTraduccion(entries) {
+	return entries
+		.filter((e) => e.vacia ?? (e.lines ?? 0) <= 0)
+		.filter((e) => !e.shared || Number(e.id) === Math.min(...e.shared.map(Number)));
+}
+
+// Entradas del idioma activo SIN tácticas (las que crea "importar de EN" y
+// las que editan a mano dejando vacías): el botón, a la derecha de "cobertura",
+// las rellena una a una con POST /api/traducir (mismas reglas: nombre oficial
+// primero, IA después) usando como FUENTE el idioma del select del panel, y
+// guarda cada resultado con el PUT normal (backup automático del servidor).
+function actualizarLote() {
+	const btn = $("btnTraducirLotes");
+	btn.classList.add("hidden");
+	$("btnLimpiar").classList.add("hidden");
+	$("btnLimpiar").disabled = false;
+	$("btnLimpiar").textContent = "🧹 quitar tácticas";
+	state.loteVacias = 0;
+	if (!state.pack || !state.meta?.ok || state.meta.ia === false) return;
+	const pack = state.packs.find((p) => p.name === state.pack);
+	const fuentes = Object.entries(pack?.langs ?? {}).filter(([l, i]) => i && l !== state.lang).map(([l]) => l);
+	if (!fuentes.length) return;
+	const vacias = pendientesTraduccion(state.entries);
+	if (vacias.length) {
+		state.loteVacias = vacias.length;
+		btn.textContent = `✨ traducir con IA (${vacias.length})`;
+		btn.title = `Rellena con IA ${vacias.length} entrada(s) de ${state.lang.toUpperCase()} que están sin tácticas: trae la del idioma FUENTE del panel (${(state.srcLang ?? fuentes[0]).toUpperCase()}) y guarda cada traducción`;
+		btn.classList.remove("hidden");
+	}
+	// botón de limpieza: ES (a voluntad del dueño) y fr/de; EN queda fuera
+	if ((state.lang === "es" || state.lang === "fr" || state.lang === "de") && state.entries.length) {
+		const vistas = new Set();
+		let conTacticas = 0;
+		for (const e of state.entries) {
+			if (e.vacia || vistas.has(e.shared ? String(Math.min(...e.shared.map(Number))) : e.id)) continue;
+			vistas.add(e.shared ? String(Math.min(...e.shared.map(Number))) : e.id);
+			conTacticas++;
+		}
+		if (conTacticas > 0) {
+			const btnL = $("btnLimpiar");
+			btnL.textContent = `🧹 quitar tácticas (${conTacticas})`;
+			btnL.title = `Vacía TODAS las tácticas de ${state.lang.toUpperCase()}: ${conTacticas} entrada(s) quedan solo con el nombre (nombre de la entrada intacto) y el lote de IA puede re-traducir el idioma entero. Con backup previo del fichero.`;
+			btnL.classList.remove("hidden");
+		}
+	}
+}
+
+$("btnLimpiar").onclick = async () => {
+	const btn = $("btnLimpiar");
+	const m = /quitar tácticas \((\d+)\)/.exec(btn.textContent);
+	const n = m ? Number(m[1]) : 0;
+	if (!confirm(`Vaciar las tácticas de ${state.lang.toUpperCase()} (${n} entrada(s))?\n\nSe borra TODA la prosa de ${state.pack}_${state.lang}.lua; los NOMBRES se quedan. Con backup previo del fichero entero en _cache/backups. Después, «✨ traducir con IA» re-trae el idioma entero desde el FUENTE del panel.\n\n¿Continuar?`)) return;
+	btn.disabled = true;
+	try {
+		const r = await api(`/api/packs/${state.pack}/${state.lang}/limpiar`, { method: "POST" });
+		if (!r.ok) return toast(`Limpieza: ${r.error}`, false);
+		toast(`${state.lang.toUpperCase()} vaciado: ${r.vinetas} línea(s) de táctica fuera, ${r.entradas} entradas con solo el nombre. Backup listo para restaurar.`);
+		selectEntryOff();
+		await loadEntries(); // recalcula ✨ (ahora cubre el idioma entero) y 🧹
+	} finally {
+		btn.disabled = false;
+	}
+};
+
+$("btnImportar").onclick = async () => {
+	if (!state.faltanEN) return;
+	if (!confirm(`Importar ${state.faltanEN} entrada(s) de EN a ${state.lang.toUpperCase()}?\n\nNombre oficial de la API de Blizzard (corpus de era o diario); las tácticas quedan vacías para rellenar después.`)) return;
+	const btn = $("btnImportar");
+	btn.disabled = true;
+	try {
+		const r = await api(`/api/packs/${state.pack}/${state.lang}/importar`, { method: "POST" });
+		if (!r.ok) return toast(`Importación: ${r.error}`, false);
+		const porFuente = {};
+		for (const i of r.importados ?? []) porFuente[i.fuente] = (porFuente[i.fuente] ?? 0) + 1;
+		const detalle = Object.entries(porFuente).map(([f, c]) => `${c} ${f === "en" ? "sin nombre (EN)" : f}`).join(", ");
+		toast(`Importadas ${r.total} entradas (${detalle}); tácticas pendientes`);
+		await loadPacks();
+		renderLangTabs();
+		await loadEntries(); // recalcula el botón: ya no debe faltar nada
+	} finally {
+		btn.disabled = false;
+	}
+};
 
 function renderLista() {
 	const q = norm(state.filtro);
@@ -316,27 +448,85 @@ async function resolverNombresSpell() {
 	}
 }
 
-// referencia de la fuente (traducción: columna izquierda)
+// panel FUENTE (columna izquierda): para el boss en pantalla se elige el
+// idioma que está MEJOR redactado, se muestra su explicación tal cual (solo
+// lectura) y con un click la IA la traduce al idioma que se está editando
+// (proveedor de IA del servidor vía /api/traducir: NVIDIA NIM u Ollama,
+// IA_PROVIDER del .env). Sirve en ambas direcciones:
+// EN -> ES para traer un texto bueno a la tabla española y ES -> EN/FR/DE para
+// sembrar los demás idiomas desde la fuente.
 async function renderReferencia() {
 	const e = state.entryData;
 	if (!e) { $("referencia").innerHTML = ""; return; }
-	if (state.lang === "es") {
+	const pack = state.packs.find((p) => p.name === state.pack);
+	const fuentes = Object.entries(pack?.langs ?? {})
+		.filter(([lang, info]) => info && lang !== state.lang)
+		.map(([lang]) => lang);
+	if (!state.srcLang || !fuentes.includes(state.srcLang)) state.srcLang = fuentes[0] ?? null;
+	if (!state.srcLang) {
 		state.nombresRef = [];
-		$("referencia").innerHTML = `<div class="font-ui text-xs text-wow-gold tracking-widest mb-1">REFERENCIA ES</div>
-			<div class="text-xs text-slate-500">Estás editando la tabla ES (fuente). Para traducir, cambia a otro idioma en las pestañas.</div>`;
+		$("referencia").innerHTML = `<div class="font-ui text-xs text-wow-gold tracking-widest mb-1">FUENTE</div>
+			<div class="text-xs text-slate-500">Este pack no tiene otro idioma con fichero: nada que traer ni traducir.</div>`;
 		return;
 	}
-	const r = await api(`/api/packs/${state.pack}/es/${e.id}`);
+	const r = await api(`/api/packs/${state.pack}/${state.srcLang}/${e.id}`);
 	const src = r.ok ? r.entry : null;
 	state.nombresRef = src ? [src.name, ...(src.lines ?? [])] : [];
+	const opciones = fuentes
+		.map((l) => `<option value="${l}" ${l === state.srcLang ? "selected" : ""}>${l.toUpperCase()}</option>`)
+		.join("");
 	$("referencia").innerHTML = `
-		<div class="font-ui text-xs text-wow-gold tracking-widest mb-1">FUENTE ES <span class="text-slate-500">(solo lectura)</span></div>
+		<div class="flex items-center gap-2 mb-1">
+			<div class="font-ui text-xs text-wow-gold tracking-widest">FUENTE <span class="text-slate-500">(solo lectura)</span></div>
+			<div class="flex-1"></div>
+			<select id="selFuente" class="rounded border border-wow-edge px-1 py-0.5 text-xs" title="idioma del que se trae la explicación">${opciones}</select>
+		</div>
+		<button id="btnTraducir" class="w-full mb-2 py-1.5 rounded border border-wow-gold/60 text-wow-gold text-xs font-medium hover:bg-wow-gold/20 disabled:opacity-40" title="trae la explicación del idioma fuente, la traduce con la IA al idioma que estás editando y la deja como borrador: revisa y guarda">⇄ traer y traducir con IA -> ${state.lang.toUpperCase()}</button>
 		<div class="golddiv mb-2"></div>
 		<div class="text-sm text-slate-300 mb-2">${src ? esc(src.name) : "—"}</div>
 		<div class="space-y-2 text-xs leading-5 text-slate-400">
-			${(src?.lines ?? []).map((l) => `<div class="flex gap-2"><span class="text-wow-gold select-none">•</span><span>${renderWow(String(l).replace(/^\*\s*/, ""), "es")}</span></div>`).join("")}
+			${(src?.lines ?? []).map((l) => `<div class="flex gap-2"><span class="text-wow-gold select-none">•</span><span>${renderWow(String(l).replace(/^\*\s*/, ""), state.srcLang)}</span></div>`).join("")}
 		</div>`;
+	$("selFuente").onchange = (ev) => { state.srcLang = ev.target.value; renderReferencia(); };
+	$("btnTraducir").onclick = traerYTraducir;
 	resolverNombresSpell(); // los spells de la referencia también se traducen
+}
+
+// botón del panel FUENTE: pide al servidor la entrada en el idioma fuente
+// traducida por la IA al idioma activo y la vuelca en el editor como borrador
+// (state.dirty); el traductor la revisa y guarda con el flujo normal
+async function traerYTraducir() {
+	const e = state.entryData;
+	if (!e || !state.srcLang) return;
+	if (state.dirty && !confirm(`Hay cambios sin guardar en ${state.lang.toUpperCase()}; se perderán al traer la traducción. ¿Continuar?`)) return;
+	const btn = $("btnTraducir");
+	const previo = btn.textContent;
+	btn.disabled = true;
+	btn.textContent = "traduciendo con IA…";
+	try {
+		const r = await api("/api/traducir", { method: "POST", body: JSON.stringify({ pack: state.pack, id: e.id, from: state.srcLang, to: state.lang }) });
+		if (!r.ok) {
+			toast(`Traducción IA: ${r.error}`, false);
+			return;
+		}
+		state.entryData.name = r.name;
+		state.entryData.lines = r.lines;
+		state.dirty = true;
+		renderEditor();
+		resolverNombresSpell();
+		// el nombre puede venir oficial de la API (diario/corpus) o de la IA,
+		// y las LÍNEAS pueden venir reusadas de una entrada gemela ya traducida
+		// (mismo texto fuente): el traductor debe saber qué revisar
+		const aviso = [
+			r.nameSource === "api" ? " · nombre oficial de la API"
+				: r.nameSource === "ia" ? " · nombre por IA: confírmalo" : "",
+			r.reusedFrom ? ` · líneas reusadas de ${r.reusedFrom}` : "",
+		].filter(Boolean).join("");
+		toast(`Traducido ${r.from.toUpperCase()} -> ${r.to.toUpperCase()}; revisa y guarda${aviso}`);
+	} finally {
+		btn.disabled = false;
+		btn.textContent = previo;
+	}
 }
 
 // ------------------------------------------------------------- guardar ----
@@ -425,7 +615,13 @@ async function ensenarTraduccion(s) {
 }
 function closeSpellPicker() { $("spellModal").classList.add("hidden"); }
 $("spellClose").onclick = closeSpellPicker;
-document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") { closeSpellPicker(); $("coberturaModal").classList.add("hidden"); } });
+document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") {
+	closeSpellPicker();
+	$("coberturaModal").classList.add("hidden");
+	// lote: mientras corre, Esc pide detención limpia entre jefes; parado, cierra
+	if (state.loteRun) { if (!$("loteCancelar").disabled) $("loteCancelar").onclick(); }
+	else $("traducirModal").classList.add("hidden");
+} });
 
 // inserción manual de id
 $("spellManualBtn").onclick = () => {
@@ -644,6 +840,137 @@ $("btnCobertura").onclick = async () => {
 };
 $("coberturaClose").onclick = () => $("coberturaModal").classList.add("hidden");
 
+// ------------------------------------------- traducción IA en lote (modal) --
+
+// fila del registro de progreso
+function loteFila(tipo, id, nombre, nota) {
+	$("loteLog").insertAdjacentHTML("beforeend", `<div class="flex gap-2 items-baseline">
+		<span class="tabular-nums shrink-0 text-slate-500">${id}</span>
+		<span class="shrink-0 ${tipo === "ok" ? "text-emerald-300" : tipo === "err" ? "text-red-300" : "text-slate-400"}">${tipo === "ok" ? "✓" : tipo === "err" ? "✖" : "⏭"}</span>
+		<span class="shrink-0 text-slate-300 truncate max-w-[45%]">${esc(nombre || id)}</span>
+		<span class="text-slate-500 truncate">${esc(nota)}</span>
+	</div>`);
+	$("loteLog").scrollTop = $("loteLog").scrollHeight;
+}
+
+$("btnTraducirLotes").onclick = traducirLote;
+
+async function traducirLote() {
+	if (state.loteRun || !state.pack) return;
+	if (!state.meta?.ok || state.meta.ia === false) return toast(`La IA no está disponible en este servidor (revisa IA_PROVIDER y la sección del proveedor en .env).`, false);
+	const pack = state.packs.find((p) => p.name === state.pack);
+	const fuentes = Object.entries(pack?.langs ?? {}).filter(([l, i]) => i && l !== state.lang).map(([l]) => l);
+	// la FUENTE es la del select del panel; si todavía no se eligió ninguna,
+	// cae en el idioma mejor redactado de la casa (es, luego en, luego el que haya)
+	const src = state.srcLang && fuentes.includes(state.srcLang) ? state.srcLang :
+		(fuentes.find((l) => l === "es") ?? fuentes.find((l) => l === "en") ?? fuentes[0]);
+	if (!src) return toast("Este pack no tiene otro idioma con fichero: no hay FUENTE para la IA.", false);
+	const pendientes = pendientesTraduccion(state.entries);
+	if (!pendientes.length) return;
+	if (!confirm(`Traducir ${pendientes.length} entrada(s) sin tácticas de ${src.toUpperCase()} a ${state.lang.toUpperCase()} con la IA?\n\nFuente: el idioma del select FUENTE (${src.toUpperCase()}).\nCada traducción se GUARDA en disco (el servidor deja backup automático).\nLa entrada abierta en el editor se refresca al terminar si no tienes cambios sin guardar.`)) return;
+
+	state.loteRun = true;
+	state.loteCancel = false;
+	$("btnTraducirLotes").disabled = true;
+	$("traducirModal").classList.remove("hidden");
+	$("loteRuta").textContent = `${src.toUpperCase()} → ${state.lang.toUpperCase()}`;
+	$("loteSrcTxt").textContent = src.toUpperCase();
+	$("loteDstTxt").textContent = state.lang.toUpperCase();
+	$("loteTot").textContent = pendientes.length;
+	$("loteNum").textContent = "0";
+	$("loteOk").textContent = "0";
+	$("loteErr").textContent = "0";
+	$("loteSkip").textContent = "0";
+	$("loteLog").innerHTML = "";
+	$("lotePct").style.width = "0%";
+	$("loteSpin").classList.remove("hidden");
+	$("loteBoss").textContent = "preparando tanda…";
+	$("loteCancelar").classList.remove("hidden");
+	$("loteCancelar").disabled = false;
+	$("loteCerrar").classList.add("hidden");
+	$("loteNota").textContent = "cada jefe: traer → IA traduce → guardar; se detiene limpio entre jefes.";
+
+	// entradas de la fuente: para saltar las que allí tampoco tienen tácticas
+	const rsrc = await api(`/api/packs/${state.pack}/${src}`);
+	const vaciaDe = (e) => e.vacia ?? (e.lines ?? 0) <= 0;
+	const idsSrc = new Set((rsrc.entries ?? []).map((e) => e.id));
+	const vaciasSrc = new Set((rsrc.entries ?? []).filter(vaciaDe).map((e) => e.id));
+
+	// valores capturados: aunque el usuario cambie de pack/pestaña no puede
+	// (el modal bloquea la página), y así la tanda usa SIEMPRE lo que arrancó
+	const packName = state.pack;
+	const dstLang = state.lang;
+	const dstLabel = dstLang.toUpperCase();
+	const srcLabel = src.toUpperCase();
+	let idx = 0, ok = 0, err = 0, skip = 0;
+
+	for (const e of pendientes) {
+		if (state.loteCancel) { loteFila("skip", e.id, e.name, "tanda detenida por el usuario"); break; }
+		idx++;
+		$("loteNum").textContent = String(idx);
+		$("loteBoss").textContent = e.name || e.id;
+		$("lotePct").style.width = `${Math.round((idx / pendientes.length) * 100)}%`;
+		if (!idsSrc.has(e.id)) {
+			skip++;
+			loteFila("skip", e.id, e.name, `no existe en ${srcLabel}; rellena aquí a mano o trae la entrada antes`);
+		} else if (vaciasSrc.has(e.id)) {
+			skip++;
+			loteFila("skip", e.id, e.name, `sin tácticas tampoco en ${srcLabel}`);
+		} else {
+			try {
+				const t = await api("/api/traducir", { method: "POST", body: JSON.stringify({ pack: packName, id: e.id, from: src, to: dstLang }) });
+				if (!t.ok) throw new Error(t.error ?? "error IA");
+				const g = await api(`/api/packs/${packName}/${dstLang}/${e.id}`, { method: "PUT", body: JSON.stringify({ name: t.name, lines: t.lines }) });
+				if (!g.ok) throw new Error(g.problems ? g.problems.join(" · ") : (g.error ?? "error al guardar"));
+				ok++;
+				const fuenteNombre = t.nameSource === "api" ? "· nombre oficial (API)"
+					: t.nameSource === "ia" ? "· nombre por IA, revisa"
+					: t.nameSource === "original" ? "· nombre sin cambio" : "";
+				const reuse = t.reusedFrom ? `· líneas reusadas de ${t.reusedFrom}` : "";
+				loteFila("ok", e.id, t.name, `${t.lines.length} línea(s) guardadas ${[fuenteNombre, reuse].filter(Boolean).join(" ")}`.trim());
+				// si el jefe traducido está abierto y sin cambios propios, se
+				// refresca en el editor al vuelo con lo recién guardado
+				if (state.entryId === e.id && state.entryData && !state.dirty) {
+					state.entryData = g.entry;
+					state.dirty = false;
+					renderEditor();
+				}
+			} catch (ex) {
+				err++;
+				loteFila("err", e.id, e.name, String(ex.message ?? ex).slice(0, 200));
+			}
+		}
+		$("loteOk").textContent = String(ok);
+		$("loteErr").textContent = String(err);
+		$("loteSkip").textContent = String(skip);
+	}
+
+	// cierre
+	state.loteRun = false;
+	$("loteSpin").classList.add("hidden");
+	$("loteBoss").textContent = state.loteCancel ? "tanda detenida" : "tanda finalizada";
+	$("loteCancelar").classList.add("hidden");
+	$("loteCerrar").classList.remove("hidden");
+	$("btnTraducirLotes").disabled = false;
+	const partes = [`${ok} traducidas`, err ? `${err} con fallo` : "", skip ? `${skip} saltadas` : ""].filter(Boolean).join(" · ");
+	$("loteNota").textContent = state.loteCancel
+		? `${partes} — quedaron pendientes ${Math.max(pendientes.length - idx, 0)}; puedes relanzar cuando quieras.`
+		: `${partes} — ${dstLabel} completado; revisa y pule lo que quieras.`;
+	// la recarga reevalúa ambos botones de la barra (importar + IA)
+	await loadPacks();
+	renderLangTabs();
+	await loadEntries();
+	if (state.entryId && !state.dirty) selectEntry(state.entryId);
+	toast(`IA en lote: ${partes}`, err === 0 || ok > 0);
+}
+
+$("loteCancelar").onclick = () => {
+	state.loteCancel = true;
+	$("loteCancelar").disabled = true;
+	$("loteNota").textContent = "deteniendo tras el jefe en curso…";
+};
+$("loteCerrar").onclick = () => $("traducirModal").classList.add("hidden");
+
 // -------------------------------------------------------------- arranque --
 
 (async () => {
@@ -656,7 +983,7 @@ $("coberturaClose").onclick = () => $("coberturaModal").classList.add("hidden");
 	await loadEntries();
 	selectEntryOff();
 	$("filtro").oninput = (ev) => { state.filtro = ev.target.value; renderLista(); };
-	$("btnHelp").onclick = () => toast("Elige pack → idioma → entrada; edita y guarda. El botón ＋spell inserta enlaces con |h|r verificado. FR/DE se crean desde su pestaña.", true);
+	$("btnHelp").onclick = () => toast("Elige pack → idioma → entrada; edita y guarda. El botón ＋spell inserta enlaces con |h|r verificado. FR/DE se crean desde su pestaña. El panel FUENTE trae la explicación de otro idioma y la traduce con IA (revisa y guarda). «✨ traducir con IA» rellena solo las entradas sin tácticas del idioma activo, usando el FUENTE del panel, y las guarda.", true);
 	// entra de lleno en la primera entrada del pack Cata como arranque cómodo
 	const primera = state.entries[0];
 	if (primera) selectEntry(primera.id);
