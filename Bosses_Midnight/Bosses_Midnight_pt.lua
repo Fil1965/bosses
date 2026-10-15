@@ -148,10 +148,11 @@ pack["249776"] = { "Thorm'belan",
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
-pack["252959"] = { "Nymrissa Wavecaller",
-"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: evite as redemoinhos.",
-"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: dano para a raid, cura.",
-"* Cuidado com |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r."
+pack["252959"] = { "Nymrissa Clamaolas",
+"* |cff71d5ff|Hspell:1258668|h[Remolinos Giratórios]|h|r: Esquive os vórtices.",
+"* |cff71d5ff|Hspell:1260837|h[Chuva Abissal]|h|r: Dano em área, cura.",
+"* |cff71d5ff|Hspell:1276710|h[Bolha Enfeitiçante]|h|r: Cuidado com a bolha.",
+"* IMPORTANTE! Não atacar os 2 mobs da frente até que o grupo não esteja completo em LFR, pois depois ninguém mais poderá entrar."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

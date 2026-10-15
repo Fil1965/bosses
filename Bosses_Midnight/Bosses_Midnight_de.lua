@@ -148,10 +148,11 @@ pack["249776"] = { "Thorm'belan",
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
-pack["252959"] = { "Nymrissa Wavecaller",
-"* |cff71d5ff|Hspell:1258668|h[Wirbelähnliche Strömungen]|h|r: Vermeiden Sie die Strömungen.",
-"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: Raid-Schaden, Heilung.",
-"* Achten Sie auf |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r."
+pack["252959"] = { "Nymrissa Clamaolas",
+"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: Ausweichen Sie vor den Wirbeln.",
+"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: Flächenschaden, Heilung.",
+"* |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: Vorsicht vor der Blase.",
+"* WICHTIG! Angreifen Sie die 2 vorderen Gegner nicht, bis die Gruppe in LFR vollständig ist, da danach niemand mehr reinkommen kann."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --

@@ -148,10 +148,11 @@ pack["249776"] = { "瑟姆贝兰",
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
-pack["252959"] = { "奈姆莉萨·波浪之音",
-"* |cff71d5ff|Hspell:1258668|h[旋转漩涡]|h|r: 躲避漩涡。",
-"* |cff71d5ff|Hspell:1260837|h[深渊之雨]|h|r: 伤害，治疗。",
-"* 注意 |cff71d5ff|Hspell:1276710|h[引诱气泡]|h|r."
+pack["252959"] = { "Nymerissa 克拉玛拉斯",
+"* |cff71d5ff|Hspell:1258668|h[旋转漩涡]|h|r: 躲避旋涡。",
+"* |cff71d5ff|Hspell:1260837|h[深渊之雨]|h|r: 持续伤害，治疗。",
+"* |cff71d5ff|Hspell:1276710|h[引诱气泡]|h|r: 小心气泡。",
+"* 重要！在LFR中，不要攻击前两个怪物，因为之后无法再进入。"
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

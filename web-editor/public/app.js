@@ -40,9 +40,12 @@ async function api(path, opts) {
 	const o = { headers: { "Content-Type": "application/json" }, ...opts };
 	// sin cuerpo en POST/PUT, Fastify rechaza con FST_ERR_CTP_EMPTY_JSON_BODY
 	if ((o.method === "POST" || o.method === "PUT") && !o.body) o.body = "{}";
-	// techo de espera (4 min): sin esto, un fetch que nunca responde (IA
-	// colgada en el servidor) congela la tanda sin ningún mensaje en pantalla
-	o.signal ??= AbortSignal.timeout(240000);
+	// techo de espera (10.5 min): sin esto, un fetch que nunca responde (IA
+	// colgada en el servidor) congela la tanda sin ningún mensaje en pantalla.
+	// Subido de 4 min: con el Ollama local un bloque sano genera en ~130-200 s
+	// y el flujo completo rozaba el techo viejo, que abortaba flujos VIVOS;
+	// el server aborta por socket-cerrado o por su propio techo (10 min).
+	o.signal ??= AbortSignal.timeout(630000);
 	const res = await fetch(path, o);
 	const body = await res.json().catch(() => ({ ok: false, error: "respuesta no JSON" }));
 	if (!res.ok && body.ok === undefined) body.ok = false;
@@ -617,6 +620,11 @@ async function traerYTraducir() {
 			r.reusedFrom ? ` · líneas reusadas de ${r.reusedFrom}` : "",
 		].filter(Boolean).join("");
 		toast(`Traducido ${r.from.toUpperCase()} -> ${r.to.toUpperCase()}; revisa y guarda${aviso}`);
+	} catch {
+		// el fetch del navegador cortó (techo de 4 min del helper api()) sin
+		// respuesta del servidor: aviso accionable — al ver el socket cerrado
+		// el servidor aborta su flujo y la cola de IA queda libre
+		toast("La IA tardó más de 10 min y el navegador cortó la espera; el flujo quedó abortado — reintenta cuando toque", false);
 	} finally {
 		btn.disabled = false;
 		btn.textContent = previo;

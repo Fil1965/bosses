@@ -1,5 +1,15 @@
 # CHANGELOG
 
+All notable changes to Bosses are documented here.
+
+## [1.0.13] - 2026-10-15
+- Spells del frame en el idioma de la explicacion: con IDIOMA distinto al cliente, el texto conserva los nombres entre corchetes del pack (el tooltip del enlace sigue en el idioma de quien mira).
+- Boton al chat del frame: los ENCOUNTER_START de jefes de mundo compartidos ya no dejan la zona de combate caliente; fuera del propio combate el boton vuelve.
+- Editor web: techo de IA de 240 s por llamada con Ollama local (el bloque entero de un jefe cabe en una llamada), flujo cancelado si el navegador abandona o toca el techo de 10 min, telemetria de cada llamada y del avance linea a linea.
+- Midnight: Nymrissa revisada a mano por el propietario en los 6 idiomas (linea de LFR con las dos colas delanteras).
+
+
+
 ### [1.0.12] - 2026-10-15
 - Interfaz localizada a portugues (Brasil) y chino simplificado: localization.pt.lua / localization.zh.lua nuevos (58 claves de paridad con el es), cargados en el .toc y en el empaquetado.
 - Firma de cortesia por idioma de explicacion ampliada: CortesiaPT / CortesiaZH en el core y branches PT/ZH en textoCortesia().

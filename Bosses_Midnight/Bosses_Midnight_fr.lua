@@ -184,9 +184,10 @@ pack["249776"] = { "Thorm'belan",
 };
 
 pack["252959"] = { "Nymrissa Mande-vagues",
-	"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r : esquive les tourbillons.",
-	"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r : dégâts de raid, soins.",
-	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r : attention à la bulle.",
+	"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: Esquiver les tourbillons.",
+	"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: Dégâts de groupe, soins.",
+	"* |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: Attention à la bulle.",
+	"* IMPORTANT : Ne pas attaquer les 2 premiers monstres tant que le groupe n'est pas complet en LFR, car après personne ne pourra y entrer.",
 };
 
 -- Prédaxas réécrit avec les infos du propriétaire (Wowhead via le chat)

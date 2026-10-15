@@ -185,6 +185,7 @@ pack["252959"] = { "Nymrissa Wavecaller",
 	"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: dodge the whirlpools.",
 	"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: raid damage, heals.",
 	"* Mind the |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r.",
+	"* IMPORTANT! Don't pull the two fronts mobs in LFR untill the group is full. Once pulled nobody else can enter the party.",
 };
 
 -- Predaxas rewritten with the owner's fetched info (Wowhead via chat)

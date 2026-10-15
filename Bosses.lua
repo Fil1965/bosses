@@ -314,14 +314,33 @@ local function nombreSpell(id)
 	return nil;
 end
 
+-- Mapa de locales del cliente a la clave de idioma de la casa (lo usan
+-- los packs y la detección): AUTO = sigue el idioma del juego.
+local MAPA_LOCALES = {
+	esES = "ES", esMX = "ES", frFR = "FR", deDE = "DE",
+	ruRU = "RU", ptBR = "PT", zhCN = "ZH", zhTW = "ZH", koKR = "KO",
+};
+
 -- Traduce al vuelo el texto visible de los enlaces de spell al idioma
--- del cliente: el id del enlace ya resolvía el tooltip en el idioma de
--- quien mira; ahora el nombre entre corchetes acompaña. Los packs NO
--- necesitan guardarse traducidos — el texto del pack queda como
--- respaldo si el cliente no trae el spell.
+-- del cliente, SOLO cuando la explicación va en el idioma del cliente
+-- (BossesConfig.IDIOMA AUTO): con un idioma de explicación elegido a mano
+-- (/bosses IDIOMA en en un cliente esES) el nombre entre corchetes del
+-- pack ya va en el idioma de la explicación y se conserva tal cual — el
+-- cliente solo puede traer el nombre en SU idioma. El tooltip del enlace
+-- sigue resolviendo en el idioma de quien mira (eso no depende del addon).
+-- Los packs NO necesitan guardarse traducidos — el texto del pack queda
+-- como respaldo si el cliente no trae el spell.
 local function localizarEnlaces(txt)
 	if txt == nil then
 		return txt;
+	end
+	local elegido = (BossesConfig ~= nil and BossesConfig.IDIOMA) or "AUTO";
+	if elegido ~= "AUTO" then
+		local loc = GetLocale();
+		local delCliente = (loc ~= nil and MAPA_LOCALES[loc]) or "EN";
+		if elegido ~= delCliente then
+			return txt; -- la explicación va en otro idioma: los nombres del pack quedan
+		end
 	end
 	local resultado = string.gsub(txt, "|Hspell:(%d+)|h%[(.-)%]|h", function(id)
 		local n = nombreSpell(id);
@@ -347,7 +366,7 @@ local enviarJefeDelFrame;
 local abrirEditor; -- (editor in-game de explicaciones, sección «EDITOR IN-GAME»)
 
 local function salida(txt, esFirma)
-	txt = localizarEnlaces(txt); -- nombres de spells en el idioma del cliente
+	txt = localizarEnlaces(txt); -- nombres de spells según el idioma de la explicación
 	if forzarLocal then
 		escribir(txt);
 		return;
@@ -468,7 +487,7 @@ local function ocultarAlerta()
 end
 -- Sin "local": asigna la variable declarada por adelantado (salida() la usa).
 function salidaEnPantalla(linea, nueva)
-	linea = localizarEnlaces(linea); -- nombres de spells en el idioma del cliente
+	linea = localizarEnlaces(linea); -- nombres de spells según el idioma de la explicación
 	if alertaOcultar ~= nil then
 		alertaOcultar:Cancel();
 		alertaOcultar = nil;
@@ -933,12 +952,7 @@ local nombresEnc = nil;
 
 -- Tabla de idioma de un pack con cascada: la pedida si existe y, si no,
 -- EN → ES (el fallback inglés lo cubre todo; ES queda de respaldo histórico).
--- AUTO sigue el idioma del cliente: esES/esMX→ES, frFR→FR, deDE→DE,
--- ruRU→RU, ptBR→PT, zhCN/zhTW→ZH (simplificado), koKR→KO, resto EN.
-local MAPA_LOCALES = {
-	esES = "ES", esMX = "ES", frFR = "FR", deDE = "DE",
-	ruRU = "RU", ptBR = "PT", zhCN = "ZH", zhTW = "ZH", koKR = "KO",
-};
+-- AUTO sigue el idioma del cliente con MAPA_LOCALES (arriba).
 local function tablaIdiomaDePack(src, idioma)
 	if idioma == "AUTO" then
 		local loc = GetLocale();
@@ -2925,9 +2939,18 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		encuentroActivoID = arg1; -- id del encuentro (para las criaturas vía diario)
 		contadorEncuentros = contadorEncuentros + 1;
 		forzarLocal = false;
-		ultimoCombate = GetTime(); -- ENCOUNTER_START = pulleo seguro: la huella queda caliente
-		-- aunque el jugador no haya entrado en combate personal todavía
-		-- (healer a distancia) y aunque el lockdown palpite en falso.
+		if IsInInstance() then
+			-- ENCOUNTER_START de la propia instancia = pulleo seguro: la
+			-- huella queda caliente aunque el jugador no haya entrado en
+			-- combate personal todavía (healer a distancia) y aunque el
+			-- lockdown palpite en falso.
+			ultimoCombate = GetTime();
+		end
+		-- Fuera de instancia (jefes de mundo compartidos: Nymrissa,
+		-- Doomwalker…) el ENCOUNTER_START llega TAMBIÉN cuando otros
+		-- jugadores del reino empiezan la pelea: la huella no se ancla —
+		-- el dueño parado ahí, fuera de SU combate, conserva el botón
+		-- "al chat"; su huella solo se anclan PLAYER_REGEN/lockdown reales.
 		debugLog("ENCOUNTER_START", "enc=" .. aTexto(arg1), "nombre=" .. aTexto(arg2), "dificultad=" .. aTexto(arg3), "grupo=" .. aTexto(arg4));
 		if BossesConfig.AUTO_ENC then
 			-- Modo Automático con anti-spam entre jugadores: resuelve el

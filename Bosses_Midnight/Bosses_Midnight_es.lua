@@ -186,6 +186,7 @@ pack["252959"] = { "Nymrissa Clamaolas",
 	"* |cff71d5ff|Hspell:1258668|h[Swirling Whirlpools]|h|r: esquiva los remolinos.",
 	"* |cff71d5ff|Hspell:1260837|h[Abyssal Rain]|h|r: daño de banda, curas.",
 	"* La |cff71d5ff|Hspell:1276710|h[Alluring Bubble]|h|r: cuidado con la burbuja.",
+	"* ¡IMPORTANTE! No atacar los 2 mobs delanteros hasta que el grupo no esté completo en LFR, porque despues no podrá entrar nadie más.",
 };
 
 -- Predaxas reescrito con la info facilitada por el dueño (Wowhead vía chat)

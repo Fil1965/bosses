@@ -152,13 +152,21 @@ export function puleSalida(salida, original, tokens) {
 }
 
 const clientes = new Map(); // clave base|apiKey → cliente OpenAI (uno por combinación)
-// timeout 90 s por llamada y 1 reintento: un cuelgue de Ollama/NIM (modelo
+// timeout por llamada SIN reintentos del SDK: un cuelgue de Ollama/NIM (modelo
 // cargando, memoria llena…) no puede bloquear la cola de lote minutos sin dar
-// señal — el error sale a tiempo y el bucle de configs/saltos lo gestiona.
-const IA_TIMEOUT = 90_000;
+// señal — el error sale a tiempo y los reintentos reales (salida inválida, el
+// bucle de configs) ya viven en cada función, VISIBLES en el log; con el
+// maxRetries 1 del SDK el reintento tras un timeout se doblaba en silencio
+// (90+90, 150+150 s) y duplicaba la espera real.
+// Con el Ollama LOCAL el margen es mayor: el bloque entero de un jefe puede
+// generar 130-200 s en GPUs modestas (medido: 131.4 s con 4 líneas) y el
+// techo de 90 s casi nunca pasaba — caía SIEMPRE al camino línea a línea
+// (4+ llamadas más) y el dueño lo veía como «el editor se atasca en
+// traducciones de un solo boss».
+const IA_TIMEOUT = ES_OLLAMA ? 240_000 : 90_000;
 function clienteIA(apiKey, baseURL) {
 	const k = `${baseURL}|${apiKey}`;
-	if (!clientes.has(k)) clientes.set(k, new OpenAI({ apiKey, baseURL, timeout: IA_TIMEOUT, maxRetries: 1 }));
+	if (!clientes.has(k)) clientes.set(k, new OpenAI({ apiKey, baseURL, timeout: IA_TIMEOUT, maxRetries: 0 }));
 	return clientes.get(k);
 }
 
@@ -177,7 +185,7 @@ export function iaDisponible() {
 // maquinaria (marcadoIntacto + puleSalida con el original de CADA línea); si
 // cualquier línea falla, devuelve null y/el llamador repite el camino clásico
 // línea a línea — la integridad manda sobre la velocidad.
-export async function traducirBloqueIA(textos, de, a) {
+export async function traducirBloqueIA(textos, de, a, { signal } = {}) {
 	if (!NOMBRES_IDIOMA[de] || !NOMBRES_IDIOMA[a]) {
 		throw new Error(`idiomas soportados: ${Object.keys(NOMBRES_IDIOMA).join("/")}`);
 	}
@@ -196,11 +204,16 @@ export async function traducirBloqueIA(textos, de, a) {
 	}
 	const cuerpo = piezas.map((p, i) => `L${i + 1}: ${p}`).join("\n");
 	return enCola(async () => {
+		// el pedido ya está cancelado (recarga del navegador, techo…): el turno
+		// se libera al momento, sin llamar al modelo
+		if (signal?.aborted) throw new Error("traducción cancelada antes de llamar al modelo");
 		for (const cfg of configsIA()) {
 			let ultimoError = null;
 			try {
 				for (let intento = 0; intento < 2; intento++) {
 					const modelo = ES_OLLAMA ? await modeloOllama() : cfg.modelo;
+					const t0Llamada = Date.now();
+					console.log(`[editor] IA: llamada del bloque en vuelo (${modelo}, intento ${intento + 1})…`);
 					const completion = await clienteIA(cfg.apiKey, cfg.baseURL).chat.completions.create({
 						model: modelo,
 						messages: [
@@ -215,8 +228,9 @@ export async function traducirBloqueIA(textos, de, a) {
 						max_tokens: 1024 * originales.length + 128,
 						stream: false,
 						...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
-					});
+					}, { signal });
 					const crudo = String(completion.choices[0]?.message?.content ?? "");
+					console.log(`[editor] IA: llamada del bloque acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
 					// partido por prefijos "Ln:" flexibles (L1:, l1., L1)... en
 					// orden de número, tolerando líneas de relleno del modelo
 					const secciones = new Map();
@@ -247,6 +261,7 @@ export async function traducirBloqueIA(textos, de, a) {
 			} catch (err) {
 				ultimoError = err;
 				const estado = err?.status ?? err?.response?.status;
+				if (signal?.aborted) throw err; // el que pedía se fue / techo: parar ya
 				if (estado !== 401 && estado !== 403) break;
 			}
 		}
@@ -265,7 +280,7 @@ function enCola(tarea) {
 
 // Traduce un texto (una línea de consejo o el nombre del jefe) de un idioma a
 // otro. de/a: "es" | "en" | "fr" | "de". Devuelve el texto traducido.
-export async function traducirTextoIA(texto, de, a) {
+export async function traducirTextoIA(texto, de, a, { signal } = {}) {
 	if (!NOMBRES_IDIOMA[de] || !NOMBRES_IDIOMA[a]) {
 		throw new Error(`idiomas soportados: ${Object.keys(NOMBRES_IDIOMA).join("/")}`);
 	}
@@ -273,6 +288,7 @@ export async function traducirTextoIA(texto, de, a) {
 	if (!limpio) return "";
 	const { pieza, tokens } = aislarMarcado(limpio);
 	return enCola(async () => {
+		if (signal?.aborted) throw new Error("traducción cancelada antes de llamar al modelo");
 		let ultimoError = null;
 		for (const cfg of configsIA()) {
 			try {
@@ -283,6 +299,8 @@ export async function traducirTextoIA(texto, de, a) {
 				// inguardable
 				for (let intento = 0; intento < 2; intento++) {
 					const modelo = ES_OLLAMA ? await modeloOllama() : cfg.modelo;
+					const t0Llamada = Date.now();
+					console.log(`[editor] IA: llamada de línea en vuelo (${modelo}, intento ${intento + 1})…`);
 					const completion = await clienteIA(cfg.apiKey, cfg.baseURL).chat.completions.create({
 						model: modelo,
 						messages: [
@@ -303,8 +321,9 @@ export async function traducirTextoIA(texto, de, a) {
 						// hace responder directo; los modelos sin thinking y el
 						// NIM lo ignoran.
 						...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
-					});
+					}, { signal });
 					const salida = restaurarMarcado(completion.choices[0]?.message?.content, tokens);
+					console.log(`[editor] IA: llamada de línea acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
 					// los adornos markdown del modelo (asteriscos añadidos,
 					// comillas, códigos inventados si el original no lleva) se
 					// puelen ANTES de verificar; los saltos de línea que el
@@ -317,6 +336,7 @@ export async function traducirTextoIA(texto, de, a) {
 			} catch (err) {
 				ultimoError = err;
 				const estado = err?.status ?? err?.response?.status;
+				if (signal?.aborted) throw err; // el que pedía se fue / techo: parar ya
 				// clave rechazada → siguiente configuración; los demás errores
 				// (red, servidor Ollama parado, modelo ausente…) no se reintentan
 				if (estado !== 401 && estado !== 403) break;
@@ -353,16 +373,18 @@ export function nombreIAValido(s, original) {
 	return true;
 }
 
-export async function traducirNombreIA(texto, de, a) {
+export async function traducirNombreIA(texto, de, a, { signal } = {}) {
 	if (!NOMBRES_IDIOMA[de] || !NOMBRES_IDIOMA[a]) {
 		throw new Error(`idiomas soportados: ${Object.keys(NOMBRES_IDIOMA).join("/")}`);
 	}
 	const limpio = String(texto ?? "").trim();
 	if (!limpio) return "";
 	return enCola(async () => {
+		if (signal?.aborted) throw new Error("traducción cancelada antes de llamar al modelo");
 		for (const cfg of configsIA()) {
 			try {
 				const modelo = ES_OLLAMA ? await modeloOllama() : cfg.modelo;
+				const t0Nombre = Date.now();
 				const completion = await clienteIA(cfg.apiKey, cfg.baseURL).chat.completions.create({
 					model: modelo,
 					messages: [
@@ -377,11 +399,13 @@ export async function traducirNombreIA(texto, de, a) {
 					max_tokens: 64,
 					stream: false,
 					...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
-				});
+				}, { signal });
 				const salida = restaurarMarcado(completion.choices[0]?.message?.content, []);
+				console.log(`[editor] IA: llamada del nombre acabó (${((Date.now() - t0Nombre) / 1000).toFixed(1)}s)`);
 				if (nombreIAValido(salida, limpio)) return salida;
 				return ""; // salida inválida: el llamador usa el ORIGINAL
 			} catch (err) {
+				if (signal?.aborted) throw err; // el que pedía se fue: parar ya
 				const estado = err?.status ?? err?.response?.status;
 				if (estado === 401 || estado === 403) continue; // clave rechazada → siguiente
 				return ""; // fallo puntual (red, Ollama parado…): se usa el original

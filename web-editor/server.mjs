@@ -798,6 +798,25 @@ fastify.post("/api/traducir", async (req, reply) => {
 	// colgada, la consola del servidor dice en QUÉ entrada y etapa estaba
 	const iniTrad = Date.now();
 	console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — inicio (${det.lines.length} línea(s))`);
+	// Cancelación: el navegador se puede ir a mitad del flujo (recarga/F5, el
+	// techo de 240 s del fetch del UI, pestaña cerrada) y sin abortar el flujo
+	// seguía consumiendo la COLA y el modelo minutos con nadie del otro lado —
+	// cada clic tras un abandono entraba detrás de las tandas muertas del
+	// anterior (el dueño lo vio como «el editor se atasca en traducciones de
+	// un solo boss»). Techo propio de 10 min como seguro adicional (el UI
+	// corta a 10.5 min; el flujo real más lento cabe: nombre + bloque de hasta
+	// 240 s por llamada + las líneas que falten).
+	const aborto = new AbortController();
+	let motivoCorte = null;
+	const finTecho = setTimeout(() => {
+		motivoCorte = "techo de 10 min de la traducción";
+		aborto.abort(new Error(motivoCorte));
+	}, 600_000);
+	const alCerrarSocket = () => {
+		if (motivoCorte == null) motivoCorte = "el navegador dejó de esperar (recarga o cierre)";
+		aborto.abort(new Error(motivoCorte));
+	};
+	req.raw.socket.on("close", alCerrarSocket);
 	try {
 		// NOMBRE: oficial por encima de IA (elemento 1 = nombre del CLIENTE):
 		// (1) diario → (2) corpus → (3) IA (solo si hay nombre fuente y sin
@@ -815,7 +834,7 @@ fastify.post("/api/traducir", async (req, reply) => {
 			// duro): el prompt de consejos hacía que el modelo se inventara una
 			// guía entera (Fases, [Tank]…) y esa basura multilínea partía el Lua.
 			// Salida inválida → nombre original tal cual (nameSource = "original").
-			const iaNombre = await traducirNombreIA(nombreFuente, from, to);
+			const iaNombre = await traducirNombreIA(nombreFuente, from, to, { signal: aborto.signal });
 			if (iaNombre) {
 				name = iaNombre;
 				nameSource = "ia";
@@ -836,20 +855,37 @@ fastify.post("/api/traducir", async (req, reply) => {
 		if (gemela) lines.push(...gemela.lines);
 		else {
 			const t0 = Date.now();
-			const bloque = det.lines.length > 1 ? await traducirBloqueIA(det.lines, from, to) : null;
+			const bloque = det.lines.length > 1 ? await traducirBloqueIA(det.lines, from, to, { signal: aborto.signal }) : null;
 			if (bloque) {
 				lines.push(...bloque);
 				console.log(`[editor] IA: ${packName} ${id} — bloque OK (${det.lines.length} líneas en ${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 			} else {
 				console.log(`[editor] IA: ${packName} ${id} — bloque no verificó; línea a línea (${det.lines.length})`);
-				for (const l of det.lines) lines.push(await traducirTextoIA(l, from, to));
+				let idxLinea = 0;
+				for (const l of det.lines) {
+					idxLinea++;
+					const t0L = Date.now();
+					lines.push(await traducirTextoIA(l, from, to, { signal: aborto.signal }));
+					console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — línea ${idxLinea}/${det.lines.length} en ${((Date.now() - t0L) / 1000).toFixed(1)}s`);
+				}
 			}
 		}
 		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — listo en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s (nombre=${nameSource}, ${lines.length} línea(s))`);
 		return { ok: true, from, to, name, nameSource, lines, reusedFrom: gemela ? String(gemela.id) : null };
 	} catch (err) {
+		if (aborto.signal.aborted) {
+			// El que pedía ya no espera (recarga, techo del navegador) o el
+			// flujo tocó su techo propio: los intentos en vuelo quedaron
+			// abortados y la cola de IA se liberó para lo siguiente. El socket
+			// pudo irse junto: solo queda el log.
+			console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — cortado en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${motivoCorte ?? "cancelado"}`);
+			return;
+		}
 		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — FALLO en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${err.message}`);
 		return reply.code(502).send({ ok: false, error: `traducción IA: ${err.message}` });
+	} finally {
+		clearTimeout(finTecho);
+		req.raw.socket.off("close", alCerrarSocket);
 	}
 });
 
