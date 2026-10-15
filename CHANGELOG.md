@@ -1,3 +1,5 @@
+# CHANGELOG
+
 ### [1.0.12] - 2026-10-15
 - Interfaz localizada a portugues (Brasil) y chino simplificado: localization.pt.lua / localization.zh.lua nuevos (58 claves de paridad con el es), cargados en el .toc y en el empaquetado.
 - Firma de cortesia por idioma de explicacion ampliada: CortesiaPT / CortesiaZH en el core y branches PT/ZH en textoCortesia().
@@ -5,8 +7,6 @@
 - Editor de explicaciones in-game: boton editar del frame de alerta y /bosses EDITAR [id] (crear, reordenar, eliminar lineas y enlaces; probar en el frame; notas personales o copiadas del pack).
 - Correccion de los Cuatro Jinetes de WotLK en EN/PT: las cuatro marcas apuntaban al error Mark of Khan; ahora hay un bloque por jinete con nombres oficiales (API Blizzard, encuentro 1609) y Meteor/Void Zone/Holy Wrath/Unholy Shadow con ids verificados. Typo esES casto -> casteo.
 - README.pt.md y README.zh.md nuevos; tablas de cobertura a 6 idiomas en EN/ES/FR/DE y DESCRIPTION actualizada (editor in-game, web-editor, comando IDIOMA con los 8 idiomas).
-
- Changelog
 
 ## [1.0.11] - 2026-10-15
 - **Oleada de entrada 2026: Vanilla COMPLETA a los 4 idiomas (334 entradas ES/EN/FR/DE)** — cierre de bandas clásicas (Molten Core clásica + pares SoD del remake, BWL, AQ20, AQ40, Naxxramas, Onyxia, RDF/LBRS-UBRS/BRD) y los clásicos de mazmorra de las oleadas (Foso Kraul, Gnomeregan, Monasterio Escarlata, Maraudon, Uldaman, Zul'Farrak, Templo Sumergido clásica+SoD, Stratholme, Dire Maul, Scholomance, banda Zul'Gurub, Rincón de la Demencia y Mandokir/Ohgan), tácticas por conocimiento del combates + kit DBM Classic/BigWigs local + fichas Wowhead traídas por el propietario; `_zonas` curada (filas nuevas 189/309/289, limpiadas 409/531/329), paridad exacta y baterías verdes.
