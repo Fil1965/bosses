@@ -17,7 +17,30 @@ import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 // Idiomas de datos soportados (clave en la subtabla del registrador: ES/EN/...)
-export const IDIOMAS = ["es", "en", "fr", "de"];
+// es/en: los dos obligatorios de la casa (listados siempre); fr/de: idiomas
+// clásicos; ru/pt/zh/ko: idiomas AÑADIDOS DESDE EL EDITOR (botón «➕ añadir
+// idioma», alta 2026): locales nativos del cliente con mucha implantación en
+// WoW, todos mapeables en la AUTO del core (Bosses.lua) y con locale de la
+// API de Blizzard para los nombres oficiales.
+export const IDIOMAS_NUEVOS = [
+	{ key: "ru", label: "ruso", nativo: "Русский", api: "ru_RU", cliente: "ruRU", clave: "RU" },
+	{ key: "pt", label: "portugués (Brasil)", nativo: "Português", api: "pt_BR", cliente: "ptBR", clave: "PT" },
+	{ key: "zh", label: "chino simplificado", nativo: "简体中文", api: "zh_CN", cliente: "zhCN", clave: "ZH" },
+	{ key: "ko", label: "coreano", nativo: "한국어", api: "ko_KR", cliente: "koKR", clave: "KO" },
+];
+export const IDIOMAS = ["es", "en", "fr", "de", ...IDIOMAS_NUEVOS.map((x) => x.key)];
+// Los idiomas con conexión AUTOMÁTICA al crear el fichero (es/en); el resto
+// son stubs y se CONECTAN con el endpoint /conectar cuando están completos.
+export const LISTADO_DIRECTO = new Set(["es", "en"]);
+
+// Clave del registrador y nombre visible de un idioma (los 4 clásicos fijos;
+// el resto viene de IDIOMAS_NUEVOS). Devuelve null si el idioma no existe.
+export function idiomaMeta(lang) {
+	const claves = { es: ["ES", "español"], en: ["EN", "inglés"], fr: ["FR", "francés"], de: ["DE", "alemán"] };
+	if (claves[lang]) return { clave: claves[lang][0], label: claves[lang][1] };
+	const nuevo = IDIOMAS_NUEVOS.find((x) => x.key === lang);
+	return nuevo ? { clave: nuevo.clave, label: nuevo.label } : null;
+}
 
 // ---------------------------------------------------------------- parser --
 
@@ -393,25 +416,48 @@ export function validateText(text, { deltaEntries = 0, oldCount = null } = {}) {
 
 // ---------------------------------------------------- inventario de packs --
 
-// Lista los packs del raíz: { name, folder, langs: {es: file|null,...}, tocFile, registrador }
+// Lista los packs del raíz: { name, folder, langs: {es: file|null,...},
+// listados: {es: true,...} (lo que dice el .toc), tocFile, registrador }
 export function listPacks(root) {
 	const out = [];
+	const altern = IDIOMAS.join("|");
 	for (const d of readdirSync(root, { withFileTypes: true })) {
 		if (!d.isDirectory() || !d.name.startsWith("Bosses_")) continue;
 		const folder = join(root, d.name);
 		const files = readdirSync(folder);
 		const langs = {};
-		for (const lang of IDIOMAS) langs[lang] = null;
+		const listados = {};
+		for (const lang of IDIOMAS) {
+			langs[lang] = null;
+			listados[lang] = false;
+		}
 		let tocFile = null;
 		let registrador = null;
+		let tocText = null;
 		for (const f of files) {
-			const m = new RegExp(`^${d.name}_(es|en|fr|de)\\.lua$`).exec(f);
+			const m = new RegExp(`^${d.name}_(${altern})\\.lua$`).exec(f);
 			if (m) langs[m[1]] = f;
-			if (f.endsWith(".toc")) tocFile = f;
+			if (f.endsWith(".toc")) {
+				tocFile = f;
+				try {
+					tocText = readFileSync(join(folder, f), "utf8");
+				} catch {
+					tocText = null;
+				}
+			}
 			if (f === `${d.name}.lua`) registrador = f;
 		}
+		// Idiomas realmente LISTADOS en el .toc (la regla de la casa: un idioma
+		// solo se lista cuando su traducción está completa — el core cae a EN
+		// con los no listados).
+		if (tocText) {
+			for (const l of tocText.split(/\r?\n/)) {
+				const m = new RegExp(`^${d.name}_(${altern})\\.lua\\s*$`).exec(l.trim());
+				if (m) listados[m[1]] = true;
+			}
+		}
 		if (!tocFile) continue; // carpetas sin addon propio no son packs del editor
-		out.push({ name: d.name, folder, langs, tocFile, registrador });
+		out.push({ name: d.name, folder, langs, listados, tocFile, registrador });
 	}
 	out.sort((a, b) => a.name.localeCompare(b.name));
 	return out;
@@ -423,10 +469,11 @@ export function loadLangFile(packFolder, file) {
 	return parseDoc(text);
 }
 
-// ------------------------------------------------- idiomas nuevos (FR/DE) --
+// ------------------------------------------------- idiomas nuevos ----------
 
 // Esqueleto de fichero de idioma nuevo, al estilo de los existentes.
-// nombreVar: es|en|fr|de -> tabla `local <var> = {};` y `P.<var> = <var>;`
+// nombreVar: cualquier idioma de IDIOMAS -> tabla `local <var> = {};` y
+// `P.<var> = <var>;` (la clave del registrador sale de idiomaMeta/lang).
 export function langFileSkeleton(packName, lang, fecha = new Date().toISOString().slice(0, 10)) {
 	const nombre = lang.toUpperCase(); // ES/EN/FR/DE clave del registrador
 	return `--[[
@@ -458,15 +505,17 @@ export function tocAddLang(tocText, packName, lang) {
 	return lines.join(eol);
 }
 
-// Añade FR = P.fr / DE = P.de a la llamada de registro del registrador.
+// Añade FR = P.fr / DE = P.de / RU = P.ru… a la llamada de registro del
+// registrador (por defecto los dos clásicos del editor web; el endpoint de
+// conexión pasa el idioma concreto que completa el pack).
 // Inofensivo si el fichero aún no existe: P.<x> será nil y el core lo salta.
-export function registradorAddLangs(text) {
+export function registradorAddLangs(text, langs = ["fr", "de"]) {
 	const re = /BossesAPI\.register\(\s*("([^"]+)")\s*,\s*\{([^}]*)\}\s*\)\s*;/;
 	const m = re.exec(text);
 	if (!m) throw new Error("llamada BossesAPI.register no encontrada en el registrador");
 	let args = m[3];
-	for (const lang of ["fr", "de"]) {
-		const clave = lang.toUpperCase();
+	for (const lang of langs) {
+		const clave = String(lang).toUpperCase();
 		if (!new RegExp(`${clave}\\s*=`,).test(args)) {
 			// inserta tras EN si existe, o después del último argumento
 			args = args.replace(/(\bEN\s*=\s*P\.en\s*,?)\s*$/i, `$1 ${clave} = P.${lang},`);

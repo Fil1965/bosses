@@ -27,4 +27,4 @@ end
 -- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_Shadowlands_enc.lua);
 -- el de zonas (instanceID → jefes) también (Bosses_Shadowlands_zonas.lua) y
 -- alimenta el desplegable del minimapa.
-BossesAPI.register("Shadowlands", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas });
+BossesAPI.register("Shadowlands", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, PT = P.pt, FR = P.fr, DE = P.de, ZH = P.zh });

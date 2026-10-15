@@ -1,6 +1,6 @@
 {
   "name": "bosses",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Describes Boss Encounters",
   "license": "BSD-3-Clause",
   "author": "Philippe Mingo <pmingo@gmail.com>",
@@ -19,7 +19,9 @@
     "localization.core.lua",
     "localization.es.lua",
     "localization.fr.lua",
-    "localization.de.lua"
+    "localization.de.lua",
+    "localization.pt.lua",
+    "localization.zh.lua"
   ],
   "scripts": {
     "test": "echo \"No tests configured\" && exit 0",

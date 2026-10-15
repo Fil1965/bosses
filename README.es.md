@@ -1,4 +1,4 @@
-[English](README.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md)
+[English](README.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [中文](README.zh.md)
 
 **Conoce el combate antes de tirar. Sobrevive en él.**
 
@@ -6,24 +6,24 @@ Bosses te explica cómo funciona un combate de jefe —en pocas líneas afiladas
 
 ## Cobertura — todas las expansiones de World of Warcraft
 
-**12 packs de datos · ~1.590 entradas de jefe · Español / Inglés / Francés / Alemán.** Desde la Sima Ígnea hasta Midnight y todo lo demás:
+**12 packs de datos · ~1.590 entradas de jefe · Español / Inglés / Francés / Alemán / Portugués (Brasil) / Chino (simplificado).** Desde la Sima Ígnea hasta Midnight y todo lo demás:
 
 | Expansión | Packs | Jefes | Idiomas |
 |---|---|---|---|
-| Vanilla | Sima Ígnea, BWL, AQ20/40, Naxxramas, Onyxia + las mazmorras clásicas (Gnomeregan, Monasterio Escarlata, Maraudon, Uldaman, Zul'Farrak, Templo Sumergido SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 334 | EN · ES · FR · DE |
-| The Burning Crusade | De Karazhan a Sunwell, mazmorras heroicas, Zul'Aman | 130 | EN · ES · FR · DE |
-| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 mazmorras, Onyxia, Trial of the Champion | 173 | EN (ES/FR/DE en curso) |
-| Cataclysm | Tierras de Fuego, Alma de Dragón, BWD + mazmorras, remakes de ZA/ZG | 113 | EN · ES · FR · DE |
-| Mists of Pandaria | Las 5 bandas, 9 mazmorras, jefes de mundo | 134 | EN · ES · FR |
-| Warlords of Draenor | Highmaul, Fundición Sangre Negra, Ciudadela del Fuego Infernal + 8 mazmorras, élites de Tanaan | 91 | EN (resto en curso) |
-| Legion | Las 5 bandas, 12 mazmorras, 20 jefes de mundo | 147 | EN (resto en curso) |
-| Battle for Azeroth | Uldir → Ny'alotha, 12 mazmorras, jefes de frentes de guerra | 133 | EN · ES · FR · DE |
-| Shadowlands | Castillo Nathria, Santuario de la Dominación, Sepulcro de los Primeros + 9 mazmorras + Tazavesh + jefes de mundo | 90 | EN (resto en curso) |
-| Dragonflight | Aberrus, Amirdrassil, Bóveda de los Encarnados + 9 mazmorras + jefes de mundo | 92 | EN (resto en curso) |
-| The War Within | Las bandas y mazmorras de Khaz Algar | 80 | EN · ES · FR · DE |
-| Midnight | Bandas, mazmorras, lairs y jefes de mundo de la expansión vigente | 71 | EN · ES · FR · DE |
+| Vanilla | Sima Ígnea, BWL, AQ20/40, Naxxramas, Onyxia + las mazmorras clásicas (Gnomeregan, Monasterio Escarlata, Maraudon, Uldaman, Zul'Farrak, Templo Sumergido SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 334 | EN · ES · FR · DE · PT · ZH |
+| The Burning Crusade | De Karazhan a Sunwell, mazmorras heroicas, Zul'Aman | 130 | EN · ES · FR · DE · PT · ZH |
+| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 mazmorras, Onyxia, Trial of the Champion | 173 | EN · ES · FR · DE · PT · ZH |
+| Cataclysm | Tierras de Fuego, Alma de Dragón, BWD + mazmorras, remakes de ZA/ZG | 113 | EN · ES · FR · DE · PT · ZH |
+| Mists of Pandaria | Las 5 bandas, 9 mazmorras, jefes de mundo | 134 | EN · ES · FR · DE · PT · ZH |
+| Warlords of Draenor | Highmaul, Fundición Sangre Negra, Ciudadela del Fuego Infernal + 8 mazmorras, élites de Tanaan | 91 | EN · ES · FR · DE · PT · ZH |
+| Legion | Las 5 bandas, 12 mazmorras, 20 jefes de mundo | 147 | EN · ES · FR · DE · PT · ZH |
+| Battle for Azeroth | Uldir → Ny'alotha, 12 mazmorras, jefes de frentes de guerra | 133 | EN · ES · FR · DE · PT · ZH |
+| Shadowlands | Castillo Nathria, Santuario de la Dominación, Sepulcro de los Primeros + 9 mazmorras + Tazavesh + jefes de mundo | 90 | EN · ES · FR · DE · PT · ZH |
+| Dragonflight | Aberrus, Amirdrassil, Bóveda de los Encarnados + 9 mazmorras + jefes de mundo | 92 | EN · ES · FR · DE · PT · ZH |
+| The War Within | Las bandas y mazmorras de Khaz Algar | 80 | EN · ES · FR · DE · PT · ZH |
+| Midnight | Bandas, mazmorras, lairs y jefes de mundo de la expansión vigente | 71 | EN · ES · FR · DE · PT · ZH |
 
-El addon embarca los packs de idioma que están **completos**; un locale solo se lista in-game cuando cada entrada de ese pack está acabada, así que lo que ves es lo que funciona. Los locales restantes se rellenan pack a pack — **el inglés está siempre** desde el primer día.
+Los doce packs de arriba embarcan con **los seis idiomas completos**; un locale solo se lista in-game cuando cada entrada de ese pack está acabada, así que lo que ves es lo que funciona.
 
 ## Lo esencial
 
@@ -34,6 +34,7 @@ El addon embarca los packs de idioma que están **completos**; un locale solo se
 - **Elección inteligente de canal**: raid / grupo / chat de mazmorra LFG automáticamente — o fuerza gremio / local / solo frame
 - **Botón de minimapa**: dentro de una mazmorra abre un desplegable con cada jefe de esa zona; fuera, explica a tu objetivo
 - **Tus notas pisan la base de datos**: `/bosses + texto` añade tu propia línea a cualquier NPC, en cualquier idioma, por personaje
+- **Edita cualquier explicación en el juego**: el botón **editar** del frame de alerta (o `/bosses EDITAR [id]`) abre el editor de notas — añade enlaces y líneas, reordénalas o quítalas, y prueba el resultado en el frame
 - Panel de ajustes en **Configuración → AddOns → Bosses** — los cambios aplican al instante, sin librerías externas
 - Opcional **modo depuración** que escribe un registro de detección en tu carpeta `WTF`, para que un jefe mudo sea fácil de reportar
 
@@ -48,7 +49,7 @@ El addon embarca los packs de idioma que están **completos**; un locale solo se
 /bosses CANAL guild   salida al gremio
 /bosses CANAL local   solo tu marco de chat
 /bosses CANAL frame   solo tu frame de alerta (avisos privados)
-/bosses IDIOMA es|en|fr|de   idioma de la explicación (auto = sigue a tu juego)
+/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko   idioma de la explicación (auto = sigue a tu juego)
 /bosses DEBUG on|off  registro de detección en WTF; /bosses log lo muestra
 /bosses ?             ayuda completa
 ```
@@ -63,5 +64,6 @@ El **proyecto de GitHub** complementario lleva el changelog completo, listas de 
 
 - Nació como *Boses* en 2011; el veterano de la familia: prueba también **Nas** (saludos automáticos) y **MarcoPolo** (automatización de mercader)
 - Funciona en **retail (Midnight 12.1)** y **Classic**: MoP Classic, TBC Classic y Classic Era
+- El repositorio también lleva un **editor web** local para retocar los packs de datos (herramienta de desarrollo; se ejecuta en local con `npm start`)
 - En plena línea con la política de addons del moderno: información bajo tu control, nunca automatización de combate
 - **¿Actualizas desde el addon antiguo Boses?** Copia `WTF\Account\<cuenta>\SavedVariables\Boses.lua` → `Bosses.lua` (más la copia por personaje), recarga, y tus notas, ajustes y registro de depuración viajan solos

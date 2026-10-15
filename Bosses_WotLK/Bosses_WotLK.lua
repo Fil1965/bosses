@@ -28,4 +28,4 @@ end
 -- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_WotLK_enc.lua);
 -- el de zonas (instanceID → jefes) también (Bosses_WotLK_zonas.lua) y alimenta
 -- el desplegable del minimapa.
-BossesAPI.register("WotLK", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas });
+BossesAPI.register("WotLK", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, DE = P.de, PT = P.pt, ZH = P.zh });

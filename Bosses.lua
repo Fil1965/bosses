@@ -344,6 +344,7 @@ local enVueloCanal = nil;
 local salidaEnPantalla;
 local ajustarAlturaAlerta;
 local enviarJefeDelFrame;
+local abrirEditor; -- (editor in-game de explicaciones, sección «EDITOR IN-GAME»)
 
 local function salida(txt, esFirma)
 	txt = localizarEnlaces(txt); -- nombres de spells en el idioma del cliente
@@ -409,6 +410,10 @@ local function textoCortesia()
 		return L["CortesiaFR"];
 	elseif idioma == "DE" then
 		return L["CortesiaDE"];
+	elseif idioma == "PT" then
+		return L["CortesiaPT"];
+	elseif idioma == "ZH" then
+		return L["CortesiaZH"];
 	end
 	return L["Cortesia"]; -- AUTO: idioma del cliente
 end
@@ -442,7 +447,8 @@ end
 -- del combate y se puede arrastrar.
 local alertaFrame = nil;   -- creado perezoso
 local alertaOcultar = nil; -- el C_Timer que lo esconde tras el combate
-local frameNpcId = nil;   -- jefe mostrado en el frame (botón "al chat")
+local frameNpcId = nil;   -- jefe MOSTRADO con entrada (botón "al chat")
+local frameIdEditor = nil; -- último npc id visto en el frame, DESCrito o no (botón "editar")
 local function ocultarAlerta()
 	if alertaOcultar ~= nil then
 		alertaOcultar:Cancel();
@@ -602,6 +608,26 @@ function salidaEnPantalla(linea, nueva)
 		end);
 		boton:Hide();
 		alertaFrame.botonChat = boton;
+		-- Botón "editar": abre el editor in-game de explicaciones con el
+		-- id del jefe en pantalla (las notas del usuario del dueño, meta
+		-- 2026). A diferencia del "al chat" basta con que haya jefe: la
+		-- UI del editor no toca APIs bloqueadas en combate (puro
+		-- CreateFrame/EditBox) — editar en pelea está permitido y el
+		-- botón "probar" del editor respeta las reglas del canal.
+		local botonEditar = CreateFrame("Button", nil, alertaFrame, "UIPanelButtonTemplate");
+		botonEditar:SetSize(78, 22);
+		botonEditar:SetPoint("RIGHT", boton, "LEFT", -8, 0);
+		botonEditar:SetText(L["BotonEditar"]);
+		botonEditar:SetScript("OnClick", function()
+			-- el id en pantalla AUNQUE no esté descrito (el dueño marca un
+			-- npc que pasa por allí: la nota se puede crear desde cero)
+			local idFrame = frameNpcId or frameIdEditor;
+			if idFrame ~= nil then
+				abrirEditor(idFrame);
+			end
+		end);
+		botonEditar:Hide();
+		alertaFrame.botonEditar = botonEditar;
 	end
 	if nueva then
 		-- Nueva explicación: la primera línea es el nombre del jefe, va a
@@ -638,7 +664,14 @@ function ajustarAlturaAlerta()
 		return;
 	end
 	local pie = 14;
+	local conBotones = false;
 	if alertaFrame.botonChat ~= nil and alertaFrame.botonChat:IsShown() then
+		conBotones = true;
+	end
+	if alertaFrame.botonEditar ~= nil and alertaFrame.botonEditar:IsShown() then
+		conBotones = true;
+	end
+	if conBotones then
 		pie = 40;
 	end
 	alertaFrame:SetHeight(10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8 + alertaFrame.cuerpo:GetHeight() + pie);
@@ -657,6 +690,16 @@ local function actualizarBotonChat()
 		alertaFrame.botonChat:Show();
 	else
 		alertaFrame.botonChat:Hide();
+	end
+	-- "editar": basta con un id en pantalla, descrito o no (el aviso de
+	-- "no descrito" conoce su npc id y debe permitir crear la nota);
+	-- incluso en pelea: el editor no toca APIs bloqueadas en combate
+	if alertaFrame.botonEditar ~= nil then
+		if (frameNpcId ~= nil or frameIdEditor ~= nil) then
+			alertaFrame.botonEditar:Show();
+		else
+			alertaFrame.botonEditar:Hide();
+		end
 	end
 	ajustarAlturaAlerta();
 end
@@ -685,15 +728,16 @@ local function enviarEntrada(entrada, npcId)
 	end
 
 	-- El frame acaba de recibir la entrada completa: recordar de qué
-	-- jefe es, para el botón "al chat" — también en las explicaciones
-	-- automáticas (v1 solo lo armaba el desplegable y tras un pull de
-	-- mazmorra el dueño nunca veía el botón). En zona caliente el botón
-	-- sigue oculto; al salir del combate lo evalúa el
+	-- jefe es, para el botón "al chat" y el botón "editar" — también en
+	-- las explicaciones automáticas (v1 solo lo armaba el desplegable y
+	-- tras un pull de mazmorra el dueño nunca veía el botón). En zona
+	-- caliente el botón sigue oculto; al salir del combate lo evalúa el
 	-- PLAYER_REGEN_ENABLED (que ya puso ultimoCombate a 0) y la ventana
 	-- de 15s del frame da margen para reenviar a mano. La decisión
 	-- "nada automático tras morir el jefe" queda intacta: esto es bajo
 	-- demanda del dueño.
 	frameNpcId = npcId;
+	frameIdEditor = npcId; -- el editor también sabe de qué jefe se trata
 	actualizarBotonChat();
 
 	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
@@ -822,10 +866,11 @@ end
 -- localization.*.lua:  Bosses["<NPC_ID>"] = { "Nombre", "* línea", ... }.
 --
 -- Formato multilenguaje (recomendado):  { ES = {...}, EN = {...} }  más las
--- subtablas opcionales FR/DE (ficheros _fr/_de, creados por el editor web);
--- el core elige la activa según BossesConfig.IDIOMA (AUTO/ES/EN/FR/DE) con
--- cascada idioma → EN → ES. Formato plano (legacy): una única tabla, tal
--- cual, sin cambiar de idioma.
+-- subtablas opcionales FR/DE/RU/PT/ZH/KO (ficheros _fr/_de/... de los packs;
+-- FR/DE los crea el editor web y RU/PT/ZH/KO el botón «➕ añadir idioma»);
+-- el core elige la activa según BossesConfig.IDIOMA (AUTO/ES/EN/FR/DE/RU/
+-- PT/ZH/KO) con cascada idioma → EN → ES. Formato plano (legacy): una única
+-- tabla, tal cual, sin cambiar de idioma.
 
 BossesAPI = BossesAPI or {};
 
@@ -835,6 +880,12 @@ local packSources = {};
 -- en activarPacks con los índices de todos los packs; lo usa el radar de
 -- instancia (desplegable del minimapa).
 local zonasActuales = {};
+
+-- Idiomas válidos de las tablas multilenguaje de un pack (ES/EN obligatorios
+-- de facto; FR/DE clásicos; RU/PT/ZH/KO los añade el editor web — el pack
+-- solo lista en el .toc los COMPLETOS, regla de la casa).
+local CLAVES_IDIOMA = { ES = true, EN = true, FR = true, DE = true, RU = true, PT = true, ZH = true, KO = true };
+local ORDEN_IDIOMA = { "ES", "EN", "FR", "DE", "RU", "PT", "ZH", "KO" }; -- depuración legible
 
 -- Cuenta las entradas (subtablas) de un pack, para el registro de depuración
 local function contarEntradas(t)
@@ -882,19 +933,17 @@ local nombresEnc = nil;
 
 -- Tabla de idioma de un pack con cascada: la pedida si existe y, si no,
 -- EN → ES (el fallback inglés lo cubre todo; ES queda de respaldo histórico).
--- AUTO sigue el idioma del cliente: esES/esMX→ES, frFR→FR, deDE→DE, resto EN.
+-- AUTO sigue el idioma del cliente: esES/esMX→ES, frFR→FR, deDE→DE,
+-- ruRU→RU, ptBR→PT, zhCN/zhTW→ZH (simplificado), koKR→KO, resto EN.
+local MAPA_LOCALES = {
+	esES = "ES", esMX = "ES", frFR = "FR", deDE = "DE",
+	ruRU = "RU", ptBR = "PT", zhCN = "ZH", zhTW = "ZH", koKR = "KO",
+};
 local function tablaIdiomaDePack(src, idioma)
 	if idioma == "AUTO" then
 		local loc = GetLocale();
-		if loc == "esES" or loc == "esMX" then
-			idioma = "ES";
-		elseif loc == "frFR" then
-			idioma = "FR";
-		elseif loc == "deDE" then
-			idioma = "DE";
-		else
-			idioma = "EN";
-		end
+		idioma = MAPA_LOCALES[loc] or "EN";
+		if loc == nil then idioma = "EN"; end -- cliente con GetLocale secreto
 	end
 	if type(src[idioma]) == "table" then return src[idioma]; end
 	if type(src.EN) == "table" then return src.EN; end
@@ -906,9 +955,14 @@ local function activarPacks()
 	local idioma = (BossesConfig ~= nil and BossesConfig.IDIOMA) or "AUTO";
 
 	for _, src in ipairs(packSources) do
-		-- Multilenguaje: ES/EN siempre; FR/DE opcionales (editor web, ficheros
-		-- _fr/_de) y los salta el core si el pack no los trae.
-		if src.ES ~= nil or src.EN ~= nil or src.FR ~= nil or src.DE ~= nil then
+		-- Multilenguaje: ES/EN siempre; FR/DE/RU/PT/ZH/KO opcionales (editor
+		-- web, ficheros _fr/_de/_ru/...) y los salta el core si el pack no
+		-- los trae.
+		local multilenguaje = false;
+		for clave in pairs(CLAVES_IDIOMA) do
+			if src[clave] ~= nil then multilenguaje = true; break end
+		end
+		if multilenguaje then
 			src.data = tablaIdiomaDePack(src, idioma);
 		else
 			-- Formato plano (legacy)
@@ -937,14 +991,18 @@ function BossesAPI.register(name, data)
 	end
 
 	-- Detecta el formato: multilenguaje si trae subtablas de idioma (ES/EN
-	-- siempre; FR/DE opcionales, creadas por el editor web)
+	-- siempre; FR/DE/RU/PT/ZH/KO opcionales, del editor web)
 	local src = { name = name };
 
-	if type(data.ES) == "table" or type(data.EN) == "table" or type(data.FR) == "table" or type(data.DE) == "table" then
-		src.ES = (type(data.ES) == "table") and data.ES or nil;
-		src.EN = (type(data.EN) == "table") and data.EN or nil;
-		src.FR = (type(data.FR) == "table") and data.FR or nil;
-		src.DE = (type(data.DE) == "table") and data.DE or nil;
+	local multilenguaje = false;
+	for clave in pairs(CLAVES_IDIOMA) do
+		if type(data[clave]) == "table" then multilenguaje = true; break end
+	end
+
+	if multilenguaje then
+		for clave in pairs(CLAVES_IDIOMA) do
+			src[clave] = (type(data[clave]) == "table") and data[clave] or nil;
+		end
 	else
 		src.plain = data;
 	end
@@ -970,7 +1028,15 @@ function BossesAPI.register(name, data)
 		table.insert(packSources, src);
 	end
 
-	debugLog("pack", name, "ES=" .. contarEntradas(src.ES), "EN=" .. contarEntradas(src.EN), "FR=" .. contarEntradas(src.FR), "DE=" .. contarEntradas(src.DE), "ENC=" .. contarClaves(src.enc), "ZON=" .. contarClaves(src.zonas), "reemplazo=" .. tostring(replaced));
+	-- Depuración: recuento por idioma en orden fijo (los nil se omiten; una
+	-- sola cadena, sin depender de unpack/table.unpack entre flavors)
+	local resumen = {};
+	for _, clave in ipairs(ORDEN_IDIOMA) do
+		if src[clave] ~= nil then
+			table.insert(resumen, clave .. "=" .. contarEntradas(src[clave]));
+		end
+	end
+	debugLog("pack", name, table.concat(resumen, " "), "ENC=" .. contarClaves(src.enc), "ZON=" .. contarClaves(src.zonas), "reemplazo=" .. tostring(replaced));
 	activarPacks();
 	return true;
 end
@@ -1025,6 +1091,7 @@ local function explica(nbos)
 		debugLog("sin entrada (id)", tostring(nbos));
 		if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
 			limpiarJefeFrame();
+			frameIdEditor = nbos; -- el aviso conoce su id: el botón "editar" debe poder crear la nota
 			salidaEnPantalla(tostring(nbos), true); -- cabecera del frame con la id del NPC
 			salidaEnPantalla(L[": This NPC is not described."]);
 		end
@@ -1725,7 +1792,7 @@ end
 
 local function createSettingsPanel()
 	local frame = CreateFrame("Frame", "BossesSettingsPanel");
-	frame:SetSize(380, 530); -- dos filas más por FR/DE (editor web)
+	frame:SetSize(380, 680); -- idiomas nuevos (editor web) + botón del editor in-game
 
 	local titulo = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge");
 	titulo:SetPoint("TOPLEFT", 10, -12);
@@ -1766,7 +1833,11 @@ local function createSettingsPanel()
 
 	langChecks = {};
 
-	local idiomas = { { "AUTO", "Auto" }, { "ES", "Spanish" }, { "EN", "English" }, { "FR", "French" }, { "DE", "German" } };
+	local idiomas = {
+		{ "AUTO", "Auto" }, { "ES", "Spanish" }, { "EN", "English" },
+		{ "FR", "French" }, { "DE", "German" },
+		{ "RU", "Russian" }, { "PT", "Portuguese" }, { "ZH", "ChineseSimple" }, { "KO", "Korean" },
+	};
 	y = y - 28;
 
 	for _, d in ipairs(idiomas) do
@@ -1811,6 +1882,21 @@ local function createSettingsPanel()
 	vaciarBtn:SetScript("OnClick", function()
 		vaciarLog();
 		escribir("|cff33ff99Bosses|r: registro de depuración vaciado (se graba al salir o con /reload)");
+	end);
+	y = y - 30;
+
+	-- Editor de explicaciones in-game (las notas del usuario)
+	local editarBtn = CreateFrame("Button", nil, frame, "UIButtonTemplate");
+	editarBtn:SetPoint("TOPLEFT", 0, y - 2);
+	editarBtn:SetSize(220, 24);
+	editarBtn:SetText(L["MenuEditor"]);
+	editarBtn:SetScript("OnClick", function()
+		local idEditor = npcIdFromUnit("target");
+		if idEditor ~= nil then
+			abrirEditor(idEditor);
+		else
+			escribir("|cff33ff99Bosses|r: " .. L["EditorSinTarget"]);
+		end
 	end);
 	y = y - 30;
 
@@ -1946,6 +2032,14 @@ local function menuMinimapa()
 		table.insert(entradas, { texto = " ", separador = true });
 	end
 	table.insert(entradas, { texto = L["MenuObjetivo"], alPulsar = function() explicaTarget("target"); end });
+	table.insert(entradas, { texto = L["MenuEditor"], alPulsar = function()
+		local idEditor = npcIdFromUnit("target");
+		if idEditor == nil then
+			escribir("|cff33ff99Bosses|r: " .. L["EditorSinTarget"]);
+		else
+			abrirEditor(idEditor);
+		end
+	end });
 	table.insert(entradas, { texto = L["MenuConfig"], alPulsar = function() openSettings(); end });
 
 	-- Botones (se reutilizan entre aperturas; anclados a ambos lados para
@@ -2060,6 +2154,554 @@ local function createMinimapIcon()
 	LibStub("LibDBIcon-1.0"):Register("Bosses", ldbObject, BossesConfig);
 end
 
+-- ========================================================================
+-- EDITOR IN-GAME DE EXPLICACIONES (2026): UI profesional para las notas
+-- del usuario, que son la primera prioridad de buscarEntrada (BossesConfig
+-- [npc id], por personaje) y ANULAN la del pack. Complemento visual de
+-- /bosses + (añade línea) y /bosses ! (borra todo):
+--
+--   /bosses EDITAR            abre el editor con el NPC marcado
+--   /bosses EDITAR <id>       lo abre directamenete con ese NPC id
+--
+-- Formato de nota = el del pack: { "Nombre", "* línea", ... } — el frame de
+-- alerta y los envíos las procesan sin cambios (la viñeta sale del prefijo
+-- "* "). Piezas artesanales de la casa: BackdropTemplate (aspecto tooltip),
+-- X propia (UIPanelCloseButtonTemplate no existe en Midnight 12.1),
+-- hipervínculos de spells clicables con tooltip (los mismos scripts del
+-- frame de alerta) y guardado inmediato en la SavedVariable del personaje
+-- (el cliente las escribe al salir o /reload, como siempre).
+-- ========================================================================
+local editorFrame = nil;    -- creado perezoso
+local editorId = nil;       -- npc id en edición (string)
+local editorNota = nil;     -- la tabla en edición (write-through a BossesConfig)
+local editorLinea = nil;    -- índice de la línea enfocada (para insertar spells)
+
+-- Entrada DIRECTA de los packs (sin pasar por las notas del usuario): la
+-- "base" que la nota anula y la fuente del botón «copiar del pack».
+local function entradaDePacks(nbos)
+	for i = #packSources, 1, -1 do
+		local data = packSources[i].data;
+		if data ~= nil and data[nbos] ~= nil then
+			return data[nbos], packSources[i].name;
+		end
+	end
+	return nil, nil;
+end
+
+-- Recupera el NOMBRE de un npc por id (el dueño: «cuando no lo conozca
+-- debería de recuperar su nombre») para la cabecera provisional del editor.
+-- En orden: 1) el target marcado (la vía normal para llegar a un npc sin
+-- descripción) con su UnitName fiable; 2) un tooltip de escaneo oculto con
+-- el enlace de unidad unit:Creature-... (el truco clásico de resolución de
+-- nombre por CID; va en pcall porque el enlace no es API pública y todo lo
+-- que falle degrada a nil, y el editor sigue con su placeholder numérico).
+local function nombreNpcDe(id)
+	local idS = tostring(id);
+	local nombreT = UnitName("target");
+	if nombreT ~= nil and nombreT ~= "" then
+		local idTar = npcIdFromUnit("target");
+		if idTar ~= nil and idTar == idS then
+			return nombreT;
+		end
+	end
+	local tt = _G["BossesScanTT"];
+	if tt == nil then
+		tt = CreateFrame("GameTooltip", "BossesScanTT", nil, "GameTooltipTemplate");
+		tt:SetOwner(UIParent, "ANCHOR_NONE");
+	end
+	local ok, res = pcall(function()
+		tt:ClearLines();
+		tt:SetHyperlink("unit:Creature-0-0-0-0-" .. idS .. "-0000000000-0000000000");
+		local fs = _G["BossesScanTTTextLeft1"];
+		local t = fs ~= nil and fs:GetText() or nil;
+		if t == nil then
+			return nil;
+		end
+		return (t:gsub("%s*%b<>%s*$", "")); -- sin apellidos <...>
+	end);
+	if ok and res ~= nil and res ~= "" then
+		return res;
+	end
+	return nil;
+end
+
+-- Guarda la nota en vuelo o la RETIRA si ha quedado vacía (equivale a
+-- /bosses !: una nota vacía no debe tapar la del pack).
+local function editorGuardar()
+	if editorId == nil then
+		return;
+	end
+	local vacia = true;
+	for _, v in ipairs(editorNota) do
+		if type(v) == "string" and v ~= "" then vacia = false; break; end
+	end
+	if vacia then
+		BossesConfig[editorId] = nil;
+	else
+		BossesConfig[editorId] = editorNota;
+	end
+end
+
+local editorRefrescar = function() end; -- (re)asignada justo tras el cuerpo
+
+local function cerrarEditor()
+	if editorFrame ~= nil then
+		editorFrame:Hide();
+	end
+end
+
+-- Inserta el enlace de un spell (con el nombre en el idioma del cliente,
+-- nombreSpell) al FINAL de la línea enfocada (o de la última si ninguna
+-- está enfocada). Devuelve el mensaje para el jugador.
+local function editorInsertarSpell(idSpell)
+	if editorId == nil then
+		return "abre el editor primero (marca el jefe o /bosses EDITAR <id>)";
+	end
+	if editorNota == nil then
+		-- sin nota todavía: la cabecera provisional nace aquí (igual que abrir)
+		local base = entradaDePacks(editorId);
+		editorNota = { (type(base) == "table" and type(base[1]) == "string") and base[1]
+			or (nombreNpcDe(editorId) or ("NPC " .. editorId)) };
+	end
+	local nombre = nombreSpell(idSpell);
+	if nombre == nil or nombre == "" then
+		return "el cliente no conoce ese spell id (" .. tostring(idSpell) .. ")";
+	end
+	local i = editorLinea ~= nil and editorLinea or #editorNota;
+	if i < 2 then i = #editorNota; end
+	if i < 2 then
+		-- sin líneas de táctica: se crea la primera
+		i = 2;
+		table.insert(editorNota, "");
+	end
+	editorNota[i] = tostring(editorNota[i] or "") .. "|cff71d5ff|Hspell:" .. idSpell .. "|h[" .. nombre .. "]|h|r";
+	editorGuardar();
+	editorRefrescar();
+	return "spell " .. idSpell .. " (" .. nombre .. ") añadido a la línea " .. tostring(i);
+end
+
+local function editorCambiarLinea(i, delta)
+	if editorId == nil then
+		return;
+	end
+	local j = i + delta;
+	if j < 2 or j > #editorNota then
+		return; -- el nombre (1) no se mueve de su sitio
+	end
+	editorNota[i], editorNota[j] = editorNota[j], editorNota[i];
+	editorGuardar();
+	editorRefrescar();
+end
+
+local function editorQuitarLinea(i)
+	if editorId == nil or i < 2 or i > #editorNota then
+		return;
+	end
+	table.remove(editorNota, i);
+	editorGuardar();
+	editorRefrescar();
+end
+
+-- (Re)construye las filas del cuerpo: un EditBox por línea con subir/
+-- bajar/quitar (texturas de flecha + tooltip), reutilizando las de
+-- aperturas anteriores (patrón del menú del minimapa).
+editorRefrescar = function()
+	if editorFrame == nil or editorId == nil or editorNota == nil then
+		return;
+	end
+	editorFrame.titulo:SetText(tostring(editorNota[1] or ("NPC " .. editorId)));
+	local cuerpo = editorFrame.cuerpo;
+	local n = #editorNota;
+	local y = -6;
+	local altoFila = 26;
+	local anchoFila = 502; -- el scroll mide 530 en la ventana de 580
+	local anchoBoton = 20;
+	local anchoEd = anchoFila - 3 * (anchoBoton + 4);
+
+	for k = 2, n do
+		local i = k; -- captura del índice real de la tabla
+		local ed = editorFrame["ed" .. k];
+		if ed == nil then
+			ed = CreateFrame("EditBox", nil, cuerpo, "InputBoxTemplate");
+			ed:SetSize(anchoEd, 20);
+			ed:SetAutoFocus(false);
+			ed:SetScript("OnEnterPressed", function(self) self:ClearFocus(); end);
+			ed:SetScript("OnEscapePressed", function(self) self:ClearFocus(); end);
+			ed:SetScript("OnEditFocusGained", function(self) editorLinea = tonumber(self.__i); end); -- OJO: OnFocusGained NO existe en EditBox (SetScript rechaza el nombre de script)
+			ed:SetScript("OnTextChanged", function(self, userInput)
+				if not userInput then
+					return; -- solo los cambios de verdad (SetProgrammatic no)
+				end
+				editorNota[tonumber(self.__i)] = tostring(self:GetText());
+				editorGuardar();
+			end);
+			editorFrame["ed" .. k] = ed;
+		end
+		ed.__i = tostring(i);
+		ed:SetText(tostring(editorNota[i] or ""));
+		ed:SetCursorPosition(0); -- ver el PRINCIPIO del texto: el EditBox deja
+		-- la vista donde estuviera el caret y un texto que no cabe se ve por
+		-- el FINAL (el principio queda fuera de la vista, petición del dueño)
+		ed:Show();
+		ed:ClearAllPoints();
+		ed:SetPoint("TOPLEFT", cuerpo, "TOPLEFT", 4, y - 3);
+
+		-- tres botoncitos de estructura: SUBIR/BAJAR con flecha TEXTURA de la
+		-- casa (las de los desplegables nativos: garantizadas en todos los
+		-- flavors; los glifos ▲▼ no lo están y salían como cuadros) y QUITAR
+		-- con aspa textual «x» (glifo garantizado); TODOS con tooltip — el
+		-- dueño pidió saber para qué sirven
+		local defs = {
+			{ "up", 0, "Interface\\Buttons\\ArrowUp-ToggleUp", "EditorFilaSubir", function() editorCambiarLinea(i, -1); end },
+			{ "dn", 1, "Interface\\Buttons\\ArrowUp-ToggleDown", "EditorFilaBajar", function() editorCambiarLinea(i, 1); end },
+			{ "del", 2, nil, "EditorFilaQuitar", function() editorQuitarLinea(i); end },
+		};
+		for _, d in ipairs(defs) do
+			local key = d[1];
+			local col = d[2];
+			local b = editorFrame[key .. k];
+			if b == nil then
+				b = CreateFrame("Button", nil, cuerpo);
+				b:SetSize(anchoBoton, anchoEd);
+				if d[3] ~= nil then
+					b:SetNormalTexture(d[3]);
+				else
+					b:SetNormalFontObject("GameFontNormalSmall");
+					b:SetText("x");
+				end
+				local hl = b:CreateTexture(nil, "HIGHLIGHT");
+				hl:SetAllPoints(b);
+				hl:SetColorTexture(1, 0.85, 0.4, 0.25);
+				b:SetHighlightTexture(hl);
+				b:SetScript("OnClick", function(self)
+					local al = self.__al;
+					if al ~= nil then al(); end
+				end);
+				b:SetScript("OnEnter", function(self)
+					if GameTooltip ~= nil then
+						GameTooltip:SetOwner(self, "ANCHOR_TOP");
+						GameTooltip:SetText(L[self.__tip] or self.__tip, 0.85, 0.85, 0.85);
+						GameTooltip:Show();
+					end
+				end);
+				b:SetScript("OnLeave", function()
+					if GameTooltip ~= nil then
+						GameTooltip:Hide();
+					end
+				end);
+				editorFrame[key .. k] = b;
+			end
+			b.__al = d[5];
+			b.__tip = d[4];
+			b:Show();
+			b:ClearAllPoints();
+			b:SetPoint("TOPLEFT", ed, "TOPRIGHT", 4 + col * (anchoBoton + 4), 0);
+			b:SetPoint("BOTTOMLEFT", ed, "BOTTOMRIGHT", 4 + col * (anchoBoton + 4), 0);
+		end
+		y = y - altoFila;
+	end
+	-- esconder sobrantes de notas anteriores más largas
+	for k = n + 1, editorFrame.__max or 0 do
+		if editorFrame["ed" .. k] ~= nil then
+			editorFrame["ed" .. k]:Hide();
+			editorFrame["up" .. k]:Hide();
+			editorFrame["dn" .. k]:Hide();
+			editorFrame["del" .. k]:Hide();
+		end
+	end
+	editorFrame.__max = math.max(editorFrame.__max or 0, n + 1);
+
+	-- la altura del scrollchild decide el recorrido de la rueda
+	cuerpo:SetHeight(math.max(1, 2 + (math.max(n, 2) - 1) * altoFila + 30));
+
+	-- fuente de la nota (para el rótulo): la base del pack si no era nota
+	local _, packDe = entradaDePacks(editorId);
+	local esNota = BossesConfig[editorId] ~= nil;
+	editorFrame.fuente:SetText(
+		(esNota and L["EditorDeNota"] or (packDe ~= nil and L["EditorDePack"] or L["EditorSinBase"]))
+		.. " · " .. (packDe ~= nil and packDe or "Bosses") .. " · id " .. tostring(editorId));
+end
+
+-- Copia las líneas de la ENTRADA BASE del pack dentro de la nota (punto de
+-- partida cómodo para el pulido personal: ya se puede editar y guardar).
+local function editorCopiarDelPack()
+	if editorId == nil then
+		return;
+	end
+	local base, packDe = entradaDePacks(editorId);
+	if base == nil then
+		return;
+	end
+	if editorNota == nil then
+		editorNota = {};
+	end
+	-- reemplaza TODO el contenido con la copia del pack (strings solas,
+	-- cabecera incluida: "Nombre", "* líneas"...); la sobreescripción es
+	-- intencionada: copiar del pack vuelve a la copy del pack entera
+	local nueva = {};
+	for _, v in ipairs(base) do
+		if type(v) == "string" then
+			table.insert(nueva, v);
+		end
+	end
+	for i = 1, math.max(#editorNota, #nueva) do
+		editorNota[i] = nueva[i] or nil;
+	end
+	editorGuardar();
+	editorFrame.edNombre:SetText(tostring(editorNota[1] or ""));
+	editorRefrescar();
+	debugLog("editor", "copiadas las líneas del pack", tostring(packDe), "a la nota de " .. tostring(editorId));
+end
+
+local function editorProbar()
+	if editorId == nil then
+		return;
+	end
+	local fuente = (BossesConfig[editorId] ~= nil) and BossesConfig[editorId] or editorNota;
+	if fuente == nil or #fuente == 0 then
+		return;
+	end
+	enviarEntrada(fuente, editorId);
+end
+
+local function editorQuitarNota()
+	if editorId == nil then
+		return;
+	end
+	-- fuera la nota (la del pack vuelve a mandar); en pantalla queda la
+	-- copia del pack como contexto editable pero SIN escribirse hasta que
+	-- el dueño toque algo (sin guardar call: una nota no debe renacer sola)
+	BossesConfig[editorId] = nil;
+	editorNota = {};
+	local base = entradaDePacks(editorId);
+	if base ~= nil then
+		for _, v in ipairs(base) do
+			if type(v) == "string" then
+				table.insert(editorNota, v);
+			end
+		end
+	end
+	editorFrame.edNombre:SetText(tostring(editorNota[1] or ""));
+	editorRefrescar();
+	debugLog("editor", "nota quitada", tostring(editorId));
+end
+
+-- Abre (o refresca) el editor sobre un npc id concreto.
+function abrirEditor(id)
+	if id == nil or id == "" then
+		return;
+	end
+	editorId = tostring(id);
+	editorLinea = nil;
+
+	-- la nota en edición: la del disco si existe; si no, temporal (solo se
+	-- crea en disco al escribir el nombre o tocar una línea)
+	local base, _ = entradaDePacks(editorId);
+	local notaDisc = BossesConfig[editorId];
+	editorNota = {};
+	for _, v in ipairs(notaDisc ~= nil and notaDisc or {}) do
+		table.insert(editorNota, v);
+	end
+	if notaDisc == nil and base ~= nil and type(base[1]) == "string" then
+		-- cabecera provisional con el nombre del pack
+		table.insert(editorNota, 1, base[1]);
+	end
+	if notaDisc == nil and not (base ~= nil and type(base[1]) == "string") then
+		-- el dueño: «cuando no lo conozca debería de recuperar su nombre» —
+		-- target marcado o tooltip de escaneo; si nada lo sabe, sigue el
+		-- placeholder numérico (guardar solo crea la nota al tocar algo)
+		local nombreRec = nombreNpcDe(editorId);
+		if nombreRec ~= nil then
+			table.insert(editorNota, 1, nombreRec);
+			debugLog("editor", "nombre recuperado del cliente", tostring(editorId), nombreRec);
+		end
+	end
+
+	if editorFrame == nil then
+		editorFrame = CreateFrame("Frame", "BossesEditorFrame", UIParent, "BackdropTemplate");
+		tinsert(UISpecialFrames, "BossesEditorFrame"); -- ESC cierra (con X)
+		editorFrame:SetFrameStrata("HIGH");
+		editorFrame:SetClampedToScreen(true);
+		editorFrame:SetSize(580, 580); -- el dueño: la ventana era estrecha
+		editorFrame:EnableMouse(true);
+		editorFrame:SetMovable(true);
+		editorFrame:RegisterForDrag("LeftButton");
+		editorFrame:SetScript("OnDragStart", editorFrame.StartMoving);
+		editorFrame:SetScript("OnDragStop", function(self)
+			self:StopMovingOrSizing();
+			local punto, _, relativo, x, y = self:GetPoint(1);
+			if punto ~= nil then
+				BossesConfig.editorPos = { point = punto, rel = relativo or punto, x = x or 0, y = y or 0 };
+			end
+		end);
+		editorFrame:SetBackdrop({
+			bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
+			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 3, right = 3, top = 3, bottom = 3 },
+		});
+		editorFrame:SetBackdropColor(0.06, 0.06, 0.08, 0.95);
+
+		-- pie de ventana: marca dorada + X (patrón del frame de alerta)
+		local marca = editorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		marca:SetPoint("TOPLEFT", 16, -10);
+		marca:SetText("BOSSES · " .. L["Editor"]);
+		marca:SetTextColor(1, 0.85, 0.4);
+		local cerrar = CreateFrame("Button", nil, editorFrame);
+		cerrar:SetSize(18, 18);
+		cerrar:SetPoint("TOPRIGHT", -6, -6);
+		cerrar:SetNormalFontObject("GameFontHighlightLarge");
+		cerrar:SetText("×");
+		local resalteCerrar = cerrar:CreateTexture(nil, "HIGHLIGHT");
+		resalteCerrar:SetAllPoints(cerrar);
+		resalteCerrar:SetColorTexture(1, 0.4, 0.4, 0.3);
+		cerrar:SetHighlightTexture(resalteCerrar);
+		cerrar:SetScript("OnClick", cerrarEditor);
+
+		-- cabecera: título (nombre del jefe, con links) + fuente/id
+		local titulo = editorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge");
+		titulo:SetPoint("TOPLEFT", marca, "BOTTOMLEFT", 0, -4);
+		titulo:SetWidth(548);
+		titulo:SetJustifyH("LEFT");
+		if titulo.SetHyperlinksEnabled ~= nil then
+			titulo:SetHyperlinksEnabled(true);
+		end
+		editorFrame.titulo = titulo;
+
+		local fuente = editorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		fuente:SetPoint("TOPLEFT", titulo, "BOTTOMLEFT", 0, -3);
+		fuente:SetPoint("RIGHT", editorFrame, "RIGHT", -16, 0);
+		fuente:SetJustifyH("LEFT");
+		fuente:SetTextColor(0.7, 0.7, 0.75);
+		if fuente.SetHyperlinksEnabled ~= nil then
+			fuente:SetHyperlinksEnabled(true);
+		end
+		editorFrame.fuente = fuente;
+
+		editorFrame:SetScript("OnHyperlinkClick", function(_, link, textoLiga, botonLink, chatFrame)
+			pcall(ChatFrame_OnHyperlinkShow, DEFAULT_CHAT_FRAME, link, textoLiga, botonLink, chatFrame);
+		end);
+		editorFrame:SetScript("OnHyperlinkEnter", function(_, link)
+			if GameTooltip ~= nil then
+				pcall(function()
+					GameTooltip:SetOwner(editorFrame, "ANCHOR_CURSOR");
+					GameTooltip:SetHyperlink(link);
+					GameTooltip:Show();
+				end);
+			end
+		end);
+		editorFrame:SetScript("OnHyperlinkLeave", function()
+			if GameTooltip ~= nil then
+				GameTooltip:Hide();
+			end
+		end);
+
+		-- nombre editable (elemento 1 de la nota)
+		local rotuloNombre = editorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		rotuloNombre:SetPoint("TOPLEFT", fuente, "BOTTOMLEFT", 0, -8);
+		rotuloNombre:SetText(L["EditorNombre"]);
+		local edNombre = CreateFrame("EditBox", nil, editorFrame, "InputBoxTemplate");
+		edNombre:SetSize(300, 20);
+		edNombre:SetAutoFocus(false);
+		edNombre:SetPoint("TOPLEFT", rotuloNombre, "TOPRIGHT", 12, -2);
+		edNombre:SetScript("OnEnterPressed", function(self) self:ClearFocus(); end);
+		edNombre:SetScript("OnEscapePressed", function(self) self:ClearFocus(); end);
+		edNombre:SetScript("OnTextChanged", function(self, userInput)
+			if userInput and editorId ~= nil then
+				local nuevo = tostring(self:GetText() or "");
+				if editorNota == nil then
+					editorNota = { nuevo };
+				end
+				editorNota[1] = nuevo;
+				editorGuardar();
+				editorFrame.titulo:SetText(nuevo ~= "" and nuevo or ("NPC " .. editorId));
+			end
+		end);
+		editorFrame.edNombre = edNombre;
+
+		-- cuerpo: filas de líneas de táctica dentro de un scroll nativo
+		local scroll = CreateFrame("ScrollFrame", nil, editorFrame, "UIPanelScrollFrameTemplate");
+		scroll:SetPoint("TOPLEFT", 14, -140);
+		scroll:SetPoint("BOTTOMRIGHT", -36, 78); -- 530 de ancho: las filas (502) respiran
+		local cuerpo = CreateFrame("Frame", nil, scroll);
+		cuerpo:SetWidth(506);
+		scroll:SetScrollChild(cuerpo);
+		editorFrame.cuerpo = cuerpo;
+
+		-- herramientas del pie: + línea y + spell (inserta en la línea
+		-- enfocada o al final), con el id del spell en un cuadrito
+		local rotuloSpell = editorFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+		rotuloSpell:SetPoint("BOTTOMLEFT", 14, 50);
+		rotuloSpell:SetText(L["EditorSpell"]);
+		local edSpell = CreateFrame("EditBox", nil, editorFrame, "InputBoxTemplate");
+		edSpell:SetSize(80, 20);
+		edSpell:SetAutoFocus(false);
+		edSpell:SetNumeric();
+		edSpell:SetPoint("LEFT", rotuloSpell, "RIGHT", 10, 0);
+		edSpell:SetScript("OnEnterPressed", function(self)
+			local id = self:GetText();
+			self:SetText("");
+			self:ClearFocus();
+			if id ~= "" then
+				escribir("|cff33ff99Bosses|r: " .. editorInsertarSpell(id));
+			end
+		end);
+		edSpell:SetScript("OnEscapePressed", function(self) self:ClearFocus(); end);
+		local btnSpell = CreateFrame("Button", nil, editorFrame, "UIPanelButtonTemplate");
+		btnSpell:SetSize(76, 22);
+		btnSpell:SetPoint("LEFT", edSpell, "RIGHT", 8, 0);
+		btnSpell:SetText(L["EditorAnadir"]);
+		btnSpell:SetScript("OnClick", function()
+			local id = edSpell:GetText();
+			edSpell:SetText("");
+			edSpell:ClearFocus();
+			if id ~= "" then
+				escribir("|cff33ff99Bosses|r: " .. editorInsertarSpell(id));
+			end
+		end);
+		local btnLinea = CreateFrame("Button", nil, editorFrame, "UIPanelButtonTemplate");
+		btnLinea:SetSize(96, 22);
+		btnLinea:SetPoint("LEFT", btnSpell, "RIGHT", 10, 0);
+		btnLinea:SetText(L["EditorLinea"]);
+		btnLinea:SetScript("OnClick", function()
+			if editorId == nil then return; end
+			table.insert(editorNota, editorLinea ~= nil and math.max(editorLinea + 1, 3) or #editorNota + 1, "* ");
+			editorGuardar();
+			editorRefrescar();
+		end);
+
+		-- fila de acciones
+		local btnCopiar = CreateFrame("Button", nil, editorFrame, "UIPanelButtonTemplate");
+		btnCopiar:SetSize(150, 24);
+		btnCopiar:SetPoint("BOTTOMLEFT", 14, 12);
+		btnCopiar:SetText(L["EditorCopiar"]);
+		btnCopiar:SetScript("OnClick", editorCopiarDelPack);
+		local btnProbar = CreateFrame("Button", nil, editorFrame, "UIPanelButtonTemplate");
+		btnProbar:SetSize(150, 24);
+		btnProbar:SetPoint("LEFT", btnCopiar, "RIGHT", 10, 0);
+		btnProbar:SetText(L["EditorProbar"]);
+		btnProbar:SetScript("OnClick", editorProbar);
+		local btnQuitar = CreateFrame("Button", nil, editorFrame, "UIPanelButtonTemplate");
+		btnQuitar:SetSize(150, 24);
+		btnQuitar:SetPoint("LEFT", btnProbar, "RIGHT", 10, 0);
+		btnQuitar:SetText(L["EditorQuitar"]);
+		btnQuitar:SetScript("OnClick", editorQuitarNota);
+	end
+
+	-- posición recordada (como el frame de alerta)
+	local ep = BossesConfig.editorPos;
+	if type(ep) == "table" and type(ep.point) == "string" and type(ep.rel) == "string" and type(ep.x) == "number" and type(ep.y) == "number" then
+		editorFrame:SetPoint(ep.point, UIParent, ep.rel, ep.x, ep.y);
+	else
+		editorFrame:SetPoint("CENTER", 0, 40);
+	end
+	editorFrame.edNombre:SetText(tostring(editorNota[1] or ""));
+	editorFrame.edNombre:SetCursorPosition(0); -- principio del nombre a la vista
+	editorRefrescar();
+	editorFrame:Show();
+	debugLog("editor", "abrir", tostring(editorId), "#lineas=" .. tostring(#editorNota));
+end
+
 -- Comandos --------------------------------------------------------------
 
 local function bossesGestor(msg, editbox)
@@ -2081,9 +2723,12 @@ local function bossesGestor(msg, editbox)
 			setCanal(txt);
 		end
 	elseif cmd == "IDIOMA" then
-		-- Idioma de las explicaciones: AUTO, ES, EN y (editor web) FR, DE
+		-- Idioma de las explicaciones: AUTO, ES, EN, FR, DE y los idiomas del
+		-- editor web (RU, PT, ZH, KO — validado contra lo que acepte el core)
 		txt = string.upper(txt);
-		if txt == "AUTO" or txt == "ES" or txt == "EN" or txt == "FR" or txt == "DE" then
+		local valido = txt == "AUTO" or txt == "ES" or txt == "EN" or txt == "FR" or txt == "DE"
+			or txt == "RU" or txt == "PT" or txt == "ZH" or txt == "KO";
+		if valido then
 			setLanguage(txt);
 			dsp(L["Language"], txt);
 		end
@@ -2096,7 +2741,7 @@ local function bossesGestor(msg, editbox)
 		elseif txt == "off" then
 			setDebug(false);
 			dsp(L["Depuracion"], "off");
-		elseif txt == "vaciar" or txt == "clear" then
+		elseif txt == "vaciar" or txt == "clear" or txt == "limpar" or txt == "清空" then
 			vaciarLog();
 			dsp("registro de depuración vaciado");
 		else
@@ -2114,6 +2759,18 @@ local function bossesGestor(msg, editbox)
 			for i = desde, #log do
 				escribir(log[i]);
 			end
+		end
+	elseif cmd == "EDITAR" or cmd == "EDIT" then
+		-- Editor de explicaciones in-game (2026): UI profesional de las notas
+		-- del usuario. Con id directo si trae; si no, el NPC marcado. En
+		-- combate el GUID secreto devuelve el aviso común de +/!.
+		local idArg = txt:match("^(%d+)%s*$");
+		if idArg ~= nil then
+			abrirEditor(idArg);
+		elseif tar ~= "" then
+			abrirEditor(tar);
+		else
+			dsp(L["EditorSinTarget"]);
 		end
 	elseif cmd == "!" then
 		-- Queremos borrar una explicacion local
@@ -2146,6 +2803,7 @@ local function bossesGestor(msg, editbox)
 		dsp(L["HELP8"]);
 		dsp(L["HELP9"]);
 		dsp(L["HELP10"]);
+		dsp(L["HELP11"]);
 		local packs = BossesAPI.list();
 		if #packs > 0 then
 			dsp(L["Data packs"] .. ": " .. table.concat(packs, ", "));

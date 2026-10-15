@@ -8,6 +8,10 @@
 ## Dependencies: Bosses
 Bosses_Legion_es.lua
 Bosses_Legion_en.lua
+Bosses_Legion_pt.lua
+Bosses_Legion_de.lua
+Bosses_Legion_fr.lua
+Bosses_Legion_zh.lua
 Bosses_Legion_enc.lua
 Bosses_Legion_zonas.lua
 Bosses_Legion.lua

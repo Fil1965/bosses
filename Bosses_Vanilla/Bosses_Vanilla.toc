@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_Vanilla_es.lua
 Bosses_Vanilla_en.lua
+Bosses_Vanilla_zh.lua
+Bosses_Vanilla_pt.lua
 Bosses_Vanilla_fr.lua
 Bosses_Vanilla_de.lua
 Bosses_Vanilla_enc.lua

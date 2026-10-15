@@ -69,12 +69,28 @@ pack["16060"] = { "Gothik le Moissonneur",
 "* |cff71d5ff|Hspell:28026|h[Téléportation : Côté Mort]|h|r : Je me déplace entre les pièces pendant que les ombres se rassemblent - la porte s'ouvre à 4 minutes, fusionnez-vous ensuite et le brûlez.",
 };
 
-bos = { "Les quatre Cavaliers",
-"* |cff71d5ff|Hspell:28835|h[Marque de Khan]|h|r: Chaque cavalier applique une marque de son quart - faites pivoter dans le sens des aiguilles d'une montre pour que les marques ne se concentrent jamais sur les mêmes cibles.",
-"* |cff71d5ff|Hspell:57467|h[Meteor]|h|r: Frappez un joueur au hasard avec un coup de météore - zone nettoyée.",
-"* |cff71d5ff|Hspell:28883|h[Holy Wrath]|h|r: Holy wrath rebondit sur les joueurs regroupés - étalez-vous dans la salle.",
+pack["16063"] = { "Sir Zeliek",
+"* Sa Marque de Zeliek (|cff71d5ff|Hspell:28835|h[Marque de Zeliek]|h|r) tombe toutes les ~15 s à 45 m de son coin et frappe plus fort à chaque recharge : 650, 1950, 4550, 9750, 16250 - celui qui l'endure tourne avant que les charges pèsent trop.",
+"* Sa Colère divine (|cff71d5ff|Hspell:28883|h[Colère divine]|h|r) rebondit entre les joueurs groupés et GROSSIT à chaque saut : la mêlée entre juste après un cast, le distant reste à la portée MAXIMUM et personne ne tend le pont entre mêlée et distance, sinon la chaîne balaie la bande.",
+"* Fixé au fond à droite et ne bouge pas : sans personne à portée il arrose la bande de Condamnation, donc un soigneur et un distant l'endurent dès le départ, assez écartés pour n'attraper que la marque de SON cavalier.",
+"* Il est le dernier cavalier à tomber, juste après Dame Blaumeux.",
 };
-pack["16063"] = bos; pack["16064"] = bos; pack["16065"] = bos; pack["30549"] = bos;
+pack["16064"] = { "Thane Korth'azz",
+"* Sa Marque de Korth'azz (|cff71d5ff|Hspell:28832|h[Marque de Korth'azz]|h|r) tombe toutes les ~15 s à 45 m de son coin et frappe plus fort à chaque recharge : 650, 1950, 4550, 9750, 16250 - le groupe frontal la mange entière : abattez-le vite.",
+"* Son Météore (|cff71d5ff|Hspell:57467|h[Météore]|h|r) répartit son coup brutal entre tous ceux qui collent à la cible : TOUT le groupe frontal s'entasse sur lui et la roche entaille à peine au lieu d'abattre un joueur isolé.",
+"* Il court au coin frontal gauche, ignore la menace jusqu'à y arriver puis se bat comme n'importe quel boss de mêlée - PREMIER cavalier à tomber, cooldowns de burst tant que les quatre vivent.",
+};
+pack["16065"] = { "Lady Blaumeux",
+"* Sa Marque de Blaumeux (|cff71d5ff|Hspell:28833|h[Marque de Blaumeux]|h|r) tombe toutes les ~15 s à 45 m de son coin et frappe plus fort à chaque recharge : 650, 1950, 4550, 9750, 16250 - les relais du fond tournent dès que les charges montent.",
+"* Ses Zones du Vide (|cff71d5ff|Hspell:28863|h[Zone du Vide]|h|r) s'ouvrent sous les pieds autour d'elle : sortir du cercle DE SUITE, et ses relais surveillent le sol toute la bagarre.",
+"* Épinglée au fond à gauche et ne bouge pas : un soigneur et un distant l'endurent à distance, bien écartés pour n'attraper que la marque de leur cavalier, sinon elle vide la bande avec Condamnation.",
+"* Elle est la troisième à tomber, après les deux cavaliers du front.",
+};
+pack["30549"] = { "Baron Vaillefendre",
+"* Sa Marque de Vaillefendre (|cff71d5ff|Hspell:28834|h[Marque de Vaillefendre]|h|r) tombe toutes les ~15 s à 45 m de son coin et frappe plus fort à chaque recharge : 650, 1950, 4550, 9750, 16250 - le groupe frontal la mange entière : suivez l'ordre des morts.",
+"* Son Ombre impie (|cff71d5ff|Hspell:57369|h[Ombre impie]|h|r) fait saigner SON tank toutes les ~15 s : soins supplémentaires sur ce tank toute la bagarre.",
+"* Il court au coin frontal droit comme Thane - DEUXIÈME cavalier à tomber, juste après Thane.",
+};
 
 pack["16028"] = { "Le Recousu",
 "* |cff71d5ff|Hspell:28131|h[Frenzy]|h|r: À 10% de vie, il entre en état de fureur - tank, défenses et soins d'urgence.",

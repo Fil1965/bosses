@@ -8,6 +8,10 @@
 ## Dependencies: Bosses
 Bosses_Shadowlands_es.lua
 Bosses_Shadowlands_en.lua
+Bosses_Shadowlands_zh.lua
+Bosses_Shadowlands_de.lua
+Bosses_Shadowlands_fr.lua
+Bosses_Shadowlands_pt.lua
 Bosses_Shadowlands_enc.lua
 Bosses_Shadowlands_zonas.lua
 Bosses_Shadowlands.lua

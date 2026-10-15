@@ -69,12 +69,28 @@ pack["16060"] = { "Gothik der Ernter",
 "* |cff71d5ff|Hspell:28026|h[Teleport: Dead Side]|h|r: Er springt zwischen den Räumen, während die Schatten sich ansammeln - das Tor öffnet sich nach vier Minuten, dann merge und verbrenn ihn.",
 };
 
-bos = { "Die vier Reiter",
-"* |cff71d5ff|Hspell:28835|h[Mark of Khan]|h|r: Jeder Reiter platziert ein Mark von seinem Quartier - drehen Sie im Uhrzeigersinn, sodass sich die Marker niemals auf denselben Ziel befinden.",
-"* |cff71d5ff|Hspell:57467|h[Meteor]|h|r: Meteor-Angriff auf einen zufälligen Spieler – Bereich beseitigen.",
-"* |cff71d5ff|Hspell:28883|h[Heiliger Zorn]|h|r: Heiliger Zorn springt zwischen gruppierten Spielern -> verteile dich im Raum.",
+pack["16063"] = { "Sir Zeliek",
+"* Sein Mal von Zeliek (|cff71d5ff|Hspell:28835|h[Mal von Zeliek]|h|r) fällt alle ~15 s in 45 m um seine Ecke und trifft mit jeder Aufladung härter : 650, 1950, 4550, 9750, 16250 - wer ihn aushält rotiert, bevor die Stapel zu hoch werden.",
+"* Sein Heiliger Zorn (|cff71d5ff|Hspell:28883|h[Heiliger Zorn]|h|r) springt zwischen gruppierten Spielern und WÄCHST mit jedem Sprung : der Nahkampf rückt direkt nach einem Cast ein, Fernkämpfer bleiben auf MAXimaler Reichweite und niemand spannt die Brücke zwischen Nah und Fern, sonst fegt die Kette die Gruppe weg.",
+"* Verankert hinten rechts und bewegt sich nicht : ohne jemanden in Reichweite prügelt er die Gruppe mit Verdammnis, also halten ihn ein Heiler und ein Fernkämpfer von Anfang an, getrennt genug, um nur die Marke des EIGENEN Reiters zu fischen.",
+"* Er ist der letzte Reiter, der fällt, direkt nach Lady Blaumeux.",
 };
-pack["16063"] = bos; pack["16064"] = bos; pack["16065"] = bos; pack["30549"] = bos;
+pack["16064"] = { "Thane Korth'azz",
+"* Sein Mal von Korth'azz (|cff71d5ff|Hspell:28832|h[Mal von Korth'azz]|h|r) fällt alle ~15 s in 45 m um seine Ecke und trifft mit jeder Aufladung härter : 650, 1950, 4550, 9750, 16250 - die Frontgruppe frisst sie komplett: er muss schnell fallen.",
+"* Sein Meteor (|cff71d5ff|Hspell:57467|h[Meteor]|h|r) verteilt seinen brutalen Schlag unter allen, die an der Zielperson kleben : die GESAMTE Frontgruppe stapelt sich auf ihm, damit der Meteor kaum kratzt statt einen Einzelnen niederzuschlagen.",
+"* Er rennt zur vorderen linken Ecke, ignoriert Bedrohung bis dahin und kämpft dann wie jeder Nahkampfboss - ERSTES Ziel, Burst-Cooldowns solange alle vier Reiter leben.",
+};
+pack["16065"] = { "Lady Blaumeux",
+"* Ihr Mal von Blaumeux (|cff71d5ff|Hspell:28833|h[Mal von Blaumeux]|h|r) fällt alle ~15 s in 45 m um ihre Ecke und trifft mit jeder Aufladung härter : 650, 1950, 4550, 9750, 16250 - die Aushalter im Rücken wechseln, sobald die Stapel steigen.",
+"* Ihre Leerenzonen (|cff71d5ff|Hspell:28863|h[Leerenzone]|h|r) öffnen sich um sie unter den Füßen : sofort aus dem Kreis, und ihre Aushalter beobachten den Boden den ganzen Kampf.",
+"* Angepinnt hinten links und bewegt sich nicht : ein Heiler und ein Fernkämpfer halten sie auf Abstand, gut getrennt, um nur die Marke des EIGENEN Reiters zu fischen, sonst leert sie die Gruppe mit Verdammnis.",
+"* Sie ist die Dritte, die fällt, nach den beiden Frontreitern.",
+};
+pack["30549"] = { "Baron Totenschwur",
+"* Sein Mal von Totenschwur (|cff71d5ff|Hspell:28834|h[Mal von Totenschwur]|h|r) fällt alle ~15 s in 45 m um seine Ecke und trifft mit jeder Aufladung härter : 650, 1950, 4550, 9750, 16250 - die Frontgruppe frisst sie komplett: der Todesreihenfolge folgen.",
+"* Sein Unheiliger Schatten (|cff71d5ff|Hspell:57369|h[Unheiliger Schatten]|h|r) lässt SEINEN Tank alle ~15 s bluten : zusätzliche Heilung auf diesen Tank für den ganzen Kampf.",
+"* Er rennt zur vorderen rechten Ecke wie Thane - ZWEITES Ziel, direkt nach Thane.",
+};
 
 pack["16028"] = { "Flickwerk",
 "* |cff71d5ff|Hspell:28131|h[Frenzy]|h|r: Bei 10% Gesundheit greift er in Wutverfassung -> Tank, verteidige dich und gib Notbehandlungen.",

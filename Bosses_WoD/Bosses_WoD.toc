@@ -8,6 +8,10 @@
 ## Dependencies: Bosses
 Bosses_WoD_es.lua
 Bosses_WoD_en.lua
+Bosses_WoD_zh.lua
+Bosses_WoD_pt.lua
+Bosses_WoD_de.lua
+Bosses_WoD_fr.lua
 Bosses_WoD_enc.lua
 Bosses_WoD_zonas.lua
 Bosses_WoD.lua

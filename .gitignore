@@ -4,5 +4,6 @@ _backups/
 _doc/
 node_modules/
 web-editor/_cache/
+_cache/
 .npm-cache/
 _nombres/

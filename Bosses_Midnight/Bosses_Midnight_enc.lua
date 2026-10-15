@@ -104,12 +104,30 @@ enc["3179"] = "240432"; -- Fallen-King Salhadaar
 enc["3180"] = "240431,240437,240438,250589,250588,250587"; -- Lightblinded Vanguard (DBM apunta 25058x)
 enc["3181"] = "244761,240430,243805,243810,243811"; -- Crown of the Cosmos
 
--- Delves de Midnight (DBM-Delves-Midnight): encounter IDs conocidas, sin
--- entradas todavía (huecos de contenido; el modo depuración los anotará):
--- Gladius Slaurna 3307; Spiritflayer Jin'ma 3433/3434; Infiltrator Gulkat 3361;
--- Azta'rec 3508/3525; Mul'tha'ul 3359; Lumenia 3416; Nullaeus 3372/3430;
--- Blademaster Darza 3360; Mycomight 3362; Spinshroom 3363; Brightthorn 3364;
--- Esuritus 3398/3417; Voidscorned Vagrant 3404; Infiltrator Garand 3405;
--- Hydrangea 3367; Antenorian 3368; Chief-Arcanist Patram 3365.
+-- Delves de Midnight (DBM-Delves-Midnight r266): inventario completo de las
+-- 39 ENC. Bloqueo para las entradas del pack: los ficheros del módulo NO
+-- activan ninguna CID (SetCreatureID va comentado/TODO - los delves se
+-- detectan por ENC + zona), asi que enc[encId] = "CID" queda sin llenar
+-- hasta que las fichas de Wowhead o la captura in-game (modo depuracion +
+-- /bosses sobre el jefe) traigan los NPC ids:
+--   Gladius Slaurna 3307; BladeMaster Darza 3360; Infiltrator Gulkat 3361;
+--   Mycomight 3362; Spinshroom 3363; Brightthorn 3364; Chief Arcanist
+--   Patram 3365; Hydrangea 3367; Antenorian 3368; Infiltrator Garand 3405;
+--   Voidscorned Vagrant 3404; Lumenia 3416; Esuritus Parhelion 3398;
+--   Esuritus Sunkiller 3417; Spiritflayer Jin'ma 3433/3434/3435;
+--   Appalling Potadpolastrophy 3477; Gralka Snakeeater 3512; Gnok
+--   3514/3515; Jun'ala 3526; Sullied Revenant 3527; Sha'Kuro 3528;
+--   Drakta 3535; Tarem'be 3536; Disciple of Vashnik 3522/3537/3559/3563;
+--   Kindojan 3548; Ritual Pillar 3551; Den'Zara 3556; Osseous
+--   Amalgamation 3560; Drill Sergeant 3622; The Undead Trollbunal 3632;
+--   Grukk 3636; Treasure Hunter Taltrois 3642; Shadowhunter Jo'din 3646;
+--   King of Souls 3648; Cynthra Buttonsmasher 3653; Replicating
+--   Venomborne 3461/3529/3557/3595.
+-- Nemesi (ficheros Nemesis/ del mismo modulo): Aztarec 3508/3525 (CID
+--   comentada: mythic 252892 / normal 244752) y Nullaeus (fichero
+--   TormentsRise.lua) 3372/3430 (cond IsMythic 252892/244752).
+-- Zonas: 2933, 2952, 2953, 2961, 2962, 2963, 2964, 2965, 2979, 3003, 3038,
+--   3077 (+ nemesi 3079 Azta'rec y 2966 Nullaeus; LittleWigs anota tambien
+--   la 3043). Nombres es de las zonas: por confirmar (Wowhead/cliente).
 
 P.enc = enc;

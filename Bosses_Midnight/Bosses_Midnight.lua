@@ -25,4 +25,4 @@ end
 -- sigue funcionando y el core resuelve por las vías clásicas. El de zonas
 -- (instanceID → jefes, Bosses_Midnight_zonas.lua) alimenta el desplegable
 -- del minimapa.
-BossesAPI.register("Midnight", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, DE = P.de  });
+BossesAPI.register("Midnight", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, DE = P.de, PT = P.pt, ZH = P.zh });

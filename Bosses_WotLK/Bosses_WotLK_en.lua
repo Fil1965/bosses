@@ -60,12 +60,28 @@ pack["16060"] = { "Gothik the Harvester",
 	"* |cff71d5ff|Hspell:28025|h[Teleport: Living Side]|h|r: The raid splits: the living side fights his escorts while the dead side handles the shades - hold the waves thin.",
 	"* |cff71d5ff|Hspell:28026|h[Teleport: Dead Side]|h|r: He hops rooms while the shades pile up - the gate opens at four minutes, merge then and burn him.",
 };
-bos = { "Four Horsemen",
-	"* |cff71d5ff|Hspell:28835|h[Mark of Khan]|h|r: Each rider stacks a mark from his quarter - rotate clockwise so marks never stack on the same targets.",
-	"* |cff71d5ff|Hspell:57467|h[Meteor]|h|r: Meteor strike on a random player - spread clear.",
-	"* |cff71d5ff|Hspell:28883|h[Holy Wrath]|h|r: Holy wrath bounces through grouped players - spread the room.",
+pack["16063"] = { "Sir Zeliek",
+	"* His Mark of Zeliek (|cff71d5ff|Hspell:28835|h[Mark of Zeliek]|h|r) lands every ~15 s up to 45 yd from his corner and hits harder on every refresh: 650, 1950, 4550, 9750, 16250 - whoever tanks it rotates out before the stacks grow too high.",
+	"* His Holy Wrath (|cff71d5ff|Hspell:28883|h[Holy Wrath]|h|r) bounces between bunched players and grows with every jump: melee steps in right after a cast, stay at MAXIMUM range and never bridge the gap between melee and ranged, or the chain sweeps the raid.",
+	"* He parks in the back-right corner and never moves: with nobody at his range Condemnation rains down on the whole raid, so a healer and a ranged soak it from the start, well apart so each one only takes HIS rider's mark.",
+	"* He is the last rider down, right after Lady Blaumeux.",
 };
-pack["16063"] = bos; pack["16064"] = bos; pack["16065"] = bos; pack["30549"] = bos;
+pack["16064"] = { "Thane Korth'azz",
+	"* His Mark of Korth'azz (|cff71d5ff|Hspell:28832|h[Mark of Korth'azz]|h|r) lands every ~15 s up to 45 yd from his corner and hits harder on every refresh: 650, 1950, 4550, 9750, 16250 - the front eats it whole: burn him down fast.",
+	"* His Meteor (|cff71d5ff|Hspell:57467|h[Meteor]|h|r) splits its brutal blast between everyone stacked on the marked player: stack the FULL melee on them and the hit barely registers, instead of wiping one player alone.",
+	"* He charges the front-left corner, ignores threat until he arrives and fights like any melee boss - FIRST rider down, burst cooldowns while all four live.",
+};
+pack["16065"] = { "Lady Blaumeux",
+	"* Her Mark of Blaumeux (|cff71d5ff|Hspell:28833|h[Mark of Blaumeux]|h|r) lands every ~15 s up to 45 yd from her corner and hits harder on every refresh: 650, 1950, 4550, 9750, 16250 - the back soaker rotates as soon as the stacks grow.",
+	"* Void Zones (|cff71d5ff|Hspell:28863|h[Void Zone]|h|r) open underfoot around her: step out of the circle NOW, and her soaker watches the floor the whole fight.",
+	"* She parks in the back-left corner and never moves: a healer and a ranged hold her at distance, well apart so each one only takes her rider's mark, or she empties the raid with Condemnation.",
+	"* Third to fall, after the two front riders.",
+};
+pack["30549"] = { "Baron Rivendare",
+	"* His Mark of Rivendare (|cff71d5ff|Hspell:28834|h[Mark of Rivendare]|h|r) lands every ~15 s up to 45 yd from his corner and hits harder on every refresh: 650, 1950, 4550, 9750, 16250 - the front eats it whole: follow the kill order.",
+	"* His Unholy Shadow (|cff71d5ff|Hspell:57369|h[Unholy Shadow]|h|r) bleeds HIS tank every ~15 s: extra healing on that tank for the whole fight.",
+	"* He charges the front-right corner just like Thane - SECOND rider down, right behind Thane.",
+};
 
 pack["16028"] = { "Patchwerk",
 	"* |cff71d5ff|Hspell:28131|h[Frenzy]|h|r: At 10% he frenzies - tank defensives and emergency heals.",

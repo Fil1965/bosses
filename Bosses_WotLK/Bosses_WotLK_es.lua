@@ -69,12 +69,28 @@ pack["16060"] = { "Gothik el Cosechador",
 "* |cff71d5ff|Hspell:28026|h[Teleport: Side Dead]|h|r: Salta entre habitaciones mientras los espectros se acumulan - la puerta se abre a los 4 minutos, únelos y luego elimínalo.",
 };
 
-bos = { "Los Cuatro Jinetes",
-"* |cff71d5ff|Hspell:28835|h[Marca de Khan]|h|r: Cada jinete aplica una marca de su cuartel - rota en sentido horario para que las marcas nunca se apliquen a los mismos objetivos.",
-"* |cff71d5ff|Hspell:57467|h[Meteor]|h|r: Impacto de meteor en un jugador aleatorio - elimina a todos.",
-"* |cff71d5ff|Hspell:28883|h[Holy Wrath]|h|r: Holy Wrath rebota entre jugadores agrupados - dispersen al grupo.",
+pack["16063"] = { "Sir Zeliek",
+"* Su Marca de Zeliek (|cff71d5ff|Hspell:28835|h[Marca de Zeliek]|h|r) cae cada ~15 s a 45 m de su esquina y pega más fuerte en cada recarga: 650, 1950, 4550, 9750, 16250 - quien la aguanta rota de turno antes de apilarse mucho.",
+"* Su Ira divina (|cff71d5ff|Hspell:28883|h[Ira divina]|h|r) rebota entre juntados y crece en cada salto: el melé entra justo tras un casteo, la distancia queda al rango MÁXIMO y nadie tiende el puente entre melé y distantes, o la cadena barre la banda.",
+"* Fijo al fondo derecha y no se mueve: sin nadie a su rango llueve Condenación a toda la banda, así que un sanador y un distante lo aguantan desde el arranque, bien separados para que cada uno cargue solo con la marca de SU jinete.",
+"* Es el último jinete en caer, justo después de Lady Blaumeux.",
 };
-pack["16063"] = bos; pack["16064"] = bos; pack["16065"] = bos; pack["30549"] = bos;
+pack["16064"] = { "Thane Korth'azz",
+"* Su Marca de Korth'azz (|cff71d5ff|Hspell:28832|h[Marca de Korth'azz]|h|r) cae cada ~15 s a 45 m de su esquina y pega más fuerte en cada recarga: 650, 1950, 4550, 9750, 16250 - el frontal la come entera: matarlo rápido.",
+"* Su Meteoro (|cff71d5ff|Hspell:57467|h[Meteoro]|h|r) reparte su golpe brutal entre todos los pegados al marcado: el FRONTAL COMPLETO apilado sobre él y la roca ni se siente, en vez de liquidar a un jugador solo.",
+"* Corre a la esquina frontal izquierda, ignora la amenaza hasta llegar y de ahí pelea como cualquier jefe melé - PRIMER jinete en caer, cooldowns de racha mientras viven los cuatro.",
+};
+pack["16065"] = { "Lady Blaumeux",
+"* Su Marca de Blaumeux (|cff71d5ff|Hspell:28833|h[Marca de Blaumeux]|h|r) cae cada ~15 s a 45 m de su esquina y pega más fuerte en cada recarga: 650, 1950, 4550, 9750, 16250 - quien la aguanta al fondo rota en cuanto la pila crece.",
+"* Las Zonas del Vacío (|cff71d5ff|Hspell:28863|h[Zona del Vacío]|h|r) abren bajo los pies a su alrededor: salir del círculo YA, y quien la aguanta vigila el suelo toda la pelea.",
+"* Fija al fondo izquierda y no se mueve: un sanador y un distante la aguantan a distancia, bien separados para no pescar la marca del jinete vecino, o vacía la banda con Condenación.",
+"* La tercera en caer, después de los dos frontales.",
+};
+pack["30549"] = { "Barón Osahendido",
+"* Su Marca de Osahendido (|cff71d5ff|Hspell:28834|h[Marca de Osahendido]|h|r) cae cada ~15 s a 45 m de su esquina y pega más fuerte en cada recarga: 650, 1950, 4550, 9750, 16250 - el frontal la come entera: seguir el orden de caída.",
+"* Su Sombra impía (|cff71d5ff|Hspell:57369|h[Sombra impía]|h|r) sangra a SU tanque cada ~15 s: sanación extra a ese tanque durante toda la pelea.",
+"* Corre a la esquina frontal derecha igual que Thane - SEGUNDO jinete en caer, justo detrás de Thane.",
+};
 
 pack["16028"] = { "Remendejo",
 "* |cff71d5ff|Hspell:28131|h[Frenzy]|h|r: Cuando llega al 10%, entra en frenesí - defensas y curas de emergencia.",

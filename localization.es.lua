@@ -24,6 +24,7 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["MenuObjetivo"] = "Explicar objetivo";
     L["MenuConfig"] = "Configuración";
     L["BotonAlChat"] = "Al chat";
+    L["BotonEditar"] = "editar";
     L["Data packs"] = "Packs de datos";
     L["FirmaCortesia"] = "Firma de cortesía en canales compartidos";
     L["Cortesia"] = "Explicación cortesía del addon Bosses";
@@ -33,6 +34,30 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["Debug"] = "Registro de depuración (fichero en WTF, se escribe al salir)";
     L["VaciarLog"] = "Vaciar registro de depuración";
 
+    -- Editor in-game de explicaciones (2026)
+    L["Editor"] = "EDITOR";
+    L["MenuEditor"] = "Editor de explicaciones";
+    L["EditorNombre"] = "Nombre:";
+    L["EditorSpell"] = "id de spell:";
+    L["EditorAnadir"] = "+ enlace";
+    L["EditorLinea"] = "+ línea";
+    L["EditorCopiar"] = "copiar del pack";
+    L["EditorProbar"] = "probar en el frame";
+    L["EditorQuitar"] = "quitar nota";
+    L["EditorFilaSubir"] = "subir línea";
+    L["EditorFilaBajar"] = "bajar línea";
+    L["EditorFilaQuitar"] = "quitar línea";
+    L["EditorDeNota"] = "nota personal";
+    L["EditorDePack"] = "copia del pack";
+    L["EditorSinBase"] = "jefe sin base";
+    L["EditorSinTarget"] = "Marca el jefe (o usa /bosses EDITAR <id>) para abrir el editor";
+
+    -- Idiomas nuevos del editor web (RU/PT/ZH/KO)
+    L["Russian"] = "Ruso";
+    L["Portuguese"] = "Portugués (Brasil)";
+    L["ChineseSimple"] = "Chino (simplificado)";
+    L["Korean"] = "Coreano";
+
     L["HELP1"] = "/bosses : Explica el npc en target.";
     L["HELP2"] = "/bosses id : Explica el npc del id.";
     L["HELP3"] = "/bosses + Texto : Añade la explicación Texto al npc en target.";
@@ -40,9 +65,10 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["HELP5"] = "/bosses CANAL AUTO : Saca la información por el canal por omisión.";
     L["HELP6"] = "/bosses CANAL LOCAL : Saca la información localmente.";
     L["HELP7"] = "/bosses CANAL GUILD : Saca la información por el canal de la guild.";
-    L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de : Idioma de las explicaciones.";
+    L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Idioma de las explicaciones.";
     L["HELP9"] = "/bosses DEBUG on|off|vaciar : registro de depuración (fichero en WTF); /bosses LOG [n] : muestra las últimas líneas.";
     L["HELP10"] = "/bosses CANAL FRAME : Todo en el frame de alerta (solo tú).";
+    L["HELP11"] = "/bosses EDITAR [id] : Abre el editor de explicaciones (la UI para tus propias notas).";
 
     L[": This NPC is not described."] = ": Este NPC no está descrito.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Click izdo.|r - Explica el NPC seleccionado.";

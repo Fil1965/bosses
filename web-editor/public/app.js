@@ -24,7 +24,7 @@ const state = {
 };
 
 // locale del diario por pestaña: la columna DIARIO sigue el idioma que editas
-const LOCALES_DIARIO = { es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE" };
+const LOCALES_DIARIO = { es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE", ru: "ru_RU", pt: "pt_BR", zh: "zh_CN", ko: "ko_KR" };
 
 // ------------------------------------------------------------- utilidades --
 
@@ -125,23 +125,32 @@ async function loadPacks() {
 
 function renderLangTabs() {
 	const pack = state.packs.find((p) => p.name === state.pack);
-	const langs = Object.entries(pack?.langs ?? {}); // [lang, {file,...}|null]
-	$("langTabs").innerHTML = langs.map(([lang, info]) => {
+	// Pestañas: los idiomas con fichero + los dos base de la casa (es/en);
+	// los idiomas nuevos SIN fichero no se listan: se crean con el botón
+	// «➕ añadir idioma» (el picker los nombra y describe).
+	const langs = Object.entries(pack?.langs ?? {}).filter(([lang, info]) => info || lang === "es" || lang === "en");
+	const botones = langs.map(([lang, info]) => {
 		const activo = lang === state.lang ? "bg-wow-gold text-black font-semibold" : "bg-wow-panel2 text-slate-300 border border-wow-edge";
 		const chip = info ? `${info.entries}` : `<span title="crear fichero de idioma">＋ crear</span>`;
 		return `<button data-lang="${lang}" class="label px-3 py-1 rounded text-xs ${activo}">${lang.toUpperCase()} <span class="${
 			lang === state.lang ? "text-black/60" : "text-slate-500"
 		}">${chip}</span></button>`;
-	}).join("");
-	$("langTabs").querySelectorAll("button").forEach((b) => {
+	});
+	// botón de alta de idiomas nuevos (solo cuando la meta del servidor los trae)
+	const nuevos = state.meta?.idiomasNuevos ?? [];
+	if (nuevos.length) {
+		botones.push(`<button id="btnAnadirIdioma" class="label px-3 py-1 rounded text-xs border border-wow-edge text-slate-300 hover:text-wow-gold hover:border-wow-gold/60" title="añadir idioma a este pack: ruso, portugués, chino simplificado o coreano — fichero compatible con el addon, lote de IA y conexión al completarlo">➕ idioma</button>`);
+	}
+	$("langTabs").innerHTML = botones.join("");
+	$("langTabs").querySelectorAll("button[data-lang]").forEach((b) => {
 		b.onclick = async () => {
 			const lang = b.dataset.lang;
 			const pack = state.packs.find((p) => p.name === state.pack);
 			if (!pack.langs[lang]) {
 				// alta del idioma: es/en → fichero + .toc + registrador;
-				// fr/de → solo fichero (stub sin listar: regla de idioma
+				// el resto → solo fichero (stub sin listar: regla de idioma
 				// incompleto — la cascada del core no debe ver tablas vacías)
-				const stub = lang === "fr" || lang === "de";
+				const stub = !(lang === "es" || lang === "en");
 				const texto = stub
 					? `Crear ${pack.name}_${lang}.lua como stub del editor (SIN .toc ni registrador hasta que el idioma esté completo)?`
 					: `Crear ${pack.name}_${lang}.lua y registrar ${lang.toUpperCase()} en .toc/registrador?`;
@@ -149,9 +158,18 @@ function renderLangTabs() {
 				const r = await api(`/api/packs/${pack.name}/langs/${lang}`, { method: "POST" });
 				if (!r.ok) return toast(`Falta crear idioma: ${r.error}`, false);
 				await loadPacks();
-				toast(r.stub
-					? `Idioma ${lang.toUpperCase()} creado como stub (sin listar hasta completarlo; luego añade la línea al .toc y DE = P.de al registrador)`
-					: `Idioma ${lang.toUpperCase()} creado en ${pack.name} (fichero + .toc + registrador)`);
+				state.lang = lang;
+				state.entryId = null;
+				selectEntryOff();
+				renderLangTabs();
+				await loadEntries();
+				if (r.stub) {
+					toast(`Idioma ${lang.toUpperCase()} creado como stub (sin listar hasta completarlo; luego pulsa «✅ conectar»)`);
+
+				} else {
+					toast(`Idioma ${lang.toUpperCase()} creado en ${pack.name} (fichero + .toc + registrador)`);
+				}
+				return;
 			}
 			state.lang = lang;
 			state.entryId = null;
@@ -160,7 +178,50 @@ function renderLangTabs() {
 			loadEntries();
 		};
 	});
+	// picker de idiomas nuevos
+	const btnAnadir = $("langTabs").querySelector("#btnAnadirIdioma");
+	if (btnAnadir) btnAnadir.onclick = () => abrirPickerIdiomas();
 }
+
+// picker «➕ añadir idioma»: lista los idiomas nuevos posibles para este pack
+// (los que aún no tienen fichero), con su nombre nativo y la nota de calidad
+// de la IA (la traducción sale del proveedor definido en .env).
+function abrirPickerIdiomas() {
+	const pack = state.packs.find((p) => p.name === state.pack);
+	if (!pack) return toast("elige un pack primero", false);
+	const nuevos = state.meta?.idiomasNuevos ?? [];
+	if (!nuevos.length) return toast("este servidor no trae lista de idiomas nuevos", false);
+	const filas = nuevos.map((x) => {
+		const ya = Boolean(pack.langs[x.key]);
+		return `<div class="flex items-center gap-3 px-3 py-2 border-b border-wow-edge/40 last:border-0">
+			<div class="flex-1 min-w-0">
+				<div class="text-sm text-slate-200">${esc(x.label)} <span class="text-slate-500">${esc(x.nativo)}</span>${ya ? ` <span class="text-emerald-300 text-xs">(ya existe en este pack)</span>` : ""}</div>
+				<div class="text-[10px] text-slate-500">cliente ${esc(x.cliente)} · API ${esc(x.api)} · la calidad de la IA depende del modelo del .env</div>
+			</div>
+			<button data-lang="${x.key}" ${ya ? "disabled" : ""} class="text-xs px-2 py-1.5 rounded border ${ya ? "border-wow-edge/30 text-slate-600" : "border-wow-gold/60 text-wow-gold hover:bg-wow-gold/20"}">${ya ? "creado" : "crear en " + esc((state.pack ?? "").replace(/^Bosses_/, ""))}</button>
+		</div>`;
+	}).join("");
+	$("idiomasModal").classList.remove("hidden");
+	$("idiomasRes").innerHTML = filas;
+	$("idiomasRes").querySelectorAll("button[data-lang]").forEach((b) => {
+		b.onclick = async () => {
+			const lang = b.dataset.lang;
+			const lmeta = nuevos.find((x) => x.key === lang);
+			if (!confirm(`Crear ${pack.name}_${lang}.lua (${esc(lmeta?.label ?? lang)}) como stub del editor?\n\nEl fichero se crea vacío SIN listar en .toc/registrador (regla de idioma incompleto). Se rellena con «⬇ importar de EN», edición manual o «✨ traducir con IA», y cuando está COMPLETO se pulsa «✅ conectar» para que el addon lo cargue.`)) return;
+			const r = await api(`/api/packs/${pack.name}/langs/${lang}`, { method: "POST" });
+			if (!r.ok) return toast(`Falta crear idioma: ${r.error}`, false);
+			$("idiomasModal").classList.add("hidden");
+			await loadPacks();
+			state.lang = lang;
+			state.entryId = null;
+			selectEntryOff();
+			renderLangTabs();
+			await loadEntries();
+			toast(`Idioma ${lang.toUpperCase()} (${esc(lmeta?.label ?? "")}) creado en ${pack.name}. Rellénalo y conéctalo cuando esté completo.`, true);
+		};
+	});
+}
+$("idiomasClose").onclick = () => $("idiomasModal").classList.add("hidden");
 
 // ------------------------------------------------------------- entradas ---
 
@@ -170,6 +231,7 @@ async function loadEntries() {
 	renderLista();
 	actualizarImportar(); // visibilidad y contador del botón EN → idioma activo
 	actualizarLote(); // visibilidad y contador del botón IA (entradas sin tácticas)
+	actualizarConectar(); // visibilidad del botón ✅ (idioma completo → .toc/registrador)
 }
 
 // ------------------------------------------------- importar nombres de EN --
@@ -228,8 +290,9 @@ function actualizarLote() {
 		btn.title = `Rellena con IA ${vacias.length} entrada(s) de ${state.lang.toUpperCase()} que están sin tácticas: trae la del idioma FUENTE del panel (${(state.srcLang ?? fuentes[0]).toUpperCase()}) y guarda cada traducción`;
 		btn.classList.remove("hidden");
 	}
-	// botón de limpieza: ES (a voluntad del dueño) y fr/de; EN queda fuera
-	if ((state.lang === "es" || state.lang === "fr" || state.lang === "de") && state.entries.length) {
+	// botón de limpieza: cualquier idioma editable excepto EN (referencia de
+	// la casa); EN queda fuera
+	if (state.lang !== "en" && state.entries.length) {
 		const vistas = new Set();
 		let conTacticas = 0;
 		for (const e of state.entries) {
@@ -245,6 +308,37 @@ function actualizarLote() {
 		}
 	}
 }
+
+// ------------------------------------------------------- conectar idioma ---
+// El paso que antes era a mano (añadir la línea al .toc + la clave del
+// registrador), con botón: visible cuando el idioma del pack tiene fichero
+// pero NO está listado. El servidor valida que esté COMPLETO (misma entradas
+// que EN, tácticas donde EN las tiene) y solo entonces escribe .toc +
+// registrador, con backups previos.
+function actualizarConectar() {
+	const btn = $("btnConectar");
+	btn.classList.add("hidden");
+	if (!state.pack || state.lang === "en" || state.lang === "es") return;
+	const pack = state.packs.find((p) => p.name === state.pack);
+	if (!pack?.langs[state.lang]) return;
+	if ((pack.listados ?? {})[state.lang]) return; // ya conectado
+	btn.title = `Conecta ${state.lang.toUpperCase()} al addon: añade ${state.pack}_${state.lang}.lua al .toc y ${state.lang.toUpperCase()} = P.${state.lang} al registrador. El servidor exige el idioma COMPLETO (misma entradas que EN y tácticas donde EN las tiene) y deja backups previos.`;
+	btn.classList.remove("hidden");
+}
+
+$("btnConectar").onclick = async () => {
+	const btn = $("btnConectar");
+	btn.disabled = true;
+	try {
+		const r = await api(`/api/packs/${state.pack}/conectar/${state.lang}`, { method: "POST" });
+		if (!r.ok) return toast(`Conexión: ${r.error}`, false);
+		await loadPacks();
+		renderLangTabs();
+		toast(`${state.lang.toUpperCase()} conectado: ${r.toc} + registrador (${r.entradas} entradas; ${r.clave} = P.${state.lang}). /reload en WoW para cargarlo.`, true);
+	} finally {
+		btn.disabled = false;
+	}
+};
 
 $("btnLimpiar").onclick = async () => {
 	const btn = $("btnLimpiar");
@@ -569,7 +663,7 @@ async function buscarSpells() {
 	$("spellRes").innerHTML = (r.spells ?? []).map((s) => {
 		// icono (si ya está resuelto) y nombres por idioma, el activo primero
 		const icono = s.icon ? `<img src="${s.icon}" alt="" class="inline h-5 w-5 rounded align-middle mr-1">` : "";
-		const orden = [state.lang, "es", "en", "fr", "de"];
+		const orden = [state.lang, "es", "en", "fr", "de", "ru", "pt", "zh", "ko"];
 		const names = Object.entries(s.name)
 			.sort((a, b) => orden.indexOf(a[0]) - orden.indexOf(b[0]))
 			.map(([l, n]) => `${l.toUpperCase()}: ${esc(n)}`).join(" · ");
@@ -618,6 +712,7 @@ $("spellClose").onclick = closeSpellPicker;
 document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") {
 	closeSpellPicker();
 	$("coberturaModal").classList.add("hidden");
+	$("idiomasModal").classList.add("hidden");
 	// lote: mientras corre, Esc pide detención limpia entre jefes; parado, cierra
 	if (state.loteRun) { if (!$("loteCancelar").disabled) $("loteCancelar").onclick(); }
 	else $("traducirModal").classList.add("hidden");
@@ -732,7 +827,8 @@ function mapaNombreSpell() {
 	for (const l of [...(e?.lines ?? []), ...(state.nombresRef ?? [])]) {
 		for (const m of String(l).matchAll(/\|Hspell:(\d+)\|h\[([^\]]+)\]/g)) añade(m[2], m[1]);
 	}
-	for (const [id, n] of Object.entries(state.nombresSpell)) for (const lang of ["es", "en", "fr", "de"]) if (n?.[lang]) añade(n[lang], id);
+	const ordenSpell = [state.lang, "es", "en", "fr", "de", "ru", "pt", "zh", "ko"];
+	for (const [id, n] of Object.entries(state.nombresSpell)) for (const lang of ordenSpell) if (n?.[lang]) añade(n[lang], id);
 	return mapa;
 }
 
@@ -983,7 +1079,7 @@ $("loteCerrar").onclick = () => $("traducirModal").classList.add("hidden");
 	await loadEntries();
 	selectEntryOff();
 	$("filtro").oninput = (ev) => { state.filtro = ev.target.value; renderLista(); };
-	$("btnHelp").onclick = () => toast("Elige pack → idioma → entrada; edita y guarda. El botón ＋spell inserta enlaces con |h|r verificado. FR/DE se crean desde su pestaña. El panel FUENTE trae la explicación de otro idioma y la traduce con IA (revisa y guarda). «✨ traducir con IA» rellena solo las entradas sin tácticas del idioma activo, usando el FUENTE del panel, y las guarda.", true);
+	$("btnHelp").onclick = () => toast("Elige pack → idioma → entrada; edita y guarda. El botón ＋spell inserta enlaces con |h|r verificado. «➕ idioma» crea packs en ruso, portugués, chino simplificado o coreano; «✅ conectar» los lista en el addon cuando están completos. El panel FUENTE trae la explicación de otro idioma y la traduce con IA (revisa y guarda). «✨ traducir con IA» rellena solo las entradas sin tácticas del idioma activo, usando el FUENTE del panel, y las guarda.", true);
 	// entra de lleno en la primera entrada del pack Cata como arranque cómodo
 	const primera = state.entries[0];
 	if (primera) selectEntry(primera.id);

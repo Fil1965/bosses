@@ -27,4 +27,4 @@ end
 -- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_WoD_enc.lua);
 -- el de zonas (instanceID → jefes) también (Bosses_WoD_zonas.lua) y alimenta
 -- el desplegable del minimapa.
-BossesAPI.register("WoD", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas });
+BossesAPI.register("WoD", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, DE = P.de, PT = P.pt, ZH = P.zh  });

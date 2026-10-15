@@ -20,10 +20,13 @@ import { fileURLToPath } from "node:url";
 import { blizzEnv, createBlizzardClient } from "../scripts/_blizzard-api.mjs";
 import {
 	IDIOMAS,
+	IDIOMAS_NUEVOS,
+	LISTADO_DIRECTO,
 	docEntries,
 	entryDetail,
 	entryText,
 	gemelaTraducida,
+	idiomaMeta,
 	listPacks,
 	loadLangFile,
 	langFileSkeleton,
@@ -211,6 +214,10 @@ async function buscarNombresDeSpell(id, nombreStored) {
 		en: elegido.name.en_US ?? null,
 		fr: elegido.name.fr_FR ?? null,
 		de: elegido.name.de_DE ?? null,
+		ru: elegido.name.ru_RU ?? null,
+		pt: elegido.name.pt_BR ?? elegido.name.pt_PT ?? null,
+		zh: elegido.name.zh_CN ?? null,
+		ko: elegido.name.ko_KR ?? null,
 		icon: await iconoSpell(elegido.media?.id ?? elegido.id),
 	};
 }
@@ -609,6 +616,10 @@ fastify.get("/api/meta", async () => ({
 	sandbox: root !== ROOT,
 	spells: spells.size,
 	packs: packs.map((p) => p.name),
+	// idiomas del botón «➕ añadir idioma»: locales nativos del cliente con
+	// mucha implantación en WoW (la IA del .env los traduce; la calidad
+	// depende del modelo)
+	idiomasNuevos: IDIOMAS_NUEVOS.map(({ key, label, nativo, api, cliente }) => ({ key, label, nativo, api, cliente })),
 }));
 
 // --- packs y entradas (lectura) -------------------------------------------
@@ -620,7 +631,7 @@ fastify.get("/api/packs", async () => {
 			for (const lang of IDIOMAS) {
 				langs[lang] = p.langs[lang] ? { file: p.langs[lang], entries: docEntries(getDoc(p.name, lang) ?? { blocks: [], byId: new Map(), zones: new Map() }).length } : null;
 			}
-			return { name: p.name, langs };
+			return { name: p.name, langs, listados: p.listados ?? {} };
 		}),
 	};
 });
@@ -692,7 +703,10 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 //       locale destino, casado con el nombre fuente) — ojo: trae los nombres
 //       del juego ACTUAL, en los clásicos pueden diferir de la era,
 //   (3) la IA, que solo entra si aquí no hubo fuente oficial.
-const LOCALES_IDIOMA = { es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE" };
+const LOCALES_DIARIO = {
+	es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE",
+	ru: "ru_RU", pt: "pt_BR", zh: "zh_CN", ko: "ko_KR",
+};
 
 // corpus de nombres en disco, carga perezosa y cacheada (null = sin corpus)
 const corpusNombres = new Map(); // pack → { npcId: { es,en,fr,de } } | null
@@ -744,7 +758,7 @@ async function nombreOficialDeEntrada(packName, id, from, to, nombreFuente) {
 	// (2) diario de Blizzard (nombres del juego ACTUAL)
 	if (blizz) {
 		try {
-			const media = await mediaDeEntrada(packName, id, LOCALES_IDIOMA[to] ?? "en_US");
+			const media = await mediaDeEntrada(packName, id, LOCALES_DIARIO[to] ?? "en_US");
 			const encName = String(media.encounter?.name ?? "").trim();
 			if (src && encName && casaNombre(src, encName)) return encName;
 			const criaturas = (media.creatures ?? []).filter((c) => nombreEsValido(c?.name));
@@ -753,7 +767,7 @@ async function nombreOficialDeEntrada(packName, id, from, to, nombreFuente) {
 				// multi-criatura: localiza la del nombre fuente en su locale y
 				// usa la MISMA posición en el locale destino
 				try {
-					const mediaSrc = await mediaDeEntrada(packName, id, LOCALES_IDIOMA[from] ?? "es_ES");
+					const mediaSrc = await mediaDeEntrada(packName, id, LOCALES_DIARIO[from] ?? "es_ES");
 					const cSrc = (mediaSrc.creatures ?? []).filter((c) => nombreEsValido(c?.name));
 					const idx = cSrc.findIndex((c) => casaNombre(src, c.name));
 					if (idx >= 0 && criaturas[idx]) return criaturas[idx].name;
@@ -772,7 +786,7 @@ async function nombreOficialDeEntrada(packName, id, from, to, nombreFuente) {
 fastify.post("/api/traducir", async (req, reply) => {
 	const { pack: packName, id, from, to } = req.body ?? {};
 	if (!IDIOMAS.includes(from) || !IDIOMAS.includes(to)) {
-		return reply.code(400).send({ ok: false, error: "idiomas válidos: es|en|fr|de" });
+		return reply.code(400).send({ ok: false, error: `idiomas válidos: ${IDIOMAS.join("|")}` });
 	}
 	if (from === to) return reply.code(400).send({ ok: false, error: "el idioma fuente y el de destino coinciden" });
 	const srcDoc = getDoc(packName, from);
@@ -883,7 +897,7 @@ async function nombreDiarioDeEntradaEN(packName, npcId, to) {
 	const en = encsEN.find((e) => casaNombre(det.name, e.name)
 		|| (nombreClave(det.name) !== "" && nombreClave(det.name) === nombreClave(e.name)));
 	if (!en) return null;
-	const { encounters: encsTo } = await encuentrosDe(instancia.id, LOCALES_IDIOMA[to] ?? "en_US");
+	const { encounters: encsTo } = await encuentrosDe(instancia.id, LOCALES_DIARIO[to] ?? "en_US");
 	return encsTo.find((e) => e.id === en.id)?.name ?? null;
 }
 
@@ -1009,8 +1023,11 @@ fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 			writeFileSync(full, langFileSkeleton(packName, lang), "utf8");
 		}
 
-		// .toc y registrador SOLO para es/en; fr/de quedan como stub
-		const listable = lang === "es" || lang === "en";
+		// .toc y registrador SOLO para es/en (listado directo de la casa);
+		// el resto de idiomas (fr/de/ru/pt/zh/ko) quedan como stub SIN listar:
+		// la regla de idioma incompleto (la cascada del core no debe ver
+		// tablas a medias) — se conectan con POST /conectar cuando completan.
+		const listable = LISTADO_DIRECTO.has(lang);
 		if (listable) {
 			mkdirSync(backupsDir(packName), { recursive: true });
 			const stamp = new Date().toISOString().replace(/[:.]/g, "-");
@@ -1043,6 +1060,73 @@ fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 	} catch (err) {
 		// errores concretos (backups, permisos, .toc raro) al UI como 400 con
 		// mensaje, nunca un 500 desnudo
+		return reply.code(400).send({ ok: false, error: err.message });
+	}
+});
+
+// --- CONEXIÓN de un idioma completo ----------------------------------------
+// El paso a mano de toda la campaña (añadir la línea al .toc + la clave
+// <LANG> = P.<lang> al registrador), ahora con botón. La puerta de
+// integridad exige que el idioma esté COMPLETO: mismas entradas que EN y
+// ninguna vacia donde EN lleva tácticas (regla de la casa: un idioma solo
+// se lista cuando su traducción está completa; a medio rellenar, la cascada
+// del core debe seguir cayendo en EN).
+fastify.post("/api/packs/:pack/conectar/:lang", async (req, reply) => {
+	const { pack: packName, lang } = req.params;
+	if (!IDIOMAS.includes(lang)) return reply.code(400).send({ ok: false, error: `idioma ${lang} no soportado` });
+	if (LISTADO_DIRECTO.has(lang)) return reply.code(400).send({ ok: false, error: `${lang.toUpperCase()} se lista solo desde el generador del pack (es/en son la base)` });
+	const p = packs.find((x) => x.name === packName);
+	if (!p) return reply.code(404).send({ ok: false, error: "pack no encontrado" });
+	if (!p.langs[lang]) return reply.code(400).send({ ok: false, error: `el pack no tiene fichero ${lang} (crea el idioma primero desde su pestaña o «➕ añadir idioma»)` });
+	if (!p.langs.en) return reply.code(400).send({ ok: false, error: "el pack no tiene EN: referencia imposible" });
+
+	// la puerta de integridad (conteos frescos del disco, nunca de la caché)
+	const docEN = loadLangFile(p.folder, p.langs.en);
+	const docL = loadLangFile(p.folder, p.langs[lang]);
+	const setEN = new Set(docEntries(docEN).map((e) => String(e.id)));
+	const entradasL = docEntries(docL);
+	const setL = new Set(entradasL.map((e) => String(e.id)));
+	const faltan = [...setEN].filter((x) => !setL.has(x));
+	const incompletas = entradasL
+		.filter((e) => setEN.has(String(e.id)) && e.vacia && entryDetail(docEN, e.id)?.lines?.length > 0)
+		.map((e) => e.id);
+	if (faltan.length || incompletas.length) {
+		const partes = [];
+		if (faltan.length) partes.push(`faltan ${faltan.length} entrada(s) que EN sí tiene`);
+		if (incompletas.length) partes.push(`${incompletas.length} entrada(s) sin tácticas que EN sí tiene (p. ej. ${incompletas.slice(0, 4).join(", ")})`);
+		return reply.code(400).send({
+			ok: false,
+			error: `${lang.toUpperCase()} NO está completo: ${partes.join("; ")}. Completa el lote de IA y revisa antes de conectar.`,
+		});
+	}
+
+	try {
+		mkdirSync(backupsDir(packName), { recursive: true });
+		const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+		const meta = idiomaMeta(lang);
+		// .toc: la línea del fichero tras _en (tocAddLang es idempotente)
+		const tocFull = join(p.folder, p.tocFile);
+		copyFileSync(tocFull, join(backupsDir(packName), `${p.tocFile}.${stamp}.conectar.bak`));
+		writeFileSync(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang), "utf8");
+		// registrador: <LANG> = P.<lang> (solo el idioma concreto)
+		if (p.registrador) {
+			const regFull = join(p.folder, p.registrador);
+			copyFileSync(regFull, join(backupsDir(packName), `${p.registrador}.${stamp}.conectar.bak`));
+			writeFileSync(regFull, registradorAddLangs(readFileSync(regFull, "utf8"), [lang]), "utf8");
+		}
+		// re-carga del inventario (el .toc ya lista el idioma)
+		const fresh = listPacks(root).find((x) => x.name === packName);
+		const idx = packs.findIndex((x) => x.name === packName);
+		packs[idx] = fresh;
+		return {
+			ok: true,
+			id: lang,
+			clave: meta?.clave ?? lang.toUpperCase(),
+			toc: p.tocFile,
+			registrador: p.registrador ?? null,
+			entradas: entradasL.length,
+		};
+	} catch (err) {
 		return reply.code(400).send({ ok: false, error: err.message });
 	}
 });

@@ -69,10 +69,10 @@ function configsIA() {
 	return claves.map((clave) => ({ baseURL: BASE_URL, apiKey: clave, modelo: MODELO_IA }));
 }
 
-const NOMBRES_IDIOMA = { es: "español", en: "inglés", fr: "francés", de: "alemán" };
+const NOMBRES_IDIOMA = { es: "español", en: "inglés", fr: "francés", de: "alemán", ru: "ruso", pt: "portugués", zh: "chino simplificado", ko: "coreano" };
 
 const SYSTEM = [
-	"Eres un traductor especializado en World of Warcraft: traduces consejos tácticos de jefes de mazmorra y banda entre español, inglés, francés y alemán.",
+	"Eres un traductor especializado en World of Warcraft: traduces consejos tácticos de jefes de mazmorra y banda entre los idiomas de los packs (español, inglés, francés, alemán, ruso, portugués, chino simplificado y coreano).",
 	"Reglas estrictas:",
 	"1. Devuelve SOLO la traducción del texto pedido: sin prefacios, sin comillas de envoltorio, sin explicaciones.",
 	"2. El texto puede llevar marcadores {W1}, {W2}, …: son códigos de color y de enlace del juego que NO se traducen ni se reordenan. Cópialos VERBATIM, mismo número y mismo orden relativo. El nombre visible entre corchetes [Nombre] SÍ se traduce con la terminología oficial del juego; si el texto no lleva marcadores, no añadas ninguno.",
