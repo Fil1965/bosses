@@ -50,6 +50,7 @@ Jedes der zwölf oben genannten Pakete liefert mit **allen sechs Sprachen vollst
 /bosses CANAL frame   nur Ihr Alarmfenster (private Briefings)
 /bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko   Sprache der Erklärung (auto = folgt Ihrem Spiel)
 /bosses DEBUG on|off  Erkennungsprotokoll in WTF; /bosses log zeigt es
+/bosses EDITAR [id]   öffnet den Erklärungs-Editor (die Oberfläche für Ihre eigenen Notizen)
 /bosses ?             volle Hilfe
 ```
 

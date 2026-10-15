@@ -51,6 +51,7 @@ Cada um dos doze packs acima embarca com **os seis idiomas completos**; um local
 /bosses CANAL frame   apenas o seu frame de alerta (avisos privados)
 /bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko   idioma das explicações (auto = segue o seu jogo)
 /bosses DEBUG on|off|limpar   registro de detecção em WTF; /bosses LOG [n] exibe as últimas linhas
+/bosses EDITAR [id]   abre o editor de explicações (a UI para suas próprias notas)
 /bosses ?             ajuda completa
 ```
 

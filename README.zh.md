@@ -51,6 +51,7 @@ Bosses 用几行精炼的文字、在正确的时机、通过正确的频道说�
 /bosses CANAL frame   仅输出到你的警报框（私密简报）
 /bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko   说明的语言（auto = 跟随你的游戏）
 /bosses DEBUG on|off|清空   WTF 中的检测日志；/bosses LOG [n] 显示最近的几行
+/bosses EDITAR [id]   打开说明编辑器（存放你自己的备注的 UI）
 /bosses ?             完整帮助
 ```
 

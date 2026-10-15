@@ -49,6 +49,7 @@ Every pack above ships with **all six languages complete**; a locale is only lis
 /bosses CANAL frame   only your alert frame (private briefings)
 /bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko   explanation language (auto = follows your game)
 /bosses DEBUG on|off  detection log to WTF; /bosses log displays it
+/bosses EDITAR [id]   opens the explanation editor (a real UI to edit your own notes)
 /bosses ?             full help
 ```
 
