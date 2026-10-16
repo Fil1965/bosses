@@ -21,4 +21,4 @@ if P.es == nil or P.en == nil then
 	return;
 end
 
-BossesAPI.register("MoP", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, PT = P.pt, DE = P.de, ZH = P.zh });
+BossesAPI.register("MoP", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, FR = P.fr, PT = P.pt, DE = P.de, ZH = P.zh, RU = P.ru, KO = P.ko });

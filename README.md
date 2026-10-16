@@ -1,4 +1,4 @@
-**English** · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [中文](README.zh.md) · [Русский](README.ru.md) · [한국어](README.ko.md)
+**English** · [Español](https://github.com/Fil1965/bosses/blob/main/README.es.md) · [Français](https://github.com/Fil1965/bosses/blob/main/README.fr.md) · [Deutsch](https://github.com/Fil1965/bosses/blob/main/README.de.md) · [Português](https://github.com/Fil1965/bosses/blob/main/README.pt.md) · [中文](https://github.com/Fil1965/bosses/blob/main/README.zh.md) · [Русский](https://github.com/Fil1965/bosses/blob/main/README.ru.md) · [한국어](https://github.com/Fil1965/bosses/blob/main/README.ko.md)
 
 **Know the fight before the pull. Survive it during.**
 

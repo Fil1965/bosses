@@ -429,10 +429,14 @@ local function textoCortesia()
 		return L["CortesiaFR"];
 	elseif idioma == "DE" then
 		return L["CortesiaDE"];
+	elseif idioma == "RU" then
+		return L["CortesiaRU"];
 	elseif idioma == "PT" then
 		return L["CortesiaPT"];
 	elseif idioma == "ZH" then
 		return L["CortesiaZH"];
+	elseif idioma == "KO" then
+		return L["CortesiaKO"];
 	end
 	return L["Cortesia"]; -- AUTO: idioma del cliente
 end
@@ -670,7 +674,16 @@ function salidaEnPantalla(linea, nueva)
 	-- del combate y una vista fría se quedaba abierta para siempre
 	-- (visto al salir de la mazmorra, 2026-10-01). En zona caliente no se
 	-- arma: lo hará el PLAYER_REGEN_ENABLED al acabar la pelea.
-	if not enZonaCaliente() then
+	--
+	-- CON UN ENCOUNTER ACTIVO NO SE ARMA (Nymrissa 2026-10-15): en jefe de
+	-- mundo compartido otro jugador tira el pull — explicado a las 19:17:58
+	-- con combate=false, el regen del dueño llegó a las 19:18:21, 23 s
+	-- después: el auto-apagado disparó ANTES del combate y el frame
+	-- desapareció en plena pelea sin que el anti-spam ("ya explicado")
+	-- permitiera repintarlo — sin frame y sin botón "al chat". El apagado
+	-- post-pelea lo hacen PLAYER_REGEN_ENABLED (pelea propia) y
+	-- ENCOUNTER_END (pelea ajena).
+	if not enZonaCaliente() and encuentroActivo == nil then
 		ocultarAlerta();
 	end
 end
@@ -1678,6 +1691,7 @@ local function explicaTarget(unit)
 	forzarLocal = InCombatLockdown();
 
 	if unit == nil or not UnitExists(unit) then
+		debugLog("target", "sin unidad marcada"); -- la petición sin objetivo quedaba muda (dificultaba el diagnóstico)
 		return;
 	end
 
@@ -1806,7 +1820,7 @@ end
 
 local function createSettingsPanel()
 	local frame = CreateFrame("Frame", "BossesSettingsPanel");
-	frame:SetSize(380, 680); -- idiomas nuevos (editor web) + botón del editor in-game
+	frame:SetSize(420, 460); -- canal a 2 columnas + idiomas a 3 columnas (petición del dueño): el panel baja de 680; el ancho gana 40 por el rótulo largo del canal
 
 	local titulo = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge");
 	titulo:SetPoint("TOPLEFT", 10, -12);
@@ -1821,16 +1835,22 @@ local function createSettingsPanel()
 	local defs = { { "AUTO", "CanalGrupo" }, { "GUILD", "Guild" }, { "LOCAL", "OutputNormal" }, { "FRAME", "CanalFrame" } };
 	local y = -46;
 
-	for _, d in ipairs(defs) do
+	-- Canal de salida en 2 columnas (petición del dueño): AUTO|GUILD arriba,
+	-- LOCAL|FRAME debajo — una casilla por línea desperdiciaba la mitad del
+	-- panel. Columna 1 en x=190: "Frame de alerta (solo tú)" es el rótulo más
+	-- largo y cabe con margen en el ancho 420.
+	for i, d in ipairs(defs) do
 		local key, label = d[1], d[2];
+		local col = (i - 1) % 2;
+		local fila = math.floor((i - 1) / 2);
 		local cb = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
-		cb:SetPoint("TOPLEFT", 0, y);
+		cb:SetPoint("TOPLEFT", col * 190, y - fila * 30);
 		cb.Text:SetText(L[label]);
 		cb.Text:SetTextColor(1, 1, 1, 1);
 		cb:SetScript("OnClick", function() setCanal(key); end);
 		canalChecks[key] = cb;
-		y = y - 30;
 	end
+	y = y - 60; -- dos filas de 30
 
 	-- Firma de cortesía en los canales compartidos (independiente del canal)
 	firmaCheck = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
@@ -1848,22 +1868,29 @@ local function createSettingsPanel()
 	langChecks = {};
 
 	local idiomas = {
+		-- KO y ZH cruzados: "Chino (simplificado)" es el rótulo más largo y en
+		-- la fila con dos idiomas más al lado pisa la tercera columna; desde
+		-- la última casilla lo absorbe el resto de la fila.
 		{ "AUTO", "Auto" }, { "ES", "Spanish" }, { "EN", "English" },
 		{ "FR", "French" }, { "DE", "German" },
-		{ "RU", "Russian" }, { "PT", "Portuguese" }, { "ZH", "ChineseSimple" }, { "KO", "Korean" },
+		{ "RU", "Russian" }, { "PT", "Portuguese" }, { "KO", "Korean" }, { "ZH", "ChineseSimple" },
 	};
 	y = y - 28;
 
-	for _, d in ipairs(idiomas) do
+	-- Idiomas en 3 columnas (petición del dueño): 9 casillas en 3 filas —
+	-- columnas en x=0/124/248, todos los rótulos caben con el ancho 420.
+	for i, d in ipairs(idiomas) do
 		local key, label = d[1], d[2];
+		local col = (i - 1) % 3;
+		local fila = math.floor((i - 1) / 3);
 		local cb = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
-		cb:SetPoint("TOPLEFT", 0, y);
+		cb:SetPoint("TOPLEFT", col * 124, y - fila * 30);
 		cb.Text:SetText(L[label]);
 		cb.Text:SetTextColor(1, 1, 1, 1);
 		cb:SetScript("OnClick", function() setLanguage(key); end);
 		langChecks[key] = cb;
-		y = y - 30;
 	end
+	y = y - 90; -- tres filas de 30
 
 	-- Explicación automática de encuentros
 	local subtitulo3 = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
@@ -2755,11 +2782,11 @@ local function bossesGestor(msg, editbox)
 		elseif txt == "off" then
 			setDebug(false);
 			dsp(L["Depuracion"], "off");
-		elseif txt == "vaciar" or txt == "clear" or txt == "limpar" or txt == "清空" then
+		elseif txt == "vaciar" or txt == "clear" or txt == "limpar" or txt == "清空" or txt == "очистить" or txt == "비우기" then
 			vaciarLog();
 			dsp("registro de depuración vaciado");
 		else
-			dsp("/bosses DEBUG on|off|vaciar");
+			dsp("/bosses DEBUG on|off|vaciar|clear|limpar|清空|очистить|비우기");
 		end
 	elseif cmd == "LOG" then
 		-- Muestra las últimas líneas del registro en el chat (sin esperar
@@ -2976,6 +3003,14 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		encuentroActivoID = nil;
 		explicadosRecientes = {};
 		finCombate = GetTime();
+		-- Pelea de jefe de mundo vista SIN entrar en combate (la tira otro):
+		-- el PLAYER_REGEN_ENABLED del dueño no llega nunca y el frame colgaba
+		-- abierto tras la muerte. Mismo reparto de gracia: 15 s y se apaga.
+		-- Si el dueño sigue en su propio combate (zona caliente) no se arma:
+		-- el regen lo hará al soltar.
+		if not enZonaCaliente() then
+			ocultarAlerta();
+		end
 	elseif event == "INSTANCE_ENCOUNTER_ENGAGE_UNIT" then
 		-- Redundancia para encuentros sin ENCOUNTER_START (o con unidades
 		-- que aparecen tarde): con IEEU las unidades boss1..N están

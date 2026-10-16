@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_Midnight_es.lua
 Bosses_Midnight_en.lua
+Bosses_Midnight_ru.lua
+Bosses_Midnight_ko.lua
 Bosses_Midnight_zh.lua
 Bosses_Midnight_pt.lua
 Bosses_Midnight_de.lua

@@ -28,4 +28,4 @@ end
 -- El índice ENC (encounterID → NPC ids) es opcional (ver Bosses_Legion_enc.lua);
 -- el de zonas (instanceID → jefes) también (Bosses_Legion_zonas.lua) y alimenta
 -- el desplegable del minimapa.
-BossesAPI.register("Legion", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, ZH = P.zh, FR = P.fr, DE = P.de, PT = P.pt });
+BossesAPI.register("Legion", { ES = P.es, EN = P.en, ENC = P.enc, ZON = P.zonas, ZH = P.zh, FR = P.fr, DE = P.de, PT = P.pt, RU = P.ru, KO = P.ko });

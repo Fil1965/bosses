@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_BfA_es.lua
 Bosses_BfA_en.lua
+Bosses_BfA_ko.lua
+Bosses_BfA_ru.lua
 Bosses_BfA_zh.lua
 Bosses_BfA_pt.lua
 Bosses_BfA_de.lua

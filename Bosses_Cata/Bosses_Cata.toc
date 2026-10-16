@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_Cata_es.lua
 Bosses_Cata_en.lua
+Bosses_Cata_ko.lua
+Bosses_Cata_ru.lua
 Bosses_Cata_zh.lua
 Bosses_Cata_pt.lua
 Bosses_Cata_de.lua

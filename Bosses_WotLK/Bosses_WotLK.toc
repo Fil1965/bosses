@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_WotLK_es.lua
 Bosses_WotLK_en.lua
+Bosses_WotLK_ru.lua
+Bosses_WotLK_ko.lua
 Bosses_WotLK_zh.lua
 Bosses_WotLK_pt.lua
 Bosses_WotLK_de.lua

@@ -81,6 +81,8 @@ L["CortesiaFR"] = "Explication du boss offerte par l'addon Bosses";
 L["CortesiaDE"] = "Boss-Erklärung angeboten vom Addon Bosses";
 L["CortesiaPT"] = "Explicação do boss, cortesia do addon Bosses";
 L["CortesiaZH"] = "说明由 Bosses 插件提供";
+L["CortesiaRU"] = "Объяснение босса предоставлено аддоном Bosses";
+L["CortesiaKO"] = "보스 설명은 Bosses 애드온이 제공합니다";
 
 local function defaultFunc(L, key)
     -- Cuando no exista localización devolvemos la cadena por defecto que está en inglés

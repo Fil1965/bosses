@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_MoP_es.lua
 Bosses_MoP_en.lua
+Bosses_MoP_ko.lua
+Bosses_MoP_ru.lua
 Bosses_MoP_zh.lua
 Bosses_MoP_de.lua
 Bosses_MoP_pt.lua

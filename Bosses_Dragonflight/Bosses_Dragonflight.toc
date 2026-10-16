@@ -8,6 +8,8 @@
 ## Dependencies: Bosses
 Bosses_Dragonflight_es.lua
 Bosses_Dragonflight_en.lua
+Bosses_Dragonflight_ru.lua
+Bosses_Dragonflight_ko.lua
 Bosses_Dragonflight_de.lua
 Bosses_Dragonflight_fr.lua
 Bosses_Dragonflight_zh.lua

@@ -23,6 +23,8 @@ const ADDON_FILES = [
   "localization.de.lua",
   "localization.pt.lua",
   "localization.zh.lua",
+  "localization.ru.lua",
+  "localization.ko.lua",
   "libs/LibStub/LibStub.lua",
   "libs/CallbackHandler-1.0/CallbackHandler-1.0.lua",
   "libs/LibDataBroker-1.1/LibDataBroker-1.1.lua",

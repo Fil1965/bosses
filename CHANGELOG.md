@@ -1,6 +1,13 @@
-# CHANGELOG
+# Changelog
 
 All notable changes to Bosses are documented here.
+
+## [1.0.14] - 2026-10-16
+- Frame de alerta en jefes de mundo compartidos: con un ENCOUNTER activo el auto-apagado de 15 s ya no se arma (otro jugador tira el pull y el frame se iba antes del combate del dueño, sin que el anti-spam permitiera repintarlo); el apagado post-pelea queda en PLAYER_REGEN_ENABLED y, si el dueño nunca entra en su propio combate, ENCOUNTER_END lo apaga a los 15 s. Diagnóstico: la petición del icono sin objetivo se anota en el registro.
+- Panel de configuración compactado: canal de salida en 2 columnas, idiomas en 3 columnas (panel 380x680 -> 420x460, orden KO/ZH cruzado para que "Chino (simplificado)" no pise la tercera columna).
+- Documentación: DESCRIPTION.md retirado — la descripción de CurseForge se monta desde README.md (que enlaza todas las traducciones por GitHub con URLs absolutas de github.com/Fil1965/bosses/blob/main/ para que también funcionen pegado en CurseForge); README.ru.md y README.ko.md nuevos y el hub de idiomas de los 8 README ampliados con Русский y 한국어.
+- Interfaz del addon en ruso y coreano: localization.ru.lua (ruRU) y localization.ko.lua (koKR) nuevas con paridad exacta de claves (58 × 8 ficheros, chequeador de paridad actualizado a los 8 y de sintaxis a los 9); cortesías CortesiaRU/CortesiaKO en el core con sus ramas en textoCortesia(), /bosses DEBUG acepta también "очистить" y "비우기" (HELP9 ru/ko casados con el comando).
+- Packs de los 12 contenidos con tácticas en ruso (ruRU) y coreano (koKR) de punta a punta, conectados en .toc y registrador (BossesAPI.register con KO/RU de cada pack) y los ficheros en el empaquetado e instalación.
 
 ## [1.0.13] - 2026-10-15
 - Spells del frame en el idioma de la explicacion: con IDIOMA distinto al cliente, el texto conserva los nombres entre corchetes del pack (el tooltip del enlace sigue en el idioma de quien mira).
