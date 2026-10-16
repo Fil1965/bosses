@@ -110,9 +110,40 @@ async function loadMeta() {
 
 async function loadPacks() {
 	const r = await api("/api/packs");
-	state.packs = r.packs ?? [];
+	// orden de la select de packs POR LANZAMIENTO de la expansión (petición del
+	// dueño); los packs no fichados van al final alfabéticos. Los no listados
+	// conservan su etiqueta de siempre (nombre sin el prefijo).
+	const ORDEN_EXP = [
+		"Bosses_Vanilla", "Bosses_TBC", "Bosses_WotLK", "Bosses_Cata", "Bosses_MoP",
+		"Bosses_WoD", "Bosses_Legion", "Bosses_BfA", "Bosses_Shadowlands",
+		"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight",
+	];
+	const NOMBRE_EXP = {
+		Bosses_Vanilla: "World of Warcraft (Base) · 2004",
+		Bosses_TBC: "The Burning Crusade · 2007",
+		Bosses_WotLK: "Wrath of the Lich King · 2008",
+		Bosses_Cata: "Cataclysm · 2010",
+		Bosses_MoP: "Mists of Pandaria · 2012",
+		Bosses_WoD: "Warlords of Draenor · 2014",
+		Bosses_Legion: "Legion · 2016",
+		Bosses_BfA: "Battle for Azeroth · 2018",
+		Bosses_Shadowlands: "Shadowlands · 2020",
+		Bosses_Dragonflight: "Dragonflight · 2022",
+		Bosses_TWW: "The War Within · 2024",
+		Bosses_Midnight: "Midnight",
+	};
+	state.packs = (r.packs ?? []).slice().sort((a, b) => {
+		const ia = ORDEN_EXP.indexOf(a.name), ib = ORDEN_EXP.indexOf(b.name);
+		if (ia === -1 && ib === -1) return a.name.localeCompare(b.name);
+		if (ia === -1) return 1;
+		if (ib === -1) return -1;
+		return ia - ib;
+	});
 	const sel = $("packSel");
-	sel.innerHTML = state.packs.map((p) => `<option value="${p.name}">${p.name.replace(/^Bosses_/, "")} (${p.langs.es?.entries ?? 0} es)</option>`).join("");
+	sel.innerHTML = state.packs.map((p) => {
+		const n = NOMBRE_EXP[p.name] ?? p.name.replace(/^Bosses_/, "");
+		return `<option value="${p.name}">${n} (${p.langs.es?.entries ?? 0} es)</option>`;
+	}).join("");
 	// CONSERVA el pack activo al recargar (el guardado y el alta de idioma
 	// llaman loadPacks; resetear al primero desincronizaba el estado y no
 	// se podía cargar otro jefe hasta cambiar de expansión y volver)
@@ -380,21 +411,95 @@ $("btnImportar").onclick = async () => {
 	}
 };
 
+// ------------------------------------------------ lista agrupada (fase 1) ---
+// Lista de la izquierda organizada POR INSTANCIA (petición del dueño):
+// `_packs.mjs` entrega zoneLabel (nombre del banner del pack, en el idioma
+// del fichero) y `orden` (posición de bloque en el fichero) — los grupos y
+// sus jefes siguen la PROGRESIÓN del pack (como el desplegable in-game) y los
+// sin banner de zona van al final como "Jefes de mundo / eventos". Grupo
+// plegable con estado en localStorage; POR OMISIÓN TODO PLEGADO (petición
+// del dueño — solo lo desplegado a pino queda abierto de sesión a sesión),
+// y al seleccionar una entrada su grupo se abre. Con el filtro de búsqueda
+// activo, se expande todo lo que tenga coincidencias.
+
+function nombreGrupoDe(e) {
+	return e.zone ? (e.zoneLabel || `Zona ${e.zone}`) : "Jefes de mundo / eventos";
+}
+function claveGrupo(packName, e) {
+	return `${packName}|${nombreGrupoDe(e)}`;
+}
+const CLAVE_GRUPOS = "bosses.editor.grupos";
+function estadosGrupos() {
+	try { return JSON.parse(localStorage.getItem(CLAVE_GRUPOS)) ?? {}; } catch { return {}; }
+}
+// grupo sin estado guardado = PLEGADO por omisión (petición del dueño)
+function setGrupoAbierto(clave, abierto) {
+	const est = estadosGrupos();
+	est[clave] = Boolean(abierto);
+	try { localStorage.setItem(CLAVE_GRUPOS, JSON.stringify(est)); } catch { /* localStorage no disponible: sin persistencia */ }
+}
+// abrir/plegar TODAS las instancias de golpe (petición del dueño)
+function plegadoTotal(abierto) {
+	for (const e of state.entries) setGrupoAbierto(claveGrupo(state.pack, e), abierto);
+	renderLista();
+}
+$("btnAbrirTodo").onclick = () => plegadoTotal(true);
+$("btnPlegarTodo").onclick = () => plegadoTotal(false);
+
 function renderLista() {
 	const q = norm(state.filtro);
-	const lista = state.entries.filter((e) => !q || e.id.includes(q) || norm(e.name).includes(q));
-	$("cuentaLista").textContent = `${lista.length}/${state.entries.length}`;
-	$("lista").innerHTML = lista.map((e) => {
-		const sel = e.id === state.entryId;
-		return `<button data-id="${e.id}" class="w-full text-left px-2 py-1.5 rounded text-sm flex gap-2 items-center ${
-			sel ? "bg-wow-gold/20 border border-wow-gold/40" : "hover:bg-wow-panel2 border border-transparent"
-		}">
-			<span class="text-xs text-slate-500 tabular-nums">${e.id}</span>
-			<span class="truncate ${sel ? "text-wow-gold" : ""}">${esc(e.name)}</span>
-			${e.shared ? `<span class="ml-auto text-[10px] text-slate-500" title="entradas compartidas: ${e.shared.join(", ")}">compartida</span>` : ""}
+	const pasa = (e) => !q || e.id.includes(q) || norm(e.name).includes(q);
+	$("cuentaLista").textContent = `${state.entries.filter(pasa).length}/${state.entries.length}`;
+	const grupos = new Map();
+	for (const e of state.entries) {
+		const sub = nombreGrupoDe(e);
+		if (!grupos.has(sub)) grupos.set(sub, { sub, eventos: !e.zone, fila: [] });
+		grupos.get(sub).fila.push(e);
+	}
+	const listaGrupos = [...grupos.values()];
+	for (const g of listaGrupos) {
+		g.fila.sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
+		g.minOrden = g.fila.length > 0 ? (g.fila[0].orden ?? 0) : 0;
+	}
+	// eventos/fuera de instancia al final; el resto por orden del fichero
+	listaGrupos.sort((a, b) => ((a.eventos - b.eventos) || (a.minOrden - b.minOrden)));
+	const est = estadosGrupos();
+	const conFiltro = Boolean(q);
+	let html = "";
+	for (const g of listaGrupos) {
+		const visibles = g.fila.filter(pasa);
+		if (visibles.length === 0) continue;
+		const clave = claveGrupo(state.pack, g.fila[0]);
+		// con filtro, expandido todo lo que tenga coincidencias; sin filtro,
+		// el estado guardado manda y SIN estado guardado TODO PLEGADO
+		// (petición del dueño; seleccionar una entrada abre su grupo)
+		const abierto = conFiltro || (clave in est ? Boolean(est[clave]) : false);
+		html += `<button data-grupo="${esc(clave)}" class="w-full text-left px-2 py-1 mt-1 rounded text-sm font-semibold flex gap-1 items-center text-slate-300 hover:text-wow-gold">
+			<span class="w-4 text-center">${abierto ? "▾" : "▸"}</span>
+			<span class="truncate flex-1" title="${esc(String(g.sub).replace(/"/g, "&quot;"))}">${esc(g.sub)}</span>
+			<span class="text-slate-600 tabular-nums">${visibles.length}</span>
 		</button>`;
-	}).join("");
-	$("lista").querySelectorAll("button").forEach((b) => (b.onclick = () => selectEntry(b.dataset.id)));
+		if (abierto) {
+			html += visibles.map((e) => {
+				const sel = e.id === state.entryId;
+				return `<button data-id="${e.id}" class="w-full text-left px-2 py-1.5 rounded text-sm flex gap-2 items-center ${
+					sel ? "bg-wow-gold/20 border border-wow-gold/40" : "hover:bg-wow-panel2 border border-transparent"
+				}">
+					<span class="text-xs text-slate-500 tabular-nums">${e.id}</span>
+					<span class="truncate ${sel ? "text-wow-gold" : ""}">${esc(e.name)}</span>
+					${e.shared ? `<span class="ml-auto text-[10px] text-slate-500" title="entradas compartidas: ${e.shared.join(", ")}">compartida</span>` : ""}
+				</button>`;
+			}).join("");
+		}
+	}
+	$("lista").innerHTML = html;
+	$("lista").querySelectorAll("button[data-id]").forEach((b) => (b.onclick = () => selectEntry(b.dataset.id)));
+	$("lista").querySelectorAll("button[data-grupo]").forEach((b) => (b.onclick = () => {
+		const clave = b.dataset.grupo;
+		const est2 = estadosGrupos();
+		setGrupoAbierto(clave, !(clave in est2 ? est2[clave] : true));
+		renderLista();
+	}));
 }
 function norm(s) {
 	return String(s ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -410,6 +515,10 @@ function selectEntryOff() {
 
 async function selectEntry(id) {
 	state.entryId = id;
+	// el grupo de la entrada elegida se queda abierto (después de una
+	// selección desde la búsqueda, al limpiar el filtro no se esconde)
+	const eSel = state.entries.find((x) => x.id === id);
+	if (eSel != null) setGrupoAbierto(claveGrupo(state.pack, eSel), true);
 	const r = await api(`/api/packs/${state.pack}/${state.lang}/${id}`);
 	if (!r.ok) return toast(r.error, false);
 	state.entryData = r.entry;

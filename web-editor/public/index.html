@@ -58,6 +58,10 @@
 			</div>
 			<div id="langTabs" class="flex gap-1"></div>
 			<input id="filtro" placeholder="filtrar por id o nombre…" class="w-full rounded border border-wow-edge px-2 py-1.5 text-sm focus:border-wow-gold outline-none">
+			<div class="flex gap-1 items-center">
+				<button id="btnAbrirTodo" class="text-xs px-2 py-0.5 rounded border border-wow-edge text-slate-400 hover:border-wow-gold hover:text-wow-gold" title="despliega todas las instancias de golpe">▾ abrir todo</button>
+				<button id="btnPlegarTodo" class="text-xs px-2 py-0.5 rounded border border-wow-edge text-slate-400 hover:border-wow-gold hover:text-wow-gold" title="pliega todas las instancias de golpe">▸ plegar todo</button>
+			</div>
 		</div>
 		<div id="lista" class="flex-1 overflow-y-auto px-2 pb-2 space-y-0.5"></div>
 		<div class="p-3 border-t border-wow-edge flex flex-wrap gap-2 items-center">
@@ -90,12 +94,13 @@
 			</div>
 			<aside class="space-y-4 min-w-0">
 				<div id="referencia" class="frame p-3 bg-wow-panel"></div>
-				<div id="preview" class="frame p-3 bg-wow-panel"></div>
-				<div id="diario" class="frame p-3 bg-wow-panel"></div>
+				<!-- Guardar justo debajo del traer y traducir del FUENTE (petición del dueño) -->
 				<div class="frame p-3 bg-wow-panel">
 					<button id="btnGuardar" class="w-full py-2 rounded bg-wow-gold/90 text-black font-semibold hover:bg-wow-gold disabled:opacity-40" disabled>Guardar</button>
 					<div id="estadoGuardado" class="text-xs text-slate-500 mt-2 text-center h-4"></div>
 				</div>
+				<div id="preview" class="frame p-3 bg-wow-panel"></div>
+				<div id="diario" class="frame p-3 bg-wow-panel"></div>
 			</aside>
 		</div>
 		<div id="editorVacio" class="flex-1 grid place-items-center text-slate-500 text-sm"></div>

@@ -177,13 +177,16 @@ export function docEntries(doc) {
 				id,
 				name: block.name,
 				zone: doc.zones.get(id) ?? null,
+				zoneLabel: doc.zoneLabels.get(id) ?? null, // nombre de instancia del banner (lista agrupada del editor)
+				orden: out.length, // posición del bloque EN EL FICHERO: el agrupado respeta la progresión del journal
 				lines: consejos, // consejos (sin apertura, cierre ni la línea del nombre)
 				vacia: consejos <= 0,
 				shared: block.kind === "shared" ? block.ids : null,
 			});
 		}
 	}
-	// orden numérico por NPC id
+	// orden numérico por NPC id (el `orden` de bloque queda en cada entrada
+	// para que la UI agrupada presente el recorrido del propio fichero)
 	out.sort((a, b) => Number(a.id) - Number(b.id));
 	return out;
 }

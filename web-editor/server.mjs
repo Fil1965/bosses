@@ -323,6 +323,38 @@ async function encuentrosDe(instanciaId, locale) {
 	return d;
 }
 
+// NOMBRE de instancia POR LOCALE con caché en DISCO (la lista agrupada del
+// editor lo pide para las entradas del idioma consultado): el índice global
+// (instIndex) ya trae es_ES; para el resto de idiomas se pide la primera vez
+// y se pincha a _cache/instancia-nombres-<locale>.json (una llamada por
+// instancia, solo una vez por instalación). Sin credenciales/red devuelve
+// null y la lista se queda con la etiqueta del fichero (fallback ES).
+const nombresLocale = new Map(); // locale -> { instanciaId: nombre }
+function nombresInstanciaDe(locale) {
+	if (!nombresLocale.has(locale)) {
+		nombresLocale.set(locale, readJson(join(CACHE, `instancia-nombres-${locale}.json`)) ?? {});
+	}
+	return nombresLocale.get(locale);
+}
+async function nombreInstanciaEn(inst, locale) {
+	if (!inst || !inst.id) return null;
+	if (locale === "es_ES") return inst.name || null;
+	const m = nombresInstanciaDe(locale);
+	if (m[inst.id]) return m[inst.id];
+	try {
+		const r = await blizz.api(`/data/wow/journal-instance/${inst.id}`, { locale });
+		const n = r.status === 200 ? String(r.json?.name ?? "") : "";
+		if (n) {
+			m[inst.id] = n;
+			mkdirSync(CACHE, { recursive: true });
+			writeFileSync(join(CACHE, `instancia-nombres-${locale}.json`), JSON.stringify(m));
+		}
+		return n || null;
+	} catch {
+		return null;
+	}
+}
+
 // media-map.json: mapa por entrada (pack:npcId → datos del diario API),
 // construido bajo demanda y cacheado. v = forma de los datos (v2: secciones
 // planas con corte por hermano): lo cacheado por una forma anterior se
@@ -640,7 +672,42 @@ fastify.get("/api/packs/:pack/:lang", async (req) => {
 	const { pack, lang } = req.params;
 	const doc = getDoc(pack, lang);
 	if (!doc) return { ok: false, error: "pack o idioma no disponible" };
-	return { ok: true, entries: docEntries(doc) };
+	// fallback de ZONA (para la lista agrupada del editor): los ficheros de
+	// algunos packs no llevan los banneres «Instancia: Zona NNNN» (solo el ES
+	// los trae — Cata/Midnight/MoP/TWW en EN); la vía de media ya hace este
+	// mismo fallback a la copia ES: misma regla aquí. El `orden` se queda
+	// siendo el del fichero pedido (cada idioma conserva su recorrido).
+	const docES = getDoc(pack, "es") ?? null;
+	const esPorId = docES ? new Map(docEntries(docES).map((e) => [e.id, e])) : null;
+	const entries = docEntries(doc).map((e) => {
+		if (e.zone || esPorId === null) return e;
+		const es = esPorId.get(e.id);
+		return es ? { ...e, zone: es.zone, zoneLabel: es.zoneLabel } : e;
+	});
+	// etiquetas de instancia EN EL IDIOMA CONSULTADO (petición del dueño):
+	// zona → instancia del diario y su nombre al locale de la UI (caché en
+	// disco). También para ES: el índice ya trae nombres es_ES (sin llamadas
+	// extra) y hay ficheros de packs con banneres en inglés (Vanilla y los
+	// pt/zh heredados). SOLO índice ya CONSTRUIDO (fresco o caducado — los
+	// nombres del diario casi nunca cambian y así la lista nunca dispara la
+	// reconstrucción de ~213 llamadas: esa la hace el flujo de media como
+	// hasta ahora); sin índice o sin credenciales, se quedan las etiquetas
+	// del fichero.
+	if (LOCALES_DIARIO[lang]) {
+		try {
+			const inst = readJson(instFile);
+			if (!inst || !inst.byId) throw new Error("sin índice de instancias");
+			const L = LOCALES_DIARIO[lang];
+			const zonas = new Map(); // zona → etiqueta fuente (para casar por nombre)
+			for (const e of entries) if (e.zone && !zonas.has(e.zone)) zonas.set(e.zone, e.zoneLabel);
+			await Promise.all([...zonas.entries()].map(async ([zona, zonaLabel]) => {
+				const ii = instanciaDeZona(inst, zona, zonaLabel);
+				const n = await nombreInstanciaEn(ii, L);
+				if (n) for (const e of entries) if (e.zone === zona) e.zoneLabel = n;
+			}));
+		} catch { /* sin índice o sin credenciales: etiquetas del fichero */ }
+	}
+	return { ok: true, entries };
 });
 
 fastify.get("/api/packs/:pack/:lang/:id", async (req) => {
