@@ -1,4 +1,4 @@
-[English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **中文**
+[English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **中文** · [Русский](README.ru.md) · [한국어](README.ko.md)
 
 **开团先知情，战时方能生还。**
 

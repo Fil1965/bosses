@@ -1,4 +1,4 @@
-[English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Português** · [中文](README.zh.md)
+[English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Português** · [中文](README.zh.md) · [Русский](README.ru.md) · [한국어](README.ko.md)
 
 **Conheça a luta antes do pull. Sobreviva a ela durante o combate.**
 

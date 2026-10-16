@@ -1,4 +1,4 @@
-[English](README.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [Português](README.pt.md) · [中文](README.zh.md)
+[English](README.md) · [Español](README.es.md) · **Français** · [Deutsch](README.de.md) · [Português](README.pt.md) · [中文](README.zh.md) · [Русский](README.ru.md) · [한국어](README.ko.md)
 
 **Comprendre la bataille avant de se lancer. Survivre pendant.**
 
