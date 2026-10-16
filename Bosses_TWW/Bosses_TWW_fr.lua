@@ -238,10 +238,10 @@ pack["218000"] = { "Benk Bumblebuzz",
 	"* |cff71d5ff|Hspell:438025|h[Snack Time]|h|r: attention aux abeilles enragées."
 };
 
-pack["210271"] = { "Brewmaster Aldryr",
-	"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: attention au débordement.",
-	"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: hors du frontal.",
-	"* |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r: attention aux barils."
+pack["210271"] = { "Maître brasseur Aldryr",
+	"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: Soyez vigilant face à l'excès.",
+	"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: Évitez de vous positionner en première ligne.",
+	"* Surveillez pendant |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r les |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r. Et n'oubliez pas de servir les clients."
 };
 
 pack["214661"] = { "Goldie Baronbottom",

@@ -238,9 +238,9 @@ pack["218000"] = { "Benk Abejorro",
 };
 
 pack["210271"] = { "Maestro cervecero Aldryr",
-	"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: cuidado con el desbordamiento.",
-	"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: fuera del frontal.",
-	"* |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r: cuidado con los barriles."
+	"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: ten cuidado con el exceso.",
+	"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: Fuera de la línea frontal.",
+	"* Vigila durante |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r los |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r. Y no olvides servir a los clientes."
 };
 
 pack["214661"] = { "Áurea Barónez",

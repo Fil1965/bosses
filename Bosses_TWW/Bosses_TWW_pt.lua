@@ -194,9 +194,9 @@ pack["210267"] = { "I'pa",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["210271"] = { "Mestre Fermentador Aldryr",
-"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: preste atenção ao excesso.",
-"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: fora do ataque frontal.",
-"* Preste atenção aos |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r barris."
+"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: Ten cuidado com o excesso.",
+"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: Fora da linha de frente.",
+"* Vigie durante |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r os |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r. E não se esqueça de servir aos clientes."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

@@ -239,7 +239,7 @@ pack["218000"] = { "Benk Buzzbee",
 pack["210271"] = { "Brew Master Aldryr",
 	"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: mind the overflow.",
 	"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: out of the frontal.",
-	"* Mind the |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r barrels."
+	"* In |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r Mind the |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r barrels. And don't forget to serve thitsty Patrons."
 };
 
 pack["214661"] = { "Goldie Baronbottom",

@@ -194,9 +194,9 @@ pack["210267"] = { "I'pa",
 
 -- [editor web 2026-10-15] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["210271"] = { "酿造大师阿德里尔",
-"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: 注意溢出。",
-"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: 避免正面攻击。",
-"* 注意 |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r 桶。"
+"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: 小心过度。",
+"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: 避免站在前线。",
+"* 在 |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r期间留意 |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r。 别忘了为顾客服务。"
 };
 
 -- [editor web 2026-10-15] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

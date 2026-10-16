@@ -194,9 +194,9 @@ pack["210267"] = { "I'pa",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["210271"] = { "Braumeister Aldryr",
-"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: Achten Sie auf den Überlauf.",
-"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: aus der Front.",
-"* Achten Sie auf die |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r Fässer."
+"* |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r: Achten Sie auf den exzessiven Gebrauch.",
+"* |cff71d5ff|Hspell:432198|h[Blazing Belch]|h|r: Außerhalb der vorderen Linie.",
+"* Achten Sie während |cff71d5ff|Hspell:442525|h[Happy Hour]|h|r auf die |cff71d5ff|Hspell:432229|h[Keg Smash]|h|r. Und vergessen Sie nicht, die Gäste zu bedienen."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
