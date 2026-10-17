@@ -2,7 +2,7 @@
 
 **Conheça a luta antes do pull. Sobreviva a ela durante o combate.**
 
-O Bosses explica como funciona um combate de chefe — em poucas linhas afiadas, no momento certo, no canal certo. Marque o chefe (ou deixe o addon detectar o início do encontro) e receba o resumo tático: o que o tanque deve vigiar, quem precisa desviar de quê, o que interromper, o que nunca pisar. É conhecimento escrito à mão e testado em combate, não um despejo de wiki: cada raid, masmorra e chefe de mundo traz táticas curadas à mão.
+O Bosses explica como funciona um combate de chefe — em poucas linhas afiadas, no momento certo, no canal certo. Marque o chefe (ou deixe o addon detectar o início do encontro) e receba o resumo tático: o que o tanque deve vigiar, quem precisa desviar de quê, o que interromper, o que nunca pisar. O addon deixa a base pronta: estrutura e sugestões para cada raid, masmorra e chefe de mundo, prontas para usar sem escrever nada. O ganho de verdade vem por cima: as correções e as explicações que cada jogador — ou cada guilda — acrescentam transformam essa base na tática da sua raid.
 
 ## Cobertura — todas as expansões de World of Warcraft
 
@@ -28,7 +28,7 @@ Cada um dos doze packs acima embarca com **os seis idiomas completos**; um local
 ## Destaques
 
 - **Explica o NPC marcado** em poucas linhas telegráficas — um comando, ou totalmente automático ao começar cada encontro (sem timers, sem automação de combate; o modo automático pode ser desativado)
-- **Táticas escritas à mão** com links de feitiço verificados: cada tópico nomeia a habilidade real, com o link direto no seu chat
+- **Sugestões prontas e corrigíveis** com links de feitiço verificados: cada tópico nomeia a habilidade real, com o link direto no seu chat
 - **Seu próprio frame de alerta**: durante o combate o jogo bloqueia o chat de addons, então a explicação completa vive na sua tela — arrastável, fechável (X / ESC), se esconde 15 s depois da luta e fora de combate um botão **"Para o chat"** a compartilha com o grupo
 - **Nomes de feitiços no idioma do leitor**, resolvidos em tempo real na base de dados do jogo (o tooltip mostra a habilidade ao passar o mouse)
 - **Escolha inteligente de canal**: raid / grupo / chat de masmorra LFG automaticamente — ou force guilda / local / apenas frame

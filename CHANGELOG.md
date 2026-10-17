@@ -2,6 +2,9 @@
 
 All notable changes to Bosses are documented here.
 
+## [Sin Publicar]
+- README recalibrado en los 8 idiomas: la intro ya no vende el contenido precargado como «escrito a mano / curado a mano» — ahora dice que el addon aporta estructura y sugerencias listas para usar tal cual, y que el partido de verdad llega cuando cada jugador o guild pone encima sus propias correcciones y explicaciones; la viñeta de destacados pasa de «Tácticas escritas a mano» a «sugerencias listas y corregibles».
+
 ## [1.0.14] - 2026-10-16
 - Frame de alerta en jefes de mundo compartidos: con un ENCOUNTER activo el auto-apagado de 15 s ya no se arma (otro jugador tira el pull y el frame se iba antes del combate del dueño, sin que el anti-spam permitiera repintarlo); el apagado post-pelea queda en PLAYER_REGEN_ENABLED y, si el dueño nunca entra en su propio combate, ENCOUNTER_END lo apaga a los 15 s. Diagnóstico: la petición del icono sin objetivo se anota en el registro.
 - Panel de configuración compactado: canal de salida en 2 columnas, idiomas en 3 columnas (panel 380x680 -> 420x460, orden KO/ZH cruzado para que "Chino (simplificado)" no pise la tercera columna).

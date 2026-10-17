@@ -2,7 +2,7 @@
 
 **Comprendre la bataille avant de se lancer. Survivre pendant.**
 
-Bosses vous explique comment se déroule une phase de combat contre un boss — en quelques lignes claires, au moment opportun, sur le bon canal. Marquez le boss (ou laissez l'addon détecter le début de l'épreuve) et obtenez les informations tactiques essentielles : ce que le tank doit surveiller, qui doit esquiver quoi, ce qu'il faut interrompre, ce qu'il ne faut jamais faire. Il s'agit de connaissances écrites par des humains, testées au combat, et non d'une simple compilation de wiki : chaque raid, donjon et boss mondial possède des tactiques élaborées.
+Bosses vous explique comment se déroule une phase de combat contre un boss — en quelques lignes claires, au moment opportun, sur le bon canal. Marquez le boss (ou laissez l'addon détecter le début de l'épreuve) et obtenez les informations tactiques essentielles : ce que le tank doit surveiller, qui doit esquiver quoi, ce qu'il faut interrompre, ce qu'il ne faut jamais faire. L'addon vous laisse la base toute faite : structure et suggestions pour chaque raid, donjon et boss mondial, prêtes à l'emploi sans rien écrire. Le vrai jeu vient par-dessus : les corrections et les explications qu'apportent chaque joueur — ou chaque guilde — transforment cette base en la tactique de votre groupe.
 
 ## Couverture — toutes les extensions de World of Warcraft
 
@@ -28,7 +28,7 @@ Chacun des douze packs ci-dessus embarque **les six langues complètes** ; une l
 ## Points forts
 
 - Explique **le PNJ ciblé** en quelques lignes concises — une commande, ou entièrement automatique dès le début de chaque rencontre (sans compteurs, sans automatisation du combat ; le mode automatique peut être désactivé)
-- **Tactiques écrites à la main** avec des liens de sorts vérifiés : chaque puce nomme l'aptitude réelle, envoyée directement dans votre chat
+- **Suggestions prêtes à l'emploi et corrigibles** avec des liens de sorts vérifiés : chaque puce nomme l'aptitude réelle, envoyée directement dans votre chat
 - **Votre propre cadre d'alerte** : pendant le combat, le jeu bloque le chat des addons, de sorte que l'explication complète reste à l'écran — déplaçable, fermable (X / ESC), se cache automatiquement 15 s après le combat et, hors combat, un bouton "**Au chat**" la partage avec le groupe
 - **Noms des sorts dans la langue du lecteur**, résolus en direct contre la base de données du jeu (l'infobulle affiche l'aptitude au survol)
 - **Choix intelligent du canal** : sortie automatique par le chat de raid / groupe / instance LFG — ou force gilde / local / cadre uniquement

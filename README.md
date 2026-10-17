@@ -2,7 +2,7 @@
 
 **Know the fight before the pull. Survive it during.**
 
-Bosses tells you how a boss fight works — in a few sharp lines, at the right moment, on the right channel. Mark the boss (or let the addon spot the encounter starting) and get the tactical gist: what the tank must watch, who needs to dodge what, what to interrupt, what to never stand in. It is human-written, battle-tested knowledge, not a wiki dump: every raid, dungeon and world boss carries hand-curated tactics.
+Bosses tells you how a boss fight works — in a few sharp lines, at the right moment, on the right channel. Mark the boss (or let the addon spot the encounter starting) and get the tactical gist: what the tank must watch, who needs to dodge what, what to interrupt, what to never stand in. The addon does the groundwork for you: structure and suggestions for every raid, dungeon and world boss, ready to use without writing anything. The good part comes on top: the corrections and explanations each player —or each guild— contributes turn that base into your raid's own tactics.
 
 ## Coverage — every World of Warcraft expansion
 
@@ -28,7 +28,7 @@ Every pack above ships with **all six languages complete**; a locale is only lis
 ## Highlights
 
 - **Explains the targeted NPC** in a few telegraphic lines — one command, or fully automatic as each encounter starts (no timers, no combat automation; automatic mode can be turned off)
-- **Hand-written tactics** with verified spell links: each bullet names the actual ability, clicked straight into your chat
+- **Ready-made, correctable suggestions** with verified spell links: each bullet names the actual ability, clicked straight into your chat
 - **Your own alert frame**: during combat the game blocks addon chat, so the full explanation lives on your screen — draggable, closable (X / ESC), auto-hides 15s after the fight, and out of combat a **"To chat"** button shares it with the group
 - **Spell names in the reader's own language**, resolved live from the game database (the tooltip shows the ability on hover)
 - **Smart channel choice**: raid / party / LFG instance chat automatically — or force guild / local / frame-only

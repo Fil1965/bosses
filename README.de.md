@@ -2,7 +2,7 @@
 
 **Kennen Sie den Kampf, bevor Sie ihn beginnen. Überleben Sie ihn während.**
 
-Bosses erklärt Ihnen, wie ein Bosskampf funktioniert – in wenigen präzisen Zeilen, zum richtigen Zeitpunkt und über den richtigen Kanal. Markieren Sie den Boss (oder lassen Sie das Addon den Kampfbeginn erkennen) und erhalten Sie die taktische Auskunft: was der Tank beachten muss, wer was ausweichen muss, was unterbrochen werden muss, was man niemals blockieren sollte. Es handelt sich um von Menschen verfasste, im Kampf erprobte Kenntnisse, nicht um eine Wiki-Zusammenstellung: Jeder Raid, jede Dungeon und Welt-Bosskampf enthält sorgfältig erstellte Taktiken.
+Bosses erklärt Ihnen, wie ein Bosskampf funktioniert – in wenigen präzisen Zeilen, zum richtigen Zeitpunkt und über den richtigen Kanal. Markieren Sie den Boss (oder lassen Sie das Addon den Kampfbeginn erkennen) und erhalten Sie die taktische Auskunft: was der Tank beachten muss, wer was ausweichen muss, was unterbrochen werden muss, was man niemals blockieren sollte. Das Addon legt Ihnen die Basis hin: Struktur und Vorschläge für jeden Raid, jede Dungeon und jeden Weltboss, sofort einsatzbereit ohne eigene Texte. Das Eigentliche kommt obendrauf: Die Korrekturen und Erklärungen, die jeder Spieler – oder jede Gilde – ergänzt, machen aus dieser Basis die Taktik Ihrer eigenen Truppe.
 
 ## Abdeckung — alle World-of-Warcraft-Erweiterungen
 
@@ -28,7 +28,7 @@ Jedes der zwölf oben genannten Pakete liefert mit **allen sechs Sprachen vollst
 ## Höhepunkte
 
 - **Erklärt das anvisierte NPC** in wenigen prägnanten Zeilen – entweder mit einem Befehl oder vollständig automatisch, sobald jede Begegnung beginnt (keine Timer, keine Automatisierung des Kampfes; der Automodus kann deaktiviert werden)
-- **Von Hand geschriebene Taktiken** mit verifizierten Zauberlinks: jeder Punkt nennt die tatsächliche Fähigkeit, die direkt in Ihren Chat eingefügt wird
+- **Fertige Vorschläge, jederzeit korrigierbar** mit verifizierten Zauberlinks: jeder Punkt nennt die tatsächliche Fähigkeit, die direkt in Ihren Chat eingefügt wird
 - **Ihr eigenes Warnfenster**: während des Kampfes blockiert das Spiel Addon-Chat, sodass die vollständige Erklärung auf Ihrem Bildschirm angezeigt wird – verschiebbar, schließbar (X / ESC), automatisch versteckt nach 15 Sekunden nach dem Kampf und außerhalb des Kampfes ein "Zum Chat"-Button teilt es mit der Gruppe
 - **Zaubernamen in der Sprache des Lesers**, wobei die Informationen live aus der Spiel-Datenbank abgerufen werden (der Tooltip zeigt die Fähigkeit beim Hovern an)
 - **Intelligente Kanalauswahl**: automatische Kommunikation im Raid-/Party-/LFG-Instanz-Chat – oder Erzwingen von Kommunikation in der Gilde / lokal / nur im Frame

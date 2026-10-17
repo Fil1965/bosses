@@ -2,33 +2,33 @@
 
 **Conoce el combate antes de atacar. Sobrevive en él.**
 
-Bosses te explica cómo funciona un combate de jefe —en pocas líneas afiladas, en el momento justo y por el canal correcto. Marca al jefe (o deja que el addon detecte el arranque del encuentro) y recibe el resumen táctico: lo que vigila el tanque, quién esquiva qué, lo que se corta, lo que jamás hay que pisar. Es conocimiento escrito a mano y probado en combate, no un volcado de wiki: cada banda, mazmorra y jefe de mundo lleva tácticas curadas a mano.
+Bosses te explica cómo funciona un combate de jefe —en pocas líneas claras, en el momento justo y por el canal correcto. Marca al jefe (o deja que el addon detecte el arranque del encuentro) y recibe el resumen táctico: lo que vigila el tanque, quién esquiva qué, lo que se corta, lo que jamás hay que pisar. El addon te deja la base hecha: estructura y sugerencias para cada banda, mazmorra y jefe de mundo, listas para usar sin escribir nada. El partido de verdad llega encima: las correcciones y las explicaciones que aporta cada jugador —o cada guild— convierten esa base en la táctica de tu banda.
 
 ## Cobertura — todas las expansiones de World of Warcraft
 
 **12 packs de datos · ~1.590 entradas de jefe · Español / Inglés / Francés / Alemán / Portugués (Brasil) / Chino (simplificado).** Desde la Sima Ígnea hasta Midnight y todo lo demás:
 
-| Expansión | Packs | Jefes | Idiomas |
-|---|---|---|---|
-| Vanilla | Sima Ígnea, BWL, AQ20/40, Naxxramas, Onyxia + las mazmorras clásicas (Gnomeregan, Monasterio Escarlata, Maraudon, Uldaman, Zul'Farrak, Templo Sumergido SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 334 | EN · ES · FR · DE · PT · ZH |
-| The Burning Crusade | De Karazhan a Sunwell, mazmorras heroicas, Zul'Aman | 130 | EN · ES · FR · DE · PT · ZH |
-| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 mazmorras, Onyxia, Trial of the Champion | 173 | EN · ES · FR · DE · PT · ZH |
-| Cataclysm | Tierras de Fuego, Alma de Dragón, BWD + mazmorras, remakes de ZA/ZG | 113 | EN · ES · FR · DE · PT · ZH |
-| Mists of Pandaria | Las 5 bandas, 9 mazmorras, jefes de mundo | 134 | EN · ES · FR · DE · PT · ZH |
-| Warlords of Draenor | Highmaul, Fundición Sangre Negra, Ciudadela del Fuego Infernal + 8 mazmorras, élites de Tanaan | 91 | EN · ES · FR · DE · PT · ZH |
-| Legion | Las 5 bandas, 12 mazmorras, 20 jefes de mundo | 147 | EN · ES · FR · DE · PT · ZH |
-| Battle for Azeroth | Uldir → Ny'alotha, 12 mazmorras, jefes de frentes de guerra | 133 | EN · ES · FR · DE · PT · ZH |
-| Shadowlands | Castillo Nathria, Santuario de la Dominación, Sepulcro de los Primeros + 9 mazmorras + Tazavesh + jefes de mundo | 90 | EN · ES · FR · DE · PT · ZH |
-| Dragonflight | Aberrus, Amirdrassil, Bóveda de los Encarnados + 9 mazmorras + jefes de mundo | 92 | EN · ES · FR · DE · PT · ZH |
-| The War Within | Las bandas y mazmorras de Khaz Algar | 80 | EN · ES · FR · DE · PT · ZH |
-| Midnight | Bandas, mazmorras, lairs y jefes de mundo de la expansión vigente | 71 | EN · ES · FR · DE · PT · ZH |
+| Expansión             | Packs                                                                                                                                                                                                           | Jefes | Idiomas                          |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | -------------------------------- |
+| Vanilla                | Sima Ígnea, BWL, AQ20/40, Naxxramas, Onyxia + las mazmorras clásicas (Gnomeregan, Monasterio Escarlata, Maraudon, Uldaman, Zul'Farrak, Templo Sumergido SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 334   | EN · ES · FR · DE · PT · ZH |
+| The Burning Crusade    | De Karazhan a Sunwell, mazmorras heroicas, Zul'Aman                                                                                                                                                             | 130   | EN · ES · FR · DE · PT · ZH |
+| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 mazmorras, Onyxia, Trial of the Champion                                                                                                                                            | 173   | EN · ES · FR · DE · PT · ZH |
+| Cataclysm              | Tierras de Fuego, Alma de Dragón, BWD + mazmorras, remakes de ZA/ZG                                                                                                                                            | 113   | EN · ES · FR · DE · PT · ZH |
+| Mists of Pandaria      | Las 5 bandas, 9 mazmorras, jefes de mundo                                                                                                                                                                       | 134   | EN · ES · FR · DE · PT · ZH |
+| Warlords of Draenor    | Highmaul, Fundición Sangre Negra, Ciudadela del Fuego Infernal + 8 mazmorras, élites de Tanaan                                                                                                                | 91    | EN · ES · FR · DE · PT · ZH |
+| Legion                 | Las 5 bandas, 12 mazmorras, 20 jefes de mundo                                                                                                                                                                   | 147   | EN · ES · FR · DE · PT · ZH |
+| Battle for Azeroth     | Uldir → Ny'alotha, 12 mazmorras, jefes de frentes de guerra                                                                                                                                                    | 133   | EN · ES · FR · DE · PT · ZH |
+| Shadowlands            | Castillo Nathria, Santuario de la Dominación, Sepulcro de los Primeros + 9 mazmorras + Tazavesh + jefes de mundo                                                                                               | 90    | EN · ES · FR · DE · PT · ZH |
+| Dragonflight           | Aberrus, Amirdrassil, Bóveda de los Encarnados + 9 mazmorras + jefes de mundo                                                                                                                                  | 92    | EN · ES · FR · DE · PT · ZH |
+| The War Within         | Las bandas y mazmorras de Khaz Algar                                                                                                                                                                            | 80    | EN · ES · FR · DE · PT · ZH |
+| Midnight               | Bandas, mazmorras, lairs y jefes de mundo de la expansión vigente                                                                                                                                              | 71    | EN · ES · FR · DE · PT · ZH |
 
 Los doce packs de arriba embarcan con **los seis idiomas completos**; un locale solo se lista in-game cuando cada entrada de ese pack está acabada, así que lo que ves es lo que funciona.
 
 ## Lo esencial
 
 - **Explica al NPC marcado** en unas líneas telegráficas — un comando, o del todo automático al arrancar cada encuentro (sin timers, sin automatización de combate; el modo automático se puede desactivar)
-- **Tácticas escritas a mano** con enlaces de hechizo verificados: cada viñeta nombra la habilidad real, con el enlace directo a tu chat
+- **Sugerencias listas y corregibles** con enlaces de hechizo verificados: cada viñeta nombra la habilidad real, con el enlace directo a tu chat
 - **Tu propio frame de alerta**: durante el combate el juego bloquea el chat de addons, así que la explicación completa vive en tu pantalla — arrastrable, cerrable (X / ESC), se esconde a los 15 s tras la pelea y fuera de combate un botón **"Al chat"** la comparte con el grupo
 - **Nombres de hechizo en el idioma del lector**, resueltos en vivo contra la base de datos del juego (el tooltip muestra la habilidad al pasar el ratón)
 - **Elección inteligente de canal**: raid / grupo / chat de mazmorra LFG automáticamente — o fuerza gremio / local / solo frame
