@@ -1,6 +1,6 @@
 [English](README.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [中文](README.zh.md) · [Русский](README.ru.md) · [한국어](README.ko.md)
 
-**Conoce el combate antes de tirar. Sobrevive en él.**
+**Conoce el combate antes de atacar. Sobrevive en él.**
 
 Bosses te explica cómo funciona un combate de jefe —en pocas líneas afiladas, en el momento justo y por el canal correcto. Marca al jefe (o deja que el addon detecte el arranque del encuentro) y recibe el resumen táctico: lo que vigila el tanque, quién esquiva qué, lo que se corta, lo que jamás hay que pisar. Es conocimiento escrito a mano y probado en combate, no un volcado de wiki: cada banda, mazmorra y jefe de mundo lleva tácticas curadas a mano.
 
