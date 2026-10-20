@@ -8,6 +8,7 @@
 local _, P = ...;
 local pt = {};
 local pack = pt;
+local bos; -- reutilizada para as entradas compartidas (vários NPC ID, mesma tabela)
 
 
 -- The Stockade : Zona 34 (classic) --
@@ -108,6 +109,17 @@ pack["3977"] = { "Alta-inquisidora Cristalba",
 "* Depois de revivê-lo, ela cai primeiro; o Mograine revivido é o último troféu."
 };
 
+
+bos = {
+	"O Cavaleiro Sem Cabeça",
+	"* Chefe festivo do Hallow's End clássico: invocam-no no Cemitério do mosteiro conversando com o santuário de abóboras que espera na entrada.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagração]|h|r incendeia um jogador ao acaso por 4 s e o faz fugir apavorado: afastem-se dele enquanto arde; o curandeiro o tira do sufoco.",
+	"* |cff71d5ff|Hspell:42514|h[Esmagar Almas]|h|r castiga outro jogador por 15 s: curas no marcado.",
+	"* O vaivém da luta: corpo a 1% → fica imune e a CABEÇA voa enquanto o corpo se recupera → todo o foco na Cabeça antes de ela voltar; ela sai três vezes, e na terceira não regressa: derrube-a para encerrar.",
+	"* Na última volta do corpo chegam as Abóboras Pulsantes (lacaios sem id): o tanque as segura e o grupo as limpa com AoE."
+};
+pack["23682"] = bos;
+pack["23775"] = bos;
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
 pack["3983"] = { "Interrogador Vishas",
 "* Uma luta curta e simples: sua única habilidade marcada é Immolate (|cff71d5ff|Hspell:9034|h[Immolate]|h|r) em um jogador, causando dano mágico persistente; desfaça-a ou cure essa marca cuidadosamente."

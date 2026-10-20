@@ -42,7 +42,7 @@ zonas["129"] = { nombre = "Razorfen Downs", jefes = { "74412", "7357", "74347", 
 zonas["209"] = { nombre = "Zul'Farrak", jefes = { "7272", "8127", "7795", "7271", "7273", "7796", "7275", "7267" } };
 
 -- Monasterio Escarlata clásico (sin instancia en el journal; mapa 189; kit escrito a mano)
-zonas["189"] = { nombre = "Scarlet Monastery", jefes = { "3983", "4543", "3974", "6487", "3975", "4542", "3976", "3977" } };
+zonas["189"] = { nombre = "Scarlet Monastery", jefes = { "3983", "4543", "3974", "6487", "3975", "4542", "3976", "3977", "23682", "23775" } };
 
 -- Rincón de la Locura de Zul'Gurub clásico (sin instancia en el journal; mapa 309; kit escrito a mano)
 zonas["309"] = { nombre = "Zul'Gurub", jefes = { "14507", "14517", "14510", "14515", "14509", "11380", "14834", "15114", "5712", "15082", "15083", "15084", "15085", "11382", "14988" } };

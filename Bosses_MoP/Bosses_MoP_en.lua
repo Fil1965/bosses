@@ -451,6 +451,22 @@ pack["60040"] = { "Inquisitor Whitemane and Commander Durand",
 	"* The tank keeps Durand away while the raid eliminates Whitemane first.",
 };
 
+-- Hallow's End: holiday boss of the 10.1.7 rework (ENC 2725, queue into the Scarlet Graveyard). CID 207438 with the LittleWigs kit; head phases and curses from the owner's Wowhead file.
+pack["207438"] = { "The Headless Horseman",
+	"* Before calling him: on the left side of the room stand five wicker man statues (four small, one big). Talking to the BIG one accepts all four curses at once and opens Hard Mode, with its exclusive achievement and better rare loot (the Headless Horseman's Reins drop much more in the first bag of the day). Each curse bites only the player who took it.",
+	"* The four: |cff71d5ff|Hspell:415629|h[Ember Curse]|h|r opens fire circles under your feet — keep moving, no parking. |cff71d5ff|Hspell:415575|h[Cursed Hot Head]|h|r darkens your screen with hallucinations — stay calm and keep hitting. |cff71d5ff|Hspell:415536|h[Shadow Curse]|h|r releases chained souls that chase and frighten you — take them down before they reach you. |cff71d5ff|Hspell:415611|h[Thorny Surprise]|h|r bursts thorns out of the floor — dodge them as they come.",
+	"* Failing these mechanics stacks |cff71d5ff|Hspell:415864|h[Wicker Man's Shadow]|h|r: -10% max health per stack; at the 10th you lose the curses to |cff71d5ff|Hspell:418228|h[Wicker Man's Protection]|h|r — and with them the loot bonus of the attempt.",
+	"* The fight lives in three identical turns: body to 1% → it turns immune and the HEAD flies out (the body quietly heals itself back) → full focus on the Head before it returns. On the third turn the head never comes back: kill it and the fight ends.",
+	"* While the Head is out, Blazing Heads explode around: don't stack under them.",
+	"* On the last body turn arrive the Pulsing Pumpkins: the tank picks them up at once and the group AoEs them down while staying on the boss.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagration]|h|r sets a random player on fire for 4 s and sends him running in panic: allies steer clear while he burns.",
+	"* The tank faces him with his back to the group: his burning frontal cone punishes everything in front — nobody in his face except the tank.",
+	"* |cff71d5ff|Hspell:414844|h[Pumpkin Breath]|h|r comes out of his front: outside the cone except the tank.",
+	"* |cff71d5ff|Hspell:415047|h[Vine March]|h|r creeps across the room floor: step off the lines.",
+	"* |cff71d5ff|Hspell:415262|h[Insidious Cackle]|h|r pushes in an area: spread out of the hit.",
+	"* |cff71d5ff|Hspell:423626|h[Hot Head]|h|r marks a player with the burn aura: keep walking and let it gnaw far from the group."
+};
+
 -- --------------------------------- --
 -- Scarlet Halls : Zone 1001 --
 -- --------------------------------- --

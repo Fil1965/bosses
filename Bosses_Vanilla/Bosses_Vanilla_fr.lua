@@ -617,6 +617,17 @@ pack["3977"] = { "Grande Inquisitrice Whitemane",
 	"* Elle caste ensuite Soins (|cff71d5ff|Hspell:12039|h[Soins]|h|r) pour remplir le ressuscité : coupez-la à chaque fois.",
 	"* Après la résurrection, elle tombe en premier ; le Mograine ressuscité est le dernier trophée."
 };
+
+bos = {
+	"Le Cavalier sans tête",
+	"* Boss festif de Hallow's End classique : il s'invoque au Cimetière du monastère en parlant au sanctuaire de citrouilles qui attend à l'entrée.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagration]|h|r met le feu à un joueur au hasard 4 s et le fait fuir affolé : écartez-vous de lui tant que ça brûle ; le soigneur le sort d'affaire.",
+	"* |cff71d5ff|Hspell:42514|h[Écraser l'âme]|h|r frappe un autre joueur pendant 15 s : des soins sur le marqué.",
+	"* Le tour de la bataille : corps à 1 % → insensible et la TÊTE s'envole pendant que le corps se régénère → tout le focus sur la Tête avant qu'elle ne revienne ; elle sort trois fois, et la troisième ne revient plus : abattez-la pour finir.",
+	"* À la dernière tournée du corps viennent les Citrouilles palpitantes (sbires sans id) : le tank les retient et le groupe les coupe en AoE."
+};
+pack["23682"] = bos;
+pack["23775"] = bos;
 -- Zona 349 : Maraudon (deux branches d'entrée qui convergent devant la salle
 -- de la Princesse). Kit et CIDs du DBM Shared\Maraudon du _doc ;
 -- noms element-1 du corpus 4 langues (journal).

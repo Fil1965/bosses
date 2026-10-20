@@ -451,6 +451,22 @@ pack["60040"] = { "Inquisidora Whitemane y Comandante Durand",
 	"* El tanque mantiene a Durand apartado mientras la banda elimina a Whitemane primero.",
 };
 
+-- Hallow's End: jefe festivo del rework 10.1.7 (ENC 2725, por cola en el Cementerio Escarlata). CID 207438 con kit de LittleWigs; fases de cabeza y maldiciones de la ficha del dueño.
+pack["207438"] = { "El Jinete decapitado",
+	"* Antes de llamarlo: a la izquierda de la estancia esperan cinco estatuas de hombre de mimbre (cuatro pequeñas y la grande). Conversar con la GRANDE acepta las cuatro maldiciones a la vez y abre el Modo Difícil, con el logro ¡Con pies de mimbre! y mejor botín raro (las Riendas del Jinete decapitado caen más en la primera bolsa del día). Cada maldición muerde solo a quien la aceptó.",
+	"* Las cuatro: |cff71d5ff|Hspell:415629|h[Maldición de las ascuas]|h|r abre círculos de fuego bajo tus pies — muévete sin parar. |cff71d5ff|Hspell:415575|h[Maldición de la cabeza ardiente]|h|r oscurece la pantalla con alucinaciones — mantén la calma y sigue pegando. |cff71d5ff|Hspell:415536|h[Maldición de las sombras]|h|r suelta almas encadenadas que te persiguen y aterrorizan — deríbalas antes de que te alcancen. |cff71d5ff|Hspell:415611|h[Sorpresa espinosa]|h|r hace brotar espinas del suelo — esquívalas al vuelo.",
+	"* Fallar esas mecánicas apila |cff71d5ff|Hspell:415864|h[Sombra del hombre de mimbre]|h|r: -10% de salud máxima por marca; con 10 marcas pierdes las maldiciones por la |cff71d5ff|Hspell:418228|h[Protección del hombre de mimbre]|h|r — y con ellas el bono de botín del intento.",
+	"* El combate late en tres vueltas iguales: cuerpo al 1% → queda inmune y la CABEZA sale volando (el cuerpo se rellena de vida a su aire) → foco máximo a la Cabeza antes de que regrese. En la tercera vuelta la cabeza ya no se recoloca: deríbala y se acaba.",
+	"* Con la Cabeza fuera brotan Cabezas flameantes que explotan: no te apiles debajo.",
+	"* En la última vuelta del cuerpo invoca Calabazas pulsantes: el tanque las agarra enseguida y la banda las limpia con AoE mientras sigue al jefe.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagración]|h|r prende a un jugador al azar 4 s y lo hace correr despavorido: los aliados se apartan de él mientras arde.",
+	"* El tanque lo lleva de espaldas al grupo: su cono frontal Mella ígnea pega fuego fuerte — bajo su hocico, nadie salvo el tanque.",
+	"* |cff71d5ff|Hspell:414844|h[Aliento de calabaza]|h|r sale por su frontal: fuera del cono salvo el tanque.",
+	"* |cff71d5ff|Hspell:415047|h[Marcha de enredaderas]|h|r avanza por el suelo de la sala: apartaos de las líneas.",
+	"* |cff71d5ff|Hspell:415262|h[Carcajada insidiosa]|h|r empuja en área: esparciros del golpe.",
+	"* |cff71d5ff|Hspell:423626|h[Cabeza caliente]|h|r marca a un jugador con el aura de quemadura: sigue caminando y deja que muerda lejos del grupo."
+};
+
 -- --------------------------------- --
 -- Scarlet Halls : Zona 1001 --
 -- --------------------------------- --

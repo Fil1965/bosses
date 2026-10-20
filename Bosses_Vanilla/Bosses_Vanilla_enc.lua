@@ -12,4 +12,6 @@
 local _, P = ...;
 local enc = {};
 
+-- SIN ENC: Jefe festivo de Hallow's End (23682 cuerpo, 23775 cabeza) — resuelve por GUID.
+
 P.enc = enc;

@@ -617,6 +617,17 @@ pack["3977"] = { "Hochinquisitorin Whitemane",
 	"* Danach castet sie Heilung (|cff71d5ff|Hspell:12039|h[Heilung]|h|r), um den Auferstandenen vollzuschütten: jedes Mal brechen.",
 	"* Nach der Auferstehung fällt sie zuerst; der auferstandene Mograine ist die letzte Beute."
 };
+
+bos = {
+	"Der kopflose Reiter",
+	"* Festtagsboss des klassischen Hallow's End: er beschwört sich auf dem Friedhof des Klosters, sobald ihr mit dem Kürbisschrein am Eingang sprecht.",
+	"* |cff71d5ff|Hspell:42380|h[Feuersbrunst]|h|r setzt einen zufälligen Spieler 4 s in Brand und jagt ihn flüchtend in Panik: haltet Abstand, solange er brennt; der Heiler zieht ihn raus.",
+	"* |cff71d5ff|Hspell:42514|h[Seelen zermalmen]|h|r trifft 15 s lang einen zweiten Spieler: Heilung auf den Markierten.",
+	"* Der Takt der Schlacht: Körper auf 1 % → immun, und der KOPF fliegt heraus, während sich der Körper auffüllt → das ganze Augenmerk auf den Kopf, bevor er zurückkommt; er erscheint dreimal, beim dritten Mal kehrt er nicht mehr zurück: erledigt ihn, dann ist Feierabend.",
+	"* In der letzten Körper-Runde kommen Pulsiende Kürbisse (Adds ohne Id): der Tank hält sie, die Gruppe schält sie mit AoE weg."
+};
+pack["23682"] = bos;
+pack["23775"] = bos;
 -- Zone 349: Maraudon (zwei Eingangszweige, die vor dem Saal der Prinzessin
 -- zusammenlaufen). Kit und CIDs aus dem DBM Shared\Maraudon im _doc;
 -- Namen element-1 aus dem 4-Sprachen-Korpus (journal).

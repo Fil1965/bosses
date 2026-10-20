@@ -15,7 +15,7 @@ zonas["962"] = { nombre = "Gate of the Setting Sun", jefes = { "56906", "56589",
 zonas["994"] = { nombre = "Mogu'shan Palace", jefes = { "61398", "61442", "61243" } };
 zonas["996"] = { nombre = "Terrace of Endless Spring", jefes = { "60585", "60999", "62442", "62983" } };
 zonas["1001"] = { nombre = "Scarlet Halls", jefes = { "59150", "58632", "59303" } };
-zonas["1004"] = { nombre = "Scarlet Monastery (MoP)", jefes = { "59789", "59223", "60040" } };
+zonas["1004"] = { nombre = "Scarlet Monastery (MoP)", jefes = { "59789", "59223", "60040", "207438" } };
 zonas["1007"] = { nombre = "Scholomance", jefes = { "58633", "59184", "59153", "58722", "59080" } };
 zonas["1008"] = { nombre = "Mogushan Vaults", jefes = { "60009", "60051", "60399", "60143", "60701", "60410" } };
 zonas["1009"] = { nombre = "Heart of Fear", jefes = { "63191", "62397", "62511", "62837", "62543", "62980" } };

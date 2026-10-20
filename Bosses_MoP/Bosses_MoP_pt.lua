@@ -258,6 +258,22 @@ pack["72057"] = { "Ordos",
 "* |cff71d5ff|Hspell:144695|h[Soul of Fire]|h|r: o jogador marcado corre IMEDIATAMENTE para longe da raid para explodir sozinho."
 };
 
+-- Hallow's End: chefe festivo do rework 10.1.7 (ENC 2725, por fila no Cemitério Escarlate). CID 207438 com o kit do LittleWigs; fases de cabeça e maldições conforme a ficha do dono.
+pack["207438"] = { "O Cavaleiro Sem Cabeça",
+	"* Antes de chamá-lo: à esquerda da sala esperam cinco estátuas de homem de vime (quatro pequenas e a grande). Conversar com a GRANDE aceita as quatro maldições de uma vez e abre o Modo Difícil, com o feito exclusivo e melhor saque raro (as Rédeas do Cavaleiro Sem Cabeça caem mais na primeira bolsa do dia). Cada maldição morde só quem a aceitou.",
+	"* As quatro: |cff71d5ff|Hspell:415629|h[Maldição das Ascuas]|h|r abre círculos de fogo sob seus pés — mexa-se sem parar. |cff71d5ff|Hspell:415575|h[Maldição da Cabeça Flamejante]|h|r escurece a tela com alucinações — mantenha a calma e siga batendo. |cff71d5ff|Hspell:415536|h[Maldição das Sombras]|h|r solta almas acorrentadas que perseguem e aterrorizam — derrube-as antes de te alcançarem. |cff71d5ff|Hspell:415611|h[Surpresa Espinhosa]|h|r faz brotar espinhos do chão — esquive no ato.",
+	"* Errar essas mecânicas empilha |cff71d5ff|Hspell:415864|h[Sombra do Homem de Vime]|h|r: -10% de vida máxima por marca; na 10ª você perde as maldições pela |cff71d5ff|Hspell:418228|h[Proteção do Homem de Vime]|h|r — e junto o bônus de saque da tentativa.",
+	"* A luta pulsa em três voltas idênticas: corpo a 1% → fica imune e a CABEÇA voa (o corpo se recupera tranquilo) → foco total na cabeça antes de ela voltar ao corpo. Na terceira volta a cabeça não regressa mais: derrube-a e acabou.",
+	"* Com a Cabeça fora, Cabeças Flamejantes explotam perto: não se empilhe embaixo delas.",
+	"* Na última volta do corpo chegam as Abóboras Pulsantes: o tanque as segura logo e o grupo as limpa com AoE enquanto segue no chefe.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagração]|h|r incendeia um jogador ao acaso por 4 s e o faz fugir apavorado: o grupo se afasta dele enquanto arde.",
+	"* O tanque o segura de costas para o grupo: seu cone frontal em chamas pega forte — diante do focinho dele, ninguém além do tanque.",
+	"* |cff71d5ff|Hspell:414844|h[Bafo de Abóbora]|h|r sai pela frontal: fora do cone, exceto o tanque.",
+	"* |cff71d5ff|Hspell:415047|h[Marcha das Trepadeiras]|h|r avança pelo chão da sala: afastem-se das linhas.",
+	"* |cff71d5ff|Hspell:415262|h[Casquinha Insidiosa]|h|r empurra em área: espalhem-se do impacto.",
+	"* |cff71d5ff|Hspell:423626|h[Cabeça em Brasa]|h|r marca um jogador com a aura de queimadura: siga andando e deixe que morda longe do grupo."
+};
+
 -- Scarlet Halls : Zona 1001 --
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

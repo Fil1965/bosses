@@ -258,6 +258,22 @@ pack["72057"] = { "Ordos",
 "* |cff71d5ff|Hspell:144695|h[Soul of Fire]|h|r: Der markierte Spieler rennt SOFORT weg vom Raid, um allein zu explodieren."
 };
 
+-- Hallow's End: Festtagsboss des 10.1.7-Reworks (ENC 2725, über die Schlange zum scharlachroten Friedhof). CID 207438 mit dem LittleWigs-Kit; Kopfphasen und Flüche nach der Akte des Besitzers.
+pack["207438"] = { "Der kopflose Reiter",
+	"* Bevor ihr ihn ruft: links im Raum stehen fünf Statuen von Männern aus Weidengeflecht (vier kleine und die eine große). Mit der GROSSEN sprechen akzeptiert alle vier Flüche auf einmal und öffnet den Schwermodus samt exklusivem Erfolg und besserer seltener Beute (die Zügel des kopflosen Reiters fallen eher in der ersten Beutetasche des Tages). Jeder Fluch beißt nur den, der ihn angenommen hat.",
+	"* Die vier: |cff71d5ff|Hspell:415629|h[Fluch der Glut]|h|r öffnet Feuerkreise unter euren Füßen — bewegt euch pausenlos. |cff71d5ff|Hspell:415575|h[Fluch des glühenden Kopfes]|h|r verdunkelt den Bildschirm mit Halluzinationen — bleibt ruhig und haut weiter drauf. |cff71d5ff|Hspell:415536|h[Fluch der Schatten]|h|r lässt kettengebundene Seelen los, die euch verfolgen und erschrecken — tötet sie, bevor sie euch erreichen. |cff71d5ff|Hspell:415611|h[Dornige Überraschung]|h|r treibt Dornen aus dem Boden — weicht im Vorbeigehen aus.",
+	"* Fehler bei diesen Mechaniken stapeln den |cff71d5ff|Hspell:415864|h[Schatten des Weidenmanns]|h|r: -10 % maximale Gesundheit pro Stapel; beim 10. verliert ihr die Flüche durch den |cff71d5ff|Hspell:418228|h[Schutz des Weidenmanns]|h|r — und mit ihnen den Beutebonus des Versuchs.",
+	"* Der Kampf atmet in drei gleichen Runden: Körper auf 1 % → er wird immun und der KOPF fliegt heraus (der Körper füllt sich ungestört wieder auf) → volle Kraft auf den Kopf, bevor er zum Körper zurückkehrt. In der dritten Runde kehrt der Kopf nicht mehr zurück: bringt ihn runter, dann ist Schluss.",
+	"* Ist der Kopf draußen, springen Flammende Köpfe in der Nähe: stapelt euch nicht darunter.",
+	"* In der letzten Körper-Runde kommen Pulsiende Kürbisse: der Tank greift sie sofort und die Gruppe räumt sie mit AoE weg, während es beim Boss weitergeht.",
+	"* |cff71d5ff|Hspell:42380|h[Feuersbrunst]|h|r setzt einen zufälligen Spieler 4 s in Brand und jagt ihn panisch wegrennen: die Verbündeten weichen ihm aus, solange er brennt.",
+	"* Der Tank hält ihn mit dem Rücken zur Gruppe: sein brennender Frontalkegel setzt alles stark zu — vor seinem Gesicht bleibt außer dem Tank niemand.",
+	"* |cff71d5ff|Hspell:414844|h[Kürbisatem]|h|r kommt aus seinem Frontal: außerhalb des Kegels, außer der Tank.",
+	"* |cff71d5ff|Hspell:415047|h[Rankenmarsch]|h|r zieht über den Boden des Raums: aus den Linien raus.",
+	"* |cff71d5ff|Hspell:415262|h[Heimtückisches Kichern]|h|r stößt im Umkreis: verteilt euch vom Treffer.",
+	"* |cff71d5ff|Hspell:423626|h[Glühender Kopf]|h|r markiert einen Spieler mit der Brand-Aura: weiterlaufen und das Brennen weit von der Gruppe tragen."
+};
+
 -- Scarlet Halls : Zona 1001 --
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --

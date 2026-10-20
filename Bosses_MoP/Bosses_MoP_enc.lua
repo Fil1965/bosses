@@ -91,6 +91,7 @@ enc["1563"] = "62346"; -- Salyis
 enc["1564"] = "60491"; -- Anger
 enc["1571"] = "69099"; -- Nalak
 enc["1587"] = "69161"; -- Oondasta
+enc["2725"] = "207438"; -- Headless Horseman (Hallow's End holiday boss, rework 10.1.7)
 -- SIN ENC: Chi Ji (71952)
 -- SIN ENC: Niuzao (71954)
 -- SIN ENC: Ordos (72057)

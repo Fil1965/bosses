@@ -615,6 +615,17 @@ pack["3977"] = { "Alta Inquisidora Melenablanca",
 	"* Después castea Sanar (|cff71d5ff|Hspell:12039|h[Sanar]|h|r) para llenar al resucitado: córtala siempre.",
 	"* Tras revivirlo, cae ella primero; el Mograine resucitado es el último trofeo."
 };
+
+bos = {
+	"El Jinete decapitado",
+	"* Jefe festivo de Hallow's End clásico: se invoca en el Cementerio del Monasterio interactuando con el santuario de calabazas que espera en la entrada.",
+	"* |cff71d5ff|Hspell:42380|h[Conflagración]|h|r prende a un jugador al azar 4 s y lo hace huir despavorido: apartaos de él mientras arde; el sanador le saca del apuro.",
+	"* |cff71d5ff|Hspell:42514|h[Aplastar alma]|h|r castiga a otro jugador durante 15 s: curas al marcado.",
+	"* El bucle del combate: cuerpo al 1% → queda inmune y la CABEZA sale volando mientras el cuerpo se cura a su aire → TODO el foco a la Cabeza antes de que regrese; sale tres veces, y la tercera ya no vuelve: derribadla para acabar.",
+	"* En la última vuelta del cuerpo llegan las Calabazas pulsantes (esbirros sin id): el tanque las retiene y la banda las corta con AoE."
+};
+pack["23682"] = bos;
+pack["23775"] = bos;
 -- Zona 349: Maraudon (dos ramas de entrada que convergen ante el salón
 -- de la Princesa). Kit y CIDs del DBM Shared\Maraudon del _doc;
 -- nombres element-1 del corpus 4 idiomas (journal).
