@@ -2,7 +2,7 @@
 
 All notable changes to Bosses are documented here.
 
-## [Sin Publicar]
+## [1.0.15] - 2026-10-20
 - README recalibrado en los 8 idiomas: la intro ya no vende el contenido precargado como «escrito a mano / curado a mano» — ahora dice que el addon aporta estructura y sugerencias listas para usar tal cual, y que el partido de verdad llega cuando cada jugador o guild pone encima sus propias correcciones y explicaciones; la viñeta de destacados pasa de «Tácticas escritas a mano» a «sugerencias listas y corregibles».
 - Jefe festivo de Hallow's End en los dos eras: el Jinete Decapitado explicado en Vanilla (clásico: Cementerio del Monasterio, CIDs 23682/23775, bucle cuerpo→cabeza ×3) y MoP (retail rework 10.1.7: CID 207438 con ENC 2725, zona 1004); el modo duro del retail explicado con las 4 maldiciones del hombre de mimbre (círculos de fuego, alucinaciones, almas encadenadas que aterran y espinas del suelo) y la penalización por acumular Sombra del hombre de mimbre (-10% de salud máxima por marca; a la décima se pierden las maldiciones y el bono de botín). Entradas a mano en los 16 ficheros de datos (8 locales × 2 packs), índices _enc y _zonas actualizados, nombres del cliente vía BigWigs !Locales.
 

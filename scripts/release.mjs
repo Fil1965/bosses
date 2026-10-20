@@ -116,23 +116,41 @@ async function ensureChangelogHeader() {
 }
 
 async function addToChangelog(version, message, date) {
-  await ensureChangelogHeader();
-  const content = await fs.readFile(CHANGELOG_FILE, "utf8");
+	await ensureChangelogHeader();
+	const content = await fs.readFile(CHANGELOG_FILE, "utf8");
 
-  // Insertar justo después de la cabecera
-  const headerEnd = content.indexOf("\n\n") + 2;
-  const before = content.slice(0, headerEnd);
-  const after = content.slice(headerEnd);
+	const lines = message
+		.split(/\r?\n/)
+		.map((l) => `- ${l}`)
+		.join("\n");
 
-  const lines = message
-    .split(/\r?\n/)
-    .map((l) => `- ${l}`)
-    .join("\n");
+	// ¿Hay bloque [Sin Publicar]? Plegarlo: la cabecera pasa a [version] - date
+	// y el mensaje entra como primera bala del bloque (orden newest-on-top).
+	const sinPublicar = content.indexOf("## [Sin Publicar]");
+	if (sinPublicar !== -1) {
+		const lineEnd = content.indexOf("\n", sinPublicar) + 1;
+		const folded = `## [${version}] - ${date}\n${lines}\n`;
+		await fs.writeFile(
+			CHANGELOG_FILE,
+			content.slice(0, sinPublicar) + folded + content.slice(lineEnd),
+			"utf8",
+		);
+		console.log(`  ✓ CHANGELOG.md: [Sin Publicar] plegado en [${version}]`);
+		return;
+	}
 
-  const entry = `## [${version}] - ${date}\n${lines}\n\n`;
-
-  await fs.writeFile(CHANGELOG_FILE, before + entry + after, "utf8");
-  console.log(`  ✓ CHANGELOG.md += [${version}]`);
+	// Insertar delante del primer bloque de versión (después de la intro);
+	// el indexOf("\n\n") de antes insertaba ANTES de la línea
+	// "All notable changes…" y troceaba la cabecera.
+	const firstVersion = content.indexOf("\n## [");
+	const insertAt = firstVersion === -1 ? content.length : firstVersion + 1;
+	const entry = `## [${version}] - ${date}\n${lines}\n\n`;
+	await fs.writeFile(
+		CHANGELOG_FILE,
+		content.slice(0, insertAt) + entry + content.slice(insertAt),
+		"utf8",
+	);
+	console.log(`  ✓ CHANGELOG.md += [${version}]`);
 }
 
 async function runScript(name) {
