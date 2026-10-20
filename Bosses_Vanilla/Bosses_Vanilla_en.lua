@@ -621,7 +621,7 @@ bos = {
 	"* Festive boss of classic Hallow's End: summon it in the monastery graveyard by talking to the pumpkin shrine waiting at the entrance.",
 	"* |cff71d5ff|Hspell:42380|h[Conflagration]|h|r sets a random player on fire for 4 s and sends him fleeing in panic: stay away from him while he burns; the healer gets him out of it.",
 	"* |cff71d5ff|Hspell:42514|h[Squash Soul]|h|r afflicts another player for 15 s: heals on the marked one.",
-	"* The rhythm of the fight: body to 1% → immune, and the HEAD flies off while the body heals itself → all focus on the Head before it returns; it comes out three times, and the third time it never returns: bring it down to finish.",
+	"* The rhythm of the fight: body to 1% -> immune, and the HEAD flies off while the body heals itself -> all focus on the Head before it returns; it comes out three times, and the third time it never returns: bring it down to finish.",
 	"* On the last body turn arrive the Pulsing Pumpkins (adds, no id): the tank holds them and the group cleaves them down."
 };
 pack["23682"] = bos;

@@ -115,7 +115,7 @@ bos = {
 	"* Chefe festivo do Hallow's End clássico: invocam-no no Cemitério do mosteiro conversando com o santuário de abóboras que espera na entrada.",
 	"* |cff71d5ff|Hspell:42380|h[Conflagração]|h|r incendeia um jogador ao acaso por 4 s e o faz fugir apavorado: afastem-se dele enquanto arde; o curandeiro o tira do sufoco.",
 	"* |cff71d5ff|Hspell:42514|h[Esmagar Almas]|h|r castiga outro jogador por 15 s: curas no marcado.",
-	"* O vaivém da luta: corpo a 1% → fica imune e a CABEÇA voa enquanto o corpo se recupera → todo o foco na Cabeça antes de ela voltar; ela sai três vezes, e na terceira não regressa: derrube-a para encerrar.",
+	"* O vaivém da luta: corpo a 1% -> fica imune e a CABEÇA voa enquanto o corpo se recupera -> todo o foco na Cabeça antes de ela voltar; ela sai três vezes, e na terceira não regressa: derrube-a para encerrar.",
 	"* Na última volta do corpo chegam as Abóboras Pulsantes (lacaios sem id): o tanque as segura e o grupo as limpa com AoE."
 };
 pack["23682"] = bos;

@@ -623,7 +623,7 @@ bos = {
 	"* Festtagsboss des klassischen Hallow's End: er beschwört sich auf dem Friedhof des Klosters, sobald ihr mit dem Kürbisschrein am Eingang sprecht.",
 	"* |cff71d5ff|Hspell:42380|h[Feuersbrunst]|h|r setzt einen zufälligen Spieler 4 s in Brand und jagt ihn flüchtend in Panik: haltet Abstand, solange er brennt; der Heiler zieht ihn raus.",
 	"* |cff71d5ff|Hspell:42514|h[Seelen zermalmen]|h|r trifft 15 s lang einen zweiten Spieler: Heilung auf den Markierten.",
-	"* Der Takt der Schlacht: Körper auf 1 % → immun, und der KOPF fliegt heraus, während sich der Körper auffüllt → das ganze Augenmerk auf den Kopf, bevor er zurückkommt; er erscheint dreimal, beim dritten Mal kehrt er nicht mehr zurück: erledigt ihn, dann ist Feierabend.",
+	"* Der Takt der Schlacht: Körper auf 1 % -> immun, und der KOPF fliegt heraus, während sich der Körper auffüllt -> das ganze Augenmerk auf den Kopf, bevor er zurückkommt; er erscheint dreimal, beim dritten Mal kehrt er nicht mehr zurück: erledigt ihn, dann ist Feierabend.",
 	"* In der letzten Körper-Runde kommen Pulsiende Kürbisse (Adds ohne Id): der Tank hält sie, die Gruppe schält sie mit AoE weg."
 };
 pack["23682"] = bos;
