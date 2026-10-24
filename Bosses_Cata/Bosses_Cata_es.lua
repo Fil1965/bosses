@@ -458,7 +458,8 @@ pack["55869"] = { "Alizabal, Señora del odio",
 -- -------------------------------- --
 
 pack["41570"] = { "Faucemagma",
-    "* Muerde al tanque con |cff71d5ff|Hspell:-3314|h[Destrozar]|h|r (su |cff71d5ff|Hspell:-3315|h[Armadura sofocante]|h|r funde la armadura) y en ese momento dos jugadores encadenados suben a las tenazas: enganchan la púa con el |cff71d5ff|Hspell:-3320|h[Lanzar gancho]|h|r y lo empalan, abriendo la |cff71d5ff|Hspell:-3321|h[Punto vulnerable]|h|r que recibe daño creciente.",
+    "* Muerde al tanque con |cff71d5ff|Hspell:-3314|h[Destrozar]|h|r (su |cff71d5ff|Hspell:-3315|h[Armadura sofocante]|h|r funde la armadura) y en ese momento dos jugadores encadenados suben a las tenazas: enganchan la púa con el |cff71d5ff|Hspell:-3320|h[Lanzar gancho]|h|r",
+    "* y lo empalan, abriendo la |cff71d5ff|Hspell:-3321|h[Punto vulnerable]|h|r que recibe daño creciente.",
     "* El tanque no puede dejarlo sin cuerpo a cuerpo: si no alcanza a nadie entra en |cff71d5ff|Hspell:-3317|h[Rabieta de arrabio]|h|r.",
     "* Los |cff71d5ff|Hspell:-3312|h[parásitos de lava]|h|r saltan sobre jugadores y los van drenando (|cff71d5ff|Hspell:-3313|h[Infección parasitaria]|h|r): la banda los mata con AoE mientras se separa.",
     "* El |cff71d5ff|Hspell:-3310|h[Flema de magma]|h|r escupe a 3 jugadores y la |cff71d5ff|Hspell:-3311|h[Columna de llamas]|h|r cae a los pies del objetivo, que se aparta.",
@@ -467,10 +468,12 @@ pack["41570"] = { "Faucemagma",
 
 bos = { "Sistema de Defensa de Omnitron",
     "* Los cuatro gólems alternan dos a dos: sólo se ataca al ACTIVO mientras el otro se recarga.",
-    "* Magmatron: la |cff71d5ff|Hspell:-3264|h[Medida de seguridad de incineración]|h|r golpea a todo el recinto (curas continuas); el marcado del |cff71d5ff|Hspell:-3265|h[Fijando objetivo]|h|r corre del cono del |cff71d5ff|Hspell:-3266|h[Lanzallamas]|h|r y en heroico aguanta con curas por las |cff71d5ff|Hspell:-3267|h[Sombras atrapantes]|h|r; su |cff71d5ff|Hspell:-3268|h[Barrera]|h|r se rompe a golpes.",
+    "* Magmatron: la |cff71d5ff|Hspell:-3264|h[Medida de seguridad de incineración]|h|r golpea a todo el recinto (curas continuas);",
+    "* el marcado del |cff71d5ff|Hspell:-3265|h[Fijando objetivo]|h|r corre del cono del |cff71d5ff|Hspell:-3266|h[Lanzallamas]|h|r y en heroico aguanta con curas por las |cff71d5ff|Hspell:-3267|h[Sombras atrapantes]|h|r; su |cff71d5ff|Hspell:-3268|h[Barrera]|h|r se rompe a golpes.",
     "* Arcanotron: el |cff71d5ff|Hspell:-3195|h[Generador de poder]|h|r bufea a quien lo pise y a los gólems, así que el marcado lo saca del grupo; el |cff71d5ff|Hspell:-3196|h[Aniquilador Arcano]|h|r se interrumpe en lo posible y con la |cff71d5ff|Hspell:-3197|h[Conversión de poder]|h|r NADIE ataca al escudo.",
     "* Electron: el marcado del |cff71d5ff|Hspell:-3202|h[Conductor de relámpagos]|h|r se aleja (daña a los cercanos); hay separación para la |cff71d5ff|Hspell:-3203|h[Descarga eléctrica]|h|r y su |cff71d5ff|Hspell:-3204|h[Escudo inestable]|h|r no se toca (heroico: provoca la |cff71d5ff|Hspell:-3205|h[Infusión de Sombras]|h|r).",
-    "* Toxitron: las |cff71d5ff|Hspell:-3269|h[Bombas químicas]|h|r y sus |cff71d5ff|Hspell:-3270|h[Nubes químicas]|h|r (dentro +50% de daño recibido: nadie) y su |cff71d5ff|Hspell:-3271|h[Protocolo de veneno]|h|r sueltan bombas perseguidoras que quedan en |cff71d5ff|Hspell:-3273|h[charcos venenosos]|h|r; su |cff71d5ff|Hspell:-3274|h[Bala empapada]|h|r tampoco se ataca (empapa de veneno al atacante)."
+    "* Toxitron: las |cff71d5ff|Hspell:-3269|h[Bombas químicas]|h|r y sus |cff71d5ff|Hspell:-3270|h[Nubes químicas]|h|r (dentro +50% de daño recibido: nadie) y su |cff71d5ff|Hspell:-3271|h[Protocolo de veneno]|h|r sueltan bombas perseguidoras que quedan en",
+    "* |cff71d5ff|Hspell:-3273|h[charcos venenosos]|h|r; su |cff71d5ff|Hspell:-3274|h[Bala empapada]|h|r tampoco se ataca (empapa de veneno al atacante)."
 };
 pack["42179"] = bos; pack["42178"] = bos; pack["42166"] = bos; pack["42180"] = bos;
 
@@ -491,7 +494,8 @@ pack["43296"] = { "Chimaeron",
 };
 
 pack["41378"] = { "Maloriak",
-    "* Vierte viales al caldero y el color manda: con el |cff71d5ff|Hspell:-2935|h[vial rojo]|h|r castea |cff71d5ff|Hspell:-2936|h[Llamas acuciantes]|h|r a un blanco y la |cff71d5ff|Hspell:-2937|h[Explosión agostadora]|h|r se divide entre los que estén cerca (banda junta); con el |cff71d5ff|Hspell:-2938|h[vial azul]|h|r la |cff71d5ff|Hspell:-2939|h[Escalofrío cortante]|h|r pega al que esté cerca (banda junta) y la |cff71d5ff|Hspell:-2940|h[Congelación apresurada]|h|r atrapa a jugadores; y con el |cff71d5ff|Hspell:-2941|h[vial verde]|h|r la |cff71d5ff|Hspell:-2942|h[Baba debilitadora]|h|r hace recibir más daño (aprovechar: full DPS).",
+    "* Vierte viales al caldero y el color manda: con el |cff71d5ff|Hspell:-2935|h[vial rojo]|h|r castea |cff71d5ff|Hspell:-2936|h[Llamas acuciantes]|h|r a un blanco y la |cff71d5ff|Hspell:-2937|h[Explosión agostadora]|h|r se divide entre los que estén cerca (banda junta);",
+    "* con el |cff71d5ff|Hspell:-2938|h[vial azul]|h|r la |cff71d5ff|Hspell:-2939|h[Escalofrío cortante]|h|r pega al que esté cerca (banda junta) y la |cff71d5ff|Hspell:-2940|h[Congelación apresurada]|h|r atrapa a jugadores; y con el |cff71d5ff|Hspell:-2941|h[vial verde]|h|r la |cff71d5ff|Hspell:-2942|h[Baba debilitadora]|h|r hace recibir más daño (aprovechar: full DPS).",
     "* Con cada vial libera |cff71d5ff|Hspell:-2931|h[aberraciones]|h|r: se matan separadas, porque se bufean entre ellas con el |cff71d5ff|Hspell:-2933|h[Catalizador de crecimiento]|h|r.",
     "* Con el |cff71d5ff|Hspell:-2943|h[frasco de Magia oscura]|h|r (heroico) salen los |cff71d5ff|Hspell:-2946|h[Bazofia vil]|h|r que encharcan con su |cff71d5ff|Hspell:-2947|h[Fango oscuro]|h|r y canalizan la |cff71d5ff|Hspell:-2945|h[Oscuridad engullidora]|h|r: interrumpirla.",
     "* FASE 2 (25%): |cff71d5ff|Hspell:-2949|h[Liberar a todos]|h|r (aberraciones + los 2 |cff71d5ff|Hspell:-2953|h[Sujeto principal]|h|r, prioridad de muerte), mientras se esquivan los |cff71d5ff|Hspell:-2950|h[Chorros de magma]|h|r y la |cff71d5ff|Hspell:-2951|h[Cero absoluto]|h|r estalla lejos; la |cff71d5ff|Hspell:-2952|h[Nova de ácido]|h|r es dot progresivo: curas y daño final."
@@ -499,8 +503,10 @@ pack["41378"] = { "Maloriak",
 
 bos = { "El final de Nefarian",
     "* Nefarian reanima a Onyxia (|cff71d5ff|Hspell:-3277|h[¡Álzate, hermana!]|h|r): si quedan a menos de 50 m la |cff71d5ff|Hspell:-3278|h[Hijos de Alamuerte]|h|r les dobla la rapidez de ataque, así que los dos dragones se tanquean en extremos separados.",
-    "* FASE 1: matar a Onyxia primero; su |cff71d5ff|Hspell:-3284|h[Energía eléctrica]|h|r sube con el tiempo y con cada |cff71d5ff|Hspell:-3276|h[Electrocutar]|h|r de Nefarian, y una |cff71d5ff|Hspell:-3288|h[Sobrecarga eléctrica]|h|r llena lo arrasa; Nefarian invoca |cff71d5ff|Hspell:-3280|h[Guerreros osarios animados]|h|r antes de aterrizar y aplica el |cff71d5ff|Hspell:-3295|h[Dominio]|h|r sobre un jugador (se le curan las |cff71d5ff|Hspell:-3297|h[sombras]|h|r, no se le daña).",
-    "* FASE 2 (al morir Onyxia): el suelo se llena de lava y quedan 3 plataformas con un |cff71d5ff|Hspell:-3299|h[Prototipo cromático]|h|r cada una: se matan los 3 rápido, porque sus |cff71d5ff|Hspell:-3300|h[Novas explosivas]|h|r dañan a todos, esquivando la |cff71d5ff|Hspell:-3301|h[Tromba de Pirosombra]|h|r y las |cff71d5ff|Hspell:-3302|h[Cenizas explosivas]|h|r del vuelo.",
+    "* FASE 1: matar a Onyxia primero; su |cff71d5ff|Hspell:-3284|h[Energía eléctrica]|h|r sube con el tiempo y con cada |cff71d5ff|Hspell:-3276|h[Electrocutar]|h|r de Nefarian, y una |cff71d5ff|Hspell:-3288|h[Sobrecarga eléctrica]|h|r llena lo arrasa;",
+    "* Nefarian invoca |cff71d5ff|Hspell:-3280|h[Guerreros osarios animados]|h|r antes de aterrizar y aplica el |cff71d5ff|Hspell:-3295|h[Dominio]|h|r sobre un jugador (se le curan las |cff71d5ff|Hspell:-3297|h[sombras]|h|r, no se le daña).",
+    "* FASE 2 (al morir Onyxia): el suelo se llena de lava y quedan 3 plataformas con un |cff71d5ff|Hspell:-3299|h[Prototipo cromático]|h|r cada una: se matan los 3 rápido, porque sus |cff71d5ff|Hspell:-3300|h[Novas explosivas]|h|r dañan a todos,",
+    "* esquivando la |cff71d5ff|Hspell:-3301|h[Tromba de Pirosombra]|h|r y las |cff71d5ff|Hspell:-3302|h[Cenizas explosivas]|h|r del vuelo.",
     "* FASE 3: baja Nefarian y full DPS con lust/heroísmo: no alargar (su |cff71d5ff|Hspell:-3305|h[Chispa de llamarada de las Sombras]|h|r crece y los |cff71d5ff|Hspell:-3306|h[guerreros osarios]|h|r reaniman con su |cff71d5ff|Hspell:-3307|h[Golpes potenciantes]|h|r)."
 };
 pack["41376"] = bos; pack["41270"] = bos;
@@ -586,7 +592,8 @@ pack["45213"] = { "Sinestra",
     "* Solo en 25. FASE 1 (hasta el 30%): vuela y hay que quemarla desde abajo; las |cff71d5ff|Hspell:-3229|h[Cercenadoras crepusculares]|h|r persiguen a un jugador desde el aire: el marcado corre lejos (al morir la orbe, nadie delante por la |cff71d5ff|Hspell:-3230|h[Explosión crepuscular]|h|r).",
     "* La |cff71d5ff|Hspell:-3227|h[Arruinar]|h|r cae en un jugador con daño creciente y SALTARá a otro cercano al pasar su tiempo: el marcado se aparta de la banda y el sanador la lleva al límite.",
     "* Los |cff71d5ff|Hspell:-3231|h[Crías crepusculares]|h|r caen con su |cff71d5ff|Hspell:-3232|h[Saliva Crepuscular]|h|r a un jugador: un grupo las kotea al fondo y las mata rápido, sin pisar los charcos de |cff71d5ff|Hspell:-3233|h[Esencia]|h|r.",
-    "* FASE 2 (al 30%): Calen empieza su duelo y los |cff71d5ff|Hspell:-3238|h[Huevos crepusculares con pulso]|h|r quedan expuestos tras cada |cff71d5ff|Hspell:-3308|h[Caparazón crepuscular]|h|r: full DPS a los huevos en cada ventana; los |cff71d5ff|Hspell:-3239|h[Clamafurias]|h|r llegan y su |cff71d5ff|Hspell:-3240|h[Desatar esencia]|h|r se interrumpe (el |cff71d5ff|Hspell:-3241|h[Indomable]|h|r castiga el CC largo), y los |cff71d5ff|Hspell:-3242|h[Dracos crepusculares]|h|r pasan con su |cff71d5ff|Hspell:-3243|h[Aliento crepuscular]|h|r.",
+    "* FASE 2 (al 30%): Calen empieza su duelo y los |cff71d5ff|Hspell:-3238|h[Huevos crepusculares con pulso]|h|r quedan expuestos tras cada |cff71d5ff|Hspell:-3308|h[Caparazón crepuscular]|h|r: full DPS a los huevos en cada ventana;",
+    "* los |cff71d5ff|Hspell:-3239|h[Clamafurias]|h|r llegan y su |cff71d5ff|Hspell:-3240|h[Desatar esencia]|h|r se interrumpe (el |cff71d5ff|Hspell:-3241|h[Indomable]|h|r castiga el CC largo), y los |cff71d5ff|Hspell:-3242|h[Dracos crepusculares]|h|r pasan con su |cff71d5ff|Hspell:-3243|h[Aliento crepuscular]|h|r.",
     "* FASE 3 (huevos muertos): la |cff71d5ff|Hspell:-3246|h[Esencia de lo Rojo]|h|r bufea a la banda y full DPS final."
 };
 
@@ -648,10 +655,12 @@ pack["52558"] = { "Lord Piroclasto",
 };
 
 pack["52530"] = { "Alysrazor",
-    "* FASE 1: ella vuela, la banda pelea abajo: dos jugadores recogen |cff71d5ff|Hspell:-2828|h[Plumas de arrabio]|h|r (con tres tienen las |cff71d5ff|Hspell:-2829|h[Alas de llamas]|h|r para volar y ayudar arriba), la |cff71d5ff|Hspell:-2836|h[Prole voraz]|h|r se tanquea aparte (se sacia con los |cff71d5ff|Hspell:-2843|h[Gusanos de lava orondos]|h|r) y los dos |cff71d5ff|Hspell:-2834|h[Iniciados de garfas llameantes]|h|r mueren rápido (con |cff71d5ff|Hspell:-3335|h[Escudo llameante]|h|r: full DPS).",
+    "* FASE 1: ella vuela, la banda pelea abajo: dos jugadores recogen |cff71d5ff|Hspell:-2828|h[Plumas de arrabio]|h|r (con tres tienen las |cff71d5ff|Hspell:-2829|h[Alas de llamas]|h|r para volar y ayudar arriba),",
+    "* la |cff71d5ff|Hspell:-2836|h[Prole voraz]|h|r se tanquea aparte (se sacia con los |cff71d5ff|Hspell:-2843|h[Gusanos de lava orondos]|h|r) y los dos |cff71d5ff|Hspell:-2834|h[Iniciados de garfas llameantes]|h|r mueren rápido (con |cff71d5ff|Hspell:-3335|h[Escudo llameante]|h|r: full DPS).",
     "* El |cff71d5ff|Hspell:-2845|h[Heraldo del extremo ardiente]|h|r sale al final de la fase: su |cff71d5ff|Hspell:-2846|h[Cataclismo]|h|r invoca el |cff71d5ff|Hspell:-2847|h[Meteorito fundido]|h|r (full DPS antes de que caiga).",
     "* FASE 2: entra en el |cff71d5ff|Hspell:-2849|h[Vórtice ígneo]|h|r (paralizada): full DPS con lust/heroísmo; los voladores esquivan los |cff71d5ff|Hspell:-2850|h[Tornadoes ígneos]|h|r y los de abajo los |cff71d5ff|Hspell:-3332|h[Vientos violentos]|h|r.",
-    "* FASE 3 (al agotarse su poder): |cff71d5ff|Hspell:-2852|h[Consunción]|h|r con la |cff71d5ff|Hspell:-2853|h[Esencia del Vuelo Verde]|h|r (vuelo para todos) y full DPS antes de que remonte; si se pasa a la FASE 4 renace con pleno poder (|cff71d5ff|Hspell:-2858|h[Sacudida llameante]|h|r) y toca repetir el ciclo: cuantos menos ciclos, mejor."
+    "* FASE 3 (al agotarse su poder): |cff71d5ff|Hspell:-2852|h[Consunción]|h|r con la |cff71d5ff|Hspell:-2853|h[Esencia del Vuelo Verde]|h|r (vuelo para todos) y full DPS antes de que remonte;",
+    "* si se pasa a la FASE 4 renace con pleno poder (|cff71d5ff|Hspell:-2858|h[Sacudida llameante]|h|r) y toca repetir el ciclo: cuantos menos ciclos, mejor."
 };
 
 pack["53691"] = { "Shannox",
@@ -669,9 +678,11 @@ pack["53494"] = { "Baleroc, el Guardián de la Puerta",
 };
 
 pack["52571"] = { "Mayordomo Corzocelada",
-    "* Cada |cff71d5ff|Hspell:-2912|h[Cambio de forma]|h|r manda: en |cff71d5ff|Hspell:-2913|h[forma felina]|h|r salta |cff71d5ff|Hspell:-2914|h[Salto de llamas]|h|r tras el objetivo (deja rastros de fuego en el suelo) y en |cff71d5ff|Hspell:-2918|h[forma de escorpión]|h|r la |cff71d5ff|Hspell:-2919|h[Guadaña de llamas]|h|r castiga a quienes le están pegando (el melee la asume con curas).",
+    "* Cada |cff71d5ff|Hspell:-2912|h[Cambio de forma]|h|r manda: en |cff71d5ff|Hspell:-2913|h[forma felina]|h|r salta |cff71d5ff|Hspell:-2914|h[Salto de llamas]|h|r tras el objetivo (deja rastros de fuego en el suelo) y en |cff71d5ff|Hspell:-2918|h[forma de escorpión]|h|r la",
+    "* |cff71d5ff|Hspell:-2919|h[Guadaña de llamas]|h|r castiga a quienes le están pegando (el melee la asume con curas).",
     "* La |cff71d5ff|Hspell:-2916|h[Adrenalina]|h|r sube con cada hechizo repetido: cuanto más se alargue la pelea más duele, así que full DPS.",
-    "* En |cff71d5ff|Hspell:-2922|h[forma de elfo de la noche]|h|r (a mitad de la pelea) agarra con el |cff71d5ff|Hspell:-2923|h[Ciclón ígneo]|h|r a los cercanos (separación), deja |cff71d5ff|Hspell:-2924|h[Semillas abrasadoras]|h|r bajo el marcado (se mueve lejos antes de que exploten) y suelta los |cff71d5ff|Hspell:-2925|h[orbes ardientes]|h|r perseguidores (se esquivan lejos de la banda)."
+    "* En |cff71d5ff|Hspell:-2922|h[forma de elfo de la noche]|h|r (a mitad de la pelea) agarra con el |cff71d5ff|Hspell:-2923|h[Ciclón ígneo]|h|r a los cercanos (separación),",
+    "* deja |cff71d5ff|Hspell:-2924|h[Semillas abrasadoras]|h|r bajo el marcado (se mueve lejos antes de que exploten) y suelta los |cff71d5ff|Hspell:-2925|h[orbes ardientes]|h|r perseguidores (se esquivan lejos de la banda)."
 };
 
 pack["52409"] = { "Ragnaros",

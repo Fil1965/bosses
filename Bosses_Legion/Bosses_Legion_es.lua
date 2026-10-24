@@ -102,7 +102,8 @@ pack["100497"] = { "Ursoc",
 "* |cff71d5ff|Hspell:197943|h[Overwhelm]|h|r: dos sanadores intercambian el hechizo cada segundo lanzamiento - cada pila de Overwhelm aumenta el siguiente Rend Flesh, y el sanador que acaba de recibirlo se aleja para eliminar la pila mientras el nuevo sanador asume.",
 "* |cff71d5ff|Hspell:197942|h[Rend Flesh]|h|r: aterriza justo después del segundo stack de Overwhelm; con un tanque fresco en el jefe, no es un problema, pero en un tanque que lleva stacks, puede matar - tañe a tiempo, siempre.",
 "* |cff71d5ff|Hspell:198006|h[Focused Gaze]|h|r: Ursoc marks one player for a charge; the marked player runs him along the wall while the rest of the raid stays clear of the path.",
-"* |cff71d5ff|Hspell:198388|h[Frenesie Sanguinolenta]|h|r: ataca con más fuerza y más fuerza a medida que avanza la pelea (la frenesie se acumula), así que utiliza todos los enfriamientos de curación y las habilidades de heroísmo al principio y no dejes que la pelea se prolongue.",
+"* |cff71d5ff|Hspell:198388|h[Frenesie Sanguinolenta]|h|r: ataca con más fuerza y más fuerza a medida que avanza la pelea (la frenesie se acumula),",
+"* así que utiliza todos los enfriamientos de curación y las habilidades de heroísmo al principio y no dejes que la pelea se prolongue.",
 };
 
 pack["102672"] = { "Nythendra",
@@ -128,7 +129,8 @@ pack["103769"] = { "Xavius",
 
 pack["105393"] = { "Il'gynoth, el Corazón de la Corrupción",
 "* |cff71d5ff|Hspell:210984|h[Ojo del Destino]|h|r: el ojo gigante en el centro del área dispara aleatoriamente a los jugadores — durante la fase exterior, los curanderos deben mantener el control de estos ataques y la raid debe moverse entre los ojos.",
-"* |cff71d5ff|Hspell:215234|h[Furor de Pesadilla]|h|r: cuando las tentáculos exteriores desaparecen, el corazón se abre: solo los jugadores purificados de la corrupción pueden entrar: purifiquen, sumerjan a través del sueño, maten el ojo interior y salgan antes de que el corazón explote.",
+"* |cff71d5ff|Hspell:215234|h[Furor de Pesadilla]|h|r: cuando las tentáculos exteriores desaparecen, el corazón se abre: solo los jugadores purificados de la corrupción pueden entrar: purifiquen, sumerjan a través del sueño,",
+"* maten el ojo interior y salgan antes de que el corazón explote.",
 "* |cff71d5ff|Hspell:210931|h[Noche de Pesadilla]|h|r: los ojos oscuros emiten haces de energía a través de la plataforma - manténgase fuera de los haces y destruya rápidamente a los ojos oscuros, ya que su daño se acumula mientras están activos.",
 "* |cff71d5ff|Hspell:210099|h[Fixate]|h|r: las horrores de la pesadilla se fijan en un jugador; el jugador afectado los esquiva en círculos amplios mientras la raid los elimina a distancia.",
 };
@@ -162,7 +164,8 @@ pack["101002"] = { "Krosus",
 pack["102263"] = { "Skorpyron",
 "* |cff71d5ff|Hspell:204275|h[Arcanoslash]|h|r: Un golpe de daño pesado que lo sobrecarga cuando impacta - el tanque lo absorbe con un hechizo defensivo y la raid lo mantiene en movimiento entre hechizos.",
 "* |cff71d5ff|Hspell:204372|h[Llamada de Escorpid]|h|r: Los escorpid añaden se escabullen de las grietas - Elimínalos rápidamente con ataques de área, antes de que sus venenos hagan que la sala sea inviable.",
-"* |cff71d5ff|Hspell:204292|h[Fragmento roto]|h|r: fragmentos de cristal que sobresalen del suelo - déjalos espacio para que el ataque lance fragmentos en todas direcciones; estos mismos fragmentos son el refugio donde esconderse cuando comienza a lanzar la onda de choque.",
+"* |cff71d5ff|Hspell:204292|h[Fragmento roto]|h|r: fragmentos de cristal que sobresalen del suelo - déjalos espacio para que el ataque lance fragmentos en todas direcciones;",
+"* estos mismos fragmentos son el refugio donde esconderse cuando comienza a lanzar la onda de choque.",
 "* |cff71d5ff|Hspell:204459|h[Vulnerable]|h|r: cualquier jugador que sea alcanzado por un ataque de \"romper\" recibe un debuff de \"frágil\" durante 15 segundos que amplifica el siguiente golpe arcano - espárcense y déjenle que ataque antes de su próximo golpe.",
 };
 

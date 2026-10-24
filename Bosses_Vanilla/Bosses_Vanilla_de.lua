@@ -261,7 +261,8 @@ pack["7358"] = { "Amnennar der Kältebringer", -- (klassische Ära)
 -- (CIDs des Remakes des aktuellen Journals; die SoD-Fassung und die des
 -- Era-Clients stehen weiter oben)
 bos = { "Zwielichtfürst Bathiel",
-	"* Er verteilt sich in der Halle und hinterlässt Kreise Heilenden Wassers: trinkt er einen (Heilende Aufnahme), gesundet er um 5%; platzt einer (Wässriger Ausbruch), jagt er Frost im Umkreis von 5 m in die Runde. Kreise im Blick behalten und ihm das Wasser vorenthalten.",
+	"* Er verteilt sich in der Halle und hinterlässt Kreise Heilenden Wassers: trinkt er einen (Heilende Aufnahme), gesundet er um 5%; platzt einer (Wässriger Ausbruch), jagt er Frost im Umkreis von 5 m in die Runde.",
+	"* Kreise im Blick behalten und ihm das Wasser vorenthalten.",
 	"* Sein Durchdringender Regen pfeift sekündlich Frost auf Zufallsziele: gleichmäßiger Spitzenschaden, die Heiler folgen."
 };
 pack["74728"] = bos;
@@ -515,7 +516,8 @@ pack["4421"] = { "Charlga Klingenflanke",
 	"* Charlga wäscht die Flüche sofort von sich ab (|cff71d5ff|Hspell:8361|h[Reinheit]|h|r): körperlicher Schaden ist der Weg."
 };
 pack["4428"] = { "Todessprecherin Jargba",
-	"* Todessprecherin Jargba bemächtigt sich des Geistes eines Spielers (|cff71d5ff|Hspell:14515|h[Gedankenkontrolle]|h|r): normale Unterbrechungen schneiden sie nicht; ein Betäuben stoppt sie, doch sobald sie bricht, wirkt sie erneut: die Beherrschte wird solange niedergeprügelt, bis sie freigibt."
+	"* Todessprecherin Jargba bemächtigt sich des Geistes eines Spielers (|cff71d5ff|Hspell:14515|h[Gedankenkontrolle]|h|r): normale Unterbrechungen schneiden sie nicht;",
+	"* ein Betäuben stoppt sie, doch sobald sie bricht, wirkt sie erneut: die Beherrschte wird solange niedergeprügelt, bis sie freigibt."
 };
 pack["4842"] = { "Erdenrufer Halmgar",
 	"* Erdenrufer Halmgar ruft Erdrüttler auf (|cff71d5ff|Hspell:8270|h[Erdrüttler]|h|r): aufteilen und zügig niederräumen."
@@ -623,7 +625,8 @@ bos = {
 	"* Festtagsboss des klassischen Hallow's End: er beschwört sich auf dem Friedhof des Klosters, sobald ihr mit dem Kürbisschrein am Eingang sprecht.",
 	"* |cff71d5ff|Hspell:42380|h[Feuersbrunst]|h|r setzt einen zufälligen Spieler 4 s in Brand und jagt ihn flüchtend in Panik: haltet Abstand, solange er brennt; der Heiler zieht ihn raus.",
 	"* |cff71d5ff|Hspell:42514|h[Seelen zermalmen]|h|r trifft 15 s lang einen zweiten Spieler: Heilung auf den Markierten.",
-	"* Der Takt der Schlacht: Körper auf 1 % -> immun, und der KOPF fliegt heraus, während sich der Körper auffüllt -> das ganze Augenmerk auf den Kopf, bevor er zurückkommt; er erscheint dreimal, beim dritten Mal kehrt er nicht mehr zurück: erledigt ihn, dann ist Feierabend.",
+	"* Der Takt der Schlacht: Körper auf 1 % -> immun, und der KOPF fliegt heraus, während sich der Körper auffüllt -> das ganze Augenmerk auf den Kopf, bevor er zurückkommt;",
+	"* er erscheint dreimal, beim dritten Mal kehrt er nicht mehr zurück: erledigt ihn, dann ist Feierabend.",
 	"* In der letzten Körper-Runde kommen Pulsiende Kürbisse (Adds ohne Id): der Tank hält sie, die Gruppe schält sie mit AoE weg."
 };
 pack["23682"] = bos;
@@ -770,7 +773,8 @@ pack["7267"] = { "Häuptling Ukorz Sandskalp",
 
 pack["5710"] = { "Jammal'an der Prophet", -- (klassische Ära)
 	"* Der Prophet des Saals, mit seinem Leibwächter Ogom (kein eigener Eintrag) an der Seite: Zweikampf in der offenen Halle.",
-	"* Jammal'an pflanzt sein Erdwürger-Totem (|cff71d5ff|Hspell:8376|h[Erdwürger-Totem]|h|r) — es bewurzelt die Gruppe — und markiert einen Spieler mit Jammal'ans Fluchformel (|cff71d5ff|Hspell:12479|h[Jammal'ans Fluchformel]|h|r), der geschützt wartet; er schleudert auch Heilende Welle (12492) und Flächenbrand (12468).",
+	"* Jammal'an pflanzt sein Erdwürger-Totem (|cff71d5ff|Hspell:8376|h[Erdwürger-Totem]|h|r) — es bewurzelt die Gruppe — und markiert einen Spieler mit Jammal'ans Fluchformel (|cff71d5ff|Hspell:12479|h[Jammal'ans Fluchformel]|h|r), der geschützt wartet;",
+	"* er schleudert auch Heilende Welle (12492) und Flächenbrand (12468).",
 	"* Ogom straft mit Schattenblitz (|cff71d5ff|Hspell:12471|h[Schattenblitz]|h|r) IMMER gebrochen und streicht Schmerz: Schattenwort (|cff71d5ff|Hspell:11639|h[Schmerz: Schattenwort]|h|r) (Magie) und Fluch der Schwäche (|cff71d5ff|Hspell:12493|h[Fluch der Schwäche]|h|r) (Fluch)."
 };
 
@@ -851,15 +855,19 @@ pack["220864"] = bos; -- Wirker
 
 pack["221394"] = { "Avatar von Hakkar", -- (SoD-Ära, 10-Mann-Raid)
 	"* Die Schlangengottheit des Remakes, in zwei Stufen: erst das Ritual, dann das Untier.",
-	"* Stufe des Geistes: die Geisterketten (|cff71d5ff|Hspell:443975|h[Geisterketten]|h|r) markieren einen Spieler mit Zerren — der Gefesselte LÖST SICH — und das Schaurige Heulen (|cff71d5ff|Hspell:443990|h[Schauriges Heulen]|h|r) wird IMMER gebrochen, während die Hakkari-Bluthüter mit dem Ritual fallen.",
-	"* Stufe des Untiers: Blutsnova (|cff71d5ff|Hspell:444050|h[Blutsnova]|h|r) alle ~8 s, das Verderbte Blut (|cff71d5ff|Hspell:444253|h[Verderbtes Blut]|h|r) springt von Spieler zu Spieler — der Markierte LÖST SICH —, Verrücktheit (|cff71d5ff|Hspell:444039|h[Verrücktheit]|h|r) auf einen Markierten, Fluch der Zunge (|cff71d5ff|Hspell:444046|h[Fluch der Zunge]|h|r) (Fluch) und das Blut entziehen (|cff71d5ff|Hspell:444132|h[Blut entziehen]|h|r): wer Verderbtes Blut trägt, stellt sich vor den Tank."
+	"* Stufe des Geistes: die Geisterketten (|cff71d5ff|Hspell:443975|h[Geisterketten]|h|r) markieren einen Spieler mit Zerren — der Gefesselte LÖST SICH — und das Schaurige Heulen (|cff71d5ff|Hspell:443990|h[Schauriges Heulen]|h|r) wird IMMER gebrochen,",
+	"* während die Hakkari-Bluthüter mit dem Ritual fallen.",
+	"* Stufe des Untiers: Blutsnova (|cff71d5ff|Hspell:444050|h[Blutsnova]|h|r) alle ~8 s, das Verderbte Blut (|cff71d5ff|Hspell:444253|h[Verderbtes Blut]|h|r) springt von Spieler zu Spieler — der Markierte LÖST SICH —,",
+	"* Verrücktheit (|cff71d5ff|Hspell:444039|h[Verrücktheit]|h|r) auf einen Markierten, Fluch der Zunge (|cff71d5ff|Hspell:444046|h[Fluch der Zunge]|h|r) (Fluch) und das Blut entziehen (|cff71d5ff|Hspell:444132|h[Blut entziehen]|h|r): wer Verderbtes Blut trägt, stellt sich vor den Tank."
 };
 
 -- Jammal'an und Ogom (SoD-Ära): Paar des Saals, zwei Stufen.
 bos = { "Jammal'an und Ogom",
 	"* Das Saal-Paar des Remakes: die zwei Trolle fressen einander und der Überlebende wächst in Kraft.",
-	"* Stufe 1: Zornschlag (437805) IMMER gebrochen; Heilige Nova (437817) im Umkreis ausweichen und sein Heiliges Feuer (437809) (Magie) fällt in Kadenz; Tödlicher Peitschenschlag (437847) auf den Tank und Peinigende Schwäche (437868) auf die Gruppe.",
-	"* Stufe 2 (der Verschlungene fällt): Jammal'an mit Psychischen Schreien (437928) (Furcht), seiner Schattenpredigt: Schmerz (437927) (Magie), Machtwort: Schild (437930) (wird gereinigt) und Massenbüße (437921); Ogom mit Hämmer der Gerechtigkeit (437915) (Betäubung), Weihen (437884) — weg vom Boden — und Göttlicher Sturm (437920) (1,5 s Zauberzeit)."
+	"* Stufe 1: Zornschlag (437805) IMMER gebrochen; Heilige Nova (437817) im Umkreis ausweichen und sein Heiliges Feuer (437809) (Magie) fällt in Kadenz;",
+	"* Tödlicher Peitschenschlag (437847) auf den Tank und Peinigende Schwäche (437868) auf die Gruppe.",
+	"* Stufe 2 (der Verschlungene fällt): Jammal'an mit Psychischen Schreien (437928) (Furcht), seiner Schattenpredigt: Schmerz (437927) (Magie), Machtwort: Schild (437930) (wird gereinigt) und Massenbüße (437921);",
+	"* Ogom mit Hämmer der Gerechtigkeit (437915) (Betäubung), Weihen (437884) — weg vom Boden — und Göttlicher Sturm (437920) (1,5 s Zauberzeit)."
 };
 pack["218721"] = bos; -- Jammal'an
 pack["218718"] = bos; -- Ogom
@@ -868,7 +876,8 @@ pack["218718"] = bos; -- Ogom
 bos = { "Morphaz und Hazzas",
 	"* Das Gruben-Drachenpaar des Remakes: der längste Kampf des SoD-Tempels.",
 	"* Der Verderbte Atem (|cff71d5ff|Hspell:446487|h[Verderbter Atem]|h|r) STAPELT sich am Tank und die Belebte Flamme (|cff71d5ff|Hspell:446661|h[Belebte Flamme]|h|r) steigt aus dem Boden.",
-	"* Die Stufe läuft über das Luzide Träumen: der erste ~20-s-Kanal (|cff71d5ff|Hspell:445235|h[Luzides Träumen]|h|r) schickt die Gruppe in den Smaragdgrünen Traum — die Flammen fallen mitten im Zauber; der zweite Kanal (4 s) kommt schon im Nachziehen, und nach ihm tötet sein Ewiger Schlaf (|cff71d5ff|Hspell:446144|h[Ewiger Schlaf]|h|r) von 30 s alle, wenn die Gruppe nicht rechtzeitig durch das Portal entkommt."
+	"* Die Stufe läuft über das Luzide Träumen: der erste ~20-s-Kanal (|cff71d5ff|Hspell:445235|h[Luzides Träumen]|h|r) schickt die Gruppe in den Smaragdgrünen Traum — die Flammen fallen mitten im Zauber;",
+	"* der zweite Kanal (4 s) kommt schon im Nachziehen, und nach ihm tötet sein Ewiger Schlaf (|cff71d5ff|Hspell:446144|h[Ewiger Schlaf]|h|r) von 30 s alle, wenn die Gruppe nicht rechtzeitig durch das Portal entkommt."
 };
 pack["221942"] = bos; -- Morphaz
 pack["221943"] = bos; -- Hazzas
@@ -877,7 +886,8 @@ pack["218571"] = { "Eranikus' Schemen", -- (SoD-Ära, 10-Mann-Raid)
 	"* Der Endboss des Remakes: der grüne Drache des Smaragdgrünen Traums in der Grube.",
 	"* Der Ätzender Atem (|cff71d5ff|Hspell:437353|h[Ätzender Atem]|h|r) straft den Tank ab — nach dem Zauber mit Spott wechseln — und der Tiefschlaf (|cff71d5ff|Hspell:437301|h[Tiefschlaf]|h|r) fegt den Saal in Kadenz.",
 	"* Sein Erwacher Alptraum (|cff71d5ff|Hspell:437398|h[Erwacher Alptraum]|h|r) alle ~66 s ist tödlich: zum Ort des Tiefschlafs LAUFEN und weg vom strafenden Boden.",
-	"* Sein Lethargisches Gift (|cff71d5ff|Hspell:437390|h[Lethargisches Gift]|h|r) ist Gift (wird gereinigt); bei 70% und 40% rücken seine Traum-Gefolgsleute nach (sie markieren sich) und ihr kanalisierter Lethargisches Gift (|cff71d5ff|Hspell:437425|h[Lethargisches Gift]|h|r) wird IMMER gebrochen, ebenso das Brüllen (|cff71d5ff|Hspell:445498|h[Brüllen]|h|r)."
+	"* Sein Lethargisches Gift (|cff71d5ff|Hspell:437390|h[Lethargisches Gift]|h|r) ist Gift (wird gereinigt); bei 70% und 40% rücken seine Traum-Gefolgsleute nach (sie markieren sich) und ihr kanalisierter Lethargisches Gift",
+	"* (|cff71d5ff|Hspell:437425|h[Lethargisches Gift]|h|r) wird IMMER gebrochen, ebenso das Brüllen (|cff71d5ff|Hspell:445498|h[Brüllen]|h|r)."
 };
 
 -- ========================= --
@@ -961,7 +971,8 @@ pack["14834"] = { "Hakkar der Seelenhäscher", -- (klassischer Raid, Endboss)
 	"* Sein Blutsog (|cff71d5ff|Hspell:24324|h[Blutsog]|h|r) entzieht alle 90 s der GESAMTEN Bande und heilt ihn — das ist die DPS-Uhr : siegen, bevor die Entzüge die Bande zerlegen.",
 	"* Sein Wahnsinn (|cff71d5ff|Hspell:24327|h[Wahnsinn]|h|r) kommt alle ~21 s und verwirrt einen Spieler 10 s : von den Rängen ferngehalten, klingt er von selbst ab.",
 	"* Sein Verderbtes Blut (|cff71d5ff|Hspell:24328|h[Verderbtes Blut]|h|r) springt zwischen Spielern : dispensieren, sobald es markiert.",
-	"* Schwierigkeitsmodus (die Banden-Priester leben) : die Aspekte laufen in Schleife — Der von Jeklik (|cff71d5ff|Hspell:24687|h[Aspekt Jekliks]|h|r) verstummt die Casters, der von Venoxis (24688) streut Gift, der von Mar'li (24686) entzieht, der von Arlokk (24690) markiert, und der von Thekal (|cff71d5ff|Hspell:24689|h[Aspekt Thekals]|h|r) versetzt ihn in WUT — dieser wird ihm ABGENOMMEN (Furien-Dispel, kritische Warnung). Die Priester vorher töten schaltet ALLE Aspekte ab.",
+	"* Schwierigkeitsmodus (die Banden-Priester leben) : die Aspekte laufen in Schleife — Der von Jeklik (|cff71d5ff|Hspell:24687|h[Aspekt Jekliks]|h|r) verstummt die Casters, der von Venoxis (24688) streut Gift, der von Mar'li (24686) entzieht,",
+	"* der von Arlokk (24690) markiert, und der von Thekal (|cff71d5ff|Hspell:24689|h[Aspekt Thekals]|h|r) versetzt ihn in WUT — dieser wird ihm ABGENOMMEN (Furien-Dispel, kritische Warnung). Die Priester vorher töten schaltet ALLE Aspekte ab.",
 	"* Im SoD-Remake kommen die Aspekte IMMER (alle 20 s, zufällige Reihenfolge).",
 	"* Bei ~9:45 entläßt er die Endraserei ohne Bremsen : der Kampf darf 10 Minuten nicht überschreiten."
 };
@@ -971,7 +982,8 @@ pack["15082"] = { "Gri'lek", -- (klassische Ära, Ecke des Wahnsinns ; Datenblä
 	"* Sein Avatar (|cff71d5ff|Hspell:24646|h[Avatar]|h|r) SCHWELLT ihn an, wischt die Bedrohung des Tanks fort und sprengt seinen physischen Schaden hoch — und er läuft LANGSAMER : der Feste läuft WEIT aus seinem Radius, bis er wieder schrumpft."
 };
 pack["15083"] = { "Hazza'rah", -- (klassische Ära, Ecke des Wahnsinns ; Datenblätter des Besitzers 2026-10)
-	"* Das Feuerschalenfeld der Ecke beschwört den AKTIVEN Troll der Zweiwochen-Rotation mit dem Trank Gurubashi-Mojo-Wahnsinn (Alchemie : 1 Heldenblut, 1 Makiges Mojo, 6 Kräftiges Mojo, 1 Schwarze Lotusblüte) ; beim Tod fällt sein Reagens für die ZG-Klassentarots (hier, Hazza'rahs Traumfaden).",
+	"* Das Feuerschalenfeld der Ecke beschwört den AKTIVEN Troll der Zweiwochen-Rotation mit dem Trank Gurubashi-Mojo-Wahnsinn (Alchemie : 1 Heldenblut, 1 Makiges Mojo, 6 Kräftiges Mojo, 1 Schwarze Lotusblüte) ;",
+	"* beim Tod fällt sein Reagens für die ZG-Klassentarots (hier, Hazza'rahs Traumfaden).",
 	"* Seine Alptraum-Halluzinationen (|cff71d5ff|Hspell:24728|h[Alptraum-Halluzination]|h|r) sind langsame Kopien mit wenig Leben, aber Schlägen über 5.000 : SOFORT töten (ein Direktzauber reicht) — höchste Priorität des Begegnungsgefechts.",
 	"* Seine verkettete Manabrand (|cff71d5ff|Hspell:24684|h[Manabrand]|h|r) entzieht der Bande in Kette — er führt kaum Mana (rund 5.000), also halten ihn die Jäger mit Viperstich und die Hexenmeister mit Manaabzug TROCKEN, und die Fähigkeit verhungert von selbst.",
 	"* Sein Schlaf (|cff71d5ff|Hspell:24664|h[Schlaf]|h|r) wirkt flächig, 6 s : die Gruppe verteilt sich, niemand nickt mitten im Raid ein.",
@@ -1080,7 +1092,8 @@ pack["10811"] = { "Archivar Galford", -- (klassische Ära)
 };
 bos = { "Balnazzar", -- (klassische Ära ; der Kampf öffnet als Großer Kreuzfahrer Dathrohan)
 	"* Der Kampf öffnet als Großer Kreuzfahrer Dathrohan mit seinem Hammer des Kreuzfahrers (|cff71d5ff|Hspell:17286|h[Hammer des Kreuzfahrers]|h|r) ; auf halbem Weg VERWANDELT er sich in den Dämon Balnazzar.",
-	"* Balnazzar : sein Schlaf (|cff71d5ff|Hspell:12098|h[Schlaf]|h|r) ist MAGIE — zu bannen ; sein Gedankenschlag (|cff71d5ff|Hspell:17287|h[Gedankenschlag]|h|r) züchtigt einen Magier und sein Psychischer Schrei (|cff71d5ff|Hspell:13704|h[Psychischer Schrei]|h|r) jagt der Gruppe Furcht ein — gestreut, damit die Panik nicht verkettet."
+	"* Balnazzar : sein Schlaf (|cff71d5ff|Hspell:12098|h[Schlaf]|h|r) ist MAGIE — zu bannen ; sein Gedankenschlag (|cff71d5ff|Hspell:17287|h[Gedankenschlag]|h|r) züchtigt einen Magier und sein Psychischer Schrei (|cff71d5ff|Hspell:13704|h[Psychischer Schrei]|h|r) jagt der Gruppe Furcht ein",
+	"* — gestreut, damit die Panik nicht verkettet."
 };
 pack["10812"] = bos;
 pack["10813"] = bos;
@@ -1113,7 +1126,8 @@ pack["10439"] = { "Ramstein der Verschlinger", -- (klassische Ära)
 	"* Bei seinem Tod bricht die Flut der Untotenwachen am Platz los : Gruppe dicht und sie wegfegen, vor dem Baron."
 };
 pack["10440"] = { "Baron Totenschwur", -- (klassische Ära)
-	"* Der letzte Baron : sein Tote Erwecken (|cff71d5ff|Hspell:17473|h[Tote Erwecken]|h|r) holt Skelette, die ZU IHM MARSCHIEREN und ihn durch Berührung heilen, und ~12 s später nutzt er seinen Todespakt (|cff71d5ff|Hspell:17471|h[Todespakt]|h|r) — der AoE räumt sie aus der Distanz auf, BEVOR es klingt.",
+	"* Der letzte Baron : sein Tote Erwecken (|cff71d5ff|Hspell:17473|h[Tote Erwecken]|h|r) holt Skelette, die ZU IHM MARSCHIEREN und ihn durch Berührung heilen,",
+	"* und ~12 s später nutzt er seinen Todespakt (|cff71d5ff|Hspell:17471|h[Todespakt]|h|r) — der AoE räumt sie aus der Distanz auf, BEVOR es klingt.",
 	"* Seine Schattenbombe (|cff71d5ff|Hspell:17434|h[Schattenbombe]|h|r) fällt auf einen Spieler : die Gruppe streut.",
 	"* Seine unheilige Aura beißt jeden in der Nähe und setzt Tödliche Wunden am Tank : ständige Heilung für die Bande."
 };
@@ -1358,7 +1372,8 @@ pack["11981"] = { "Flammenmaul", -- (klassische Ära)
 
 pack["14020"] = { "Chromaggus", -- (klassische Ära)
 	"* Seine zwei Atemzüge drehen sich zufällig durch die Halle : jeder malt seine Gasse — das Nahgefecht sortiert sich nach dem, der fällt.",
-	"* Die vier Brutbefälle : das Rote (|cff71d5ff|Hspell:23155|h[Brutbefall : Rot]|h|r) ist eine KRANKHEIT und HEILT ihn, wenn niemand sie entfernt ; das Grüne (|cff71d5ff|Hspell:23169|h[Brutbefall : Grün]|h|r) ist Gift ; das Blaue (|cff71d5ff|Hspell:23153|h[Brutbefall : Blau]|h|r) Magie ; das Schwarze (|cff71d5ff|Hspell:23154|h[Brutbefall : Schwarz]|h|r) ein Fluch — Entferner aller Farben an der Arbeit.",
+	"* Die vier Brutbefälle : das Rote (|cff71d5ff|Hspell:23155|h[Brutbefall : Rot]|h|r) ist eine KRANKHEIT und HEILT ihn, wenn niemand sie entfernt ; das Grüne (|cff71d5ff|Hspell:23169|h[Brutbefall : Grün]|h|r) ist Gift ;",
+	"* das Blaue (|cff71d5ff|Hspell:23153|h[Brutbefall : Blau]|h|r) Magie ; das Schwarze (|cff71d5ff|Hspell:23154|h[Brutbefall : Schwarz]|h|r) ein Fluch — Entferner aller Farben an der Arbeit.",
 	"* Seine Raserei (|cff71d5ff|Hspell:23128|h[Raserei]|h|r) beruhigt sich mit Besänftigendem Schuss und die Wut (|cff71d5ff|Hspell:23537|h[Wut]|h|r) kommt am Ende : der DPS rennt gegen die Zeit."
 };
 

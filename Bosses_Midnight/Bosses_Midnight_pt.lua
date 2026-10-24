@@ -125,7 +125,8 @@ pack["254227"] = { "Guardião de Core, Nysarra",
 pack["238015"] = { "Predaxas",
 "* Seus ataques |cff71d5ff|Hspell:34994|h[Devour]|h|r se direcionam para um ponto: dano de natureza mais uma atordoamento de 3 segundos para quem estiver próximo; o alvo marcado se afasta enquanto ele corre.",
 "* |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r vomita um cone frontal (explosão mais um DoT persistente de 12 segundos) e adiciona: ninguém fica na frente e a queima é rápida.",
-"* Preste atenção nos tipos de adicionais: os Bloodstompers causam Fúria Bestial (dobrando seu dano por 18 segundos, purgue-os ou mate-os primeiro), os ingeridos espalham veneno em uma área e os Voidticks lançam Hail Cósmico quando Seismic Slam os sacode.",
+"* Preste atenção nos tipos de adicionais: os Bloodstompers causam Fúria Bestial (dobrando seu dano por 18 segundos, purgue-os ou mate-os primeiro),",
+"* os ingeridos espalham veneno em uma área e os Voidticks lançam Hail Cósmico quando Seismic Slam os sacode.",
 "* O |cff71d5ff|Hspell:34933|h[Seismic Strike]|h|r causa dano em área e arremessa: mantenha distância do impacto e preste atenção em onde os adicionais são deslocados."
 };
 

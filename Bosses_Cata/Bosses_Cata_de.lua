@@ -317,25 +317,32 @@ pack["43438"] = { "Corborus",
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["41270"] = { "Nefarians Ende",
 "* Nefarian erweckt Onyxia (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): Wenn sie weniger als 50m voneinander entfernt bleiben, verdoppelt die |cff71d5ff|Hspell:-3278|h[Children of Deathwing]|h|r ihre Angriffsgeschwindigkeit, sodass die beiden Drachen an getrennten Enden getankt werden.",
-"* STAGE 1: Onyxia zuerst töten; ihre |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r baut sich mit der Zeit und bei jedem |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r von Nefarian auf, und ein voller |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r sprengt den Raum; Nefarian ruft |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r vor dem Landen her und legt |cff71d5ff|Hspell:-3295|h[Dominion]|h|r auf einen Spieler (heilt deren |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, schädige sie nicht).",
-"* STAGE 2 (Onyxia dead): der Boden füllt sich mit Lava und es bleiben 3 Plattformen übrig, eine |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r jede: tötet die 3 schnellen ab, da ihre |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r Schaden allen zufügt, umgeht die |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r und die |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r, während sie fliegen.",
+"* STAGE 1: Onyxia zuerst töten; ihre |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r baut sich mit der Zeit und bei jedem |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r von Nefarian auf, und ein voller |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r sprengt den Raum;",
+"* Nefarian ruft |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r vor dem Landen her und legt |cff71d5ff|Hspell:-3295|h[Dominion]|h|r auf einen Spieler (heilt deren |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, schädige sie nicht).",
+"* STAGE 2 (Onyxia dead): der Boden füllt sich mit Lava und es bleiben 3 Plattformen übrig, eine |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r jede: tötet die 3 schnellen ab, da ihre |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r Schaden allen zufügt,",
+"* umgeht die |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r und die |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r, während sie fliegen.",
 "* STAGE 3: Nefarian landet und voll DPS mit Lust/Heroismus, ziehe es nicht hin (seine |cff71d5ff|Hspell:-3305|h[Shadowflame Spark]|h|r wächst und die |cff71d5ff|Hspell:-3306|h[Bone Warriors]|h|r erwecken mit |cff71d5ff|Hspell:-3307|h[Empowered Strikes]|h|r)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["41376"] = { "Nefarians Ende",
 "* Nefarian erweckt Onyxia (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): Wenn sie weniger als 50m voneinander entfernt bleiben, verdoppelt die |cff71d5ff|Hspell:-3278|h[Children of Deathwing]|h|r ihre Angriffsrate, sodass die beiden Drachen an getrennten Enden getankt werden.",
-"* STAGE 1: Onyxia zuerst töten; ihr |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r baut sich mit der Zeit auf und mit jedem |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r von Nefarian, und ein voller |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r sprengt den Raum; Nefarian ruft |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r vor dem Landen her und legt |cff71d5ff|Hspell:-3295|h[Dominion]|h|r auf einen Spieler an (heil ihre |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, schädige sie nicht).",
-"* STAGE 2 (Onyxia tot): Der Boden füllt sich mit Lava und es bleiben 3 Plattformen übrig, eine |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r jede: Töte die 3 schnellen, da ihre |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r alle angreifen, weiche der |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r und der |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r aus, während er fliegt.",
+"* STAGE 1: Onyxia zuerst töten; ihr |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r baut sich mit der Zeit auf und mit jedem |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r von Nefarian, und ein voller |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r sprengt den Raum;",
+"* Nefarian ruft |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r vor dem Landen her und legt |cff71d5ff|Hspell:-3295|h[Dominion]|h|r auf einen Spieler an (heil ihre |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, schädige sie nicht).",
+"* STAGE 2 (Onyxia tot): Der Boden füllt sich mit Lava und es bleiben 3 Plattformen übrig, eine |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r jede: Töte die 3 schnellen, da ihre |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r alle angreifen,",
+"* weiche der |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r und der |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r aus, während er fliegt.",
 "* STAGE 3: Nefarian landet und voll DPS mit Lust/Heroismus, ziehe es nicht hin (seine |cff71d5ff|Hspell:-3305|h[Shadowflame Spark]|h|r wächst und die |cff71d5ff|Hspell:-3306|h[Bone Warriors]|h|r erwecken mit |cff71d5ff|Hspell:-3307|h[Empowered Strikes]|h|r)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["41378"] = { "Maloriak",
-"* Er gießt die Fläschchen in den Kessel und die Farben regeln das Spiel: mit dem |cff71d5ff|Hspell:-2935|h[Rotem Fläschchen]|h|r wirft er auf ein Ziel |cff71d5ff|Hspell:-2936|h[Verzehrende Flammen]|h|r und der |cff71d5ff|Hspell:-2937|h[Verbrennender Schuss]|h|r verteilt sich unter den nahen Personen (Raid-Stack); mit dem |cff71d5ff|Hspell:-2938|h[Blauen Fläschchen]|h|r trifft der |cff71d5ff|Hspell:-2939|h[Beißende Kälte]|h|r die nahen Personen (Raid-Stack) und der |cff71d5ff|Hspell:-2940|h[Eiserner Blitz]|h|r fängt Spieler ein; mit dem |cff71d5ff|Hspell:-2941|h[Grünen Fläschchen]|h|r macht der |cff71d5ff|Hspell:-2942|h[Schwächender Schleim]|h|r, dass alles mehr Schaden nimmt (Verwenden: voller DPS).",
+"* Er gießt die Fläschchen in den Kessel und die Farben regeln das Spiel: mit dem |cff71d5ff|Hspell:-2935|h[Rotem Fläschchen]|h|r wirft er auf ein Ziel |cff71d5ff|Hspell:-2936|h[Verzehrende Flammen]|h|r und der |cff71d5ff|Hspell:-2937|h[Verbrennender Schuss]|h|r",
+"* verteilt sich unter den nahen Personen (Raid-Stack); mit dem |cff71d5ff|Hspell:-2938|h[Blauen Fläschchen]|h|r trifft der |cff71d5ff|Hspell:-2939|h[Beißende Kälte]|h|r die nahen Personen (Raid-Stack) und der |cff71d5ff|Hspell:-2940|h[Eiserner Blitz]|h|r fängt Spieler",
+"* ein; mit dem |cff71d5ff|Hspell:-2941|h[Grünen Fläschchen]|h|r macht der |cff71d5ff|Hspell:-2942|h[Schwächender Schleim]|h|r, dass alles mehr Schaden nimmt (Verwenden: voller DPS).",
 "* Mit jedem Fläschchen, das er freisetzt |cff71d5ff|Hspell:-2931|h[Aberrationen]|h|r: sie werden einzeln getötet, da sie sich gegenseitig mit dem |cff71d5ff|Hspell:-2933|h[Wachstumskatalysator]|h|r buffen.",
 "* Mit dem |cff71d5ff|Hspell:-2943|h[Flakon des dunklen Magies]|h|r (Heroisch) kommen die |cff71d5ff|Hspell:-2946|h[Vile Swills]|h|r mit ihrem |cff71d5ff|Hspell:-2947|h[Dunklem Schlamm]|h|r und dem Kanalisieren des |cff71d5ff|Hspell:-2945|h[Verschluckenden Dunkelheit]|h|r hervor: unterbreche es.",
-"* STAGE 2 (25%): |cff71d5ff|Hspell:-2949|h[Alle Freisetzen]|h|r (Aberrationen + die 2 |cff71d5ff|Hspell:-2953|h[Primäre Subjekte]|h|r, Tötungspriorität) während man den |cff71d5ff|Hspell:-2950|h[Magmastrahlen]|h|r ausweicht, detoniert der |cff71d5ff|Hspell:-2951|h[Absolute Null]|h|r weit entfernt und der |cff71d5ff|Hspell:-2952|h[Säurenebel]|h|r ist ein wachsender Punkt: Heilung und endgültiger Schaden."
+"* STAGE 2 (25%): |cff71d5ff|Hspell:-2949|h[Alle Freisetzen]|h|r (Aberrationen + die 2 |cff71d5ff|Hspell:-2953|h[Primäre Subjekte]|h|r, Tötungspriorität) während man den |cff71d5ff|Hspell:-2950|h[Magmastrahlen]|h|r ausweicht,",
+"* detoniert der |cff71d5ff|Hspell:-2951|h[Absolute Null]|h|r weit entfernt und der |cff71d5ff|Hspell:-2952|h[Säurenebel]|h|r ist ein wachsender Punkt: Heilung und endgültiger Schaden."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
@@ -349,7 +356,8 @@ pack["41442"] = { "Atramedes",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["41570"] = { "Magmaul",
-"* Er beißt den Tank mit |cff71d5ff|Hspell:-3314|h[Mangle]|h|r (seine |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r schmilzt die Rüstung) und zu diesem Zeitpunkt reiten zwei verkettete Spieler auf den Zangen: sie haken den Spitz mit der |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r ein und stachen ihn, wodurch sich die |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r öffnet, die zunehmenden Schaden nimmt.",
+"* Er beißt den Tank mit |cff71d5ff|Hspell:-3314|h[Mangle]|h|r (seine |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r schmilzt die Rüstung) und zu diesem Zeitpunkt reiten zwei verkettete Spieler auf den Zangen: sie haken den Spitz mit der",
+"* |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r ein und stachen ihn, wodurch sich die |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r öffnet, die zunehmenden Schaden nimmt.",
 "* Der Tank kann ihn nicht ohne Nahkampfschaden lassen: wenn er niemanden erreichen kann, geht er in |cff71d5ff|Hspell:-3317|h[Molten Tantrum]|h|r über.",
 "* Die |cff71d5ff|Hspell:-3312|h[Lava Parasiten]|h|r springen auf Spieler und saugen sie weiter aus (|cff71d5ff|Hspell:-3313|h[Parasitäre Infektion]|h|r): Der Raid AoE sie dabei ab, während er sich ausbreitet.",
 "* Der |cff71d5ff|Hspell:-3310|h[Magma Spit]|h|r trifft 3 Spieler und der |cff71d5ff|Hspell:-3311|h[Pillar of Flame]|h|r fällt zu den Füßen des Ziels, das sich entfernen muss.",
@@ -359,37 +367,52 @@ pack["41570"] = { "Magmaul",
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["42166"] = { "Omnotron-Verteidigungssystem",
 "* Die vier Goleme wechseln sich jeweils zwei zu zwei ab: nur der AKTIVE wird angegriffen, während der andere auflädt.",
-"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung); der von |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, widersteht der |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r durch Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
-"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), daher zieht der markierte Spieler es aus dem Gruppenbereich; der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich, und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
-"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern); halte die Verteilung für das |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r aufrecht und greife sein |cff71d5ff|Hspell:-3204|h[Instabiles Schild]|h|r nicht an (Heroic: es löst das |cff71d5ff|Hspell:-3205|h[Schatteninfusion]|h|r aus).",
-"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Inneren: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r werfen nachfolgende Bomben ab, die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r bleibt ebenfalls allein (er tränkt den Angreifer in Gift)."
+"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung);",
+"* der von |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, widersteht der |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r durch Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
+"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), daher zieht der markierte Spieler es aus dem Gruppenbereich;",
+"* der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich, und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
+"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern);",
+"* halte die Verteilung für das |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r aufrecht und greife sein |cff71d5ff|Hspell:-3204|h[Instabiles Schild]|h|r nicht an (Heroic: es löst das |cff71d5ff|Hspell:-3205|h[Schatteninfusion]|h|r aus).",
+"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Inneren: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r werfen nachfolgende Bomben ab,",
+"* die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r bleibt ebenfalls allein (er tränkt den Angreifer in Gift)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["42178"] = { "Omnotron-Verteidigungssystem",
 "* Die vier Goleme wechseln sich jeweils zwei gegen zwei ab: nur der AKTIVE wird angegriffen, während der andere wieder auflädt.",
-"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung); der von |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
-"* Arcanotron: der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppe; der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist KEINER greift auf den Schild zu.",
-"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern); halte die Ausbreitung für die |cff71d5ff|Hspell:-3202|h[Blitzableiter]|h|r aufrecht und greife nicht sein |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r an (Heroic: es löst die |cff71d5ff|Hspell:-3204|h[Unstabiler Schild]|h|r aus).",
-"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden genommen innen: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r fallen nachfolgende Bomben, die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r wird ebenfalls allein gelassen (er tränkt den Angreifer in Gift)."
+"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung);",
+"* der von |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
+"* Arcanotron: der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppe;",
+"* der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist KEINER greift auf den Schild zu.",
+"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern);",
+"* halte die Ausbreitung für die |cff71d5ff|Hspell:-3202|h[Blitzableiter]|h|r aufrecht und greife nicht sein |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r an (Heroic: es löst die |cff71d5ff|Hspell:-3204|h[Unstabiler Schild]|h|r aus).",
+"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden genommen innen: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r fallen nachfolgende Bomben,",
+"* die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r wird ebenfalls allein gelassen (er tränkt den Angreifer in Gift)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["42179"] = { "Omnotron-Verteidigungssystem",
 "* Die vier Golems wechseln sich jeweils zwei gegen zwei ab: nur der AKTIVE wird angegriffen, während der andere auflädt.",
-"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung); der von der |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel weg und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
-"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppenbereich; der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
+"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung);",
+"* der von der |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel weg und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
+"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppenbereich;",
+"* der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
 "* Elektron: Der markierte Spieler bewegt sich weg (schädigt die in der Nähe befindlichen); halte den Abstand für das |cff71d5ff|Hspell:-3202|h[Blitzableiter]|h|r und greife sein |cff71d5ff|Hspell:-3203|h[Elektrischer Entladungsstoß]|h|r nicht an (Heroic: es löst den |cff71d5ff|Hspell:-3204|h[Instabiler Schild]|h|r aus).",
-"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Innern: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r fallen Bomben, die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r bleibt ebenfalls allein (er tränkt den Angreifer in Gift)."
+"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Innern: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r fallen Bomben,",
+"* die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r bleibt ebenfalls allein (er tränkt den Angreifer in Gift)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["42180"] = { "Omnotron-Verteidigungssystem",
 "* Die vier Goleme wechseln sich jeweils zwei gegen zwei ab: nur der AKTIVE wird angegriffen, während der andere auflädt.",
-"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung); der |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
-"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppe; der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
-"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern); halte die Verteilung für die |cff71d5ff|Hspell:-3202|h[Blitzableiter]|h|r aufrecht und greife seinen |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r nicht an (Heroic: es löst die |cff71d5ff|Hspell:-3204|h[Unstabiler Schild]|h|r aus).",
-"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Inneren: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r werfen nachfolgende Bomben, die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r wird ebenfalls allein gelassen (er tränkt den Angreifer mit Gift)."
+"* Magmatron: die |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r trifft den gesamten Raum (konstante Heilung);",
+"* der |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r markierte Spieler läuft vor dem |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r-Kegel aus und, auf Heroic, übersteht die |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r mit Heilung; sein |cff71d5ff|Hspell:-3268|h[Barrier]|h|r wird durch Schaden zerstört.",
+"* Arcanotron: Der |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r bufft jeden, der darauf steht (und die Golems), also zieht der markierte Spieler es aus dem Gruppe;",
+"* der |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r wird unterbrochen, wenn möglich und während der |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r aktiv ist greift KEINER auf den Schild an.",
+"* Elektron: Der markierte Spieler bewegt sich weg (verursacht Schaden an den in der Nähe befindlichen Spielern);",
+"* halte die Verteilung für die |cff71d5ff|Hspell:-3202|h[Blitzableiter]|h|r aufrecht und greife seinen |cff71d5ff|Hspell:-3203|h[Elektrischer Entladung]|h|r nicht an (Heroic: es löst die |cff71d5ff|Hspell:-3204|h[Unstabiler Schild]|h|r aus).",
+"* Toxitron: die |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r und ihre |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% Schaden im Inneren: niemand) und sein |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r werfen nachfolgende Bomben,",
+"* die |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r hinterlassen; sein |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r wird ebenfalls allein gelassen (er tränkt den Angreifer mit Gift)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
@@ -405,7 +428,8 @@ pack["43296"] = { "Schimaeron",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["43324"] = { "Cho'gall",
-"* Die |cff71d5ff|Hspell:-3165|h[Verdernder Blut]|h|r Fülle die Korruption-Leiste mit jeder Fähigkeit: bei 25 % wird es schneller, bei 50 % ständiger Betäubung, bei 75 % eine tentakuläre Verformung und bei 100 % verlieren Sie die Kontrolle über Ihren Charakter – das Halten eines niedrigen Wertes erfordert Rotationen, dies ist der Schlüssel zum Sieg.",
+"* Die |cff71d5ff|Hspell:-3165|h[Verdernder Blut]|h|r Fülle die Korruption-Leiste mit jeder Fähigkeit: bei 25 % wird es schneller, bei 50 % ständiger Betäubung,",
+"* bei 75 % eine tentakuläre Verformung und bei 100 % verlieren Sie die Kontrolle über Ihren Charakter – das Halten eines niedrigen Wertes erfordert Rotationen, dies ist der Schlüssel zum Sieg.",
 "* Der |cff71d5ff|Hspell:-3161|h[Twilight Zealot]|h|r kommt aus den Seitenportalen: DPS/CC und töten Sie sie schnell, ihr |cff71d5ff|Hspell:-3162|h[Depravity]|h|r ist Bereichsschaden.",
 "* Der Hammer wechselt zwischen |cff71d5ff|Hspell:-3156|h[Order of the Flame]|h|r und |cff71d5ff|Hspell:-3158|h[Order of Shadow]|h|r: Bei Flammen hält der Tank den Boss vom Raid fern, da der |cff71d5ff|Hspell:-3211|h[Flare]|h|r; bei Schatten verteilt euch etwas.",
 "* Die |cff71d5ff|Hspell:-3155|h[Conversion]|h|r versklavt die Spieler: Brechen Sie den Kult mit Stuns/Unterbrechungen auf (jede Jubel-Abgabe buffet Cho'gall mit |cff71d5ff|Hspell:-3209|h[Perverted Devotion]|h|r).",
@@ -466,10 +490,12 @@ pack["44600"] = { "Halfus Wyrmbrecher",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["45213"] = { "Sinestra",
-"* Nur 25 Heroic. STAGE 1 (bis 30%): sie fliegt und muss von unten verbrannt werden; die |cff71d5ff|Hspell:-3229|h[Twilight Slicers]|h|r-Orben jagen einen Spieler aus der Luft: der Markierte läuft weit weg, und wenn ein Orb stirbt, steht niemand vor ihm (die |cff71d5ff|Hspell:-3230|h[Twilight Blast]|h|r).",
+"* Nur 25 Heroic. STAGE 1 (bis 30%): sie fliegt und muss von unten verbrannt werden; die |cff71d5ff|Hspell:-3229|h[Twilight Slicers]|h|r-Orben jagen einen Spieler aus der Luft: der Markierte läuft weit weg, und wenn ein Orb stirbt,",
+"* steht niemand vor ihm (die |cff71d5ff|Hspell:-3230|h[Twilight Blast]|h|r).",
 "* Der |cff71d5ff|Hspell:-3227|h[Wrack]|h|r trifft einen Spieler mit zunehmenden Schaden und springt, wenn sein Zeitlimit abläuft, zu einem anderen nahen Spieler: der markierte trennt sich vom Raid und die Heiler tragen ihn bis zum Limit.",
 "* Die |cff71d5ff|Hspell:-3231|h[Twilight Whelps]|h|r fallen mit ihrer |cff71d5ff|Hspell:-3232|h[Twilight Spit]|h|r auf einen Spieler: eine Gruppe klettert sie zum Rückzug und tötet sie schnell, ohne auf die |cff71d5ff|Hspell:-3233|h[Twilight Essence]|h|r Pools zu treten.",
-"* STAGE 2 (bei 30 %): Calen beginnt sein Duell und die |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r werden nach jeder |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r Vollschaden auf den Eiern in jedem Fenster freigelegt; die |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r erscheinen und ihr |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r wird unterbrochen (die |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r bestraft lange CC), und die |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r greifen mit ihrem |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r an.",
+"* STAGE 2 (bei 30 %): Calen beginnt sein Duell und die |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r werden nach jeder |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r Vollschaden auf den Eiern in jedem Fenster freigelegt;",
+"* die |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r erscheinen und ihr |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r wird unterbrochen (die |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r bestraft lange CC), und die |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r greifen mit ihrem |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r an.",
 "* STAGE 3 (Eier tot): Die |cff71d5ff|Hspell:-3246|h[Wesen des Roten]|h|r Buffs die Raid und den vollen DPS, um das zu beenden."
 };
 
@@ -599,7 +625,8 @@ pack["45870"] = { "Das Konklave des Windes",
 "Alle drei müssen innerhalb eines maximalen Zeitunterschieds von einer Minute getötet werden, sonst auferstehen sie.",
 "* Die Bosses haben einen Energiebalken, der sich füllt, wenn er auf 90% steht und sie ihre speziellen Fähigkeiten einsetzen; Plattformbewegungen müssen spätestens dann durchgeführt werden, wenn ihr Balken auf 80% erreicht",
 "Strategie:",
-"* 4 Gruppen: 1. Gruppe: 1 Tank, 1 Heiler und 1 DPS [Anshal]; 2. Gruppe: 1 Tank und 1 Heiler (vorzugsweise heiliger Paladin, da sie ihre eigenen Debuffs entfernen können); 3. Gruppe: 1 DPS und 1 Heiler [Rohash]; 4. Gruppe: mobile Gruppe mit 3 DPS",
+"* 4 Gruppen: 1. Gruppe: 1 Tank, 1 Heiler und 1 DPS [Anshal]; 2. Gruppe: 1 Tank und 1 Heiler (vorzugsweise heiliger Paladin, da sie ihre eigenen Debuffs entfernen können); 3. Gruppe: 1 DPS und 1 Heiler [Rohash]; 4.",
+"* Gruppe: mobile Gruppe mit 3 DPS",
 "* Optimiere den DPS auf allen drei, damit sie ähnlich abnehmen |h|r",
 "* Anshal-Plattform: wirft periodisch |cff71d5ff|Hspell:86205|h[Heilender Wind]|h|r ab und heilt Anshal sowie seine Verbündeten (Kriecher), während sie das ganze Raid stumm machen.",
 "* Er wirft |cff71d5ff|Hspell:85422|h[Nurture]|h|r ab, was Kriecher aufruft, die ihrerseits |cff71d5ff|Hspell:93121|h[Toxic Spores]|h|r verwenden",
@@ -635,7 +662,8 @@ pack["46753"] = { "Al'Akir",
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["47120"] = { "Argaloth",
 "* Bei 10 stellst du 2 Gruppen auf, jede mit 1 Tank, 1 Heiler und 3 DPS.",
-"* Jede Gruppe steht auf einer Seite von Argaloth und bleibt gestapelt am Tank, um den Schaden zu verteilen. -> Jeder Spieler sollte sich in der Nähe des Tanks befinden. -> Die Gruppe muss während des gesamten Boss-Kampfes zusammen bleiben. -> Der Tank muss die gesamte Gruppe schützen.",
+"* Jede Gruppe steht auf einer Seite von Argaloth und bleibt gestapelt am Tank, um den Schaden zu verteilen. -> Jeder Spieler sollte sich in der Nähe des Tanks befinden.",
+"* -> Die Gruppe muss während des gesamten Boss-Kampfes zusammen bleiben. -> Der Tank muss die gesamte Gruppe schützen.",
 "* Nach jedem |cff71d5ff|Hspell:88942|h[Meteor Slash]|h|r wechseln die Tanker den Boss.",
 "* Während der Phase |cff71d5ff|Hspell:88972|h[Fel Firestorm]|h|r bewegt sich jeder, um Schaden zu vermeiden, ohne auf Feuer zu treten.",
 "* Am Ende des Sturms kehrt jede Gruppe an ihren Platz zurück und das obige Vorgehen wiederholt sich."
@@ -681,7 +709,8 @@ pack["52059"] = { "Hohepriesterin Kilnara",
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["52148"] = { "Jin'do der Götterbrecher",
 "* Leiten Sie den Boss in die tote Zone; Spieler betreten diese ebenfalls, wenn er Schatten von Hakkar ruft.",
-"* Während der Tank die riesigen Trollen übernimmt, müssen der Rest des Zuges die aufgerufenen Geister sowie die Ketten erledigen. -> Der Tank muss die riesigen Trollen übernehmen, während der Rest des Zuges die aufgerufenen Geister und Ketten erledigt.",
+"* Während der Tank die riesigen Trollen übernimmt, müssen der Rest des Zuges die aufgerufenen Geister sowie die Ketten erledigen.",
+"* -> Der Tank muss die riesigen Trollen übernehmen, während der Rest des Zuges die aufgerufenen Geister und Ketten erledigt.",
 "* Schattenstacheln vermeiden."
 };
 
@@ -735,7 +764,8 @@ pack["52286"] = { "Hort des Wahnsinns - Wushoolay",
 pack["52409"] = { "Ragnaros",
 "* STAGE 1: Die |cff71d5ff|Hspell:-2631|h[Lava Wave]|h|r, die aus jedem |cff71d5ff|Hspell:-2630|h[Sulfuras Smash]|h|r hervorgeht, werden auf eine Seite abgelenkt, und die |cff71d5ff|Hspell:-2634|h[Magma Traps]|h|r werden nacheinander mit allen auf vollem HP ausgelöst (die |cff71d5ff|Hspell:-2635|h[Magma Trap Eruption]|h|r schädigt alle).",
 "* Im INTERMISSION jagen die |cff71d5ff|Hspell:-2637|h[Söhne des Feuers]|h|r den Markierten, der weit weg von der Raid läuft, während sie vollen DPS machen; niemand kreuzt ihren Weg wegen des finalen |cff71d5ff|Hspell:-2639|h[Supernova]|h|r.",
-"* STAGE 2: die |cff71d5ff|Hspell:-2643|h[Engulfing Flame]|h|r ist der vordere Kegel (nach außen), die |cff71d5ff|Hspell:-2644|h[World in Flames]|h|r verbrennt ganze Sektoren (niemand drin) und die |cff71d5ff|Hspell:-2645|h[Molten Seeds]|h|r explodieren unter dem Markierten (weit weg bewegen; die verbleibenden |cff71d5ff|Hspell:-2647|h[Molten Elementals]|h|r werden AoE abgedeckt).",
+"* STAGE 2: die |cff71d5ff|Hspell:-2643|h[Engulfing Flame]|h|r ist der vordere Kegel (nach außen), die |cff71d5ff|Hspell:-2644|h[World in Flames]|h|r verbrennt ganze Sektoren (niemand drin) und die |cff71d5ff|Hspell:-2645|h[Molten Seeds]|h|r explodieren unter dem",
+"* Markierten (weit weg bewegen; die verbleibenden |cff71d5ff|Hspell:-2647|h[Molten Elementals]|h|r werden AoE abgedeckt).",
 "* STAGE 3 (bei 40%): Die |cff71d5ff|Hspell:-2661|h[Living Meteor]|h|r jagt einen Spieler (lauf weit weg vom Raid; wer sie überquert, gibt ihr |cff71d5ff|Hspell:-2663|h[Fuel]|h|r) und die |cff71d5ff|Hspell:-2658|h[Engulfing Flame]|h|r sowie die |cff71d5ff|Hspell:-2659|h[World in Flames]|h|r setzen ihren Kurs fort.",
 "* Heroic (STAGE 4): Mit den Verbündeten (Cenarius, Hamuul und Malfurion) unterstützt, voller DPS; sein |cff71d5ff|Hspell:-2680|h[Überhitzt]|h|r, der |cff71d5ff|Hspell:-2681|h[Ermächtigt Sulfuras]|h|r (|cff71d5ff|Hspell:-2682|h[Flammen von Sulfuras]|h|r) und der |cff71d5ff|Hspell:-2683|h[Dreadflame]|h|r bestrafen den Raum."
 };
@@ -744,21 +774,25 @@ pack["52409"] = { "Ragnaros",
 pack["52498"] = { "Beth'tilac",
 "* STAGE 1: Sie ist auf ihrem Netz, das Raid kämpft darunter und die |cff71d5ff|Hspell:-2773|h[Cinderweb Drones]|h|r werden vor dem Auffüllen mit Feuer getötet (sie fressen die |cff71d5ff|Hspell:-2778|h[Cinderweb Broodlings]|h|r zum Heilen: töte zuerst die Broodlings).",
 "* Der Tank tauntet den |cff71d5ff|Hspell:-2770|h[Cinderweb Spinner]|h|r nach unten, mit dem gesamten Team gestapelt (seine |cff71d5ff|Hspell:-2772|h[Igneous Web Spin]|h|r stuns das markierte Ziel für 25s): voller DPS.",
-"* Das Team oben beobachtet ihre |cff71d5ff|Hspell:-2765|h[Feuerenergie]|h|r: wenn diese erschöpft ist, wirft sie |cff71d5ff|Hspell:-2769|h[Verbrannte Zerstörung]|h|r ab, die ihre Stufe vernichtet, sodass das obere Team VORAB (es passiert 3-mal und dann tritt sie in den |cff71d5ff|Hspell:-2782|h[STAGE 2]|h|r Wutmodus) fallen muss.",
+"* Das Team oben beobachtet ihre |cff71d5ff|Hspell:-2765|h[Feuerenergie]|h|r: wenn diese erschöpft ist, wirft sie |cff71d5ff|Hspell:-2769|h[Verbrannte Zerstörung]|h|r ab, die ihre Stufe vernichtet,",
+"* sodass das obere Team VORAB (es passiert 3-mal und dann tritt sie in den |cff71d5ff|Hspell:-2782|h[STAGE 2]|h|r Wutmodus) fallen muss.",
 "* STAGE 2: Sie kommt herab und verbrennt bis zum Ende; der Tank frisst den |cff71d5ff|Hspell:-2783|h[Widow's Kiss]|h|r (draint Heilung: heilt auf das Maximum) und der |cff71d5ff|Hspell:-2784|h[Ember Flares]|h|r bestraft die in der Nähe stehenden."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["52530"] = { "Alysrazar",
-"* STAGE 1: sie fliegt, das Raid kämpft darunter: zwei Spieler sammeln |cff71d5ff|Hspell:-2828|h[Molten Feathers]|h|r (drei geben |cff71d5ff|Hspell:-2829|h[Wings of Flame]|h|r zum Fliegen und helfen oben), die |cff71d5ff|Hspell:-2836|h[Voracious Hatchlings]|h|r werden getankt voneinander (gefüttert mit den |cff71d5ff|Hspell:-2843|h[Plump Lava Worms]|h|r) und die zwei |cff71d5ff|Hspell:-2834|h[Blazing Talon Initiates]|h|r sterben schnell ab (mit dem |cff71d5ff|Hspell:-3335|h[Blazing Shield]|h|r: voller DPS).",
+"* STAGE 1: sie fliegt, das Raid kämpft darunter: zwei Spieler sammeln |cff71d5ff|Hspell:-2828|h[Molten Feathers]|h|r (drei geben |cff71d5ff|Hspell:-2829|h[Wings of Flame]|h|r zum Fliegen und helfen oben),",
+"* die |cff71d5ff|Hspell:-2836|h[Voracious Hatchlings]|h|r werden getankt voneinander (gefüttert mit den |cff71d5ff|Hspell:-2843|h[Plump Lava Worms]|h|r) und die zwei |cff71d5ff|Hspell:-2834|h[Blazing Talon Initiates]|h|r sterben schnell ab (mit dem |cff71d5ff|Hspell:-3335|h[Blazing Shield]|h|r: voller DPS).",
 "* Der |cff71d5ff|Hspell:-2845|h[Botinbringer des brennenden Endes]|h|r erscheint am Ende der Phase: sein |cff71d5ff|Hspell:-2846|h[Kataklismus]|h|r ruft den |cff71d5ff|Hspell:-2847|h[Schmelzmeteor]|h|r herab (volle DPS, bevor er aufschlägt).",
 "* STAGE 2: sie tritt in den |cff71d5ff|Hspell:-2849|h[Fiery Vortex]|h|r (immobilized) ein: voller DPS mit Lust/Heroismus; die Flieger ducken sich vor den |cff71d5ff|Hspell:-2850|h[Fiery Tornadoes]|h|r und diejenigen, die unter dem |cff71d5ff|Hspell:-3332|h[Harsh Winds]|h|r sind.",
-"* PHASE 3 (wenn ihre Kraft nachlässt): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r mit der |cff71d5ff|Hspell:-2853|h[Essence of the Green]|h|r (Flug für alle) und vollem DPS, bevor sie sich erholt; wenn das Kampf PHASE 4 erreicht, wird sie in voller Kraft wiedergeboren (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) und der Zyklus wiederholt sich: je weniger Zyklen desto besser."
+"* PHASE 3 (wenn ihre Kraft nachlässt): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r mit der |cff71d5ff|Hspell:-2853|h[Essence of the Green]|h|r (Flug für alle) und vollem DPS, bevor sie sich erholt;",
+"* wenn das Kampf PHASE 4 erreicht, wird sie in voller Kraft wiedergeboren (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) und der Zyklus wiederholt sich: je weniger Zyklen desto besser."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["52558"] = { "Lord Rhyolith",
-"* STAGE 1 (bis 25%): Er wird nicht getankt, er wird GESTEuert: Die Raid trifft sein linkes oder rechtes Fuß, um ihn zu drehen, und er muss von der |cff71d5ff|Hspell:-2530|h[Magma]|h|r und den großen |cff71d5ff|Hspell:-2534|h[Vulkan]|h|r weggesteuert werden (die kleinen |cff71d5ff|Hspell:-2535|h[Krater]|h|r werden vom DPS gelöscht).",
+"* STAGE 1 (bis 25%): Er wird nicht getankt, er wird GESTEuert: Die Raid trifft sein linkes oder rechtes Fuß, um ihn zu drehen,",
+"* und er muss von der |cff71d5ff|Hspell:-2530|h[Magma]|h|r und den großen |cff71d5ff|Hspell:-2534|h[Vulkan]|h|r weggesteuert werden (die kleinen |cff71d5ff|Hspell:-2535|h[Krater]|h|r werden vom DPS gelöscht).",
 "* Sein |cff71d5ff|Hspell:-2527|h[Obsidian Armor]|h|r stapelt Schichten, die den Schaden, den er nimmt, reduzieren: Reduziere es mit Schaden; mit jedem Vulkan |cff71d5ff|Hspell:-2531|h[fragments]|h|r und |cff71d5ff|Hspell:-2532|h[sparks]|h|r von Rhyolith spawnt er |cff71d5ff|Hspell:-2533|h[Infernal Rage]|h|r, sodass sie schnell getötet werden.",
 "* Seine |cff71d5ff|Hspell:-2528|h[Schlagende Stampfe]|h|r trifft jetzt alle und dann wieder: periodische Heilung.",
 "* STAGE 2 (bei 25%): Die Lenkung endet und der |cff71d5ff|Hspell:-2538|h[Immolation]|h|r verursacht Schaden für alle in wachsendem Ausmaß: Volle DPS mit Lust/Heroismus, Vermeidung des |cff71d5ff|Hspell:-2539|h[Unleashed Flame]|h|r."
@@ -766,9 +800,11 @@ pack["52558"] = { "Lord Rhyolith",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
 pack["52571"] = { "Majordomus Hirschhaupt",
-"* Jede |cff71d5ff|Hspell:-2912|h[Shapeshift]|h|r Regel: in |cff71d5ff|Hspell:-2913|h[cat form]|h|r springt er |cff71d5ff|Hspell:-2914|h[Leaping Flames]|h|r nach dem Ziel (verlassend Feuerbahnen auf dem Boden) und in |cff71d5ff|Hspell:-2918|h[scorpion form]|h|r wird der |cff71d5ff|Hspell:-2919|h[Flame Scythe]|h|r denjenigen bestrafen, der ihn trifft (der Nahkampfes frisst es mit Heilungen).",
+"* Jede |cff71d5ff|Hspell:-2912|h[Shapeshift]|h|r Regel: in |cff71d5ff|Hspell:-2913|h[cat form]|h|r springt er |cff71d5ff|Hspell:-2914|h[Leaping Flames]|h|r nach dem Ziel (verlassend Feuerbahnen auf dem Boden) und in |cff71d5ff|Hspell:-2918|h[scorpion form]|h|r wird der",
+"* |cff71d5ff|Hspell:-2919|h[Flame Scythe]|h|r denjenigen bestrafen, der ihn trifft (der Nahkampfes frisst es mit Heilungen).",
 "* Die |cff71d5ff|Hspell:-2916|h[Adrenaline]|h|r baut sich mit jedem wiederholten Zauber auf: je länger der Kampf dauert, desto mehr tut es weh, also volles DPS.",
-"* In |cff71d5ff|Hspell:-2922|h[nachteelform]|h|r (Mittelschlacht) greift er die nahen mit der |cff71d5ff|Hspell:-2923|h[Feuriger Wirbelsturm]|h|r (Verbreitung), wirft unter dem Markierten |cff71d5ff|Hspell:-2924|h[Verbrennde Samen]|h|r ab (bewege dich weit weg, bevor sie explodieren) und wirft die verfolgenden |cff71d5ff|Hspell:-2925|h[Brennende Kugeln]|h|r (weiche ihnen aus dem Raid aus)."
+"* In |cff71d5ff|Hspell:-2922|h[nachteelform]|h|r (Mittelschlacht) greift er die nahen mit der |cff71d5ff|Hspell:-2923|h[Feuriger Wirbelsturm]|h|r (Verbreitung), wirft unter dem Markierten |cff71d5ff|Hspell:-2924|h[Verbrennde Samen]|h|r ab (bewege dich weit weg,",
+"* bevor sie explodieren) und wirft die verfolgenden |cff71d5ff|Hspell:-2925|h[Brennende Kugeln]|h|r (weiche ihnen aus dem Raid aus)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del corpus); tácticas pendientes --
@@ -784,7 +820,8 @@ pack["53691"] = { "Shannox",
 "* Zwei-Tank-Job: einer hält |cff71d5ff|Hspell:-2581|h[Riplimb]|h|r und der andere |cff71d5ff|Hspell:-2583|h[Rageface]|h|r, weit weg von Shannox, weil das Töten des ersten Hundes ihm die |cff71d5ff|Hspell:-2580|h[Frenzy]|h|r verleiht.",
 "* Rageface stirbt zuerst: sein |cff71d5ff|Hspell:-2584|h[Face Rage]|h|r verschlingt den Markierten (voller DPS, um ihn vorher zu beenden); danach Riplimb und zuletzt Shannox.",
 "* Shannox's |cff71d5ff|Hspell:-2577|h[Arcing Slash]|h|r verursacht den |cff71d5ff|Hspell:-2578|h[Jagged Tear]|h|r (starker Blutverlust am Tank): der Heiler deckt ihn ab; mit dem |cff71d5ff|Hspell:-2579|h[Hurl Spear]|h|r läuft Riplimb hin, um ihn zu holen (die Tanks nutzen es zur Neuorientierung).",
-"* Seine |cff71d5ff|Hspell:-2575|h[Immolation Traps]|h|r und |cff71d5ff|Hspell:-2576|h[Crystal Prison Traps]|h|r landen in der Nähe der Hunde: wer sich in deren Reichweite befindet, muss sich zurückziehen (wer erwischt wird, stirbt – besonders auf Heroic), und die Bodenzertrümmerungen |cff71d5ff|Hspell:-2928|h[Magma Ruptures]|h|r werden ausweichen."
+"* Seine |cff71d5ff|Hspell:-2575|h[Immolation Traps]|h|r und |cff71d5ff|Hspell:-2576|h[Crystal Prison Traps]|h|r landen in der Nähe der Hunde: wer sich in deren Reichweite befindet, muss sich zurückziehen (wer erwischt wird, stirbt – besonders auf Heroic),",
+"* und die Bodenzertrümmerungen |cff71d5ff|Hspell:-2928|h[Magma Ruptures]|h|r werden ausweichen."
 };
 
 -- El Fin de los Tiempos : Zona 938 --

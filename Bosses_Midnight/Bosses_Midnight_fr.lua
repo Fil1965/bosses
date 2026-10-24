@@ -194,7 +194,8 @@ pack["252959"] = { "Nymrissa Mande-vagues",
 pack["238015"] = { "Prédaxas",
 	"* Sa charge de |cff71d5ff|Hspell:34994|h[Dévorer]|h|r vise une zone : dégâts de Nature et étourdit 3 s tout ce qui est proche ; la cible court loin du groupe pendant la durée.",
 	"* La |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r vomit en cône frontal (coup plus dégâts sur la durée de 12 s) et des sbires sortent du vomi : personne ne se place devant et on les balaye vite.",
-	"* Attention aux types de sbires du vomi : les porteurs de sang passent en Rage bestiale (dégâts doublés 18 s, à dissiper ou tuer en premier), ceux ingérés crachent du venin en zone et les tiques du Vide éparpillent une pluie cosmique quand le coup sismique les secoue.",
+	"* Attention aux types de sbires du vomi : les porteurs de sang passent en Rage bestiale (dégâts doublés 18 s, à dissiper ou tuer en premier),",
+	"* ceux ingérés crachent du venin en zone et les tiques du Vide éparpillent une pluie cosmique quand le coup sismique les secoue.",
 	"* Le |cff71d5ff|Hspell:34933|h[Heurt sismique]|h|r frappe en zone et repousse : loin de l'impact et attentif à où il déplace les sbires."
 };
 

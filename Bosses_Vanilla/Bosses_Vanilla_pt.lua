@@ -618,7 +618,8 @@ pack["14834"] = { "Hakkar, o Destruidor de Almas",
 "* Sua Sanguinação (|cff71d5ff|Hspell:24324|h[Blood Siphon]|h|r) a cada 90 s, esgota TODA a raid e o cura — este é o cronograma de DPS: vença antes que os drenos esgotem a raid.",
 "* Sua Loucura (|cff71d5ff|Hspell:24327|h[Insanity]|h|r) ocorre a cada ~21 s e desorienta um jogador por 10 s: desaparece sozinho após um certo tempo.",
 "* Seu Sangue Corrompido (|cff71d5ff|Hspell:24328|h[Corrupted Blood]|h|r) pula entre os jogadores: purgue no momento em que atingir alguém.",
-"* Modo Difícil (os sacerdotes da banda vivos): o loop dos Aspectos — o Aspecto de Jeklik (|cff71d5ff|Hspell:24687|h[Aspect of Jeklik]|h|r) silencia os conjuradores, o Aspecto de Venoxis (24688) espalha o veneno, o Aspecto de Mar'li (24686) drena, o Aspecto de Arlokk (24690) marca e o Aspecto de Thekal (|cff71d5ff|Hspell:24689|h[Aspect of Thekal]|h|r) o envia em FÚRIA — este último deve ser DESFEITO (desfeita da fúria, aviso especial). Matar os sacerdotes antes desativa TODOS os Aspectos.",
+"* Modo Difícil (os sacerdotes da banda vivos): o loop dos Aspectos — o Aspecto de Jeklik (|cff71d5ff|Hspell:24687|h[Aspect of Jeklik]|h|r) silencia os conjuradores, o Aspecto de Venoxis (24688) espalha o veneno, o Aspecto de Mar'li (24686) drena,",
+"* o Aspecto de Arlokk (24690) marca e o Aspecto de Thekal (|cff71d5ff|Hspell:24689|h[Aspect of Thekal]|h|r) o envia em FÚRIA — este último deve ser DESFEITO (desfeita da fúria, aviso especial). Matar os sacerdotes antes desativa TODOS os Aspectos.",
 "* No remake de SoD, os Aspectos SEMPRE aparecem (a cada 20 s, ordem aleatória).",
 "* Por volta de 9:45, ele libera a fúria final: a luta não pode durar mais de 10 minutos."
 };
@@ -638,7 +639,8 @@ pack["15082"] = { "Gri'lek",
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
 pack["15083"] = { "Hazza'rah",
-"* A brasqueira do canto chama o troll ATIVO da rotação de duas semanas com a poção Gurubashi Mojo Madness (alquimia: 1 Sangue de Heróis, 1 Mojo Massivo, 6 Mojo Poderoso, 1 Flor Negra); ao morrer, ele deixa seu reagente para os itens de armadura da classe ZG (neste caso, o Sonho de Hazza'rah).",
+"* A brasqueira do canto chama o troll ATIVO da rotação de duas semanas com a poção Gurubashi Mojo Madness (alquimia: 1 Sangue de Heróis, 1 Mojo Massivo, 6 Mojo Poderoso, 1 Flor Negra);",
+"* ao morrer, ele deixa seu reagente para os itens de armadura da classe ZG (neste caso, o Sonho de Hazza'rah).",
 "* Suas Ilusões do Pesadelo (|cff71d5ff|Hspell:24728|h[Ilusão do Pesadelo]|h|r) são cópias lentas com pequenos poços de vida, mas ataques com mais de 5.000 de dano: mate-os IMEDIATAMENTE (um feitiço instantâneo é suficiente) — prioridade máxima do encontro.",
 "* Seu Mana Burn (|cff71d5ff|Hspell:24684|h[Mana Burn]|h|r) esgota a raid em uma cadeia — ele carrega apenas cerca de 5.000 de mana, então caçadores com Viper Sting e feiticeiros com Mana Drain o mantêm SECO e a habilidade se esgota.",
 "* Seu Sono (|cff71d5ff|Hspell:24664|h[Sono]|h|r) é de área, 6 segundos: espalhe o grupo e ninguém dorme no meio da raid.",
@@ -723,7 +725,8 @@ pack["218571"] = { "Sombra de Eranikus",
 "* O chefe final da reestruturação: o dragão verde do Sonho Esmeralda no poço.",
 "* O ataque Corrosive Breath (|cff71d5ff|Hspell:437353|h[Corrosive Breath]|h|r) pune o tanque — troque com a habilidade de atordoar após o lançamento — e Deep Slumber (|cff71d5ff|Hspell:437301|h[Deep Slumber]|h|r) varre a sala em um ritmo.",
 "* Seu Waking Nightmare (|cff71d5ff|Hspell:437398|h[Waking Nightmare]|h|r) a cada ~66 s é letal: corra em direção ao local do Deep Slumber e saia do terreno atingido.",
-"* Seu Lethargic Poison (|cff71d5ff|Hspell:437390|h[Lethargic Poison]|h|r) é veneno (remova-o); em 70% e 40% seus Dream adicionais spawn (são marcados) e seu Lethargic Poison canalizado (|cff71d5ff|Hspell:437425|h[Lethargic Poison]|h|r) é SEMPRE interrompido, assim como o Bellowing Roar (|cff71d5ff|Hspell:445498|h[Bellowing Roar]|h|r)."
+"* Seu Lethargic Poison (|cff71d5ff|Hspell:437390|h[Lethargic Poison]|h|r) é veneno (remova-o); em 70% e 40% seus Dream adicionais spawn (são marcados) e seu Lethargic Poison canalizado (|cff71d5ff|Hspell:437425|h[Lethargic Poison]|h|r) é SEMPRE",
+"* interrompido, assim como o Bellowing Roar (|cff71d5ff|Hspell:445498|h[Bellowing Roar]|h|r)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
@@ -736,14 +739,16 @@ pack["218624"] = { "Atal'alarion",
 pack["218718"] = { "Jammal'an e Ogom",
 "* O hall do remake: os dois trolls se devoram um ao outro e o sobrevivente fica fortalecido.",
 "* Fase 1: Smite (437805) SEMPRE interrompido; Holy Nova (437817) é desviado em área e seu Holy Fire (437809) (mágico) atinge em um ritmo; Mortal Lash (437847) no tanque e Agonizing Weakness (437868) no grupo.",
-"* Fase 2 (o devorado cai): Jammal'an com Psychic Screams (437928) (medo), seu Shadow Sermon: Pain (437927) (mágico), Power Word: Shield (437930) (é desfeito) e Mass Penance (437921); Ogom com Hammers of Justice (437915) (paralisia), Consecration (437884) — permaneça no chão — e Divine Storm (437920) (1,5 s de tempo de lançamento)."
+"* Fase 2 (o devorado cai): Jammal'an com Psychic Screams (437928) (medo), seu Shadow Sermon: Pain (437927) (mágico), Power Word: Shield (437930) (é desfeito) e Mass Penance (437921);",
+"* Ogom com Hammers of Justice (437915) (paralisia), Consecration (437884) — permaneça no chão — e Divine Storm (437920) (1,5 s de tempo de lançamento)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
 pack["218721"] = { "Jammal'an e Ogom",
 "* O hall do remake: os dois trolls se devoram um ao outro e o sobrevivente fica fortalecido.",
 "* Fase 1: Smite (437805) SEMPRE interrompido; Holy Nova (437817) é desviado em área e seu Holy Fire (437809) (mágico) atinge em um ritmo; Mortal Lash (437847) no tanque e Agonizing Weakness (437868) no grupo.",
-"* Fase 2 (o devorado cai): Jammal'an com Psychic Screams (437928) (medo), seu Shadow Sermon: Pain (437927) (mágico), Power Word: Shield (437930) (é desfeito) e Mass Penance (437921); Ogom com Hammers of Justice (437915) (paralisia), Consecration (437884) — permaneça no chão — e Divine Storm (437920) (1,5 s de tempo de lançamento)."
+"* Fase 2 (o devorado cai): Jammal'an com Psychic Screams (437928) (medo), seu Shadow Sermon: Pain (437927) (mágico), Power Word: Shield (437930) (é desfeito) e Mass Penance (437921);",
+"* Ogom com Hammers of Justice (437915) (paralisia), Consecration (437884) — permaneça no chão — e Divine Storm (437920) (1,5 s de tempo de lançamento)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
@@ -816,7 +821,8 @@ pack["220864"] = { "Sonho e Tecelã",
 pack["221394"] = { "Avatar de Hakkar",
 "* A versão remade do deus serpente, em duas fases: o ritual primeiro, depois a besta.",
 "* Fase Espírito: As Correntes do Espírito (|cff71d5ff|Hspell:443975|h[Spirit Chains]|h|r) marcam um jogador com um puxão — o preso QUEBRA — e o Uivo Terrível (|cff71d5ff|Hspell:443990|h[Frightsome Howl]|h|r) é SEMPRE interrompido, enquanto os Hakkari blood keepers caem com o ritual.",
-"* Fase Besta: Nova de Sangue (|cff71d5ff|Hspell:444050|h[Blood Nova]|h|r) a cada ~8 s, o Sangue Corrompido (|cff71d5ff|Hspell:444253|h[Corrupted Blood]|h|r) pula de jogador para jogador — o marcado QUEBRA —, Insanidade (|cff71d5ff|Hspell:444039|h[Insanity]|h|r) em um jogador marcado, Maldição da Língua (|cff71d5ff|Hspell:444046|h[Curse of Tongues]|h|r) (maldição) e o Drenar Sangue (|cff71d5ff|Hspell:444132|h[Drain Blood]|h|r): quem carrega Sangue Corrompido entra na frente do tanque."
+"* Fase Besta: Nova de Sangue (|cff71d5ff|Hspell:444050|h[Blood Nova]|h|r) a cada ~8 s, o Sangue Corrompido (|cff71d5ff|Hspell:444253|h[Corrupted Blood]|h|r) pula de jogador para jogador — o marcado QUEBRA —,",
+"* Insanidade (|cff71d5ff|Hspell:444039|h[Insanity]|h|r) em um jogador marcado, Maldição da Língua (|cff71d5ff|Hspell:444046|h[Curse of Tongues]|h|r) (maldição) e o Drenar Sangue (|cff71d5ff|Hspell:444132|h[Drain Blood]|h|r): quem carrega Sangue Corrompido entra na frente do tanque."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
@@ -867,14 +873,16 @@ pack["221640"] = { "Defensores de Atal'ai",
 pack["221942"] = { "Morphaz e Hazzas",
 "* O par de dragões da toca da versão remestada: o combate mais longo do templo de SoD.",
 "* Respiração Corrompida (|cff71d5ff|Hspell:446487|h[Respiração Corrompida]|h|r) se acumula no tanque e Chamas Animadas (|cff71d5ff|Hspell:446661|h[Chama Animada]|h|r) surgem do chão.",
-"* A fase se baseia em Sonho Lúcido: o primeiro canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sonho Lúcido]|h|r) envia o grupo para o Sonho Esmeralda — as chamas morrem durante o lançamento; o segundo canal (4 s) chega já em chamas, e após ele, seu Sono Eterno (|cff71d5ff|Hspell:446144|h[Sono Eterno]|h|r) de 30 s mata todos, a menos que escapem pelo portal a tempo."
+"* A fase se baseia em Sonho Lúcido: o primeiro canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sonho Lúcido]|h|r) envia o grupo para o Sonho Esmeralda — as chamas morrem durante o lançamento;",
+"* o segundo canal (4 s) chega já em chamas, e após ele, seu Sono Eterno (|cff71d5ff|Hspell:446144|h[Sono Eterno]|h|r) de 30 s mata todos, a menos que escapem pelo portal a tempo."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
 pack["221943"] = { "Morphaz e Hazzas",
 "* O par de dragões da toca da versão remestada: o combate mais longo do templo de SoD.",
 "* Respiração Corrompida (|cff71d5ff|Hspell:446487|h[Respiração Corrompida]|h|r) se acumula no tanque e Chamas Animadas (|cff71d5ff|Hspell:446661|h[Chama Animada]|h|r) surgem do chão.",
-"* A fase se baseia em Sonho Lúcido: o primeiro canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sonho Lúcido]|h|r) envia o grupo para o Sonho Esmeralda — as chamas morrem durante o lançamento; o segundo canal (4 s) chega já em chamas, e após ele, seu Sono Eterno (|cff71d5ff|Hspell:446144|h[Sono Eterno]|h|r) de 30 s mata todos, a menos que escapem pelo portal a tempo."
+"* A fase se baseia em Sonho Lúcido: o primeiro canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sonho Lúcido]|h|r) envia o grupo para o Sonho Esmeralda — as chamas morrem durante o lançamento;",
+"* o segundo canal (4 s) chega já em chamas, e após ele, seu Sono Eterno (|cff71d5ff|Hspell:446144|h[Sono Eterno]|h|r) de 30 s mata todos, a menos que escapem pelo portal a tempo."
 };
 
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
@@ -1065,7 +1073,8 @@ pack["74565"] = { "Subjugador Kor'ul",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["74728"] = { "Senhor do Crepúsculo Bathiel",
-"* Ele se espalha por a sala, deixando círculos de Água Restauradora: se atingir um, bebe (Absorção de Cura), recuperando 5% da sua vida, e um círculo explosivo (Explosão de Água) lança dano de Frio em 5 yardas; preste atenção nos círculos e nunca lhe dê água.",
+"* Ele se espalha por a sala, deixando círculos de Água Restauradora: se atingir um, bebe (Absorção de Cura), recuperando 5% da sua vida, e um círculo explosivo (Explosão de Água) lança dano de Frio em 5 yardas;",
+"* preste atenção nos círculos e nunca lhe dê água.",
 "* Seu Chuvo Piercing causa dano de Frio em jogadores aleatórios a cada segundo: dano constante, os curandeiros devem manter a contagem."
 };
 
@@ -1077,7 +1086,8 @@ pack["74988"] = { "Carrasco Mutila",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["75408"] = { "Aku'mai",
-"* Fase 1 (forma de hidra): o tanque principal aplica o debuff de veneno; o tanque secundário ataca no terceiro ou quarto stack para que o primeiro tanque se cure tocando nas fontes elementais da sala (elas summon um add que morre instantaneamente).",
+"* Fase 1 (forma de hidra): o tanque principal aplica o debuff de veneno; o tanque secundário ataca no terceiro ou quarto stack para que o primeiro tanque se cure tocando nas fontes elementais da sala (elas summon um add que morre",
+"* instantaneamente).",
 "* Ela é evitada quando lança |cff71d5ff|Hspell:429168|h[Explosão Corrosiva]|h|r: o jogador marcado sai do cone.",
 "* Fase 2 (forma de vazio, abaixo de 50%): dano físico aumenta e ela lança explosões escuras (a |cff71d5ff|Hspell:429359|h[Explosão de Vazio]|h|r é evitada da mesma forma); os tanques mantêm a rotação com mais cuidado e o grupo usa cada cooldown para terminá-la."
 };
@@ -1127,13 +1137,15 @@ pack["207356"] = { "Lorgus Jett",
 -- [editor web 2026-10-14] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
 pack["209678"] = { "Senhor do Crepúsculo Bathiel",
 "* Fase 1 (100% a 35%): ele envia dois jogadores aleatórios para o Mundo Sombrio; lá eles matam os padres fantasmas rapidamente para ativar os portais e retornam; na superfície, suas correntes de raio estão SEMPRE interrompidas.",
-"* Fase 2 (abaixo de 35%): ele fica furioso e para de enviar pessoas para baixo; torna-se uma corrida de dano com uma Poção de Proteção Sombria tomada antes ou durante a fase: os danos sombrios constantes irão esmagar o grupo, caso contrário.",
+"* Fase 2 (abaixo de 35%): ele fica furioso e para de enviar pessoas para baixo; torna-se uma corrida de dano com uma Poção de Proteção Sombria tomada antes ou durante a fase: os danos sombrios constantes irão esmagar o grupo,",
+"* caso contrário.",
 "* Sua |cff71d5ff|Hspell:423135|h[Sono]|h|r ainda derruba um jogador aleatório: dispela-o."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["213334"] = { "Aku'mai",
-"* Fase 1 (forma de hidra): o tanque principal aplica o debuff de veneno; o tanque secundário ataca no terceiro ou quarto stack para que o primeiro tanque se cure tocando nas fontes elementais da sala (elas summon um add que morre instantaneamente).",
+"* Fase 1 (forma de hidra): o tanque principal aplica o debuff de veneno; o tanque secundário ataca no terceiro ou quarto stack para que o primeiro tanque se cure tocando nas fontes elementais da sala (elas summon um add que morre",
+"* instantaneamente).",
 "* Ela é evitada quando lança |cff71d5ff|Hspell:429168|h[Explosão Corrosiva]|h|r: o jogador marcado sai do cone.",
 "* Fase 2 (forma de vazio, abaixo de 50%): dano físico aumenta e ela lança explosões escuras (a |cff71d5ff|Hspell:429359|h[Explosão de Vazio]|h|r é evitada da mesma forma); os tanques mantêm a rotação com mais cuidado e o grupo usa cada cooldown para terminá-la."
 };
@@ -1184,7 +1196,8 @@ pack["74347"] = { "Mordresh Olho-de-Fogo",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["74412"] = { "Aarux",
-"* Sua Teia Enredadora prende um jogador à distância, o puxa para o combate corpo a corpo e planta Plagued Bite ao mesmo tempo (dano de Natureza por 10 segundos e -50% de velocidade de movimento): o curandeiro a elimina ou cura fortemente o preso.",
+"* Sua Teia Enredadora prende um jogador à distância, o puxa para o combate corpo a corpo e planta Plagued Bite ao mesmo tempo (dano de Natureza por 10 segundos e -50% de velocidade de movimento): o curandeiro a elimina ou cura fortemente",
+"* o preso.",
 "* Sua Pústula Explosiva causa dano de Natureza nos próximos: distância e alcance."
 };
 
@@ -1831,7 +1844,8 @@ pack["13020"] = { "Vaelastrasz, o Corrupto",
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["14020"] = { "Cromaggus",
 "* Seus dois ataques giram aleatoriamente pelo salão: cada um pinta sua própria área — os jogadores de combate se reposicionam para o que atingir.",
-"* As quatro Afflições: Vermelha (|cff71d5ff|Hspell:23155|h[Brood Affliction: Red]|h|r) é a Doença e Cura, se ninguém a remover; Verde (|cff71d5ff|Hspell:23169|h[Brood Affliction: Green]|h|r) é veneno; Azul (|cff71d5ff|Hspell:23153|h[Brood Affliction: Blue]|h|r) é magia; Preta (|cff71d5ff|Hspell:23154|h[Brood Affliction: Black]|h|r) é uma maldição — remove todas as formas da tripulação.",
+"* As quatro Afflições: Vermelha (|cff71d5ff|Hspell:23155|h[Brood Affliction: Red]|h|r) é a Doença e Cura, se ninguém a remover; Verde (|cff71d5ff|Hspell:23169|h[Brood Affliction: Green]|h|r) é veneno;",
+"* Azul (|cff71d5ff|Hspell:23153|h[Brood Affliction: Blue]|h|r) é magia; Preta (|cff71d5ff|Hspell:23154|h[Brood Affliction: Black]|h|r) é uma maldição — remove todas as formas da tripulação.",
 "* Seu Frenzy (|cff71d5ff|Hspell:23128|h[Frenzy]|h|r) é acalmado por um Tranquilizing Shot e o Enrage (|cff71d5ff|Hspell:23537|h[Enrage]|h|r) chega no final: os DPS correm contra o tempo."
 };
 

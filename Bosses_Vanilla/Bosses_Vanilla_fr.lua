@@ -210,9 +210,11 @@ pack["4829"] = { "Aku'mai",
 };
 -- (Refonte SoD / journal actuel ; le classique est la CID 4829)
 bos = { "Aku'mai",
-	"* Phase 1 (forme hydre) : le tank principal cumule son affaiblissement de poison ; le second tank la provoque au troisième ou quatrième cumul pour que le premier se purge en touchant les sources élémentaires de la salle (elles font sortir un sbire qu'on élimine aussitôt).",
+	"* Phase 1 (forme hydre) : le tank principal cumule son affaiblissement de poison ; le second tank la provoque au troisième ou quatrième cumul pour que le premier se purge en touchant les sources élémentaires de la salle (elles font",
+	"* sortir un sbire qu'on élimine aussitôt).",
 	"* On esquive quand elle lance son |cff71d5ff|Hspell:429168|h[Explosion corrosive]|h|r : le désigné s'écarte du cône.",
-	"* Phase 2 (forme du Vide, au-dessous de 50%) : les dégâts physiques montent et elle envoie des éclats sombres (le |cff71d5ff|Hspell:429359|h[Explosion du Vide]|h|r s'esquive de même) ; les tanks continuent de tourner avec plus de marge et la bande brûle tous ses cooldowns pour finir."
+	"* Phase 2 (forme du Vide, au-dessous de 50%) : les dégâts physiques montent et elle envoie des éclats sombres (le |cff71d5ff|Hspell:429359|h[Explosion du Vide]|h|r s'esquive de même) ;",
+	"* les tanks continuent de tourner avec plus de marge et la bande brûle tous ses cooldowns pour finir."
 };
 pack["213334"] = bos;
 pack["75408"] = bos;
@@ -260,7 +262,8 @@ pack["7358"] = { "Amnennar le Porte-Froid", -- (era clásica)
 -- (CIDs du remake du journal actuel ; la refonte SoD et celles du client
 -- Era sont plus haut)
 bos = { "Seigneur du Crépuscule Bathiel",
-	"* Il se disperse dans la salle en laissant des cercles d'eau restauratrice : s'il en boit un (Absorption soignante) il récupère 5% de sa vie et si l'un crève (Déferlante aqueuse) il frappe de givre dans 5 m ; surveiller les cercles et lui refuser l'eau.",
+	"* Il se disperse dans la salle en laissant des cercles d'eau restauratrice : s'il en boit un (Absorption soignante) il récupère 5% de sa vie et si l'un crève (Déferlante aqueuse) il frappe de givre dans 5 m ;",
+	"* surveiller les cercles et lui refuser l'eau.",
 	"* Sa Pluie perçante pique du givre chaque seconde sur des cibles aléatoires : dégâts récurrents dont s'occupent les soigneurs."
 };
 pack["74728"] = bos;
@@ -623,7 +626,8 @@ bos = {
 	"* Boss festif de Hallow's End classique : il s'invoque au Cimetière du monastère en parlant au sanctuaire de citrouilles qui attend à l'entrée.",
 	"* |cff71d5ff|Hspell:42380|h[Conflagration]|h|r met le feu à un joueur au hasard 4 s et le fait fuir affolé : écartez-vous de lui tant que ça brûle ; le soigneur le sort d'affaire.",
 	"* |cff71d5ff|Hspell:42514|h[Écraser l'âme]|h|r frappe un autre joueur pendant 15 s : des soins sur le marqué.",
-	"* Le tour de la bataille : corps à 1 % -> insensible et la TÊTE s'envole pendant que le corps se régénère -> tout le focus sur la Tête avant qu'elle ne revienne ; elle sort trois fois, et la troisième ne revient plus : abattez-la pour finir.",
+	"* Le tour de la bataille : corps à 1 % -> insensible et la TÊTE s'envole pendant que le corps se régénère -> tout le focus sur la Tête avant qu'elle ne revienne ;",
+	"* elle sort trois fois, et la troisième ne revient plus : abattez-la pour finir.",
 	"* À la dernière tournée du corps viennent les Citrouilles palpitantes (sbires sans id) : le tank les retient et le groupe les coupe en AoE."
 };
 pack["23682"] = bos;
@@ -770,7 +774,8 @@ pack["7267"] = { "Chef Ukorz Scalpessable",
 
 pack["5710"] = { "Jammal’an le Prophète", -- (ère classique)
 	"* Le prophète du hall, avec son garde du corps Ogom (sans entrée propre) à côté : combat en duo au milieu du salon.",
-	"* Jammal’an plante son Totem de terre saisissante (|cff71d5ff|Hspell:8376|h[Totem de terre saisissante]|h|r) — il enracine le groupe — et marque un joueur avec son Maléfice de Jammal’an (|cff71d5ff|Hspell:12479|h[Maléfice de Jammal’an]|h|r), qui attend à couvert ; il lâche aussi Vague de soins (12492) et Choc de flammes (12468).",
+	"* Jammal’an plante son Totem de terre saisissante (|cff71d5ff|Hspell:8376|h[Totem de terre saisissante]|h|r) — il enracine le groupe — et marque un joueur avec son Maléfice de Jammal’an (|cff71d5ff|Hspell:12479|h[Maléfice de Jammal’an]|h|r), qui attend à couvert ;",
+	"* il lâche aussi Vague de soins (12492) et Choc de flammes (12468).",
 	"* Ogom punit avec ses Décharges de la nuit (|cff71d5ff|Hspell:12471|h[Décharge de la nuit]|h|r) TOUJOURS interrompues et pose Fléau des ombres (|cff71d5ff|Hspell:11639|h[Fléau des ombres]|h|r) (magie) et Malédiction de faiblesse (|cff71d5ff|Hspell:12493|h[Malédiction de faiblesse]|h|r) (maléfice)."
 };
 
@@ -851,15 +856,18 @@ pack["220864"] = bos; -- Tisserand
 
 pack["221394"] = { "Avatar d’Hakkar", -- (ère SoD, bande à 10)
 	"* Le dieu serpent du remake, en deux étapes : d'abord le rituel, puis la bête.",
-	"* Étape de l'esprit : les Chaînes d'esprit (|cff71d5ff|Hspell:443975|h[Chaînes d'esprit]|h|r) marquent un joueur avec un tirage — l'entravé SE DÉGAGE — et le Hurlement effrayant (|cff71d5ff|Hspell:443990|h[Hurlement effrayant]|h|r) est TOUJOURS interrompu, pendant que les gardes de sang Hakkari tombent avec le rite.",
-	"* Étape de la bête : Nova de sang (|cff71d5ff|Hspell:444050|h[Nova de sang]|h|r) toutes les ~8 s, le Sang corrompu (|cff71d5ff|Hspell:444253|h[Sang corrompu]|h|r) saute de joueur en joueur — le marqué SE DÉGAGE —, Folie (|cff71d5ff|Hspell:444039|h[Folie]|h|r) sur un marqué, Malédiction des langues (|cff71d5ff|Hspell:444046|h[Malédiction des langues]|h|r) (maléfice) et le Puiser le sang (|cff71d5ff|Hspell:444132|h[Puiser le sang]|h|r) : celui qui porte le Sang corrompu se place devant le tank."
+	"* Étape de l'esprit : les Chaînes d'esprit (|cff71d5ff|Hspell:443975|h[Chaînes d'esprit]|h|r) marquent un joueur avec un tirage — l'entravé SE DÉGAGE — et le Hurlement effrayant (|cff71d5ff|Hspell:443990|h[Hurlement effrayant]|h|r) est TOUJOURS interrompu,",
+	"* pendant que les gardes de sang Hakkari tombent avec le rite.",
+	"* Étape de la bête : Nova de sang (|cff71d5ff|Hspell:444050|h[Nova de sang]|h|r) toutes les ~8 s, le Sang corrompu (|cff71d5ff|Hspell:444253|h[Sang corrompu]|h|r) saute de joueur en joueur — le marqué SE DÉGAGE —,",
+	"* Folie (|cff71d5ff|Hspell:444039|h[Folie]|h|r) sur un marqué, Malédiction des langues (|cff71d5ff|Hspell:444046|h[Malédiction des langues]|h|r) (maléfice) et le Puiser le sang (|cff71d5ff|Hspell:444132|h[Puiser le sang]|h|r) : celui qui porte le Sang corrompu se place devant le tank."
 };
 
 -- Jammal'an et Ogom (ère SoD) : paire du hall, deux étapes.
 bos = { "Jammal’an et Ogom",
 	"* La paire du hall du remake : les deux trolls se dévorent entre eux et le survivant s'empare du pouvoir.",
 	"* Étape 1 : Châtiment (437805) TOUJOURS interrompu ; Nova sacrée (437817) s'esquive en rayon et son Feu sacré (437809) (magie) tombe à cadence ; Fouet mortel (437847) sur le tank et Faiblesse atroce (437868) sur le groupe.",
-	"* Étape 2 (le dévoré tombe) : Jammal’an avec Cris psychiques (437928) (peur), son Sermon d'ombre : Douleur (437927) (magie), Mot de pouvoir : Bouclier (437930) (se dissipe) et Pénitence de masse (437921) ; Ogom avec Marteaux de la Justice (437915) (étourdissement), Consécration (437884) — on sort du sol — et Tempête divine (437920) (cast de 1,5 s)."
+	"* Étape 2 (le dévoré tombe) : Jammal’an avec Cris psychiques (437928) (peur), son Sermon d'ombre : Douleur (437927) (magie), Mot de pouvoir : Bouclier (437930) (se dissipe) et Pénitence de masse (437921) ;",
+	"* Ogom avec Marteaux de la Justice (437915) (étourdissement), Consécration (437884) — on sort du sol — et Tempête divine (437920) (cast de 1,5 s)."
 };
 pack["218721"] = bos; -- Jammal'an
 pack["218718"] = bos; -- Ogom
@@ -868,7 +876,8 @@ pack["218718"] = bos; -- Ogom
 bos = { "Morphaz et Hazzas",
 	"* La paire de drakonid de la fosse du remake : le plus long combat du temple SoD.",
 	"* Le Souffle corrompu (|cff71d5ff|Hspell:446487|h[Souffle corrompu]|h|r) S'EMPILE sur le tank et les Flammes animées (|cff71d5ff|Hspell:446661|h[Flammes animées]|h|r) surgissent du sol.",
-	"* L'étape passe par le Rêve lucide : le premier canal de ~20 s (|cff71d5ff|Hspell:445235|h[Rêve lucide]|h|r) emmène le groupe dans le Rêve d'émeraude — les flammes tombent à mi-canal ; le second canal (4 s) arrive déjà relancé et après lui son Sommeil éternel (|cff71d5ff|Hspell:446144|h[Sommeil éternel]|h|r) de 30 s tue tout le monde si le groupe ne fuit pas par le portail à temps."
+	"* L'étape passe par le Rêve lucide : le premier canal de ~20 s (|cff71d5ff|Hspell:445235|h[Rêve lucide]|h|r) emmène le groupe dans le Rêve d'émeraude — les flammes tombent à mi-canal ;",
+	"* le second canal (4 s) arrive déjà relancé et après lui son Sommeil éternel (|cff71d5ff|Hspell:446144|h[Sommeil éternel]|h|r) de 30 s tue tout le monde si le groupe ne fuit pas par le portail à temps."
 };
 pack["221942"] = bos; -- Morphaz
 pack["221943"] = bos; -- Hazzas
@@ -877,7 +886,8 @@ pack["218571"] = { "Ombre d’Eranikus", -- (ère SoD, bande à 10)
 	"* Le chef final du remake : le drakonid vert du Rêve d'émeraude dans la fosse.",
 	"* Le Souffle corrosif (|cff71d5ff|Hspell:437353|h[Souffle corrosif]|h|r) punit le tank — on change par provocation après le cast — et le Sommeil profond (|cff71d5ff|Hspell:437301|h[Sommeil profond]|h|r) balaie la salle à cadence.",
 	"* Son Cauchemar éveillé (|cff71d5ff|Hspell:437398|h[Cauchemar éveillé]|h|r) toutes les ~66 s est létal : on court VERS l'endroit du Sommeil profond et hors du sol punitif.",
-	"* Son Poison léthargique (|cff71d5ff|Hspell:437390|h[Poison léthargique]|h|r) est du poison (on le purge) ; à 70% et 40% ses sbires du Rêve sortent (ils se marquent) et leur Poison léthargique canalisé (|cff71d5ff|Hspell:437425|h[Poison léthargique]|h|r) est TOUJOURS interrompu, comme le Hurlement (|cff71d5ff|Hspell:445498|h[Hurlement]|h|r)."
+	"* Son Poison léthargique (|cff71d5ff|Hspell:437390|h[Poison léthargique]|h|r) est du poison (on le purge) ;",
+	"* à 70% et 40% ses sbires du Rêve sortent (ils se marquent) et leur Poison léthargique canalisé (|cff71d5ff|Hspell:437425|h[Poison léthargique]|h|r) est TOUJOURS interrompu, comme le Hurlement (|cff71d5ff|Hspell:445498|h[Hurlement]|h|r)."
 };
 
 -- ======================== --
@@ -961,7 +971,8 @@ pack["14834"] = { "Hakkar le Fléau des âmes", -- (bande classique, boss final)
 	"* Son Siphon de sang (|cff71d5ff|Hspell:24324|h[Siphon de sang]|h|r) toutes les 90 s draine TOUTE la bande et le soigne — c'est la course du DPS : vaincre avant que les drains ne taillent la bande en pièces.",
 	"* Son Insanité (|cff71d5ff|Hspell:24327|h[Insanité]|h|r) arrive toutes les ~21 s et rend fou un joueur 10 s : tenu à l'écart des rangs, ça retombe seul.",
 	"* Son Sang corrompu (|cff71d5ff|Hspell:24328|h[Sang corrompu]|h|r) saute entre joueurs : purger dès qu'il marque.",
-	"* Mode dur (les prêtres de la bande vivants) : les Aspects tournent en boucle — Celui de Jeklik (|cff71d5ff|Hspell:24687|h[Aspect de Jeklik]|h|r) fait taire les casters, celui de Venoxis (24688) sème du poison, celui de Mar'li (24686) draine, celui d'Arlokk (24690) marque, et celui de Thekal (|cff71d5ff|Hspell:24689|h[Aspect de Thekal]|h|r) le fait RUGIR — celui-là on le PURGE de lui (dispel de frénésie, avertissement critique). Tuer les prêtres avant désactive TOUS les Aspects.",
+	"* Mode dur (les prêtres de la bande vivants) : les Aspects tournent en boucle — Celui de Jeklik (|cff71d5ff|Hspell:24687|h[Aspect de Jeklik]|h|r) fait taire les casters, celui de Venoxis (24688) sème du poison, celui de Mar'li (24686) draine,",
+	"* celui d'Arlokk (24690) marque, et celui de Thekal (|cff71d5ff|Hspell:24689|h[Aspect de Thekal]|h|r) le fait RUGIR — celui-là on le PURGE de lui (dispel de frénésie, avertissement critique). Tuer les prêtres avant désactive TOUS les Aspects.",
 	"* Dans le remake SoD les Aspects arrivent TOUJOURS (toutes les 20 s, ordre aléatoire).",
 	"* À ~9:45 il lâche la frénésie finale sans frein : le combat ne peut pas dépasser 10 minutes."
 };
@@ -971,9 +982,11 @@ pack["15082"] = { "Gri'lek", -- (ère classique, Coin de la Folie ; fiches du pr
 	"* Son Avatar (|cff71d5ff|Hspell:24646|h[Avatar]|h|r) l'ENGRAISSE, efface la menace du tank et fait décoller ses dégâts physiques — et il marche PLUS LENTEMENT : celui qui est épinglé court hors de son rayon jusqu'à ce qu'il rétrécisse à nouveau."
 };
 pack["15083"] = { "Hazza'rah", -- (ère classique, Coin de la Folie ; fiches du propriétaire 2026-10)
-	"* Le brasier du Coin invoque le troll ACTIF de la rotation de deux semaines avec la potion Folie de mojo gurubashi (alchimie : 1 Sang de héros, 1 Mojo massif, 6 Mojo puissant, 1 Lotus noir) ; à sa chute il lâche son réactif pour les bijoux de classe de ZG (ici, le Fil des rêves de Hazza'rah).",
+	"* Le brasier du Coin invoque le troll ACTIF de la rotation de deux semaines avec la potion Folie de mojo gurubashi (alchimie : 1 Sang de héros, 1 Mojo massif, 6 Mojo puissant, 1 Lotus noir) ;",
+	"* à sa chute il lâche son réactif pour les bijoux de classe de ZG (ici, le Fil des rêves de Hazza'rah).",
 	"* Ses Illusions de cauchemar (|cff71d5ff|Hspell:24728|h[Illusion de cauchemar]|h|r) sont des copies lentes avec peu de vie mais des coups à plus de 5 000 : on les tue SUR LE CHAMP (un instantané suffit) — priorité maximale du combat.",
-	"* Son Brûlure de mana en chaîne (|cff71d5ff|Hspell:24684|h[Brûlure de mana]|h|r) draine la bande en chaîne — il ne porte presque pas de mana (environ 5 000), donc les chasseurs avec Piqûre de vipère et les démonistes avec Drain de mana le laissent SEC et la technique s'annule d'elle-même.",
+	"* Son Brûlure de mana en chaîne (|cff71d5ff|Hspell:24684|h[Brûlure de mana]|h|r) draine la bande en chaîne — il ne porte presque pas de mana (environ 5 000),",
+	"* donc les chasseurs avec Piqûre de vipère et les démonistes avec Drain de mana le laissent SEC et la technique s'annule d'elle-même.",
 	"* Son Sommeil (|cff71d5ff|Hspell:24664|h[Sommeil]|h|r) est de zone, 6 s : la bande s'étale et personne ne ronfle en plein raid.",
 	"* Ses compagnons de rotation Gri'lek, Renataki et Wushoolay ont leur propre entrée : le brasier n'appelle que le troll actif de la quinzaine."
 };
@@ -1354,7 +1367,8 @@ pack["11981"] = { "Flamegor", -- (era clásica)
 };
 pack["14020"] = { "Chromaggus", -- (era clásica)
 	"* Ses deux souffles tournent au hasard dans la salle : chacun peint sa rue — la mêlée se replace selon celui qui tombe.",
-	"* Les quatre Afflictions de couvée : la Rouge (|cff71d5ff|Hspell:23155|h[Mal de couvée : rouge]|h|r) est une MALADIE qui le SOIGNE si personne ne la purge ; la Verte (|cff71d5ff|Hspell:23169|h[Mal de couvée : vert]|h|r) est poison ; la Bleue (|cff71d5ff|Hspell:23153|h[Mal de couvée : bleu]|h|r) magie ; la Noire (|cff71d5ff|Hspell:23154|h[Mal de couvée : noir]|h|r) maléfice — purges de toutes les familles en salle.",
+	"* Les quatre Afflictions de couvée : la Rouge (|cff71d5ff|Hspell:23155|h[Mal de couvée : rouge]|h|r) est une MALADIE qui le SOIGNE si personne ne la purge ; la Verte (|cff71d5ff|Hspell:23169|h[Mal de couvée : vert]|h|r) est poison ;",
+	"* la Bleue (|cff71d5ff|Hspell:23153|h[Mal de couvée : bleu]|h|r) magie ; la Noire (|cff71d5ff|Hspell:23154|h[Mal de couvée : noir]|h|r) maléfice — purges de toutes les familles en salle.",
 	"* Sa Frénésie (|cff71d5ff|Hspell:23128|h[Frénésie]|h|r) se calme au Tir tranquillisant et sa Rage (|cff71d5ff|Hspell:23537|h[Rage]|h|r) arrive à la fin : le DPS court contre la montre."
 };
 pack["11583"] = { "Nefarian", -- (era clásica)

@@ -293,6 +293,102 @@ local function sanearSalida(txt)
 	return txt;
 end
 
+-- Límite del chat del cliente: con más de 255 caracteres POR MENSAJE el
+-- cliente moderno ya no trunca — RECHAZA el envío con el error «Chat message
+-- limits exceeded» (2026-10: la viñeta de las estatuas de mimbre del Jinete
+-- decapitado murió entera en INSTANCE_CHAT con 392 bytes). Lo que manda es
+-- el peso AL CABLE — el texto ya saneado, en bytes: # en Lua cuenta bytes
+-- UTF-8, y el cirílico pesa ×2 y el CJK ×3 (las traducciones ru/zh se
+-- pasaban con aparente normalidad). presupuesto de la casa: 240 bytes, con
+-- margen para los nombres que el cliente sustituye al vuelo (localizarEnlaces).
+local LIMITE_CABLE = 240;
+
+-- Parte un texto YA SANEADO en trozos ≤ limite bytes: el corte más tardío
+-- que quepa, preferente tras frase (.!?; y CJK 。！？；), después sobre la
+-- raya " — " (la parte 2 abre con la raya y se lee como continuación), luego
+-- en espacio, y solo sin frontera alguna un corte duro sin romper un
+-- carácter UTF-8. El mismo algoritmo del editor web (partirPorLimiteChat en
+-- web-editor/_packs.mjs) y del lote de datos (scripts/limite-chat.mjs).
+local function partirAlCable(s, limite)
+	local trozos = {};
+	local minimo = math.floor(limite * 0.4);
+	while #s > limite do
+		local corte = nil;
+		-- 1) fin de frase: el corte más tardío dentro del presupuesto
+		for i = limite, minimo, -1 do
+			local p = i > 1 and s:byte(i - 1) or nil;
+			if p ~= nil and (p == 46 or p == 33 or p == 63 or p == 59) and s:sub(i, i) == " " then
+				corte = i + 1; -- tras el espacio: el trozo 2 arranca limpio
+				break;
+			end
+			local cjk = s:sub(i - 3, i - 1);
+			if cjk == "。" or cjk == "！" or cjk == "？" or cjk == "；" then
+				corte = i; -- los 3 bytes del signo quedan en el trozo 1
+				break;
+			end
+		end
+		-- 2) raya " — " (espacio + 3 bytes de raya + espacio)
+		if corte == nil then
+			for i = limite, minimo, -1 do
+				if s:sub(i, i) == " " and s:sub(i + 1, i + 3) == "—" and s:sub(i + 4, i + 4) == " " then
+					corte = i;
+					break;
+				end
+			end
+		end
+		-- 3) espacio cualquiera (la raya y la coma ya cayeron en 1 y 2; el
+		-- corte cae SOBRE el espacio: el trozo 1 lo recibe y lo recorta)
+		if corte == nil then
+			for i = limite, minimo, -1 do
+				if s:sub(i, i) == " " then
+					corte = i;
+					break;
+				end
+			end
+		end
+		-- 4) sin frontera ninguna: corte duro que no rompa un carácter UTF-8
+		if corte == nil then
+			corte = limite;
+			while corte > 2 and s:byte(corte) >= 128 and s:byte(corte) < 192 do
+				corte = corte - 1; -- byte de continuación: recula al inicio del carácter
+			end
+		end
+		local trozo = (s:sub(1, corte):gsub("%s+$", ""));
+		if #trozo > 0 then
+			trozos[#trozos + 1] = trozo;
+		end
+		s = (s:sub(corte + 1):gsub("^%s*", ""));
+	end
+	s = (s:gsub("%s+$", ""));
+	if #s > 0 then
+		trozos[#trozos + 1] = s;
+	end
+	return trozos;
+end
+
+-- Envío al canal respetando el límite: tal cual si cabe (la práctica
+-- totalidad de las líneas); si no, trocea y gotea a 0.25 s — la cadencia del
+-- reparto frío, para no chocar encima con el throttle silencioso del chat.
+-- Una línea larga SIN esto se pierde ENTERA (el cliente la rechaza).
+local function enviarAlCable(texto, canal)
+	if #texto <= LIMITE_CABLE then
+		SendChatMessage(texto, canal);
+		return;
+	end
+	local trozos = partirAlCable(texto, LIMITE_CABLE);
+	debugLog("chat", "línea de " .. tostring(#texto) .. " bytes → " .. tostring(#trozos) .. " trozos");
+	for k, t in ipairs(trozos) do
+		if k == 1 then
+			SendChatMessage(t, canal);
+		else
+			local trozo = t;
+			C_Timer.After((k - 1) * 0.25, function()
+				SendChatMessage(trozo, canal);
+			end);
+		end
+	end
+end
+
 -- Nombre de un spell en el idioma del CLIENTE (el id es el mismo en
 -- todos; el nombre lo resuelve el juego): cubre el C_Spell moderno y
 -- el GetSpellInfo clásico de los flavors antiguos.
@@ -382,10 +478,10 @@ local function salida(txt, esFirma)
 	enVueloCanal = esFirma == true and nil or txt;
 
 	if canal == "AUTO" then
-		SendChatMessage(sanearSalida(txt), autoChannel());
+		enviarAlCable(sanearSalida(txt), autoChannel());
 	elseif canal == "GUILD" then
 		if IsInGuild() then
-			SendChatMessage(sanearSalida(txt), "GUILD");
+			enviarAlCable(sanearSalida(txt), "GUILD");
 		else
 			escribir(txt);
 		end
@@ -2316,9 +2412,11 @@ local function editorInsertarSpell(idSpell)
 		table.insert(editorNota, "");
 	end
 	editorNota[i] = tostring(editorNota[i] or "") .. "|cff71d5ff|Hspell:" .. idSpell .. "|h[" .. nombre .. "]|h|r";
+	local pesa = #(sanearSalida(tostring(editorNota[i]))) > LIMITE_CABLE;
 	editorGuardar();
 	editorRefrescar();
-	return "spell " .. idSpell .. " (" .. nombre .. ") añadido a la línea " .. tostring(i);
+	return "spell " .. idSpell .. " (" .. nombre .. ") añadido a la línea " .. tostring(i)
+		.. (pesa and " — ojo: la línea supera el límite del chat (240 al cable); al enviar se trocea" or "");
 end
 
 local function editorCambiarLinea(i, delta)
@@ -2370,10 +2468,17 @@ editorRefrescar = function()
 			ed:SetScript("OnEscapePressed", function(self) self:ClearFocus(); end);
 			ed:SetScript("OnEditFocusGained", function(self) editorLinea = tonumber(self.__i); end); -- OJO: OnFocusGained NO existe en EditBox (SetScript rechaza el nombre de script)
 			ed:SetScript("OnTextChanged", function(self, userInput)
+				local txt = tostring(self:GetText());
+				-- semáforo del límite: mientras la línea pese más de lo que el
+				-- chat del cliente acepta, el texto va en rojo — al ENVIAR el
+				-- core la trocea sola (enviarAlCable), esto es aviso para
+				-- dejarla en una viñeta limpia
+				local pesa = #(sanearSalida(txt)) > LIMITE_CABLE;
+				self:SetTextColor(1, pesa and 0.35 or 1, pesa and 0.3 or 1, 1);
 				if not userInput then
 					return; -- solo los cambios de verdad (SetProgrammatic no)
 				end
-				editorNota[tonumber(self.__i)] = tostring(self:GetText());
+				editorNota[tonumber(self.__i)] = txt;
 				editorGuardar();
 			end);
 			editorFrame["ed" .. k] = ed;
@@ -3115,7 +3220,7 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 				local t = hablantesAnotados[clave];
 				if t == nil or (GetTime() - t) > 60 then
 					hablantesAnotados[clave] = GetTime();
-					debugLog("hablante sin entrada", string.lower(event), tostring(sender));
+					debugLog("hablante sin entrada", string.lower(event), tostring(sender), "id=" .. tostring(npcIdHablante));
 				end
 			end
 		end

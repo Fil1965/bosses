@@ -71,8 +71,10 @@ pack["16060"] = { "Gothik der Ernter",
 
 pack["16063"] = { "Sir Zeliek",
 "* Sein Mal von Zeliek (|cff71d5ff|Hspell:28835|h[Mal von Zeliek]|h|r) fällt alle ~15 s in 45 m um seine Ecke und trifft mit jeder Aufladung härter : 650, 1950, 4550, 9750, 16250 - wer ihn aushält rotiert, bevor die Stapel zu hoch werden.",
-"* Sein Heiliger Zorn (|cff71d5ff|Hspell:28883|h[Heiliger Zorn]|h|r) springt zwischen gruppierten Spielern und WÄCHST mit jedem Sprung : der Nahkampf rückt direkt nach einem Cast ein, Fernkämpfer bleiben auf MAXimaler Reichweite und niemand spannt die Brücke zwischen Nah und Fern, sonst fegt die Kette die Gruppe weg.",
-"* Verankert hinten rechts und bewegt sich nicht : ohne jemanden in Reichweite prügelt er die Gruppe mit Verdammnis, also halten ihn ein Heiler und ein Fernkämpfer von Anfang an, getrennt genug, um nur die Marke des EIGENEN Reiters zu fischen.",
+"* Sein Heiliger Zorn (|cff71d5ff|Hspell:28883|h[Heiliger Zorn]|h|r) springt zwischen gruppierten Spielern und WÄCHST mit jedem Sprung : der Nahkampf rückt direkt nach einem Cast ein,",
+"* Fernkämpfer bleiben auf MAXimaler Reichweite und niemand spannt die Brücke zwischen Nah und Fern, sonst fegt die Kette die Gruppe weg.",
+"* Verankert hinten rechts und bewegt sich nicht : ohne jemanden in Reichweite prügelt er die Gruppe mit Verdammnis, also halten ihn ein Heiler und ein Fernkämpfer von Anfang an, getrennt genug,",
+"* um nur die Marke des EIGENEN Reiters zu fischen.",
 "* Er ist der letzte Reiter, der fällt, direkt nach Lady Blaumeux.",
 };
 pack["16064"] = { "Thane Korth'azz",

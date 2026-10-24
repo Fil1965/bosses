@@ -260,7 +260,8 @@ pack["7358"] = { "Amnennar the Coldbringer", -- (classic era)
 -- (CIDs of the current journal's remake;
 -- the SoD redo and Era-client CIDs sit above)
 bos = { "Twilight Lord Bathiel",
-	"* He scatters parts of himself around the room leaving Restorative Waters circles: if he reaches one he drinks it (Healing Absorption) recovering 5% of his health, and a bursting one (Watery Burst) flings Frost damage in 5 yd; mind the circles and never gift him the water.",
+	"* He scatters parts of himself around the room leaving Restorative Waters circles: if he reaches one he drinks it (Healing Absorption) recovering 5% of his health, and a bursting one (Watery Burst) flings Frost damage in 5 yd;",
+	"* mind the circles and never gift him the water.",
 	"* His Piercing Rain ticks Frost damage on random players each second: steady chip damage the healers keep up with."
 };
 pack["74728"] = bos;
@@ -850,14 +851,16 @@ pack["220864"] = bos; -- Weaver
 pack["221394"] = { "Avatar of Hakkar", -- (SoD era, 10-man raid)
 	"* The remake's serpent god, in two stages: the ritual first, then the beast.",
 	"* Spirit stage: the Spirit Chains (|cff71d5ff|Hspell:443975|h[Spirit Chains]|h|r) mark a player with a pull — the chained one BREAKS AWAY — and the Frightsome Howl (|cff71d5ff|Hspell:443990|h[Frightsome Howl]|h|r) is ALWAYS interrupted, while the Hakkari blood keepers drop with the rite.",
-	"* Beast stage: Blood Nova (|cff71d5ff|Hspell:444050|h[Blood Nova]|h|r) every ~8 s, the Corrupted Blood (|cff71d5ff|Hspell:444253|h[Corrupted Blood]|h|r) jumps from player to player — the marked one BREAKS AWAY —, Insanity (|cff71d5ff|Hspell:444039|h[Insanity]|h|r) on a marked one, Curse of Tongues (|cff71d5ff|Hspell:444046|h[Curse of Tongues]|h|r) (curse) and the Drain Blood (|cff71d5ff|Hspell:444132|h[Drain Blood]|h|r): whoever carries Corrupted Blood steps in front of the tank."
+	"* Beast stage: Blood Nova (|cff71d5ff|Hspell:444050|h[Blood Nova]|h|r) every ~8 s, the Corrupted Blood (|cff71d5ff|Hspell:444253|h[Corrupted Blood]|h|r) jumps from player to player — the marked one BREAKS AWAY —,",
+	"* Insanity (|cff71d5ff|Hspell:444039|h[Insanity]|h|r) on a marked one, Curse of Tongues (|cff71d5ff|Hspell:444046|h[Curse of Tongues]|h|r) (curse) and the Drain Blood (|cff71d5ff|Hspell:444132|h[Drain Blood]|h|r): whoever carries Corrupted Blood steps in front of the tank."
 };
 
 -- Jammal'an and Ogom (SoD era): hall pair, two stages.
 bos = { "Jammal'an and Ogom",
 	"* The remake's hall pair: the two trolls devour one another and the survivor grows empowered.",
 	"* Stage 1: Smite (437805) ALWAYS interrupted; Holy Nova (437817) is dodged in range and his Holy Fire (437809) (magic) lands on a cadence; Mortal Lash (437847) on the tank and Agonizing Weakness (437868) on the group.",
-	"* Stage 2 (the devoured one falls): Jammal'an with Psychic Screams (437928) (fear), his Shadow Sermon: Pain (437927) (magic), Power Word: Shield (437930) (gets dispelled) and Mass Penance (437921); Ogom with Hammers of Justice (437915) (stun), Consecration (437884) — stay off the ground — and Divine Storm (437920) (1.5 s cast)."
+	"* Stage 2 (the devoured one falls): Jammal'an with Psychic Screams (437928) (fear), his Shadow Sermon: Pain (437927) (magic), Power Word: Shield (437930) (gets dispelled) and Mass Penance (437921);",
+	"* Ogom with Hammers of Justice (437915) (stun), Consecration (437884) — stay off the ground — and Divine Storm (437920) (1.5 s cast)."
 };
 pack["218721"] = bos; -- Jammal'an
 pack["218718"] = bos; -- Ogom
@@ -866,7 +869,8 @@ pack["218718"] = bos; -- Ogom
 bos = { "Morphaz and Hazzas",
 	"* The remake's pit drake pair: the SoD temple's longest fight.",
 	"* Corrupted Breath (|cff71d5ff|Hspell:446487|h[Corrupted Breath]|h|r) STACKS on the tank and Animated Flames (|cff71d5ff|Hspell:446661|h[Animate Flame]|h|r) rise from the ground.",
-	"* The stage rides on Lucid Dreaming: the first ~20 s channel (|cff71d5ff|Hspell:445235|h[Lucid Dreaming]|h|r) sends the group into the Emerald Dream — the flames die mid-cast; the second channel (4 s) arrives already burning, and after it his Eternal Slumber (|cff71d5ff|Hspell:446144|h[Eternal Slumber]|h|r) of 30 s kills everyone unless they escape through the portal in time."
+	"* The stage rides on Lucid Dreaming: the first ~20 s channel (|cff71d5ff|Hspell:445235|h[Lucid Dreaming]|h|r) sends the group into the Emerald Dream — the flames die mid-cast;",
+	"* the second channel (4 s) arrives already burning, and after it his Eternal Slumber (|cff71d5ff|Hspell:446144|h[Eternal Slumber]|h|r) of 30 s kills everyone unless they escape through the portal in time."
 };
 pack["221942"] = bos; -- Morphaz
 pack["221943"] = bos; -- Hazzas
@@ -875,7 +879,8 @@ pack["218571"] = { "Shade of Eranikus", -- (SoD era, 10-man raid)
 	"* The remake's final boss: the Emerald Dream's green drake in the pit.",
 	"* Corrosive Breath (|cff71d5ff|Hspell:437353|h[Corrosive Breath]|h|r) punishes the tank — swap with taunt after the cast — and Deep Slumber (|cff71d5ff|Hspell:437301|h[Deep Slumber]|h|r) sweeps the room on a cadence.",
 	"* His Waking Nightmare (|cff71d5ff|Hspell:437398|h[Waking Nightmare]|h|r) every ~66 s is lethal: run TOWARD the Deep Slumber spot and off the punished ground.",
-	"* His Lethargic Poison (|cff71d5ff|Hspell:437390|h[Lethargic Poison]|h|r) is poison (dispel it); at 70% and 40% his Dream adds spawn (they get marked) and their channeled Lethargic Poison (|cff71d5ff|Hspell:437425|h[Lethargic Poison]|h|r) is ALWAYS interrupted, same as the Bellowing Roar (|cff71d5ff|Hspell:445498|h[Bellowing Roar]|h|r)."
+	"* His Lethargic Poison (|cff71d5ff|Hspell:437390|h[Lethargic Poison]|h|r) is poison (dispel it); at 70% and 40% his Dream adds spawn (they get marked) and their channeled Lethargic Poison (|cff71d5ff|Hspell:437425|h[Lethargic Poison]|h|r) is ALWAYS",
+	"* interrupted, same as the Bellowing Roar (|cff71d5ff|Hspell:445498|h[Bellowing Roar]|h|r)."
 };
 
 -- ========================= --
@@ -958,7 +963,8 @@ pack["14834"] = { "Hakkar the Soulflayer", -- (classic raid, final boss)
 	"* His Blood Siphon (|cff71d5ff|Hspell:24324|h[Blood Siphon]|h|r) every 90 s drains the WHOLE raid and heals him — this is the DPS clock: win before the drains grind the raid down.",
 	"* His Insanity (|cff71d5ff|Hspell:24327|h[Insanity]|h|r) comes every ~21 s and deranges a player 10 s: kept clear of the ranks it fades by itself.",
 	"* His Corrupted Blood (|cff71d5ff|Hspell:24328|h[Corrupted Blood]|h|r) hops between players: purge the moment it lands.",
-	"* Hard mode (the band's priests alive): the Aspects loop — Jeklik's (|cff71d5ff|Hspell:24687|h[Aspect of Jeklik]|h|r) silences casters, Venoxis' (24688) scatters poison, Mar'li's (24686) drains, Arlokk's (24690) marks, and Thekal's (|cff71d5ff|Hspell:24689|h[Aspect of Thekal]|h|r) sends him RAGING — that one gets DISPELLED off him (enrage dispel, special warning). Killing the priests before shuts ALL Aspects off.",
+	"* Hard mode (the band's priests alive): the Aspects loop — Jeklik's (|cff71d5ff|Hspell:24687|h[Aspect of Jeklik]|h|r) silences casters, Venoxis' (24688) scatters poison, Mar'li's (24686) drains, Arlokk's (24690) marks,",
+	"* and Thekal's (|cff71d5ff|Hspell:24689|h[Aspect of Thekal]|h|r) sends him RAGING — that one gets DISPELLED off him (enrage dispel, special warning). Killing the priests before shuts ALL Aspects off.",
 	"* In the SoD remake the Aspects ALWAYS come (every 20 s, random order).",
 	"* At ~9:45 he lets the final enrage loose: the fight cannot run past 10 minutes."
 };
@@ -968,7 +974,8 @@ pack["15082"] = { "Gri'lek", -- (classic era, Edge of Madness; owner sheets 2026
 	"* His Avatar (|cff71d5ff|Hspell:24646|h[Avatar]|h|r) ENLARGES him, wipes the tank's threat and detonates his physical damage — and he moves SLOWER: the pinned one runs out of his radius until he shrinks again."
 };
 pack["15083"] = { "Hazza'rah", -- (classic era, Edge of Madness; owner sheets 2026-10)
-	"* The Corner's brazier summons the ACTIVE troll of the two-week rotation with the Gurubashi Mojo Madness potion (alchemy: 1 Blood of Heroes, 1 Massive Mojo, 6 Powerful Mojo, 1 Black Lotus); on death it drops its reagent for the ZG class trinkets (here, Hazza'rah's Dream-Thread).",
+	"* The Corner's brazier summons the ACTIVE troll of the two-week rotation with the Gurubashi Mojo Madness potion (alchemy: 1 Blood of Heroes, 1 Massive Mojo, 6 Powerful Mojo, 1 Black Lotus);",
+	"* on death it drops its reagent for the ZG class trinkets (here, Hazza'rah's Dream-Thread).",
 	"* His Nightmare Illusions (|cff71d5ff|Hspell:24728|h[Nightmare Illusion]|h|r) are slow copies with small health pools but hits worth over 5,000: kill them AT ONCE (an instant spell is enough) — top priority of the encounter.",
 	"* His chained Mana Burn (|cff71d5ff|Hspell:24684|h[Mana Burn]|h|r) drains the raid in a chain — he barely carries mana (about 5,000), so hunters with Viper Sting and warlocks with Mana Drain keep him DRY and the ability starves itself.",
 	"* His Sleep (|cff71d5ff|Hspell:24664|h[Sleep]|h|r) is area-wide, 6 s: spread the group and nobody naps mid-raid.",
@@ -1349,7 +1356,8 @@ pack["11981"] = { "Flamegor", -- (classic era)
 };
 pack["14020"] = { "Chromaggus", -- (classic era)
 	"* His two breaths rotate at random across the hall: each paints its own lane — melee repositions to whichever lands.",
-	"* The four Brood Afflictions: Red (|cff71d5ff|Hspell:23155|h[Brood Affliction: Red]|h|r) is DISEASE and HEALS him if nobody purges it; Green (|cff71d5ff|Hspell:23169|h[Brood Affliction: Green]|h|r) is poison; Blue (|cff71d5ff|Hspell:23153|h[Brood Affliction: Blue]|h|r) is magic; Black (|cff71d5ff|Hspell:23154|h[Brood Affliction: Black]|h|r) is a curse — dispels of every stripe on deck.",
+	"* The four Brood Afflictions: Red (|cff71d5ff|Hspell:23155|h[Brood Affliction: Red]|h|r) is DISEASE and HEALS him if nobody purges it; Green (|cff71d5ff|Hspell:23169|h[Brood Affliction: Green]|h|r) is poison;",
+	"* Blue (|cff71d5ff|Hspell:23153|h[Brood Affliction: Blue]|h|r) is magic; Black (|cff71d5ff|Hspell:23154|h[Brood Affliction: Black]|h|r) is a curse — dispels of every stripe on deck.",
 	"* His Frenzy (|cff71d5ff|Hspell:23128|h[Frenzy]|h|r) calms under a Tranquilizing Shot and the Enrage (|cff71d5ff|Hspell:23537|h[Enrage]|h|r) arrives at the end: the DPS races the clock."
 };
 pack["11583"] = { "Nefarian", -- (classic era)

@@ -115,8 +115,10 @@ pack["16061"] = { "Instrutor Razúvio",
 -- [editor web 2026-10-15] Nomes oficiais da API de Blizzard (criaturas do encontro); táticas por cavaleiro --
 pack["16063"] = { "Sir Zeliek",
 "* Sua Marca de Zeliek (|cff71d5ff|Hspell:28835|h[Marca de Zeliek]|h|r) cai a cada ~15 s a 45 m da esquina dele e bate mais forte a cada recarga: 650, 1950, 4550, 9750, 16250 - quem a aguenta rota de turno antes de empilhar muito.",
-"* Sua Ira Sagrada (|cff71d5ff|Hspell:28883|h[Ira Sagrada]|h|r) rebota entre jogadores agrupados e cresce a cada salto: o corpo a corpo entra logo depois de um cast, a distância fica no ALCANCE MÁXIMO e ninguém faz a ponte entre corpo a corpo e distantes, senão a cadeia varre o grupo.",
-"* Ele fica na esquina de trás à direita e não se move: sem ninguém no alcance dele chove Condenação em todo o grupo, então um curador e um distante o aguentam desde o arranque, bem separados para cada um levar só a marca do SEU cavaleiro.",
+"* Sua Ira Sagrada (|cff71d5ff|Hspell:28883|h[Ira Sagrada]|h|r) rebota entre jogadores agrupados e cresce a cada salto: o corpo a corpo entra logo depois de um cast, a distância fica no ALCANCE MÁXIMO e ninguém faz a ponte entre corpo a corpo e distantes,",
+"* senão a cadeia varre o grupo.",
+"* Ele fica na esquina de trás à direita e não se move: sem ninguém no alcance dele chove Condenação em todo o grupo, então um curador e um distante o aguentam desde o arranque,",
+"* bem separados para cada um levar só a marca do SEU cavaleiro.",
 "* Ele é o último cavaleiro a cair, logo depois de Lady Blaumeux."
 };
 

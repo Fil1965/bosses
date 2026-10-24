@@ -125,7 +125,8 @@ pack["254227"] = { "Kernwächterin Nysarra",
 pack["238015"] = { "Predaxas",
 "* Sein |cff71d5ff|Hspell:34994|h[Verschlingen]|h|r lädt auf einen Punkt: Naturschaden plus einem 3s Betäubung für jeden in der Nähe; das markierte Ziel weicht aus, während es läuft.",
 "* |cff71d5ff|Hspell:34929|h[Regurgitation]|h|r vomits a frontal cone (burst plus a 12s lingering DoT) and add crawl out of the vomit: nobody stands in front and the burn-down is quick.",
-"* Achte auf die Erbrochenen-Add-Typen: die Blutstampfer setzen Bestial Rage (verdoppelt ihren Schaden für 18s, zuerst purgen oder töten), die Verschluckten sprühen Gift in einem Bereich und die Voidticks streuen kosmischen Hagel, wenn Seismic Slam sie aufwirbelt.",
+"* Achte auf die Erbrochenen-Add-Typen: die Blutstampfer setzen Bestial Rage (verdoppelt ihren Schaden für 18s, zuerst purgen oder töten), die Verschluckten sprühen Gift in einem Bereich und die Voidticks streuen kosmischen Hagel,",
+"* wenn Seismic Slam sie aufwirbelt.",
 "* |cff71d5ff|Hspell:34933|h[Seismischer Schlag]|h|r verursacht Flächenschaden und wirft zurück: Bleib außerhalb des Einschlags und achte darauf, wohin die Adds verschoben werden."
 };
 

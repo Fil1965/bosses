@@ -210,7 +210,8 @@ pack["4829"] = { "Aku'mai",
 };
 -- (Re-hecha de SoD/journal actual; el clásico va con la CID 4829)
 bos = { "Aku'mai",
-	"* Fase 1 (forma de hidra): el tanque principal acumula su perjuicio de veneno; el segundo tanque la provoca al tercer o cuarto acumulado para que el primero se limpie tocando las fuentes elementales de la sala (sacan un esbirro que se mata al momento).",
+	"* Fase 1 (forma de hidra): el tanque principal acumula su perjuicio de veneno; el segundo tanque la provoca al tercer o cuarto acumulado para que el primero se limpie tocando las fuentes elementales de la sala (sacan un esbirro que se mata",
+	"* al momento).",
 	"* Se esquiva cuando mete la |cff71d5ff|Hspell:429168|h[Ráfaga corrosiva]|h|r: el marcado se aparta del cono.",
 	"* Fase 2 (forma del vacío, a partir del 50%): sube el daño físico y mete ráfagas oscuras (la |cff71d5ff|Hspell:429359|h[Ráfaga del Vacío]|h|r se esquiva igual); los tanques siguen rotando con más margen y la banda quema los cooldowns para rematarla."
 };
@@ -259,7 +260,8 @@ pack["7358"] = { "Amnennar el Gélido", -- (era clásica)
 -- ============================================================= --
 -- (CIDs del remake del journal actual; la re-hecha SoD y las del cliente Era van más arriba)
 bos = { "Señor Crepuscular Bathiel",
-	"* Deja partes suyas regadas por la sala con Círculos de agua restauradora: si él alcanza uno se lo bebe y recupera un 5% de su vida, y si uno revienta estalla con daño de Escarcha a 5 m (Ráfaga acuosa); vigilar los círculos y no regalarle el agua.",
+	"* Deja partes suyas regadas por la sala con Círculos de agua restauradora: si él alcanza uno se lo bebe y recupera un 5% de su vida, y si uno revienta estalla con daño de Escarcha a 5 m (Ráfaga acuosa);",
+	"* vigilar los círculos y no regalarle el agua.",
 	"* Su Lluvia perforadora castiga cada segundo con daño de Escarcha a objetivos al azar: daño constante que los sanadores van enjugando."
 };
 pack["74728"] = bos;
@@ -295,7 +297,8 @@ pack["75410"] = bos;
 -- ============================================================= --
 -- (Reemplazos del retail moderno; los clásicos de la zona van con sus CIDs de siempre)
 bos = { "Aarux",
-	"* Su Filamento de telaraña engancha a un jugador a distancia, lo arrastra a su rango cuerpo a cuerpo y le aplica al momento la Mordedura infestada (daño de Naturaleza durante 10 s y -50% de velocidad): el sanador lo limpia o lo cura con prisa.",
+	"* Su Filamento de telaraña engancha a un jugador a distancia, lo arrastra a su rango cuerpo a cuerpo y le aplica al momento la Mordedura infestada (daño de Naturaleza durante 10 s y -50% de velocidad): el sanador lo limpia o lo cura con",
+	"* prisa.",
 	"* Sus Pústulas estallantes revientan con daño de Naturaleza a los cercanos: distancia y repartidos."
 };
 pack["74412"] = bos;
@@ -767,7 +770,8 @@ pack["7267"] = { "Jefe Ukorz Cabellarena",
 
 pack["5710"] = { "Jammal'an el Profeta", -- (era clásica)
 	"* El profeta del salón, con su guarda Ogom (sin entrada propia) al lado: pelea de pareja en plaza.",
-	"* Jammal'an planta su Tótem de agarre terrestre (|cff71d5ff|Hspell:8376|h[Tótem de agarre terrestre]|h|r) — enraíza a la banda — y marca con Maleficio de Jammal'an (|cff71d5ff|Hspell:12479|h[Maleficio de Jammal'an]|h|r) a un jugador, que aguarda cubierto; también suelta Ola de sanación (12492) y Llamarada (12468).",
+	"* Jammal'an planta su Tótem de agarre terrestre (|cff71d5ff|Hspell:8376|h[Tótem de agarre terrestre]|h|r) — enraíza a la banda — y marca con Maleficio de Jammal'an (|cff71d5ff|Hspell:12479|h[Maleficio de Jammal'an]|h|r) a un jugador, que aguarda cubierto;",
+	"* también suelta Ola de sanación (12492) y Llamarada (12468).",
 	"* Ogom castiga con Descarga de Sombras (|cff71d5ff|Hspell:12471|h[Descarga de Sombras]|h|r) SIEMPRE corto y pinta Palabra de dolor: Sombras (|cff71d5ff|Hspell:11639|h[Palabra de dolor: Sombras]|h|r) (magia) y Maldición de debilidad (|cff71d5ff|Hspell:12493|h[Maldición de debilidad]|h|r) (maleficio)."
 };
 
@@ -848,15 +852,18 @@ pack["220864"] = bos; -- Sastrón
 
 pack["221394"] = { "Avatar de Hakkar", -- (era SoD, banda a 10)
 	"* El dios serpiente del remake, en dos fases: primero el rito y luego la bestia.",
-	"* Fase del espíritu: las Cadenas espirituales (|cff71d5ff|Hspell:443975|h[Cadenas espirituales]|h|r) marcan a un jugador con tirón — el encadenado SE APARTA — y el Aullido temeroso (|cff71d5ff|Hspell:443990|h[Aullido temeroso]|h|r) SIEMPRE corto, mientras los guardas de sangre Hakkari caen al rito.",
-	"* Fase de la bestia: Nova de sangre (|cff71d5ff|Hspell:444050|h[Nova de sangre]|h|r) cada ~8 s, la Sangre corrupta (|cff71d5ff|Hspell:444253|h[Sangre corrupta]|h|r) salta de jugador a jugador — el marcado SE APARTA —, Insania (|cff71d5ff|Hspell:444039|h[Insania]|h|r) a un marcado, Maldición de lenguas (|cff71d5ff|Hspell:444046|h[Maldición de lenguas]|h|r) (maleficio) y el Drenar sangre (|cff71d5ff|Hspell:444132|h[Drenar sangre]|h|r): el marcado por la Sangre corrupta se coloca delante del tanque."
+	"* Fase del espíritu: las Cadenas espirituales (|cff71d5ff|Hspell:443975|h[Cadenas espirituales]|h|r) marcan a un jugador con tirón — el encadenado SE APARTA — y el Aullido temeroso (|cff71d5ff|Hspell:443990|h[Aullido temeroso]|h|r) SIEMPRE corto,",
+	"* mientras los guardas de sangre Hakkari caen al rito.",
+	"* Fase de la bestia: Nova de sangre (|cff71d5ff|Hspell:444050|h[Nova de sangre]|h|r) cada ~8 s, la Sangre corrupta (|cff71d5ff|Hspell:444253|h[Sangre corrupta]|h|r) salta de jugador a jugador — el marcado SE APARTA —,",
+	"* Insania (|cff71d5ff|Hspell:444039|h[Insania]|h|r) a un marcado, Maldición de lenguas (|cff71d5ff|Hspell:444046|h[Maldición de lenguas]|h|r) (maleficio) y el Drenar sangre (|cff71d5ff|Hspell:444132|h[Drenar sangre]|h|r): el marcado por la Sangre corrupta se coloca delante del tanque."
 };
 
 -- Jammal'an y Ogom (era SoD): pareja del salón, dos fases.
 bos = { "Jammal'an y Ogom",
 	"* La pareja del salón del remake, banda SoD: los dos trolls se devoran entre sí y el superviviente se empodera.",
 	"* Fase 1: Castigo (437805) SIEMPRE corto; Nova sagrada (437817) se esquiva en radio y su Fuego sagrado (437809) (magia) cae en cadencia; Latigazo mortal (437847) al tanque y Debilidad agonizante (437868) a la banda.",
-	"* Fase 2 (el devorado cae): Jammal'an con Gritos psíquicos (437928) (temor), su Sermón de Sombras: Dolor (437927) (magia), Palabra de poder: Escudo (437930) (se dispelea) y Penitencia masiva (437921); Ogom con Martillos de la Justicia (437915) (aturdimiento), Consagración (437884) — fuera del suelo — y Tormenta Divina (437920) (1,5 s de cast)."
+	"* Fase 2 (el devorado cae): Jammal'an con Gritos psíquicos (437928) (temor), su Sermón de Sombras: Dolor (437927) (magia), Palabra de poder: Escudo (437930) (se dispelea) y Penitencia masiva (437921);",
+	"* Ogom con Martillos de la Justicia (437915) (aturdimiento), Consagración (437884) — fuera del suelo — y Tormenta Divina (437920) (1,5 s de cast)."
 };
 pack["218721"] = bos; -- Jammal'an
 pack["218718"] = bos; -- Ogom
@@ -865,7 +872,8 @@ pack["218718"] = bos; -- Ogom
 bos = { "Morphaz y Hazzas",
 	"* La pareja de dracos de la fosa del remake: la pelea más larga del templo SoD.",
 	"* El Aliento corrupto (|cff71d5ff|Hspell:446487|h[Aliento corrupto]|h|r) se APILA al tanque y las Llamas animadas (|cff71d5ff|Hspell:446661|h[Llamas animadas]|h|r) salen del suelo.",
-	"* La fase va por Sueño lúcido: el primer canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sueño lúcido]|h|r) manda a la banda al Ensueño — las llamas caen en mitad del cast; el segundo canal (4 s) llega ya rematado y tras el canal su Sueño eterno (|cff71d5ff|Hspell:446144|h[Sueño eterno]|h|r) de 30 s mata si la banda no escapa por el portal a tiempo."
+	"* La fase va por Sueño lúcido: el primer canal de ~20 s (|cff71d5ff|Hspell:445235|h[Sueño lúcido]|h|r) manda a la banda al Ensueño — las llamas caen en mitad del cast;",
+	"* el segundo canal (4 s) llega ya rematado y tras el canal su Sueño eterno (|cff71d5ff|Hspell:446144|h[Sueño eterno]|h|r) de 30 s mata si la banda no escapa por el portal a tiempo."
 };
 pack["221942"] = bos; -- Morphaz
 pack["221943"] = bos; -- Hazzas
@@ -958,7 +966,8 @@ pack["14834"] = { "Hakkar el Azote de Almas", -- (banda clásica, jefe final)
 	"* Su Absorción de sangre (|cff71d5ff|Hspell:24324|h[Absorción de sangre]|h|r) cada 90 s drena a TODA la banda y lo cura — es el reloj del DPS: vencer antes de que los drenes despedacen la banda.",
 	"* Su Insania (|cff71d5ff|Hspell:24327|h[Insania]|h|r) llega cada ~21 s y enloquece a un jugador 10 s: apartado de los demás, se le pasa solo.",
 	"* Su Sangre corrupta (|cff71d5ff|Hspell:24328|h[Sangre corrupta]|h|r) salta entre jugadores: a purgar en cuanto marca.",
-	"* Modo duro (los sacerdotes de la banda vivos): los Aspectos giran en bucle — el de Jeklik (|cff71d5ff|Hspell:24687|h[Aspecto de Jeklik]|h|r) muda a los casters, el de Venoxis (24688) siembra veneno, el de Mar'li (24686) drena, el de Arlokk (24690) marca y el de Thekal (|cff71d5ff|Hspell:24689|h[Aspecto de Thekal]|h|r) lo ENFURECE — ese SE LE QUITA con dispeleo de furia (aviso crítico). Matar a los sacerdotes antes desactiva TODOS los Aspectos.",
+	"* Modo duro (los sacerdotes de la banda vivos): los Aspectos giran en bucle — el de Jeklik (|cff71d5ff|Hspell:24687|h[Aspecto de Jeklik]|h|r) muda a los casters, el de Venoxis (24688) siembra veneno, el de Mar'li (24686) drena,",
+	"* el de Arlokk (24690) marca y el de Thekal (|cff71d5ff|Hspell:24689|h[Aspecto de Thekal]|h|r) lo ENFURECE — ese SE LE QUITA con dispeleo de furia (aviso crítico). Matar a los sacerdotes antes desactiva TODOS los Aspectos.",
 	"* En el remake SoD los Aspectos llegan SIEMPRE (cada 20 s, orden aleatorio).",
 	"* A ~9:45 suelta la furia final sin freno: la pelea no puede pasar de 10 minutos."
 };
@@ -968,9 +977,11 @@ pack["15082"] = { "Gri'lek", -- (era clásica, Rincón de la Demencia; fichas de
 	"* Su Avatar (|cff71d5ff|Hspell:24646|h[Avatar]|h|r) lo ENGORDA, limpia la amenaza del tanque y dispara su daño físico — y él anda MÁS LENTO: el fijado corre lejos de su radio hasta que se encoje de nuevo."
 };
 pack["15083"] = { "Hazza'rah", -- (era clásica, Rincón de la Demencia; fichas del dueño 2026-10)
-	"* El pebetero del Rincón invoca al troll ACTIVO de la rotación bisemanal con la poción Locura de mojo gurubashi (alquimista: 1 Sangre de héroes, 1 Mojo macizo, 6 Mojo potente, 1 Loto negro); al caer suelta su reactivio para los abalorios de clase de ZG (aquí, el Hilo de sueño de Hazza'rah).",
+	"* El pebetero del Rincón invoca al troll ACTIVO de la rotación bisemanal con la poción Locura de mojo gurubashi (alquimista: 1 Sangre de héroes, 1 Mojo macizo, 6 Mojo potente, 1 Loto negro);",
+	"* al caer suelta su reactivio para los abalorios de clase de ZG (aquí, el Hilo de sueño de Hazza'rah).",
 	"* Sus Ilusiones de pesadilla (|cff71d5ff|Hspell:24728|h[Ilusión de pesadilla]|h|r) son copias lentas de poca vida pero que golpean por más de 5.000: se matan AL INSTANTE (basta un hechizo instantáneo) — máxima prioridad del encuentro.",
-	"* Su Quemadura de maná en cadena (|cff71d5ff|Hspell:24684|h[Quemadura de maná]|h|r) drena a la banda en cadena — él apenas lleva maná (unos 5.000), así que los cazadores con Picadura de víbora y los brujos con Drenar maná lo dejan SECO y la habilidad se anula sola.",
+	"* Su Quemadura de maná en cadena (|cff71d5ff|Hspell:24684|h[Quemadura de maná]|h|r) drena a la banda en cadena — él apenas lleva maná (unos 5.000),",
+	"* así que los cazadores con Picadura de víbora y los brujos con Drenar maná lo dejan SECO y la habilidad se anula sola.",
 	"* Su Sueño (|cff71d5ff|Hspell:24664|h[Sueño]|h|r) es en área, 6 s: repartido el grupo, nadie queda dormido en plena banda.",
 	"* Sus compañeros de rotación Gri'lek, Renataki y Wushoolay llevan entrada propia: el pebetero solo llama al troll activo de la quincena."
 };
@@ -1349,7 +1360,8 @@ pack["11981"] = { "Flamagor", -- (era clásica; nombre de la era es de los módu
 };
 pack["14020"] = { "Chromaggus", -- (era clásica)
 	"* Sus dos alientos rotan al azar por la sala: cada uno pinta su pista — el melé se coloca según el que corre.",
-	"* Las cuatro Aflicciones de la estirpe: la Roja (|cff71d5ff|Hspell:23155|h[Afligido rojo]|h|r) es ENFERMEDAD y lo CURA si nadie la purga; la Verde (|cff71d5ff|Hspell:23169|h[Afligido verde]|h|r) es veneno; la Azul (|cff71d5ff|Hspell:23153|h[Afligido azul]|h|r) magia; la Negra (|cff71d5ff|Hspell:23154|h[Afligido negro]|h|r) maleficio — purgas de todos los palos.",
+	"* Las cuatro Aflicciones de la estirpe: la Roja (|cff71d5ff|Hspell:23155|h[Afligido rojo]|h|r) es ENFERMEDAD y lo CURA si nadie la purga; la Verde (|cff71d5ff|Hspell:23169|h[Afligido verde]|h|r) es veneno; la Azul (|cff71d5ff|Hspell:23153|h[Afligido azul]|h|r) magia;",
+	"* la Negra (|cff71d5ff|Hspell:23154|h[Afligido negro]|h|r) maleficio — purgas de todos los palos.",
 	"* Su Frenesí (|cff71d5ff|Hspell:23128|h[Frenesí]|h|r) se calma con Tiro tranquilizante y el Enfurecerse (|cff71d5ff|Hspell:23537|h[Enfurecerse]|h|r) llega al final: el DPS corre contra el reloj."
 };
 pack["11583"] = { "Nefarian", -- (era clásica)

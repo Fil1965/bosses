@@ -102,7 +102,8 @@ pack["100497"] = { "Ursoc",
 "* |cff71d5ff|Hspell:197943|h[Overwhelm]|h|r: deux tanks échangent le boss toutes les deux secondes - chaque stack d'Overwhelm augmente le prochain Rend Flesh, et le tank qui vient de l'avoir s'éloigne pour enlever le stack pendant que le nouveau prend le relais.",
 "* |cff71d5ff|Hspell:197942|h[Rend Flesh]|h|r: se positionne à droite après le deuxième stack d'Overwhelm; avec un tank frais sur le boss, ce n'est pas un problème, mais cela peut tuer si le tank porte des stacks - tautez à temps, à chaque fois.",
 "* |cff71d5ff|Hspell:198006|h[Focused Gaze]|h|r: Ursoc cible un joueur pour une charge; le joueur ciblé court vers Ursoc tout en restant sur le côté, tandis que le reste du raid reste à distance.",
-"* |cff71d5ff|Hspell:198388|h[Blood Frenzy]|h|r: Il frappe de plus en plus fort au fur et à mesure que le combat se prolonge (la frénésie s'accumule), alors utilisez tous vos sorts de soins et vos capacités de soutien au début et ne laissez pas le combat se prolonger.",
+"* |cff71d5ff|Hspell:198388|h[Blood Frenzy]|h|r: Il frappe de plus en plus fort au fur et à mesure que le combat se prolonge (la frénésie s'accumule),",
+"* alors utilisez tous vos sorts de soins et vos capacités de soutien au début et ne laissez pas le combat se prolonger.",
 };
 
 pack["102672"] = { "Nythendra",
@@ -120,15 +121,18 @@ pack["102679"] = { "Dragons du Cauchemar",
 };
 
 pack["103769"] = { "Xavius",
-"* |cff71d5ff|Hspell:224649|h[Tormenting Swipe]|h|r: un coup puissant devant lui - le tank le fait pivoter pour éloigner le raid et se positionne à l'extérieur de chaque coup, en adoptant une position défensive, car les coups sont beaucoup plus puissants à la phase 2.",
+"* |cff71d5ff|Hspell:224649|h[Tormenting Swipe]|h|r: un coup puissant devant lui - le tank le fait pivoter pour éloigner le raid et se positionne à l'extérieur de chaque coup, en adoptant une position défensive,",
+"* car les coups sont beaucoup plus puissants à la phase 2.",
 "* |cff71d5ff|Hspell:206651|h[Darkening Soul]|h|r: piles de corruption de cauchemar qui tirent le joueur sous quand elles se déclenchent - le soigne assigné qui supprime les debuffs maintient tout le monde en dessous du seuil de submersion.",
-"* |cff71d5ff|Hspell:209158|h[Blackening Soul]|h|r: la version de la phase 2 explose également en tourment de cauchemar autour de son porteur - les joueurs se dispersent, celui qui prend le prochain doit être déterminé, et il faut s'éloigner du groupe avant qu'il n'explose.",
+"* |cff71d5ff|Hspell:209158|h[Blackening Soul]|h|r: la version de la phase 2 explose également en tourment de cauchemar autour de son porteur - les joueurs se dispersent, celui qui prend le prochain doit être déterminé,",
+"* et il faut s'éloigner du groupe avant qu'il n'explose.",
 "* |cff71d5ff|Hspell:209443|h[Nightmare Infusion]|h|r: Xavius continue de s'auto-renforcer pendant que le combat se prolonge dans la phase deux ; terminez le combat rapidement avant que les infusions ne rendent ses dégâts incontrôlables.",
 };
 
 pack["105393"] = { "Il’gynoth, le Cœur de la Corruption",
 "* |cff71d5ff|Hspell:210984|h[Œil du Destin]|h|r: l'œil géant au cœur de la clairière tire au hasard sur les attaquants - pendant la phase extérieure, les soigneurs doivent rester vigilants et le raid doit se disperser entre les yeux.",
-"* |cff71d5ff|Hspell:215234|h[Nightmarish Fury]|h|r: lorsque les tentacules extérieurs sont partis, le cœur s'ouvre : seuls les joueurs purifiés de la corruption peuvent y entrer - purifiez-vous, plongez à travers le fleur de rêve, tuez l'œil intérieur et sortez avant que le cœur n'explose.",
+"* |cff71d5ff|Hspell:215234|h[Nightmarish Fury]|h|r: lorsque les tentacules extérieurs sont partis, le cœur s'ouvre : seuls les joueurs purifiés de la corruption peuvent y entrer - purifiez-vous, plongez à travers le fleur de rêve,",
+"* tuez l'œil intérieur et sortez avant que le cœur n'explose.",
 "* |cff71d5ff|Hspell:210931|h[Nightmare Gaze]|h|r: les yeux sombres projettent des faisceaux sur toute la plateforme - restez hors des faisceaux et détruisez rapidement les yeux sombres, car leurs dégâts s'accumulent pendant qu'ils sont en vie.",
 "* |cff71d5ff|Hspell:210099|h[Fixate]|h|r: les horreurs cauchemardes fixent un joueur ; le joueur hanté les fait esquiver en larges cercles tandis que le raid brûle la horreur à distance.",
 };
@@ -182,7 +186,8 @@ pack["103758"] = { "Etraeus, l’augure stellaire",
 
 pack["104415"] = { "Anomalie chronomatique",
 "* |cff71d5ff|Hspell:206607|h[Chronometric Particles]|h|r: Stack debuff sur le tank - les tanks alternent l'utilisation de l'anomalie pour éviter que le debuff ne devienne trop important.",
-"* |cff71d5ff|Hspell:219823|h[Power Overwhelming]|h|r: l'anomalie conserve les stacks qu'elle acquiert à chaque changement de phase - plus la bataille est longue, plus tout devient plus puissant, donc concentrez les dégâts et terminez avant que les stacks ne prennent le dessus.",
+"* |cff71d5ff|Hspell:219823|h[Power Overwhelming]|h|r: l'anomalie conserve les stacks qu'elle acquiert à chaque changement de phase - plus la bataille est longue, plus tout devient plus puissant,",
+"* donc concentrez les dégâts et terminez avant que les stacks ne prennent le dessus.",
 "* |cff71d5ff|Hspell:207012|h[Normal Time]|h|r: la salle revient à la vitesse normale - l'occasion de le brûler à pleine vitesse.",
 "* |cff71d5ff|Hspell:207013|h[Fast Time]|h|r: courses de temps - chaque sort, bombe et faisceau arrive plus tôt que naturellement, donc esquivez un battement tôt.",
 };

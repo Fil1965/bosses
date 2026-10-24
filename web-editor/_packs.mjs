@@ -33,6 +33,29 @@ export const IDIOMAS = ["es", "en", "fr", "de", ...IDIOMAS_NUEVOS.map((x) => x.k
 // son stubs y se CONECTAN con el endpoint /conectar cuando están completos.
 export const LISTADO_DIRECTO = new Set(["es", "en"]);
 
+// ---------------------------------------------------------------- líneas --
+// El selector de packs del editor tiene DOS niveles: la LÍNEA (la línea
+// temporal de WoW a la que pertenece el pack) y, dentro de ella, el PACK.
+//   - principal: la línea de siempre (retail + Classic), de Vanilla a
+//     Midnight. Todo pack que no case con otra línea cae aquí.
+//   - forever: la línea de WoW Forever (rama Camelot / Classic+, cliente
+//     1.60.1 → interfaz 16001). Es una línea temporal PROPIA: sus NPC ids
+//     y encounterIDs no son los de retail, así que sus packs viven
+//     separados (Bosses_Forever = su paquete base; los suyos, detrás).
+// El orden del array es el orden de aparición en el selector.
+
+export const LINEAS = [
+	{ id: "principal", label: "WoW · retail y Classic", prefijo: null },
+	{ id: "forever", label: "WoW Forever · Classic+ (2026)", prefijo: "Bosses_Forever" },
+];
+
+// Línea a la que pertenece un pack (por prefijo de carpeta). Los packs que
+// no casan con ninguna línea caen en la principal.
+export function lineaDePack(nombre) {
+	const hallada = LINEAS.find((l) => l.prefijo && (nombre === l.prefijo || nombre.startsWith(l.prefijo)));
+	return hallada ?? LINEAS[0];
+}
+
 // Clave del registrador y nombre visible de un idioma (los 4 clásicos fijos;
 // el resto viene de IDIOMAS_NUEVOS). Devuelve null si el idioma no existe.
 export function idiomaMeta(lang) {
@@ -124,7 +147,8 @@ export function parseDoc(text) {
 
 	for (let i = 0; i < doc.lines.length; i++) {
 		const line = doc.lines[i];
-		const mZone = /^--\s*([^:\d][^-]*?)\s*:\s*Zona\s+(\d+)/.exec(line);
+// ojo: el nombre admite ":" e "-" (p. ej. «Uldaman: Legacy of Tyr», «Excavación: Los Humedales»); el corte es el " : Zona NNNN " con espacio+dos puntos+espacio
+		const mZone = /^--\s*([^:\d].*?)\s*:\s*Zona\s+(\d+)/.exec(line);
 		if (mZone) {
 			currentZoneLabel = mZone[1].trim(); // p. ej. "Castillo de Colmillo Oscuro", "Zul'Aman"
 			currentZone = mZone[2];
@@ -246,12 +270,137 @@ export function gemelaTraducida(docSrc, docDst, id) {
 }
 
 // El elemento 1 va escapado en el fichero; aquí lo devolvemos sin escapar
-function unluaStr(s) {
+export function unluaStr(s) {
 	const m = /^"((?:[^"\\]|\\.)*)"$/.exec(s);
 	return m ? m[1].replace(/\\"/g, '"').replace(/\\\\/g, "\\") : s;
 }
-function luaStr(s) {
+export function luaStr(s) {
 	return `"${String(s).replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+}
+
+// ------------------------------------------------ límite del chat (2026) --
+// El cliente RECHAZA los mensajes de chat de más de 255 caracteres («Chat
+// message limits exceeded»; ya no trunca como en las eras viejas). Lo que
+// manda es la medida AL CABLE: el texto que el core sanea al enviar (fuera
+// |cff..|Hspell:N|h..|h|r) medido en BYTES UTF-8 — el cirílico pesa ×2 y el
+// CJK ×3, por eso una viñeta "visible" corta puede pasarse en ru/zh. La casa
+// trocea a 240: margen para los nombres que el cliente cambia al vuelo
+// (localizarEnlaces) y para los redondeos del trocea.
+export const LIMITE_CHAT = 240;
+
+// Réplica exacta de sanearSalida() del core: lo que de verdad viaja al chat.
+export function saneaCable(s) {
+	return String(s)
+		.replace(/\|H[^|]*\|h/g, "")
+		.replace(/\|h/g, "")
+		.replace(/\|cff[0-9a-fA-F]{6}/g, "")
+		.replace(/\|r/g, "");
+}
+
+// Peso al cable en bytes (payload SIN escapar, como lo llevan los docs)
+export function bytesAlCable(s) {
+	return Buffer.byteLength(saneaCable(s), "utf8");
+}
+
+// Contexto para trocear: wire[i] = bytes al cable del prefijo [0, i) tras el
+// saneado, y mapa de índices donde un corte destrozaría marcado de enlace,
+// un [nombre] entre corchetes o la mitad de un escape.
+function contextoCorte(s) {
+	const n = s.length;
+	const quita = [];
+	for (const re of [/\|cff[0-9a-fA-F]{6}/g, /\|H[^|]*\|h/g, /\|h/g, /\|r/g]) {
+		re.lastIndex = 0;
+		let m;
+		while ((m = re.exec(s))) quita.push([m.index, m.index + m[0].length]);
+	}
+	const protegida = [];
+	for (const re of [/\|cff[0-9a-fA-F]{6}.*?\|r/g, /\|H[^|]*\|h/g, /\[[^\]]*\]/g]) {
+		re.lastIndex = 0;
+		let m;
+		while ((m = re.exec(s))) protegida.push([m.index, m.index + m[0].length]);
+	}
+	const escapes = new Set();
+	for (let i = 0; i < n; i++) {
+		if (s[i] === "\\") {
+			escapes.add(i + 1);
+			i++;
+		}
+	}
+	const wire = new Array(n + 1).fill(0);
+	let q = 0;
+	let acc = 0;
+	for (let i = 0; i < n; i++) {
+		while (q < quita.length && i >= quita[q][1]) q++;
+		const enQuita = q < quita.length && i >= quita[q][0];
+		if (!enQuita) acc += Buffer.byteLength(s[i], "utf8");
+		wire[i + 1] = acc;
+	}
+	const protegidoEn = (i) => escapes.has(i) || protegida.some(([a, b]) => i > a && i < b);
+	return { wire, protegidoEn };
+}
+
+// Mejor corte ANTES del índice i (parte 1 = slice(0, i)) para que la parte 1
+// pese ≤ limite al cable — el corte más tardío que quepa. Prioridad: fin de
+// frase (.!?; con espacio y el CJK de frase) → raya " — " en pie (la parte 2
+// abre con la raya y se lee como continuación) → coma → cualquier espacio →
+// corte duro sin partir pares UTF-16. Null solo si nada cabe (no ocurre).
+function mejorCorte(s, limite) {
+	const n = s.length;
+	const { wire, protegidoEn } = contextoCorte(s);
+	const minimo = Math.floor(limite * 0.4);
+	const mejorDe = (cabe) => {
+		for (let i = n - 1; i > minimo; i--) {
+			if (wire[i] > limite) continue;
+			if (wire[i] <= minimo) break;
+			if (protegidoEn(i)) continue;
+			if (cabe(i)) return i;
+		}
+		return null;
+	};
+	const clases = [
+		(i) => /[.!?;]/.test(s[i - 1]) && s[i] === " ",
+		(i) => ["。", "！", "？", "；"].includes(s.slice(i - 3, i)),
+		(i) => s[i] === " " && s.slice(i + 1, i + 4) === "—",
+		(i) => (/[,.·]/.test(s[i - 1]) && s[i] === " ") || ["，", "、"].includes(s.slice(i - 3, i)),
+		(i) => s[i] === " ",
+	];
+	for (const clase of clases) {
+		const i = mejorDe(clase);
+		if (i !== null) return i;
+	}
+	let i = n - 1;
+	while (i > 1 && wire[i] > limite) i--;
+	if (i > 1) {
+		const hi = s.charCodeAt(i - 1);
+		if (hi >= 0xd800 && hi <= 0xdbff) i--; // no parta un par sustituto
+		return i;
+	}
+	return null;
+}
+
+// Parte una viñeta (payload SIN escapar) en trozos ≤ LIMITE_CHAT al cable.
+// Cada trozo sale como viñeta propia "* …" (formato de la casa: una viñeta
+// por línea; el core los gotea a 0,25 s como el resto del reparto). Es el
+// MISMO algoritmo que aplicarán el editor in-game y scripts/limite-chat.mjs.
+export function partirPorLimiteChat(linea) {
+	const s = String(linea ?? "");
+	if (bytesAlCable(s) <= LIMITE_CHAT) return [s];
+	const pref = s.startsWith("* ") ? "* " : "";
+	const partes = [];
+	let resto = s;
+	// el prefijo de continuación ("* ") se añade AL FINAL: el presupuesto del
+	// bucle lo descuenta ya, o un trozo final en (238, 240] se pasaría a 242
+	let limiteK = LIMITE_CHAT;
+	while (bytesAlCable(resto) > limiteK) {
+		const corte = mejorCorte(resto, limiteK);
+		if (corte === null) break; // sin frontera alguna: queda tal cual
+		const trozo = resto.slice(0, corte).replace(/\s+$/, "");
+		if (trozo.length > 0) partes.push(trozo);
+		resto = resto.slice(corte).replace(/^\s+/, "");
+		limiteK = LIMITE_CHAT - pref.length * 1; // los siguientes llevan "* "
+	}
+	partes.push(resto);
+	return partes.map((p, k) => (k === 0 ? p : pref + p)).filter((p) => p.length > 0);
 }
 
 // -------------------------------------------------------------- escritor --
@@ -388,6 +537,19 @@ export function validateText(text, { deltaEntries = 0, oldCount = null } = {}) {
 			problems.push(`entrada ${e.id}: nombre con adorno de guía IA`);
 		}
 	}
+	// Límite del chat del cliente (2026-10): sobre LIMITE_CHAT bytes al cable
+	// el cliente RECHAZA el mensaje. Los guardados por la API trocean solos
+	// (partirPorLimiteChat en server.mjs); esto es el cinturón de backstop
+	// para cualquier otra vía de escritura.
+	for (const e of docEntries(doc)) {
+		const det = entryDetail(doc, e.id);
+		(det?.lines ?? []).forEach((l, k) => {
+			const n = bytesAlCable(l);
+			if (n > LIMITE_CHAT) {
+				problems.push(`entrada ${e.id}: línea ${k + 1} con ${n} bytes al cable (límite ${LIMITE_CHAT}) — repártela en dos viñetas`);
+			}
+		});
+	}
 	for (const b of doc.blocks) {
 		const vistas = new Map();
 		for (let j = b.start + 1; j < b.end; j++) {
@@ -460,7 +622,7 @@ export function listPacks(root) {
 			}
 		}
 		if (!tocFile) continue; // carpetas sin addon propio no son packs del editor
-		out.push({ name: d.name, folder, langs, listados, tocFile, registrador });
+		out.push({ name: d.name, folder, langs, listados, tocFile, registrador, linea: lineaDePack(d.name).id });
 	}
 	out.sort((a, b) => a.name.localeCompare(b.name));
 	return out;

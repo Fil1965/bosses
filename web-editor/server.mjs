@@ -21,7 +21,10 @@ import { blizzEnv, createBlizzardClient } from "../scripts/_blizzard-api.mjs";
 import {
 	IDIOMAS,
 	IDIOMAS_NUEVOS,
+	LINEAS,
+	LIMITE_CHAT,
 	LISTADO_DIRECTO,
+	bytesAlCable,
 	docEntries,
 	entryDetail,
 	entryText,
@@ -31,6 +34,7 @@ import {
 	loadLangFile,
 	langFileSkeleton,
 	parseDoc,
+	partirPorLimiteChat,
 	registradorAddLangs,
 	tocAddLang,
 	validateText,
@@ -648,6 +652,9 @@ fastify.get("/api/meta", async () => ({
 	sandbox: root !== ROOT,
 	spells: spells.size,
 	packs: packs.map((p) => p.name),
+	// Nivel superior del selector de packs: las LÍNEAS de WoW (la de
+	// retail/Classic y la de WoW Forever); cada línea lleva sus packs.
+	lineas: LINEAS.map((l) => ({ id: l.id, label: l.label })),
 	// idiomas del botón «➕ añadir idioma»: locales nativos del cliente con
 	// mucha implantación en WoW (la IA del .env los traduce; la calidad
 	// depende del modelo)
@@ -658,12 +665,15 @@ fastify.get("/api/meta", async () => ({
 fastify.get("/api/packs", async () => {
 	return {
 		ok: true,
+		// Nivel superior del selector: las líneas de WoW (retail/Classic y
+		// WoW Forever). El front agrupa los packs por línea (optgroup).
+		lineas: LINEAS.map((l) => ({ id: l.id, label: l.label })),
 		packs: packs.map((p) => {
 			const langs = {};
 			for (const lang of IDIOMAS) {
 				langs[lang] = p.langs[lang] ? { file: p.langs[lang], entries: docEntries(getDoc(p.name, lang) ?? { blocks: [], byId: new Map(), zones: new Map() }).length } : null;
 			}
-			return { name: p.name, langs, listados: p.listados ?? {} };
+			return { name: p.name, linea: p.linea, langs, listados: p.listados ?? {} };
 		}),
 	};
 });
@@ -733,7 +743,19 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 	const oldCount = docEntries(doc).length;
 	const existe = doc.byId.has(id);
 	const name = String(body.name ?? "?");
-	const lines = Array.isArray(body.lines) ? body.lines.map(String) : [];
+	// Límite del chat del cliente (2026-10): lo que no cabe en un mensaje de
+	// chat (240 bytes al cable) se PARTE en viñetas al guardar. Cubre también
+	// las traducciones IA — el ru hinchado ×2 y el zh ×3 entran por aquí con
+	// el PUT del lote — con el mismo algoritmo que el core (partirAlCable) y
+	// el lote de datos (scripts/limite-chat.mjs).
+	const lineasBrutas = Array.isArray(body.lines) ? body.lines.map(String) : [];
+	const lines = [];
+	let partidas = 0;
+	for (const l of lineasBrutas) {
+		const partes = partirPorLimiteChat(l);
+		if (partes.length > 1) partidas += partes.length - 1;
+		lines.push(...partes);
+	}
 
 	// texto nuevo con el escritor quirúrgico y validación con delta esperado
 	let newText;
@@ -757,7 +779,7 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 	// recarga honesta del doc desde disco y devolución del estado
 	setDoc(packName, lang, loadLangFile(p.folder, file));
 	buildSpellIndex();
-	return { ok: true, id, created: !existe, entry: entryDetail(getDoc(packName, lang), id) };
+	return { ok: true, id, created: !existe, partidas, entry: entryDetail(getDoc(packName, lang), id) };
 });
 
 // --- nombre oficial (API de Blizzard) para el idioma destino ---------------
@@ -1193,10 +1215,17 @@ fastify.post("/api/packs/:pack/conectar/:lang", async (req, reply) => {
 	const incompletas = entradasL
 		.filter((e) => setEN.has(String(e.id)) && e.vacia && entryDetail(docEN, e.id)?.lines?.length > 0)
 		.map((e) => e.id);
-	if (faltan.length || incompletas.length) {
+	// Límite del chat del cliente (2026-10) también como puerta de conexión:
+	// un idioma con viñetas que el chat del receptor no puede recibir no está
+	// completo — entrarían ROTAS a la cascada de idiomas.
+	const largas = entradasL.filter(
+		(e) => (entryDetail(docL, e.id)?.lines ?? []).some((l) => bytesAlCable(l) > LIMITE_CHAT)
+	);
+	if (faltan.length || incompletas.length || largas.length) {
 		const partes = [];
 		if (faltan.length) partes.push(`faltan ${faltan.length} entrada(s) que EN sí tiene`);
 		if (incompletas.length) partes.push(`${incompletas.length} entrada(s) sin tácticas que EN sí tiene (p. ej. ${incompletas.slice(0, 4).join(", ")})`);
+		if (largas.length) partes.push(`${largas.length} entrada(s) con viñeta(s) por encima del límite del chat (${LIMITE_CHAT} al cable) — repártelas antes`);
 		return reply.code(400).send({
 			ok: false,
 			error: `${lang.toUpperCase()} NO está completo: ${partes.join("; ")}. Completa el lote de IA y revisa antes de conectar.`,

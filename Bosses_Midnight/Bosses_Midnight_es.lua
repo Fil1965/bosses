@@ -193,7 +193,8 @@ pack["252959"] = { "Nymrissa Clamaolas",
 pack["238015"] = { "Predaxas",
 	"* Su carga del |cff71d5ff|Hspell:34994|h[Devorar]|h|r apunta a una zona: daño de la Naturaleza y aturde 3 s a lo cercano; el marcado corre lejos del grupo (kite) mientras dura.",
 	"* La |cff71d5ff|Hspell:34929|h[Regurgitación]|h|r vomita en cono frontal (golpe más daño en el tiempo de 12 s) y del vómito salen esbirros: nadie se pone delante y el daño los barre rápido.",
-	"* Cuidado con los tipos de esbirro del vómito: los sangrientos entran en Ira bestial (doblan su daño 18 s, se disipa o se mata primero), los ingeridos rocían veneno en área y los tiques del Vacío sueltan lluvia cósmica cuando el golpe sísmico los remueve.",
+	"* Cuidado con los tipos de esbirro del vómito: los sangrientos entran en Ira bestial (doblan su daño 18 s, se disipa o se mata primero),",
+	"* los ingeridos rocían veneno en área y los tiques del Vacío sueltan lluvia cósmica cuando el golpe sísmico los remueve.",
 	"* El |cff71d5ff|Hspell:34933|h[Golpe sísmico]|h|r daña en área y repele: lejos del área de impacto y pendiente de que mueva los esbirros."
 };
 

@@ -590,7 +590,8 @@ pack["104636"] = { "Cenarius",
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["105393"] = { "Il'gynoth",
 "* |cff71d5ff|Hspell:210984|h[Eye of Fate]|h|r: o olho gigante no centro da área atira aleatoriamente nos membros da raid - durante a fase externa, os curandeiros devem manter o controle dos ataques e a raid deve se espalhar entre os olhos.",
-"* |cff71d5ff|Hspell:215234|h[Nightmarish Fury]|h|r: quando as tentáculos externos desaparecem, o coração se abre: apenas os jogadores purificados da corrupção podem entrar - purifique, atravese a flor do sonho, mate o olho interno e saia antes que o coração exploda.",
+"* |cff71d5ff|Hspell:215234|h[Nightmarish Fury]|h|r: quando as tentáculos externos desaparecem, o coração se abre: apenas os jogadores purificados da corrupção podem entrar - purifique, atravese a flor do sonho,",
+"* mate o olho interno e saia antes que o coração exploda.",
 "* |cff71d5ff|Hspell:210931|h[Nightmare Gaze]|h|r: os olhos escuros lançam feixes amplos na plataforma - evite os feixes e mate os olhos escuros rapidamente, pois seus danos se acumulam enquanto eles estão vivos.",
 "* |cff71d5ff|Hspell:210099|h[Fixate]|h|r: os horrores do pesadelo fixam-se em um jogador; o jogador assombrado os persegue em círculos amplos enquanto a raid ataca os horrores à distância."
 };

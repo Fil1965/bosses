@@ -315,22 +315,27 @@ pack["43438"] = { "Corborus",
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41270"] = { "Nefarian",
 "* Nefarian revive Onyxia (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): se eles permanecerem a menos de 50m de distância, os |cff71d5ff|Hspell:-3278|h[Children of Deathwing]|h|r dobram a velocidade de ataque, então os dois dragões devem ser controlados em extremidades opostas.",
-"* FASE 1: matar Onyxia primeiro; sua |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r acumula-se com o tempo e com cada |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r de Nefarian, e uma |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r explode a sala; Nefarian invoca |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r antes de pousar e aplica |cff71d5ff|Hspell:-3295|h[Dominion]|h|r em um jogador (cure sua |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, não os danifique).",
-"* FASE 2 (Onyxia morta): o chão fica cheio de lava e 3 plataformas permanecem, uma |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r cada uma: mate as 3 rapidamente porque seu |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r causa dano a todos, desviando do |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r e do |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r enquanto ele voa.",
+"* FASE 1: matar Onyxia primeiro; sua |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r acumula-se com o tempo e com cada |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r de Nefarian, e uma |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r explode a sala;",
+"* Nefarian invoca |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r antes de pousar e aplica |cff71d5ff|Hspell:-3295|h[Dominion]|h|r em um jogador (cure sua |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, não os danifique).",
+"* FASE 2 (Onyxia morta): o chão fica cheio de lava e 3 plataformas permanecem, uma |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r cada uma: mate as 3 rapidamente porque seu |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r causa dano a todos,",
+"* desviando do |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r e do |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r enquanto ele voa.",
 "* FASE 3: Nefarian pousa e DPS máximo com lust/heroísmo, não prolongue (sua |cff71d5ff|Hspell:-3305|h[Shadowflame Spark]|h|r cresce e os |cff71d5ff|Hspell:-3306|h[Bone Warriors]|h|r revive com |cff71d5ff|Hspell:-3307|h[Empowered Strikes]|h|r)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41376"] = { "Nefarian",
 "* Nefarian revive Onyxia (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): se eles permanecerem a menos de 50m de distância, os |cff71d5ff|Hspell:-3278|h[Children of Deathwing]|h|r dobram a velocidade de ataque, então os dois dragões devem ser controlados em extremidades opostas.",
-"* FASE 1: matar Onyxia primeiro; sua |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r acumula-se com o tempo e com cada |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r de Nefarian, e uma |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r explode a sala; Nefarian invoca |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r antes de pousar e aplica |cff71d5ff|Hspell:-3295|h[Dominion]|h|r em um jogador (cure sua |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, não os danifique).",
-"* FASE 2 (Onyxia morta): o chão fica cheio de lava e 3 plataformas permanecem, uma |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r cada uma: mate as 3 rapidamente porque seu |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r causa dano a todos, desviando do |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r e do |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r enquanto ele voa.",
+"* FASE 1: matar Onyxia primeiro; sua |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r acumula-se com o tempo e com cada |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r de Nefarian, e uma |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r explode a sala;",
+"* Nefarian invoca |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r antes de pousar e aplica |cff71d5ff|Hspell:-3295|h[Dominion]|h|r em um jogador (cure sua |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, não os danifique).",
+"* FASE 2 (Onyxia morta): o chão fica cheio de lava e 3 plataformas permanecem, uma |cff71d5ff|Hspell:-3299|h[Chromatic Prototype]|h|r cada uma: mate as 3 rapidamente porque seu |cff71d5ff|Hspell:-3300|h[Blast Novas]|h|r causa dano a todos,",
+"* desviando do |cff71d5ff|Hspell:-3301|h[Shadowflame Barrage]|h|r e do |cff71d5ff|Hspell:-3302|h[Explosive Cinders]|h|r enquanto ele voa.",
 "* FASE 3: Nefarian pousa e DPS máximo com lust/heroísmo, não prolongue (sua |cff71d5ff|Hspell:-3305|h[Shadowflame Spark]|h|r cresce e os |cff71d5ff|Hspell:-3306|h[Bone Warriors]|h|r revive com |cff71d5ff|Hspell:-3307|h[Empowered Strikes]|h|r)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41378"] = { "Maloriak",
-"* Ele despeja frascos no caldeirão e a cor segue: com o |cff71d5ff|Hspell:-2935|h[Frasco Vermelho]|h|r ele lança |cff71d5ff|Hspell:-2936|h[Chamas Consumidoras]|h|r em um alvo e o |cff71d5ff|Hspell:-2937|h[Explosão Queimante]|h|r se espalha entre quem estiver por perto (raia agrupada); com o |cff71d5ff|Hspell:-2938|h[Frasco Azul]|h|r o |cff71d5ff|Hspell:-2939|h[Arrepios Gelados]|h|r atinge quem estiver perto (raia agrupada) e o |cff71d5ff|Hspell:-2940|h[Congelar]|h|r aprisiona jogadores; com o |cff71d5ff|Hspell:-2941|h[Frasco Verde]|h|r o |cff71d5ff|Hspell:-2942|h[Slime Debilitante]|h|r faz com que tudo receba mais dano (use-o: DPS total).",
+"* Ele despeja frascos no caldeirão e a cor segue: com o |cff71d5ff|Hspell:-2935|h[Frasco Vermelho]|h|r ele lança |cff71d5ff|Hspell:-2936|h[Chamas Consumidoras]|h|r em um alvo e o |cff71d5ff|Hspell:-2937|h[Explosão Queimante]|h|r se espalha entre quem estiver por",
+"* perto (raia agrupada); com o |cff71d5ff|Hspell:-2938|h[Frasco Azul]|h|r o |cff71d5ff|Hspell:-2939|h[Arrepios Gelados]|h|r atinge quem estiver perto (raia agrupada) e o |cff71d5ff|Hspell:-2940|h[Congelar]|h|r aprisiona jogadores; com o |cff71d5ff|Hspell:-2941|h[Frasco Verde]|h|r o |cff71d5ff|Hspell:-2942|h[Slime Debilitante]|h|r faz com que tudo receba mais dano (use-o: DPS total).",
 "* Com cada frasco, ele libera |cff71d5ff|Hspell:-2931|h[Aberrações]|h|r: elas são mortas separadamente, porque elas se buffam com o |cff71d5ff|Hspell:-2933|h[Catalisador de Crescimento]|h|r.",
 "* Com o |cff71d5ff|Hspell:-2943|h[Frasco de Magia Negra]|h|r (heróico), os |cff71d5ff|Hspell:-2946|h[Swills Vilosos]|h|r saem em poças com seu |cff71d5ff|Hspell:-2947|h[Lodo Escuro]|h|r e canalizando o |cff71d5ff|Hspell:-2945|h[Escuridão Envolvente]|h|r: interrompa.",
 "* STAGE 2 (25%): |cff71d5ff|Hspell:-2949|h[Liberar Tudo]|h|r (aberrações + os 2 |cff71d5ff|Hspell:-2953|h[Alvos Primários]|h|r, prioridade de abate) enquanto evita os |cff71d5ff|Hspell:-2950|h[Jatos de Magma]|h|r, o |cff71d5ff|Hspell:-2951|h[Absoluto Zero]|h|r explode longe e o |cff71d5ff|Hspell:-2952|h[Nova de Ácido]|h|r é um ponto crescente: cura e dano final."
@@ -347,7 +352,8 @@ pack["41442"] = { "Atramedes",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41570"] = { "Magorja",
-"* Ele morde o tanque com |cff71d5ff|Hspell:-3314|h[Mangle]|h|r (seu |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r derrete a armadura) e, nesse momento, dois jogadores ligados atacam com as garras: eles prendem a espícula com o |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r e a perfuram, abrindo a |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r que causa dano crescente.",
+"* Ele morde o tanque com |cff71d5ff|Hspell:-3314|h[Mangle]|h|r (seu |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r derrete a armadura) e, nesse momento,",
+"* dois jogadores ligados atacam com as garras: eles prendem a espícula com o |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r e a perfuram, abrindo a |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r que causa dano crescente.",
 "* O tanque não pode deixá-lo sem um alvo de combate: se não conseguir atingir ninguém, ele usa |cff71d5ff|Hspell:-3317|h[Molten Tantrum]|h|r.",
 "* Os |cff71d5ff|Hspell:-3312|h[Lava Parasites]|h|r saltam nos jogadores e continuam a drená-los (|cff71d5ff|Hspell:-3313|h[Parasitic Infection]|h|r): a raid os ataca com AoEs enquanto se espalham.",
 "* O |cff71d5ff|Hspell:-3310|h[Magma Spit]|h|r atinge 3 jogadores e a |cff71d5ff|Hspell:-3311|h[Pillar of Flame]|h|r cai aos pés do alvo, que deve se afastar.",
@@ -358,7 +364,8 @@ pack["41570"] = { "Magorja",
 pack["42166"] = { "Sistema de Defesa Omnotron",
 "* Os quatro golems alternam dois de cada vez: apenas o ativo é atacado enquanto o outro recarrega.",
 "* Magmatron: o |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r atinge toda a sala (curas constantes); o |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r marcado corre da |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r e, no modo heróico, resiste ao |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r com curas; sua |cff71d5ff|Hspell:-3268|h[Barrier]|h|r é quebrada com dano.",
-"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo; o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
+"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo;",
+"* o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
 "* Electron: o |cff71d5ff|Hspell:-3202|h[Lightning Conductor]|h|r marcado se afasta (danificando os próximos); mantenha a dispersão para o |cff71d5ff|Hspell:-3203|h[Electrical Discharge]|h|r e não ataque seu |cff71d5ff|Hspell:-3204|h[Unstable Shield]|h|r (no modo heróico: ele ativa o |cff71d5ff|Hspell:-3205|h[Shadow Infusion]|h|r).",
 "* Toxitron: as |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r e suas |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% de dano dentro: ninguém) e seu |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r lançam bombas que deixam |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r; sua |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r também fica sozinha (envenenando o atacante)."
 };
@@ -367,7 +374,8 @@ pack["42166"] = { "Sistema de Defesa Omnotron",
 pack["42178"] = { "Sistema de Defesa Omnotron",
 "* Os quatro golems alternam dois de cada vez: apenas o ativo é atacado enquanto o outro recarrega.",
 "* Magmatron: o |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r atinge toda a sala (curas constantes); o |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r marcado corre da |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r e, no modo heróico, resiste ao |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r com curas; sua |cff71d5ff|Hspell:-3268|h[Barrier]|h|r é quebrada com dano.",
-"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo; o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
+"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo;",
+"* o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
 "* Electron: o |cff71d5ff|Hspell:-3202|h[Lightning Conductor]|h|r marcado se afasta (danificando os próximos); mantenha a dispersão para o |cff71d5ff|Hspell:-3203|h[Electrical Discharge]|h|r e não ataque seu |cff71d5ff|Hspell:-3204|h[Unstable Shield]|h|r (no modo heróico: ele ativa o |cff71d5ff|Hspell:-3205|h[Shadow Infusion]|h|r).",
 "* Toxitron: as |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r e suas |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% de dano dentro: ninguém) e seu |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r lançam bombas que deixam |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r; sua |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r também fica sozinha (envenenando o atacante)."
 };
@@ -376,7 +384,8 @@ pack["42178"] = { "Sistema de Defesa Omnotron",
 pack["42179"] = { "Sistema de Defesa Omnotron",
 "* Os quatro golems alternam dois de cada vez: apenas o ativo é atacado enquanto o outro recarrega.",
 "* Magmatron: o |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r atinge toda a sala (curas constantes); o |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r marcado corre da |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r e, no modo heróico, resiste ao |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r com curas; sua |cff71d5ff|Hspell:-3268|h[Barrier]|h|r é quebrada com dano.",
-"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo; o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
+"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo;",
+"* o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
 "* Electron: o |cff71d5ff|Hspell:-3202|h[Lightning Conductor]|h|r marcado se afasta (danificando os próximos); mantenha a dispersão para o |cff71d5ff|Hspell:-3203|h[Electrical Discharge]|h|r e não ataque seu |cff71d5ff|Hspell:-3204|h[Unstable Shield]|h|r (no modo heróico: ele ativa o |cff71d5ff|Hspell:-3205|h[Shadow Infusion]|h|r).",
 "* Toxitron: as |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r e suas |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% de dano dentro: ninguém) e seu |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r lançam bombas que deixam |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r; sua |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r também fica sozinha (envenenando o atacante)."
 };
@@ -385,7 +394,8 @@ pack["42179"] = { "Sistema de Defesa Omnotron",
 pack["42180"] = { "Sistema de Defesa Omnotron",
 "* Os quatro golems alternam dois de cada vez: apenas o ativo é atacado enquanto o outro recarrega.",
 "* Magmatron: o |cff71d5ff|Hspell:-3264|h[Incineration Security Measure]|h|r atinge toda a sala (curas constantes); o |cff71d5ff|Hspell:-3265|h[Acquiring Target]|h|r marcado corre da |cff71d5ff|Hspell:-3266|h[Flamethrower]|h|r e, no modo heróico, resiste ao |cff71d5ff|Hspell:-3267|h[Encasing Shadows]|h|r com curas; sua |cff71d5ff|Hspell:-3268|h[Barrier]|h|r é quebrada com dano.",
-"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo; o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
+"* Arcanotron: o |cff71d5ff|Hspell:-3195|h[Power Generator]|h|r buffa quem esteja sobre ele (e os golems), para que o marcado o tire do grupo;",
+"* o |cff71d5ff|Hspell:-3196|h[Arcane Annihilator]|h|r é interrompido sempre que possível e, enquanto o |cff71d5ff|Hspell:-3197|h[Power Conversion]|h|r estiver ativo, NINGUÉM ataca o escudo.",
 "* Electron: o |cff71d5ff|Hspell:-3202|h[Lightning Conductor]|h|r marcado se afasta (danificando os próximos); mantenha a dispersão para o |cff71d5ff|Hspell:-3203|h[Electrical Discharge]|h|r e não ataque seu |cff71d5ff|Hspell:-3204|h[Unstable Shield]|h|r (no modo heróico: ele ativa o |cff71d5ff|Hspell:-3205|h[Shadow Infusion]|h|r).",
 "* Toxitron: as |cff71d5ff|Hspell:-3269|h[Chemical Bombs]|h|r e suas |cff71d5ff|Hspell:-3270|h[Chemical Clouds]|h|r (+50% de dano dentro: ninguém) e seu |cff71d5ff|Hspell:-3271|h[Poison Protocol]|h|r lançam bombas que deixam |cff71d5ff|Hspell:-3273|h[Poison Puddles]|h|r; sua |cff71d5ff|Hspell:-3274|h[Poison Soaked Shell]|h|r também fica sozinha (envenenando o atacante)."
 };
@@ -403,7 +413,8 @@ pack["43296"] = { "Khímaron",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["43324"] = { "Cho'gall",
-"* A |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r enche a barra de Corrupção com cada habilidade: em 25% acelera, em 50% causa confusão contínua, em 75% uma deformação tentacular e em 100% você perde o controle do seu personagem — mantê-lo baixo exige estratégia, pois é a chave para a luta.",
+"* A |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r enche a barra de Corrupção com cada habilidade: em 25% acelera, em 50% causa confusão contínua,",
+"* em 75% uma deformação tentacular e em 100% você perde o controle do seu personagem — mantê-lo baixo exige estratégia, pois é a chave para a luta.",
 "* O |cff71d5ff|Hspell:-3161|h[Twilight Zealot]|h|r sai dos portais laterais: DPS/CC e mate-os rapidamente, seu |cff71d5ff|Hspell:-3162|h[Depravity]|h|r causa dano em área.",
 "* O machado alterna |cff71d5ff|Hspell:-3156|h[Ordem da Chama]|h|r e |cff71d5ff|Hspell:-3158|h[Ordem das Sombras]|h|r: com chama, o tanque mantém o chefe longe da raid devido ao |cff71d5ff|Hspell:-3211|h[Explosão]|h|r; com sombra, espalhem-se um pouco.",
 "* A |cff71d5ff|Hspell:-3155|h[Conversão]|h|r aprisiona os jogadores: interrompa o culto com stun/interrupções (cada aplauso concede a Cho'gall |cff71d5ff|Hspell:-3209|h[Devoção Corrompida]|h|r).",
@@ -464,10 +475,12 @@ pack["44600"] = { "Halfus Quebra-serpe",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["45213"] = { "Sinestra",
-"* 25 apenas para héroes. FASE 1 (até 30%): ela voa e deve ser queimada de baixo; as esferas |cff71d5ff|Hspell:-3229|h[Corteiras Crepusculares]|h|r perseguem um jogador do ar: a marcada corre longe e, quando uma esfera morre, ninguém fica na frente dela (|cff71d5ff|Hspell:-3230|h[Explosão Crepuscular]|h|r).",
+"* 25 apenas para héroes. FASE 1 (até 30%): ela voa e deve ser queimada de baixo; as esferas |cff71d5ff|Hspell:-3229|h[Corteiras Crepusculares]|h|r perseguem um jogador do ar: a marcada corre longe e, quando uma esfera morre,",
+"* ninguém fica na frente dela (|cff71d5ff|Hspell:-3230|h[Explosão Crepuscular]|h|r).",
 "* The |cff71d5ff|Hspell:-3227|h[Wrack]|h|r lands on a player with growing damage and will JUMP to another nearby player when its time runs out: the marked one separates from the raid and the healers carry it to the limit.",
 "* O |cff71d5ff|Hspell:-3231|h[Twilight Whelps]|h|r cai sobre um jogador com seus |cff71d5ff|Hspell:-3232|h[Twilight Spit]|h|r: um grupo os atrai para trás e os mata rapidamente, sem pisar nas |cff71d5ff|Hspell:-3233|h[Twilight Essence]|h|r.",
-"* FASE 2 (a 30%): Cal inicia seu duelo e os |cff71d5ff|Hspell:-3238|h[Ovos de Crepúsculo Pulsantes]|h|r são expostos após cada |cff71d5ff|Hspell:-3308|h[Carapaça de Crepúsculo]|h|r dano completo nos ovos em cada janela; os |cff71d5ff|Hspell:-3239|h[Chamadores de Crepúsculo]|h|r chegam e seu |cff71d5ff|Hspell:-3240|h[Liberação de Essência]|h|r é interrompido (o |cff71d5ff|Hspell:-3241|h[Indomável]|h|r pune CCs longos), e os |cff71d5ff|Hspell:-3242|h[Dracos de Crepúsculo]|h|r avançam com seu |cff71d5ff|Hspell:-3243|h[Respiração de Crepúsculo]|h|r.",
+"* FASE 2 (a 30%): Cal inicia seu duelo e os |cff71d5ff|Hspell:-3238|h[Ovos de Crepúsculo Pulsantes]|h|r são expostos após cada |cff71d5ff|Hspell:-3308|h[Carapaça de Crepúsculo]|h|r dano completo nos ovos em cada janela;",
+"* os |cff71d5ff|Hspell:-3239|h[Chamadores de Crepúsculo]|h|r chegam e seu |cff71d5ff|Hspell:-3240|h[Liberação de Essência]|h|r é interrompido (o |cff71d5ff|Hspell:-3241|h[Indomável]|h|r pune CCs longos), e os |cff71d5ff|Hspell:-3242|h[Dracos de Crepúsculo]|h|r avançam com seu |cff71d5ff|Hspell:-3243|h[Respiração de Crepúsculo]|h|r.",
 "* FASE 3 (ovos mortos): os buffs |cff71d5ff|Hspell:-3246|h[Essência Vermelha]|h|r para a raid e DPS máximo para finalizar."
 };
 
@@ -748,10 +761,12 @@ pack["52498"] = { "Beth'tilac",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52530"] = { "Alysrazor",
-"* FASE 1: ela voa, a raid luta abaixo: dois jogadores coletam |cff71d5ff|Hspell:-2828|h[Penas Moltenas]|h|r (três dão |cff71d5ff|Hspell:-2829|h[Asas de Fogo]|h|r para voar e ajudar acima), os |cff71d5ff|Hspell:-2836|h[Filhotes Vorazes]|h|r são controlados separadamente (alimentados com |cff71d5ff|Hspell:-2843|h[Vermes de Lava Gordos]|h|r) e os dois |cff71d5ff|Hspell:-2834|h[Iniciados de Garra Ardente]|h|r morrem rapidamente (com |cff71d5ff|Hspell:-3335|h[Escudo Ardente]|h|r: DPS total).",
+"* FASE 1: ela voa, a raid luta abaixo: dois jogadores coletam |cff71d5ff|Hspell:-2828|h[Penas Moltenas]|h|r (três dão |cff71d5ff|Hspell:-2829|h[Asas de Fogo]|h|r para voar e ajudar acima),",
+"* os |cff71d5ff|Hspell:-2836|h[Filhotes Vorazes]|h|r são controlados separadamente (alimentados com |cff71d5ff|Hspell:-2843|h[Vermes de Lava Gordos]|h|r) e os dois |cff71d5ff|Hspell:-2834|h[Iniciados de Garra Ardente]|h|r morrem rapidamente (com |cff71d5ff|Hspell:-3335|h[Escudo Ardente]|h|r: DPS total).",
 "* O |cff71d5ff|Hspell:-2845|h[Herald of the Burning End]|h|r aparece no final da fase: seu |cff71d5ff|Hspell:-2846|h[Cataclysm]|h|r invoca o |cff71d5ff|Hspell:-2847|h[Meteor Molteno]|h|r (DPS total antes de cair).",
 "* FASE 2: ela entra no |cff71d5ff|Hspell:-2849|h[Vórtice Ardente]|h|r (imobilizada): DPS total com lust/heroísmo; os voadores evitam os |cff71d5ff|Hspell:-2850|h[Tornados Ardentes]|h|r e aqueles abaixo os |cff71d5ff|Hspell:-3332|h[Ventos Severos]|h|r.",
-"* FASE 3 (quando seu poder acaba): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r com o |cff71d5ff|Hspell:-2853|h[Essência do Verde]|h|r (voo para todos) e DPS total antes de ela se recuperar; se a luta chegar à FASE 4, ela renasce com poder total (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) e o ciclo se repete: quanto menos ciclos, melhor."
+"* FASE 3 (quando seu poder acaba): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r com o |cff71d5ff|Hspell:-2853|h[Essência do Verde]|h|r (voo para todos) e DPS total antes de ela se recuperar;",
+"* se a luta chegar à FASE 4, ela renasce com poder total (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) e o ciclo se repete: quanto menos ciclos, melhor."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
@@ -764,9 +779,11 @@ pack["52558"] = { "Lorde Rhyolith",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52571"] = { "Senescal Guenelmo",
-"* Todas as mecânicas de |cff71d5ff|Hspell:-2912|h[Transformação]|h|r são: em |cff71d5ff|Hspell:-2913|h[forma de gato]|h|r ele salta |cff71d5ff|Hspell:-2914|h[Chamas Saltadoras]|h|r em direção ao alvo (deixando rastros de fogo no chão) e em |cff71d5ff|Hspell:-2918|h[forma de escorpião]|h|r a |cff71d5ff|Hspell:-2919|h[Foice de Fogo]|h|r pune quem o está atacando (os ataques corpo a corpo a consomem com cura).",
+"* Todas as mecânicas de |cff71d5ff|Hspell:-2912|h[Transformação]|h|r são: em |cff71d5ff|Hspell:-2913|h[forma de gato]|h|r ele salta |cff71d5ff|Hspell:-2914|h[Chamas Saltadoras]|h|r em direção ao alvo (deixando rastros de fogo no chão) e em",
+"* |cff71d5ff|Hspell:-2918|h[forma de escorpião]|h|r a |cff71d5ff|Hspell:-2919|h[Foice de Fogo]|h|r pune quem o está atacando (os ataques corpo a corpo a consomem com cura).",
 "* As builds |cff71d5ff|Hspell:-2916|h[Adrenaline]|h|r com cada lançamento repetido: quanto mais longa a luta, mais doloroso, então DPS total.",
-"* Em |cff71d5ff|Hspell:-2922|h[forma élfica noturna]|h|r (no combate), ele agarra os mais próximos com |cff71d5ff|Hspell:-2923|h[Ciclone Ardente]|h|r (dispersão), joga |cff71d5ff|Hspell:-2924|h[Sementes Incandescentes]|h|r sob a alvo marcada (movendo-se para longe antes de explodirem) e lança as |cff71d5ff|Hspell:-2925|h[Esferas Ardentes]|h|r (evitando-as para afastá-las do grupo)."
+"* Em |cff71d5ff|Hspell:-2922|h[forma élfica noturna]|h|r (no combate), ele agarra os mais próximos com |cff71d5ff|Hspell:-2923|h[Ciclone Ardente]|h|r (dispersão),",
+"* joga |cff71d5ff|Hspell:-2924|h[Sementes Incandescentes]|h|r sob a alvo marcada (movendo-se para longe antes de explodirem) e lança as |cff71d5ff|Hspell:-2925|h[Esferas Ardentes]|h|r (evitando-as para afastá-las do grupo)."
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

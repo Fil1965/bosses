@@ -27,7 +27,8 @@ pack["4278"] = { "사령관 스프링베일",
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["46962"] = { "남작 애쉬버리",
 "* |cff71d5ff|Hspell:93712|h[Pain and Suffering]|h|r를 중단하거나 해제하세요.",
-"* |cff71d5ff|Hspell:93710|h[Asphyxiate]|h|r로 인해 모두 1% 체력이 감소하고, 그 후 |cff71d5ff|Hspell:93705|h[Stay of Execution]|h|r를 사용하는데, 그룹이 어느 정도 체력을 회복하면 즉시 중단해야 합니다. 왜냐하면 이 스킬은 적으로도 회복시키기 때문입니다."
+"* |cff71d5ff|Hspell:93710|h[Asphyxiate]|h|r로 인해 모두 1% 체력이 감소하고, 그 후 |cff71d5ff|Hspell:93705|h[Stay of Execution]|h|r를 사용하는데, 그룹이 어느 정도 체력을 회복하면 즉시 중단해야 합니다.",
+"* 왜냐하면 이 스킬은 적으로도 회복시키기 때문입니다."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
@@ -218,7 +219,8 @@ pack["39665"] = { "해골분쇄자 롬오그",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["39679"] = { "황혼의 전령 코를라",
-"* 이 보스의 목표는 플레이어와 추가 모두에게 |cff71d5ff|Hspell:75610|h[진화]|h|r가 100틱 쌓이는 것을 막는 것입니다. 만약 그런 일이 발생하면 영향을 받은 캐릭터는 드래곤킨으로 변신하고, HERO의 경우 게임 오버가 됩니다.",
+"* 이 보스의 목표는 플레이어와 추가 모두에게 |cff71d5ff|Hspell:75610|h[진화]|h|r가 100틱 쌓이는 것을 막는 것입니다. 만약 그런 일이 발생하면 영향을 받은 캐릭터는 드래곤킨으로 변신하고,",
+"* HERO의 경우 게임 오버가 됩니다.",
 "이를 피하기 위해, 추가의 빔이 80에 도달하기 전에 차단하고, 우리 캐릭터가 80에 도달했을 때 교체합니다.",
 "각 추가에 한 명씩을 할당하는 것이 가장 좋습니다.",
 "팁: 만약 우리가 주의를 잃고 디버프를 보지 못하면, 캐릭터가 깜빡거리기 시작하면 변신을 준비하고 있다는 신호입니다. 그 때 빔을 받는 캐릭터를 교체해야 합니다."
@@ -315,22 +317,30 @@ pack["43438"] = { "코보루스",
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41270"] = { "네파리안",
 "* 네파리안은 온직스를 부활시키고 (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): 그들이 50미터 이내에 있으면 |cff71d5ff|Hspell:-3278|h[데드윙의 자손]|h|r의 공격 속도를 두 배로 증가시키므로, 두 용은 서로 다른 곳에서 탱킹해야 합니다.",
-"* 1단계: 먼저 온직스를 처치하세요; 그녀의 |cff71d5ff|Hspell:-3284|h[전기 에너지]|h|r는 시간이 지남에 따라 쌓이고 네파리안의 |cff71d5ff|Hspell:-3276|h[전격]|h|r와 함께 발생하며, 완전한 |cff71d5ff|Hspell:-3288|h[전기 과부하]|h|r는 방 전체를 파괴합니다. 네파리안은 착지하기 전에 |cff71d5ff|Hspell:-3280|h[뼈 전사]|h|r를 소환하고 플레이어에게 |cff71d5ff|Hspell:-3295|h[지배]|h|r를 적용합니다(그들의 |cff71d5ff|Hspell:-3297|h[도둑 훔친 힘]|h|r를 치유하고, 그들을 손상시키지 마세요).",
-"* 2단계 (온직스 죽음): 바닥이 용암으로 채워지고 3개의 플랫폼이 남습니다: 각각 |cff71d5ff|Hspell:-3299|h[색상 프로토타입]|h|r을 빠르게 처치하세요, 왜냐하면 그들의 |cff71d5ff|Hspell:-3300|h[블래스트 노바]|h|r는 모두에게 피해를 주고, 네파리안이 날아갈 때 |cff71d5ff|Hspell:-3301|h[섀도플레임 바라지]|h|r와 |cff71d5ff|Hspell:-3302|h[폭발하는 연탄]|h|r를 피하세요.",
+"* 1단계: 먼저 온직스를 처치하세요; 그녀의 |cff71d5ff|Hspell:-3284|h[전기 에너지]|h|r는 시간이 지남에 따라 쌓이고 네파리안의 |cff71d5ff|Hspell:-3276|h[전격]|h|r와 함께 발생하며,",
+"* 완전한 |cff71d5ff|Hspell:-3288|h[전기 과부하]|h|r는 방 전체를 파괴합니다. 네파리안은 착지하기 전에 |cff71d5ff|Hspell:-3280|h[뼈 전사]|h|r를 소환하고 플레이어에게 |cff71d5ff|Hspell:-3295|h[지배]|h|r를",
+"* 적용합니다(그들의 |cff71d5ff|Hspell:-3297|h[도둑 훔친 힘]|h|r를 치유하고, 그들을 손상시키지 마세요).",
+"* 2단계 (온직스 죽음): 바닥이 용암으로 채워지고 3개의 플랫폼이 남습니다: 각각 |cff71d5ff|Hspell:-3299|h[색상 프로토타입]|h|r을 빠르게 처치하세요,",
+"* 왜냐하면 그들의 |cff71d5ff|Hspell:-3300|h[블래스트 노바]|h|r는 모두에게 피해를 주고, 네파리안이 날아갈 때 |cff71d5ff|Hspell:-3301|h[섀도플레임 바라지]|h|r와 |cff71d5ff|Hspell:-3302|h[폭발하는 연탄]|h|r를 피하세요.",
 "* 3단계: 네파리안이 착지하고, 쾌활함/영웅주의 상태를 유지하며, 시간을 끌지 마세요(그의 |cff71d5ff|Hspell:-3305|h[섀도플레임 스파크]|h|r가 성장하고, |cff71d5ff|Hspell:-3306|h[뼈 전사]|h|r가 |cff71d5ff|Hspell:-3307|h[강화된 공격]|h|r으로 부활합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41376"] = { "네파리안",
 "* 네파리안은 온직스를 부활시키고 (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): 그들이 50미터 이내에 있으면 |cff71d5ff|Hspell:-3278|h[데드윙의 자손]|h|r의 공격 속도를 두 배로 증가시키므로, 두 용은 서로 다른 곳에서 탱킹해야 합니다.",
-"* 1단계: 먼저 온직스를 처치하세요; 그녀의 |cff71d5ff|Hspell:-3284|h[전기 에너지]|h|r는 시간이 지남에 따라 쌓이고 네파리안의 |cff71d5ff|Hspell:-3276|h[전격]|h|r와 함께 발생하며, 완전한 |cff71d5ff|Hspell:-3288|h[전기 과부하]|h|r는 방 전체를 파괴합니다. 네파리안은 착지하기 전에 |cff71d5ff|Hspell:-3280|h[뼈 전사]|h|r를 소환하고 플레이어에게 |cff71d5ff|Hspell:-3295|h[지배]|h|r를 적용합니다(그들의 |cff71d5ff|Hspell:-3297|h[도둑 훔친 힘]|h|r를 치유하고, 그들을 손상시키지 마세요).",
-"* 2단계 (온직스 죽음): 바닥이 용암으로 채워지고 3개의 플랫폼이 남습니다: 각각 |cff71d5ff|Hspell:-3299|h[색상 프로토타입]|h|r을 빠르게 처치하세요, 왜냐하면 그들의 |cff71d5ff|Hspell:-3300|h[블래스트 노바]|h|r는 모두에게 피해를 주고, 네파리안이 날아갈 때 |cff71d5ff|Hspell:-3301|h[섀도플레임 바라지]|h|r와 |cff71d5ff|Hspell:-3302|h[폭발하는 연탄]|h|r를 피하세요.",
+"* 1단계: 먼저 온직스를 처치하세요; 그녀의 |cff71d5ff|Hspell:-3284|h[전기 에너지]|h|r는 시간이 지남에 따라 쌓이고 네파리안의 |cff71d5ff|Hspell:-3276|h[전격]|h|r와 함께 발생하며,",
+"* 완전한 |cff71d5ff|Hspell:-3288|h[전기 과부하]|h|r는 방 전체를 파괴합니다. 네파리안은 착지하기 전에 |cff71d5ff|Hspell:-3280|h[뼈 전사]|h|r를 소환하고 플레이어에게 |cff71d5ff|Hspell:-3295|h[지배]|h|r를",
+"* 적용합니다(그들의 |cff71d5ff|Hspell:-3297|h[도둑 훔친 힘]|h|r를 치유하고, 그들을 손상시키지 마세요).",
+"* 2단계 (온직스 죽음): 바닥이 용암으로 채워지고 3개의 플랫폼이 남습니다: 각각 |cff71d5ff|Hspell:-3299|h[색상 프로토타입]|h|r을 빠르게 처치하세요,",
+"* 왜냐하면 그들의 |cff71d5ff|Hspell:-3300|h[블래스트 노바]|h|r는 모두에게 피해를 주고, 네파리안이 날아갈 때 |cff71d5ff|Hspell:-3301|h[섀도플레임 바라지]|h|r와 |cff71d5ff|Hspell:-3302|h[폭발하는 연탄]|h|r를 피하세요.",
 "* 3단계: 네파리안이 착지하고, 쾌활함/영웅주의 상태를 유지하며, 시간을 끌지 마세요(그의 |cff71d5ff|Hspell:-3305|h[섀도플레임 스파크]|h|r가 성장하고, |cff71d5ff|Hspell:-3306|h[뼈 전사]|h|r가 |cff71d5ff|Hspell:-3307|h[강화된 공격]|h|r으로 부활합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41378"] = { "말로리악",
-"* 그는 연마에 flask를 붓고, |cff71d5ff|Hspell:-2935|h[Red Vial]|h|r를 사용하여 |cff71d5ff|Hspell:-2936|h[Consuming Flames]|h|r를 대상에 던지고, |cff71d5ff|Hspell:-2937|h[Scorching Blast]|h|r가 주변에 있는 사람들에게 분산됩니다(레이드 겹침); |cff71d5ff|Hspell:-2938|h[Blue Vial]|h|r를 사용하면 |cff71d5ff|Hspell:-2939|h[Biting Chill]|h|r이 가까운 사람들에게 맞고, |cff71d5ff|Hspell:-2940|h[Flash Freeze]|h|r가 플레이어를 가둡니다; |cff71d5ff|Hspell:-2941|h[Green Vial]|h|r를 사용하면 |cff71d5ff|Hspell:-2942|h[Debilitating Slime]|h|r가 모든 것을 더 많은 피해를 입도록 만듭니다(사용: 완전 DPS).",
+"* 그는 연마에 flask를 붓고, |cff71d5ff|Hspell:-2935|h[Red Vial]|h|r를 사용하여 |cff71d5ff|Hspell:-2936|h[Consuming Flames]|h|r를 대상에 던지고,",
+"* |cff71d5ff|Hspell:-2937|h[Scorching Blast]|h|r가 주변에 있는 사람들에게 분산됩니다(레이드 겹침); |cff71d5ff|Hspell:-2938|h[Blue Vial]|h|r를 사용하면 |cff71d5ff|Hspell:-2939|h[Biting Chill]|h|r이 가까운 사람들에게 맞고,",
+"* |cff71d5ff|Hspell:-2940|h[Flash Freeze]|h|r가 플레이어를 가둡니다; |cff71d5ff|Hspell:-2941|h[Green Vial]|h|r를 사용하면 |cff71d5ff|Hspell:-2942|h[Debilitating Slime]|h|r가 모든 것을 더 많은 피해를 입도록 만듭니다(사용: 완전 DPS).",
 "* 각 flask를 사용하면 |cff71d5ff|Hspell:-2931|h[Aberrations]|h|r가 해제됩니다: 그들은 서로를 강화하면서 분리되어 죽습니다, |cff71d5ff|Hspell:-2933|h[Growth Catalyst]|h|r로.",
 "* |cff71d5ff|Hspell:-2943|h[Dark Magic flask]|h|r(히어로)를 사용하면 |cff71d5ff|Hspell:-2946|h[Vile Swills]|h|r가 |cff71d5ff|Hspell:-2947|h[Dark Sludge]|h|r로 웅덩이를 만들고, |cff71d5ff|Hspell:-2945|h[Engulfing Darkness]|h|r를 채널링합니다: 중단합니다.",
 "* STAGE 2 (25%): |cff71d5ff|Hspell:-2949|h[Release All]|h|r(Aberrations + 2개의 |cff71d5ff|Hspell:-2953|h[Prime Subjects]|h|r, 우선 순위 사냥), |cff71d5ff|Hspell:-2950|h[Magma Jets]|h|r를 피하면서, |cff71d5ff|Hspell:-2951|h[Absolute Zero]|h|r가 멀리 폭발하고, |cff71d5ff|Hspell:-2952|h[Acid Nova]|h|r가 성장하는 닷: 치유 및 최종 피해."
@@ -338,16 +348,20 @@ pack["41378"] = { "말로리악",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41442"] = { "아트라메데스",
-"* 전투 전체는 |cff71d5ff|Hspell:-3072|h[소리]|h|r를 중심으로 진행됩니다: 파티는 0에서 시작하여 모든 소리 효과가 막대를 채웁니다; 100%에 도달하면 |cff71d5ff|Hspell:-3455|h[파괴]|h|r를 사용하여 파티를 죽이므로 소리 원을 피하는 것이 중요합니다.",
+"* 전투 전체는 |cff71d5ff|Hspell:-3072|h[소리]|h|r를 중심으로 진행됩니다: 파티는 0에서 시작하여 모든 소리 효과가 막대를 채웁니다; 100%에 도달하면 |cff71d5ff|Hspell:-3455|h[파괴]|h|r를 사용하여 파티를 죽이므로 소리",
+"* 원을 피하는 것이 중요합니다.",
 "* |cff71d5ff|Hspell:-3073|h[고대 드워프 방패]|h|r (10개 분산)는 중요한 순간에 사용됩니다: |cff71d5ff|Hspell:-3074|h[공명 충돌]|h|r는 그를 방해하고 |cff71d5ff|Hspell:-3075|h[빙글빙글]|h|r를 +50% 데미지를 적용합니다.",
-"* 땅에 있는: |cff71d5ff|Hspell:-3076|h[소나 펄스]|h|r 디스크는 대상에게 쫓아갑니다, |cff71d5ff|Hspell:-3077|h[모듈레이션]|h|r은 모든 사람에게 맞습니다 (치유는 보존), |cff71d5ff|Hspell:-3078|h[소닉 브레스]|h|r는 플레이어를 쫓아갑니다, |cff71d5ff|Hspell:-3079|h[서잉 플레임]|h|r은 바닥을 태웁니다.",
-"* 공중: 그의 |cff71d5ff|Hspell:-3086|h[로링 플레임 브레스]|h|r와 |cff71d5ff|Hspell:-3087|h[로링 플레임]|h|r는 바닥을 태웁니다, |cff71d5ff|Hspell:-3085|h[소나 붐]|h|r은 플레이어 근처에 떨어지고 |cff71d5ff|Hspell:-3088|h[소닉 파이어볼]|h|r은 표시된 사람을 쫓아갑니다 (다른 사람은 줄에 없습니다).",
+"* 땅에 있는: |cff71d5ff|Hspell:-3076|h[소나 펄스]|h|r 디스크는 대상에게 쫓아갑니다, |cff71d5ff|Hspell:-3077|h[모듈레이션]|h|r은 모든 사람에게 맞습니다 (치유는 보존),",
+"* |cff71d5ff|Hspell:-3078|h[소닉 브레스]|h|r는 플레이어를 쫓아갑니다, |cff71d5ff|Hspell:-3079|h[서잉 플레임]|h|r은 바닥을 태웁니다.",
+"* 공중: 그의 |cff71d5ff|Hspell:-3086|h[로링 플레임 브레스]|h|r와 |cff71d5ff|Hspell:-3087|h[로링 플레임]|h|r는 바닥을 태웁니다,",
+"* |cff71d5ff|Hspell:-3085|h[소나 붐]|h|r은 플레이어 근처에 떨어지고 |cff71d5ff|Hspell:-3088|h[소닉 파이어볼]|h|r은 표시된 사람을 쫓아갑니다 (다른 사람은 줄에 없습니다).",
 "* 영웅: |cff71d5ff|Hspell:-3082|h[오브노이우스 펜드]|h|r는 파티를 Atramedes를 버프하여 괴롭힙니다 (파티가 할 수 있는 즉시 불태우십시오)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41570"] = { "용암아귀",
-"* 공격 대상인 탱커를 |cff71d5ff|Hspell:-3314|h[Mangle]|h|r로 공격 (그것은 |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r로 방어력을 녹임) 하고, 그 순간 두 명의 플레이어가 톱니를 잡고: 그들은 |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r로 톱니에 닿고, 그를 꿰뚫어 |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r를 만들어내, 지속적으로 피해를 입힘.",
+"* 공격 대상인 탱커를 |cff71d5ff|Hspell:-3314|h[Mangle]|h|r로 공격 (그것은 |cff71d5ff|Hspell:-3315|h[Sweltering Armor]|h|r로 방어력을 녹임) 하고,",
+"* 그 순간 두 명의 플레이어가 톱니를 잡고: 그들은 |cff71d5ff|Hspell:-3320|h[Throw Hook]|h|r로 톱니에 닿고, 그를 꿰뚫어 |cff71d5ff|Hspell:-3321|h[Point of Vulnerability]|h|r를 만들어내, 지속적으로 피해를 입힘.",
 "* 탱커는 그를 아무도 공격할 대상 없이 남겨두지 않아야 합니다: 만약 그가 누구도 공격할 수 없다면, |cff71d5ff|Hspell:-3317|h[Molten Tantrum]|h|r로 변신합니다.",
 "* |cff71d5ff|Hspell:-3312|h[Lava Parasites]|h|r는 플레이어에게 점프하여 지속적으로 피해를 주고 (|cff71d5ff|Hspell:-3313|h[Parasitic Infection]|h|r) : 레이드는 그들을 공격하여 광역 피해를 입힙니다.",
 "* |cff71d5ff|Hspell:-3310|h[Magma Spit]|h|r는 3명의 플레이어를 대상으로 하며, |cff71d5ff|Hspell:-3311|h[Pillar of Flame]|h|r가 대상의 발 앞에 떨어지므로, 대상은 움직여야 합니다.",
@@ -357,37 +371,53 @@ pack["41570"] = { "용암아귀",
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["42166"] = { "옴노트 방어 시스템",
 "* 네 개의 골렘은 번갈아 가며 2개씩 공격합니다: 활성화된 골렘만 공격하고 다른 골렘은 재활용합니다.",
-"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는 |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
-"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다. |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
-"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고, 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
-"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
+"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는",
+"* |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
+"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다.",
+"* |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
+"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고,",
+"* 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
+"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를",
+"* 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["42178"] = { "옴노트 방어 시스템",
 "* 네 개의 골렘은 번갈아 가며 2개씩 공격합니다: 활성화된 골렘만 공격하고 다른 골렘은 재활용합니다.",
-"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는 |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
-"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다. |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
-"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고, 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
-"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
+"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는",
+"* |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
+"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다.",
+"* |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
+"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고,",
+"* 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
+"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를",
+"* 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["42179"] = { "옴노트 방어 시스템",
 "* 네 개의 골렘은 번갈아 가며 2개씩 공격합니다: 활성화된 골렘만 공격하고 다른 골렘은 재활용합니다.",
-"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는 |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
-"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다. |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
-"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고, 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
-"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
+"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는",
+"* |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
+"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다.",
+"* |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
+"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고,",
+"* 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
+"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를",
+"* 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["42180"] = { "옴노트 방어 시스템",
 "* 네 개의 골렘은 번갈아 가며 2개씩 공격합니다: 활성화된 골렘만 공격하고 다른 골렘은 재활용합니다.",
-"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는 |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
-"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다. |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
-"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고, 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
-"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
+"* 마그마트론: |cff71d5ff|Hspell:-3264|h[인세이너이션 보안 조치]|h|r는 방 전체에 영향을 미칩니다(지속적인 치유); |cff71d5ff|Hspell:-3265|h[타겟 획득]|h|r로 표시된 플레이어는",
+"* |cff71d5ff|Hspell:-3266|h[플레임스프레이]|h|r 빔에서 벗어나고, 하이로닉에서는 |cff71d5ff|Hspell:-3267|h[인카싱 섀도우]|h|r를 치유로 견뎌냅니다. 그의 |cff71d5ff|Hspell:-3268|h[방벽]|h|r는 피해로 파괴됩니다.",
+"* 아크네트론: |cff71d5ff|Hspell:-3195|h[파워 제너레이터]|h|r는 그 위에 서 있는 모든 사람(및 골렘)을 강화하므로, 표시된 플레이어는 그룹에서 끌어냅니다.",
+"* |cff71d5ff|Hspell:-3196|h[아카인 안니히레이터]|h|r는 가능한 한 중단되고, |cff71d5ff|Hspell:-3197|h[파워 컨버전]|h|r가 활성화된 동안에는 누구도 방패를 공격하지 않습니다.",
+"* 전자: |cff71d5ff|Hspell:-3202|h[라이팅 컨덕터]|h|r로 표시된 플레이어는 멀어집니다(주변에 피해를 입힙니다); |cff71d5ff|Hspell:-3203|h[전기 방전]|h|r를 위해 흩어져 있고,",
+"* 그의 |cff71d5ff|Hspell:-3204|h[불안정한 방패]|h|r(하이로닉: |cff71d5ff|Hspell:-3205|h[섀도우 인퓨전]|h|r)를 공격하지 마십시오.",
+"* 토시트론: |cff71d5ff|Hspell:-3269|h[화학 폭탄]|h|r와 |cff71d5ff|Hspell:-3270|h[화학 구름]|h|r(+50% 내부 피해: 누구도) 및 그의 |cff71d5ff|Hspell:-3271|h[독 프로토콜]|h|r는 추격 폭탄을 떨어뜨려 |cff71d5ff|Hspell:-3273|h[독 웅덩이]|h|r를",
+"* 남깁니다. 그의 |cff71d5ff|Hspell:-3274|h[독에 젖은 껍데기]|h|r는 또한 혼자 남겨둡니다(공격자를 독에 잠식합니다)."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
@@ -403,12 +433,14 @@ pack["43296"] = { "키마이론",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["43324"] = { "초갈",
-"* |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r 능력 사용 시마다 부패 막대가 채워집니다: 25%일 때 속도가 빨라지고, 50%일 때 지속적인 혼란, 75%일 때 촉수 형태의 변형, 100%일 때 캐릭터를 통제하지 못하게 됩니다 — 낮은 상태를 유지하는 것이 중요하며, 이것이 전투의 핵심입니다.",
+"* |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r 능력 사용 시마다 부패 막대가 채워집니다: 25%일 때 속도가 빨라지고, 50%일 때 지속적인 혼란, 75%일 때 촉수 형태의 변형,",
+"* 100%일 때 캐릭터를 통제하지 못하게 됩니다 — 낮은 상태를 유지하는 것이 중요하며, 이것이 전투의 핵심입니다.",
 "* |cff71d5ff|Hspell:-3161|h[Twilight Zealot]|h|r이 측 포털에서 나타납니다: DPS/CC를 사용하여 빠르게 처치하고, |cff71d5ff|Hspell:-3162|h[Depravity]|h|r는 광역 피해입니다.",
 "* 마법 지팡이가 |cff71d5ff|Hspell:-3156|h[Order of the Flame]|h|r와 |cff71d5ff|Hspell:-3158|h[Order of Shadow]|h|r를 번갈아 사용합니다: 불꽃을 사용하면 탱커가 레이드를 멀리 유지하고, |cff71d5ff|Hspell:-3211|h[Flare]|h|r로 인해; 그림자를 사용하면 약간 분산합니다.",
 "* |cff71d5ff|Hspell:-3155|h[Conversion]|h|r 플레이어를 포로로 만듭니다: 환호성을 방해하기 위해 스턴/중단을 사용합니다 (각 환호는 |cff71d5ff|Hspell:-3209|h[Perverted Devotion]|h|r로 쵸갈을 강화합니다).",
 "* 쵸갈의 |cff71d5ff|Hspell:-3160|h[Summonings]|h|r은 잔해를 생성하며, 이 잔해에서 |cff71d5ff|Hspell:-3216|h[Old God Blood]|h|r이 생겨납니다 — 레이드의 경로에서 멀리 처치합니다.",
-"* 2단계: 25%: |cff71d5ff|Hspell:-3218|h[Old God Corruption]|h|r가 방 전체에 촉수를 채웁니다 — 영웅/욕망으로 최대한 DPS를 사용하고, |cff71d5ff|Hspell:-3220|h[Darkened Creations]|h|r을 주의합니다: 75%의 치유 감소를 하는 |cff71d5ff|Hspell:-3221|h[Debilitating Beam]|h|r이 있습니다 — 표시된 플레이어를 분리합니다."
+"* 2단계: 25%: |cff71d5ff|Hspell:-3218|h[Old God Corruption]|h|r가 방 전체에 촉수를 채웁니다 — 영웅/욕망으로 최대한 DPS를 사용하고,",
+"* |cff71d5ff|Hspell:-3220|h[Darkened Creations]|h|r을 주의합니다: 75%의 치유 감소를 하는 |cff71d5ff|Hspell:-3221|h[Debilitating Beam]|h|r이 있습니다 — 표시된 플레이어를 분리합니다."
 };
 
 -- [editor web 2026-10-16] Importada de EN (SIN nombre oficial: EN provisional); tácticas pendientes --
@@ -464,10 +496,12 @@ pack["44600"] = { "할푸스 웜브레이커",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["45213"] = { "시네스트라",
-"* 25 heroic only. STAGE 1 (until 30%): 그녀는 날아다니며, 아래에서 타는 것이 필요; |cff71d5ff|Hspell:-3229|h[Twilight Slicers]|h|r 구체가 공중에서 플레이어를 추격합니다: 표시된 구체는 멀리 도망가고, 구체가 죽으면 아무도 앞에 서 있지 않습니다 (|cff71d5ff|Hspell:-3230|h[Twilight Blast]|h|r).",
+"* 25 heroic only. STAGE 1 (until 30%): 그녀는 날아다니며, 아래에서 타는 것이 필요; |cff71d5ff|Hspell:-3229|h[Twilight Slicers]|h|r 구체가 공중에서 플레이어를 추격합니다: 표시된 구체는 멀리 도망가고,",
+"* 구체가 죽으면 아무도 앞에 서 있지 않습니다 (|cff71d5ff|Hspell:-3230|h[Twilight Blast]|h|r).",
 "* The |cff71d5ff|Hspell:-3227|h[Wrack]|h|r lands on a player with growing damage and will JUMP to another nearby player when its time runs out: the marked one separates from the raid and the healers carry it to the limit.",
 "* The |cff71d5ff|Hspell:-3231|h[Twilight Whelps]|h|r drop with their |cff71d5ff|Hspell:-3232|h[Twilight Spit]|h|r on a player: one group kites them to the back and kills them fast, without stepping on the |cff71d5ff|Hspell:-3233|h[Twilight Essence]|h|r pools.",
-"* STAGE 2 (at 30%): Calen 시작하여, |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r는 매 윈도우마다 |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r의 완전한 피해를 입은 후 노출됩니다; |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r가 도착하고, 그들의 |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r가 중단됩니다 ( |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r는 긴 CC에 대한 보상), 그리고 |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r는 |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r를 사용하여 공격합니다.",
+"* STAGE 2 (at 30%): Calen 시작하여, |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r는 매 윈도우마다 |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r의 완전한 피해를 입은 후 노출됩니다;",
+"* |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r가 도착하고, 그들의 |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r가 중단됩니다 ( |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r는 긴 CC에 대한 보상), 그리고 |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r는 |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r를 사용하여 공격합니다.",
 "* 3단계 (계란 죽음): |cff71d5ff|Hspell:-3246|h[Essence of the Red]|h|r 버프는 레이드와 전체 DPS에게 마무리 공격을 가능하게 합니다."
 };
 
@@ -597,7 +631,8 @@ pack["45870"] = { "안샬",
 "세 명 모두를 1분 차이 내로 처치해야 하며, 그렇지 않으면 부활합니다.",
 "* 보스들은 에너지 막이 있으며, 이 막이 가득 차면 (90%에 도달하면) 특별 능력을 사용합니다. 막이 80%에 도달하는 시점에 플랫폼 이동을 해야 합니다.",
 "전략:",
-"* 4개의 그룹: 1번째: 1명의 탱커, 1명의 힐러, 1명의 DPS [안샬]; 2번째: 1명의 탱커, 1명의 힐러 (선호하는 것은 홀리 팔라딘, 왜냐하면 그들은 자신의 디버프를 제거할 수 있기 때문); 3번째: 1명의 DPS, 1명의 힐러 [로하쉬]; 4번째: 3명의 DPS로 구성된 이동 그룹",
+"* 4개의 그룹: 1번째: 1명의 탱커, 1명의 힐러, 1명의 DPS [안샬]; 2번째: 1명의 탱커, 1명의 힐러 (선호하는 것은 홀리 팔라딘, 왜냐하면 그들은 자신의 디버프를 제거할 수 있기 때문);",
+"* 3번째: 1명의 DPS, 1명의 힐러 [로하쉬]; 4번째: 3명의 DPS로 구성된 이동 그룹",
 "* 세 명의 보스 모두에게 DPS를 최적화하여 동시에 처치",
 "* 안샬의 플랫폼: 주기적으로 |cff71d5ff|Hspell:86205|h[Soothing Breeze]|h|r를 사용하여 안샬과 그의 동료(크리퍼)를 치유하고, 레이드를 무력화합니다.",
 "* 그는 |cff71d5ff|Hspell:85422|h[Nurture]|h|r를 사용하여 크리퍼를 소환하고, 이 크리퍼들은 순환적으로 |cff71d5ff|Hspell:93121|h[Toxic Spores]|h|r를 사용합니다.",
@@ -624,7 +659,8 @@ pack["45872"] = { "로하시",
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["46753"] = { "알아키르",
 "* STAGE 1 (until 80%): |cff71d5ff|Hspell:-3022|h[Wind Burst]|h|r와 |cff71d5ff|Hspell:-3023|h[Squall Line]|h|r는 범위 공격을 하며, |cff71d5ff|Hspell:-3024|h[Ice Storms]|h|r는 바닥을 따라 이동(회피)하고, |cff71d5ff|Hspell:-3025|h[Lightning Strike]|h|r는 표시된 대상에게 피해를 줍니다.",
-"* STAGE 2: |cff71d5ff|Hspell:-3032|h[Acid Rain]|h|r는 시간이 지남에 따라 계속 성장(최대 DPS로 시간을 끌지 않음)하고, |cff71d5ff|Hspell:-3033|h[Stormlings]|h|r는 살아남아야 합니다: 누군가가 하나를 처치하면, |cff71d5ff|Hspell:-3034|h[Feedback]|h|r는 Al'Akir에게 버프를 제공합니다.",
+"* STAGE 2: |cff71d5ff|Hspell:-3032|h[Acid Rain]|h|r는 시간이 지남에 따라 계속 성장(최대 DPS로 시간을 끌지 않음)하고, |cff71d5ff|Hspell:-3033|h[Stormlings]|h|r는 살아남아야 합니다: 누군가가 하나를 처치하면,",
+"* |cff71d5ff|Hspell:-3034|h[Feedback]|h|r는 Al'Akir에게 버프를 제공합니다.",
 "* STAGE 3 (at 25%): 플랫폼이 파괴되고, 모두 |cff71d5ff|Hspell:-3037|h[Eye of the Storm]|h|r를 사용하여 날아갑니다: 최대 DPS; |cff71d5ff|Hspell:-3039|h[Lightning Rod]|h|r 표시된 대상이 움직이고, |cff71d5ff|Hspell:-3040|h[Lightning Clouds]|h|r는 회피해야 합니다."
 };
 
@@ -647,7 +683,8 @@ pack["47901"] = { "데몬 컨테인먼트 유닛",
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52363"] = { "오큐타르",
 "* Nobody crosses his front: the |cff71d5ff|Hspell:-2606|h[Searing Shadows]|h|r is a cone in front of him (melee go behind).",
-"* |cff71d5ff|Hspell:-2607|h[Eyes of Occu'thar]|h|r는 모든 플레이어를 표적으로 삼습니다: 10초마다 각 눈이 호스트(|cff71d5ff|Hspell:-2609|h[Occu'thar's Destruction]|h|r)를 통과하고 죽게 만듭니다. 따라서 눈이 빠르게 파괴되고 |cff71d5ff|Hspell:-2608|h[Gaze of Occu'thar]|h|r는 회피됩니다.",
+"* |cff71d5ff|Hspell:-2607|h[Eyes of Occu'thar]|h|r는 모든 플레이어를 표적으로 삼습니다: 10초마다 각 눈이 호스트(|cff71d5ff|Hspell:-2609|h[Occu'thar's Destruction]|h|r)를 통과하고 죽게 만듭니다.",
+"* 따라서 눈이 빠르게 파괴되고 |cff71d5ff|Hspell:-2608|h[Gaze of Occu'thar]|h|r는 회피됩니다.",
 "* |cff71d5ff|Hspell:-2605|h[Focused Fire]|h|r는 플레이어 아래에 있는 바닥에 있는 불 덩어리입니다: 해당 플레이어가 움직입니다."
 };
 
@@ -731,11 +768,13 @@ pack["52286"] = { "우슐레이",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52409"] = { "라그나로스",
-"* 1단계: 각 |cff71d5ff|Hspell:-2631|h[라바 웨이브]|h|r가 생성되는 |cff71d5ff|Hspell:-2630|h[설퓨라스 스매시]|h|r를 한쪽으로 피하고, |cff71d5ff|Hspell:-2634|h[마그마 트랩]|h|r을 한 번씩 모두가 최대 HP 상태일 때 터뜨립니다 (|cff71d5ff|Hspell:-2635|h[마그마 트랩 폭발]|h|r은 모두에게 피해를 줍니다).",
+"* 1단계: 각 |cff71d5ff|Hspell:-2631|h[라바 웨이브]|h|r가 생성되는 |cff71d5ff|Hspell:-2630|h[설퓨라스 스매시]|h|r를 한쪽으로 피하고,",
+"* |cff71d5ff|Hspell:-2634|h[마그마 트랩]|h|r을 한 번씩 모두가 최대 HP 상태일 때 터뜨립니다 (|cff71d5ff|Hspell:-2635|h[마그마 트랩 폭발]|h|r은 모두에게 피해를 줍니다).",
 "* In the INTERMISSION the |cff71d5ff|Hspell:-2637|h[Sons of Flame]|h|r chase the marked one, who runs far from the raid while they take full DPS; nobody crosses their path because of the final |cff71d5ff|Hspell:-2639|h[Supernova]|h|r.",
 "* STAGE 2: the |cff71d5ff|Hspell:-2643|h[Engulfing Flame]|h|r is the front cone (out), the |cff71d5ff|Hspell:-2644|h[World in Flames]|h|r burns whole sectors (nobody inside) and the |cff71d5ff|Hspell:-2645|h[Molten Seeds]|h|r blow up under the marked one (move far; the leftover |cff71d5ff|Hspell:-2647|h[Molten Elementals]|h|r get AoE'd down).",
 "* 3단계 (40%): |cff71d5ff|Hspell:-2661|h[라이빙 메테오]|h|r가 플레이어를 추격 (파티에서 멀리 벗어나; 지나가는 사람은 |cff71d5ff|Hspell:-2663|h[연료]|h|r를 제공)하고, |cff71d5ff|Hspell:-2658|h[엔글링 펌]|h|r와 |cff71d5ff|Hspell:-2659|h[월드 인 플레임]|h|r는 계속 공격합니다.",
-"* 하이퍼 (스테이지 4): 동료 (센시아, 함울, 말퓨리온)의 지원을 받으며, 완전한 데미지; 그의 |cff71d5ff|Hspell:-2680|h[슈퍼히트]|h|r, |cff71d5ff|Hspell:-2681|h[에너지 서플러스]|h|r (|cff71d5ff|Hspell:-2682|h[설퓨러스의 불꽃]|h|r) 및 |cff71d5ff|Hspell:-2683|h[드레드플레임]|h|r은 방을 공격합니다."
+"* 하이퍼 (스테이지 4): 동료 (센시아, 함울, 말퓨리온)의 지원을 받으며, 완전한 데미지; 그의 |cff71d5ff|Hspell:-2680|h[슈퍼히트]|h|r, |cff71d5ff|Hspell:-2681|h[에너지 서플러스]|h|r",
+"* (|cff71d5ff|Hspell:-2682|h[설퓨러스의 불꽃]|h|r) 및 |cff71d5ff|Hspell:-2683|h[드레드플레임]|h|r은 방을 공격합니다."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
@@ -748,15 +787,18 @@ pack["52498"] = { "베스틸락",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52530"] = { "알리스라조르",
-"* 1단계: 그녀는 날아다니며, 파티는 아래에서 싸웁니다: 2명의 플레이어가 |cff71d5ff|Hspell:-2828|h[Molten Feathers]|h|r (3명은 |cff71d5ff|Hspell:-2829|h[Wings of Flame]|h|r를 사용하여 날아다니고 위에서 도움을 줍니다), |cff71d5ff|Hspell:-2836|h[Voracious Hatchlings]|h|r는 분리하여 탱킹 ( |cff71d5ff|Hspell:-2843|h[Plump Lava Worms]|h|r로 먹이 공급)하고, 2명의 |cff71d5ff|Hspell:-2834|h[Blazing Talon Initiates]|h|r는 빠르게 죽습니다 (|cff71d5ff|Hspell:-3335|h[Blazing Shield]|h|r 사용, 최대 DPS).",
+"* 1단계: 그녀는 날아다니며, 파티는 아래에서 싸웁니다: 2명의 플레이어가 |cff71d5ff|Hspell:-2828|h[Molten Feathers]|h|r (3명은 |cff71d5ff|Hspell:-2829|h[Wings of Flame]|h|r를 사용하여 날아다니고 위에서 도움을",
+"* 줍니다), |cff71d5ff|Hspell:-2836|h[Voracious Hatchlings]|h|r는 분리하여 탱킹 ( |cff71d5ff|Hspell:-2843|h[Plump Lava Worms]|h|r로 먹이 공급)하고, 2명의 |cff71d5ff|Hspell:-2834|h[Blazing Talon Initiates]|h|r는 빠르게 죽습니다 (|cff71d5ff|Hspell:-3335|h[Blazing Shield]|h|r 사용, 최대 DPS).",
 "* 1단계의 끝에 |cff71d5ff|Hspell:-2845|h[Herald of the Burning End]|h|r가 나타납니다: 그의 |cff71d5ff|Hspell:-2846|h[Cataclysm]|h|r는 |cff71d5ff|Hspell:-2847|h[Molten Meteor]|h|r를 소환합니다 (착륙하기 전에 최대 DPS).",
 "* 2단계: 그녀는 |cff71d5ff|Hspell:-2849|h[Fiery Vortex]|h|r에 진입합니다 (제동): 쾌활/영웅주의 상태에서 최대 DPS; 날아다니는 플레이어는 |cff71d5ff|Hspell:-2850|h[Fiery Tornadoes]|h|r를 피하고, 아래에 있는 플레이어는 |cff71d5ff|Hspell:-3332|h[Harsh Winds]|h|r를 피합니다.",
-"* 3단계 (힘이 소진될 때): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r를 사용하고 |cff71d5ff|Hspell:-2853|h[Essence of the Green]|h|r (모두를 위한 비행) 및 회복 전 최대 DPS, 4단계에 도달하면 완전히 재생됩니다 (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) 및 반복: 덜 반복할수록 좋습니다."
+"* 3단계 (힘이 소진될 때): |cff71d5ff|Hspell:-2852|h[Burnout]|h|r를 사용하고 |cff71d5ff|Hspell:-2853|h[Essence of the Green]|h|r (모두를 위한 비행) 및 회복 전 최대 DPS,",
+"* 4단계에 도달하면 완전히 재생됩니다 (|cff71d5ff|Hspell:-2858|h[Blazing Buffet]|h|r) 및 반복: 덜 반복할수록 좋습니다."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52558"] = { "군주 라이올리스",
-"* 1단계 (25%까지): 그는 탱킹 대상이 아니며, 방향을 전환해야 합니다: 레이드가 그의 왼쪽 또는 오른쪽 발을 공격하여 그를 회전시키고, |cff71d5ff|Hspell:-2530|h[마그마]|h|r와 큰 |cff71d5ff|Hspell:-2534|h[화산]|h|r(작은 |cff71d5ff|Hspell:-2535|h[동굴]|h|r는 DPS에 의해 파괴됩니다).",
+"* 1단계 (25%까지): 그는 탱킹 대상이 아니며, 방향을 전환해야 합니다: 레이드가 그의 왼쪽 또는 오른쪽 발을 공격하여 그를 회전시키고, |cff71d5ff|Hspell:-2530|h[마그마]|h|r와 큰",
+"* |cff71d5ff|Hspell:-2534|h[화산]|h|r(작은 |cff71d5ff|Hspell:-2535|h[동굴]|h|r는 DPS에 의해 파괴됩니다).",
 "* 그의 |cff71d5ff|Hspell:-2527|h[흑요석 갑옷]|h|r은 피해를 줄이는 층을 생성합니다: 피해를 주면서 닳도록 합니다; 각 화산 |cff71d5ff|Hspell:-2531|h[조각]|h|r과 |cff71d5ff|Hspell:-2532|h[불꽃]|h|r이 생성되고 |cff71d5ff|Hspell:-2533|h[악마의 분노]|h|r을 얻으므로 빠르게 죽입니다.",
 "* 그의 |cff71d5ff|Hspell:-2528|h[충격 발]|h|r은 때때로 모든 사람에게 피해를 줍니다: 주기적인 치유.",
 "* 2단계 (25%): 방향 전환이 끝나고 |cff71d5ff|Hspell:-2538|h[사로화]|h|r은 모든 사람에게 피해를 줍니다: 쾌활/영웅 상태로, |cff71d5ff|Hspell:-2539|h[폭발하는 불꽃]|h|r을 피합니다."
@@ -766,7 +808,8 @@ pack["52558"] = { "군주 라이올리스",
 pack["52571"] = { "청지기 스태그헬름",
 "* Every |cff71d5ff|Hspell:-2912|h[Shapeshift]|h|r rules: in |cff71d5ff|Hspell:-2913|h[cat form]|h|r he leaps |cff71d5ff|Hspell:-2914|h[Leaping Flames]|h|r after the target (leaving fire trails on the floor) and in |cff71d5ff|Hspell:-2918|h[scorpion form]|h|r the |cff71d5ff|Hspell:-2919|h[Flame Scythe]|h|r punishes whoever is hitting him (the melee eats it with heals).",
 "* The |cff71d5ff|Hspell:-2916|h[Adrenaline]|h|r builds with every repeated cast: the longer the fight drags the more it hurts, so full DPS.",
-"* 전투 중, 그는 |cff71d5ff|Hspell:-2922|h[나이트 엘프 형태]|h|r로 근접 공격을 하고, |cff71d5ff|Hspell:-2923|h[불타는 사이클론]|h|r(넓게 퍼지는) 공격으로 상대를 제압한 후, |cff71d5ff|Hspell:-2924|h[화염 씨앗]|h|r을 표시된 대상 아래에 던져 (폭발 전에 멀리 이동) 그리고, 추격하는 |cff71d5ff|Hspell:-2925|h[불타는 구체]|h|r(이를 피하여) 공격을 회피합니다."
+"* 전투 중, 그는 |cff71d5ff|Hspell:-2922|h[나이트 엘프 형태]|h|r로 근접 공격을 하고, |cff71d5ff|Hspell:-2923|h[불타는 사이클론]|h|r(넓게 퍼지는) 공격으로 상대를 제압한 후,",
+"* |cff71d5ff|Hspell:-2924|h[화염 씨앗]|h|r을 표시된 대상 아래에 던져 (폭발 전에 멀리 이동) 그리고, 추격하는 |cff71d5ff|Hspell:-2925|h[불타는 구체]|h|r(이를 피하여) 공격을 회피합니다."
 };
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
@@ -779,10 +822,12 @@ pack["53494"] = { "발레록",
 
 -- [editor web 2026-10-16] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["53691"] = { "샤녹스",
-"* 두 명의 탱커 역할: 한 명은 |cff71d5ff|Hspell:-2581|h[Riplimb]|h|r를 사용하고, 다른 한 명은 |cff71d5ff|Hspell:-2583|h[Rageface]|h|r를 사용하며, 샨녹으로부터 멀리 떨어져 있어야 합니다. 왜냐하면 첫 번째 개를 처치하면 그는 |cff71d5ff|Hspell:-2580|h[Frenzy]|h|r 상태가 되기 때문입니다.",
+"* 두 명의 탱커 역할: 한 명은 |cff71d5ff|Hspell:-2581|h[Riplimb]|h|r를 사용하고, 다른 한 명은 |cff71d5ff|Hspell:-2583|h[Rageface]|h|r를 사용하며, 샨녹으로부터 멀리 떨어져 있어야 합니다.",
+"* 왜냐하면 첫 번째 개를 처치하면 그는 |cff71d5ff|Hspell:-2580|h[Frenzy]|h|r 상태가 되기 때문입니다.",
 "* Rageface 먼저 죽여야 합니다: 그의 |cff71d5ff|Hspell:-2584|h[Face Rage]|h|r가 표시된 대상(그를 먼저 처치하기 위해)을 먹어치웁니다; 그런 다음 Riplimb, 그리고 마지막으로 Shannox.",
 "* Shannox's |cff71d5ff|Hspell:-2577|h[Arcing Slash]|h|r leaves the |cff71d5ff|Hspell:-2578|h[Jagged Tear]|h|r (heavy bleed on the tank): the healer covers it; with the |cff71d5ff|Hspell:-2579|h[Hurl Spear]|h|r Riplimb runs to fetch it (the tanks use it to reposition).",
-"* 그의 |cff71d5ff|Hspell:-2575|h[화염 함정]|h|r과 |cff71d5ff|Hspell:-2576|h[결정 감옥 함정]|h|r은 개들 근처에 떨어집니다: 가까운 사람은 움직여서 피해야 합니다 (잡히면 치명적, 특히 영웅 난이도), 그리고 바닥의 |cff71d5ff|Hspell:-2928|h[마그마 균열]|h|r은 피해야 합니다."
+"* 그의 |cff71d5ff|Hspell:-2575|h[화염 함정]|h|r과 |cff71d5ff|Hspell:-2576|h[결정 감옥 함정]|h|r은 개들 근처에 떨어집니다: 가까운 사람은 움직여서 피해야 합니다 (잡히면 치명적, 특히 영웅 난이도),",
+"* 그리고 바닥의 |cff71d5ff|Hspell:-2928|h[마그마 균열]|h|r은 피해야 합니다."
 };
 
 -- El Fin de los Tiempos : Zona 938 --

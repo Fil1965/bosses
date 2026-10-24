@@ -315,22 +315,27 @@ pack["43438"] = { "克伯鲁斯",
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41270"] = { "奈法利安",
 "* 奈法里复活奥尼克萨 (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): 如果他们距离小于 50 米，|cff71d5ff|Hspell:-3278|h[死亡之翼的后裔]|h|r 会使他们的攻击速度翻倍，因此两只龙分别由坦克控制。",
-"* STAGE 1: kill Onyxia first; her |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r builds over time and with every |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r from Nefarian, and a full |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r blasts the room; Nefarian summons |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r before landing and applies |cff71d5ff|Hspell:-3295|h[Dominion]|h|r on a player (heal their |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, do not damage them).",
-"* 2 阶段（奥尼克西亚死亡）：地面充满熔岩，3 个平台剩余，每个平台 |cff71d5ff|Hspell:-3299|h[彩虹原型]|h|r：尽快杀死它们，因为它们的 |cff71d5ff|Hspell:-3300|h[爆裂之触]|h|r 伤害所有人，同时躲避 |cff71d5ff|Hspell:-3301|h[影焰冲击]|h|r 和 |cff71d5ff|Hspell:-3302|h[爆炸灰烬]|h|r，当他飞时。",
+"* STAGE 1: kill Onyxia first; her |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r builds over time and with every |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r from Nefarian, and a full |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r blasts the room;",
+"* Nefarian summons |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r before landing and applies |cff71d5ff|Hspell:-3295|h[Dominion]|h|r on a player (heal their |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, do not damage them).",
+"* 2 阶段（奥尼克西亚死亡）：地面充满熔岩，3 个平台剩余，每个平台 |cff71d5ff|Hspell:-3299|h[彩虹原型]|h|r：尽快杀死它们，因为它们的 |cff71d5ff|Hspell:-3300|h[爆裂之触]|h|r 伤害所有人，同时躲避",
+"* |cff71d5ff|Hspell:-3301|h[影焰冲击]|h|r 和 |cff71d5ff|Hspell:-3302|h[爆炸灰烬]|h|r，当他飞时。",
 "* 3 阶段：奈法里的领地，以及满额的 DPS，不要拖延（他的 |cff71d5ff|Hspell:-3305|h[影焰闪光]|h|r 增强，以及 |cff71d5ff|Hspell:-3306|h[骨战士]|h|r 随着 |cff71d5ff|Hspell:-3307|h[强化攻击]|h|r 重新复活）。"
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41376"] = { "奈法利安",
 "* 奈法里复活奥尼克萨 (|cff71d5ff|Hspell:-3277|h[Rise, Sister!]|h|r): 如果他们距离小于 50 米，|cff71d5ff|Hspell:-3278|h[死亡之翼的后裔]|h|r 会使他们的攻击速度翻倍，因此两只龙分别由坦克控制。",
-"* STAGE 1: kill Onyxia first; her |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r builds over time and with every |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r from Nefarian, and a full |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r blasts the room; Nefarian summons |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r before landing and applies |cff71d5ff|Hspell:-3295|h[Dominion]|h|r on a player (heal their |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, do not damage them).",
-"* 2 阶段（奥尼克西亚死亡）：地面充满熔岩，3 个平台剩余，每个平台 |cff71d5ff|Hspell:-3299|h[彩虹原型]|h|r：尽快杀死它们，因为它们的 |cff71d5ff|Hspell:-3300|h[爆裂之触]|h|r 伤害所有人，同时躲避 |cff71d5ff|Hspell:-3301|h[影焰冲击]|h|r 和 |cff71d5ff|Hspell:-3302|h[爆炸灰烬]|h|r，当他飞时。",
+"* STAGE 1: kill Onyxia first; her |cff71d5ff|Hspell:-3284|h[Electric Energy]|h|r builds over time and with every |cff71d5ff|Hspell:-3276|h[Electrocute]|h|r from Nefarian, and a full |cff71d5ff|Hspell:-3288|h[Electrical Overload]|h|r blasts the room;",
+"* Nefarian summons |cff71d5ff|Hspell:-3280|h[Bone Warriors]|h|r before landing and applies |cff71d5ff|Hspell:-3295|h[Dominion]|h|r on a player (heal their |cff71d5ff|Hspell:-3297|h[Stolen Power]|h|r, do not damage them).",
+"* 2 阶段（奥尼克西亚死亡）：地面充满熔岩，3 个平台剩余，每个平台 |cff71d5ff|Hspell:-3299|h[彩虹原型]|h|r：尽快杀死它们，因为它们的 |cff71d5ff|Hspell:-3300|h[爆裂之触]|h|r 伤害所有人，同时躲避",
+"* |cff71d5ff|Hspell:-3301|h[影焰冲击]|h|r 和 |cff71d5ff|Hspell:-3302|h[爆炸灰烬]|h|r，当他飞时。",
 "* 3 阶段：奈法里的领地，以及满额的 DPS，不要拖延（他的 |cff71d5ff|Hspell:-3305|h[影焰闪光]|h|r 增强，以及 |cff71d5ff|Hspell:-3306|h[骨战士]|h|r 随着 |cff71d5ff|Hspell:-3307|h[强化攻击]|h|r 重新复活）。"
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["41378"] = { "马洛拉克",
-"* He pours vials into the cauldron and the color rules: with the |cff71d5ff|Hspell:-2935|h[Red Vial]|h|r he casts |cff71d5ff|Hspell:-2936|h[Consuming Flames]|h|r on a target and the |cff71d5ff|Hspell:-2937|h[Scorching Blast]|h|r splits among whoever is nearby (raid stacked); with the |cff71d5ff|Hspell:-2938|h[Blue Vial]|h|r the |cff71d5ff|Hspell:-2939|h[Biting Chill]|h|r hits whoever is close (raid stacked) and the |cff71d5ff|Hspell:-2940|h[Flash Freeze]|h|r traps players; with the |cff71d5ff|Hspell:-2941|h[Green Vial]|h|r the |cff71d5ff|Hspell:-2942|h[Debilitating Slime]|h|r makes everything take more damage (use it: full DPS).",
+"* He pours vials into the cauldron and the color rules: with the |cff71d5ff|Hspell:-2935|h[Red Vial]|h|r he casts |cff71d5ff|Hspell:-2936|h[Consuming Flames]|h|r on a target and the |cff71d5ff|Hspell:-2937|h[Scorching Blast]|h|r splits among whoever is nearby (raid",
+"* stacked); with the |cff71d5ff|Hspell:-2938|h[Blue Vial]|h|r the |cff71d5ff|Hspell:-2939|h[Biting Chill]|h|r hits whoever is close (raid stacked) and the |cff71d5ff|Hspell:-2940|h[Flash Freeze]|h|r traps players; with the |cff71d5ff|Hspell:-2941|h[Green Vial]|h|r the |cff71d5ff|Hspell:-2942|h[Debilitating Slime]|h|r makes everything take more damage (use it: full DPS).",
 "* 每次他释放的药剂 |cff71d5ff|Hspell:-2931|h[Aberrations]|h|r：它们会分开杀死，因为它们通过 |cff71d5ff|Hspell:-2933|h[Growth Catalyst]|h|r相互强化。",
 "* 使用 |cff71d5ff|Hspell:-2943|h[黑暗魔法药水]|h|r（英雄难度），|cff71d5ff|Hspell:-2946|h[恶魔猪]|h|r会从水面浮出，并释放 |cff71d5ff|Hspell:-2947|h[黑暗污泥]|h|r，同时施放 |cff71d5ff|Hspell:-2945|h[吞噬之暗]|h|r：打断它。",
 "* 2 阶段 (25%): |cff71d5ff|Hspell:-2949|h[释放所有]|h|r (异形 + 2 个 |cff71d5ff|Hspell:-2953|h[优先目标]|h|r, 优先击杀)，同时躲避 |cff71d5ff|Hspell:-2950|h[熔岩喷射]|h|r, |cff71d5ff|Hspell:-2951|h[绝对零度]|h|r在远处爆炸，以及 |cff71d5ff|Hspell:-2952|h[酸性新星]|h|r形成持续伤害。"
@@ -358,7 +363,8 @@ pack["41570"] = { "熔喉",
 pack["42166"] = { "奥莫特防御系统",
 "* 四个傀儡轮流每次两个：只有主动的那个会被攻击，而其他那个会恢复。",
 "* 熔岩傀儡：|cff71d5ff|Hspell:-3264|h[焚烧安全措施]|h|r攻击整个房间（持续治疗）；|cff71d5ff|Hspell:-3265|h[获取目标]|h|r标记的玩家从|cff71d5ff|Hspell:-3266|h[火焰喷射器]|h|r的锥形中逃脱，并在英雄模式下承受|cff71d5ff|Hspell:-3267|h[包裹阴影]|h|r的治疗；他的|cff71d5ff|Hspell:-3268|h[屏障]|h|r会被伤害破坏。",
-"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
+"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且",
+"* 当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
 "* 电子傀儡：|cff71d5ff|Hspell:-3202|h[雷霆导体]|h|r标记的玩家应该移动（伤害附近的敌人）；保持|cff71d5ff|Hspell:-3203|h[电击]|h|r的范围，不要攻击他的|cff71d5ff|Hspell:-3204|h[不稳定护盾]|h|r(英雄模式：会触发|cff71d5ff|Hspell:-3205|h[阴影注入]|h|r)。",
 "* 毒液傀儡：|cff71d5ff|Hspell:-3269|h[化学炸弹]|h|r和它们|cff71d5ff|Hspell:-3270|h[化学云]|h|r(+50%内部受到的伤害：没人)以及他的|cff71d5ff|Hspell:-3271|h[毒液协议]|h|r会追逐炸弹，留下|cff71d5ff|Hspell:-3273|h[毒液坑]|h|r；他的|cff71d5ff|Hspell:-3274|h[毒液浸透的外壳]|h|r也会被单独放置（浸泡攻击者）。"
 };
@@ -367,7 +373,8 @@ pack["42166"] = { "奥莫特防御系统",
 pack["42178"] = { "奥莫特防御系统",
 "* 四个傀儡轮流每次两个：只有主动的那个会被攻击，而其他那个会恢复。",
 "* 熔岩傀儡：|cff71d5ff|Hspell:-3264|h[焚烧安全措施]|h|r攻击整个房间（持续治疗）；|cff71d5ff|Hspell:-3265|h[获取目标]|h|r标记的玩家从|cff71d5ff|Hspell:-3266|h[火焰喷射器]|h|r的锥形中逃脱，并在英雄模式下承受|cff71d5ff|Hspell:-3267|h[包裹阴影]|h|r的治疗；他的|cff71d5ff|Hspell:-3268|h[屏障]|h|r会被伤害破坏。",
-"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
+"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且",
+"* 当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
 "* 电子傀儡：|cff71d5ff|Hspell:-3202|h[雷霆导体]|h|r标记的玩家应该移动（伤害附近的敌人）；保持|cff71d5ff|Hspell:-3203|h[电击]|h|r的范围，不要攻击他的|cff71d5ff|Hspell:-3204|h[不稳定护盾]|h|r(英雄模式：会触发|cff71d5ff|Hspell:-3205|h[阴影注入]|h|r)。",
 "* 毒液傀儡：|cff71d5ff|Hspell:-3269|h[化学炸弹]|h|r和它们|cff71d5ff|Hspell:-3270|h[化学云]|h|r(+50%内部受到的伤害：没人)以及他的|cff71d5ff|Hspell:-3271|h[毒液协议]|h|r会追逐炸弹，留下|cff71d5ff|Hspell:-3273|h[毒液坑]|h|r；他的|cff71d5ff|Hspell:-3274|h[毒液浸透的外壳]|h|r也会被单独放置（浸泡攻击者）。"
 };
@@ -376,7 +383,8 @@ pack["42178"] = { "奥莫特防御系统",
 pack["42179"] = { "奥莫特防御系统",
 "* 四个傀儡轮流每次两个：只有主动的那个会被攻击，而其他那个会恢复。",
 "* 熔岩傀儡：|cff71d5ff|Hspell:-3264|h[焚烧安全措施]|h|r攻击整个房间（持续治疗）；|cff71d5ff|Hspell:-3265|h[获取目标]|h|r标记的玩家从|cff71d5ff|Hspell:-3266|h[火焰喷射器]|h|r的锥形中逃脱，并在英雄模式下承受|cff71d5ff|Hspell:-3267|h[包裹阴影]|h|r的治疗；他的|cff71d5ff|Hspell:-3268|h[屏障]|h|r会被伤害破坏。",
-"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
+"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且",
+"* 当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
 "* 电子傀儡：|cff71d5ff|Hspell:-3202|h[雷霆导体]|h|r标记的玩家应该移动（伤害附近的敌人）；保持|cff71d5ff|Hspell:-3203|h[电击]|h|r的范围，不要攻击他的|cff71d5ff|Hspell:-3204|h[不稳定护盾]|h|r(英雄模式：会触发|cff71d5ff|Hspell:-3205|h[阴影注入]|h|r)。",
 "* 毒液傀儡：|cff71d5ff|Hspell:-3269|h[化学炸弹]|h|r和它们|cff71d5ff|Hspell:-3270|h[化学云]|h|r(+50%内部受到的伤害：没人)以及他的|cff71d5ff|Hspell:-3271|h[毒液协议]|h|r会追逐炸弹，留下|cff71d5ff|Hspell:-3273|h[毒液坑]|h|r；他的|cff71d5ff|Hspell:-3274|h[毒液浸透的外壳]|h|r也会被单独放置（浸泡攻击者）。"
 };
@@ -385,7 +393,8 @@ pack["42179"] = { "奥莫特防御系统",
 pack["42180"] = { "奥莫特防御系统",
 "* 四个傀儡轮流每次两个：只有主动的那个会被攻击，而其他那个会恢复。",
 "* 熔岩傀儡：|cff71d5ff|Hspell:-3264|h[焚烧安全措施]|h|r攻击整个房间（持续治疗）；|cff71d5ff|Hspell:-3265|h[获取目标]|h|r标记的玩家从|cff71d5ff|Hspell:-3266|h[火焰喷射器]|h|r的锥形中逃脱，并在英雄模式下承受|cff71d5ff|Hspell:-3267|h[包裹阴影]|h|r的治疗；他的|cff71d5ff|Hspell:-3268|h[屏障]|h|r会被伤害破坏。",
-"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
+"* 魔法傀儡：|cff71d5ff|Hspell:-3195|h[能量生成器]|h|r会给站在上面的所有人（包括傀儡）提供增益，因此标记的玩家应该将它拉出队伍；|cff71d5ff|Hspell:-3196|h[魔法消灭]|h|r在可能的情况下会被中断，并且",
+"* 当|cff71d5ff|Hspell:-3197|h[能量转换]|h|r处于激活状态时，没有人会攻击护盾。",
 "* 电子傀儡：|cff71d5ff|Hspell:-3202|h[雷霆导体]|h|r标记的玩家应该移动（伤害附近的敌人）；保持|cff71d5ff|Hspell:-3203|h[电击]|h|r的范围，不要攻击他的|cff71d5ff|Hspell:-3204|h[不稳定护盾]|h|r(英雄模式：会触发|cff71d5ff|Hspell:-3205|h[阴影注入]|h|r)。",
 "* 毒液傀儡：|cff71d5ff|Hspell:-3269|h[化学炸弹]|h|r和它们|cff71d5ff|Hspell:-3270|h[化学云]|h|r(+50%内部受到的伤害：没人)以及他的|cff71d5ff|Hspell:-3271|h[毒液协议]|h|r会追逐炸弹，留下|cff71d5ff|Hspell:-3273|h[毒液坑]|h|r；他的|cff71d5ff|Hspell:-3274|h[毒液浸透的外壳]|h|r也会被单独放置（浸泡攻击者）。"
 };
@@ -403,7 +412,8 @@ pack["43296"] = { "奇美隆",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["43324"] = { "古加尔",
-"* |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r 每使用技能都会填充腐败条：达到25%时会加速，达到50%时会持续眩晕，达到75%时会产生触手状畸变，达到100%时会失去对角色的控制——保持腐败条低是关键，这是战斗的要点。",
+"* |cff71d5ff|Hspell:-3165|h[Corrupting Blood]|h|r 每使用技能都会填充腐败条：达到25%时会加速，达到50%时会持续眩晕，达到75%时会产生触手状畸变，达到100%时会失去对角色的控制——保持腐败条低是关键，这是战",
+"* 斗的要点。",
 "* 位于侧传送门中的 |cff71d5ff|Hspell:-3161|h[Twilight Zealot]|h|r 角色会从传送门中出现：优先进行 DPS/控制，并迅速击杀他们，他们的 |cff71d5ff|Hspell:-3162|h[Depravity]|h|r 技能会造成范围伤害。",
 "* 巨锤交替使用 |cff71d5ff|Hspell:-3156|h[火焰之军]|h|r 和 |cff71d5ff|Hspell:-3158|h[暗影之军]|h|r：使用火焰，坦克保持Boss远离公会，因为有 |cff71d5ff|Hspell:-3211|h[火焰]|h|r效果；使用暗影，分散开。",
 "* The |cff71d5ff|Hspell:-3155|h[Conversion]|h|r enslaves players: break the worship out with stuns/interrupts (every cheer buffs Cho'gall with |cff71d5ff|Hspell:-3209|h[Perverted Devotion]|h|r).",
@@ -467,7 +477,8 @@ pack["45213"] = { "希奈丝特拉",
 "* 仅限英雄模式。第一阶段（直到30%）：她会飞，需要从下方烧死；|cff71d5ff|Hspell:-3229|h[暮光刀刃]|h|r的球会追逐一名玩家：被标记的玩家会跑得非常远，当球死亡时，没有人站在它前面（|cff71d5ff|Hspell:-3230|h[暮光冲击]|h|r）。",
 "* The |cff71d5ff|Hspell:-3227|h[Wrack]|h|r lands on a player with growing damage and will JUMP to another nearby player when its time runs out: the marked one separates from the raid and the healers carry it to the limit.",
 "* The |cff71d5ff|Hspell:-3231|h[Twilight Whelps]|h|r drop with their |cff71d5ff|Hspell:-3232|h[Twilight Spit]|h|r on a player: one group kites them to the back and kills them fast, without stepping on the |cff71d5ff|Hspell:-3233|h[Twilight Essence]|h|r pools.",
-"* STAGE 2 (at 30%): Calen starts his duel and the |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r are exposed after each |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r full damage on the eggs in every window; the |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r arrive and their |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r is interrupted (the |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r punishes long CC), and the |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r sweep in with their |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r.",
+"* STAGE 2 (at 30%): Calen starts his duel and the |cff71d5ff|Hspell:-3238|h[Pulsing Twilight Eggs]|h|r are exposed after each |cff71d5ff|Hspell:-3308|h[Twilight Carapace]|h|r full damage on the eggs in every window;",
+"* the |cff71d5ff|Hspell:-3239|h[Twilight Spitecallers]|h|r arrive and their |cff71d5ff|Hspell:-3240|h[Unleash Essence]|h|r is interrupted (the |cff71d5ff|Hspell:-3241|h[Indomitable]|h|r punishes long CC), and the |cff71d5ff|Hspell:-3242|h[Twilight Drakes]|h|r sweep in with their |cff71d5ff|Hspell:-3243|h[Twilight Breath]|h|r.",
 "* 3 阶段（蛋死亡）：|cff71d5ff|Hspell:-3246|h[红色精华]|h|r 效果增强，使全体 DPS 能够完成。"
 };
 
@@ -748,10 +759,12 @@ pack["52498"] = { "贝丝缇拉克",
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --
 pack["52530"] = { "奥利瑟拉佐尔",
-"* 1 阶段：她飞翔，公会成员在下方战斗：两名玩家收集 |cff71d5ff|Hspell:-2828|h[熔岩羽毛]|h|r（三人给予 |cff71d5ff|Hspell:-2829|h[火焰之翼]|h|r 以协助飞行和在高处），|cff71d5ff|Hspell:-2836|h[贪婪幼虫]|h|r被分开承受（喂食 |cff71d5ff|Hspell:-2843|h[肥胖熔岩蠕虫]|h|r），而两名 |cff71d5ff|Hspell:-2834|h[炽热爪尖初级]|h|r迅速死亡（使用 |cff71d5ff|Hspell:-3335|h[炽热护盾]|h|r：全输出）。",
+"* 1 阶段：她飞翔，公会成员在下方战斗：两名玩家收集 |cff71d5ff|Hspell:-2828|h[熔岩羽毛]|h|r（三人给予 |cff71d5ff|Hspell:-2829|h[火焰之翼]|h|r",
+"* 以协助飞行和在高处），|cff71d5ff|Hspell:-2836|h[贪婪幼虫]|h|r被分开承受（喂食 |cff71d5ff|Hspell:-2843|h[肥胖熔岩蠕虫]|h|r），而两名 |cff71d5ff|Hspell:-2834|h[炽热爪尖初级]|h|r迅速死亡（使用 |cff71d5ff|Hspell:-3335|h[炽热护盾]|h|r：全输出）。",
 "* 阶段结束时，|cff71d5ff|Hspell:-2845|h[燃烧之末的先锋]|h|r出现：他的 |cff71d5ff|Hspell:-2846|h[灾难]|h|r召唤 |cff71d5ff|Hspell:-2847|h[熔岩陨石]|h|r（在着陆前全输出）。",
 "* 2 阶段：她进入 |cff71d5ff|Hspell:-2849|h[炽热漩涡]|h|r（被束缚）：全输出，利用狂怒/英勇；飞行者躲避 |cff71d5ff|Hspell:-2850|h[炽热龙卷]|h|r，而下方则躲避 |cff71d5ff|Hspell:-3332|h[狂风]|h|r。",
-"* 3 阶段（当她的力量耗尽时）：|cff71d5ff|Hspell:-2852|h[耗尽]|h|r，使用 |cff71d5ff|Hspell:-2853|h[翡翠精华]|h|r（所有人都飞行），并在恢复前全输出；如果战斗达到 4 阶段，她将完全恢复力量 (|cff71d5ff|Hspell:-2858|h[炽热盛宴]|h|r)，循环将重复：循环次数越少越好。"
+"* 3 阶段（当她的力量耗尽时）：|cff71d5ff|Hspell:-2852|h[耗尽]|h|r，使用 |cff71d5ff|Hspell:-2853|h[翡翠精华]|h|r（所有人都飞行），并在恢复前全输出；如果战斗达到 4 阶段，她将完全恢复力量",
+"* (|cff71d5ff|Hspell:-2858|h[炽热盛宴]|h|r)，循环将重复：循环次数越少越好。"
 };
 
 -- [editor web 2026-10-14] Importada de EN (nombre del diario de Blizzard); tácticas pendientes --

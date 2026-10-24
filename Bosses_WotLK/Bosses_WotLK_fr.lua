@@ -71,7 +71,8 @@ pack["16060"] = { "Gothik le Moissonneur",
 
 pack["16063"] = { "Sir Zeliek",
 "* Sa Marque de Zeliek (|cff71d5ff|Hspell:28835|h[Marque de Zeliek]|h|r) tombe toutes les ~15 s à 45 m de son coin et frappe plus fort à chaque recharge : 650, 1950, 4550, 9750, 16250 - celui qui l'endure tourne avant que les charges pèsent trop.",
-"* Sa Colère divine (|cff71d5ff|Hspell:28883|h[Colère divine]|h|r) rebondit entre les joueurs groupés et GROSSIT à chaque saut : la mêlée entre juste après un cast, le distant reste à la portée MAXIMUM et personne ne tend le pont entre mêlée et distance, sinon la chaîne balaie la bande.",
+"* Sa Colère divine (|cff71d5ff|Hspell:28883|h[Colère divine]|h|r) rebondit entre les joueurs groupés et GROSSIT à chaque saut : la mêlée entre juste après un cast, le distant reste à la portée MAXIMUM et personne ne tend le pont entre mêlée et distance,",
+"* sinon la chaîne balaie la bande.",
 "* Fixé au fond à droite et ne bouge pas : sans personne à portée il arrose la bande de Condamnation, donc un soigneur et un distant l'endurent dès le départ, assez écartés pour n'attraper que la marque de SON cavalier.",
 "* Il est le dernier cavalier à tomber, juste après Dame Blaumeux.",
 };

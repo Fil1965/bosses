@@ -117,6 +117,7 @@ async function loadPacks() {
 		"Bosses_Vanilla", "Bosses_TBC", "Bosses_WotLK", "Bosses_Cata", "Bosses_MoP",
 		"Bosses_WoD", "Bosses_Legion", "Bosses_BfA", "Bosses_Shadowlands",
 		"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight",
+		"Bosses_Forever",
 	];
 	const NOMBRE_EXP = {
 		Bosses_Vanilla: "World of Warcraft (Base) · 2004",
@@ -131,6 +132,7 @@ async function loadPacks() {
 		Bosses_Dragonflight: "Dragonflight · 2022",
 		Bosses_TWW: "The War Within · 2024",
 		Bosses_Midnight: "Midnight",
+		Bosses_Forever: "World of Warcraft (Base) · 2026",
 	};
 	state.packs = (r.packs ?? []).slice().sort((a, b) => {
 		const ia = ORDEN_EXP.indexOf(a.name), ib = ORDEN_EXP.indexOf(b.name);
@@ -140,10 +142,31 @@ async function loadPacks() {
 		return ia - ib;
 	});
 	const sel = $("packSel");
-	sel.innerHTML = state.packs.map((p) => {
-		const n = NOMBRE_EXP[p.name] ?? p.name.replace(/^Bosses_/, "");
-		return `<option value="${p.name}">${n} (${p.langs.es?.entries ?? 0} es)</option>`;
-	}).join("");
+	// NIVEL SUPERIOR del selector: la LÍNEA de WoW (la de retail/Classic y
+	// la de WoW Forever). Cada línea es un optgroup y dentro van sus packs
+	// (en orden de lanzamiento). Si el servidor no manda líneas (servidor
+	// viejo), la lista se deja plana como estaba.
+	const lineas = (r.lineas ?? []).length ? r.lineas : [{ id: "principal", label: "" }];
+	const porLinea = new Map();
+	for (const l of lineas) porLinea.set(l.id, []);
+	for (const p of state.packs) {
+		const id = lineas.some((l) => l.id === p.linea) ? p.linea : lineas[0].id;
+		if (!porLinea.has(id)) porLinea.set(id, []);
+		porLinea.get(id).push(p);
+	}
+	const opciones = [];
+	for (const l of lineas) {
+		const packs = porLinea.get(l.id) ?? [];
+		if (!packs.length) continue;
+		const conGrupo = Boolean(l.label);
+		if (conGrupo) opciones.push(`<optgroup label="${l.label}">`);
+		for (const p of packs) {
+			const n = NOMBRE_EXP[p.name] ?? p.name.replace(/^Bosses_/, "");
+			opciones.push(`<option value="${p.name}">${n} (${p.langs.es?.entries ?? 0} es)</option>`);
+		}
+		if (conGrupo) opciones.push(`</optgroup>`);
+	}
+	sel.innerHTML = opciones.join("");
 	// CONSERVA el pack activo al recargar (el guardado y el alta de idioma
 	// llaman loadPacks; resetear al primero desincronizaba el estado y no
 	// se podía cargar otro jefe hasta cambiar de expansión y volver)
@@ -753,11 +776,12 @@ $("btnGuardar").onclick = async () => {
 	}
 	state.entryData = r.entry;
 	state.dirty = false; // guardado: se acaba de persistir lo que hay en pantalla
+	const troceo = r.partidas ? ` · ${r.partidas} línea(s) partidas por el límite del chat (240 al cable)` : "";
 	renderEditor();
-	$("estadoGuardado").textContent = `guardado ${r.created ? "(creado)" : ""}`;
+	$("estadoGuardado").textContent = `guardado ${r.created ? "(creado)" : ""}${troceo}`;
 	await loadPacks();
 	renderLangTabs();
-	toast(`Entrada ${e.id} guardada en ${state.lang.toUpperCase()} ✓`);
+	toast(`Entrada ${e.id} guardada en ${state.lang.toUpperCase()} ✓${r.partidas ? ` (${r.partidas} partida(s))` : ""}`);
 };
 
 // ------------------------------------------------------------ spell picker
