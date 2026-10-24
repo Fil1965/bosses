@@ -2,6 +2,9 @@
 
 All notable changes to Bosses are documented here.
 
+## [1.0.17] - 2026-10-24
+- Limite del chat del cliente montado en las cuatro capas (el cliente moderno RECHAZA los mensajes de más de 255 caracteres — «Chat message limits exceeded», ya no trunca como antes — y la viñeta de las estatuas de mimbre del Jinete Decapitado, 392 bytes al cable, moría entera en INSTANCE_CHAT): presupuesto de la casa de 240 bytes AL CABLE, el texto saneado medido en bytes UTF-8 (el cirílico pesa x2 y el CJK x3) — reparto previo de 1064 viñetas largas en 50 ficheros de los 10 packs y los 8 idiomas (776 por encima de 255) con script propio limite-chat.mjs (dry/check/aplicar), cortes por prioridad fin-de-frase/raya/espacio/corte duro anti-UTF-8 conservando sangría, coma y EOL; el core trocea al vuelo lo que no cabe (salida() por enviarAlCable() con goteo a 0,25 s: notas viejas en WTF y renombres de enlaces del cliente); el editor in-game marca en rojo por encima de 240 y avisa al insertar spell; el editor web trocea al guardar (partirPorLimiteChat), con backstop en validateText y puerta en conectar
+
 ## [1.0.16] - 2026-10-22
 - Pack Bosses_Forever completo: 222 jefes en 22 zonas a los 8 idiomas — los 24 jefes nuevos del cliente con tácticas EN desde las guías de beta (MmonsteR+1 / Wiki WoW Forever) y nombres oficiales de la localización DBM-Party-Forever; el catálogo clásico de Vanilla portado mecánicamente (180 entradas en 18 instancias) y las clásicas Deadmines (9) y Shadowfang Keep (8) escritas a mano — el coreano (ko) ya conectado en .toc y registrador (paridad 222 x 8)
 
