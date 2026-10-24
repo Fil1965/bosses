@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: Bosses - WoW Forever
+## Notes: Boss explanations for WoW Forever (Classic+) dungeons and raids (8 idiomas)
+## Notes-esES: Explicaciones de los jefes de WoW Forever (Classic+) (8 idiomas)
+## Author: Philippe Mingo pmingo AT gmail DOT com
+## Version: 1.0.16
+## IconTexture: Interface\Icons\INV_Misc_OgrePinata
+## Dependencies: Bosses
+Bosses_Forever_es.lua
+Bosses_Forever_en.lua
+Bosses_Forever_zh.lua
+Bosses_Forever_pt.lua
+Bosses_Forever_ru.lua
+Bosses_Forever_de.lua
+Bosses_Forever_fr.lua
+Bosses_Forever_ko.lua
+Bosses_Forever_enc.lua
+Bosses_Forever_zonas.lua
+Bosses_Forever.lua

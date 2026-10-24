@@ -1,17 +1,27 @@
 // scripts/update.mjs
 // Sincroniza los archivos del addon Bosses a la carpeta de AddOns de WoW.
+//
+// El CORE va a TODOS los clientes (es el mismo código para todos: el addon no
+// detecta el flavor). Los PACKS van solo al cliente de su línea:
+//   - retail/Classic: los packs de la línea principal (Vanilla → Midnight)
+//   - Forever (1.60.1): solo el pack Bosses_Forever. Los packs de retail NO
+//     declaran 16001 en su .toc → el cliente Forever los marca out-of-date y
+//     no los carga; por eso no se instalan en ese cliente (dejarían 12
+//     addons "desactualizados" en la lista).
+//
 // Uso: npm run update
 
-import { promises as fs } from "node:fs";
+import { promises as fs, existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SRC_DIR = path.resolve(__dirname, "..");
 const ADDON_NAME = "Bosses";
-const DEST_ROOT =
-  "C:\\Program Files (x86)\\World of Warcraft\\_retail_\\Interface\\AddOns";
-const DEST_DIR = path.join(DEST_ROOT, ADDON_NAME);
+// Raíz de la instalación de WoW. Se puede pointing con la variable de
+// entorno WOW_ROOT (pruebas en una carpeta falsa; por defecto la instalación
+// real, que en Windows suele pedir permisos de administrador).
+const WOW_ROOT = process.env.WOW_ROOT ?? "C:\\Program Files (x86)\\World of Warcraft";
 
 // Archivos que componen el addon (deben coincidir con package.json -> files)
 const ADDON_FILES = [
@@ -31,21 +41,33 @@ const ADDON_FILES = [
   "libs/LibDBIcon-1.0/LibDBIcon-1.0.lua",
 ];
 
-// Packs de datos que se copian como carpetas independientes a AddOns
-// (en orden cronológico de expansión, como los esqueletos de la casa)
-const ADDON_FOLDERS = [
-  "Bosses_Vanilla",
-  "Bosses_TBC",
-  "Bosses_WotLK",
-  "Bosses_Cata",
-  "Bosses_MoP",
-  "Bosses_WoD",
-  "Bosses_Legion",
-  "Bosses_BfA",
-  "Bosses_Shadowlands",
-  "Bosses_Dragonflight",
-  "Bosses_TWW",
-  "Bosses_Midnight",
+// Clientes destino y los packs de cada línea (en orden cronológico de
+// expansión, como los esqueletos de la casa).
+const LINEAS = [
+  {
+    id: "retail",
+    carpeta: "_retail_",
+    packs: [
+      "Bosses_Vanilla",
+      "Bosses_TBC",
+      "Bosses_WotLK",
+      "Bosses_Cata",
+      "Bosses_MoP",
+      "Bosses_WoD",
+      "Bosses_Legion",
+      "Bosses_BfA",
+      "Bosses_Shadowlands",
+      "Bosses_Dragonflight",
+      "Bosses_TWW",
+      "Bosses_Midnight",
+    ],
+  },
+  {
+    // WoW Forever (rama Camelot / Classic+, cliente 1.60.1 → interfaz 16001).
+    id: "forever",
+    carpeta: "_forever_",
+    packs: ["Bosses_Forever"],
+  },
 ];
 
 async function readPackageVersion() {
@@ -61,17 +83,15 @@ async function cleanDestDir(dir) {
   await fs.mkdir(dir, { recursive: true });
 }
 
-async function copyFile(name) {
-  const src = path.join(SRC_DIR, name);
-  const dest = path.join(DEST_DIR, name);
+async function copyFile(src, dest) {
   try {
     await fs.mkdir(path.dirname(dest), { recursive: true });
     await fs.copyFile(src, dest);
-    console.log(`  ✓ ${name}`);
+    console.log(`  ✓ ${src.slice(SRC_DIR.length + 1)}`);
     return true;
   } catch (err) {
     if (err.code === "ENOENT") {
-      console.warn(`  ! No existe el archivo origen: ${name} (omitido)`);
+      console.warn(`  ! No existe el archivo origen: ${src.slice(SRC_DIR.length + 1)} (omitido)`);
       return false;
     }
     if (err.code === "EACCES" || err.code === "EPERM") {
@@ -84,29 +104,36 @@ async function copyFile(name) {
   }
 }
 
-async function main() {
-  const version = await readPackageVersion();
-  console.log(`Bosses v${version} -> ${DEST_DIR}\n`);
+async function instalarLinea(linea, version) {
+  const destRoot = path.join(WOW_ROOT, linea.carpeta, "Interface", "AddOns");
+  const destDir = path.join(destRoot, ADDON_NAME);
+
+  if (!existsSync(destRoot)) {
+    console.warn(`\n! Cliente ${linea.id} no encontrado en ${destRoot} — se omite.`);
+    return { ok: 0, fail: 0 };
+  }
+
+  console.log(`\n${ADDON_NAME} v${version} -> ${destDir}\n`);
 
   // Wipe completo del core: borra todo el contenido previo de la carpeta
-  await cleanDestDir(DEST_DIR);
+  await cleanDestDir(destDir);
 
   let ok = 0;
   let fail = 0;
   for (const file of ADDON_FILES) {
     try {
-      if (await copyFile(file)) ok++;
+      if (await copyFile(path.join(SRC_DIR, file), path.join(destDir, file))) ok++;
     } catch {
       fail++;
       break; // error fatal (permisos), detener
     }
   }
 
-  // Copiar los packs como carpetas independientes a AddOns.
-  // Wipe completo de cada carpeta destino antes de copiar: si un pack
-  // se retira del proyecto, no queda "desenganchado" en AddOns.
-  for (const folder of ADDON_FOLDERS) {
-    const destFolder = path.join(DEST_ROOT, folder);
+  // Copiar los packs de la línea como carpetas independientes a AddOns.
+  // Wipe completo de cada carpeta destino antes de copiar: si un pack se
+  // retira del proyecto, no queda "desenganchado" en AddOns.
+  for (const folder of linea.packs) {
+    const destFolder = path.join(destRoot, folder);
     const srcFolder = path.join(SRC_DIR, folder);
     try {
       const srcExists = await fs.stat(srcFolder).then(() => true, () => false);
@@ -129,23 +156,26 @@ async function main() {
     }
   }
 
-  // Carpeta del proyecto legado: el addon se renombró de "Boses" a
-  // "Bosses" (0.11.0). Las carpetas del addon antiguo en AddOns se
-  // retiran al hacer update: si quedaran, habría DOS addons cargados
-  // con los mismos lanzamientos automáticos.
+  // Carpeta del proyecto legado: el addon se renombró de "Boses" a "Bosses"
+  // (0.11.0). Las carpetas del addon antiguo en AddOns se retiran al hacer
+  // update: si quedaran, habría DOS addons cargados con los mismos
+  // lanzamientos automáticos. (Solo en retail: el proyecto legado nunca
+  // estuvo en el cliente Forever.)
   const LEGACY_FOLDERS = ["Boses", "Boses_Midnight", "Boses_Cata", "Boses_TWW"];
-
-  // Retirar las carpetas del proyecto antiguo (cada una avisa al borrarla).
-  for (const folder of LEGACY_FOLDERS) {
-    const legacyDir = path.join(DEST_ROOT, folder);
-    try {
-      const exists = await fs.stat(legacyDir).then(() => true, () => false);
-      if (exists) {
-        await fs.rm(legacyDir, { recursive: true, force: true });
-        console.log(`  ✓ ${folder}/ eliminada (carpeta del proyecto "Boses", renombrado a Bosses)`);
+  if (linea.id === "retail") {
+    for (const folder of LEGACY_FOLDERS) {
+      const legacyDir = path.join(destRoot, folder);
+      try {
+        const exists = await fs.stat(legacyDir).then(() => true, () => false);
+        if (exists) {
+          await fs.rm(legacyDir, { recursive: true, force: true });
+          console.log(`  ✓ ${folder}/ eliminada (carpeta del proyecto "Boses", renombrado a Bosses)`);
+        }
+      } catch (err) {
+        console.warn(
+          `  ! No se pudo retirar la carpeta antigua: ${legacyDir} (${err.code ?? err.message})`
+        );
       }
-    } catch (err) {
-      console.warn(`  ! No se pudo retirar la carpeta antigua: ${legacyDir} (${err.code ?? err.message})`);
     }
   }
 
@@ -153,11 +183,11 @@ async function main() {
   // pero NO se borran automáticamente (podrían ser packs externos de la
   // comunidad instalados a propósito). Borrarlas a mano si son residuo.
   try {
-    const managed = new Set([ADDON_NAME, ...ADDON_FOLDERS]);
-    for (const entry of await fs.readdir(DEST_ROOT, { withFileTypes: true })) {
+    const managed = new Set([ADDON_NAME, ...linea.packs]);
+    for (const entry of await fs.readdir(destRoot, { withFileTypes: true })) {
       if (entry.isDirectory() && /^Bos/i.test(entry.name) && !managed.has(entry.name)) {
         console.warn(
-          `  ! Carpeta huérfana (ya no se gestiona): ${path.join(DEST_ROOT, entry.name)} — borrar a mano si ya no se usa`
+          `  ! Carpeta huérfana (ya no se gestiona): ${path.join(destRoot, entry.name)} — borrar a mano si ya no se usa`
         );
       }
     }
@@ -165,9 +195,22 @@ async function main() {
     // Si AddOns no existe o no se puede listar, no bloquea el resto
   }
 
+  return { ok, fail };
+}
+
+async function main() {
+  const version = await readPackageVersion();
+  let ok = 0;
+  let fail = 0;
+  for (const linea of LINEAS) {
+    const r = await instalarLinea(linea, version);
+    ok += r.ok;
+    fail += r.fail;
+  }
+
   console.log(`\n${ok} archivo(s) copiado(s).`);
   if (fail > 0) {
-    console.error(`${fail} error(es). Revisa los mensajes anteriores.`);
+    console.error(`\n${fail} error(es). Revisa los mensajes anteriores.`);
     process.exit(1);
   }
   console.log("¡Addon actualizado correctamente!");

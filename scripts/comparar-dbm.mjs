@@ -5,9 +5,11 @@
 // igual que hace DBM con SetEncounterID/SetCreatureID.
 //
 // Mapeo carpeta → pack por nombre (una expansión → su pack, en orden
-// cronológico); las carpetas sin pack (WorldEvents, Brawlers, Party-Forever,
-// Challenges...) forman un pool global que se contrasta con todos los packs
-// por CID.
+// cronológico); las carpetas sin pack (WorldEvents, Brawlers, Challenges...)
+// forman un pool global que se contrasta con todos los packs por CID.
+// OJO: DBM-Party-Forever tiene pack propio (Bosses_Forever): es una línea
+// temporal aparte (cliente Forever 1.60.1), así que sus jefes NUNCA deben
+// caer en el pool global (contaminarían los packs de retail).
 //
 // Uso: npm run comparar-dbm
 import { readFileSync, readdirSync, existsSync } from "node:fs";
@@ -35,6 +37,7 @@ const PACKS = [
 	{ nombre: "Bosses_Dragonflight", patron: /dragonflight|dragonisles/i },
 	{ nombre: "Bosses_TWW", patron: /warwithin|khazalgar/i },
 	{ nombre: "Bosses_Midnight", patron: /midnight/i },
+	{ nombre: "Bosses_Forever", patron: /forever/i },
 ];
 
 // Recorre los .lua de un árbol de módulos DBM (ignora .toc y localizations)

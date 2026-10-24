@@ -43,7 +43,7 @@ const DBM = DBM_DOC;
 const NOMBRES = path.join(SRC, "_nombres");
 
 // Packs con datos a mano: se requieren --forzar para regenerarlos
-const PACKS_CON_DATOS = new Set(["Bosses_Cata", "Bosses_MoP", "Bosses_TWW", "Bosses_Midnight"]);
+const PACKS_CON_DATOS = new Set(["Bosses_Cata", "Bosses_MoP", "Bosses_TWW", "Bosses_Midnight", "Bosses_Forever"]);
 
 const TITULOS = {
 	Bosses_Vanilla: "Vanilla (Classic)",
@@ -58,6 +58,7 @@ const TITULOS = {
 	Bosses_Dragonflight: "Dragonflight",
 	Bosses_TWW: "The War Within",
 	Bosses_Midnight: "Midnight",
+	Bosses_Forever: "WoW Forever",
 };
 
 const argv = process.argv.slice(2);

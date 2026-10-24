@@ -18,7 +18,7 @@ const SRC = path.resolve(__dirname, "..");
 const PACKS = [
 	"Bosses_Vanilla", "Bosses_TBC", "Bosses_WotLK", "Bosses_Cata", "Bosses_MoP",
 	"Bosses_WoD", "Bosses_Legion", "Bosses_BfA", "Bosses_Shadowlands",
-	"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight",
+	"Bosses_Dragonflight", "Bosses_TWW", "Bosses_Midnight", "Bosses_Forever",
 ];
 const strict = process.argv.includes("--estricto");
 

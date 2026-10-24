@@ -182,7 +182,9 @@ async function main() {
   await runScript("update");
 
   console.log(`\n¡Release ${newVersion} completado!`);
-  console.log(`  Sube packages/Bosses_${newVersion.replace(/\./g, "_")}.zip a CurseForge.`);
+  console.log(`  Sube a CurseForge:`);
+  console.log(`    packages/Bosses_${newVersion.replace(/\./g, "_")}_retail.zip  (retail + Classic)`);
+  console.log(`    packages/Bosses_${newVersion.replace(/\./g, "_")}_forever.zip (WoW Forever 1.60.1)`);
 }
 
 main().catch((err) => {

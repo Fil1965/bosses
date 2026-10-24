@@ -34,6 +34,7 @@ export const PACKS = [
 	{ nombre: "Bosses_Dragonflight", patron: /dragonflight|dragonisles/i },
 	{ nombre: "Bosses_TWW", patron: /warwithin|khazalgar/i },
 	{ nombre: "Bosses_Midnight", patron: /midnight/i },
+	{ nombre: "Bosses_Forever", patron: /forever/i },
 ];
 
 // Normaliza como comparar-dbm: minúsculas, solo alfanumérico

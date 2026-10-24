@@ -1,11 +1,16 @@
 // scripts/package.mjs
-// Empaqueta el addon Bosses en un .zip con el formato
-// Bosses_<version_con_guiones_bajos>.zip dentro de packages/.
-// Estructura del zip (requisito CurseForge):
-//   Bosses_<v>.zip
-//   ├── Bosses/            (core)
+// Empaqueta el addon Bosses en DOS zips por versión (requisito de CurseForge):
+//   packages/Bosses_<v>_retail.zip   -> Bosses/ + los packs de retail/Classic
+//   packages/Bosses_<v>_forever.zip  -> Bosses/ + los packs de la línea Forever
+// Estructura de cada zip (requisito CurseForge):
+//   Bosses_<v>_<cliente>.zip
+//   ├── Bosses/            (core; el MISMO en los dos zips)
 //   └── Bosses_<Pack>/     (packs de datos, carpetas top-level)
-// Uso: npm run package
+// El core declara en su .toc todas las versiones (120105, 50504, 20506,
+// 11509, 16001): cada cliente carga el suyo por coincidencia exacta y los
+// packs retail NO declaran 16001 → en Forever no cargan (y por eso el zip
+// de Forever lleva solo los packs de su línea).
+// Uso: npm run package [--solo=retail|forever]
 
 import { execSync } from "node:child_process";
 import { promises as fs } from "node:fs";
@@ -36,21 +41,31 @@ const ADDON_FILES = [
   "libs/LibDBIcon-1.0/LibDBIcon-1.0.lua",
 ];
 
-// Packs de datos incluidos en el mismo zip (cada uno es una carpeta
-// top-level del zip con su propio .toc), en orden cronológico de expansión
-const ADDON_FOLDERS = [
-  "Bosses_Vanilla",
-  "Bosses_TBC",
-  "Bosses_WotLK",
-  "Bosses_Cata",
-  "Bosses_MoP",
-  "Bosses_WoD",
-  "Bosses_Legion",
-  "Bosses_BfA",
-  "Bosses_Shadowlands",
-  "Bosses_Dragonflight",
-  "Bosses_TWW",
-  "Bosses_Midnight",
+// Los dos zips: el core es el mismo; los packs son los de cada línea.
+const LINEAS = [
+  {
+    id: "retail",
+    packs: [
+      "Bosses_Vanilla",
+      "Bosses_TBC",
+      "Bosses_WotLK",
+      "Bosses_Cata",
+      "Bosses_MoP",
+      "Bosses_WoD",
+      "Bosses_Legion",
+      "Bosses_BfA",
+      "Bosses_Shadowlands",
+      "Bosses_Dragonflight",
+      "Bosses_TWW",
+      "Bosses_Midnight",
+    ],
+  },
+  {
+    // WoW Forever (rama Camelot / Classic+, cliente 1.60.1 → 16001): línea
+    // temporal propia. Sus packs llevan `## Interface: 16001` en su .toc.
+    id: "forever",
+    packs: ["Bosses_Forever"],
+  },
 ];
 
 async function readPackageVersion() {
@@ -63,18 +78,16 @@ function psEscape(str) {
   return str.replace(/'/g, "''");
 }
 
-async function main() {
-  const version = await readPackageVersion();
+async function empaquetar(linea, version) {
   const versionTag = version.replace(/\./g, "_");
-  const zipName = `${ADDON_NAME}_${versionTag}.zip`;
+  const zipName = `${ADDON_NAME}_${versionTag}_${linea.id}.zip`;
   const zipPath = path.join(PACKAGES_DIR, zipName);
-
   const coreStaging = path.join(STAGING_DIR, ADDON_NAME);
 
-  console.log(`Empaquetando ${ADDON_NAME} v${version} -> packages/${zipName}\n`);
+  console.log(`\nEmpaquetando ${ADDON_NAME} v${version} (${linea.id}) -> packages/${zipName}\n`);
 
-  // Limpieza previa
-  await fs.rm(PACKAGES_DIR, { recursive: true, force: true });
+  // Limpieza previa del staging de esta línea
+  await fs.rm(STAGING_DIR, { recursive: true, force: true });
   await fs.mkdir(coreStaging, { recursive: true });
 
   // Copiar archivos del core al staging
@@ -96,7 +109,7 @@ async function main() {
 
   // Copiar packs (cada uno va como carpeta top-level dentro del zip)
   const staged = [coreStaging];
-  for (const folder of ADDON_FOLDERS) {
+  for (const folder of linea.packs) {
     const dest = path.join(STAGING_DIR, folder);
     try {
       await fs.cp(path.join(SRC_DIR, folder), dest, { recursive: true });
@@ -111,8 +124,7 @@ async function main() {
     }
   }
 
-  // Crear el zip con PowerShell (Compress-Archive)
-  // Cada ruta preserva su nombre de carpeta dentro del zip.
+  // Comprimir con PowerShell (Compress-Archive)
   console.log(`\nComprimiendo...`);
   const psPaths = staged.map((p) => `'${psEscape(p)}'`).join(",");
   const psCommand = `Compress-Archive -Path ${psPaths} -DestinationPath '${psEscape(zipPath)}' -Force`;
@@ -126,10 +138,29 @@ async function main() {
     process.exit(1);
   }
 
-  // Eliminar el staging (solo queremos el zip)
-  await fs.rm(STAGING_DIR, { recursive: true, force: true });
-
   console.log(`\n¡Listo! Paquete creado: packages/${zipName}`);
+}
+
+async function main() {
+  const version = await readPackageVersion();
+  const arg = process.argv.slice(2).find((a) => a.startsWith("--solo="));
+  const solo = arg ? arg.slice("--solo=".length) : null;
+  const lineas = solo ? LINEAS.filter((l) => l.id === solo) : LINEAS;
+  if (!lineas.length) {
+    console.error(`Línea desconocida: ${solo} (usa retail o forever)`);
+    process.exit(1);
+  }
+
+  // Limpieza previa (una sola vez: los dos zips se generan en la misma pasada)
+  await fs.rm(PACKAGES_DIR, { recursive: true, force: true });
+  await fs.mkdir(PACKAGES_DIR, { recursive: true });
+
+  for (const linea of lineas) {
+    await empaquetar(linea, version);
+  }
+
+  // Eliminar el staging (solo queremos los zips)
+  await fs.rm(STAGING_DIR, { recursive: true, force: true });
 }
 
 main().catch((err) => {
