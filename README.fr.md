@@ -63,7 +63,7 @@ Le projet **GitHub** associé contient le journal des modifications complet, les
 
 ## Bon à savoir
 
-- Créé sous le nom de *Boses* en 2011 ; le membre fondateur de la famille : essayez également **Nas** (salutations automatiques) et **MarcoPolo** (automatisation du commerce)
+- Créé sous le nom de *Boses* en 2011 ; le membre fondateur de la famille : essayez également **[Nas](https://www.curseforge.com/wow/addons/nas)** (salutations automatiques) et **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)** (automatisation du commerce)
 - Fonctionne sur **retail (Midnight 12.1)** et **Classic**: MoP Classic, TBC Classic, Classic Era et **WoW Forever (1.60.1, Classic+)**
 - Le dépôt embarque aussi un **éditeur web** local pour retoucher les packs de données (outil de développement ; s'exécute en local avec `npm start`)
 - Conforme à la politique des addons de Modern: information sous votre contrôle, jamais d'automatisation de combat

@@ -64,7 +64,7 @@ The companion **GitHub project** carries the full changelog, coverage checklists
 
 ## Good to know
 
-- Born as *Boses* in 2011; the veteran of the family: also try **Nas** (automatic greetings) and **MarcoPolo** (merchant automation)
+- Born as *Boses* in 2011; the veteran of the family: also try **[Nas](https://www.curseforge.com/wow/addons/nas)** (automatic greetings) and **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)** (merchant automation)
 - Runs on **retail (Midnight 12.1)** and **Classic**: MoP Classic, TBC Classic, Classic Era and **WoW Forever (1.60.1, Classic+)**
 - The repository also carries a local **web editor** for fine-tuning the data packs (developer tool, run locally with `npm start`)
 - Fully in line with Modern's addon policy: information under your control, never combat automation

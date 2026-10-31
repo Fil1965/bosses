@@ -64,7 +64,7 @@ Bosses 用几行精炼的文字、在正确的时机、通过正确的频道说�
 
 ## 小贴士
 
-- 2011 年以 *Boses* 之名诞生；家族中的老前辈：也试试 **Nas**（自动问候）与 **MarcoPolo**（商人自动化）
+- 2011 年以 *Boses* 之名诞生；家族中的老前辈：也试试 **[Nas](https://www.curseforge.com/wow/addons/nas)**（自动问候）与 **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)**（商人自动化）
 - 运行于 **零售版 (Midnight 12.1)** 与 **经典版**：MoP Classic、TBC Classic、Classic Era 和 **WoW Forever (1.60.1, Classic+)**
 - 完全符合现代版插件政策：信息尽在掌控，绝无战斗自动化
 - 仓库还自带一个本地 **网页编辑器**，用于微调数据包（开发工具；在本地用 `npm start` 运行）

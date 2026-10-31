@@ -63,7 +63,7 @@ Das zugehörige **GitHub-Projekt** enthält den vollständigen Changelog, die Ab
 
 ## Gut zu wissen
 
-- Geboren als *Boses* im Jahr 2011; der Veteran der Familie: probieren Sie auch **Nas** (automatische Begrüßungen) und **MarcoPolo** (Automatisierung für Händler)
+- Geboren als *Boses* im Jahr 2011; der Veteran der Familie: probieren Sie auch **[Nas](https://www.curseforge.com/wow/addons/nas)** (automatische Begrüßungen) und **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)** (Automatisierung für Händler)
 - Läuft auf **Retail (Midnight 12.1)** und **Classic**: MoP Classic, TBC Classic, Classic Era und **WoW Forever (1.60.1, Classic+)**
 - Das Repository enthält auch einen lokalen **Web-Editor** zum Nachziehen der Datenpakete (Entwicklerwerkzeug; lokal mit `npm start`)
 - Voll in Übereinstimmung mit der Add-on-Richtlinie von Modern: Informationen unter Ihrer Kontrolle, niemals Kampfautomatisierung

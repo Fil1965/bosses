@@ -64,7 +64,7 @@ El **proyecto de GitHub** complementario lleva el changelog completo, listas de 
 
 ## Bueno saberlo
 
-- Nació como *Boses* en 2011; el veterano de la familia: prueba también **Nas** (saludos automáticos) y **MarcoPolo** (automatización de mercader)
+- Nació como *Boses* en 2011; el veterano de la familia: prueba también **[Nas](https://www.curseforge.com/wow/addons/nas)** (saludos automáticos) y **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)** (automatización de mercader)
 - Funciona en **retail (Midnight 12.1)** y **Classic**: MoP Classic, TBC Classic, Classic Era y **WoW Forever (1.60.1, Classic+)**
 - El repositorio también lleva un **editor web** local para retocar los packs de datos (herramienta de desarrollo; se ejecuta en local con `npm start`)
 - En plena línea con la política de addons del moderno: información bajo tu control, nunca automatización de combate

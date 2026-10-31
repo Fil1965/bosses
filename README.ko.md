@@ -64,7 +64,7 @@ Bosses는 보스 전투가 어떻게 흘러가는지 — 몇 줄의 간결한 �
 
 ## 알아둘 것
 
-- 2011년 *Boses*로 태어난 가족의 베테랑: **Nas**(자동 인사)와 **MarcoPolo**(상인 자동화)도 함께
+- 2011년 *Boses*로 태어난 가족의 베테랑: **[Nas](https://www.curseforge.com/wow/addons/nas)**(자동 인사)와 **[MarcoPolo](https://www.curseforge.com/wow/addons/marcopolo)**(상인 자동화)도 함께
 - **retail (Midnight 12.1)**과 **Classic**에서 동작: MoP Classic, TBC Classic, Classic Era, 그리고 **WoW Forever (1.60.1, Classic+)**
 - 저장소에는 데이터 팩을 손보는 로컬 **웹 에디터**도 있습니다 (개발자 도구, 로컬 실행: `npm start`)
 - Modern 애드온 정책과 완전히 일치: 정보는 당신의 통제 하에, 전투 자동화는 결코 없음
