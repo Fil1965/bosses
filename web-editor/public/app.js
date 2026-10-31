@@ -1,7 +1,11 @@
 // web-editor/public/app.js
-// Lógica del editor (vanilla JS, sin build). Estado local + fetch a /api.
+// Lógica del editor (módulo ES: importa /_packs.mjs para compartir
+// norm/LOCALES_DIARIO/esTituloEstructural con el servidor y no duplicarlos).
+
+import { norm, LOCALES_DIARIO, esTituloEstructural } from "/_compartido.mjs";
 
 const $ = (id) => document.getElementById(id);
+
 const state = {
 	meta: null,
 	packs: [],
@@ -16,6 +20,7 @@ const state = {
 	filtro: "",
 	entryId: null,     // id seleccionado (o null = sin selección)
 	entryData: null,   // { id, name, lines, shared, zone }
+	gen: 0,            // token de generación para cancelar cargas obsoletas de selectEntry
 	dirty: false,
 	focusedLine: null, // índice de la línea activa para el picker de spells
 	nombresSpell: {},  // spell id → {es,en,fr,de,icon} resuelto (traducción al vuelo)
@@ -24,7 +29,7 @@ const state = {
 };
 
 // locale del diario por pestaña: la columna DIARIO sigue el idioma que editas
-const LOCALES_DIARIO = { es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE", ru: "ru_RU", pt: "pt_BR", zh: "zh_CN", ko: "ko_KR" };
+// (LOCALES_DIARIO importado de /_packs.mjs, compartido con el servidor)
 
 // ------------------------------------------------------------- utilidades --
 
@@ -59,9 +64,16 @@ function nombreVisibleSpell(id, stored, lang) {
 	if (!n || String(n).toLowerCase() === String(stored).toLowerCase()) return stored;
 	return n;
 }
-// Render del marcado WoW a HTML seguro (escape primero, transformación después)
+// Render delká WoW a HTML seguro (escape primero, transformación después).
+// escapa TAMBIÉN comillas porque se usa en atributos HTML (value="...", title="..."):
+// un nombre de jefe con `"` rompería el atributo e inyectaría HTML.
 function esc(s) {
-	return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+	return String(s)
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;")
+		.replace(/"/g, "&quot;")
+		.replace(/'/g, "&#39;");
 }
 function renderWow(txt, lang = state.lang) {
 	let html = esc(txt);
@@ -85,9 +97,7 @@ function renderWow(txt, lang = state.lang) {
 	return html.replace(/\n/g, "<br>");
 }
 
-function nombreCorto(n) {
-	return String(n ?? "");
-}
+// nombreCorto era función identidad (no acortaba nada); los usos pasan a String(n ?? "")
 
 // ---------------------------------------------------------------- meta ----
 
@@ -499,7 +509,7 @@ function renderLista() {
 		const abierto = conFiltro || (clave in est ? Boolean(est[clave]) : false);
 		html += `<button data-grupo="${esc(clave)}" class="w-full text-left px-2 py-1 mt-1 rounded text-sm font-semibold flex gap-1 items-center text-slate-300 hover:text-wow-gold">
 			<span class="w-4 text-center">${abierto ? "▾" : "▸"}</span>
-			<span class="truncate flex-1" title="${esc(String(g.sub).replace(/"/g, "&quot;"))}">${esc(g.sub)}</span>
+			<span class="truncate flex-1" title="${esc(g.sub)}">${esc(g.sub)}</span>
 			<span class="text-slate-600 tabular-nums">${visibles.length}</span>
 		</button>`;
 		if (abierto) {
@@ -524,9 +534,7 @@ function renderLista() {
 		renderLista();
 	}));
 }
-function norm(s) {
-	return String(s ?? "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
+// norm está importado de /_packs.mjs (compartido con el servidor; antes duplicado aquí).
 
 function selectEntryOff() {
 	state.entryData = null;
@@ -538,17 +546,24 @@ function selectEntryOff() {
 
 async function selectEntry(id) {
 	state.entryId = id;
+	// Token de generación: si el usuario cambia de entrada rápido, las
+	// cargas anteriores no pueden pisar el estado de la nueva (antes
+	// cargarMedia de la entrada vieja resolvía después y mezclaba datos).
+	state.gen = (state.gen ?? 0) + 1;
+	const g = state.gen;
 	// el grupo de la entrada elegida se queda abierto (después de una
 	// selección desde la búsqueda, al limpiar el filtro no se esconde)
 	const eSel = state.entries.find((x) => x.id === id);
 	if (eSel != null) setGrupoAbierto(claveGrupo(state.pack, eSel), true);
 	const r = await api(`/api/packs/${state.pack}/${state.lang}/${id}`);
+	if (g !== state.gen) return; // llegó otra selección mientras esperábamos
 	if (!r.ok) return toast(r.error, false);
 	state.entryData = r.entry;
 	state.dirty = false;
 	renderEditor();
 	renderLista();
 	await cargarMedia(id); // el diario enseña nombres de spells: primero él
+	if (g !== state.gen) return;
 	resolverNombresSpell(); // y ahora la traducción al vuelo con todo el mapa
 	renderReferencia(); // referencia ES + resolución (idempotente)
 }
@@ -632,8 +647,12 @@ function insertSpell(id, nombre) {
 	nombre = nombre || state.nombresSpell[String(id)]?.[state.lang] || "?";
 	const link = `|cff71d5ff|Hspell:${id}|h[${nombre}]|h|r`;
 	const idx = state.focusedLine ?? e.lines.length - 1;
-	if (idx >= 0 && idx < e.lines.length) e.lines[idx] += link;
-	else e.lines.push(link);
+	if (idx >= 0 && idx < e.lines.length) {
+		// espacio antes del link si la línea no acaba en espacio (antes quedaba
+		// pegado a la última palabra y podía fastidiar el corte de limite-chat)
+		const base = e.lines[idx].replace(/\s+$/, "");
+		e.lines[idx] = base + (base ? " " : "") + link;
+	} else e.lines.push(link);
 	state.dirty = true;
 	renderEditor();
 	resolverNombresSpell(); // refresco al vuelo de la preview y el diario
@@ -645,7 +664,7 @@ function renderPreview() {
 	$("preview").innerHTML = e ? `
 		<div class="font-ui text-xs text-wow-gold tracking-widest mb-1">VISTA PREVIA <span class="text-slate-500">(${state.lang.toUpperCase()}, spells al vuelo)</span></div>
 		<div class="golddiv mb-2"></div>
-		<div class="font-ui text-lg text-wow-gold mb-2">${esc(nombreCorto(e.name))}</div>
+		<div class="font-ui text-lg text-wow-gold mb-2">${esc(String(e.name ?? ""))}</div>
 		<div class="space-y-2 text-sm leading-5">
 			${e.lines.map((l) => `<div class="flex gap-2"><span class="text-wow-gold select-none">•</span><span class="min-w-0">${renderWow(String(l).replace(/^\*\s*/, ""))}</span></div>`).join("")}
 		</div>` : "";
@@ -906,7 +925,7 @@ function renderBanner(id, m, nota) {
 	} else {
 		banner.style.backgroundImage = gradienteDe(id); // respaldo genérico
 	}
-	const letra = (nombreCorto(nombre).trim().match(/[a-z0-9]/i)?.[0] ?? "?").toUpperCase();
+	const letra = (String(nombre ?? "").trim().match(/[a-z0-9]/i)?.[0] ?? "?").toUpperCase();
 	const fondo = gradienteDe(id);
 	banner.innerHTML = `
 		<div class="absolute inset-0 bg-gradient-to-t from-wow-dark/95 to-transparent"></div>
@@ -914,7 +933,7 @@ function renderBanner(id, m, nota) {
 			${cajaRetrato(m?.portrait, letra, fondo)}
 			<div class="min-w-0 pb-0.5">
 				<div class="text-[10px] text-slate-400">${m ? `${esc(m.instance?.name ?? "")} · zona ${esc(m.zone)}` : esc(nota ?? "sin coincidencia en el diario")}</div>
-				<div class="font-ui text-wow-gold text-lg truncate">${esc(nombreCorto(nombre))}</div>
+				<div class="font-ui text-wow-gold text-lg truncate">${esc(String(nombre ?? ""))}</div>
 			</div>
 		</div>`;
 }
@@ -1011,11 +1030,8 @@ function insertarEsqueleto() {
 // grupos del diario que no son habilidades ("Fase 2: …", "Solo en
 // dificultad heroica", encabezados de rol "Resumen/DPS/Sanadores/Tanques")
 // — no van al esqueleto ni cuentan en cobertura
-function esTituloEstructural(t) {
-	return /^(fase|phase|stage|etapa)\s*\d/i.test(String(t))
-		|| /^(solo|solamente|only|uniquement|nur)\b.*(dificultad|difficulty|difficult|schwierigkeit)/i.test(String(t))
-		|| /^(resumen|overview|dps|tanque|tanques|sanador|sanadores|healer|healers|tank|tanks)$/i.test(String(t).trim());
-}
+// esTituloEstructural viene importado de /_packs.mjs (antes duplicado aquí con
+// una regex equivalente pero no idéntica a la del servidor).
 
 // el body_text del diario trae marcado interno (<tau...>, |n, $bullet;): se limpia
 function limpiarTextoDiario(s) {

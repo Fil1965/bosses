@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for Vanilla (Classic Era) dungeons and raids (ES/EN/FR/DE)
 ## Notes-esES: Explicaciones de los jefes de Vanilla (mazmorras y bandas del Clásico) (ES/EN/FR/DE)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.11
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_Vanilla_es.lua

@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for Battle for Azeroth dungeons and raids (ES/EN)
 ## Notes-esES: Explicaciones de los jefes de Battle for Azeroth (mazmorras y bandas) (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.11
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_BfA_es.lua

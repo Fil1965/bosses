@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for WoW Forever (Classic+) dungeons and raids (8 idiomas)
 ## Notes-esES: Explicaciones de los jefes de WoW Forever (Classic+) (8 idiomas)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.16
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_Forever_es.lua

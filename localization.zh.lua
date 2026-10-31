@@ -23,6 +23,8 @@ if GetLocale() == "zhCN" then
     L["MenuObjetivo"] = "说明目标";
     L["MenuConfig"] = "设置";
     L["BotonAlChat"] = "发送到聊天";
+    L["BotonAlGrupo"] = "发送到团队";
+    L["EnviaAlCanal"] = "将说明发送到 %s 聊天频道";
     L["BotonEditar"] = "编辑";
     L["Data packs"] = "数据包";
     L["FirmaCortesia"] = "共享频道中的礼貌签名";
@@ -65,11 +67,28 @@ if GetLocale() == "zhCN" then
     L["HELP6"] = "/bosses CANAL LOCAL : 本地输出说明。";
     L["HELP7"] = "/bosses CANAL GUILD : 通过公会频道输出说明。";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : 说明的语言。";
-    L["HELP9"] = "/bosses DEBUG on|off|清空 : 调试日志（WTF 文件夹中的文件）；/bosses LOG [n] : 显示最近的几行。";
+    L["HELP9"] = "/bosses DEBUG on|off|清空|clear : 调试日志（WTF 文件夹中的文件）；/bosses LOG [n] : 显示最近的几行。";
     L["HELP10"] = "/bosses CANAL FRAME : 全部输出到警报框（仅你）。";
     L["HELP11"] = "/bosses EDITAR [id] : 打开说明编辑器（存放你自己的备注的 UI）。";
 
     L[": This NPC is not described."] = ": 该 NPC 未被说明。";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99左键|r - 说明选中的 NPC。";
     L["loaded"] = " 已加载";
+
+    -- 警报框：1.0.18 改进
+    L["Alert frame"] = "警报框";
+    L["Frame max height"] = "框体最大高度（屏幕比例，0 = 不限）";
+    L["Frame opacity"] = "框体背景不透明度";
+    L["Always visible"] = "保持框体可见（15 秒后不自动隐藏）";
+    L["Font scale"] = "正文字体缩放";
+    L["Lock position"] = "锁定位置（禁用左键拖动）";
+    L["Start collapsed"] = "启动时折叠（仅标题）";
+    L["Auto height"] = "自动高度（框体随文字增长）";
+    L["Collapse"] = "折叠";
+    L["Expand"] = "展开";
+    L["Lock"] = "锁定";
+    L["Unlock"] = "解锁";
+    L["Target boss"] = "选中首领";
+    L["Previous"] = "上一个";
+    L["Next"] = "下一个";
 end

@@ -4,7 +4,9 @@
 local _, L = ...;
 local _, Bosses = ...;
 
-if GetLocale() == "enUS" then
+-- Inglés como base: se define en enUS Y enGB (y cualquier otro locale no
+-- traducido cae al fallback del metatable, que devuelve la clave en inglés).
+if GetLocale() == "enUS" or GetLocale() == "enGB" then
     L["HELP1"] = "/bosses : Explains the targeted npc";
     L["HELP2"] = "/bosses id : Explains npc id";
     L["HELP3"] = "/bosses + text : Adds text to the npc explanation";
@@ -13,7 +15,7 @@ if GetLocale() == "enUS" then
     L["HELP6"] = "/bosses CANAL local : Uses local output";
     L["HELP7"] = "/bosses CANAL guild : Uses guild output";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Language of the explanations";
-    L["HELP9"] = "/bosses DEBUG on|off|vaciar : debug log (WTF file); /bosses LOG [n] : show last lines";
+    L["HELP9"] = "/bosses DEBUG on|off|vaciar|clear : debug log (WTF file); /bosses LOG [n] : show last lines";
     L["HELP10"] = "/bosses CANAL frame : Everything in the alert frame (only you)";
     L["HELP11"] = "/bosses EDITAR [id] : Opens the explanation editor (edit your own notes with a real UI)";
     L["Language"] = "Language";
@@ -27,6 +29,8 @@ if GetLocale() == "enUS" then
     L["MenuObjetivo"] = "Explain target";
     L["MenuConfig"] = "Settings";
     L["BotonAlChat"] = "To chat";
+    L["BotonAlGrupo"] = "To group";
+    L["EnviaAlCanal"] = "Sends the explanation to the %s chat";
     L["BotonEditar"] = "Edit";
     L["FirmaCortesia"] = "Courtesy signature on shared channels";
     L["Cortesia"] = "Boss explanation courtesy of the Bosses addon";
@@ -70,7 +74,24 @@ if GetLocale() == "enUS" then
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Left click|r - Explains target NPC";
     L["Data packs"] = "Data packs";
     L["loaded"] = " loaded";
-end
+
+    -- Frame de alerta: mejoras 1.0.18 (redimensionable, historial, etc.)
+    L["Alert frame"] = "Alert frame";
+    L["Frame max height"] = "Frame max height (fraction of screen, 0 = no limit)";
+    L["Frame opacity"] = "Frame background opacity";
+    L["Always visible"] = "Keep frame visible (do not auto-hide after 15 s)";
+    L["Font scale"] = "Body font scale";
+    L["Lock position"] = "Lock position (left-drag disabled)";
+    L["Start collapsed"] = "Start collapsed (header only)";
+    L["Auto height"] = "Auto height (frame grows with the text)";
+    L["Collapse"] = "Collapse";
+    L["Expand"] = "Expand";
+    L["Lock"] = "Lock";
+    L["Unlock"] = "Unlock";
+    L["Target boss"] = "Target boss";
+    L["Previous"] = "Previous";
+    L["Next"] = "Next";
+ end
 
 -- Textos de la firma por idioma de EXPLICACIÓN (los elige textoCortesia()
 -- según BossesConfig.IDIOMA). FUERA del condicional enUS: deben existir en

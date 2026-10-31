@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for Mists of Pandaria raids, dungeons and world bosses (ES/EN)
 ## Notes-esES: Explicaciones de las bandas, mazmorras y jefes de mundo de Mists of Pandaria (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.11
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_MoP_es.lua

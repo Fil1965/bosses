@@ -23,6 +23,8 @@ if GetLocale() == "ruRU" then
     L["MenuObjetivo"] = "Объяснить цель";
     L["MenuConfig"] = "Настройки";
     L["BotonAlChat"] = "В чат";
+    L["BotonAlGrupo"] = "В группу";
+    L["EnviaAlCanal"] = "Отправляет объяснение в чат %s";
     L["BotonEditar"] = "изменить";
     L["Data packs"] = "Пакеты данных";
     L["FirmaCortesia"] = "Подпись-вежливость в общих каналах";
@@ -65,11 +67,28 @@ if GetLocale() == "ruRU" then
     L["HELP6"] = "/bosses CANAL LOCAL : Выводит информацию локально.";
     L["HELP7"] = "/bosses CANAL GUILD : Выводит информацию в канал гильдии.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Язык объяснений.";
-    L["HELP9"] = "/bosses DEBUG on|off|очистить : журнал отладки (файл в WTF); /bosses LOG [n] : показывает последние строки.";
+    L["HELP9"] = "/bosses DEBUG on|off|очистить|clear : журнал отладки (файл в WTF); /bosses LOG [n] : показывает последние строки.";
     L["HELP10"] = "/bosses CANAL FRAME : Всё в окно оповещений (только вы).";
     L["HELP11"] = "/bosses EDITAR [id] : Открывает редактор объяснений (UI для ваших собственных заметок).";
 
     L[": This NPC is not described."] = ": Этот NPC не описан.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Клик слева.|r - Объясняет выбранного NPC.";
     L["loaded"] = " загружена";
+
+    -- Окно оповещений: улучшения 1.0.18
+    L["Alert frame"] = "Окно оповещений";
+    L["Frame max height"] = "Макс. высота окна (доля экрана, 0 = без предела)";
+    L["Frame opacity"] = "Непрозрачность фона";
+    L["Always visible"] = "Держать окно видимым (не скрывать через 15 с)";
+    L["Font scale"] = "Масштаб шрифта текста";
+    L["Lock position"] = "Зафиксировать положение (перетаскивание выкл.)";
+    L["Start collapsed"] = "Запускать свёрнутым (только заголовок)";
+    L["Auto height"] = "Авто-высота (окно растёт с текстом)";
+    L["Collapse"] = "Свернуть";
+    L["Expand"] = "Развернуть";
+    L["Lock"] = "Зафиксировать";
+    L["Unlock"] = "Освободить";
+    L["Target boss"] = "Взять в цель босса";
+    L["Previous"] = "Назад";
+    L["Next"] = "Вперёд";
 end

@@ -6,35 +6,36 @@ O Bosses explica como funciona um combate de chefe — em poucas linhas afiadas,
 
 ## Cobertura — todas as expansões de World of Warcraft
 
-**12 pacotes de dados · ~1.590 entradas de chefe · Espanhol / Inglês / Francês / Alemão / Português (Brasil) / Chinês (simplificado).** Do Molten Core a Midnight e tudo o que há no meio:
+**13 pacotes de dados · ~1.810 entradas de chefe · Espanhol / Inglês / Francês / Alemão / Português (Brasil) / Chinês (simplificado) / Russo / Coreano.** Do Molten Core a Midnight e tudo o que há no meio, mais a linha WoW Forever (Classic+):
 
 | Expansão | Packs | Chefes | Idiomas |
 |---|---|---|---|
-| Vanilla | Molten Core, BWL, AQ20/40, Naxxramas, Onyxia + as masmorras clássicas (Gnomeregan, Scarlet Monastery, Maraudon, Uldaman, Zul'Farrak, Sunken Temple SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 334 | EN · ES · FR · DE · PT · ZH |
-| The Burning Crusade | De Karazhan a Sunwell, masmorras heroicas, Zul'Aman | 130 | EN · ES · FR · DE · PT · ZH |
-| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 masmorras, Onyxia, Trial of the Champion | 173 | EN · ES · FR · DE · PT · ZH |
-| Cataclysm | Firelands, Dragon Soul, BWD + masmorras, remakes de ZA/ZG | 113 | EN · ES · FR · DE · PT · ZH |
-| Mists of Pandaria | As 5 raids, 9 masmorras, chefes de mundo | 134 | EN · ES · FR · DE · PT · ZH |
-| Warlords of Draenor | Highmaul, Blackrock Foundry, Hellfire Citadel + 8 masmorras, elites de Tanaan | 91 | EN · ES · FR · DE · PT · ZH |
-| Legion | As 5 raids, 12 masmorras, 20 chefes de mundo | 147 | EN · ES · FR · DE · PT · ZH |
-| Battle for Azeroth | Uldir → Ny'alotha, 12 masmorras, chefes de frentes de guerra | 133 | EN · ES · FR · DE · PT · ZH |
-| Shadowlands | Castle Nathria, Sanctum, Sepulcher + 9 masmorras + Tazavesh + chefes de mundo | 90 | EN · ES · FR · DE · PT · ZH |
-| Dragonflight | Aberrus, Amirdrassil, Vault of the Incarnates + 9 masmorras + chefes de mundo | 92 | EN · ES · FR · DE · PT · ZH |
-| The War Within | As raids e masmorras de Khaz Algar | 80 | EN · ES · FR · DE · PT · ZH |
-| Midnight | Raids, masmorras, lairs e chefes de mundo da expansão atual | 71 | EN · ES · FR · DE · PT · ZH |
+| Vanilla | Molten Core, BWL, AQ20/40, Naxxramas, Onyxia + as masmorras clássicas (Gnomeregan, Scarlet Monastery, Maraudon, Uldaman, Zul'Farrak, Sunken Temple SoD, Stratholme, Dire Maul, Scholomance, Zul'Gurub…) | 336 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| The Burning Crusade | De Karazhan a Sunwell, masmorras heroicas, Zul'Aman | 130 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Wrath of the Lich King | Naxxramas, Ulduar, ICC + 11 masmorras, Onyxia, Trial of the Champion | 173 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Cataclysm | Firelands, Dragon Soul, BWD + masmorras, remakes de ZA/ZG | 113 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Mists of Pandaria | As 5 raids, 9 masmorras, chefes de mundo | 135 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Warlords of Draenor | Highmaul, Blackrock Foundry, Hellfire Citadel + 8 masmorras, elites de Tanaan | 91 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Legion | As 5 raids, 12 masmorras, 20 chefes de mundo | 147 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Battle for Azeroth | Uldir → Ny'alotha, 12 masmorras, chefes de frentes de guerra | 133 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Shadowlands | Castle Nathria, Sanctum, Sepulcher + 9 masmorras + Tazavesh + chefes de mundo | 90 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Dragonflight | Aberrus, Amirdrassil, Vault of the Incarnates + 9 masmorras + chefes de mundo | 92 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| The War Within | As raids e masmorras de Khaz Algar | 80 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| Midnight | Raids, masmorras, lairs e chefes de mundo da expansão atual | 71 | EN · ES · FR · DE · PT · ZH · RU · KO |
+| WoW Forever (Classic+) | A linha Camelot: City of Dalaran, Excavation Site, Ruins of Lordaeron, Hall of Thanes + 18 masmorras clássicas | 222 | EN · ES · FR · DE · PT · ZH · RU · KO |
 
-Cada um dos doze packs acima embarca com **os seis idiomas completos**; um locale só é listado no jogo quando todas as entradas daquele pack estão prontas, então o que você vê é o que funciona.
+Cada um dos treze packs acima embarca com **os oito idiomas completos**; um locale só é listado no jogo quando todas as entradas daquele pack estão prontas, então o que você vê é o que funciona.
 
 ## Destaques
 
 - **Explica o NPC marcado** em poucas linhas telegráficas — um comando, ou totalmente automático ao começar cada encontro (sem timers, sem automação de combate; o modo automático pode ser desativado)
 - **Sugestões prontas e corrigíveis** com links de feitiço verificados: cada tópico nomeia a habilidade real, com o link direto no seu chat
-- **Seu próprio frame de alerta**: durante o combate o jogo bloqueia o chat de addons, então a explicação completa vive na sua tela — arrastável, fechável (X / ESC), se esconde 15 s depois da luta e fora de combate um botão **"Para o chat"** a compartilha com o grupo
+- **Seu próprio frame de alerta**: durante o combate o jogo bloqueia o chat de addons, então a explicação completa vive na sua tela — arrastável, fechável (X / ESC), **redimensionável**, recolhível até uma única barra de título, com posição travável, botões de anterior/próximo para voltar às explicações já vistas, e opacidade, altura máxima e tamanho da fonte configuráveis (seção "Frame de alerta" do painel, com a opção de mantê-lo sempre visível em vez de ocultá-lo sozinho após 15 s); fora de combate um botão **"Para o chat"** a compartilha com o grupo, e no modo só frame um botão **"Para o grupo"** a manda para seu chat de raid / instância / grupo / say
 - **Nomes de feitiços no idioma do leitor**, resolvidos em tempo real na base de dados do jogo (o tooltip mostra a habilidade ao passar o mouse)
 - **Escolha inteligente de canal**: raid / grupo / chat de masmorra LFG automaticamente — ou force guilda / local / apenas frame
 - **Botão de minimapa**: dentro de uma instância abre um menu suspenso com cada chefe daquela zona; fora, explica o seu alvo
 - **Suas notas sobrepõem a base de dados**: `/bosses + texto` adiciona sua própria linha a qualquer NPC, em qualquer idioma, por personagem
-- **Edite qualquer explicação no jogo**: o botão **editar** do frame de alerta (ou `/bosses EDITAR [id]`) abre o editor de notas — adicione links e linhas, reordene ou remova, e teste o resultado no frame
+- **Edite qualquer explicação no jogo**: o botão **editar** do frame de alerta (ou `/bosses EDITAR [id]`) abre o editor de notas — adicione links e linhas, reordene ou remova, e teste o resultado no frame; um NPC sem entrada também aparece no frame, pronto para ser escrito do zero
 - Painel de ajustes em **Definições → AddOns → Bosses** — as mudanças aplicam na hora, sem bibliotecas externas
 - **Modo de depuração** opcional que escreve um registro de detecção na sua pasta `WTF`, para que um chefe mudo seja fácil de relatar
 
@@ -64,7 +65,7 @@ O **projeto do GitHub** acompanhante traz o changelog completo, listas de cobert
 ## Bom saber
 
 - Nasceu como *Boses* em 2011; o veterano da família: experimente também **Nas** (saudações automáticas) e **MarcoPolo** (automação de mercador)
-- Funciona no **retail (Midnight 12.1)** e no **Classic**: MoP Classic, TBC Classic e Classic Era
+- Funciona no **retail (Midnight 12.1)** e no **Classic**: MoP Classic, TBC Classic, Classic Era e **WoW Forever (1.60.1, Classic+)**
 - Em plena linha com a política de addons do Modern: informação sob o seu controle, nunca automação de combate
 - O repositório também traz um **editor web** local para retocar os pacotes de dados (ferramenta de desenvolvimento; roda em local com `npm start`)
 - **Atualizando do addon antigo Boses?** Copie `WTF\Account\<conta>\SavedVariables\Boses.lua` → `Bosses.lua` (mais a cópia por personagem), recarregue, e suas notas, ajustes e registro de depuração viajam sozinhos

@@ -13,7 +13,7 @@
 // entran en el zip del addon.
 
 import Fastify from "fastify";
-import { copyFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync, renameSync, statSync, rmSync } from "node:fs";
 import { cpSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -24,15 +24,19 @@ import {
 	LINEAS,
 	LIMITE_CHAT,
 	LISTADO_DIRECTO,
+	LOCALES_DIARIO,
 	bytesAlCable,
 	docEntries,
 	entryDetail,
 	entryText,
+	esTituloEstructural,
 	gemelaTraducida,
 	idiomaMeta,
 	listPacks,
 	loadLangFile,
 	langFileSkeleton,
+	norm,
+	normArt,
 	parseDoc,
 	partirPorLimiteChat,
 	registradorAddLangs,
@@ -62,6 +66,14 @@ const backupsDir = (pack) => join(CACHE, "backups", pack);
 mkBackupsDirSafe();
 function mkBackupsDirSafe() {
 	mkdirSync(backupsDir("__raiz"), { recursive: true });
+}
+
+// Nivel de log del editor: LOG_LEVEL=debug|info|warn|error (defecto "info").
+// debug = incluye telemetría de IA por bloque; warn = solo avisos y errores.
+const NIVELES = { debug: 0, info: 1, warn: 2, error: 3 };
+const NIVEL_LOG = NIVELES[String(process.env.LOG_LEVEL ?? "info").toLowerCase()] ?? NIVELES.info;
+function logEditor(nivel, ...args) {
+	if ((NIVELES[nivel] ?? NIVELES.info) >= NIVEL_LOG) console.log(...args);
 }
 
 // -------------------------------------------------------------- clientes --
@@ -98,7 +110,34 @@ function setDoc(packName, lang, doc) {
 
 // ------------------------------------------------- índice global de spells --
 
-const spells = new Map(); // spellId(String) -> { name: { es?, en? }, refs: n }
+const spells = new Map(); // spellId(String) -> { name: { es?, en? }, refs: n, packs: Set<"pack:lang"> }
+// Índice incremental: cada entrada recuerda qué pack:lang la aportó para poder
+// reindexar SOLO los que cambian (guardado/importar/limpiar) en vez de todos.
+function indexarDocEnSpells(packName, lang, doc, borrar) {
+	if (borrar) {
+		// quita las referencias de este pack:lang
+		for (const [id, entry] of spells) {
+			const key = `${packName}:${lang}`;
+			if (entry.packs?.has(key)) {
+				entry.packs.delete(key);
+				entry.refs--; // refs por pack:lang; si llega a 0, se borra abajo
+				if (entry.refs <= 0 || entry.packs.size === 0) spells.delete(id);
+				else delete entry.name[lang];
+			}
+		}
+	}
+	if (!doc) return;
+	for (const line of doc.lines) {
+		for (const m of line.matchAll(/\|Hspell:(-?\d+)\|h\[([^\]]+)\]/g)) {
+			const [, id, nombre] = m;
+			const entry = spells.get(id) ?? { name: {}, refs: 0, packs: new Set() };
+			entry.name[lang] = nombre;
+			entry.packs.add(`${packName}:${lang}`);
+			entry.refs = entry.packs.size; // refs = nº de pack:lang que lo referencian (aprox)
+			spells.set(id, entry);
+		}
+	}
+}
 function buildSpellIndex() {
 	spells.clear();
 	for (const pack of packs) {
@@ -106,17 +145,15 @@ function buildSpellIndex() {
 			if (!pack.langs[lang]) continue;
 			const doc = getDoc(pack.name, lang);
 			if (!doc) continue;
-			for (const line of doc.lines) {
-				for (const m of line.matchAll(/\|Hspell:(-?\d+)\|h\[([^\]]+)\]/g)) {
-					const [, id, nombre] = m;
-					const entry = spells.get(id) ?? { name: {}, refs: 0 };
-					entry.name[lang] = nombre;
-					entry.refs++;
-					spells.set(id, entry);
-				}
-			}
+			indexarDocEnSpells(pack.name, lang, doc, false);
 		}
 	}
+}
+// Reindexa SOLO un pack:lang (tras guardarlo): O(líneas de ese doc), no de todos.
+function rebuildSpellIndexParcial(packName, lang) {
+	indexarDocEnSpells(packName, lang, null, true); // borra las refs viejas
+	const doc = getDoc(packName, lang);
+	if (doc) indexarDocEnSpells(packName, lang, doc, false);
 }
 buildSpellIndex();
 const totalSpells = spells.size;
@@ -137,7 +174,7 @@ const spellNames = readJson(spellNamesFile) ?? {}; // id → {es,en,fr,de,icon} 
 
 function saveSpellNames() {
 	mkdirSync(CACHE, { recursive: true });
-	writeFileSync(spellNamesFile, JSON.stringify(spellNames));
+	escribirAtomico(spellNamesFile, JSON.stringify(spellNames));
 }
 
 // nombre con el que los packs conocen al spell (texto del corchete)
@@ -237,19 +274,7 @@ async function nombresDeSpell(id, nombreStored) {
 	return res;
 }
 
-function norm(s) {
-	// minúsculas y sin acentos para búsquedas
-	return String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-// norm sin artículo inicial ("Minas de la muerte" == "Las Minas de la Muerte")
-function normArt(s) {
-	return norm(s).replace(/^(el|la|los|las|the|le|les|der|die|das)\s+/, "");
-}
-// títulos ESTRUCTURALES del diario (grupos, no habilidades): "Fase 2: …",
-// "Solo en dificultad heroica", y los encabezados de rol de las bandas
-// modernas ("Resumen", "DPS", "Sanadores", "Tanques"…) — se excluyen del
-// cotejo de cobertura y del esqueleto
-const TITULO_ESTRUCTURAL = /^(fase|phase|stage|etapa)\s*\d|^(solo|solamente|only|uniquement|nur)\b.*(dificultad|difficulty|difficult|schwierigkeit)|^(resumen|overview|dps|tanque|tanques|sanador|sanadores|healer|healers|tank|tanks)$/i;
+// norm / normArt / TITULO_ESTRUCTURAL / esTituloEstructural / LOCALES_DIARIO vienen de _packs.mjs (antes duplicados aquí y en app.js).
 
 // ------------------------------------------------------ caché de Blizzard --
 
@@ -278,7 +303,7 @@ async function ensureInstances() {
 				instIndex = cached;
 				return instIndex;
 			}
-			console.log("[editor] construyendo índice de instancias del diario (una vez, ~213 llamadas)...");
+			logEditor("debug", "[editor] construyendo índice de instancias del diario (una vez, ~213 llamadas)...");
 			const col = await blizz.api("/data/wow/journal-instance/index");
 			if (col.status !== 200) throw new Error(`journal-instance/index HTTP ${col.status}`);
 			const byId = {};
@@ -295,12 +320,12 @@ async function ensureInstances() {
 						encounters: (r.json.encounters ?? []).map((e) => ({ id: e.id, name: e.name })),
 					};
 				}
-				if (i % 50 === 49) console.log(`[editor]   instancias ${i + 1}/${lista.length}`);
+				if (i % 50 === 49) logEditor("debug", `[editor]   instancias ${i + 1}/${lista.length}`);
 			}
 			instIndex = { fetched: Date.now(), byId };
 			mkdirSync(CACHE, { recursive: true });
-			writeFileSync(instFile, JSON.stringify(instIndex));
-			console.log(`[editor] índice de instancias listo (${Object.keys(byId).length}) → _cache/instances.json`);
+			escribirAtomico(instFile, JSON.stringify(instIndex));
+			logEditor("info", `[editor] índice de instancias listo (${Object.keys(byId).length}) → _cache/instances.json`);
 			return instIndex;
 		};
 	}
@@ -351,7 +376,7 @@ async function nombreInstanciaEn(inst, locale) {
 		if (n) {
 			m[inst.id] = n;
 			mkdirSync(CACHE, { recursive: true });
-			writeFileSync(join(CACHE, `instancia-nombres-${locale}.json`), JSON.stringify(m));
+			escribirAtomico(join(CACHE, `instancia-nombres-${locale}.json`), JSON.stringify(m));
 		}
 		return n || null;
 	} catch {
@@ -370,7 +395,7 @@ mediaMap.v = 2;
 
 function saveMediaMap() {
 	mkdirSync(CACHE, { recursive: true });
-	writeFileSync(mapFile, JSON.stringify(mediaMap));
+	escribirAtomico(mapFile, JSON.stringify(mediaMap));
 }
 
 // empareja nombres de eras/idiomas distintos, por tokens (sin cifras ni
@@ -620,7 +645,59 @@ async function aprenderDelDiario(packName, npcId, localesBase = ["es_ES", "en_US
 
 // ------------------------------------------------------------- Fastify ----
 
+// Escritura atómica (tmp + rename en el mismo volumen): un fallo a mitad
+// (ENOSPC, EPERM) NUNCA deja el fichero destino corrupto. Se declara ANTES
+// de saveSpellNames/saveMediaMap, que la usan y están definidas más arriba.
+function escribirAtomico(ruta, contenido) {
+	const tmp = ruta + ".tmp";
+	writeFileSync(tmp, contenido, "utf8");
+	renameSync(tmp, ruta);
+}
+
 const fastify = Fastify({ logger: false });
+
+// --- hooks de seguridad del editor local ------------------------------------
+// 1) Anti-CSRF / DNS-rebinding: si llega un header Origin, debe ser el propio
+//    editor (127.0.0.1/localhost). Cualquier web externa que intente hablar
+//    con el editor desde el navegador queda bloqueada.
+fastify.addHook("onRequest", (req, reply, done) => {
+	const origin = req.headers.origin;
+	if (origin && !/^http:\/\/(127\.0\.0\.1|localhost)(:\d+)?$/i.test(String(origin))) {
+		return reply.code(403).send({ ok: false, error: "origen no permitido" });
+	}
+	// 2) Path traversal: ningún parámetro de ruta puede contener separadores
+	//    ni secuencias de subida.
+	const url = req.raw.url ?? "";
+	if (url.includes("..") || /%2e/i.test(url)) {
+		return reply.code(400).send({ ok: false, error: "ruta no permitida" });
+	}
+	done();
+});
+
+// Error handler global: los GET sin try/catch propio devuelven 500 opaco con
+// stack; aquí devolvemos siempre JSON limpio sin stack.
+fastify.setErrorHandler((err, req, reply) => {
+	reply.code(err.statusCode ?? 500).send({ ok: false, error: err.message ?? "error interno" });
+});
+
+// Retención de backups: conserva como máximo los últimos N por fichero (por
+// defecto 50); los más viejos se borran al crear uno nuevo.
+const MAX_BACKUPS = Number(process.env.EDITOR_MAX_BACKUPS ?? 50);
+function podarBackups(dirPack, fileBase) {
+	try {
+		const entradas = readdirSync(dirPack)
+			.filter((f) => f.startsWith(fileBase + ".") && f.endsWith(".bak"))
+			.map((f) => ({ f, t: statSyncSafe(join(dirPack, f)) }))
+			.filter((x) => x.t !== null)
+			.sort((a, b) => b.t - a.t); // más reciente primero
+		for (const e of entradas.slice(MAX_BACKUPS)) {
+			try { rmSync(join(dirPack, e.f), { force: true }); } catch { /* sin permisos: se queda */ }
+		}
+	} catch { /* directorio inexistente: nada que podar */ }
+}
+function statSyncSafe(p) {
+	try { return statSync(p).mtimeMs; } catch { return null; }
+}
 
 // estáticos mínimos (dos ficheros, mime manual, nada de plugins)
 const MIME = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json", ".ico": "image/x-icon", ".svg": "image/svg+xml" };
@@ -638,6 +715,21 @@ function serveStatic(reply, file) {
 }
 fastify.get("/", (req, reply) => serveStatic(reply, "index.html"));
 fastify.get("/app.js", (req, reply) => serveStatic(reply, "app.js"));
+fastify.get("/_packs.mjs", (req, reply) => {
+	// redirige al módulo compartido puro (el que puede importar el navegador)
+	reply.redirect(301, "/_compartido.mjs");
+});
+// _compartido.mjs: utilidades PURAS (norm, LOCALES_DIARIO, esTituloEstructural)
+// servidas como módulo ES para que app.js (type=module) las importe sin tener
+// que cargar node:fs en el navegador.
+fastify.get("/_compartido.mjs", (req, reply) => {
+	try {
+		const data = readFileSync(join(ROOT, "web-editor", "_compartido.mjs"));
+		reply.type("text/javascript; charset=utf-8").send(data);
+	} catch {
+		reply.code(404).send("no encontrado");
+	}
+});
 fastify.get("/favicon.ico", (req, reply) => serveStatic(reply, "favicon.ico"));
 fastify.get("/favicon.svg", (req, reply) => serveStatic(reply, "favicon.svg"));
 
@@ -766,19 +858,19 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 		return reply.code(400).send({ ok: false, error: err.message, problems: err.problems ?? null });
 	}
 
-	// backup del original antes de escribir (en _cache/backups/<pack>/; el
-	// sandbox del workspace no permite borrados, así que no se recorta el
-	// histórico — conviene limpiarlo a mano de vez en cuando)
+	// backup del original antes de escribir (en _cache/backups/<pack>/; con
+	// retención automática: solo se conservan los últimos MAX_BACKUPS por fichero)
 	mkdirSync(backupsDir(packName), { recursive: true });
 	const stamp = new Date().toISOString().replace(/[:.]/g, "-");
 	copyFileSync(full, join(backupsDir(packName), `${file}.${stamp}.bak`));
+	podarBackups(backupsDir(packName), file);
 
-	// escritura directa tras validación
-	writeFileSync(full, newText, "utf8");
+	// escritura atómica (tmp + rename): un fallo a mitad no corrompe el pack
+	escribirAtomico(full, newText);
 
 	// recarga honesta del doc desde disco y devolución del estado
 	setDoc(packName, lang, loadLangFile(p.folder, file));
-	buildSpellIndex();
+	rebuildSpellIndexParcial(packName, lang); // solo este pack:lang, no todos
 	return { ok: true, id, created: !existe, partidas, entry: entryDetail(getDoc(packName, lang), id) };
 });
 
@@ -792,11 +884,7 @@ fastify.put("/api/packs/:pack/:lang/:id", async (req, reply) => {
 //       locale destino, casado con el nombre fuente) — ojo: trae los nombres
 //       del juego ACTUAL, en los clásicos pueden diferir de la era,
 //   (3) la IA, que solo entra si aquí no hubo fuente oficial.
-const LOCALES_DIARIO = {
-	es: "es_ES", en: "en_US", fr: "fr_FR", de: "de_DE",
-	ru: "ru_RU", pt: "pt_BR", zh: "zh_CN", ko: "ko_KR",
-};
-
+// LOCALES_DIARIO viene de _packs.mjs (antes duplicado aquí y en app.js).
 // corpus de nombres en disco, carga perezosa y cacheada (null = sin corpus)
 const corpusNombres = new Map(); // pack → { npcId: { es,en,fr,de } } | null
 function corpusJefesDe(packName) {
@@ -886,7 +974,7 @@ fastify.post("/api/traducir", async (req, reply) => {
 	// etapas (nombre oficial API / nombre IA / líneas IA) — si la tanda parece
 	// colgada, la consola del servidor dice en QUÉ entrada y etapa estaba
 	const iniTrad = Date.now();
-	console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — inicio (${det.lines.length} línea(s))`);
+	logEditor("debug", `[editor] IA: ${packName} ${id} ${from}->${to} — inicio (${det.lines.length} línea(s))`);
 	// Cancelación: el navegador se puede ir a mitad del flujo (recarga/F5, el
 	// techo de 240 s del fetch del UI, pestaña cerrada) y sin abortar el flujo
 	// seguía consumiendo la COLA y el modelo minutos con nadie del otro lado —
@@ -938,7 +1026,7 @@ fastify.post("/api/traducir", async (req, reply) => {
 		// líneas: gemela ya traducida si la hay (reuse; _packs.mjs); si no,
 		// el jefe entero en UNA llamada IA (4-5× menos viajes) cayendo al
 		// clásico línea a línea cuando el bloque no verifica limpio
-		console.log(`[editor] IA: ${packName} ${id} — nombre resuelto (${nameSource}, ${((Date.now() - iniTrad) / 1000).toFixed(1)}s)`);
+		logEditor("debug", `[editor] IA: ${packName} ${id} — nombre resuelto (${nameSource}, ${((Date.now() - iniTrad) / 1000).toFixed(1)}s)`);
 		const gemela = gemelaTraducida(srcDoc, getDoc(packName, to), id);
 		const lines = [];
 		if (gemela) lines.push(...gemela.lines);
@@ -947,19 +1035,19 @@ fastify.post("/api/traducir", async (req, reply) => {
 			const bloque = det.lines.length > 1 ? await traducirBloqueIA(det.lines, from, to, { signal: aborto.signal }) : null;
 			if (bloque) {
 				lines.push(...bloque);
-				console.log(`[editor] IA: ${packName} ${id} — bloque OK (${det.lines.length} líneas en ${((Date.now() - t0) / 1000).toFixed(1)}s)`);
+				logEditor("debug", `[editor] IA: ${packName} ${id} — bloque OK (${det.lines.length} líneas en ${((Date.now() - t0) / 1000).toFixed(1)}s)`);
 			} else {
-				console.log(`[editor] IA: ${packName} ${id} — bloque no verificó; línea a línea (${det.lines.length})`);
+				logEditor("debug", `[editor] IA: ${packName} ${id} — bloque no verificó; línea a línea (${det.lines.length})`);
 				let idxLinea = 0;
 				for (const l of det.lines) {
 					idxLinea++;
 					const t0L = Date.now();
 					lines.push(await traducirTextoIA(l, from, to, { signal: aborto.signal }));
-					console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — línea ${idxLinea}/${det.lines.length} en ${((Date.now() - t0L) / 1000).toFixed(1)}s`);
+					logEditor("debug", `[editor] IA: ${packName} ${id} ${from}->${to} — línea ${idxLinea}/${det.lines.length} en ${((Date.now() - t0L) / 1000).toFixed(1)}s`);
 				}
 			}
 		}
-		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — listo en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s (nombre=${nameSource}, ${lines.length} línea(s))`);
+		logEditor("info", `[editor] IA: ${packName} ${id} ${from}->${to} — listo en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s (nombre=${nameSource}, ${lines.length} línea(s))`);
 		return { ok: true, from, to, name, nameSource, lines, reusedFrom: gemela ? String(gemela.id) : null };
 	} catch (err) {
 		if (aborto.signal.aborted) {
@@ -967,10 +1055,10 @@ fastify.post("/api/traducir", async (req, reply) => {
 			// flujo tocó su techo propio: los intentos en vuelo quedaron
 			// abortados y la cola de IA se liberó para lo siguiente. El socket
 			// pudo irse junto: solo queda el log.
-			console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — cortado en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${motivoCorte ?? "cancelado"}`);
+			logEditor("info", `[editor] IA: ${packName} ${id} ${from}->${to} — cortado en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${motivoCorte ?? "cancelado"}`);
 			return;
 		}
-		console.log(`[editor] IA: ${packName} ${id} ${from}->${to} — FALLO en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${err.message}`);
+		logEditor("warn", `[editor] IA: ${packName} ${id} ${from}->${to} — FALLO en ${((Date.now() - iniTrad) / 1000).toFixed(1)}s: ${err.message}`);
 		return reply.code(502).send({ ok: false, error: `traducción IA: ${err.message}` });
 	} finally {
 		clearTimeout(finTecho);
@@ -1073,6 +1161,7 @@ fastify.post("/api/packs/:pack/:lang/importar", async (req, reply) => {
 	mkdirSync(backupsDir(packName), { recursive: true });
 	const stamp = new Date().toISOString().replace(/[:.]/g, "-");
 	copyFileSync(full, join(backupsDir(packName), `${file}.${stamp}.bak`));
+	podarBackups(backupsDir(packName), file);
 
 	const FUENTES_NOTA = {
 		corpus: "nombre del corpus",
@@ -1082,8 +1171,11 @@ fastify.post("/api/packs/:pack/:lang/importar", async (req, reply) => {
 	let texto = readFileSync(full, "utf8");
 	const insertadasPorZona = new Map(); // zoneId → nº insertadas bajo su cabecera
 	try {
+		// UN solo parseo: acumulamos las inserciones sobre el texto con el
+		// desplazamiento de líneas ya calculado (antes se re-parseaba el fichero
+		// entero tras cada entrada → O(n²) con cientos de importadas).
+		let doc = parseDoc(texto);
 		for (const imp of importados) {
-			const doc = parseDoc(texto); // re-parseo tras cada inserción
 			let insertAt;
 			let cabeceraZona = null;
 			if (imp.zone) {
@@ -1113,14 +1205,18 @@ fastify.post("/api/packs/:pack/:lang/importar", async (req, reply) => {
 				cabeceraZona,
 				nota: `Importada de EN (${FUENTES_NOTA[imp.fuente] ?? "nombre provisional"}); tácticas pendientes`,
 			});
+			// el doc crece con cada bloque: lo reParseamos SOLO para las
+			// cabeceras (barato respecto a re-leer disco); alternativamente se
+			// podría mutar doc.lines in-place, pero entryText devuelve texto.
+			doc = parseDoc(texto);
 		}
 		validateText(texto, { oldCount, deltaEntries: importados.length });
 	} catch (err) {
 		return reply.code(400).send({ ok: false, error: err.message, problems: err.problems ?? null });
 	}
-	writeFileSync(full, texto, "utf8");
+	escribirAtomico(full, texto);
 	setDoc(packName, lang, loadLangFile(p.folder, file));
-	buildSpellIndex();
+	rebuildSpellIndexParcial(packName, lang);
 	return { ok: true, importados, total: importados.length };
 });
 
@@ -1145,7 +1241,7 @@ fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 		const yaEstaba = Boolean(p.langs[lang]);
 		if (!yaEstaba) {
 			// fichero de idioma nuevo (si existía de una alta a medias, se respeta)
-			writeFileSync(full, langFileSkeleton(packName, lang), "utf8");
+			escribirAtomico(full, langFileSkeleton(packName, lang));
 		}
 
 		// .toc y registrador SOLO para es/en (listado directo de la casa);
@@ -1159,14 +1255,16 @@ fastify.post("/api/packs/:pack/langs/:lang", async (req, reply) => {
 			// .toc: lista el fichero tras el _en (solo ahora que el fichero existe)
 			const tocFull = join(p.folder, p.tocFile);
 			copyFileSync(tocFull, join(backupsDir(packName), `${p.tocFile}.${stamp}.bak`));
-			writeFileSync(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang), "utf8");
+			podarBackups(backupsDir(packName), p.tocFile);
+			escribirAtomico(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang));
 
 			// registrador: ES/EN ya vienen del generador; se asegura FR/DE por
 			// compatibilidad con altas antiguas (inofensivo si ya están)
 			if (p.registrador) {
 				const regFull = join(p.folder, p.registrador);
 				copyFileSync(regFull, join(backupsDir(packName), `${p.registrador}.${stamp}.bak`));
-				writeFileSync(regFull, registradorAddLangs(readFileSync(regFull, "utf8")), "utf8");
+				podarBackups(backupsDir(packName), p.registrador);
+				escribirAtomico(regFull, registradorAddLangs(readFileSync(regFull, "utf8")));
 			}
 		}
 
@@ -1239,12 +1337,14 @@ fastify.post("/api/packs/:pack/conectar/:lang", async (req, reply) => {
 		// .toc: la línea del fichero tras _en (tocAddLang es idempotente)
 		const tocFull = join(p.folder, p.tocFile);
 		copyFileSync(tocFull, join(backupsDir(packName), `${p.tocFile}.${stamp}.conectar.bak`));
-		writeFileSync(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang), "utf8");
+		podarBackups(backupsDir(packName), p.tocFile);
+		escribirAtomico(tocFull, tocAddLang(readFileSync(tocFull, "utf8"), packName, lang));
 		// registrador: <LANG> = P.<lang> (solo el idioma concreto)
 		if (p.registrador) {
 			const regFull = join(p.folder, p.registrador);
 			copyFileSync(regFull, join(backupsDir(packName), `${p.registrador}.${stamp}.conectar.bak`));
-			writeFileSync(regFull, registradorAddLangs(readFileSync(regFull, "utf8"), [lang]), "utf8");
+			podarBackups(backupsDir(packName), p.registrador);
+			escribirAtomico(regFull, registradorAddLangs(readFileSync(regFull, "utf8"), [lang]));
 		}
 		// re-carga del inventario (el .toc ya lista el idioma)
 		const fresh = listPacks(root).find((x) => x.name === packName);
@@ -1314,10 +1414,11 @@ fastify.post("/api/packs/:pack/:lang/limpiar", async (req, reply) => {
 		const stamp = new Date().toISOString().replace(/[:.]/g, "-");
 		const bak = join(backupsDir(packName), `${file}.${stamp}.prelimpiar.bak`);
 		copyFileSync(full, bak);
+		podarBackups(backupsDir(packName), file);
 
-		writeFileSync(full, nuevo, "utf8");
+		escribirAtomico(full, nuevo);
 		setDoc(packName, lang, loadLangFile(p.folder, file));
-		buildSpellIndex();
+		rebuildSpellIndexParcial(packName, lang);
 		return { ok: true, file, entradas: antes, vinetas: cortadas, backup: bak };
 	} catch (err) {
 		return reply.code(400).send({ ok: false, error: err.message, problems: err.problems ?? null });
@@ -1456,7 +1557,7 @@ fastify.get("/api/cobertura/:pack", async (req, reply) => {
 			await aprenderDelDiario(pack, ent.id, ["es_ES", "en_US"]);
 			// solo habilidades de verdad: fuera grupos "Fase N", avisos de
 			// dificultad y encabezados de rol; sin duplicados por rol
-			const secciones = (media.sections ?? []).filter((s) => String(s.title ?? "").trim() && !TITULO_ESTRUCTURAL.test(s.title));
+			const secciones = (media.sections ?? []).filter((s) => String(s.title ?? "").trim() && !esTituloEstructural(s.title));
 			const vistos = new Set();
 			fila.total = 0;
 			for (const s of secciones) {

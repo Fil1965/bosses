@@ -1,0 +1,4 @@
+# EOL uniforme LF en todo el repo (los ficheros de localización de core
+# es/fr/de estaban en CRLF y los pt/zh/ru/ko en LF; git los normalizaba
+# distintos según la máquina, dando diffs fantasma de línea entera).
+* text eol=lf

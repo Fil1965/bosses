@@ -1,9 +1,15 @@
 ## Interface: 120105, 50504, 20506, 11509, 16001
 ## Title: Bosses
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.17
+## Version: 1.0.18
 ## Notes: Describes Boss Encounters
 ## Notes-esES: Describe Encuentros en Instancias
+## Notes-frFR: Décrit les rencontres de boss
+## Notes-deDE: Beschreibt Bosskämpfe
+## Notes-ptBR: Descreve os encontros de chefes
+## Notes-zhCN: 描述首领战斗
+## Notes-ruRU: Описывает бои с боссами
+## Notes-koKR: 보스 전투 설명
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Category: Combat
 ## SavedVariablesPerCharacter: BossesConfig BosesConfig

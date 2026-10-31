@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for Shadowlands dungeons and raids (ES/EN)
 ## Notes-esES: Explicaciones de los jefes de Shadowlands (mazmorras y bandas) (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.11
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_Shadowlands_es.lua

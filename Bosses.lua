@@ -48,6 +48,11 @@ local _, Bosses = ...;
 
 local ADDON_NAME = "Bosses";
 
+-- Compatibilidad entre flavors: en Lua 5.1 (Era/TBC/MoP clásicos) el global
+-- es unpack(); en 5.4 (Midnight) vive en table.unpack. Alias único para no
+-- depender de cuál exista (ver comentario en registro de packs).
+local unpackArgs = table.unpack or unpack;
+
 local settingsCategory = nil;
 local canalChecks = nil;
 local firmaCheck = nil;
@@ -57,10 +62,17 @@ local debugCheck = nil;
 local encuentroActivo = nil;   -- nombre del encuentro en curso (ENCOUNTER_START)
 local encuentroActivoID = nil; -- id del encuentro en curso (arg1 de ENCOUNTER_START)
 local contadorEncuentros = 0;  -- ENCOUNTER_START recibidos desde la carga (diagnóstico)
+-- esSecreto: true si v es un valor secreto de Midnight (o el cliente no
+-- tiene issecretvalue → nunca es secreto). Declaración adelantada: se usa en
+-- aTexto/npcIdFromGUIDChecked, definidos ANTES que el cuerpo de más abajo.
+local esSecreto;
+
 local explicadosRecientes = {}; -- claves ya explicadas en el encuentro en curso (anti-duplicado multi-vía)
 local hablantesAnotados = {};   -- anti-spam del registro de depuración de hablantes (clave → GetTime())
+local MAX_HABLANTES = 500;      -- tope de claves en hablantesAnotados (fuga lenta si no)
 local MAX_DEBUG = 1000;         -- tope de líneas del registro de depuración
 local finCombate = 0;          -- GetTime() del último fin de combate (para ignorar los gritos de muerte)
+local timersCable = {};        -- handles de C_Timer.After del goteo de enviarAlCable (cancelables)
 
 -- Salida a la ventana de chat con fallbacks: Midnight puede deshabilitar
 -- print en ejecución contaminada por valores secretos. Se define antes de
@@ -88,12 +100,14 @@ end
 -- WTF\Account\<cuenta>\SavedVariables\Bosses.lua al salir o recargar
 -- (limitación del cliente: las SavedVariables no se pueden escribir bajo
 -- demanda). Inspección inmediata en sesión: /bosses log
+-- OJO: esSecreto se declara MÁS ABAJO (adelante), pero Lua lo resuelve en
+-- tiempo de ejecución (upvalue), así que aquí ya vale.
 local function aTexto(v)
 	if v == nil then
 		return "";
 	end
 
-	if issecretvalue ~= nil and issecretvalue(v) then
+	if esSecreto(v) then
 		return "<secreto>";
 	end
 
@@ -191,7 +205,7 @@ local function npcIdFromGUIDChecked(guid)
 	-- Midnight: el cliente trae el global issecretvalue() para detectar
 	-- valores secretos sin lanzar error (los GUIDs de las unidades pueden
 	-- serlo, p. ej. en combate). Ver también npcIdFromGUID.
-	if issecretvalue ~= nil and issecretvalue(guid) then
+	if esSecreto(guid) then
 		return nil;
 	end
 
@@ -225,6 +239,40 @@ local function initBossesConfig()
 
 	if BossesConfig.CANAL == nil then
 		BossesConfig.CANAL = "AUTO";
+	end
+
+	-- Tamaño/posición del frame de alerta (redimensionable desde 1.0.18):
+	-- framePos guarda { point, rel, x, y, w, h }. Sin w/h (config antigua) se
+	-- usa el ancho por omisión 360.
+	if type(BossesConfig.framePos) == "table" then
+		if type(BossesConfig.framePos.w) ~= "number" or BossesConfig.framePos.w < 260 then
+			BossesConfig.framePos.w = 360;
+		end
+		if type(BossesConfig.framePos.h) ~= "number" or BossesConfig.framePos.h < 100 then
+			BossesConfig.framePos.h = nil; -- alto libre (auto) por omisión
+		end
+	end
+	-- Aspectos del frame de alerta
+	if BossesConfig.alertaMaxAlto == nil then
+		BossesConfig.alertaMaxAlto = 0.6; -- fracción de la altura de pantalla para el tope del scroll (0 = sin tope)
+	end
+	if BossesConfig.alertaOpacidad == nil then
+		BossesConfig.alertaOpacidad = 0.85;
+	end
+	if BossesConfig.alertaOculta == nil then
+		BossesConfig.alertaOculta = false; -- frame siempre visible aunque no haya nada que mostrar
+	end
+	if BossesConfig.alertaFuente == nil then
+		BossesConfig.alertaFuente = 1.0; -- escala de la fuente del cuerpo (0.8–1.3)
+	end
+	if BossesConfig.alertaBloqueado == nil then
+		BossesConfig.alertaBloqueado = false; -- candado de posición (no se mueve con clic izdo)
+	end
+	if BossesConfig.alertaColapsado == nil then
+		BossesConfig.alertaColapsado = false; -- empieza colapsado (solo cabecera)
+	end
+	if BossesConfig.alertaAltoAuto == nil then
+		BossesConfig.alertaAltoAuto = true; -- el alto sigue al texto; al arrastrar el grip pasa a manual
 	end
 
 	if BossesConfig.IDIOMA == nil then
@@ -367,24 +415,40 @@ local function partirAlCable(s, limite)
 end
 
 -- Envío al canal respetando el límite: tal cual si cabe (la práctica
--- totalidad de las líneas); si no, trocea y gotea a 0.25 s — la cadencia del
+-- totalité de las líneas); si no, trocea y gotea a 0.25 s — la cadencia del
 -- reparto frío, para no chocar encima con el throttle silencioso del chat.
 -- Una línea larga SIN esto se pierde ENTERA (el cliente la rechaza).
-local function enviarAlCable(texto, canal)
+local function enviarAlCable(texto, canal, sinCancelar)
+	-- Cancela el goteo anterior: una nueva línea reemplaza a la que estaba
+	-- goteando (no tiene sentido enviar trozos viejos intercalados).
+	-- Con sinCancelar (el envío manual al grupo del modo "solo frame") NO se
+	-- cancela: ahí van varias líneas seguidas y una línea larga troceada
+	-- perdería sus trozos al llegar la siguiente.
+	if not sinCancelar then
+		for _, t in ipairs(timersCable) do
+			t:Cancel();
+		end
+		timersCable = {};
+	end
+
 	if #texto <= LIMITE_CABLE then
-		SendChatMessage(texto, canal);
+		pcall(SendChatMessage, texto, canal); -- pcall: en la microcarrera del pull puede ir bloqueado
 		return;
 	end
 	local trozos = partirAlCable(texto, LIMITE_CABLE);
 	debugLog("chat", "línea de " .. tostring(#texto) .. " bytes → " .. tostring(#trozos) .. " trozos");
 	for k, t in ipairs(trozos) do
 		if k == 1 then
-			SendChatMessage(t, canal);
+			pcall(SendChatMessage, t, canal);
 		else
 			local trozo = t;
-			C_Timer.After((k - 1) * 0.25, function()
-				SendChatMessage(trozo, canal);
+			local timer = C_Timer.After((k - 1) * 0.25, function()
+				-- Guarda de zona caliente: si el combate empezó en mitad del
+				-- goteo, no seguimos enviando (el cliente los bloquearía).
+				if enZonaCaliente() then return; end
+				pcall(SendChatMessage, trozo, canal);
 			end);
+			table.insert(timersCable, timer);
 		end
 	end
 end
@@ -563,22 +627,199 @@ end
 -- el dueño ve aquí TODA la explicación (los envíos de chat a grupo se
 -- bloquean y tras morir el jefe ya no se retiene nada para después),
 -- con el marcado completo y links activos. Se oculta 15s tras el fin
--- del combate y se puede arrastrar.
+-- del combate, se puede arrastrar (clic izdo) y REDIMENSIONAR (clic dcho
+-- en la esquina inferior derecha), con historial ◀ ▶, colapso, candado
+-- y click en el nombre = target (mejoras 1.0.18). El alto del cuerpo tiene
+-- tope configurable y scroll con la rueda del ratón.
 local alertaFrame = nil;   -- creado perezoso
 local alertaOcultar = nil; -- el C_Timer que lo esconde tras el combate
+local alertaOcultarTimer = nil; -- handle del C_Timer.NewTicker de la barra de cuenta atrás
+local alertaBarraCuenta = nil;  -- textura de la barra de cuenta atrás (auto-ocultado)
 local frameNpcId = nil;   -- jefe MOSTRADO con entrada (botón "al chat")
 local frameIdEditor = nil; -- último npc id visto en el frame, DESCrito o no (botón "editar")
+local frameGuid = nil;    -- GUID del jefe mostrado (click en el nombre = target)
+local historialAlerta = {};  -- { { titulo, lineas = {…}, npcId, guid } } explicaciones de la sesión
+local historialIdx = 0;       -- índice dentro de historialAlerta (0 = la última)
+local alertaColapsado = false; -- estado de colapso (persistido en BossesConfig)
+local redimensionando = false; -- true mientras se arrastra el grip de tamaño
+local actualizarBotonChat; -- declaración adelantada: navegarHistorial la usa y se define después
+local ajustarScrollAlerta; -- declaración adelantada: ajustarAlturaAlerta la llama y se define después
+
+-- Cliente actual (interfaz): 12xxxx = retail (Midnight), 50504 = MoP,
+-- 20506 = TBC, 11509 = Era Classic, 16001 = WoW Forever. Los atlases
+-- vectoriales del juego (common-icon-backarrow, communities-icon-lock,
+-- RedButton-Exit…) solo existen en retail; en los clásicos caemos a las
+-- texturas clásicas o a texto ASCII.
+local interfazCliente = select(4, GetBuildInfo());
+local clienteModerno = type(interfazCliente) == "number" and interfazCliente >= 90000;
+
+-- Botón con icono: en retail, atlas del juego; en clásicos, textura
+-- clásica; si no hay ninguna, texto ASCII (siempre en la fuente).
+local function botonIcono(parent, tam, atlas, textura, texto, tooltip, onClick)
+	local btn = CreateFrame("Button", nil, parent);
+	btn:SetSize(tam, tam);
+	local tex = btn:CreateTexture(nil, "OVERLAY");
+	tex:SetSize(tam - 2, tam - 2);
+	tex:SetPoint("CENTER");
+	if clienteModerno and atlas ~= nil then
+		tex:SetAtlas(atlas);
+	elseif textura ~= nil then
+		tex:SetTexture(textura);
+		tex:SetTexCoord(0, 1, 0, 1);
+	end
+	btn:SetNormalTexture(tex);
+	local hi = btn:CreateTexture(nil, "HIGHLIGHT");
+	hi:SetAllPoints();
+	hi:SetColorTexture(1, 1, 1, 0.12);
+	btn:SetHighlightTexture(hi);
+	if texto ~= nil and not (clienteModerno and atlas ~= nil) then
+		btn:SetNormalFontObject("GameFontHighlight");
+		btn:SetText(texto);
+	end
+	if tooltip ~= nil then
+		btn:SetScript("OnEnter", function(self)
+			if GameTooltip ~= nil then
+				GameTooltip:SetOwner(self, "ANCHOR_BOTTOM");
+				GameTooltip:SetText(tooltip, 1, 1, 1);
+				GameTooltip:Show();
+			end
+		end);
+		btn:SetScript("OnLeave", function()
+			if GameTooltip ~= nil then GameTooltip:Hide(); end
+		end);
+	end
+	if onClick ~= nil then
+		btn:SetScript("OnClick", function(self, boton) onClick(self, boton); end);
+	end
+	return btn;
+end
+
+-- Ancho útil del texto dentro del frame (margen izdo+dcho = 16+16)
+local function anchoTextoAlerta()
+	if alertaFrame == nil then return 328; end
+	return math.max(120, alertaFrame:GetWidth() - 32);
+end
+
+-- Recoloca el texto para el ancho actual del frame (tras redimensionar)
+local function rewrapAlerta()
+	if alertaFrame == nil then return; end
+	local w = anchoTextoAlerta();
+	alertaFrame.nombre:SetWidth(w);
+	alertaFrame.cuerpo:SetWidth(w);
+	if alertaFrame.divisor ~= nil then
+		alertaFrame.divisor:SetPoint("RIGHT", -16, 0);
+	end
+	if alertaFrame.scroll ~= nil and alertaFrame.scrollChild ~= nil then
+		alertaFrame.cuerpo:SetWidth(w - 4);
+	end
+	ajustarAlturaAlerta();
+end
+
+-- Aplica el estado de colapso: solo cabecera (marca + nombre + botones
+-- de la fila superior) o frame completo.
+local function aplicarColapso()
+	if alertaFrame == nil then return; end
+	local colapsado = alertaColapsado;
+	if alertaFrame.divisor ~= nil then alertaFrame.divisor:SetShown(not colapsado); end
+	if alertaFrame.scroll ~= nil then alertaFrame.scroll:SetShown(not colapsado); end
+	if alertaFrame.botonChat ~= nil then alertaFrame.botonChat:SetShown(not colapsado and alertaFrame.botonChat.__visible); end
+	if alertaFrame.botonEditar ~= nil then alertaFrame.botonEditar:SetShown(not colapsado and alertaFrame.botonEditar.__visible); end
+	if alertaFrame.colapsarBtn ~= nil then
+		-- Icono: flecha hacia arriba = plegar (está desplegado), hacia abajo =
+		-- desplegar (está plegado). En retail es el atlas del juego; en los
+		-- clásicos, "^"/"v" en ASCII (la fuente no tiene ▴/▾: salían como "[]").
+		if clienteModerno then
+			local tex = alertaFrame.colapsarBtn:GetNormalTexture();
+			if tex ~= nil then
+				tex:SetAtlas(colapsado and "auctionhouse-ui-dropdown-arrow-down" or "auctionhouse-ui-dropdown-arrow-up");
+			end
+		else
+			alertaFrame.colapsarBtn:SetText(colapsado and "v" or "^");
+		end
+	end
+	ajustarAlturaAlerta();
+end
+
+local function alternarColapso()
+	alertaColapsado = not alertaColapsado;
+	BossesConfig.alertaColapsado = alertaColapsado and true or false;
+	aplicarColapso();
+end
+
+-- Candado de posición: con él puesto, el drag izquierdo no mueve el frame
+local function aplicarCandado()
+	if alertaFrame == nil then return; end
+	local bloqueado = BossesConfig.alertaBloqueado and true or false;
+	alertaFrame:SetMovable(not bloqueado);
+	-- Icono del candado: en retail, el atlas "communities-icon-lock" (se
+	-- tiñe de rojo cuando está bloqueado); en los clásicos, la textura
+	-- clásica del candado del juego (roja = bloqueada, amarilla = libre).
+	local texCandado = nil;
+	if alertaFrame.candadoBtn ~= nil then
+		texCandado = alertaFrame.candadoBtn:GetNormalTexture();
+	end
+	if texCandado ~= nil then
+		if clienteModerno then
+			texCandado:SetAtlas("communities-icon-lock");
+			if bloqueado then
+				texCandado:SetVertexColor(1, 0.45, 0.45);
+			else
+				texCandado:SetVertexColor(1, 0.95, 0.7);
+			end
+		else
+			if bloqueado then
+				texCandado:SetTexture("Interface\\Buttons\\LockButton-Locked-Up");
+			else
+				texCandado:SetTexture("Interface\\Buttons\\LockButton-Unlocked-Up");
+			end
+		end
+	end
+end
+
+local function alternarCandado()
+	BossesConfig.alertaBloqueado = not (BossesConfig.alertaBloqueado and true or false);
+	aplicarCandado();
+end
 local function ocultarAlerta()
 	if alertaOcultar ~= nil then
 		alertaOcultar:Cancel();
 		alertaOcultar = nil;
 	end
+	if alertaOcultarTimer ~= nil then
+		alertaOcultarTimer:Cancel();
+		alertaOcultarTimer = nil;
+	end
+	if alertaBarraCuenta ~= nil then
+		alertaBarraCuenta:Hide();
+	end
 	if alertaFrame == nil or alertaFrame:IsShown() == false then
 		return;
 	end
+	if BossesConfig.alertaOculta then
+		-- Con "siempre visible" no hay auto-ocultado ni barra de cuenta atrás
+		return;
+	end
+	-- Barra de cuenta atrás: textura fina en el borde inferior que se vacía
+	-- en 15 s para avisar de que el frame se cerrará solo.
+	if alertaBarraCuenta ~= nil then
+		local t0 = GetTime();
+		local anchoMax = alertaFrame:GetWidth() - 12;
+		alertaBarraCuenta:Show();
+		alertaBarraCuenta:SetWidth(anchoMax);
+		alertaOcultarTimer = C_Timer.NewTicker(0.1, function()
+			if alertaFrame == nil or alertaFrame:IsShown() == false or alertaBarraCuenta == nil then return; end
+			local queda = 15 - (GetTime() - t0);
+			if queda <= 0 then return; end
+			alertaBarraCuenta:SetWidth(math.max(0, anchoMax * (queda / 15)));
+		end);
+	end
 	alertaOcultar = C_Timer.After(15, function()
 		alertaOcultar = nil;
-		if alertaFrame ~= nil then
+		if alertaOcultarTimer ~= nil then
+			alertaOcultarTimer:Cancel();
+			alertaOcultarTimer = nil;
+		end
+		if alertaFrame ~= nil and alertaFrame.nombre ~= nil and alertaFrame.cuerpo ~= nil then
 			alertaFrame.nombre:SetText("");
 			alertaFrame.cuerpo:SetText("");
 			alertaFrame:Hide();
@@ -613,40 +854,190 @@ function salidaEnPantalla(linea, nueva)
 		alertaFrame:EnableMouse(true);
 		alertaFrame:SetMovable(true);
 		alertaFrame:RegisterForDrag("LeftButton");
-		alertaFrame:SetScript("OnDragStart", alertaFrame.StartMoving);
+		alertaFrame:SetScript("OnDragStart", function(self)
+			-- Si estamos redimensionando, el arrastre NO mueve el frame
+			-- (el grip y el drag comparten el botón izquierdo, patrón DBM).
+			-- OJO: este cliente NO tiene Frame:IsSizing() (no existe en
+			-- Midnight 12.1.5: "attempt to call a nil value"), así que el
+			-- estado lo lleva nuestra propia bandera.
+			if redimensionando then
+				return;
+			end
+			self:StartMoving();
+		end);
 		alertaFrame:SetScript("OnDragStop", function(self)
 			self:StopMovingOrSizing();
 			-- Guardar dónde quedó el frame: por personaje, igual que la
 			-- posición del botón de minimapa.
 			local punto, _, relativo, x, y = self:GetPoint(1);
 			if punto ~= nil then
-				BossesConfig.framePos = { point = punto, rel = relativo or punto, x = x or 0, y = y or 0 };
+				local fp = BossesConfig.framePos;
+				if type(fp) ~= "table" then fp = {}; BossesConfig.framePos = fp; end
+				fp.point = punto; fp.rel = relativo or punto; fp.x = x or 0; fp.y = y or 0;
 			end
 		end);
-		-- Botón X de cierre (además de la tecla ESC). Sin plantilla:
-		-- UIPanelCloseButtonTemplate no existe en Midnight 12.1.
-		local cerrar = CreateFrame("Button", nil, alertaFrame);
-		cerrar:SetSize(18, 18);
-		cerrar:SetPoint("TOPRIGHT", -6, -6);
-		cerrar:SetNormalFontObject("GameFontHighlightLarge");
-		cerrar:SetText("×");
-		local resalteCerrar = cerrar:CreateTexture(nil, "HIGHLIGHT");
-		resalteCerrar:SetAllPoints(cerrar);
-		resalteCerrar:SetColorTexture(1, 0.4, 0.4, 0.3);
-		cerrar:SetHighlightTexture(resalteCerrar);
-		cerrar:SetScript("OnClick", function()
+		-- 1.0.18: REDIMENSIONABLE. Patrón copiado del de DBM (el frame de
+		-- jefes más usado): un botón de 16x16 en la esquina inferior derecha
+		-- que con el BOTÓN IZQUIERDO llama a StartSizing("BOTTOMRIGHT").
+		-- OJO: la textura correcta es "UI-ChatIM-SizeGrabber-Up" (con guion
+		-- entre IM y Size); con la ruta sin guion la textura no existía y el
+		-- grip salía invisible → "no se puede redimensionar" (fallo del
+		-- 2026-10-31, reportado por el dueño).
+		alertaFrame:SetResizable(true);
+		if alertaFrame.SetMinResize ~= nil then
+			alertaFrame:SetMinResize(260, 100);
+		end
+		if alertaFrame.SetMaxResize ~= nil then
+			alertaFrame:SetMaxResize(900, 1000);
+		end
+		local grip = CreateFrame("Button", nil, alertaFrame);
+		grip:SetSize(16, 16);
+		grip:EnableMouse(true);
+		grip:SetPoint("BOTTOMRIGHT", alertaFrame, "BOTTOMRIGHT", 1, 1);
+		local gripTex = grip:CreateTexture(nil, "OVERLAY");
+		gripTex:SetTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up");
+		gripTex:SetTexCoord(0, 1, 0, 1);
+		gripTex:SetPoint("BOTTOMLEFT", grip, 0, 1);
+		gripTex:SetPoint("TOPRIGHT", grip, -1, 0);
+		grip:SetNormalTexture(gripTex);
+		local gripHi = grip:CreateTexture(nil, "OVERLAY");
+		gripHi:SetTexture("Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight");
+		gripHi:SetTexCoord(0, 1, 0, 1);
+		gripHi:SetPoint("BOTTOMLEFT", grip, 0, 1);
+		gripHi:SetPoint("TOPRIGHT", grip, -1, 0);
+		grip:SetHighlightTexture(gripHi);
+		grip:SetScript("OnMouseDown", function(self, boton)
+			-- Botón izquierdo (como DBM): con el derecho no es fiable en
+			-- todos los clientes.
+			if boton == "LeftButton" then
+				redimensionando = true;
+				-- El alto pasa a manual YA (no al soltar): si el ratón se
+				-- suelta fuera del grip, el OnMouseUp no llega y el alto
+				-- elegido debe respetarse igualmente.
+				BossesConfig.alertaAltoAuto = false;
+				alertaFrame:StartSizing("BOTTOMRIGHT");
+			end
+		end);
+		grip:SetScript("OnMouseUp", function(self, boton)
+			if boton == "LeftButton" then
+				redimensionando = false;
+				alertaFrame:StopMovingOrSizing();
+				-- Guardar el tamaño elegido: el alto deja de ser automático
+				-- (si no, ajustarAlturaAlerta lo reventaba).
+				local fp = BossesConfig.framePos;
+				if type(fp) ~= "table" then fp = {}; BossesConfig.framePos = fp; end
+				fp.w = alertaFrame:GetWidth();
+				fp.h = alertaFrame:GetHeight();
+				BossesConfig.alertaAltoAuto = false;
+				rewragAlertaResize();
+			end
+		end);
+		grip:SetScript("OnEnter", function(self)
+			if GameTooltip ~= nil then
+				GameTooltip:SetOwner(self, "ANCHOR_TOPLEFT");
+				GameTooltip:SetText("|cffffd100Bosses|r: arrastra para redimensionar", 1, 1, 1);
+				GameTooltip:Show();
+			end
+		end);
+		grip:SetScript("OnLeave", function()
+			if GameTooltip ~= nil then GameTooltip:Hide(); end
+		end);
+		alertaFrame.grip = grip;
+		-- Reajuste del texto al cambiar el tamaño (OnSizeChanged cubre tanto
+		-- el drag de resize como cualquier SetWidth externo).
+		-- OJO: durante el drag de resize NO se guarda el tamaño ni se recalcula
+		-- el alto (el frame manda: si no, ajustarAlturaAlerta le pelea el
+		-- alto al ratón). El tamaño se guarda al soltar (OnMouseUp del grip).
+		alertaFrame:SetScript("OnSizeChanged", function(self, w, h)
+			if self.nombre == nil then
+				-- El frame se está montando todavía (este handler se
+				-- instala antes que los textos): no se guarda ni se
+				-- reenvuelve nada, o el alto manual se pisaría al montar.
+				return;
+			end
+			-- Guardar el tamaño elegido (también durante el arrastre: el
+			-- último valor es el final).
+			local fp = BossesConfig.framePos;
+			if type(fp) == "table" then
+				fp.w = w; fp.h = h;
+			end
+			if redimensionando then
+				-- Solo el texto se reenvuelve mientras se arrastra
+				local ww = anchoTextoAlerta();
+				self.nombre:SetWidth(ww);
+				if self.cuerpo ~= nil then
+					self.cuerpo:SetWidth(math.max(80, ww - 4));
+				end
+				if self.scrollChild ~= nil then
+					self.scrollChild:SetWidth(math.max(80, ww - 4));
+				end
+				return;
+			end
+			rewragAlertaResize();
+		end);
+		-- Botón X de cierre (además de la tecla ESC). En retail usamos el
+		-- atlas "RedButton-Exit" del juego (la X roja oficial, la misma que
+		-- usan las ventanas nativas); en los clientes clásicos, la textura
+		-- clásica "UI-PanelCloseButton-Up".
+		local cerrar = botonIcono(alertaFrame, 18, "RedButton-Exit", "Interface\\Buttons\\UI-PanelCloseButton-Up", nil, nil, function()
 			if alertaOcultar ~= nil then
 				alertaOcultar:Cancel();
 				alertaOcultar = nil;
 			end
 			alertaFrame:Hide();
 		end);
+		cerrar:SetPoint("TOPRIGHT", -6, -6);
+		-- Fila de botones de la cabecera (1.0.18): historial, colapsar y
+		-- candado. Iconos del juego: en retail, atlases vectoriales
+		-- (common-icon-backarrow / forwardarrow, communities-icon-lock,
+		-- auctionhouse-ui-dropdown-arrow-up); en los clásicos, texturas
+		-- clásicas o ASCII (la fuente del juego no tiene ◀ ▶ ▴ 🔒 y salían
+		-- como cajitas "[]" — fallo del 2026-10-31).
+		local histPrev = botonIcono(alertaFrame, 18, "common-icon-backarrow", nil, "<", L["Previous"], function()
+			navegarHistorial(-1);
+		end);
+		histPrev:SetPoint("TOPRIGHT", cerrar, "TOPLEFT", -4, 0);
+		alertaFrame.histPrev = histPrev;
+		local histNext = botonIcono(alertaFrame, 18, "common-icon-forwardarrow", nil, ">", L["Next"], function()
+			navegarHistorial(1);
+		end);
+		histNext:SetPoint("RIGHT", histPrev, "LEFT", -2, 0);
+		alertaFrame.histNext = histNext;
+		local colapsarBtn = botonIcono(alertaFrame, 18, "auctionhouse-ui-dropdown-arrow-up", nil, "^", L["Collapse"], function()
+			alternarColapso();
+		end);
+		colapsarBtn:SetPoint("RIGHT", histNext, "LEFT", -2, 0);
+		alertaFrame.colapsarBtn = colapsarBtn;
+		local candadoBtn = botonIcono(alertaFrame, 18, "communities-icon-lock", "Interface\\Buttons\\LockButton-Unlocked-Up", nil, L["Lock"], function()
+			alternarCandado();
+		end);
+		candadoBtn:SetPoint("RIGHT", colapsarBtn, "LEFT", -2, 0);
+		alertaFrame.candadoBtn = candadoBtn;
 		-- La primera vez se abre centrado arriba; después, donde lo
 		-- dejaste la última vez (guardado por personaje). La validación
 		-- estricta evita anclas corruptas que cascarían la creación.
+		-- Con el tamaño: el ancho siempre es el del dueño; el alto solo si
+		-- se redimensionó a mano (alto automático off).
 		local fp = BossesConfig.framePos;
 		if type(fp) == "table" and type(fp.point) == "string" and type(fp.rel) == "string" and type(fp.x) == "number" and type(fp.y) == "number" then
 			alertaFrame:SetPoint(fp.point, UIParent, fp.rel, fp.x, fp.y);
+			-- Los valores se copian ANTES de aplicarlos: el SetWidth dispara
+			-- OnSizeChanged, que vuelve a guardar el tamaño y pisaría el
+			-- alto manual que vamos a poner justo después.
+			local anchoGuardado = nil;
+			local altoGuardado = nil;
+			if type(fp.w) == "number" and fp.w >= 260 then
+				anchoGuardado = fp.w;
+			end
+			if BossesConfig.alertaAltoAuto == false and type(fp.h) == "number" and fp.h >= 100 then
+				altoGuardado = fp.h;
+			end
+			if anchoGuardado ~= nil then
+				alertaFrame:SetWidth(anchoGuardado);
+			end
+			if altoGuardado ~= nil then
+				alertaFrame:SetHeight(altoGuardado);
+			end
 		else
 			alertaFrame:SetPoint("TOP", 0, -170);
 		end
@@ -658,7 +1049,8 @@ function salidaEnPantalla(linea, nueva)
 			tile = true, tileSize = 16, edgeSize = 16,
 			insets = { left = 3, right = 3, top = 3, bottom = 3 },
 		});
-		alertaFrame:SetBackdropColor(0.06, 0.06, 0.08, 0.85);
+		local opacidad = tonumber(BossesConfig.alertaOpacidad) or 0.85;
+		alertaFrame:SetBackdropColor(0.06, 0.06, 0.08, opacidad);
 		-- Etiqueta pequeña dorada con la marca del addon
 		local marca = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
 		marca:SetPoint("TOPLEFT", 16, -10);
@@ -668,11 +1060,61 @@ function salidaEnPantalla(linea, nueva)
 		-- Nombre del jefe como cabecera grande de la explicación
 		local nombre = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge");
 		nombre:SetPoint("TOPLEFT", marca, "BOTTOMLEFT", 0, -4);
-		nombre:SetWidth(328);
+		nombre:SetWidth(anchoTextoAlerta());
 		nombre:SetJustifyH("LEFT");
 		if nombre.SetHyperlinksEnabled ~= nil then
 			nombre:SetHyperlinksEnabled(true); -- links clicables; sin el método el texto sale igual, solo sin link
 		end
+		-- 1.0.18: click en la CABECERA = target al jefe (si tenemos su GUID);
+		-- doble click en la cabecera = colapsar/expandir. Se hace a mano con
+		-- OnMouseDown/OnMouseUp porque un Frame plano no admite OnDoubleClick
+		-- en todos los clientes ("script type not supported" rompía la
+		-- creación a mitad). Solo cuenta si el ratón NO se movió (así un drag
+		-- desde la cabecera mueve el frame sin hacer target) y dentro del
+		-- rectángulo del nombre, para no interferir con los links del cuerpo.
+		local clickCabeza = nil; -- { t, x, y } del último clic dentro de la cabecera
+		local ultimoDobleClick = 0;
+		local function dentroDeLaCabecera(self)
+			if self.nombre == nil then return false; end
+			local _, _, x, y = self.nombre:GetRect();
+			if x == nil or y == nil then return false; end
+			local cx, cy = GetCursorPosition();
+			local escala = UIParent:GetEffectiveScale();
+			cx, cy = cx / escala, cy / escala;
+			local fx, fy = self:GetLeft(), self:GetBottom();
+			if fx == nil or fy == nil then return false; end
+			local dentroX = cx >= fx + x and cx <= fx + x + self.nombre:GetWidth();
+			local dentroY = cy >= fy + y and cy <= fy + y + self.nombre:GetHeight();
+			return dentroX and dentroY;
+		end
+		alertaFrame:SetScript("OnMouseDown", function(self, boton)
+			if boton ~= "LeftButton" then return; end
+			if dentroDeLaCabecera(self) then
+				local cx, cy = GetCursorPosition();
+				local escala = UIParent:GetEffectiveScale();
+				clickCabeza = { t = GetTime(), x = cx / escala, y = cy / escala };
+			else
+				clickCabeza = nil;
+			end
+		end);
+		alertaFrame:SetScript("OnMouseUp", function(self, boton)
+			if boton ~= "LeftButton" or clickCabeza == nil then return; end
+			local c = clickCabeza;
+			clickCabeza = nil;
+			if not dentroDeLaCabecera(self) then return; end
+			local cx, cy = GetCursorPosition();
+			local escala = UIParent:GetEffectiveScale();
+			cx, cy = cx / escala, cy / escala;
+			if math.abs(cx - c.x) > 5 or math.abs(cy - c.y) > 5 then return; end -- era un drag
+			local ahora = GetTime();
+			if ahora - ultimoDobleClick < 0.5 then
+				ultimoDobleClick = 0;
+				alternarColapso();
+			elseif frameGuid ~= nil then
+				ultimoDobleClick = ahora;
+				pcall(TargetUnit, frameGuid);
+			end
+		end);
 		alertaFrame.nombre = nombre;
 		-- Divisoria dorada fina bajo el nombre
 		local divisor = alertaFrame:CreateTexture(nil, "OVERLAY");
@@ -680,29 +1122,84 @@ function salidaEnPantalla(linea, nueva)
 		divisor:SetHeight(1);
 		divisor:SetPoint("TOPLEFT", nombre, "BOTTOMLEFT", 0, -6);
 		divisor:SetPoint("RIGHT", -16, 0);
-		-- Cuerpo: cada consejo en su párrafo, con viñeta dorada, el
-		-- marcado del pack intacto y links clicables
-		local cuerpo = alertaFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
-		cuerpo:SetPoint("TOPLEFT", divisor, "BOTTOMLEFT", 0, -8);
-		cuerpo:SetWidth(328);
+		alertaFrame.divisor = divisor;
+		-- Cuerpo dentro de un ScrollFrame (1.0.18): alto con tope y rueda de
+		-- ratón; el texto conserva el marcado del pack y los links.
+		-- OJO: el alto del scrollChild lo fija ajustarScrollAlerta() con la
+		-- altura real del texto; si se deja a 1 px el ScrollFrame recorta el
+		-- texto y el cuerpo sale VACÍO (fallo del 2026-10-31).
+		local scroll = CreateFrame("ScrollFrame", nil, alertaFrame, "UIPanelScrollFrameTemplate");
+		scroll:SetPoint("TOPLEFT", divisor, "BOTTOMLEFT", 0, -8);
+		scroll:SetPoint("BOTTOMRIGHT", -30, 24); -- deja sitio al pie con botones
+		scroll:EnableMouseWheel(true);
+		scroll:SetScript("OnMouseWheel", function(self, delta)
+			local barra = self.ScrollBar;
+			if barra ~= nil then
+				local paso = barra:GetHeight() > 0 and (barra:GetHeight() * 0.2) or 20;
+				barra:SetValue(barra:GetValue() - delta * paso);
+			end
+		end);
+		local scrollChild = CreateFrame("Frame", nil, scroll);
+		scrollChild:SetSize(anchoTextoAlerta() - 4, 1);
+		scroll:SetScrollChild(scrollChild);
+		local cuerpo = scrollChild:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+		cuerpo:SetPoint("TOPLEFT", scrollChild, "TOPLEFT", 0, 0);
+		cuerpo:SetWidth(anchoTextoAlerta() - 4);
 		cuerpo:SetJustifyH("LEFT");
 		if cuerpo.SetHyperlinksEnabled ~= nil then
 			cuerpo:SetHyperlinksEnabled(true);
 		end
+		-- Escala de fuente configurable (1.0.18): guardamos la ruta de la
+		-- fuente base para recalcular el tamaño al mover el slider.
+		alertaFrame.cuerpoFuente = select(1, cuerpo:GetFont());
+		local escala = tonumber(BossesConfig.alertaFuente) or 1.0;
+		if cuerpo.SetFont ~= nil and alertaFrame.cuerpoFuente ~= nil then
+			local _, alto, flags = cuerpo:GetFont();
+			cuerpo:SetFont(alertaFrame.cuerpoFuente, (alto or 12) * escala, flags or "");
+		end
+		alertaFrame.scroll = scroll;
+		alertaFrame.scrollChild = scrollChild;
 		alertaFrame.cuerpo = cuerpo;
+		-- Barra de cuenta atrás del auto-ocultado (1.0.18): línea fina en el
+		-- borde inferior que se vacía en los 15 s previos al cierre.
+		local barraCuenta = alertaFrame:CreateTexture(nil, "ARTWORK");
+		barraCuenta:SetColorTexture(1, 0.85, 0.4, 0.8);
+		barraCuenta:SetHeight(2);
+		barraCuenta:SetPoint("BOTTOMLEFT", 6, 3);
+		barraCuenta:Hide();
+		alertaBarraCuenta = barraCuenta;
 		-- El dueño arrastra el frame; los links del texto se tratan como en el chat
 		alertaFrame:SetScript("OnHyperlinkClick", function(_, link, textoLiga, boton, chatFrame)
 			pcall(ChatFrame_OnHyperlinkShow, DEFAULT_CHAT_FRAME, link, textoLiga, boton, chatFrame);
 		end);
 		-- Tooltip del enlace al PASAR el ratón (como en las barras de
 		-- acción): el juego lo resuelve en el idioma de quien mira.
+		-- 1.0.18 blindado: SetHyperlinksEnabled tras cada SetText (algunos
+		-- clientes lo resetean) y fallback al nombre del pack si el tooltip
+		-- del cliente no resuelve el spell.
 		alertaFrame:SetScript("OnHyperlinkEnter", function(_, link)
 			if GameTooltip ~= nil then
 				pcall(function()
-					GameTooltip:SetOwner(alertaFrame, "ANCHOR_CURSOR");
+					GameTooltip:SetOwner(alertaFrame, "ANCHOR_CURSOR", 24, 0);
 					GameTooltip:SetHyperlink(link);
 					GameTooltip:Show();
 				end);
+				-- Fallback: si el tooltip quedó vacío (spell sin datos en este
+				-- cliente), mostramos el nombre tal como lo trae el pack.
+				local nombrePack = nil;
+				local idSpell = string.match(link, "^spell:(%d+)");
+				if idSpell ~= nil then
+					nombrePack = nombreSpellPack(idSpell) or nombreSpellPack("-" .. idSpell);
+				end
+				if nombrePack ~= nil and nombrePack ~= "" then
+					pcall(function()
+						local txt = GameTooltip:GetName() ~= nil and GameTooltipTextLeft1 ~= nil and GameTooltipTextLeft1:GetText() or nil;
+						if txt == nil or txt == "" then
+							GameTooltip:SetText(nombrePack, 0.55, 0.8, 1);
+							GameTooltip:Show();
+						end
+					end);
+				end
 			end
 		end);
 		alertaFrame:SetScript("OnHyperlinkLeave", function()
@@ -723,7 +1220,16 @@ function salidaEnPantalla(linea, nueva)
 		boton:SetPoint("BOTTOMRIGHT", -14, 12);
 		boton:SetText(L["BotonAlChat"]);
 		boton:SetScript("OnClick", function()
-			enviarJefeDelFrame();
+			-- Modo "solo frame": la explicación es privada y no sale sola a
+			-- ningún canal, así que el botón la manda a mano al chat del
+			-- grupo (raid / grupo de instancia / grupo / say según dónde
+			-- esté el dueño). En los demás canales, la ruta normal de
+			-- siempre (reclamación + firma).
+			if BossesConfig.CANAL == "FRAME" then
+				enviarJefeAlGrupo();
+			else
+				enviarJefeDelFrame();
+			end
 		end);
 		boton:Hide();
 		alertaFrame.botonChat = boton;
@@ -750,9 +1256,30 @@ function salidaEnPantalla(linea, nueva)
 	end
 	if nueva then
 		-- Nueva explicación: la primera línea es el nombre del jefe, va a
-		-- la cabecera; reinicia el cuerpo para que no se mezclen jefes
+		-- la cabecera; reinicia el cuerpo para que no se mezclen jefes.
+		-- Se registra en el historial (1.0.18) para poder releer con ◀ ▶.
 		alertaFrame.nombre:SetText(linea);
+		if alertaFrame.nombre.SetHyperlinksEnabled ~= nil then alertaFrame.nombre:SetHyperlinksEnabled(true); end
 		alertaFrame.cuerpo:SetText("");
+		if alertaFrame.cuerpo.SetHyperlinksEnabled ~= nil then alertaFrame.cuerpo:SetHyperlinksEnabled(true); end
+		-- Explicación nueva: el scroll vuelve arriba (el texto se lee desde
+		-- el principio, no desde donde quedó la anterior).
+		if alertaFrame.scroll ~= nil and alertaFrame.scroll.ScrollBar ~= nil then
+			alertaFrame.scroll.ScrollBar:SetValue(0);
+		end
+		tinsert(historialAlerta, { titulo = linea, lineas = {}, npcId = frameNpcId, guid = frameGuid });
+		if #historialAlerta > 20 then tremove(historialAlerta, 1); end
+		historialIdx = 0;
+		actualizarHistorialBtns();
+		-- Captura el GUID del target si es el jefe (para click=target en la cabecera)
+		local guidTarget = npcIdFromUnit("target");
+		if guidTarget ~= nil and frameNpcId ~= nil and tostring(guidTarget) == tostring(frameNpcId) then
+			frameGuid = UnitGUID("target");
+		else
+			frameGuid = nil;
+		end
+		-- Estado de colapso inicial (guardado en config)
+		alertaColapsado = BossesConfig.alertaColapsado and true or false;
 	else
 		local cuerpo = alertaFrame.cuerpo;
 		local actuales = cuerpo:GetText();
@@ -761,7 +1288,15 @@ function salidaEnPantalla(linea, nueva)
 			fila = "|cffffd100*|r " .. string.sub(fila, 3);
 		end
 		cuerpo:SetText(actuales ~= nil and actuales ~= "" and actuales .. "\n" .. fila or fila);
+		if cuerpo.SetHyperlinksEnabled ~= nil then cuerpo:SetHyperlinksEnabled(true); end
+		-- Acumula la línea en la entrada actual del historial
+		local actual = historialAlerta[#historialAlerta];
+		if actual ~= nil and historialIdx == 0 then
+			tinsert(actual.lineas, fila);
+		end
 	end
+	aplicarColapso();
+	aplicarCandado();
 	ajustarAlturaAlerta();
 	alertaFrame:Show();
 	-- Fuera de zona de combate el frame se apaga solo a los 15s: las
@@ -785,13 +1320,29 @@ function salidaEnPantalla(linea, nueva)
 end
 
 -- Alto del frame de alerta: marca + cabecera + divisoria + cuerpo + pie.
--- El pie crece cuando el botón "al chat" está visible. Declarada por
--- adelantado (salidaEnPantalla la llama) y definida aquí, tras el frame.
+-- El pie crece cuando el botón "al chat" está visible. El cuerpo vive en un
+-- ScrollFrame con tope (alertaMaxAlto, fracción de pantalla; 0 = sin tope).
+-- Declarada por adelantado (salidaEnPantalla la llama) y definida aquí, tras
+-- el frame.
 function ajustarAlturaAlerta()
 	if alertaFrame == nil then
 		return;
 	end
-	local pie = 14;
+	-- Mientras se arrastra el grip manda el ratón: no se toca el alto.
+	if redimensionando then
+		-- Si el botón izquierdo ya no está pulsado, el arrastre terminó (el
+		-- ratón se soltó fuera del grip y el OnMouseUp no llegó): se limpia
+		-- la bandera para no dejar el alto congelado para siempre.
+		-- OJO: este cliente NO tiene Frame:IsSizing(), así que el estado se
+		-- deduce del botón pulsado.
+		if type(IsMouseButtonDown) == "function" and not IsMouseButtonDown("LeftButton") then
+			redimensionando = false;
+		else
+			return;
+		end
+	end
+	local pie = 26; -- el scroll deja 24 px abajo (pie + botones): el pie debe
+	-- cubrir ese margen o el texto queda cortado y sale barra sin necesidad
 	local conBotones = false;
 	if alertaFrame.botonChat ~= nil and alertaFrame.botonChat:IsShown() then
 		conBotones = true;
@@ -800,9 +1351,156 @@ function ajustarAlturaAlerta()
 		conBotones = true;
 	end
 	if conBotones then
-		pie = 40;
+		pie = 44;
 	end
-	alertaFrame:SetHeight(10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8 + alertaFrame.cuerpo:GetHeight() + pie);
+	-- Colapsado: solo cabecera (marca + nombre + fila de botones superiores)
+	if alertaColapsado then
+		alertaFrame:SetHeight(10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 10);
+		return;
+	end
+	-- Alto del cuerpo con tope del scroll
+	local altoCuerpo = alertaFrame.cuerpo:GetHeight();
+	local tope = tonumber(BossesConfig.alertaMaxAlto) or 0;
+	if tope > 0 then
+		local altoPantalla = UIParent:GetHeight() or 1080;
+		local maxCuerpo = altoPantalla * tope - (10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8 + pie);
+		if maxCuerpo > 40 and altoCuerpo > maxCuerpo then
+			altoCuerpo = maxCuerpo;
+		end
+	end
+	-- Cabecera (marca + nombre + divisoria) + hueco del cuerpo
+	local cabecera = 10 + alertaFrame.marca:GetHeight() + 4 + alertaFrame.nombre:GetHeight() + 6 + 1 + 8;
+	local altoAuto = cabecera + altoCuerpo + pie;
+	-- ALTO MANUAL: si el dueño redimensionó el frame con el grip, su alto se
+	-- respeta (si no, el alto se recalculaba con el texto y el resize se
+	-- deshacía solo). Con "alto automático" activado vuelve a crecer con el
+	-- texto (opción del panel de ajustes).
+	local fp = BossesConfig.framePos;
+	local altoManual = nil;
+	if BossesConfig.alertaAltoAuto == false and type(fp) == "table" and type(fp.h) == "number" then
+		altoManual = fp.h;
+	end
+	if altoManual ~= nil then
+		-- Mínimo: cabecera + 40 px de cuerpo + el pie del scroll
+		altoManual = math.max(altoManual, cabecera + 40 + pie + 24);
+		alertaFrame:SetHeight(altoManual);
+	else
+		alertaFrame:SetHeight(altoAuto);
+	end
+	-- El alto del scroll lo fijan sus anclas (arriba la divisoria, abajo el
+	-- pie): no se puede SetHeight sobre un frame con dos anclas. Lo que sí
+	-- hay que ajustar es el ALTO DEL CONTENIDO (scrollChild) y el rango de
+	-- la barra: si el scrollChild mide 1 px, el ScrollFrame recorta el texto
+	-- y el cuerpo sale vacío (fallo del 2026-10-31).
+	ajustarScrollAlerta();
+end
+
+-- Ajusta el scrollChild al alto real del texto y el rango de la barra de
+-- scroll. Se llama desde ajustarAlturaAlerta (tras fijar el alto del frame).
+function ajustarScrollAlerta()
+	if alertaFrame == nil or alertaFrame.scroll == nil or alertaFrame.scrollChild == nil then
+		return;
+	end
+	local scroll = alertaFrame.scroll;
+	local child = alertaFrame.scrollChild;
+	local cuerpo = alertaFrame.cuerpo;
+	if cuerpo == nil then return; end
+	local w = math.max(80, anchoTextoAlerta() - 4);
+	child:SetWidth(w);
+	cuerpo:SetWidth(w);
+	local alto = cuerpo:GetHeight() or 0;
+	if alto < 1 then alto = 1; end
+	child:SetHeight(alto);
+	local barra = scroll.ScrollBar;
+	if barra ~= nil then
+		local visible = scroll:GetHeight() or 1;
+		local maxScroll = math.max(0, alto - visible);
+		barra:SetMinMaxValues(0, maxScroll);
+		barra:SetValueStep(math.max(1, math.floor(visible / 8)));
+		local v = barra:GetValue();
+		if v > maxScroll then v = maxScroll; end
+		if v < 0 then v = 0; end
+		barra:SetValue(v);
+	end
+end
+
+-- Reajuste del texto al redimensionar el frame (llamado por OnSizeChanged y
+-- por el grip de resize). Reenvuelve nombre y cuerpo al ancho actual.
+function rewragAlertaResize()
+	if alertaFrame == nil or alertaFrame.nombre == nil then return; end
+	local w = anchoTextoAlerta();
+	alertaFrame.nombre:SetWidth(w);
+	if alertaFrame.cuerpo ~= nil then
+		alertaFrame.cuerpo:SetWidth(math.max(80, w - 4));
+	end
+	if alertaFrame.scrollChild ~= nil then
+		alertaFrame.scrollChild:SetWidth(math.max(80, w - 4));
+	end
+	-- La barra de cuenta atrás sigue el ancho
+	if alertaBarraCuenta ~= nil and alertaBarraCuenta:IsShown() then
+		alertaBarraCuenta:SetWidth(alertaFrame:GetWidth() - 12);
+	end
+	ajustarAlturaAlerta();
+end
+
+-- Historial de explicaciones (1.0.18): ◀ ▶ releen las últimas 20 de la
+-- sesión. delta = -1 anterior, +1 siguiente (0 = volver a la última).
+function navegarHistorial(delta)
+	if #historialAlerta == 0 then return; end
+	historialIdx = historialIdx + delta;
+	if historialIdx < 0 then historialIdx = 0; end
+	if historialIdx > #historialAlerta - 1 then historialIdx = #historialAlerta - 1; end
+	local h = historialAlerta[#historialAlerta - historialIdx];
+	if h == nil or alertaFrame == nil then return; end
+	alertaFrame.nombre:SetText(h.titulo);
+	local texto = table.concat(h.lineas, "\n");
+	alertaFrame.cuerpo:SetText(texto);
+	if alertaFrame.nombre.SetHyperlinksEnabled ~= nil then alertaFrame.nombre:SetHyperlinksEnabled(true); end
+	if alertaFrame.cuerpo.SetHyperlinksEnabled ~= nil then alertaFrame.cuerpo:SetHyperlinksEnabled(true); end
+	frameNpcId = h.npcId;
+	frameGuid = h.guid;
+	frameIdEditor = h.npcId;
+	actualizarBotonChat();
+	ajustarAlturaAlerta();
+	alertaFrame:Show();
+	actualizarHistorialBtns();
+end
+
+function actualizarHistorialBtns()
+	if alertaFrame == nil then return; end
+	if alertaFrame.histPrev ~= nil then
+		local ok = historialIdx < #historialAlerta - 1;
+		alertaFrame.histPrev:Enable(ok);
+		alertaFrame.histPrev:SetAlpha(ok and 1 or 0.3); -- iconos apagados sin historial
+	end
+	if alertaFrame.histNext ~= nil then
+		local ok = historialIdx > 0;
+		alertaFrame.histNext:Enable(ok);
+		alertaFrame.histNext:SetAlpha(ok and 1 or 0.3);
+	end
+end
+
+-- Busca el nombre del spell en los packs (para el fallback del tooltip cuando
+-- el cliente no resuelve el link). Recorre los textos ya cargados del frame y
+-- los packs; devuelve nil si no está. O(n) sobre entradas del pack, solo se
+-- llama al pasar el ratón por un link, así que no importa en caliente.
+function nombreSpellPack(idSpell)
+	if idSpell == nil then return nil; end
+	for _, src in ipairs(packSources) do
+		for _, tabla in pairs({ src.ES, src.EN, src.data, src.plain }) do
+			if type(tabla) == "table" then
+				for _, entrada in pairs(tabla) do
+					if type(entrada) == "table" then
+						for _, linea in ipairs(entrada) do
+							local nombre = string.match(tostring(linea), "|Hspell:" .. tostring(idSpell) .. "|h%[([^%]]+)%]|h");
+							if nombre ~= nil then return nombre; end
+						end
+					end
+				end
+			end
+		end
+	end
+	return nil;
 end
 
 -- Visibilidad del botón "al chat": con un jefe en pantalla, fuera de la
@@ -810,20 +1508,49 @@ end
 -- frame" no hay adónde enviar — el botón no se muestra). Se reevalúa al
 -- fijar el jefe del frame (desplegable o explicación) y al entrar o
 -- salir de combate.
-local function actualizarBotonChat()
+-- Sin "local": asigna la declaración adelantada de arriba (navegarHistorial).
+function actualizarBotonChat()
 	if alertaFrame == nil or alertaFrame.botonChat == nil then
 		return;
-	end
-	if frameNpcId ~= nil and BossesConfig.CANAL ~= "FRAME" and not enZonaCaliente() then
+	end	-- __visible guarda la lógica propia del botón; aplicarColapso decide si se
+	-- muestra de verdad según el estado de colapso.
+	-- OJO: en el modo "solo frame" el botón SÍ aparece (a petición del
+	-- dueño, 2026-10-31): allí la explicación es privada, pero el botón la
+	-- manda a mano al chat del grupo. Sin jefe en pantalla no hay nada que
+	-- mandar, y en zona caliente el cliente bloquea el envío.
+	local visible = frameNpcId ~= nil and not enZonaCaliente();
+	alertaFrame.botonChat.__visible = visible;
+	if visible and not alertaColapsado then
 		alertaFrame.botonChat:Show();
 	else
 		alertaFrame.botonChat:Hide();
+	end
+	-- El botón del modo "solo frame" anuncia a dónde va. El destino se
+	-- calcula al pasar el ratón (el dueño puede cambiar de grupo o de
+	-- instancia con el frame abierto).
+	if BossesConfig.CANAL == "FRAME" then
+		alertaFrame.botonChat:SetText(L["BotonAlGrupo"]);
+		alertaFrame.botonChat:SetScript("OnEnter", function(self)
+			if GameTooltip ~= nil then
+				GameTooltip:SetOwner(self, "ANCHOR_BOTTOM");
+				GameTooltip:SetText(string.format(L["EnviaAlCanal"] or "To the %s chat", "|cff44ff44" .. autoChannel() .. "|r"), 1, 1, 1);
+				GameTooltip:Show();
+			end
+		end);
+		alertaFrame.botonChat:SetScript("OnLeave", function()
+			if GameTooltip ~= nil then GameTooltip:Hide(); end
+		end);
+	else
+		alertaFrame.botonChat:SetText(L["BotonAlChat"]);
+		alertaFrame.botonChat:SetScript("OnEnter", nil);
+		alertaFrame.botonChat:SetScript("OnLeave", nil);
 	end
 	-- "editar": basta con un id en pantalla, descrito o no (el aviso de
 	-- "no descrito" conoce su npc id y debe permitir crear la nota);
 	-- incluso en pelea: el editor no toca APIs bloqueadas en combate
 	if alertaFrame.botonEditar ~= nil then
-		if (frameNpcId ~= nil or frameIdEditor ~= nil) then
+		alertaFrame.botonEditar.__visible = (frameNpcId ~= nil or frameIdEditor ~= nil);
+		if alertaFrame.botonEditar.__visible and not alertaColapsado then
 			alertaFrame.botonEditar:Show();
 		else
 			alertaFrame.botonEditar:Hide();
@@ -837,6 +1564,7 @@ end
 -- "al chat" no reenvíe al jefe anterior con otra cosa delante.
 local function limpiarJefeFrame()
 	frameNpcId = nil;
+	frameGuid = nil;
 	actualizarBotonChat();
 end
 
@@ -866,6 +1594,19 @@ local function enviarEntrada(entrada, npcId)
 	-- demanda del dueño.
 	frameNpcId = npcId;
 	frameIdEditor = npcId; -- el editor también sabe de qué jefe se trata
+	-- 1.0.18: si el target actual es ese jefe, guardamos su GUID para que el
+	-- click en la cabecera del frame haga target (pcall TargetUnit).
+	local guidTarget = nil;
+	if npcIdFromUnit("target") ~= nil and tostring(npcIdFromUnit("target")) == tostring(npcId) then
+		guidTarget = UnitGUID("target");
+		if guidTarget ~= nil and not esSecreto(guidTarget) then
+			frameGuid = guidTarget;
+		else
+			frameGuid = nil;
+		end
+	else
+		frameGuid = nil;
+	end
 	actualizarBotonChat();
 
 	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
@@ -1065,8 +1806,8 @@ local nombresEnc = nil;
 local function tablaIdiomaDePack(src, idioma)
 	if idioma == "AUTO" then
 		local loc = GetLocale();
+		-- MAPA_LOCALES[nil] es nil → "EN"; cubre también GetLocale secreto.
 		idioma = MAPA_LOCALES[loc] or "EN";
-		if loc == nil then idioma = "EN"; end -- cliente con GetLocale secreto
 	end
 	if type(src[idioma]) == "table" then return src[idioma]; end
 	if type(src.EN) == "table" then return src.EN; end
@@ -1212,12 +1953,18 @@ local function explica(nbos)
 		enviarEntrada(entrada, nbos);
 	else
 		debugLog("sin entrada (id)", tostring(nbos));
-		if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
-			limpiarJefeFrame();
-			frameIdEditor = nbos; -- el aviso conoce su id: el botón "editar" debe poder crear la nota
-			salidaEnPantalla(tostring(nbos), true); -- cabecera del frame con la id del NPC
-			salidaEnPantalla(L[": This NPC is not described."]);
-		end
+		-- El frame del dueño lleva SIEMPRE la copia (casa: "el frame del
+		-- dueño, siempre completo") y en este caso además EDITABLE: el
+		-- aviso conoce su id, así que el botón "editar" aparece y se puede
+		-- crear la nota desde cero (petición del dueño, 2026-10-31).
+		-- Antes esto solo pasaba en combate o en el modo "solo frame": en
+		-- los demás canales salía solo por el chat local y el frame ni se
+		-- enteraba.
+		limpiarJefeFrame();
+		frameIdEditor = nbos; -- el aviso conoce su id: el botón "editar" debe poder crear la nota
+		salidaEnPantalla(tostring(nbos), true); -- cabecera del frame con la id del NPC
+		salidaEnPantalla(L[": This NPC is not described."]);
+		actualizarBotonChat(); -- con la id ya puesta: el botón "editar" aparece
 		if BossesConfig.CANAL ~= "FRAME" then
 			dsp(nbos .. L[": This NPC is not described."]);
 		end
@@ -1285,13 +2032,24 @@ local function construirIndice()
 	end
 end
 
--- Cobertura ENC por nombre: para cada npcId citado en los valores de las
--- tablas ENC de los packs, anota el nombre de su entrada (en CUALQUIER
--- idioma). Es el filtro de los gritos de escena: si el hablante está
--- cubierto por ENC, su explicación ya llegará con el ENCOUNTER_START del
--- pull real (visto 2026: Lothraxion narraba de lejos tras morir el jefe
--- anterior y el grito adelantó la explicación de todo el grupo).
-local function construirCoberturaEnc()
+-- Asegura los índices de nombres a la primera consulta (y los precalienta en
+-- ADDON_LOADED para que el coste no caiga en mitad del primer combate).
+-- construirCoberturaEnc va con declaración adelantada (línea siguiente) porque
+-- se referencia aquí y se asigna después en el fuente.
+local construirCoberturaEnc;
+local function asegurarIndice()
+	if indiceNombres == nil then
+		construirIndice();
+	end
+	if nombresEnc == nil then
+		construirCoberturaEnc();
+	end
+end
+
+-- Cobertura ENC por nombre (filtro de gritos de escena: si el hablante está
+-- cubierto por una tabla ENC, su explicación llega con el ENCOUNTER_START del
+-- pull real). Se asigna sobre la declaración adelantada de arriba.
+construirCoberturaEnc = function()
 	nombresEnc = {};
 
 	local function add(tabla, id)
@@ -1319,6 +2077,12 @@ local function construirCoberturaEnc()
 			end
 		end
 	end
+end
+
+-- Helper único para el chequeo de secretos de Midnight: true si el valor ES
+-- secreto (o el cliente no tiene issecretvalue → false).
+esSecreto = function(v)
+	return issecretvalue ~= nil and issecretvalue(v);
 end
 
 -- Anti-duplicado multi-vía: el mismo jefe puede llegar por el grito de
@@ -1349,7 +2113,7 @@ end
 local function clavesDeExplicacion(nombreEncuentro, entrada, id)
 	local claves = {};
 
-	if nombreEncuentro ~= nil and (issecretvalue == nil or not issecretvalue(nombreEncuentro)) then
+	if nombreEncuentro ~= nil and not esSecreto(nombreEncuentro) then
 		local nEnc = normalizarNombre(nombreEncuentro);
 		if nEnc ~= nil and nEnc ~= "" then
 			table.insert(claves, "n:" .. nEnc);
@@ -1384,7 +2148,7 @@ local function idsDeUnidadesJefe()
 			if id ~= nil and vistos[id] == nil then
 				vistos[id] = true;
 				local nombre = GetUnitName(unidad);
-				if nombre ~= nil and issecretvalue ~= nil and issecretvalue(nombre) then
+				if nombre ~= nil and esSecreto(nombre) then
 					nombre = nil;
 				end
 				table.insert(unidades, { id = id, nombre = nombre });
@@ -1443,10 +2207,8 @@ local function candidatosDeEncuentro(encounterID, nombreEncuentro)
 	end
 
 	-- 4) Índice de nombres por el nombre del encuentro
-	if nombreEncuentro ~= nil and (issecretvalue == nil or not issecretvalue(nombreEncuentro)) then
-		if indiceNombres == nil then
-			construirIndice();
-		end
+	if nombreEncuentro ~= nil and not esSecreto(nombreEncuentro) then
+		asegurarIndice();
 		local registro = indiceNombres[normalizarNombre(nombreEncuentro)];
 		if registro ~= nil then
 			add(registro.id, "nombre:" .. normalizarNombre(nombreEncuentro));
@@ -1476,13 +2238,11 @@ local explicarPorEncuentroActivo; -- declaración adelantada (se define más aba
 local function explicaPorNombre(nombre)
 	-- Defensa: un nombre secreto de Midnight no se puede convertir ni
 	-- comparar; la ruta por click lo maneja aparte.
-	if nombre == nil or (issecretvalue ~= nil and issecretvalue(nombre)) then
+	if nombre == nil or esSecreto(nombre) then
 		return;
 	end
 
-	if indiceNombres == nil then
-		construirIndice();
-	end
+	asegurarIndice();
 
 	local registro = indiceNombres[normalizarNombre(nombre)];
 
@@ -1513,11 +2273,14 @@ local function explicaPorNombre(nombre)
 	end
 
 	debugLog("sin entrada (nombre)", aTexto(nombre));
-	if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
-		limpiarJefeFrame();
-		salidaEnPantalla(nombre, true); -- cabecera del frame con el nombre del NPC
-		salidaEnPantalla(L[": This NPC is not described."]);
-	end
+	-- Sin id no hay botón "editar" (el editor abre por id de NPC), pero el
+	-- aviso sale igualmente en el frame del dueño (casa: el frame del
+	-- dueño, siempre completo).
+	limpiarJefeFrame();
+	frameIdEditor = nil; -- este aviso no tiene id: el editor no puede abrirlo
+	salidaEnPantalla(nombre, true); -- cabecera del frame con el nombre del NPC
+	salidaEnPantalla(L[": This NPC is not described."]);
+	actualizarBotonChat();
 	if BossesConfig.CANAL ~= "FRAME" then
 		dsp(nombre .. L[": This NPC is not described."]);
 	end
@@ -1533,9 +2296,7 @@ local function autoExplicar(nombreEncuentro)
 
 	-- Resuelve por el índice de nombres para marcar también las claves
 	-- canónicas de la entrada (así deduplica contra ENCOUNTER_START/IEEU)
-	if indiceNombres == nil then
-		construirIndice();
-	end
+	asegurarIndice();
 	local registro = indiceNombres[normalizarNombre(nombreEncuentro)];
 	local entrada = nil;
 	if registro ~= nil then
@@ -1704,11 +2465,15 @@ local function explicarEncuentroAutomatico(encounterID, nombreEncuentro, claveGr
 						rotulo = "enc=" .. tostring(encounterID);
 					end
 					debugLog("aviso sin entrada", "enc=" .. tostring(encounterID), "avisado al dueño");
-					if enZonaCaliente() or BossesConfig.CANAL == "FRAME" then
-						limpiarJefeFrame();
-						salidaEnPantalla(rotulo, true);
-						salidaEnPantalla(L[": This NPC is not described."]);
-					else
+					-- Igual que en el resto de avisos: el frame del dueño
+					-- lleva siempre la copia y, en los demás canales,
+					-- además, la línea del chat local.
+					limpiarJefeFrame();
+					frameIdEditor = nil; -- sin id: el editor no puede abrirlo
+					salidaEnPantalla(rotulo, true);
+					salidaEnPantalla(L[": This NPC is not described."]);
+					actualizarBotonChat();
+					if BossesConfig.CANAL ~= "FRAME" then
 						dsp(rotulo .. L[": This NPC is not described."]);
 					end
 				end
@@ -1730,9 +2495,7 @@ end
 -- objetivo son utilizables. Sale siempre por local (es una referencia,
 -- no un anuncio al grupo).
 local function explicarInstancia()
-	if indiceNombres == nil then
-		construirIndice();
-	end
+	asegurarIndice();
 
 	local instanceID = (EJ_GetCurrentInstance ~= nil) and EJ_GetCurrentInstance() or nil;
 	if instanceID == nil then
@@ -1806,7 +2569,7 @@ local function explicaTarget(unit)
 	debugLog("target sin guid", "nombre=" .. aTexto(nombre));
 
 	-- Nombre utilizable: no secreto, conocido y no vacío
-	if nombre ~= nil and (issecretvalue == nil or not issecretvalue(nombre)) and nombre ~= UNKNOWNOBJECT and nombre ~= "" then
+	if nombre ~= nil and not esSecreto(nombre) and nombre ~= UNKNOWNOBJECT and nombre ~= "" then
 		explicaPorNombre(nombre);
 		return;
 	end
@@ -1916,13 +2679,27 @@ end
 
 local function createSettingsPanel()
 	local frame = CreateFrame("Frame", "BossesSettingsPanel");
-	frame:SetSize(420, 460); -- canal a 2 columnas + idiomas a 3 columnas (petición del dueño): el panel baja de 680; el ancho gana 40 por el rótulo largo del canal
+	frame:SetSize(420, 620); -- alto fijo del canvas; el contenido scrollea dentro (1.0.18: la sección del frame de alerta desbordaba el alto)
+	local scroll = CreateFrame("ScrollFrame", nil, frame, "UIPanelScrollFrameTemplate");
+	scroll:SetPoint("TOPLEFT", 4, -4);
+	scroll:SetPoint("BOTTOMRIGHT", -24, 4);
+	scroll:EnableMouseWheel(true);
+	scroll:SetScript("OnMouseWheel", function(self, delta)
+		local barra = self.ScrollBar;
+		if barra ~= nil then
+			local paso = barra:GetHeight() > 0 and (barra:GetHeight() * 0.2) or 20;
+			barra:SetValue(barra:GetValue() - delta * paso);
+		end
+	end);
+	local cont = CreateFrame("Frame", nil, scroll);
+	cont:SetSize(390, 1); -- el alto se fija al final con el último y usado
+	scroll:SetScrollChild(cont);
 
-	local titulo = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge");
+	local titulo = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlightLarge");
 	titulo:SetPoint("TOPLEFT", 10, -12);
 	titulo:SetText("Bosses");
 
-	local subtitulo = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+	local subtitulo = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
 	subtitulo:SetPoint("TOPLEFT", titulo, "BOTTOMLEFT", 0, -4);
 	subtitulo:SetText(L["Select output channel"]);
 
@@ -1939,7 +2716,7 @@ local function createSettingsPanel()
 		local key, label = d[1], d[2];
 		local col = (i - 1) % 2;
 		local fila = math.floor((i - 1) / 2);
-		local cb = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
+		local cb = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
 		cb:SetPoint("TOPLEFT", col * 190, y - fila * 30);
 		cb.Text:SetText(L[label]);
 		cb.Text:SetTextColor(1, 1, 1, 1);
@@ -1949,7 +2726,7 @@ local function createSettingsPanel()
 	y = y - 60; -- dos filas de 30
 
 	-- Firma de cortesía en los canales compartidos (independiente del canal)
-	firmaCheck = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
+	firmaCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
 	firmaCheck:SetPoint("TOPLEFT", 0, y);
 	firmaCheck.Text:SetText(L["FirmaCortesia"]);
 	firmaCheck.Text:SetTextColor(1, 1, 1, 1);
@@ -1957,7 +2734,7 @@ local function createSettingsPanel()
 	y = y - 30;
 
 	-- Idioma de las explicaciones
-	local subtitulo2 = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+	local subtitulo2 = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
 	subtitulo2:SetPoint("TOPLEFT", 10, y - 4);
 	subtitulo2:SetText(L["Language"]);
 
@@ -1979,7 +2756,7 @@ local function createSettingsPanel()
 		local key, label = d[1], d[2];
 		local col = (i - 1) % 3;
 		local fila = math.floor((i - 1) / 3);
-		local cb = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
+		local cb = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
 		cb:SetPoint("TOPLEFT", col * 124, y - fila * 30);
 		cb.Text:SetText(L[label]);
 		cb.Text:SetTextColor(1, 1, 1, 1);
@@ -1989,11 +2766,11 @@ local function createSettingsPanel()
 	y = y - 90; -- tres filas de 30
 
 	-- Explicación automática de encuentros
-	local subtitulo3 = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+	local subtitulo3 = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
 	subtitulo3:SetPoint("TOPLEFT", 10, y - 4);
 	subtitulo3:SetText(L["Encuentros"]);
 
-	autoEncCheck = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
+	autoEncCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
 	autoEncCheck:SetPoint("TOPLEFT", 0, y - 28);
 	autoEncCheck.Text:SetText(L["AutoEnc"]);
 	autoEncCheck.Text:SetTextColor(1, 1, 1, 1);
@@ -2001,18 +2778,18 @@ local function createSettingsPanel()
 	y = y - 58;
 
 	-- Depuración ------------------------------------------------------------
-	local subtitulo4 = frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+	local subtitulo4 = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
 	subtitulo4:SetPoint("TOPLEFT", 10, y - 4);
 	subtitulo4:SetText(L["Depuracion"]);
 
-	debugCheck = CreateFrame("CheckButton", nil, frame, "UICheckButtonTemplate");
+	debugCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
 	debugCheck:SetPoint("TOPLEFT", 0, y - 28);
 	debugCheck.Text:SetText(L["Debug"]);
 	debugCheck.Text:SetTextColor(1, 1, 1, 1);
 	debugCheck:SetScript("OnClick", function(self) setDebug(self:GetChecked() and true or false); end);
 	y = y - 58;
 
-	local vaciarBtn = CreateFrame("Button", nil, frame, "UIButtonTemplate");
+	local vaciarBtn = CreateFrame("Button", nil, cont, "UIButtonTemplate");
 	vaciarBtn:SetPoint("TOPLEFT", 0, y - 2);
 	vaciarBtn:SetSize(220, 24);
 	vaciarBtn:SetText(L["VaciarLog"]);
@@ -2023,7 +2800,7 @@ local function createSettingsPanel()
 	y = y - 30;
 
 	-- Editor de explicaciones in-game (las notas del usuario)
-	local editarBtn = CreateFrame("Button", nil, frame, "UIButtonTemplate");
+	local editarBtn = CreateFrame("Button", nil, cont, "UIButtonTemplate");
 	editarBtn:SetPoint("TOPLEFT", 0, y - 2);
 	editarBtn:SetSize(220, 24);
 	editarBtn:SetText(L["MenuEditor"]);
@@ -2036,6 +2813,114 @@ local function createSettingsPanel()
 		end
 	end);
 	y = y - 30;
+
+	-- Frame de alerta (1.0.18) ----------------------------------------------
+	local subtitulo5 = cont:CreateFontString(nil, "OVERLAY", "GameFontHighlight");
+	subtitulo5:SetPoint("TOPLEFT", 10, y - 4);
+	subtitulo5:SetText(L["Alert frame"]);
+	y = y - 28;
+
+	local alertaSiempreCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
+	alertaSiempreCheck:SetPoint("TOPLEFT", 0, y);
+	alertaSiempreCheck.Text:SetText(L["Always visible"]);
+	alertaSiempreCheck.Text:SetTextColor(1, 1, 1, 1);
+	alertaSiempreCheck:SetScript("OnClick", function(self) BossesConfig.alertaOculta = self:GetChecked() and true or false; end);
+	alertaSiempreCheck:SetChecked(BossesConfig.alertaOculta and true or false);
+	y = y - 30;
+
+	local alertaBloqueoCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
+	alertaBloqueoCheck:SetPoint("TOPLEFT", 0, y);
+	alertaBloqueoCheck.Text:SetText(L["Lock position"]);
+	alertaBloqueoCheck.Text:SetTextColor(1, 1, 1, 1);
+	alertaBloqueoCheck:SetScript("OnClick", function(self)
+		BossesConfig.alertaBloqueado = self:GetChecked() and true or false;
+		aplicarCandado();
+	end);
+	alertaBloqueoCheck:SetChecked(BossesConfig.alertaBloqueado and true or false);
+	y = y - 30;
+
+	local alertaColapsadoCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
+	alertaColapsadoCheck:SetPoint("TOPLEFT", 0, y);
+	alertaColapsadoCheck.Text:SetText(L["Start collapsed"]);
+	alertaColapsadoCheck.Text:SetTextColor(1, 1, 1, 1);
+	alertaColapsadoCheck:SetScript("OnClick", function(self) BossesConfig.alertaColapsado = self:GetChecked() and true or false; end);
+	alertaColapsadoCheck:SetChecked(BossesConfig.alertaColapsado and true or false);
+	y = y - 30;
+
+	-- Alto automático: con él, el frame crece con el texto; al arrastrar el
+	-- grip de tamaño se desactiva solo y el alto elegido se respeta.
+	local alertaAltoAutoCheck = CreateFrame("CheckButton", nil, cont, "UICheckButtonTemplate");
+	alertaAltoAutoCheck:SetPoint("TOPLEFT", 0, y);
+	alertaAltoAutoCheck.Text:SetText(L["Auto height"]);
+	alertaAltoAutoCheck.Text:SetTextColor(1, 1, 1, 1);
+	alertaAltoAutoCheck:SetScript("OnClick", function(self)
+		BossesConfig.alertaAltoAuto = self:GetChecked() and true or false;
+		ajustarAlturaAlerta();
+	end);
+	alertaAltoAutoCheck:SetChecked(BossesConfig.alertaAltoAuto ~= false);
+	y = y - 30;
+
+	-- Opacidad del fondo (0.5–1.0) como slider simple de texto numérico
+	local opacidadLabel = cont:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+	opacidadLabel:SetPoint("TOPLEFT", 0, y - 4);
+	opacidadLabel:SetText((L["Frame opacity"] or "") .. ": " .. string.format("%.2f", tonumber(BossesConfig.alertaOpacidad) or 0.85));
+	y = y - 18;
+	local opacidadSlider = CreateFrame("Slider", nil, cont, "OptionsSliderTemplate");
+	opacidadSlider:SetPoint("TOPLEFT", 0, y);
+	opacidadSlider:SetWidth(200);
+	opacidadSlider:SetMinMaxValues(0.4, 1.0);
+	opacidadSlider:SetValueStep(0.05);
+	opacidadSlider:SetValue(tonumber(BossesConfig.alertaOpacidad) or 0.85);
+	opacidadSlider:SetScript("OnValueChanged", function(self, v)
+		BossesConfig.alertaOpacidad = v;
+		opacidadLabel:SetText((L["Frame opacity"] or "") .. ": " .. string.format("%.2f", v));
+		if alertaFrame ~= nil then alertaFrame:SetBackdropColor(0.06, 0.06, 0.08, v); end
+	end);
+	y = y - 34;
+
+	-- Alto máximo del cuerpo (fracción de pantalla, 0 = sin tope)
+	local altoMaxLabel = cont:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+	altoMaxLabel:SetPoint("TOPLEFT", 0, y - 4);
+	altoMaxLabel:SetText((L["Frame max height"] or "") .. ": " .. string.format("%.2f", tonumber(BossesConfig.alertaMaxAlto) or 0.6));
+	y = y - 18;
+	local altoMaxSlider = CreateFrame("Slider", nil, cont, "OptionsSliderTemplate");
+	altoMaxSlider:SetPoint("TOPLEFT", 0, y);
+	altoMaxSlider:SetWidth(200);
+	altoMaxSlider:SetMinMaxValues(0, 0.9);
+	altoMaxSlider:SetValueStep(0.05);
+	altoMaxSlider:SetValue(tonumber(BossesConfig.alertaMaxAlto) or 0.6);
+	altoMaxSlider:SetScript("OnValueChanged", function(self, v)
+		BossesConfig.alertaMaxAlto = v;
+		altoMaxLabel:SetText((L["Frame max height"] or "") .. ": " .. string.format("%.2f", v));
+		ajustarAlturaAlerta();
+	end);
+	y = y - 34;
+
+	-- Escala de la fuente del cuerpo (0.8–1.3)
+	local fuenteLabel = cont:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall");
+	fuenteLabel:SetPoint("TOPLEFT", 0, y - 4);
+	fuenteLabel:SetText((L["Font scale"] or "") .. ": " .. string.format("%.2f", tonumber(BossesConfig.alertaFuente) or 1.0));
+	y = y - 18;
+	local fuenteSlider = CreateFrame("Slider", nil, cont, "OptionsSliderTemplate");
+	fuenteSlider:SetPoint("TOPLEFT", 0, y);
+	fuenteSlider:SetWidth(200);
+	fuenteSlider:SetMinMaxValues(0.8, 1.3);
+	fuenteSlider:SetValueStep(0.05);
+	fuenteSlider:SetValue(tonumber(BossesConfig.alertaFuente) or 1.0);
+	fuenteSlider:SetScript("OnValueChanged", function(self, v)
+		BossesConfig.alertaFuente = v;
+		fuenteLabel:SetText((L["Font scale"] or "") .. ": " .. string.format("%.2f", v));
+		if alertaFrame ~= nil and alertaFrame.cuerpo ~= nil and alertaFrame.cuerpoFuente ~= nil then
+			local _, alto, flags = alertaFrame.cuerpo:GetFont();
+			alertaFrame.cuerpo:SetFont(alertaFrame.cuerpoFuente, (alto or 12) * v / (tonumber(BossesConfig.alertaFuente) or 1), flags or "");
+			-- Guardar la fuente base para el próximo cambio (una sola vez)
+			if alertaFrame.cuerpoFuente == nil then alertaFrame.cuerpoFuente = select(1, alertaFrame.cuerpo:GetFont()); end
+			ajustarAlturaAlerta();
+		end
+	end);
+	y = y - 34;
+
+	cont:SetHeight(math.max(300, -y + 24)); -- alto real del contenido para el scroll
 
 	local category = Settings.RegisterCanvasLayoutCategory(frame, "Bosses");
 	Settings.RegisterAddOnCategory(category);
@@ -2075,6 +2960,45 @@ function enviarJefeDelFrame()
 	if entrada ~= nil then
 		enviarEntrada(entrada, frameNpcId);
 	end
+end
+
+-- Botón del modo "solo frame": manda la entrada del jefe en pantalla al
+-- chat del grupo en el que esté el dueño — raid → RAID, grupo de instancia
+-- → INSTANCE_CHAT, grupo normal → PARTY, solo → SAY. Es la MISMA decisión
+-- que el canal AUTO (autoChannel), pero a mano: en "solo frame" nada sale
+-- solo a ningún canal, esto es la salida que el dueño pide.
+function enviarJefeAlGrupo()
+	if frameNpcId == nil or enZonaCaliente() then
+		return;
+	end
+	local entrada = buscarEntrada(frameNpcId);
+	if entrada == nil then
+		return;
+	end
+	local canal = autoChannel();
+	for i, c in ipairs(entrada) do
+		local linea = c;
+		if i == 1 then
+			enviarAlCable(sanearSalida(localizarEnlaces(linea)), canal, true);
+		else
+			-- Reparto espaciado: la ráfaga síncrona chocaba con el throttle
+			-- silencioso del chat (y con el límite de bytes del cliente).
+			C_Timer.After((i - 1) * 0.25, function()
+				if not enZonaCaliente() then
+					enviarAlCable(sanearSalida(localizarEnlaces(linea)), canal, true);
+				end
+			end);
+		end
+	end
+	-- Firma de cortesía, como en el resto de salidas al grupo.
+	if BossesConfig.FIRMA then
+		C_Timer.After(#entrada * 0.25 + 0.25, function()
+			if not enZonaCaliente() then
+				enviarAlCable(sanearSalida(textoCortesia()), canal, true);
+			end
+		end);
+	end
+	debugLog("chat", "manual al grupo (" .. canal .. ")", tostring(frameNpcId));
 end
 
 -- Muestra la entrada de un jefe SOLO en el frame del dueño: la usa el
@@ -2978,6 +3902,7 @@ eventFrame:RegisterEvent("PLAYER_REGEN_ENABLED");
 eventFrame:RegisterEvent("PLAYER_REGEN_DISABLED"); -- Arranque del combate real: ancla la huella de zona de combate
 eventFrame:RegisterEvent("UNIT_AURA"); -- Huella de combate vivo: InCombatLockdown() palpita (false a mitad de encuentro, 2026-09-30); cada remesa de auras con lockdown re-ancla la huella
 eventFrame:RegisterEvent("ADDON_ACTION_BLOCKED"); -- Respuesta del cliente a un envío bloqueado: recuperamos la línea en vuelo para la cola
+eventFrame:RegisterEvent("CHAT_MSG_ADDON"); -- Reclamación anti-spam de otro jugador con el addon (SendAddonMessage "Bosses")
 -- NOTA Midnight (12.1): intentar registrar el evento del registro de
 -- combate es SIEMPRE vetado, incluso fuera de combate (BugGrabber
 -- 2026-09-29: ADDON_ACTION_FORBIDDEN, Frame:RegisterEvent en el main
@@ -3054,6 +3979,10 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 
 		initBossesConfig();
 		activarPacks();
+		-- Precalienta los índices de nombres y cobertura ENC: así el coste de
+		-- construirlos NO cae en mitad del primer grito de combate o del
+		-- ENCOUNTER_START del primer pull (pico de CPU en un evento caliente).
+		asegurarIndice();
 		forzarLocal = false;
 		if C_ChatInfo ~= nil and C_ChatInfo.RegisterAddonMessagePrefix ~= nil then
 			C_ChatInfo.RegisterAddonMessagePrefix("Bosses");
@@ -3088,7 +4017,7 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 			-- Modo Automático con anti-spam entre jugadores: resuelve el
 			-- npc id del jefe entre ENC/boss units/diario y explica.
 			local clave = nil;
-			if arg2 ~= nil and (issecretvalue == nil or not issecretvalue(arg2)) then
+			if arg2 ~= nil and not esSecreto(arg2) then
 				clave = normalizarNombre(arg2);
 			end
 			explicarEncuentroAutomatico(arg1, arg2, clave or "enc" .. tostring(arg1));
@@ -3158,7 +4087,7 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 		-- Tras un fin de combate se ignoran los gritos (p. ej. la frase
 		-- de derrota del jefe: explicar a un jefe muerto es ruido).
 		local sender = arg2;
-		if sender ~= nil and (issecretvalue == nil or not issecretvalue(sender)) and encuentroActivoID == nil and (GetTime() - finCombate) > 3 then
+		if sender ~= nil and not esSecreto(sender) and encuentroActivoID == nil and (GetTime() - finCombate) > 3 then
 			forzarLocal = false;
 			-- GUID del hablante: en los CHAT_MSG_MONSTER_* el GUID es un
 			-- de los args profundos (posición según flavor/cliente); lo
@@ -3167,23 +4096,27 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 			-- solos los ids de escena de los festivos (Ilsa/Ursula de
 			-- Coren, etc.) sin adivinarlos.
 			local guidHablante = nil;
-			for i = 1, select("#", ...) do
-				local v = select(i, ...);
-				if type(v) == "string" and string.find(v, "^Creature%-", 1, false) ~= nil then
-					guidHablante = v;
-					break;
+			-- pcall: un arg profundo puede ser valor secreto de Midnight;
+			-- type() y string.find() sobre él lanzarían y contaminarían el
+			-- handler. Degradamos a nil como en el resto del archivo.
+			local okArgs, args = pcall(function(...) return {...} end, ...);
+			if okArgs then
+				for i = 1, select("#", unpackArgs(args)) do
+					local v = select(i, unpackArgs(args));
+					if type(v) == "string" and not esSecreto(v)
+						and string.find(v, "^Creature%-", 1, false) ~= nil then
+						guidHablante = v;
+						break;
+					end
 				end
 			end
-			local npcIdHablante = guidHablante ~= nil and select(6, strsplit("-", guidHablante)) or nil;
-			if indiceNombres == nil then
-				construirIndice();
-			end
+			-- npcIdFromGUID ya lleva pcall + tonumber + id>0 + check de secreto:
+			-- no tocamos strsplit a pelo sobre un GUID que puede ser secreto.
+			local npcIdHablante = npcIdFromGUIDChecked(guidHablante);
+			asegurarIndice();
 			local clave = normalizarNombre(sender);
 			local registro = indiceNombres[clave];
 			if registro ~= nil then
-				if nombresEnc == nil then
-					construirCoberturaEnc();
-				end
 				local npcIdEnc = nombresEnc[clave];
 				if npcIdEnc ~= nil then
 					-- El hablante está cubierto por una tabla ENC del pack:
@@ -3195,6 +4128,16 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 					local marca = "enc:" .. tostring(clave);
 					local t = hablantesAnotados[marca];
 					if t == nil or (GetTime() - t) > 60 then
+						-- Tope de claves: si se llena, limpiamos las viejas (>10 min)
+						-- para no crecer sin límite en sesiones largas.
+						local n = 0;
+						for _ in pairs(hablantesAnotados) do n = n + 1; end
+						if n >= MAX_HABLANTES then
+							local ahora = GetTime();
+							for k, v in pairs(hablantesAnotados) do
+								if (ahora - v) > 600 then hablantesAnotados[k] = nil; end
+							end
+						end
 						hablantesAnotados[marca] = GetTime();
 						debugLog("grito suprimido", "cobertura ENC (espera al pull)", clave, "id=" .. tostring(npcIdEnc));
 					end
@@ -3219,6 +4162,14 @@ eventFrame:SetScript("OnEvent", function(self, event, arg1, arg2, arg3, arg4, ar
 				-- explicación); como mucho una vez por minuto y hablante.
 				local t = hablantesAnotados[clave];
 				if t == nil or (GetTime() - t) > 60 then
+					local n = 0;
+					for _ in pairs(hablantesAnotados) do n = n + 1; end
+					if n >= MAX_HABLANTES then
+						local ahora = GetTime();
+						for k, v in pairs(hablantesAnotados) do
+							if (ahora - v) > 600 then hablantesAnotados[k] = nil; end
+						end
+					end
 					hablantesAnotados[clave] = GetTime();
 					debugLog("hablante sin entrada", string.lower(event), tostring(sender), "id=" .. tostring(npcIdHablante));
 				end

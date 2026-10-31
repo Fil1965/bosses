@@ -96,6 +96,28 @@ async function updateTocVersion(newVersion) {
   console.log(`  ✓ Bosses.toc -> ${newVersion}`);
 }
 
+// Sincroniza la ## Version de los .toc de TODOS los packs con la del core:
+// los packs van rezagados (1.0.11) y CurseForge los muestra con su propia
+// versión; deben ir a la par en cada release.
+async function updatePackTocVersions(newVersion) {
+  const packs = await fs.readdir(SRC_DIR, { withFileTypes: true });
+  for (const d of packs) {
+    if (!d.isDirectory() || !d.name.startsWith("Bosses_")) continue;
+    const tocPath = path.join(SRC_DIR, d.name, `${d.name}.toc`);
+    try {
+      let toc = await fs.readFile(tocPath, "utf8");
+      const nuevo = toc.replace(/^## Version:.*$/m, `## Version: ${newVersion}`);
+      if (nuevo !== toc) {
+        await fs.writeFile(tocPath, nuevo, "utf8");
+        console.log(`  ✓ ${d.name}/${d.name}.toc -> ${newVersion}`);
+      }
+    } catch {
+      // sin .toc o sin leer: se avisa pero no bloquea el release
+      console.warn(`  ! No se pudo actualizar la versión de ${tocPath}`);
+    }
+  }
+}
+
 async function ensureChangelogHeader() {
   let content = "";
   try {
@@ -174,12 +196,22 @@ async function main() {
   console.log("Actualizando versión:");
   await updatePackageVersion(newVersion);
   await updateTocVersion(newVersion);
+  await updatePackTocVersions(newVersion);
 
   console.log("\nActualizando changelog:");
   await addToChangelog(newVersion, message, todayISO());
 
   await runScript("package");
-  await runScript("update");
+  // update.mjs escribe en la carpeta de instalación de WoW (autodetectada;
+  // WOW_ROOT la fuerza si está en una ruta rara): si falla (EPERM/EACCES),
+  // el release NO se aborta — los zips ya están en packages/ y la instalación
+  // en AddOns la lanza el dueño a mano.
+  try {
+    await runScript("update");
+  } catch (err) {
+    console.warn("\n! npm run update falló (¿falta admin?): el release continúa; lanza `npm run update` como administrador cuando toque.");
+    console.warn(String(err.message ?? err).split("\n")[0]);
+  }
 
   console.log(`\n¡Release ${newVersion} completado!`);
   console.log(`  Sube a CurseForge:`);

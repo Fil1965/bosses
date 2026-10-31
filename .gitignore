@@ -1,4 +1,5 @@
 .env
+.wow-root
 packages/
 _backups/
 _doc/

@@ -33,6 +33,13 @@ export const IDIOMAS = ["es", "en", "fr", "de", ...IDIOMAS_NUEVOS.map((x) => x.k
 // son stubs y se CONECTAN con el endpoint /conectar cuando están completos.
 export const LISTADO_DIRECTO = new Set(["es", "en"]);
 
+// ---- utilidades compartidas server (server.mjs) y cliente (public/app.js) ----
+// Viven en ./_compartido.mjs (módulo puro, sin node:fs) para que el navegador
+// pueda importarlas directo; aquí se re-exportan para que server.mjs siga
+// importando todo de un único sitio.
+export { norm, normArt, LOCALES_DIARIO, TITULO_ESTRUCTURAL, esTituloEstructural } from "./_compartido.mjs";
+import { norm, normArt, LOCALES_DIARIO, esTituloEstructural } from "./_compartido.mjs";
+
 // ---------------------------------------------------------------- líneas --
 // El selector de packs del editor tiene DOS niveles: la LÍNEA (la línea
 // temporal de WoW a la que pertenece el pack) y, dentro de ella, el PACK.
@@ -259,15 +266,26 @@ export function gemelaTraducida(docSrc, docDst, id) {
 	const det = entryDetail(docSrc, id);
 	if (!det || !det.lines.length) return null;
 	const clave = det.lines.join("\u0001");
+	// Cache de detalles del destino: antes se llamaba entryDetail por cada
+	// entrada dentro del bucle (O(n²)); aquí se recorre una vez.
+	if (!gemelaCache.has(docDst)) {
+		const m = new Map();
+		for (const e of docEntries(docDst)) m.set(String(e.id), entryDetail(docDst, e.id));
+		gemelaCache.set(docDst, m);
+	}
+	const cacheDst = gemelaCache.get(docDst);
 	for (const e of docEntries(docDst)) {
 		if (String(e.id) === String(id)) continue;
-		const dst = entryDetail(docDst, e.id);
+		const dst = cacheDst.get(String(e.id));
 		if (!dst || !dst.lines.length) continue;
 		const src = entryDetail(docSrc, e.id);
 		if (src && src.lines.join("\u0001") === clave) return dst;
 	}
 	return null;
 }
+// Caché débil por doc destino (los docs son objetos estables en memoria mientras
+// el server vive; si un doc se reemplaza con setDoc, la clave nueva entra sola).
+const gemelaCache = new WeakMap();
 
 // El elemento 1 va escapado en el fichero; aquí lo devolvemos sin escapar
 export function unluaStr(s) {
@@ -335,7 +353,14 @@ function contextoCorte(s) {
 		if (!enQuita) acc += Buffer.byteLength(s[i], "utf8");
 		wire[i + 1] = acc;
 	}
-	const protegidoEn = (i) => escapes.has(i) || protegida.some(([a, b]) => i > a && i < b);
+	// Precalcular protección en O(n+m): array de booleanos en vez de .some()
+	// sobre rangos en cada consulta (antes O(n²·m) en lineas con muchos links).
+	const protegido = new Uint8Array(n + 1);
+	for (const [a, b] of protegida) {
+		for (let i = a + 1; i < b && i <= n; i++) protegido[i] = 1;
+	}
+	for (const i of escapes) protegido[i] = 1;
+	const protegidoEn = (i) => !!protegido[i];
 	return { wire, protegidoEn };
 }
 
@@ -481,7 +506,9 @@ export function entryText(doc, id, { name, lines: payloadsIn }, opts = {}) {
 		// destino aún no la tenía (la etiqueta EN la resuelven el parser y el
 		// pareo por nombre igual que una etiqueta ES).
 		const insertAt = opts.insertAt ?? (doc.exportLineIndex >= 0 ? doc.exportLineIndex : doc.lines.length);
-		const fecha = opts.author ?? new Date().toISOString().slice(0, 10);
+		// Sanitizar el autor: un salto de línea inyectaría código fuera del
+		// comentario Lua `-- [editor web …] — … --`.
+		const fecha = String(opts.author ?? new Date().toISOString().slice(0, 10)).replace(/[\r\n]+/g, " ");
 		const zona = doc.zones.get(id) ?? opts.zoneId ?? null;
 		const nota = opts.nota ?? (zona ? "Entrada añadida (zona heredada del bloque anterior)" : "Entrada añadida sin zona conocida");
 		const inserto = [];
@@ -554,6 +581,12 @@ export function validateText(text, { deltaEntries = 0, oldCount = null } = {}) {
 		const vistas = new Map();
 		for (let j = b.start + 1; j < b.end; j++) {
 			const l = doc.lines[j];
+			// Salto de línea literal dentro de un string Lua: rompe el formato
+			// "una viñeta por línea", el parser de limite-chat no la reconoce y
+			// el cliente puede rechazar la línea entera por >255 bytes al cable.
+			if (/[\r\n]/.test(l)) {
+				problems.push(`línea ${j + 1}: contiene salto de línea literal (\\n) — usa dos viñetas separadas`);
+			}
 			if (/\*\*/.test(l) || /^\s*\*[ \t]{2,}\S/.test(l) || /\[(?:tank|healers?|dps|cc)\]/i.test(l)) {
 				problems.push(`línea ${j + 1}: guía IA en el contenido (markdown o roles)`);
 			}

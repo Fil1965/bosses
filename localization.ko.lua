@@ -23,6 +23,8 @@ if GetLocale() == "koKR" then
     L["MenuObjetivo"] = "대상 설명";
     L["MenuConfig"] = "설정";
     L["BotonAlChat"] = "채팅으로";
+    L["BotonAlGrupo"] = "그룹으로";
+    L["EnviaAlCanal"] = "설명을 %s 채팅으로 보냅니다";
     L["BotonEditar"] = "편집";
     L["Data packs"] = "데이터 팩";
     L["FirmaCortesia"] = "공용 채널의 공손 서명";
@@ -65,11 +67,28 @@ if GetLocale() == "koKR" then
     L["HELP6"] = "/bosses CANAL LOCAL : 로컬로 정보를 출력합니다.";
     L["HELP7"] = "/bosses CANAL GUILD : 길드 채널로 정보를 출력합니다.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : 설명 언어.";
-    L["HELP9"] = "/bosses DEBUG on|off|비우기 : 디버그 로그(WTF 폴더의 파일); /bosses LOG [n] : 최근 줄을 표시합니다.";
+    L["HELP9"] = "/bosses DEBUG on|off|비우기|clear : 디버그 로그(WTF 폴더의 파일); /bosses LOG [n] : 최근 줄을 표시합니다.";
     L["HELP10"] = "/bosses CANAL FRAME : 모두 경고 프레임으로 출력(나만).";
     L["HELP11"] = "/bosses EDITAR [id] : 설명 편집기를 엽니다(내 메모용 UI).";
 
     L[": This NPC is not described."] = ": 이 NPC는 설명되어 있지 않습니다.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99왼쪽 클릭.|r - 선택한 NPC를 설명합니다.";
     L["loaded"] = " 로드됨";
+
+    -- 경고 프레임: 1.0.18 개선
+    L["Alert frame"] = "경고 프레임";
+    L["Frame max height"] = "프레임 최대 높이(화면 비율, 0 = 무제한)";
+    L["Frame opacity"] = "프레임 배경 불투명도";
+    L["Always visible"] = "프레임 항상 표시(15초 후 자동 숨김 안 함)";
+    L["Font scale"] = "본문 글꼴 크기 비율";
+    L["Lock position"] = "위치 잠금(왼쪽 드래그 비활성)";
+    L["Start collapsed"] = "접힌 상태로 시작(머리글만)";
+    L["Auto height"] = "자동 높이(프레임이 글자에 맞춰 커짐)";
+    L["Collapse"] = "접기";
+    L["Expand"] = "펼치기";
+    L["Lock"] = "잠금";
+    L["Unlock"] = "잠금 해제";
+    L["Target boss"] = "보스 대상 지정";
+    L["Previous"] = "이전";
+    L["Next"] = "다음";
 end

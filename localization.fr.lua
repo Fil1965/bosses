@@ -15,7 +15,7 @@ if GetLocale() == "frFR" then
     L["HELP6"] = "/bosses CANAL local : Utilise le canal local.";
     L["HELP7"] = "/bosses CANAL guild : Utilise la canal de la guilde.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Langue des explications.";
-    L["HELP9"] = "/bosses DEBUG on|off|vaciar : journal de débogage (fichier WTF); /bosses LOG [n] : affiche les dernières lignes."
+    L["HELP9"] = "/bosses DEBUG on|off|vaciar|clear : journal de débogage (fichier WTF); /bosses LOG [n] : affiche les dernières lignes."
     L["HELP10"] = "/bosses CANAL frame : Tout dans le cadre d'alerte (seulement vous).";
     L["HELP11"] = "/bosses EDITAR [id] : Ouvre l'éditeur des explications (l'interface pour vos propres notes).";
     L["CanalGrupo"] = "Groupe/Raid actuel";
@@ -24,6 +24,8 @@ if GetLocale() == "frFR" then
     L["MenuObjetivo"] = "Expliquer la cible";
     L["MenuConfig"] = "Configuration";
     L["BotonAlChat"] = "Au chat";
+    L["BotonAlGrupo"] = "Au groupe";
+    L["EnviaAlCanal"] = "Envoie l'explication au chat %s";
     L["BotonEditar"] = "modifier";
     L["FirmaCortesia"] = "Signature de courtoisie sur les canaux partagés";
     L["Cortesia"] = "Explication du boss offerte par l'addon Bosses";
@@ -70,4 +72,21 @@ if GetLocale() == "frFR" then
     L[": This NPC is not described."] = " : Ce PNJ n'est pas décrit.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Clic gauche|r - Explique le PNJ ciblé";
     L["loaded"] = " chargée";
+
+    -- Frame d'alerte : améliorations 1.0.18
+    L["Alert frame"] = "Fenêtre d'alerte";
+    L["Frame max height"] = "Hauteur max de la fenêtre (fraction d'écran, 0 = sans limite)";
+    L["Frame opacity"] = "Opacité de l'arrière-plan";
+    L["Always visible"] = "Garder la fenêtre visible (pas de masquage auto après 15 s)";
+    L["Font scale"] = "Taille de police du texte";
+    L["Lock position"] = "Verrouiller la position (glisser désactivé)";
+    L["Start collapsed"] = "Démarrer repliée (en-tête seule)";
+    L["Auto height"] = "Hauteur auto (la fenêtre suit le texte)";
+    L["Collapse"] = "Replier";
+    L["Expand"] = "Déplier";
+    L["Lock"] = "Verrouiller";
+    L["Unlock"] = "Déverrouiller";
+    L["Target boss"] = "Cibler le boss";
+    L["Previous"] = "Précédent";
+    L["Next"] = "Suivant";
 end

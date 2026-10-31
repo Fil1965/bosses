@@ -24,6 +24,8 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["MenuObjetivo"] = "Explicar objetivo";
     L["MenuConfig"] = "Configuración";
     L["BotonAlChat"] = "Al chat";
+    L["BotonAlGrupo"] = "Al grupo";
+    L["EnviaAlCanal"] = "Envía la explicación al chat %s";
     L["BotonEditar"] = "editar";
     L["Data packs"] = "Packs de datos";
     L["FirmaCortesia"] = "Firma de cortesía en canales compartidos";
@@ -66,11 +68,28 @@ if GetLocale() == "esES" or GetLocale() == "esMX" then
     L["HELP6"] = "/bosses CANAL LOCAL : Saca la información localmente.";
     L["HELP7"] = "/bosses CANAL GUILD : Saca la información por el canal de la guild.";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Idioma de las explicaciones.";
-    L["HELP9"] = "/bosses DEBUG on|off|vaciar : registro de depuración (fichero en WTF); /bosses LOG [n] : muestra las últimas líneas.";
+    L["HELP9"] = "/bosses DEBUG on|off|vaciar|clear : registro de depuración (fichero en WTF); /bosses LOG [n] : muestra las últimas líneas.";
     L["HELP10"] = "/bosses CANAL FRAME : Todo en el frame de alerta (solo tú).";
     L["HELP11"] = "/bosses EDITAR [id] : Abre el editor de explicaciones (la UI para tus propias notas).";
 
     L[": This NPC is not described."] = ": Este NPC no está descrito.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Click izdo.|r - Explica el NPC seleccionado.";
     L["loaded"] = " cargada";
+
+    -- Frame de alerta: mejoras 1.0.18
+    L["Alert frame"] = "Frame de alerta";
+    L["Frame max height"] = "Alto máximo del frame (fracción de pantalla, 0 = sin límite)";
+    L["Frame opacity"] = "Opacidad del fondo del frame";
+    L["Always visible"] = "Mantener el frame visible (no auto-ocultar a los 15 s)";
+    L["Font scale"] = "Escala de fuente del cuerpo";
+    L["Lock position"] = "Bloquear posición (clic izdo desactivado)";
+    L["Start collapsed"] = "Empezar colapsado (solo cabecera)";
+    L["Auto height"] = "Alto automático (el frame crece con el texto)";
+    L["Collapse"] = "Colapsar";
+    L["Expand"] = "Expandir";
+    L["Lock"] = "Bloquear";
+    L["Unlock"] = "Desbloquear";
+    L["Target boss"] = "Seleccionar jefe";
+    L["Previous"] = "Anterior";
+    L["Next"] = "Siguiente";
 end

@@ -3,7 +3,7 @@
 ## Notes: Boss explanations for The Burning Crusade dungeons and raids (ES/EN)
 ## Notes-esES: Explicaciones de los jefes de The Burning Crusade (mazmorras y bandas) (ES/EN)
 ## Author: Philippe Mingo pmingo AT gmail DOT com
-## Version: 1.0.11
+## Version: 1.0.18
 ## IconTexture: Interface\Icons\INV_Misc_OgrePinata
 ## Dependencies: Bosses
 Bosses_TBC_es.lua

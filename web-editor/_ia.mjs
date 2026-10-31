@@ -30,10 +30,10 @@ export const PROVEEDOR_IA = (process.env.IA_PROVIDER || "nvidia").trim().toLower
 const ES_OLLAMA = PROVEEDOR_IA === "ollama";
 
 // NVIDIA NIM ------------------------------------------------------------------
-// Clave del programa de ejemplo (fallback si .env no trae NVIDIA_API_KEY o el
-// servicio la rechaza). Mejor definir NVIDIA_API_KEY en .env: esta puede
-// revocarse en cualquier momento.
-const CLAVE_EJEMPLO = "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";
+// La clave SOLO sale de .env (NVIDIA_API_KEY). NUNCA se commitea una clave
+// real en el código: si el repo se comparte, la clave queda expuesta.
+// (2026-10: se retiró una clave de ejemplo hardcodeada que ánimo como fallback
+// silencioso — rotarla en NVIDIA si alguna vez se usó.)
 const BASE_URL = process.env.NVIDIA_BASE_URL || "https://integrate.api.nvidia.com/v1";
 
 // Ollama ----------------------------------------------------------------------
@@ -61,11 +61,11 @@ async function modeloOllama() {
 }
 
 // El bucle de reintentos de traducción recorre estas configuraciones: en
-// nvidia, la clave de .env y (si 401/403) la del programa de ejemplo; en
-// ollama, una sola (la clave es decorativa, Ollama la ignora).
+// nvidia, solo la clave de .env; en ollama, una sola (la clave es decorativa,
+// Ollama la ignora).
 function configsIA() {
 	if (ES_OLLAMA) return [{ baseURL: `${OLLAMA_URL}/v1`, apiKey: "ollama", modelo: null }];
-	const claves = [...new Set([process.env.NVIDIA_API_KEY || "", CLAVE_EJEMPLO])].filter(Boolean);
+	const claves = [...new Set([process.env.NVIDIA_API_KEY || "", process.env.NVIDIA_API_KEY_FALLBACK || ""])].filter(Boolean);
 	return claves.map((clave) => ({ baseURL: BASE_URL, apiKey: clave, modelo: MODELO_IA }));
 }
 
@@ -175,7 +175,7 @@ function clienteIA(apiKey, baseURL) {
 // Ollama parado o sin modelos da un error accionable en el log del UI).
 export function iaDisponible() {
 	if (ES_OLLAMA) return true;
-	return Boolean(process.env.NVIDIA_API_KEY || CLAVE_EJEMPLO);
+	return Boolean(process.env.NVIDIA_API_KEY || process.env.NVIDIA_API_KEY_FALLBACK);
 }
 
 // --- bloque de líneas: UNA llamada para TODO el jefe ----------------------------
@@ -213,7 +213,7 @@ export async function traducirBloqueIA(textos, de, a, { signal } = {}) {
 				for (let intento = 0; intento < 2; intento++) {
 					const modelo = ES_OLLAMA ? await modeloOllama() : cfg.modelo;
 					const t0Llamada = Date.now();
-					console.log(`[editor] IA: llamada del bloque en vuelo (${modelo}, intento ${intento + 1})…`);
+					logIA(`[editor] IA: llamada del bloque en vuelo (${modelo}, intento ${intento + 1})…`);
 					const completion = await clienteIA(cfg.apiKey, cfg.baseURL).chat.completions.create({
 						model: modelo,
 						messages: [
@@ -230,7 +230,7 @@ export async function traducirBloqueIA(textos, de, a, { signal } = {}) {
 						...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
 					}, { signal });
 					const crudo = String(completion.choices[0]?.message?.content ?? "");
-					console.log(`[editor] IA: llamada del bloque acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
+					logIA(`[editor] IA: llamada del bloque acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
 					// partido por prefijos "Ln:" flexibles (L1:, l1., L1)... en
 					// orden de número, tolerando líneas de relleno del modelo
 					const secciones = new Map();
@@ -259,7 +259,7 @@ export async function traducirBloqueIA(textos, de, a, { signal } = {}) {
 				}
 				return null; // dos intentos sin bloque limpio → camino clásico
 			} catch (err) {
-				ultimoError = err;
+				ultimoError = sanearError(err);
 				const estado = err?.status ?? err?.response?.status;
 				if (signal?.aborted) throw err; // el que pedía se fue / techo: parar ya
 				if (estado !== 401 && estado !== 403) break;
@@ -267,6 +267,22 @@ export async function traducirBloqueIA(textos, de, a, { signal } = {}) {
 		}
 		return null; // fallo del bloque NUNCA tumba la entrada: el llamador cae al camino por línea
 	});
+}
+
+// Sanitiza un mensaje de error para que NUNCA filtre una clave API por
+// accidente (el SDK puede incluir la URL/authorization en el mensaje).
+function sanearError(err) {
+	if (!err) return err;
+	try { err.message = String(err.message).replace(/nvapi-[A-Za-z0-9_-]+/g, "nvapi-***"); } catch { /* read-only */ }
+	return err;
+}
+
+// Log con nivel: LOG_LEVEL=debug|info|warn|off (defecto "warn"; "debug" imprime
+// las llamadas IA que en lotes largos inundan la consola).
+const NIVEL_LOG = (process.env.LOG_LEVEL || "warn").trim().toLowerCase();
+const NLOG = { debug: 0, info: 1, warn: 2, off: 3 };
+function logIA(...args) {
+	if ((NLOG[NIVEL_LOG] ?? NLOG.warn) <= NLOG.info) console.log(...args);
 }
 
 // Cola propia: una llamada a la vez (el botón del UI se deshabilita, pero dos
@@ -300,7 +316,7 @@ export async function traducirTextoIA(texto, de, a, { signal } = {}) {
 				for (let intento = 0; intento < 2; intento++) {
 					const modelo = ES_OLLAMA ? await modeloOllama() : cfg.modelo;
 					const t0Llamada = Date.now();
-					console.log(`[editor] IA: llamada de línea en vuelo (${modelo}, intento ${intento + 1})…`);
+					logIA(`[editor] IA: llamada de línea en vuelo (${modelo}, intento ${intento + 1})…`);
 					const completion = await clienteIA(cfg.apiKey, cfg.baseURL).chat.completions.create({
 						model: modelo,
 						messages: [
@@ -323,7 +339,7 @@ export async function traducirTextoIA(texto, de, a, { signal } = {}) {
 						...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
 					}, { signal });
 					const salida = restaurarMarcado(completion.choices[0]?.message?.content, tokens);
-					console.log(`[editor] IA: llamada de línea acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
+					logIA(`[editor] IA: llamada de línea acabó (${((Date.now() - t0Llamada) / 1000).toFixed(1)}s, ${completion.usage?.completion_tokens ?? "?"} tokens de salida)`);
 					// los adornos markdown del modelo (asteriscos añadidos,
 					// comillas, códigos inventados si el original no lleva) se
 					// puelen ANTES de verificar; los saltos de línea que el
@@ -334,7 +350,7 @@ export async function traducirTextoIA(texto, de, a, { signal } = {}) {
 				}
 				return limpio;
 			} catch (err) {
-				ultimoError = err;
+				ultimoError = sanearError(err);
 				const estado = err?.status ?? err?.response?.status;
 				if (signal?.aborted) throw err; // el que pedía se fue / techo: parar ya
 				// clave rechazada → siguiente configuración; los demás errores
@@ -401,10 +417,11 @@ export async function traducirNombreIA(texto, de, a, { signal } = {}) {
 					...(ES_OLLAMA ? { reasoning_effort: "none" } : {}),
 				}, { signal });
 				const salida = restaurarMarcado(completion.choices[0]?.message?.content, []);
-				console.log(`[editor] IA: llamada del nombre acabó (${((Date.now() - t0Nombre) / 1000).toFixed(1)}s)`);
+				logIA(`[editor] IA: llamada del nombre acabó (${((Date.now() - t0Nombre) / 1000).toFixed(1)}s)`);
 				if (nombreIAValido(salida, limpio)) return salida;
 				return ""; // salida inválida: el llamador usa el ORIGINAL
 			} catch (err) {
+				sanearError(err);
 				if (signal?.aborted) throw err; // el que pedía se fue: parar ya
 				const estado = err?.status ?? err?.response?.status;
 				if (estado === 401 || estado === 403) continue; // clave rechazada → siguiente

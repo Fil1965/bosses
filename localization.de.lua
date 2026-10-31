@@ -15,7 +15,7 @@ if GetLocale() == "deDE" then
     L["HELP6"] = "/bosses CANAL local : Verwendet lokalen Ausgang";
     L["HELP7"] = "/bosses CANAL guild : Verwendet Gilde Ausgang";
     L["HELP8"] = "/bosses IDIOMA auto|es|en|fr|de|ru|pt|zh|ko : Sprache der Erklärungen.";
-    L["HELP9"] = "/bosses DEBUG on|off|vaciar : Debug-Protokoll (WTF-Datei); /bosses LOG [n] : letzte Zeilen anzeigen."
+    L["HELP9"] = "/bosses DEBUG on|off|vaciar|clear : Debug-Protokoll (WTF-Datei); /bosses LOG [n] : letzte Zeilen anzeigen."
     L["HELP10"] = "/bosses CANAL frame : Alles im Alarmfenster (nur Sie).";
     L["HELP11"] = "/bosses EDITAR [id] : Öffnet den Erklärungs-Editor (die Oberfläche für deine eigenen Notizen).";
     L["CanalGrupo"] = "Gruppe/Raid aktuell";
@@ -24,6 +24,8 @@ if GetLocale() == "deDE" then
     L["MenuObjetivo"] = "Ziel erklären";
     L["MenuConfig"] = "Einstellungen";
     L["BotonAlChat"] = "Zum Chat";
+    L["BotonAlGrupo"] = "An die Gruppe";
+    L["EnviaAlCanal"] = "Sendet die Erklärung in den %s-Chat";
     L["BotonEditar"] = "bearbeiten";
     L["FirmaCortesia"] = "Höflichkeitssignatur in gemeinsamen Kanälen";
     L["Cortesia"] = "Boss-Erklärung angeboten vom Addon Bosses";
@@ -70,4 +72,21 @@ if GetLocale() == "deDE" then
     L[": This NPC is not described."] = ": Dieser NPC ist nicht beschrieben.";
     L["|cff33ff99Left click|r - Explains target NPC"] = "|cff33ff99Linksklick|r - Erklärt das anvisierte NPC";
     L["loaded"] = " geladen";
+
+    -- Alarm-Frame: Verbesserungen 1.0.18
+    L["Alert frame"] = "Alarm-Fenster";
+    L["Frame max height"] = "Max. Fensterhöhe (Bildschirmanteil, 0 = unbegrenzt)";
+    L["Frame opacity"] = "Hintergrund-Deckkraft";
+    L["Always visible"] = "Fenster sichtbar halten (kein Auto-Ausblenden nach 15 s)";
+    L["Font scale"] = "Text-Schriftgröße";
+    L["Lock position"] = "Position sperren (Ziehen deaktiviert)";
+    L["Start collapsed"] = "Eingeklappt starten (nur Überschrift)";
+    L["Auto height"] = "Automatische Höhe (Fenster wächst mit dem Text)";
+    L["Collapse"] = "Einklappen";
+    L["Expand"] = "Ausklappen";
+    L["Lock"] = "Sperren";
+    L["Unlock"] = "Entsperren";
+    L["Target boss"] = "Boss anvisieren";
+    L["Previous"] = "Zurück";
+    L["Next"] = "Weiter";
 end
